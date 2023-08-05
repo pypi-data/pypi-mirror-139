@@ -1,0 +1,11 @@
+PySide2
+PyQt5
+iconify
+cairosvg
+codecs
+shutil
+qtsass
+matplotlib
+mock
+urllib
+colorsys
