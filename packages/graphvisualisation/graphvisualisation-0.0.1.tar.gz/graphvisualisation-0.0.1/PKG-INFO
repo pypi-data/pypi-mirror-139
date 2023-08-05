@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: graphvisualisation
+Version: 0.0.1
+Summary: Svg visualisation for graph data structure
+Home-page: UNKNOWN
+Author: Adem PELIT
+Author-email: apelit55@gmail.com
+License: MIT
+Keywords: graph,svg,data structure,visualisation
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCES.txt
+
+This is a visualizer to demonstrate graph data structure. The image is created as svg file. You can save svg or show in jupyter notebook file.  
+
+Change log
+==========
+
+0.0.1 (17/02/2022)
+-------------------
+-First Release
+
