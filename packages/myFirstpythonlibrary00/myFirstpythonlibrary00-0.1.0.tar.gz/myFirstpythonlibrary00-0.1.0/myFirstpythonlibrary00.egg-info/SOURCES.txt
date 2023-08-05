@@ -1,0 +1,13 @@
+MANIFEST.in
+README.txt
+setup.py
+.eggs/README.txt
+.eggs/pytest_runner-5.3.1-py3.9.egg/ptr.py
+.eggs/pytest_runner-5.3.1-py3.9.egg/EGG-INFO/entry_points.txt
+.eggs/pytest_runner-5.3.1-py3.9.egg/EGG-INFO/requires.txt
+.eggs/pytest_runner-5.3.1-py3.9.egg/EGG-INFO/top_level.txt
+myFirstpythonlibrary00.egg-info/PKG-INFO
+myFirstpythonlibrary00.egg-info/SOURCES.txt
+myFirstpythonlibrary00.egg-info/dependency_links.txt
+myFirstpythonlibrary00.egg-info/top_level.txt
+myfunctions/__init__.py
