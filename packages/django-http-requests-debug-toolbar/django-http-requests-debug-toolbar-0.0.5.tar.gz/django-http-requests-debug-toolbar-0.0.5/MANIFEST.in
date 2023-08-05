@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include requests_panel/templates *
+recursive-include requests_panel/static *
