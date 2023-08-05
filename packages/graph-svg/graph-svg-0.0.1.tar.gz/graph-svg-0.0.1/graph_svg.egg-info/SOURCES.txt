@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCES.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+graph_svg.egg-info/PKG-INFO
+graph_svg.egg-info/SOURCES.txt
+graph_svg.egg-info/dependency_links.txt
+graph_svg.egg-info/requires.txt
+graph_svg.egg-info/top_level.txt

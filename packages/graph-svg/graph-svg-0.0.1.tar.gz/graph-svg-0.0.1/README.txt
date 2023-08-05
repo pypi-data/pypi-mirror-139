@@ -1,0 +1,1 @@
+This is a visualizer to demonstrate graph data structure. The image is created as svg file. You can save svg or show in jupyter notebook file.  
