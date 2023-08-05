@@ -1,0 +1,11 @@
+libcst>=0.3.18
+numpy
+pandas
+nltk
+joblib
+tqdm
+docstring_parser
+dpu_utils
+pyre-check
+toml
+mypy
