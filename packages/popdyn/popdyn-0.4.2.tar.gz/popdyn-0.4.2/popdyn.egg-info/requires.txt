@@ -1,0 +1,2 @@
+gillespy2[sbml]
+scipy
