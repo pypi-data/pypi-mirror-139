@@ -1,0 +1,14 @@
+from setuptools import setup
+
+setup(
+    name="ygrader",
+    packages=["ygrader"],
+    version="1.0.1",
+    description="Grading scripts used in BYU's Electrical and Computer Engineering Department",
+    author="Jeff Goeders",
+    author_email="jeff.goeders@gmail.com",
+    license="MIT",
+    url="https://github.com/byu-cpe/ygrader",
+    python_requires=">=3",
+    install_requires=["pandas"],
+)
