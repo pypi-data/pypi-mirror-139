@@ -1,0 +1,7 @@
+setup.py
+ScorpioConversionRuntime/DefaultReader.py
+ScorpioConversionRuntime/__init__.py
+ScorpioConversionRuntime.egg-info/PKG-INFO
+ScorpioConversionRuntime.egg-info/SOURCES.txt
+ScorpioConversionRuntime.egg-info/dependency_links.txt
+ScorpioConversionRuntime.egg-info/top_level.txt
