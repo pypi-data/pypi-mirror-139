@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: django_eth_fields
+Version: 0.0.1
+Summary: Extension for Django REST framework error display
+Home-page: https://github.com/null-none/django-eth-fields
+Author: Kalinin Mitko
+Author-email: kalinin.mitko@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/null-none/django-eth-fields/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Django Eth Fields
+===================
+
+Helpers for Python Django projects using ethereum
+
+
+Installation
+------------
+
+Using pip
+
+
+    $ pip install django-eth-fields
+
+
+Example
+-----
+
+
+    from django_eth_fields.fields import EthereumAddressField, HexField, Uint256Field
+
+    class MyModel(models.Model):
+        address = EthereumAddressField()
+        hex = HexField()
+        unit_255 = Uint256Field()
+
+
+
