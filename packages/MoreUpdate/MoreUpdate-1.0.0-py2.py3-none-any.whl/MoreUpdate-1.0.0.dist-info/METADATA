@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MoreUpdate
+Version: 1.0.0
+Summary: A Explitic function Python project
+Author: Quanvndev
+Author-email: rakis9076@gmail.com
+License: UNKNOWN
+Keywords: function,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Yeah nothings
+
