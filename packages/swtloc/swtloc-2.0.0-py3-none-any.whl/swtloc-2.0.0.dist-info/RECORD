@@ -1,0 +1,15 @@
+swtloc/__init__.py,sha256=rFFwGzhPBVmL_bZJ48vNwyJmJfJeX9boHJXNI8cUB3Y,189
+swtloc/_bubble_bbox.py,sha256=lTEtxgNmdmuSz_9-p7kEfeN6ysd2P_EiQK5KNwX0lMM,7482
+swtloc/_swt.py,sha256=Z2K0PMvkHDw1gl9Th3LpvNekvRu-GklxlS-k2pMhUUY,4194
+swtloc/_utils.py,sha256=BJB5rEhvrs0oDDrWDFIagKQWoiQtUGdpviwLoXmfNr4,8384
+swtloc/abstractions.py,sha256=bbTe04z_t4BQc0lAKA9MN-z7DsHldGDpWx3HkrIhNLQ,110366
+swtloc/base.py,sha256=ifkr6bzUNOkT6lffsloNiadc3Cg6ljBKvx4mCQd5rPo,24865
+swtloc/configs.py,sha256=tKDIELL9v6vSKAQS6CtVOHqvm3WcGnkvEJe6uBJPip0,21022
+swtloc/core.py,sha256=q_Yij_ObhkvabMw5d2y7Ckrb5G9DxGw5O6ooyhaE958,15555
+swtloc/swtlocalizer.py,sha256=zz_doSPKgOoNDvJrrVVK_o6hPCTQ51i-W2_RaaWoBIA,51838
+swtloc/utils.py,sha256=FGm3xRc6X7Ip6fSs93jbwFXPTangpK9OMbiVpSRDl_Y,10930
+swtloc-2.0.0.dist-info/LICENSE,sha256=gWkU_akiplotxGnYeSBFcaR0Iek-hGFAq0bA6l6Mu5o,1549
+swtloc-2.0.0.dist-info/METADATA,sha256=1cj8D5YJVHoCMav5WqJqEfx-QEmJRTFsGHby9b_xBvc,6567
+swtloc-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+swtloc-2.0.0.dist-info/top_level.txt,sha256=ZCyZwdCH_xCRnjz4Mg_ySrPqKJ7_WTIhqFGpvY6uK6s,7
+swtloc-2.0.0.dist-info/RECORD,,
