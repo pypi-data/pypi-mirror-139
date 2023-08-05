@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: quickdiary
+Version: 0.0.8
+Summary: Quickly add a timestamped diary entry in a text file
+Home-page: https://github.com/iacchus/quickdiary
+Author: I.M.
+Author-email: kassivs+git@gmail.com
+License: AGPL-3.0-only
+Project-URL: Source, https://github.com/iacchus/quickdiary
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+UNKNOWN
+
