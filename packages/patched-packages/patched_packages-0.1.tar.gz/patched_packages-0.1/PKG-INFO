@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: patched_packages
+Version: 0.1
+Summary: This package contains patched packages for specific graphene_django, graphql_jwt and jwt versions to work with pyhton 3.9
+Author: Tinashe Chiraya
+Author-email: <shattyadrenal1@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
