@@ -1,0 +1,11 @@
+pandas
+aiohttp
+asyncio
+requests
+dateutil
+pytz
+requests
+
+[dev]
+pytest
+pyteset-asyncio
