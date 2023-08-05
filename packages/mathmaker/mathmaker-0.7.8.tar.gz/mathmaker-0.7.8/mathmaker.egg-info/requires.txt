@@ -1,0 +1,9 @@
+intspan>=1.5.8
+mathmakerlib>=0.7.9
+microlib>=1.7
+polib>=1.0.8
+python-daemon>=2.1.2
+ruamel.yaml>=0.15.25
+
+[testing]
+pytest
