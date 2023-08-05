@@ -1,0 +1,11 @@
+pyteledantic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyteledantic/models.py,sha256=WP-CrAZ8T46DywvjhVT_Hv8hrryS6kiwEWkiD3Xx1_U,24069
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=gQMsujbmlpdZ3r6fSS6rg8DeoWzONKNh4fTuKJ-jXL0,633
+tests/test_chat_photo_model.py,sha256=kCeZbrCcA-om04y85QfKFK15C7hrmByCfc2Lh2rBdZM,307
+tests/test_location_model.py,sha256=WyyA8wS5BRMH1thycu7yNBWqJD7B1VVhWopGnaW6vtA,217
+tests/test_user_model.py,sha256=6wDkEzrVi3_qHKsh2Q7b54ljAzGHD_otBKDq7s6Z4mw,209
+pyteledantic-0.0.13.dist-info/METADATA,sha256=F70F5XQmAP2OSZbvrfl0293R97eQJJveEuiHRIBn1FI,1547
+pyteledantic-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyteledantic-0.0.13.dist-info/top_level.txt,sha256=MuU8dTX_2W6VBaMi7yngp5PQHsjwb5A6U_VnXlJnzy0,19
+pyteledantic-0.0.13.dist-info/RECORD,,
