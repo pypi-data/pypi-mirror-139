@@ -1,0 +1,13 @@
+codicefiscale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codicefiscale/codicefiscale.py,sha256=e8N-Cr8s797ngRsDleWRaS2OSubmsJ-p8DzIVXtX9iw,12158
+codicefiscale/data.py,sha256=jPWKvtGDwDCDw48htCBIwoPuEnsN3nb6ym5r1oV28UM,986583
+codicefiscale/version.py,sha256=-o_-h2gpDnrgunVPGM9TX7tSdL0RyrLDxigA2x5lGR0,47
+codicefiscale/data/countries.json,sha256=wn48-yCe9Nu9yTWVCqearwBBW1wts1ZAt8NjSDkjSmU,70304
+codicefiscale/data/municipalities.json,sha256=KvO8O_o_UYOb6M9nZ82mnRWqvFqhxu61kAE6WNOAGLs,6626015
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/updatedata.py,sha256=7OB2B5Acna-vYAlczQtLxHlQ4P_M9vK2oUU6SAEq30k,5146
+python_codicefiscale-0.4.0.dist-info/LICENSE.txt,sha256=T9Whf8PxxRCFhcPJvbJYyJ34CQeXbqElZ4XyHrVZB4I,1075
+python_codicefiscale-0.4.0.dist-info/METADATA,sha256=DTJh312E5XzVZ38SyHZ5jqWfjFbJNnee0YeEE6bFNZg,6290
+python_codicefiscale-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_codicefiscale-0.4.0.dist-info/top_level.txt,sha256=-18zGwLa4szetNQg_Xh0qhliclxq75igNOww5g3wTI8,22
+python_codicefiscale-0.4.0.dist-info/RECORD,,
