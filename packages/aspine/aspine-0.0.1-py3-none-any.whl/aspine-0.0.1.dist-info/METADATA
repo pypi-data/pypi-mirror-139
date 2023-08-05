@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aspine
+Version: 0.0.1
+Summary: Aspine: A simple python native implementation of data caching
+Home-page: https://github.com/ccuulinay
+Author: ccuulinay
+Author-email: ccuulinay@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+Aspine
+========
+Aspine: A simple python native implementation of data caching
+
+What is it?
+========
+Aspine provide a simple in-memory data store, used as caching and data synchronization。
+
+
+
+
+

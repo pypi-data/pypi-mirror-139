@@ -1,0 +1,9 @@
+aspine/__init__.py,sha256=qq7zGn6aup8loKOTVUo7k3KZ1Z4Eu42HiEBMTwjAo9o,131
+aspine/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aspine/core/client.py,sha256=7xZSYyAM7Q6ad7EiNpoxQuXAbtbNlC1I1XeYIloVZo0,1886
+aspine/core/server.py,sha256=h_mI6-aDTP8Q_EtUnJvHOF2XlNtnezDMLmPax3-wuQU,1678
+aspine-0.0.1.dist-info/LICENSE,sha256=uc3Eh5Ys8xSbxBllM3hdja7l1ak9kOhgd3NhnqCBLm0,1066
+aspine-0.0.1.dist-info/METADATA,sha256=dsLKI5lhIr469Dzh1xfutSfbzvAXR5pyskF3jcZAnBs,673
+aspine-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aspine-0.0.1.dist-info/top_level.txt,sha256=1mgnZUU6ZSnHuKXfaCgNdIuivYOYDa5tr-3ru_4JZcU,7
+aspine-0.0.1.dist-info/RECORD,,
