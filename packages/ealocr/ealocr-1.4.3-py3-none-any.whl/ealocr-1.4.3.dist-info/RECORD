@@ -1,0 +1,17 @@
+ealocr/__init__.py,sha256=zWEtmqFFAvit5FqwbB2LLgG7VJGZ8IGQjrlYPBVtKl8,51
+ealocr/cli.py,sha256=BPaDtVT-5ZSw4NxeeqEwkDSUj2hNDSAsHGpKcXXlzD8,8413
+ealocr/config.py,sha256=GMU17N56RDyi4Gg4f940ZMaVLsFzsaLYYv40345nHYc,90742
+ealocr/craft.py,sha256=aKES28JNstsbM_iqyAucBMDWA22riHyjadjDPw8mIeg,2590
+ealocr/craft_utils.py,sha256=VtVwSnWDlmHOyO_QdMn-Sftsg-Si3_hyCteyW0aSN4A,9581
+ealocr/detection.py,sha256=MbYnBK6xb-66w3ne0PFTrcQx9NxgF7oXwQOYKqenacE,4172
+ealocr/easyocr.py,sha256=W_g0tnk5ZPa_zu22drlJvngMYAronddTgGaNeo0kegk,26797
+ealocr/export.py,sha256=7pbGb-IzF7GdPgMdm57gkiRjTphqnYJvGn49fuXcAZ8,5682
+ealocr/imgproc.py,sha256=o8uKqID6EcGbAaY-Fg2MIpx26JWR6Vnz_WWloI30PRI,2195
+ealocr/recognition.py,sha256=1ynCc1LuRgPlWO59eK9c0jDPxegn4RKfKlQWm2goVF0,9313
+ealocr/utils.py,sha256=BIbtTi_70UW0xovMM3hdL3U7oHYV81QM4pJLYScZpsA,32782
+ealocr-1.4.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ealocr-1.4.3.dist-info/METADATA,sha256=TgWss7Y04WPfLq8H9hped_wip-sY5W724BL3XXLEdDE,12215
+ealocr-1.4.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ealocr-1.4.3.dist-info/entry_points.txt,sha256=uJt6FThpJakVzGldhJg4aHFUZav0se2ge6C9npe9QVk,45
+ealocr-1.4.3.dist-info/top_level.txt,sha256=OHPHeajO47TNI0OwBgyA-bcrxz66jhdCoybZGUsfmWw,7
+ealocr-1.4.3.dist-info/RECORD,,
