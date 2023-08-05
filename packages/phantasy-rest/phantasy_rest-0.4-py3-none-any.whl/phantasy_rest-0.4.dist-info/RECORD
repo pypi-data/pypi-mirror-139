@@ -1,0 +1,15 @@
+phantasy_rest/__init__.py,sha256=qOox0hBlRncYsPY_23WmrTqo7t1wOdlg5oroUryeg0g,1581
+phantasy_rest/_gconf.py,sha256=po7VWtQdlNGhLBjeI19dtGKDObYjImMhsPM3YtqbDRU,1469
+phantasy_rest/_get_conf.py,sha256=NJMpJOoX5Nb_hxarOQdNypn0RjLBYeMjpZVIB1fszoY,708
+phantasy_rest/config.toml,sha256=M_Ldu9nOmdf7JUPWmqn_YPIwQDmtE0s-WejNjXP9kyo,755
+phantasy_rest/dependencies.py,sha256=2FRsMdeKAqfs9kB0jPcU1HQ1cIrTGWLuP2cKtJTni2s,152
+phantasy_rest/main.py,sha256=LpTZPebJQ0a9pp6Ambnp3IQbyLHFoVwUkz3t7UGgZ58,1290
+phantasy_rest/db/dals/device_dal.py,sha256=_xMdbpw01SvsLTQ4Qgc-P6RyPEmCTsV3UmbOM3_O1-Q,465
+phantasy_rest/db/models/device.py,sha256=fQ327XnpWsrj03YzSBvk3L9M11HjYSeuiz_r4g0u2Z4,791
+phantasy_rest/routers/mp_router.py,sha256=Ucw8eEShdCKJPQY6UVn9M-Y5PI6ibcLpivTs_F3Wluo,3587
+phantasy_rest-0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+phantasy_rest-0.4.dist-info/METADATA,sha256=o0wKxWXEwNnY8i05PepN5RWkaXkzl68DT5Dw0kXLT6s,593
+phantasy_rest-0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+phantasy_rest-0.4.dist-info/entry_points.txt,sha256=xUHZg-E6JuwygUzVEuFxm4B3KIADFEx0cXp_RGAeLCo,59
+phantasy_rest-0.4.dist-info/top_level.txt,sha256=SnRSI0Rp5ouTIe1CYGEcvQp8r41oJzTyT7G210oyzdg,14
+phantasy_rest-0.4.dist-info/RECORD,,
