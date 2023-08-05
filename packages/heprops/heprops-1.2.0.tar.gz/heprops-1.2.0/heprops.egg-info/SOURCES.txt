@@ -1,0 +1,15 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+setup.py
+examples/he_potential_examples.ipynb
+examples/potential_comparison.svg
+heprops/__init__.py
+heprops/helium.py
+heprops/potential.py
+heprops.egg-info/PKG-INFO
+heprops.egg-info/SOURCES.txt
+heprops.egg-info/dependency_links.txt
+heprops.egg-info/requires.txt
+heprops.egg-info/top_level.txt
