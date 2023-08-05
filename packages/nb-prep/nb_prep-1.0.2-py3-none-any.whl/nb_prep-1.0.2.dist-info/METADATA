@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: nb-prep
+Version: 1.0.2
+Summary: Prepares jupyter notebooks for storing stripped versions in git and sharing results with stakeholders
+Home-page: https://github.com/allianz-direct/nb_prep
+Author: Tim Vink
+Author-email: tim.vink@allianzdirect.nl
+License: MIT
+Keywords: precommit nbconvert nbstripout jupyter notebook python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jupyter-client (>=7.1.1)
+Requires-Dist: nbconvert (>=6.4.0)
+Requires-Dist: pre-commit (>=2.16.0)
+Requires-Dist: typer (>=0.4.0)
+Requires-Dist: nbstripout (>=0.5.0)
+
+[![Unit tests](https://github.com/allianz-direct/nb_prep/actions/workflows/unit_tests.yml/badge.svg)](https://github.com/allianz-direct/nb_prep/actions/workflows/unit_tests.yml)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb-prep)
+![PyPI](https://img.shields.io/pypi/v/nb-prep)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/nb-prep)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/allianz-direct/nb_prep)
+![PyPI - License](https://img.shields.io/pypi/l/nb-prep)
+
+# nb_prep
+
+`nb_prep` automates preparing jupyter notebooks for sharing and storage.
+
+You can use the `nb_prep` CLI to:
+
+- Convert jupyter notebooks to HTML (using [`nbconvert`](https://nbconvert.readthedocs.io/)) and:
+    - add a date prefix to the filename.
+    - add a git hash suffix to the filename.
+    - move the HTML file to a configured output directory
+- Strip jupyter notebooks of all cell outputs (using [`nbstripout`](https://github.com/kynan/nbstripout))
+
+You can also configure `nb_prep` once as a pre- and post-commit hook and have notebook output automatically prepared every time you `git commit`.
+
+`nb_prep` is a useful automation tool when you have a lot of analysis notebooks in git that you want to share with stakeholders.
+If your main interest is preparing clean notebooks for storing in git commits, consider using [jupytext](https://github.com/mwouts/jupytext) instead.
+
+## Installation
+
+```bash
+pip install nb_prep
+```
+
+## Documentation
+
+See [allianz-direct.github.io/nb_prep](https://allianz-direct.github.io/nb_prep).
+
+
