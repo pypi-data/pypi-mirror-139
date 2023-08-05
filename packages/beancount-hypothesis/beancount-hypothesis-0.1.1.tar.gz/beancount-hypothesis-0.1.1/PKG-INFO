@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: beancount-hypothesis
+Version: 0.1.1
+Summary: A package which provides hypothesis strategies for generating beancount types
+Home-page: https://github.com/jmgilman/beancount-hypothesis
+License: MIT
+Keywords: beancount,hypothesis,testing
+Author: Joshua Gilman
+Author-email: joshuagilman@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: RandomWords (>=0.3.0,<0.4.0)
+Requires-Dist: beancount (==2.3.4)
+Requires-Dist: hypothesis (>=6.36.2,<7.0.0)
+Project-URL: Repository, https://github.com/jmgilman/beancount-hypothesis
+Description-Content-Type: text/markdown
+
+# beancount-hypothesis
+
+<p align="center">
+    <a href="https://github.com/jmgilman/beancount-hypothesis/actions/workflows/ci.yml">
+        <img src="https://github.com/jmgilman/beancount-hypothesis/actions/workflows/ci.yml/badge.svg"/>
+    </a>
+    <a href="https://pypi.org/project/beancount-hypothesis">
+        <img src="https://img.shields.io/pypi/v/beancount-hypothesis"/>
+    </a>
+</p>
+
+> A package which provides hypothesis strategies for generating beancount types.
+
+## Usage
+
+Strategies are provided for all of the core types present in `beancount`. The
+below example generates a random list of directives:
+
+```python
+import beancount_hypothesis as h
+from hypothesis import given, strategies as s
+
+@given(
+    s.recursive(
+        h.balance()
+        | h.close()
+        | h.commodity()
+        | h.custom()
+        | h.document()
+        | h.event()
+        | h.note()
+        | h.open()
+        | h.query()
+        | h.pad()
+        | h.price()
+        | h.transaction(),
+        s.lists,
+        max_leaves=5,
+    )
+)
+```
+
+Most of the types have restrictions placed on them with the following
+philosophy:
+
+* The value shouldn't break the `beancount` package
+* The value should be somewhat authentic (i.e. resemble user data)
+
+Note that the input generated from the strategies is not intended to be passed
+to any beancount functions. In other words, passing the above example to the
+loader will result in undefined behavior as it doesn't follow any sensible
+rules.
+
+## Testing
+
+```shell
+tox
+```
+
+While testing a package meant for tests seems slightly redundant, there are
+some custom compositions present that benefit from testing. In most cases the
+tests just assert that generating data doesn't raise any exceptions (i.e. break
+`beancount` in some way).
+
+## Contributing
+
+Check out the [issues][1] for items needing attention or submit your own and
+then:
+
+1. [Fork the repo][2]
+2. Create your feature branch (git checkout -b feature/fooBar)
+3. Commit your changes (git commit -am 'Add some fooBar')
+4. Push to the branch (git push origin feature/fooBar)
+5. Create a new Pull Request
+
+[1]: https://github.com/jmgilman/beancount-hypothesis/issues
+[2]: https://github.com/jmgilman/beancount-hypothesis/fork
+
