@@ -1,0 +1,7 @@
+importlib_metadata
+numpy
+numba
+
+[full]
+scipy
+meshio>=4.0
