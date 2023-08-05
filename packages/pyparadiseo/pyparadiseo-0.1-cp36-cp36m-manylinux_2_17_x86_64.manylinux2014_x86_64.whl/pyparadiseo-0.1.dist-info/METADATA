@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyparadiseo
+Version: 0.1
+Summary: PyParadiseo - A software framework for heuristic optimization
+Home-page: https://gitlab.inria.fr/paradiseo/pyparadiseo
+Author: Jan Gmys
+Author-email: jan.gmys@inria.fr
+License: CeCILL
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+[![pipeline status](https://gitlab.inria.fr/paradiseo/pyparadiseo/badges/master/pipeline.svg)](https://gitlab.inria.fr/paradiseo/pyparadiseo/-/commits/master)
+
+### Table of Contents
+- [Installation](#installation)
+- [Usage](#hello-world-)
+- [Features](#features)
+- [Changelog](#changelog)
+- [License](#license)
+
+
+## Installation
+
+You can install pyParadiseo with `pip`
+
+```console
+pip install pyparadiseo
+```
+
+# Usage
+
+
