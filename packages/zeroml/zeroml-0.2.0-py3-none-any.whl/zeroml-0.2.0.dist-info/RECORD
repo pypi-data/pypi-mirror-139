@@ -1,0 +1,8 @@
+zeroml/__init__.py,sha256=o3fmSah2h0yyE0CN_0xtjzHe5NLe8G9-RdoieBMr-H8,127
+zeroml/cli.py,sha256=9uKThA4M0QGCWeBxo2dxw9P8y8sOwntySzVsSk7boX8,251
+zeroml/zeroml.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+zeroml-0.2.0.dist-info/entry_points.txt,sha256=ypzCrK30EVdrPRACzaZ2eytN06IIRvCkBzGzTOMtPMw,42
+zeroml-0.2.0.dist-info/LICENSE,sha256=bX51Pdf9P4UAqPDX96KbuYGKw5SYDwilIs7Uxs9O5Xc,1070
+zeroml-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zeroml-0.2.0.dist-info/METADATA,sha256=beP3zRBO8IhrntjTRdd7n0Oh9HySwHrO8EOAxlyKCAw,2864
+zeroml-0.2.0.dist-info/RECORD,,
