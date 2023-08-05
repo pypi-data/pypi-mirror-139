@@ -1,0 +1,4 @@
+global-include *.txt *.py *.json
+include *.rst
+include rawdata/data/*
+recursive-include data *.txt *.csv *.json
