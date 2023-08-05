@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: pypam3
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# pypam3 - Project Assignment Method
+
+  Pypam3 is a small tool to assign students(workers) to projects(jobs)
+based on their rank of preference(cost) to each of the projects(jobs).
+
+## module
+
+Currently, there is only one module named *assign* in this package
+
+### assign
+
+Two functions, *assign_project()* and *generate_sample()*, realize
+the facility.
+
+#### assign_project(csv_name, capacity, **kwargs)
+
+This function is for assigning. To use this function, you need to
+put a .csv file on the same directory whose rows represent
+students and columns represents projects. The numbers represent the rank of preference that students evaluate. No title should be included.
+for example:
+
+```text
+5, 4, 2, 1, 3
+4, 3, 2, 1, 5
+3, 2, 1, 5, 4
+```
+
+To convert an Excel file to .csv file, you can easily use Microsoft Excel and press File-Save File as-.csv
+
+The name of the csv file is the first argument.
+
+The second argument is the number of students that a project can take at most.
+
+This function also take several optional key-word arguments:
+
++ output: This argument has two options, *"file"* or *"stdout"*. The "file" value will ask the program to
+
+output the result by creating a new file *result.xlsx*, the Sheet1 of the Excel file show the project that each student is assigned to, and the Sheet2 shows which students are assigned to each project.
+The "stdout" option is the default option. It will directly output the result to the terminal.
+
++ deviation: If set to True(default), the program will also output the standard deviation to the terminal. If set to False, it will not be calculated.
+
++ time: If set to True(default), the program will also print the runtime of the function to the terminal. Otherwise, no.
+
+Example of using:
+
+```python
+from pypam3.assign import assign_project
+assign_project("data.csv", 5, output="file")
+```
+
+### generate_sample(csv_name, student_num, project_num)
+
+This function can randomly generate samples, and it's mainly for testing purpose.
+
+Example of using:
+
+```python
+from pypam3.assign import generate_sample
+generate_sample("data.csv", 80, 20)
+```
+
+This will create a csv file named "data.csv" at the current directory with 80 rows and 20 columns.
+
+## Using
+
+First install python3 from <https://www.python.org>. Note that the package should be added to PATH.
+To download this package, type in the terminal:
+linux/mac:
+
+```shell
+pip3 install pypam3
+pip3 install openpyxl
+pip3 install munkres
+```
+
+windows:
+
+```shell
+pip install pypam3
+pip install openpyxl
+pip install munkres
+```
+
+And add these lines at the beginning of your python script:
+
+```python
+from pypam3.assign import generate_sample, assign_project
+from munkres import Munkres
+import openpyxl
+```
+
+Then you can use this package as stated above.
+
+
