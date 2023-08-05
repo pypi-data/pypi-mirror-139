@@ -1,0 +1,11 @@
+sgsuite/ClusterNews.py,sha256=QJGHUW-fMMnpDZ3iJ2KqvVTtXstqo9w309a7AlOPCOk,11226
+sgsuite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sgsuite/rss_parser.py,sha256=tSoBP9PWVQsX0v-D-X-B4hVHmb3gy9tlKUsbunfV0lY,6098
+sgsuite/util.py,sha256=gqlsVFuEMJONyenQv7HdK2yTWbZ-67FUbVJBjOKkwSo,31812
+sgsuite/version.py,sha256=8nHuCocUb6taH76iw5rLKICj5vIloMIlbP1cSZXa-88,25
+sgsuite-0.0.0.data/scripts/sgs,sha256=1xRh8yEU2sLN_zPk7vlyHO8m4bIPx6cU9IppxZwMiKw,4256
+sgsuite-0.0.0.dist-info/LICENSE,sha256=HG3hKS6JgxRXEe0Vo4wEIok4pQeSIFTQ5QPgfUGd7Go,1106
+sgsuite-0.0.0.dist-info/METADATA,sha256=FHQVBvpFtkdYN-6ZIIceksK64gDcZxQuQvRjPk0hf0E,816
+sgsuite-0.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sgsuite-0.0.0.dist-info/top_level.txt,sha256=eowq7l8AovwEi4YmGSoW3-V7EbnA9oowqchpeklFSq0,8
+sgsuite-0.0.0.dist-info/RECORD,,
