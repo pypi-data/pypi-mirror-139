@@ -1,0 +1,24 @@
+{
+    "article": [
+        {
+            "target": "^[aeiouAEIOU8].*",
+            "result": "an"
+        },
+        {
+            "target": "^.*$",
+            "result": "a"
+        }
+    ],
+    "verb_3rd": [
+        {
+            "target": "(.*)y$",
+            "result": "\\1ies",
+            "replace": true
+        },
+        {
+            "target": "^(.*)$",
+            "result": "\\1s",
+            "replace": true
+        }
+    ]
+}
