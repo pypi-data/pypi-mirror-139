@@ -1,0 +1,11 @@
+iamtokenizing/__init__.py,sha256=oA0CURcEzbNK3a6QkUuxAoE9l2p1RS4SwN-FF_PgV2M,340
+iamtokenizing/base_tokenizer.py,sha256=o1K3OVsBdPdpCpO8UUzNOVauKl73II_WHynu2lw1BZI,2958
+iamtokenizing/chargrams.py,sha256=g3FiY4oam7843rWoCEADRDw6kZaNtJJEl2--Gjqmx3I,2937
+iamtokenizing/context_detector.py,sha256=25CBzxc7DOnOQMJpg7eJTjUk6WfuCZnGIV5CvxxtlZI,7228
+iamtokenizing/ngrams.py,sha256=XlaVh4WNGXyqGRFoxMs_bhT4BLhJ-laUjmM4hh4bolE,5017
+iamtokenizing/regex_detector.py,sha256=b4La3oglh2uDbRRLsvCUJxY2oLoEoIXdmIT37u9fbOQ,3176
+iamtokenizing-0.6.1.dist-info/LICENSE,sha256=pYYvenJ4nYRrXXpZfSv2zmSrvMp77Up2gUyeMWExGJg,35085
+iamtokenizing-0.6.1.dist-info/METADATA,sha256=o3n5QOoRUu3isrk8WX8PoLOkcW28wiz8vgQFnFAzuls,4235
+iamtokenizing-0.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+iamtokenizing-0.6.1.dist-info/top_level.txt,sha256=dE9FZAQCTCBukBSBFcQkqZEWxMqfmf_dvpuyK36RIUY,14
+iamtokenizing-0.6.1.dist-info/RECORD,,
