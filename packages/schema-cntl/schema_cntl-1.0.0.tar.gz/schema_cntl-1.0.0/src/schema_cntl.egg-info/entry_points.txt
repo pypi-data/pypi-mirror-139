@@ -1,0 +1,2 @@
+[console_scripts]
+schema_cntl = schema_cntl.main:entrypoint
