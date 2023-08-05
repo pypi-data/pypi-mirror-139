@@ -1,0 +1,7 @@
+setup.py
+kids4kars/__init__.py
+kids4kars.egg-info/PKG-INFO
+kids4kars.egg-info/SOURCES.txt
+kids4kars.egg-info/dependency_links.txt
+kids4kars.egg-info/not-zip-safe
+kids4kars.egg-info/top_level.txt
