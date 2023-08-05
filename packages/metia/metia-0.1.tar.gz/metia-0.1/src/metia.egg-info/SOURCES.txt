@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/metia/__init__.py
+src/metia/probe.py
+src/metia.egg-info/PKG-INFO
+src/metia.egg-info/SOURCES.txt
+src/metia.egg-info/dependency_links.txt
+src/metia.egg-info/top_level.txt

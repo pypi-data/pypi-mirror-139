@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: metia
+Version: 0.1
+Summary: A tool to parse and extract media metadata.
+Home-page: https://github.com/Davidyz/metia
+Author: David Yu
+Author-email: hzjlyz@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Davidyz/metia/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Metia
+> A tool to extract metadata from media files.
+
+This library is developed under Python 3.8.
+
+## Dependency
+[FFmpeg][ffmpeg_url]
+
+[ffmpeg_url]: https://www.ffmpeg.org/
+
+
