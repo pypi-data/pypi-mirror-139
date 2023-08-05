@@ -1,0 +1,8 @@
+jashpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jashpdf/pdftoimage.py,sha256=RHxkadPxDSyEIdEtwBDkaA5FHpLbInsnXkCHXsODy3A,43
+jashpdf/pdftotext.py,sha256=U1-4JMdJ4EpZ6RYQBpr5fP--FwJPbK0G9-kKCbhzzAk,42
+jashpdf-3.0.dist-info/LICENSE,sha256=ctLwkzT4uH3e2UqDO6faBeUoDnegN8ojslH5bq5M9xk,35562
+jashpdf-3.0.dist-info/METADATA,sha256=kmEHs1Dzs38xaz0jnJtbGzm2lgS_n1kHSwq9qYY_1Eo,182
+jashpdf-3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jashpdf-3.0.dist-info/top_level.txt,sha256=tUjU3aWu49AJ58km2HoKFsGCXsDMdPSzg61Zfy9gsYQ,8
+jashpdf-3.0.dist-info/RECORD,,
