@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: thenet
+Version: 0.1.0
+Summary: The Net, A New Way to Look Into Data
+License: EUPL
+Author: aarmn
+Author-email: aarmn80@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
