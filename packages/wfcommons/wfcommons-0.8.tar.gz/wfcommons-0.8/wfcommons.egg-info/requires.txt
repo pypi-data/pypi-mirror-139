@@ -1,0 +1,11 @@
+jsonschema
+matplotlib
+networkx
+numpy
+python-dateutil
+requests
+scipy
+setuptools
+pyyaml
+pandas
+stringcase
