@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pfsc-lang
+Version: 0.0.1
+Summary: Proofscape Language
+Author: Steve Kieffer
+Author-email: sk@skieffer.info
+License: MPL-2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Proofscape Language.
+
+
+
