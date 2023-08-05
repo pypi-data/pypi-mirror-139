@@ -1,0 +1,10 @@
+pytest_rich_reporter/__init__.py,sha256=y_P8JWRRef6WDm-qbACrUz55EiRvt6i7yq2mWuqRukA,69
+pytest_rich_reporter/console.py,sha256=EnLSxTKCrKg73Bm9M2edB9712OwmFzwD-qmfdBKJFuM,90
+pytest_rich_reporter/plugin.py,sha256=JMyZ0jHgUX1taxf_KYRIah09-9vcoEah3m9CYMYWmPE,1157
+pytest_rich_reporter/reporter.py,sha256=du8JJnq-rKyfQT6qwjKvM_n9YPrrGlz9eYYzeeihYV8,1927
+pytest_rich_reporter-0.0.1a0.dist-info/LICENSE,sha256=jb4DbrMg9Ydz9AWI-GGx1ZIZKiNFqQdUBk4F9YmO8vg,1078
+pytest_rich_reporter-0.0.1a0.dist-info/METADATA,sha256=5EYJBc3KS3mwr6YAdXH5auxG7u6h69sM_fI8SkXn70A,2420
+pytest_rich_reporter-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_rich_reporter-0.0.1a0.dist-info/entry_points.txt,sha256=Gsxs6eyovjOy6XT6j3uS7aiI5ZbL3nsCw-kk1-Zu8zo,62
+pytest_rich_reporter-0.0.1a0.dist-info/top_level.txt,sha256=z4GrnSkbMJB_lE93Nz8SZhiZULVF2eCGfIZeqb2PIuk,21
+pytest_rich_reporter-0.0.1a0.dist-info/RECORD,,
