@@ -1,0 +1,8 @@
+README.md
+setup.py
+EZProjects/__init__.py
+EZProjects/library.py
+EZProjects.egg-info/PKG-INFO
+EZProjects.egg-info/SOURCES.txt
+EZProjects.egg-info/dependency_links.txt
+EZProjects.egg-info/top_level.txt
