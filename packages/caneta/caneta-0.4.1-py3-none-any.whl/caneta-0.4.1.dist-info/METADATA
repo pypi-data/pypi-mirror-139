@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: caneta
+Version: 0.4.1
+Summary: 
+Author: Madson Dias
+Author-email: madsonddias@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
