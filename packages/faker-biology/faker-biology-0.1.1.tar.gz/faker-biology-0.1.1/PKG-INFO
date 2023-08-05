@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: faker-biology
+Version: 0.1.1
+Summary: Fake data from biology
+Home-page: https://github.com/richarda23/faker-biology
+License: MIT
+Keywords: Biology,Faker
+Author: richard
+Author-email: ra22597@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Faker (>=12.3.0,<13.0.0)
+Requires-Dist: faker-python (>=0.0.1,<0.0.2)
+Requires-Dist: unittest (>=0.0,<0.1)
+Project-URL: Documentation, https://github.com/richarda23/faker-biology
+Project-URL: Repository, https://github.com/richarda23/faker-biology
+Description-Content-Type: text/markdown
+
+# faker-biology
+Biology-related fake data provider for Python Faker
+
+Some providers for biology-related concepts and resources
+
