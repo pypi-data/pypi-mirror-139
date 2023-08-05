@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+scipion_em_ucm.egg-info/PKG-INFO
+scipion_em_ucm.egg-info/SOURCES.txt
+scipion_em_ucm.egg-info/dependency_links.txt
+scipion_em_ucm.egg-info/entry_points.txt
+scipion_em_ucm.egg-info/requires.txt
+scipion_em_ucm.egg-info/top_level.txt
+ucm/__init__.py
+ucm/computations.py
+ucm/icon.png
+ucm/protocols.conf
+ucm/protocols/__init__.py
+ucm/protocols/protocol_loc_b_factor.py
+ucm/protocols/protocol_loc_occupancy.py

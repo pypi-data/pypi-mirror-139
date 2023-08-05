@@ -1,0 +1,4 @@
+mrcfile
+numpy
+scipion-em
+scipion-pyworkflow
