@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bztt-fastapi-plus
+Version: 0.1.2
+Summary: bztt-fastapi-plus
+Home-page: https://github.com/
+Author: ls_psz
+Author-email: 1160201372@qq.com
+License: MIT
+Description: 
+        bztt_fastapi_plus
+        ==============
+        执行crt命令
+        
+        # 0.1.2
+        1、修复库中内部调用bug。
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
