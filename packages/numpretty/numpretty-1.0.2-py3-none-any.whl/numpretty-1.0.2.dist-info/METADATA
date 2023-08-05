@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: numpretty
+Version: 1.0.2
+Summary: Numpretty converts numbers into their human-readable form, efficiently.
+Home-page: https://github.com/obfuscatedgenerated/numpretty
+Author: obfuscatedgenerated
+Author-email: pip@obfuscatedgenerated.ml
+License: MIT
+Keywords: math,numbers,pretty,human,readable
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# numpretty
+
+Numpretty converts numbers into their human-readable form, efficiently.
+
+## Installation
+
+1. (optional but recommended) Create a venv and activate it: `python3 -m venv env` `env/scripts/activate`
+
+2. Install the package: `pip install numpretty`
+
+## Usage (Example)
+
+```python
+import numpretty as npf
+
+print(npf.prettify(1000))
+# prints 1K
+```
+
