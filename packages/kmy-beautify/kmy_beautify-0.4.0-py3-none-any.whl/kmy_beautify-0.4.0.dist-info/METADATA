@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: kmy-beautify
+Version: 0.4.0
+Summary: beautify the appearance of the terminal application.
+Home-page: https://github.com/ExsoKamabay/kmy-beautify
+Author: Exso Kamabay
+License: Apache License 2.0
+Keywords: kamabay,beautify,terminal,text,color,banner
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: art (==5.4)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: shell (==1.0.1)
+Requires-Dist: string-color (==1.2.1)
+
+# kmy-beautify
+
+``beautify`` allows us to add color to text, banners, menu options in the terminal application
+
+## [how to use!](https://www.youtube.com/watch?v=vmDmQvQ00D4)
+
+[font](https://www.4r7.ir/FontList.html) - [decoration](https://www.4r7.ir/DecorList.html)
+
+
+```python
+ld = Loading()
+ld.loading(timeout:int or float)
+ld.show('hello world')
+
+bf = Beautify()
+bf.txtclr(
+    text:str,
+    color:str,
+    bg:str,
+    font:str,
+    chr_ignore:boolean,
+    sep:str,
+    decoration:str)
+bf.colors(random:bool)
+bf.banner(name:color,bg) --> str
+# list banner name https://github.com/ExsoKamabay/kmy-beautify/blob/main/list_banners_name
+bf.menu(
+    add_menu:list,
+    separator:str,
+    rw_num:bool,
+    color:str,
+    bg:str,
+    font:str)
+```
+
