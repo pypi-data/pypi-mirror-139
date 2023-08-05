@@ -1,0 +1,4 @@
+grpcio
+librosa
+pafy
+pyaudio
