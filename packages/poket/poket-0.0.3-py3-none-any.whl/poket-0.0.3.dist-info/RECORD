@@ -1,0 +1,8 @@
+poket/__init__.py,sha256=dY7Q4BLmB-J35cyPBhVnor9vkll-TzBlssJzY15tK50,34
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_poket.py,sha256=agP1yyF7PaRNAmHkSq9NI3Ul-oX314TSmKMMvs7IqTg,73
+poket-0.0.3.dist-info/LICENSE,sha256=cyBJWQL8NGRyf6hsJKzUTctYJuNorzCSVPrVLjZoAkY,1062
+poket-0.0.3.dist-info/METADATA,sha256=TsFygp5JQGEOkgcnJMampkD_3OF5FlQf3sfJSKL-2TE,1247
+poket-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+poket-0.0.3.dist-info/top_level.txt,sha256=ME26sd15-R0ag93rjREQN00gK72iBzxH-puOhh_L60w,12
+poket-0.0.3.dist-info/RECORD,,
