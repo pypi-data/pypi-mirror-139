@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ann_nmf.egg-info/PKG-INFO
+ann_nmf.egg-info/SOURCES.txt
+ann_nmf.egg-info/dependency_links.txt
+ann_nmf.egg-info/requires.txt
+ann_nmf.egg-info/top_level.txt
