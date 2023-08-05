@@ -1,0 +1,7 @@
+<div class="container alert alert-secondary">
+{% load consent_tags %}
+{% get_consent_paragraphs as consent_paragraphs %}
+{% for paragraph in consent_paragraphs %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+</div>
