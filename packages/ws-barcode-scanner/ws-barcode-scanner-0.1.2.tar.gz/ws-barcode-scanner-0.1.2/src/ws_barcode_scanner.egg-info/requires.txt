@@ -1,0 +1,15 @@
+bitarray
+pyserial
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+black
+isort
+mypy
+pyproject-flake8
+
+[docs]
+sphinx
+sphinxcontrib-napoleon
