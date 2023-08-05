@@ -1,0 +1,11 @@
+tool_aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tool_aws/utils.py,sha256=0vGYehjaI2MkgWYMH0JawqKBi5tldq0FZAyII4g8x2s,364
+tool_aws/s3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tool_aws/s3/rm.py,sha256=DjBiYQZ7onOHmpsH9bklolBprzKMbig1LU06B1MsM9A,12845
+tool_aws/s3/utils.py,sha256=HvqK3ht6lrTzgsKfRav2QBawBRIhEXZhhMTXCjhjFLs,4845
+tool_aws-0.2.3.dist-info/LICENSE,sha256=l-jNwR2prIfR--Z8-1Zq04zO2t2J0vmlUYIVjY0dhxI,1317
+tool_aws-0.2.3.dist-info/METADATA,sha256=0u2eFgpYoSu6aNXQdtde7dSfXOyFaXgJ2XcgFmTK9R8,4315
+tool_aws-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tool_aws-0.2.3.dist-info/entry_points.txt,sha256=Jvf3v2X2TOvtVfJb8yzrwV3040wPUtRecVof7bqv4fw,45
+tool_aws-0.2.3.dist-info/top_level.txt,sha256=zsETbenpzhbhYTOHW7B3URJEb12tQuIITbG2Z5pszwg,9
+tool_aws-0.2.3.dist-info/RECORD,,
