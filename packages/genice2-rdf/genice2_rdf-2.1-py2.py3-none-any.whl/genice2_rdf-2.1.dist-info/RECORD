@@ -1,0 +1,8 @@
+genice2_rdf/__init__.py,sha256=T1KLfQTCah6u0TNdi5ObrAw0Z-lLxaZBe5GGiZc8Z8c,62
+genice2_rdf/formats/_RDF.py,sha256=kDbUku9wWUqL4PPEjQc077WX5ih4wZoFoYm_sMTS4Hk,6701
+genice2_rdf/formats/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+genice2_rdf-2.1.dist-info/METADATA,sha256=buKP6ePZ-fzDkFCX1YEz8TOkYUKhmuygNA8NuW7trQs,2055
+genice2_rdf-2.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+genice2_rdf-2.1.dist-info/entry_points.txt,sha256=PzsgHaMaD2BNl7cmwvZEoZlzX24Q-MKNpaB6aPonfSo,50
+genice2_rdf-2.1.dist-info/top_level.txt,sha256=P6kGoozkpL8W-fenXalCmhK6zWCwIIayO2749hInwmA,12
+genice2_rdf-2.1.dist-info/RECORD,,
