@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/longrun.py
+src/longrun.egg-info/PKG-INFO
+src/longrun.egg-info/SOURCES.txt
+src/longrun.egg-info/dependency_links.txt
+src/longrun.egg-info/top_level.txt
