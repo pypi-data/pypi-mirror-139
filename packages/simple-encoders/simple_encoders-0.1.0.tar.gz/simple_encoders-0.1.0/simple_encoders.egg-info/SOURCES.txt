@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+simple_encoders.egg-info/PKG-INFO
+simple_encoders.egg-info/SOURCES.txt
+simple_encoders.egg-info/dependency_links.txt
+simple_encoders.egg-info/requires.txt
+simple_encoders.egg-info/top_level.txt
+src/__init__.py
+src/base_encoder.py
+src/df_encoder.py
