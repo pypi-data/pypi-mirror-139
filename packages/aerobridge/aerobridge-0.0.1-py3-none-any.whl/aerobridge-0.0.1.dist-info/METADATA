@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: aerobridge
+Version: 0.0.1
+Summary: Useful tools to work with Aerobridge APIs in Python
+Home-page: https://github.com/openskies-sh/aerobridge_py
+Author: Dr. Hrishikesh Ballal
+Author-email: hrishikeshballal@yahoo.com
+License: Apache-2.0
+Download-URL: https://pypi.org/project/aerobridge_py/
+Keywords: Management Server,Aerobridge,Drones,Drone
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.27.1)
+
+# Python client for Aerobridge Management Server
+
+This repository is the python client for the [Aerobridge Management Server API](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/openskies-sh/aerobridge/master/api/aerobridge-1.0.0.resolved.yaml).
+
+## Usage Instructions
+
+1. Install requirements `pip install aerobridgepy`
+2. In your code use `from aerobridgepy import AerobridgeClient`
+3. 🎉
+
+## Test drive
+
+Go to [Aerobridge.io](https://www.aerobridge.io) for a test drive of the stack.
+
+# Change log
+
+## [0.0.1] - 2022-02-17
+
+- Initial Commit
+
+
