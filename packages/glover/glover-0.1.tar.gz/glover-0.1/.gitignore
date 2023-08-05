@@ -1,0 +1,7 @@
+# Python packaging files
+dist/
+test_*/
+
+# Python env files
+__pycache__
+.python-version
