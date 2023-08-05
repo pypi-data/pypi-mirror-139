@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: FireCaptcha
+Version: 0.0.2
+Summary: Highly customizable captcha generator
+Home-page: https://github.com/Memetelve/FireCaptcha
+Author-email: maciek@marszalkowski.pl
+License: UNKNOWN
+Keywords: captcha,security
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
