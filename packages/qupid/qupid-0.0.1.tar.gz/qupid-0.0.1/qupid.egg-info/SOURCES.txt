@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+qupid/__init__.py
+qupid/exceptions.py
+qupid/matching.py
+qupid.egg-info/PKG-INFO
+qupid.egg-info/SOURCES.txt
+qupid.egg-info/dependency_links.txt
+qupid.egg-info/top_level.txt
