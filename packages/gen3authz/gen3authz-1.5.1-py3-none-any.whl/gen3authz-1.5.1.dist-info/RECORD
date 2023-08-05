@@ -1,0 +1,14 @@
+gen3authz/__init__.py,sha256=jBsmokjDygl4CKPMGY1fS4b5rR4rmdUzKe39D2wWCXg,106
+gen3authz/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gen3authz/client/arborist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gen3authz/client/arborist/async_client.py,sha256=_ZmNks-EMw528C17qpAn366PphMglPDVKmHu6nzV7yM,287
+gen3authz/client/arborist/base.py,sha256=tzVm-VCKpUOs9BaNQkk492rugcMuWuCgyGO_UROUcB8,38727
+gen3authz/client/arborist/client.py,sha256=xgrDCAFuKWj385hjMzOXkMxIanHq_UlFVTLz6xqn7hM,733
+gen3authz/client/arborist/errors.py,sha256=eGvt5zvWce0NdRulMVb3m--TWBrn2kBhZbV0FtcqtL0,702
+gen3authz/client/base.py,sha256=XgMVNOkl_zIC3MY_71jGjOVg2KY3jPO30eBt7Qh4YRQ,1642
+gen3authz/client/errors.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gen3authz/utils.py,sha256=6KYzqB7Ms0hS9cpmWI4rgUetbYLesSRpOWkWxzeNlFY,498
+gen3authz-1.5.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gen3authz-1.5.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gen3authz-1.5.1.dist-info/METADATA,sha256=jPiOq_JS8A2okDUhwf38AKOAXvRqdyojDXtx8ETkuk8,755
+gen3authz-1.5.1.dist-info/RECORD,,
