@@ -1,0 +1,13 @@
+occli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+occli/banner.py,sha256=o-6VVWqXD4zCX__h2ziM2Z1y8cLIf2MRAnzKF7066iQ,297
+occli/colors.py,sha256=6vVlqksLeJuebd932B5pIvBHwyrYzQutdYesMKY028E,412
+occli/dump.py,sha256=mXiZvDcpFvomvW2dlL6crvltNy_6PZvVTBCR-vOAwIQ,474
+occli/licence.py,sha256=pzMVtg2_IvtepPfRX7B49BNYtNOsVpe38fCyJt9bSxU,35157
+occli/main.py,sha256=Bxs2SSEbzNPs5bqrJcpUN0gLEIK1IJSiBUtZ9wJkNzc,2291
+occli/search.py,sha256=aRG7G_kOKETn7ggWu8Ca53qlgcylw8T5xoLua2Fba3E,2856
+occli-0.3.4.dist-info/LICENSE,sha256=Fngd3aY82i9fnt2FC3ui2RSvOGJtrp9-Tj3AHeDkp0U,35140
+occli-0.3.4.dist-info/METADATA,sha256=KRnAZYvVH1IBIoUalbCoa5_KRAgrcL9KXQOM_hH231s,2627
+occli-0.3.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+occli-0.3.4.dist-info/entry_points.txt,sha256=dizcHAWn3YrM31_eUbMbVq2IaEdN23uXNsik_UknxaM,44
+occli-0.3.4.dist-info/top_level.txt,sha256=GBHgCX8MbXWX1a-KXuZ_xYB9VuQMPTxzZk_IklstKsU,6
+occli-0.3.4.dist-info/RECORD,,
