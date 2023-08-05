@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mycalclib
+Version: 0.1.0
+Summary: My Calculator Python library
+Home-page: UNKNOWN
+Author: Me
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: fastapi (==0.73.0)
+Requires-Dist: pydantic (==1.9.0)
+Requires-Dist: starlette (==0.17.1)
+Requires-Dist: uvicorn (==0.17.4)
+
+UNKNOWN
+
