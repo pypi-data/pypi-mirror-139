@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sn4k-s3c/src/sn4k-s3c.py
+sn4k-s3c/src/sn4k_s3c.egg-info/PKG-INFO
+sn4k-s3c/src/sn4k_s3c.egg-info/SOURCES.txt
+sn4k-s3c/src/sn4k_s3c.egg-info/dependency_links.txt
+sn4k-s3c/src/sn4k_s3c.egg-info/top_level.txt
