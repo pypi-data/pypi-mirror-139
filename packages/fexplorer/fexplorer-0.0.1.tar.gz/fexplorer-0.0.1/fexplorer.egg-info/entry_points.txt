@@ -1,0 +1,3 @@
+[console_scripts]
+fexplorer = fexplorer.argparser:main
+

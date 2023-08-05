@@ -1,0 +1,17 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+fexplorer/__init__.py
+fexplorer/__main__.py
+fexplorer/argparser.py
+fexplorer/bestFileExplorer.py
+fexplorer/files.py
+fexplorer/linux_commands_in_python.py
+fexplorer.egg-info/PKG-INFO
+fexplorer.egg-info/SOURCES.txt
+fexplorer.egg-info/dependency_links.txt
+fexplorer.egg-info/entry_points.txt
+fexplorer.egg-info/requires.txt
+fexplorer.egg-info/top_level.txt

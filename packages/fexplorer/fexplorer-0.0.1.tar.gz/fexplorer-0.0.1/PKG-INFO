@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fexplorer
+Version: 0.0.1
+Summary: Simple file explorer made with python
+Home-page: https://github.com/aysilsimgekaracan/fexplorer
+Author: aysilsimgekaracan
+Author-email: aysilsimge@gmail.com
+License: MIT
+Download-URL: https://github.com/aysilsimgekaracan/fexplorer/archive/refs/tags/v_0_0_1.tar.gz
+Keywords: CLI,FILE EXPLORER,EXPLORER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+License-File: LICENSE.txt
+
+UNKNOWN
+
