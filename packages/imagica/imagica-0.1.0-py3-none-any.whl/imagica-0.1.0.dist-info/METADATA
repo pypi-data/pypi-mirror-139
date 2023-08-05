@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: imagica
+Version: 0.1.0
+Summary: A package to help with image processing
+Home-page: https://github.com/MagicalLiebe
+Author: MagicalLiebe
+Author-email: magical.liebe@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.0.1,<10.0.0)
+Requires-Dist: opencv-python (>=4.5.5,<5.0.0)
+Project-URL: Repository, https://github.com/MagicalLiebe/imagica
+Description-Content-Type: text/markdown
+
+# imagica
+A package to help with image processing for Python
+
