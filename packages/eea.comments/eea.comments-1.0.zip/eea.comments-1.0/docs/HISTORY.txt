@@ -1,0 +1,12 @@
+Changelog
+=========
+
+1.0 - (2022-02-17)
+---------------------------
+* Change: Added permissions to discussion restapi [razvanMiu]
+
+1.0 - (2022-02-17)
+-----------------------
+
+* Initial release.
+  [eea]
