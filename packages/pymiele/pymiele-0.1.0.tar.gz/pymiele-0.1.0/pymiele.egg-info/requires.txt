@@ -1,0 +1,4 @@
+aiohttp
+asyncio
+async_timeout
+json
