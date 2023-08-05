@@ -1,0 +1,12 @@
+cachetools>=5.0.0
+dash_bootstrap_components>=1.0.3
+dash_datatables>=0.0.9
+dash_holoniq_components>=0.0.19
+dash>=2.1.0
+Flask_Login>=0.4.1
+Flask_SQLAlchemy>=2.5.1
+Flask>=2.0.2
+pandas>=1.4.0
+pystache>=0.6.0
+python-dotenv==0.19.2
+SQLAlchemy_Utils>=0.38.2
