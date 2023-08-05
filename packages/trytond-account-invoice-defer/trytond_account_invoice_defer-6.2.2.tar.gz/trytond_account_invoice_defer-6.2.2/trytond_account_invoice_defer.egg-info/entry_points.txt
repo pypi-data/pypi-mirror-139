@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    account_invoice_defer = trytond.modules.account_invoice_defer
+    
