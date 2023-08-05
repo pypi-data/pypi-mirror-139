@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+dist/MoreUpdate.egg-info/PKG-INFO
+dist/MoreUpdate.egg-info/SOURCES.txt
+dist/MoreUpdate.egg-info/dependency_links.txt
+dist/MoreUpdate.egg-info/top_level.txt
