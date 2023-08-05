@@ -1,0 +1,12 @@
+snapshot_queries/__init__.py,sha256=Yqa8PUyPJCiQsYNr9RM0dOmXMGkw9OcLgYA_zfApVYA,79
+snapshot_queries/query.py,sha256=Tq8iR594FjtFN8ybgTqVJcQ2eOm7avrKj9nwUm9DpVk,4130
+snapshot_queries/query_list.py,sha256=p00wmdSgxHIaLCjDSlQnDHKVjmXH9CAvjaqRXz9zu1A,7026
+snapshot_queries/sliceable_list.py,sha256=xFLU4Uw0l7gtIRiWMs882s3gh4Ud9z0Fh9czx4hl6AY,706
+snapshot_queries/snapshot_queries.py,sha256=AAWyBAn4IXFZZsPRvdyQC93crHCPhjZtD5Vq01AmL0c,7824
+snapshot_queries/stacktrace.py,sha256=IESLIo6_EysR4XvHFg2QQpx8f8p_wQ9YW8g1O8S41Q0,2492
+snapshot_queries/timedelta.py,sha256=2oHEL2fcUvSNJ7rnMlxn4Geyy5p_AHQ4qVUpgP2bNUY,1363
+snapshot_queries-0.0.1.dist-info/LICENSE.txt,sha256=HQ4PZZwX7iLF5mkZk4cJoO5SwWat907lCG0-JrNFrV4,1044
+snapshot_queries-0.0.1.dist-info/METADATA,sha256=TTjP69SJy-UaVYHqU-Kg5qNeUYVcKCnCXsVghVWEjF0,6888
+snapshot_queries-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snapshot_queries-0.0.1.dist-info/top_level.txt,sha256=XZhGjka5rTE8ZV966EjsxAEvITOAQ9we6DyQ7k-eWL0,17
+snapshot_queries-0.0.1.dist-info/RECORD,,
