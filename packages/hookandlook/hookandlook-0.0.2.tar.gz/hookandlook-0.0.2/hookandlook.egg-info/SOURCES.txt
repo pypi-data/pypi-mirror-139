@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+hookandlook/__init__.py
+hookandlook/hooks.py
+hookandlook/utils.py
+hookandlook/watch.py
+hookandlook.egg-info/PKG-INFO
+hookandlook.egg-info/SOURCES.txt
+hookandlook.egg-info/dependency_links.txt
+hookandlook.egg-info/requires.txt
+hookandlook.egg-info/top_level.txt
