@@ -1,0 +1,6 @@
+dic
+dm
+es
+nlp
+sbert
+uvirun
