@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: FastFlask
+Version: 1.2.2a0
+Summary: Flask的整合包|All Flask-need-package
+Home-page: https://pypi.org/
+Author: CharlesCai
+Author-email: 18222159844@163.com
+Maintainer: 蔡沐含
+Maintainer-email: c6661366613@qq.com
+License: MIT License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3
+
+
+===========
+Install安装
+===========
+
+pip install FastFlask
+
+=======
+Use使用
+=======
+
+from FastFlask.Flask import ...
+
+---------------------------------------
+Very simple, isn't it? 是不是非常简单？
+---------------------------------------
+
+

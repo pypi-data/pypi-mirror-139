@@ -1,0 +1,10 @@
+FastFlask
+click
+colorama
+dataclasses
+flask
+importlib_metadata
+itsdangerous
+markupsafe
+werkzeug
+zipp
