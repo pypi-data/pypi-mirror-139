@@ -1,0 +1,14 @@
+nlpiper/__init__.py,sha256=4EP2fU9si5l4GiqMTA1aMQK24HKKfA57OZMacCWTPsw,15
+nlpiper/core/__init__.py,sha256=v0vSKjFxBW0ZmXiYpPzFKmobwxmHZ24oinxvxI5c0Es,62
+nlpiper/core/composition.py,sha256=Gr63wAEoxUqMCmhUKCcEEUBGmpF13DC1CSe0cNmN_jg,2942
+nlpiper/core/document.py,sha256=IGN8_rU2TAIYj125_qi42bhdGHZaZ4k_qeSbaWe-tkQ,1560
+nlpiper/logger.py,sha256=TDRj7LAtruEJkz388bslNU73ACo6d6SNiiRegDMY8II,51
+nlpiper/transformers/__init__.py,sha256=CyN2kqYDu7dxMzIP66IIdvgdmihBUyvKYz3iA7xAaZY,2489
+nlpiper/transformers/cleaners.py,sha256=67FYPST4lYoSZPiXkz4dy6rYm59CPnR909txxmVjJ_4,8404
+nlpiper/transformers/embeddings.py,sha256=59smAcwerYDhYWL-a9oiQPgCAz0sGPZzCA6vh86gjP8,2883
+nlpiper/transformers/normalizers.py,sha256=Cdoeyws5UyCjw9SSEObANvXDE3MGwN0ya7ycuc1nDYk,11972
+nlpiper/transformers/tokenizers.py,sha256=x8_ALanAKYAoYwKpJy7EeybnF3mxK2UCkufe6zkjL7g,4258
+nlpiper-0.1.0.dist-info/LICENSE,sha256=q9gK6Vs3IKSyC9FpJM8fap9p5FWR7_yg3mWYBbaK_Ms,1071
+nlpiper-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nlpiper-0.1.0.dist-info/METADATA,sha256=UjQutxZE7KymczC5NZYDT3GM71z1O-ynxytcSD-liWQ,10479
+nlpiper-0.1.0.dist-info/RECORD,,
