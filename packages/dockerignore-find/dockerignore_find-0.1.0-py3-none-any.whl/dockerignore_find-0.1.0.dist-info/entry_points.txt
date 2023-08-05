@@ -1,0 +1,3 @@
+[console_scripts]
+dockerignore-find=dockerignore_find:main
+

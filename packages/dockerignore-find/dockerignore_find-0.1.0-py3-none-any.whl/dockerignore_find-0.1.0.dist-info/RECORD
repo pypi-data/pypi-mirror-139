@@ -1,0 +1,5 @@
+dockerignore_find.py,sha256=0SifuOopaqjme9DoUhx0vZuwU0R1ahfaUlbZLkyeZ_g,1570
+dockerignore_find-0.1.0.dist-info/entry_points.txt,sha256=_rz_3TeHIlVJheENt_PIMDve5DRvyoA7cj855pgVBGM,60
+dockerignore_find-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dockerignore_find-0.1.0.dist-info/METADATA,sha256=jdDTn_t-VaT0PTfdbad9X3EozdP9YC001FphWIjj-fY,500
+dockerignore_find-0.1.0.dist-info/RECORD,,
