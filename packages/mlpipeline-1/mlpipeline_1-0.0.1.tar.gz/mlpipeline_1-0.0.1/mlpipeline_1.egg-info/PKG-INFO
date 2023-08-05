@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: mlpipeline-1
+Version: 0.0.1
+Summary: An AutoML library
+Home-page: https://github.com/debjyoti003/ML-Pipeline.git
+Author: Debjyoti Banerjee
+Author-email: debjyoti.banerjee1994@gmail.com
+License: MIT
+Description: Currently it prepares the data ready for a Machine Learning Classification problem. I am soon planning to add other features for Regression problem as well as for Clustering based Problem. My purpose of creating this project is to build an AutoML library, which reduces writing more code to a create a model.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (17/02/2022)
+        --------------------
+        -First Release
+Keywords: AutoML
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
