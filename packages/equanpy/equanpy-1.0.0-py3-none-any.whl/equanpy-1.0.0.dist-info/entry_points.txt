@@ -1,0 +1,3 @@
+[console_scripts]
+equanpy=equanpy.main:cli
+
