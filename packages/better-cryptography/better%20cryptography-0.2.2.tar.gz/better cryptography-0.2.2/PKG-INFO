@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: better cryptography
+Version: 0.2.2
+Summary: A module for encryption and information security operations.
+Home-page: UNKNOWN
+Author: Wyatt Garrioch
+Author-email: w.garrioch456@gmail.com
+License: UNKNOWN
+Keywords: python,encryption,AES,information security
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+# Contents 
+ - `better-cryptography` contains Python scripts for implementing various encryption methods (currently supports Blowfish and AES file encryption and RSA string encryption) and various logging needs.
+
+
+ # FAQ 
+
+  ## How do I install and import the package? 
+  Install through the `pip3 install better-cryptography` command. Import via `import better_cryptography` or `from better_cryptography import ...`
+
+
+  ## How do I report a bug? 
+  Email me at w.garrioch456@gmail.com.
+
+
+
+  # Syntax 
+  
+   - ## Ciphers Class methods
+      - `hash(StringToHash)`
+
+        Takes a string and returns a hex-encoded SHA 256 hash.
+      - `change_encrypting_password(old_password, new_password)`
+
+        Takes 2 arguements, `old_password` and `new_password`, and changes the 
+        class's `password` attribute.
+
+      - `sec_delete(random_fill, null_fill, passes)`
+
+        Takes 3 arguements and securely overwrites and deletes the file.
+        Should be done in conjunction with another secure file deletion protocol.
+        Will not delete files that are not in the `/home/` folder or files that 
+        are hidden.
+
+
+         - `random_fill -> bool`
+           
+           This variable controls random overwrites of the file. Default is True.
+
+          - `null_fill -> bool`
+
+            This variable controls null overwrites of the file. Default is True.
+
+          - `passes -> int`
+
+            This variable controls the amount of times overwrites occur. Default is 35.
+      
+      - `delete(path)`
+        
+        Takes an arguement `path` and deletes the file.
+        Will not delete files not in the `/home/` folder or files that are hidden.
+
+      - ## RSA Methods
+        - `generate_RSA_keys()`
+
+          Returns a RSA key pair in a tuple `(public_key, private_key)`
+        
+        - `RSA_encrypt_str(public_key, string)`
+
+          Takes 2 arguements, a `public key` and the string to be encrypted. 
+          Returns the encrypted string.
+        
+        - `RSA_decrypt_str(private_key, encrypted_str)`
+
+          Takes 2 arguements, a `private key` and an encrypted string.
+          Returns a decrypted string.
+
+      - ## AES Methods
+       
+        - `generate_symmetric_key(salt)`
+        
+          Takes a single argument, `salt`, and returns a symmetric encryption key.
+          If `salt` is not provided, the method generates a random salt and 
+          returns a tuple `(key, salt)`.
+          
+        - `AESencrypt_file(path)`
+          
+           Takes a file path and encrypts with AES using a key generated with a random 
+           salt and the class `password` attribute. Will not encrypt if the file is already encrypted.
+        
+         - `AESdecrypt_file(path)`
+         
+           Takes a file path and decrypts it using the class `password` attribute and the salt written to the file. Will not decrypt if the file was encrypted with a different encryption algorithm, different key, or was already decrypted.
+      
+      - ## Blowfish Methods
+      
+        - `BLOencrypt_file(path)`
+        
+          Takes a file path and encrypts it using the Blowfish algorithm. Will not encrypt if file is already encrypted.
+        
+        - `BLOdecrypt_file(path)`
+        
+          Takes a file path and decrypts it using the Blowfish algorithm. Will not decrypt if the file was encrypted with a different encryption alogrithm, different key, or if the file was already decrypted.
+    
+   - ## Log Class Methods
+
+     - `log_exists()`
+     
+     Checks to see if a `log.log` file exists for the current user. Returns a boolean value.
+       
+     - `create_log()`
+     
+     Creates a `log.log` file for the current user.
+       
+     - `audit(keywords)`
+       
+     Takes a list of keywords and removes lines in the current `log.log` file that contain those keywords.
+       
+     - `log(logstring)`
+       
+     Takes a string to log into the `log.log` file and writes it.
+       
+     - `change_user(new_user)`
+       
+     Changes the class atrribute `username` to the `new_user` parameter.
+
