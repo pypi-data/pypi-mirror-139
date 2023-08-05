@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pythoneconomy
+Version: 0.0.3
+Summary: A Easier way to make a Economic System
+Home-page: https://github.com/ErrorThree/Python-Economy
+Author: ErrorTwo
+Author-email: errortwoo@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ErrorThree/Python-Economy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python-Economy
+  Require to have Python 3.7 \
+  This python package is just to make save files easier.
+
+  To install
+
+    # Windows
+    pip install pythoneconomy
+
+  Example of how to start using it
+
+    from economy import economy
+  
+  To create a folder with a file inside
+
+    from economy import economy
+    economy.bal.start(foldername, filename,   {"Variable": 0})
+
+  If you have any issues: \
+  https://github.com/ErrorThree/Python-Economy/issues
+
+  API Documentation: \
+  Coming Soon
+
+
