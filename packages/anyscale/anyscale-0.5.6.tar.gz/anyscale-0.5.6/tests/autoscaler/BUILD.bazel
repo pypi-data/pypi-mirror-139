@@ -1,0 +1,12 @@
+load(
+    "@py_tests_deps//:requirements.bzl",
+    "requirement",
+)
+load("//bazel:python.bzl", "py_test_with_shim")
+
+py_test_with_shim(
+    name = "test_node_provider",
+    size = "medium",
+    srcs = ["test_node_provider.py"],
+    deps = [requirement("pytest")],
+)

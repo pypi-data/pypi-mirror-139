@@ -1,0 +1,127 @@
+load(
+    "@py_tests_deps//:requirements.bzl",
+    "requirement",
+)
+load("@rules_python//python:defs.bzl", "py_library")
+load("//bazel:python.bzl", "py_test_with_shim")
+
+py_library(
+    name = "test_helper_files",
+    srcs = ["conftest.py"],
+    visibility = ["//visibility:public"],
+)
+
+py_test_with_shim(
+    name = "test_auth_proxy",
+    size = "medium",
+    srcs = ["test_auth_proxy.py"],
+    deps = [requirement("pytest")],
+)
+
+py_test_with_shim(
+    name = "test_authenticate",
+    size = "medium",
+    srcs = ["test_authenticate.py"],
+    deps = [requirement("pytest")],
+)
+
+py_test_with_shim(
+    name = "test_cli_logger",
+    size = "medium",
+    srcs = ["test_cli_logger.py"],
+    deps = [requirement("pytest")],
+)
+
+py_test_with_shim(
+    name = "test_cli_utils",
+    size = "medium",
+    srcs = ["test_cli_utils.py"],
+    deps = [
+        ":test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_cloud",
+    size = "medium",
+    srcs = ["test_cloud.py"],
+    deps = [
+        ":test_helper_files",
+        "//:anyscale_cli",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_cluster",
+    size = "medium",
+    srcs = ["test_cluster.py"],
+    deps = [requirement("pytest")],
+)
+
+py_test_with_shim(
+    name = "test_cluster_compute",
+    size = "medium",
+    srcs = ["test_cluster_compute.py"],
+    deps = ["//:product_backend"],
+)
+
+py_test_with_shim(
+    name = "test_cluster_config",
+    size = "medium",
+    srcs = ["test_cluster_config.py"],
+    deps = [
+        ":test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_cluster_env",
+    size = "medium",
+    srcs = ["test_cluster_env.py"],
+    deps = [requirement("pytest")],
+)
+
+py_test_with_shim(
+    name = "test_connect",
+    size = "medium",
+    srcs = ["test_connect.py"],
+    deps = [
+        ":test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_project",
+    size = "medium",
+    srcs = ["test_project.py"],
+    deps = [
+        ":test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_ray_version_checker",
+    size = "medium",
+    srcs = ["test_ray_version_checker.py"],
+    deps = [requirement("pytest")],
+)
+
+py_test_with_shim(
+    name = "test_runtime_env",
+    size = "medium",
+    srcs = ["test_runtime_env.py"],
+    deps = [
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_util",
+    size = "medium",
+    srcs = ["test_util.py"],
+)
