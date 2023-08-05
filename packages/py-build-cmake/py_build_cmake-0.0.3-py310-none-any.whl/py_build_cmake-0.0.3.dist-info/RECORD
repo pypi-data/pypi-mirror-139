@@ -1,0 +1,11 @@
+py_build_cmake/__init__.py,sha256=U2ZaTVcrE39QOsNB0q6sBOzs2jzPPa3cPe-jN_FfqlM,133
+py_build_cmake/build.py,sha256=pXiwFsv2qrLTFlai-jm1jdmqeZqj2jcj-O9YEORhCWM,20032
+py_build_cmake/config.py,sha256=n2RaUxfS5OTj9N_w0nxqTBjkbgXuta434ImTvrSVIdA,5539
+py_build_cmake/config_options.py,sha256=UgNPeadjAHy33FK2X6SfyD__dlTQt15oqqRUPx_KlK8,23680
+py_build_cmake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_build_cmake/pyproject_options.py,sha256=kdN0hPIqesXaczs42rv7-QBb7-p2yqk-LtMn5PBaZoU,11529
+py_build_cmake/help/__main__.py,sha256=l45daMJrVJTj8IQwcdrOq0Nu2zpyZZXD3QJZuOapUWw,5455
+py_build_cmake-0.0.3.dist-info/LICENSE,sha256=T7wkvOO02x9swvvSBDKrk6jmiMwgxH24zT9kUJPxJDM,1065
+py_build_cmake-0.0.3.dist-info/METADATA,sha256=YjXyyqGCyC10b2_altrSrJZj18GulF9v5PkaaOxaISU,4807
+py_build_cmake-0.0.3.dist-info/WHEEL,sha256=rE7iguTMJF8qDCcdQFy_LepDshJgwz8TmO5d2OXjEdk,85
+py_build_cmake-0.0.3.dist-info/RECORD,,
