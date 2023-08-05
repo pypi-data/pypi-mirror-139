@@ -1,0 +1,2 @@
+- simplify draw
+- rm np
