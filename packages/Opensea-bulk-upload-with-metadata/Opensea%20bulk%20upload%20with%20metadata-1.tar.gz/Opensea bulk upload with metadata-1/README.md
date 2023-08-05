@@ -1,0 +1,7 @@
+<h1></h1>
+<p>
+<p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://payhip.com/b/dXjJe" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" data-original-height="486" data-original-width="909" height="342" src="https://blogger.googleusercontent.com/img/a/AVvXsEhqHu_qqmzzFlw8txmFJtOiJwIrw7u4JsZMLPv1zJhhlEcg9A1RFTp6kubQnlsIksKPHT-YqE-dL3gNovXw_aJGpiaCvDTAo0DdUAmeUmE1JGMRQXdIJCqT0uSapfV5xa6p_qhE_CeUWZZlWT1cI6pOhumgDWEAX54JSK899xMLt5V8GXbZo-tFi97T=w640-h342" width="640" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://payhip.com/b/dXjJe" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" data-original-height="122" data-original-width="413" height="119" src="https://blogger.googleusercontent.com/img/a/AVvXsEiqcQhZeVqzOzDqR5g9VKZPndwAWe5pavGcxLPe3LqQxYAIXlJEzZBCghkZaIt1xqrUzjNRCS7th1b94vxWi-dL1Q8wnqO6Xfv3Qhvax5N0kkiO7ecCAIkpypQqj7DFkQ4w9c_jbyTK0QaYFGpt84IPj2VM7kpToqjymhWR6Lur4Sfa5J6scGGU9z_v=w400-h119" width="400" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"><br /></div><br /><div class="separator" style="clear: both; text-align: center;"><br /></div><br /><p></p>
+
+# Opensea bulk upload with metadata
+```bash
+pip3 Opensea bulk upload with metadata
