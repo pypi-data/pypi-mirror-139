@@ -1,0 +1,11 @@
+pink/__init__.py,sha256=8YUTDX0b6hy-cxFwKJBVJS0ZxlZ-OXfyPWRUJKnB7og,914
+pink/checks.py,sha256=uAtGuTlrAPxMVKrLZ-Dh0rW6UFxj93muuyDBRPPn4PY,923
+pink/limits.py,sha256=mLjP73emLgKfjbWzk4xIWWuu1pnYVPbMhrlV73wHCB4,1025
+pink/solve_ik.py,sha256=YKu-POj7aTMSDGNLQ3rSDFU0gf4zl8iHtXBoqfeTLoA,3976
+pink/tasks/__init__.py,sha256=kPjKExysSuaArlFzjUAT9dts3GQ5OjVeb-fges-6YjE,826
+pink/tasks/task.py,sha256=TOFvObYsVjU5bQqzHpqHhhx_PSupnrN-8Y55Nc4RJoM,3813
+pink/tasks/utils.py,sha256=NZNSxdgoxctN9LoL92ohZ8lGylZ-GRIYhiZs336MS74,5670
+pin_pink-0.1.0rc1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pin_pink-0.1.0rc1.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+pin_pink-0.1.0rc1.dist-info/METADATA,sha256=hgLYCc5mRoX0mrmGQ9OHQNLXknXG21VhBD-mopH5i1g,2814
+pin_pink-0.1.0rc1.dist-info/RECORD,,
