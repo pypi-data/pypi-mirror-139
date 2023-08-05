@@ -1,0 +1,10 @@
+ayx\_python\_sdk.providers.amp\_provider.resources package
+==========================================================
+
+Module contents
+---------------
+
+.. automodule:: ayx_python_sdk.providers.amp_provider.resources
+   :members:
+   :undoc-members:
+   :show-inheritance:
