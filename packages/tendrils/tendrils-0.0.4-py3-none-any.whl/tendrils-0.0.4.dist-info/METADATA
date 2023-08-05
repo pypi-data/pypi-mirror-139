@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tendrils
+Version: 0.0.4
+Summary: (Cosmic) Tendrils is the generic API for (cosmic) FLOWS project and pipeline.
+Author-email: Emir Karamehmetoglu <emirkmo@github.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: requests
+Requires-Dist: astropy>=2.3.1
+Requires-Dist: numpy>=1.19.1
+Requires-Dist: tqdm
+Project-URL: Home, https://github.com/SNFLOWS/tendrils
+
+# tendrils
+Cosmic tendrils is the API for both FLOWS pipeline and project. 
+
