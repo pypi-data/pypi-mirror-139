@@ -1,0 +1,13 @@
+certifi
+charset-normalizer
+fastavro
+idna
+networkx
+numpy
+pandas
+pulsar-client==2.8.0.post0
+python-dateutil
+pytz
+requests
+six
+urllib3
