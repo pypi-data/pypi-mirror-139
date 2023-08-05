@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: fuzzdict
+Version: 0.0.1
+Summary: A Python dictionary with fuzzy-matched keys.
+Home-page: UNKNOWN
+Author: Davide Di Grande
+Author-email: davidedigrande94@gmail.com
+License: UNKNOWN
+Description: 
+        FuzDict is a simple python dictionary that implements Fuzzy Logic as a way to match keys.
+        This implies that suitable values for creating keys are only of string type.
+        It also implies that at any time, the dictionary cannot have two or more similar strings, which means in turn that the input order matters.
+        
+Keywords: python
+Platform: UNKNOWN

@@ -1,0 +1,9 @@
+README.md
+setup.py
+fuzzdict/__init__.py
+fuzzdict/fuzzdict.py
+fuzzdict.egg-info/PKG-INFO
+fuzzdict.egg-info/SOURCES.txt
+fuzzdict.egg-info/dependency_links.txt
+fuzzdict.egg-info/requires.txt
+fuzzdict.egg-info/top_level.txt
