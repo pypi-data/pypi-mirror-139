@@ -1,0 +1,4 @@
+[console_scripts]
+HectorController = Hector9000.HectorController:main
+HectorServer = Hector9000.HectorServer:main
+LEDStripServer = Hector9000.LEDStripServer:main
