@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ParallelLinear_CraigR8806.egg-info/PKG-INFO
+src/ParallelLinear_CraigR8806.egg-info/SOURCES.txt
+src/ParallelLinear_CraigR8806.egg-info/dependency_links.txt
+src/ParallelLinear_CraigR8806.egg-info/top_level.txt
+src/parallellinear/__init__.py
+src/parallellinear/calculations/ParallelLinear.py
+src/parallellinear/calculations/__init__.py
+src/parallellinear/datatypes/PLMatrix.py
+src/parallellinear/datatypes/PLVector.py
+src/parallellinear/datatypes/__init__.py

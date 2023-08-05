@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ParallelLinear-CraigR8806
+Version: 0.0.3
+Summary: Linear Maths library using pyopencl
+Home-page: https://github.com/CraigR8806/ParallelLinear
+Author: Craig Ramage
+Author-email: craig@craigramage.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CraigR8806/ParallelLinear/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a linear maths library that utilizes pyopencl to send calculations to the GPU. 
+It is intended to be used as an underlying library for ML libraries, or graphics engine libraries
+
+
