@@ -1,0 +1,16 @@
+kwplot/__init__.py,sha256=OvFO25ocTBe-uInGXvhVbKyEZmHRSKOC2kRTCP6GbOo,1695
+kwplot/__main__.py,sha256=R44wBji5s5KgthFlKx5pn80XDO3nC1MbA_-cvPQX_KI,755
+kwplot/auto_backends.py,sha256=GSdfq2MD-XORpNJS98mqMf23Dx6PPy6QxnFFKOTuIVQ,13230
+kwplot/draw_conv.py,sha256=x6Fz1jZRwHDLck1UUBeb-mL-RhwjVnRRyNDOfiGOXlM,12482
+kwplot/mpl_3d.py,sha256=mbj6-wGjMTPGlbTEMdmyAbfj7Zlf32m743Be7W5PE3E,3665
+kwplot/mpl_color.py,sha256=0XM83PpQ4sJ8YbVPtQmBiN3hckPIdMhQeKUHXip3Otk,4468
+kwplot/mpl_core.py,sha256=ENxBCBd8r94jEy6o8l3LRf6FkDIxr-16rhHMlO9d0pU,23073
+kwplot/mpl_draw.py,sha256=vdKFAh-ex0ZKMpVDtRg49xefwzvT1_5vy-TAHDh-0IA,12522
+kwplot/mpl_make.py,sha256=lMUUpDItZ_kTIOSXyHFem0qmZKGhHtGJ9Ws-3PWSpns,7489
+kwplot/mpl_multiplot.py,sha256=hvQtp8SZnlcfhUzIFz4fmwdZ4EJf3Ky-SCApDebJEsY,29772
+kwplot/mpl_plotnums.py,sha256=2LZy4-VTPnpQpZHyqBq8MtdvrMXtUlFQvugR_CLkxGU,6215
+kwplot-0.4.11.dist-info/METADATA,sha256=PEWzKIY3Zy_mqizBw_y9fbpCYdb_9S8P5hWMJqQl8j0,9472
+kwplot-0.4.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kwplot-0.4.11.dist-info/entry_points.txt,sha256=dAy01yexv7akAIN-TU4kILbuXIoDBTirPEaQwW6tLOM,49
+kwplot-0.4.11.dist-info/top_level.txt,sha256=Rk-9ZyY0zItConZnOEDOJzbqL4x3DPGdARfSAwQ6s8A,7
+kwplot-0.4.11.dist-info/RECORD,,
