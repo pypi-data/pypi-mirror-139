@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: qovery
+Version: 1.0.0
+Summary: Qovery API
+Home-page: 
+Author: Qovery Product Team
+Author-email: support+api+documentation@qovery.com
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Qovery API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+    - Qovery is the fastest way to deploy your full-stack apps on any Cloud provider. - ℹ️ The API is stable and still in development.   # noqa: E501
+    
+
