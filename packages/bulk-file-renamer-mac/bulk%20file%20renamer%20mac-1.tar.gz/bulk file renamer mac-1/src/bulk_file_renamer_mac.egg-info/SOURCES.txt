@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/bulk_file_renamer_mac.egg-info/PKG-INFO
+src/bulk_file_renamer_mac.egg-info/SOURCES.txt
+src/bulk_file_renamer_mac.egg-info/dependency_links.txt
+src/bulk_file_renamer_mac.egg-info/top_level.txt
