@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gwaslab.egg-info/PKG-INFO
+src/gwaslab.egg-info/SOURCES.txt
+src/gwaslab.egg-info/dependency_links.txt
+src/gwaslab.egg-info/top_level.txt
