@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "imagica"
+version = "0.1.0"
+description = "A package to help with image processing"
+authors = ["MagicalLiebe <magical.liebe@gmail.com>"]
+homepage = "https://github.com/MagicalLiebe"
+repository = "https://github.com/MagicalLiebe/imagica"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.5.5"
+Pillow = "^9.0.1"
+
+[tool.poetry.dev-dependencies]
+toml = "^0.10.2"
+types-toml = "^0.10.4"
+taskipy = "^1.10.1"
+pysen = "^0.10.1"
+black = "^22.1.0"
+flake8 = "^4.0.1"
+flake8-isort = "^4.1.1"
+flake8-mypy = "^17.8.0"
+flake8-annotations = "^2.7.0"
+flake8-docstrings = "^1.6.0"
+isort = "^5.10.1"
+mypy = "^0.931"
+pytest = "^7.0"
+pytest-sugar = "^0.9.4"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+lint = "MYPYPATH='imagica,tests' pysen run lint"
+fix = "pysen run format"
+test = "pytest -v --cov imagica --cov-report term-missing"
+
+[tool.pysen]
+version = "0.10"
+
+[tool.pysen.lint]
+py_version = "py39"
+enable_black = true
+enable_flake8 = true
+enable_isort = true
+enable_mypy = true
+mypy_preset = "strict"
+line_length = 120
+isort_known_first_party = ["imagica"]
+[[tool.pysen.lint.mypy_targets]]
+  paths = ["./imagica/", "./tests/"]
+
+[tool.pysen.lint.source]
+  excludes = ["build/", "dist/", ".venv/"]
