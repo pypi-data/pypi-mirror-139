@@ -1,0 +1,2 @@
+This library contains patched packages for specific graphene_django, graphql_jwt and jwt versions to work with python 3.9.
+These packages are lower versions which are which are outdated on version 3.9 of python
