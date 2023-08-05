@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+kustopy/KustoPyClient.py
+kustopy/__init__.py
+kustopy.egg-info/PKG-INFO
+kustopy.egg-info/PKG-INFO-CH3076503W2
+kustopy.egg-info/SOURCES.txt
+kustopy.egg-info/dependency_links.txt
+kustopy.egg-info/entry_points.txt
+kustopy.egg-info/requires.txt
+kustopy.egg-info/top_level.txt
