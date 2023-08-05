@@ -1,0 +1,10 @@
+djangoldp_stripe/__init__.py,sha256=VprPkNKi9Pf-j6ss54cQ_piGhANsr4yx-x8qAv4Kh4E,48
+djangoldp_stripe/apps.py,sha256=agZn30P5u9EUHZIjMf15erA9_8DNeQdMPFLnjOATfHk,190
+djangoldp_stripe/djangoldp_settings.py,sha256=QoPK5pQmo8XeHRGQrX0AE_J6wtO54eI9G5jvH7FKy-8,920
+djangoldp_stripe/djangoldp_urls.py,sha256=8xMvsi9hr6-QPvEGie1N0NuPboJlNp15HRPIP77U0nw,518
+djangoldp_stripe/permissions.py,sha256=FhAWLzxh4O1WVEcrXhgW7TGIr90XZ_6snOB6PKyY8jY,2363
+djangoldp_stripe/views.py,sha256=Yed_yPOk9J-TWZA3sB-3Tx0XRxxFfZBgEWS4_-qhsA4,2218
+djangoldp_stripe-0.0.3.dist-info/METADATA,sha256=Gw4hZvMFp0d36ZzPMJusvCYLrg18VmbkS5M0rqzoBGA,3890
+djangoldp_stripe-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+djangoldp_stripe-0.0.3.dist-info/top_level.txt,sha256=DqX85pZ_n4cH1E5uNuwTcfB4RY_FiEefC-xo4y5L7PM,17
+djangoldp_stripe-0.0.3.dist-info/RECORD,,
