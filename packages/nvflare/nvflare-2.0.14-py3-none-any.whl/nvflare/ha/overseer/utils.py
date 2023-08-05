@@ -1,0 +1,90 @@
+import os
+import uuid
+
+from datetime import datetime, timedelta
+
+OVERSEER_STORE = os.environ.get("OVERSEER_STORE")
+OVERSEER_STORE = "REDIS"
+if OVERSEER_STORE == "REDIS":
+    from .redis_store import get_all_sp, get_primary_sp, get_sp_by, update_sp, do_refresh
+elif OVERSEER_STORE == "SQL":
+    from .sql_store import get_all_sp, get_primary_sp, get_sp_by, update_sp, do_refresh
+elif OVERSEER_STORE == "MEM":
+    from .mem_store import get_all_sp, get_primary_sp, get_sp_by, update_sp, do_refresh
+else:
+    print("Using default STORE (MEM)")
+    from .mem_store import get_all_sp, get_primary_sp, get_sp_by, update_sp, do_refresh
+
+
+def update_sp_state(project, now, heartbeat_timeout=8):
+    valid_starting = now - timedelta(seconds=heartbeat_timeout)
+    # mark all late SP as offline and not primary
+    # print(f"{now=} {valid_starting=}")
+    for sp in get_all_sp(project):
+        if datetime.fromisoformat(sp["last_heartbeat"]) < valid_starting:
+            sp["state"] = "offline"
+            sp["primary"] = False
+        else:
+            sp["state"] = "online"
+        update_sp(sp)
+
+
+def simple_PSP_policy(incoming_sp, now):
+    """Find the primary SP (PSP).
+
+    If there is no PSP or current PSP timeout, choose one without heartbeat timeout.
+    """
+    project = incoming_sp["project"]
+    sp = get_sp_by(dict(project=project, sp_end_point=incoming_sp["sp_end_point"]))
+    if sp:
+        sp["last_heartbeat"] = now.isoformat()
+        update_sp(sp)
+    else:
+        update_sp(
+            dict(
+                project=incoming_sp["project"],
+                sp_end_point=incoming_sp["sp_end_point"],
+                last_heartbeat=now.isoformat(),
+                state="online",
+                primary=False,
+            )
+        )
+
+    psp = get_primary_sp(project)
+    if not psp:
+        psp = get_sp_by(dict(state="online"))
+        if psp:
+            print(f"{psp['sp_end_point']} online")
+            psp["primary"] = True
+            psp["service_session_id"] = str(uuid.uuid4())
+            update_sp(psp)
+
+    return psp
+
+
+def promote_sp(sp):
+    psp = get_sp_by(sp)
+    project = sp["project"]
+    sp_end_point = sp["sp_end_point"]
+    if psp and psp["state"] == "online":
+        current_psp = get_primary_sp(project)
+        matching = [
+            (
+                current_psp[k],
+                v,
+            )
+            for k, v in sp.items()
+        ]
+        print(matching)
+        if all(current_psp[k] == v for k, v in sp.items()):
+            return True, f"Same sp_end_point, no need to promote {sp_end_point}."
+        psp["primary"] = True
+        current_psp["primary"] = False
+        psp["service_session_id"] = str(uuid.uuid4())
+        print(f"{psp['sp_end_point']} promoted")
+        print(f"{current_psp['sp_end_point']} demoted")
+        update_sp(psp)
+        update_sp(current_psp)
+        return False, psp
+    else:
+        return True, f"Unable to promot {sp_end_point}, either offline or not registered."
