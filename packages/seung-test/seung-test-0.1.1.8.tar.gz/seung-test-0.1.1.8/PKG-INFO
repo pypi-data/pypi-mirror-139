@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: seung-test
+Version: 0.1.1.8
+Summary: This package is a Python script for deploying and configuring NSX-T TESTLAB. Made by seungwang.
+Home-page: UNKNOWN
+Author: Seung Wang Kim
+Author-email: seungwangkim@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
