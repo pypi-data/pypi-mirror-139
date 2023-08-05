@@ -1,0 +1,57 @@
+# Mon(itor)Eater
+
+Program for consuming monitoring data, transforming them and uploading the results to InfluxDB.
+
+The main program, `moneater`, reads the input on standard output and passes it to a custom parser called the eater.  The eater is a, potentially user-written, Python class with a pre-defined interface. After parsing the input text line, the eater returns zero or more data points that will be then sent to InfluxDB.
+
+The timestamp uploaded with each record 
+
+
+Example usage:
+```shell
+program_with_output | ./moneater.py --host localhost --database mydb --table=program_data --tag location=berkeley --tag operator=kk ProgramEater
+```
+or
+```shell
+program_with_output > program.out
+tail -f program.out | ./moneater.py --host localhost --database mydb --table=program_data --tag location=berkeley --tag operator=kk ProgramEater
+```
+# Eater Interface
+The eater is a Python class with the following interface. It does not have to be called `Eater`.
+```python
+class Eater:
+  def __init__(self):
+    """ Initialize any required tools or member variables """
+    pass
+  def parse_line(self,line):
+    """ Parse line and return any data points for sending to InfluxDB.
+    Return value:
+    None - No new data will be uploaded
+    Dictionary (or list of dictionaries) - points to be upload
+
+	The dictionary can have either of of the following formats. The format
+	is determined by checking for the special `fields` key.
+	
+	Format 1: key-value definition of a single point, multiple if returned as list of dictionaries
+	In this case, the time is taken as the time when the input line was received.
+	`{'field1':value1,'field2':value2}`
+
+	Format 2: Also can be returned as a list for multiple points.
+	`{'time':timestamp, 'fields': format1-definition-of-fields-for-point}`
+    """
+    # Parse input line into data
+    return data
+```
+
+The name of the desired eater is passed to the `moneater.py` program in the command line as the path in a module. If you define a `ProgramEater` inside `mypackage.py`,  then run `moneater.py mypackage.ProgramEater`.
+
+## Existing Eaters
+The following eaters are shipped with MonEater.
+
+- `eaters.tabeater.TabEater` Input format is tab-separate columns with the first row being the field names. For example:
+```
+Column1	Column2
+0	0.123
+1	0.5546
+2	0.245
+```

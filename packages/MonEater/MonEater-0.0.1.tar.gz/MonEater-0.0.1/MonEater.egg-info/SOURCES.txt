@@ -1,0 +1,11 @@
+README.md
+moneater.py
+setup.py
+MonEater.egg-info/PKG-INFO
+MonEater.egg-info/SOURCES.txt
+MonEater.egg-info/dependency_links.txt
+MonEater.egg-info/requires.txt
+MonEater.egg-info/top_level.txt
+eaters/CO2200.py
+eaters/__init__.py
+eaters/tabeater.py
