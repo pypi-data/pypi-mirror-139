@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: md2jira
+Version: 1.0.1
+Summary: Markdown to jira
+Home-page: https://pypi.org/project/md2jira
+License: MIT
+Author: Danil Akhtarov
+Author-email: daxartio@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mistletoe (>=0.8.2,<0.9.0)
+Project-URL: Repository, https://github.com/daxartio/md2jira
+Description-Content-Type: text/markdown
+
+# md2jira
+
+[![PyPI](https://img.shields.io/pypi/v/md2jira)](https://pypi.org/project/md2jira/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/md2jira)](https://www.python.org/downloads/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/daxartio/md2jira)](https://github.com/daxartio/md2jira)
+[![GitHub stars](https://img.shields.io/github/stars/daxartio/md2jira?style=social)](https://github.com/daxartio/md2jira)
+
+```
+pip install md2jira
+```
+
+## Contributing
+
+[Contributing](CONTRIBUTING.md)
+
