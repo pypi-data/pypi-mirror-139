@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+dside/__init__.py
+dside/ds3D.py
+dside.egg-info/PKG-INFO
+dside.egg-info/SOURCES.txt
+dside.egg-info/dependency_links.txt
+dside.egg-info/top_level.txt
