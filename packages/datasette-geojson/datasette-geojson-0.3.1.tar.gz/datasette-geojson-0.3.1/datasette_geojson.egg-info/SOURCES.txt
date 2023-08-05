@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_geojson/__init__.py
+datasette_geojson.egg-info/PKG-INFO
+datasette_geojson.egg-info/SOURCES.txt
+datasette_geojson.egg-info/dependency_links.txt
+datasette_geojson.egg-info/entry_points.txt
+datasette_geojson.egg-info/requires.txt
+datasette_geojson.egg-info/top_level.txt
