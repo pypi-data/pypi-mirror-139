@@ -1,0 +1,3 @@
+[console_scripts]
+rains = rains.console_rains:main
+
