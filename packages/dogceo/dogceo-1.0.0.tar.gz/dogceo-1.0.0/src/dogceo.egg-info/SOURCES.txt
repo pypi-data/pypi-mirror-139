@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/dogceo/__init__.py
+src/dogceo/dogapi.py
+src/dogceo.egg-info/PKG-INFO
+src/dogceo.egg-info/SOURCES.txt
+src/dogceo.egg-info/dependency_links.txt
+src/dogceo.egg-info/top_level.txt
