@@ -1,0 +1,13 @@
+pgraphdb
+parsec
+rdflib
+pandas
+biopython
+tqdm
+xlrd
+termcolor
+requests
+click
+pyyaml
+smof
+flutile
