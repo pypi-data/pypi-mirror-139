@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: radish-router
+Version: 0.1.1
+Summary: RadixTree implementation in python 3.10
+License: MIT
+Author: cheetahbyte
+Author-email: bernerdoodle@outlook.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
