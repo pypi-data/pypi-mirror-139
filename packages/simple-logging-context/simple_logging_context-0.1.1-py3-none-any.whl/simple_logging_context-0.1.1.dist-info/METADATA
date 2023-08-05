@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: simple-logging-context
+Version: 0.1.1
+Summary: 
+Author: Christian Hartung
+Author-email: hartung@live.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
