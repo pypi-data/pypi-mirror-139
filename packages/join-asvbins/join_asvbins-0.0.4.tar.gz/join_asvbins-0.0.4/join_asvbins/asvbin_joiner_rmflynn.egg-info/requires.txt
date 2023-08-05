@@ -1,0 +1,4 @@
+scikit-bio
+pandas
+numpy
+snakemake
