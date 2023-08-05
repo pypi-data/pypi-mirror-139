@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+flightclient/__init__.py
+flightclient/core.py
+flightclient/helpers.py
+flightclient.egg-info/PKG-INFO
+flightclient.egg-info/SOURCES.txt
+flightclient.egg-info/dependency_links.txt
+flightclient.egg-info/not-zip-safe
+flightclient.egg-info/requires.txt
+flightclient.egg-info/top_level.txt
