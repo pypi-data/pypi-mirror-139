@@ -1,0 +1,3 @@
+[console_scripts]
+cricket_cookie = cricket_cookie.cli.__main__:main
+
