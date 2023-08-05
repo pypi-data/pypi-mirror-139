@@ -1,0 +1,6 @@
+[console_scripts]
+rfhistoric2 = robotframework_historic2.app:main
+rfhistoricparser2 = robotframework_historic2.parserargs:main
+rfhistoricreparser2 = robotframework_historic2.reparserargs:main
+rfhistoricsetup2 = robotframework_historic2.setupargs:main
+
