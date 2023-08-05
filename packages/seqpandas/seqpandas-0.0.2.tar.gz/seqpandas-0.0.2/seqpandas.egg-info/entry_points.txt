@@ -1,0 +1,2 @@
+[console_scripts]
+seqpandas = seqpandas.cli:main
