@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ajenti.plugin.services
+Version: 0.32
+Summary: Services
+Home-page: https://ajenti.org
+Author: Ajenti project
+Author-email: e@ajenti.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+
+A Services plugin for Ajenti panel
+
