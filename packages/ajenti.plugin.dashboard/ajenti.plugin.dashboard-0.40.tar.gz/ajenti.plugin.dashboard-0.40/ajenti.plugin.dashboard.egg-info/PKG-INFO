@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ajenti.plugin.dashboard
+Version: 0.40
+Summary: Dashboard
+Home-page: https://ajenti.org
+Author: Ajenti project
+Author-email: e@ajenti.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+
+A Dashboard plugin for Ajenti panel
+
