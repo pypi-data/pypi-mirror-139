@@ -1,0 +1,10 @@
+README.md
+flask_mail_template_tester.py
+setup.py
+flask_mail_template_tester.egg-info/PKG-INFO
+flask_mail_template_tester.egg-info/SOURCES.txt
+flask_mail_template_tester.egg-info/dependency_links.txt
+flask_mail_template_tester.egg-info/entry_points.txt
+flask_mail_template_tester.egg-info/not-zip-safe
+flask_mail_template_tester.egg-info/requires.txt
+flask_mail_template_tester.egg-info/top_level.txt
