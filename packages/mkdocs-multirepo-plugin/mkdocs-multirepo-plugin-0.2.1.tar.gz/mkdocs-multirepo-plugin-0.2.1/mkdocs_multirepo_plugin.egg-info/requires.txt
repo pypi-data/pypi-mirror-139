@@ -1,0 +1,6 @@
+mkdocs>=1.0.4
+asyncio
+
+[test]
+pytest>=4.0
+pytest-cov
