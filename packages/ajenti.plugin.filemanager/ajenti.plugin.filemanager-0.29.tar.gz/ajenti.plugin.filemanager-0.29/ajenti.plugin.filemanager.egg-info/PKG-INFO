@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ajenti.plugin.filemanager
+Version: 0.29
+Summary: File Manager
+Home-page: https://ajenti.org
+Author: Ajenti project
+Author-email: e@ajenti.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+
+A File Manager plugin for Ajenti panel
+
