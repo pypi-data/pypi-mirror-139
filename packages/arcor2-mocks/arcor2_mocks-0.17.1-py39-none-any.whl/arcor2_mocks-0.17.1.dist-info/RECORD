@@ -1,0 +1,12 @@
+arcor2_mocks/VERSION,sha256=JseEZJ6kENpfLu-fndiGRjYpJg29hL0EzHnBnCewFGA,6
+arcor2_mocks/__init__.py,sha256=clDaqIYiQUhxlUhML8TVUzvvh-pZq-5jyHxZWV5Cdxs,351
+arcor2_mocks/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcor2_mocks/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcor2_mocks/scripts/mock_project.py,sha256=YaMEVRcepnN3zybNbClGrreTM86G_U6L4826N-QDijI,25647
+arcor2_mocks/scripts/mock_scene.py,sha256=na_Z1l2jMHzLxn0sLy4jzffihsZOqGSmJnbbDJWuFUw,14623
+arcor2_mocks-0.17.1.dist-info/METADATA,sha256=VaW9_HXT2k2z5GjDf8b6F_0YJAm1UxZF9Bjws6SJaz4,3437
+arcor2_mocks-0.17.1.dist-info/WHEEL,sha256=ZvcC9yJ-3jt0s3Z9GqWdFU0zAv0WwFaltzmW3pHC9do,93
+arcor2_mocks-0.17.1.dist-info/entry_points.txt,sha256=Qz5wnIuYZF3-J1fMRMlFHhPy2QwIQ1yc4n7ASBmxEY8,137
+arcor2_mocks-0.17.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arcor2_mocks-0.17.1.dist-info/top_level.txt,sha256=ZkA4Ftv4YtJZ8tXrto55daearqm1hJsLxEykdpdkUdE,13
+arcor2_mocks-0.17.1.dist-info/RECORD,,
