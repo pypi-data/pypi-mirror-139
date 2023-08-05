@@ -1,0 +1,18 @@
+def add_values(a,b):
+    return a+b
+def sub_values(a,b):
+    return a-b
+def mul_values(a,b):
+    return a*b
+def div_values(a,b):
+    return a/b
+def mod_values(a,b):
+    return a%b
+def pow_values(a,b):
+    return a**b
+def sqrt_values(a):
+    return a**(1/2)
+def log_values(a):
+    return a**(1/2)
+def ln_values(a):
+    return a**(1/2)
