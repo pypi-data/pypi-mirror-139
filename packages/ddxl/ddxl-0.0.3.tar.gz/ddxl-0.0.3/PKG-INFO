@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ddxl
+Version: 0.0.3
+Summary: DDXL
+Home-page: https://github.com/LcsH0s/ddxl
+Author: LcsH0s
+Author-email: decastro@et.esiea.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+# DDXM
+
+WIP
+
+
