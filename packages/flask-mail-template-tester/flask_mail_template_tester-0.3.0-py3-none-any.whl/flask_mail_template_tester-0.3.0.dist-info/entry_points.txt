@@ -1,0 +1,3 @@
+[flask.commands]
+template-test = flask_mail_template_tester:test_template
+
