@@ -1,0 +1,7 @@
+numpy~=1.21
+scikit-learn~=1.0
+
+[build]
+pytest
+pytest-cov
+pytest-sugar
