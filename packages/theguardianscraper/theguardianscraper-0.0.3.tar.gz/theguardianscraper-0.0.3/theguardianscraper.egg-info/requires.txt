@@ -1,0 +1,16 @@
+pip
+packaging
+nbconvert==5.6.1
+requests_html
+beautifulsoup4
+dnspython
+regex
+numpy
+pandas
+times
+dateparser
+mongoengine==0.23.1
+pymongo==3.12.3
+toml
+
+[dev]
