@@ -1,0 +1,30 @@
+Source: funing
+Maintainer: larryw3i <larryw3i@163.com>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.1
+Homepage: https://github.com/larryw3i/Funing
+
+Package: python3-funing
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: A face recognition gui
+ # Funing
+ ```python
+ install_requires=[
+     # If you use Windows, Visual Studio is required.
+     'opencv-contrib-python >= 4.5.3.56',
+     'PyYAML >= 5.3.1',
+     'Pillow >= 8.3.0',
+     'numpy >= 1.20.3',
+     'appdirs >= 1.4.3',
+     'pygubu >= 0.16'
+ ]
+ ```
+ a **simple** face recognition GUI, try it just type:  
+ ```bash
+ pip3 install funing; funing
+ ```
+ .
+

@@ -1,0 +1,23 @@
+
+global-include * *.mo
+
+recursive-include funing config.example.yml
+recursive-include docs *
+recursive-include requirements product.txt
+
+exclude funing.py
+exclude funing.sh
+exclude requirements.txt
+
+prune funing/dev_req/
+prune funing/.home/
+prune venv/
+prune tests/
+prune .git/
+prune funing.build/
+prune .cp/
+
+global-exclude *.po
+global-exclude *.pot
+global-exclude *.pyc
+global-exclude *~
