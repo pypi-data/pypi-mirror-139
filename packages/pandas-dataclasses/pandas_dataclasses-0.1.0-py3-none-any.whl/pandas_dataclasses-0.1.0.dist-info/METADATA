@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pandas-dataclasses
+Version: 0.1.0
+Summary: pandas extension for typed Series and DataFrame creation
+Home-page: https://github.com/astropenguin/pandas-dataclasses/
+License: MIT
+Keywords: pandas,dataclass,series,dataframe,typing
+Author: Akio Taniguchi
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+Requires-Python: >=3.7.1,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: morecopy (>=0.2,<0.3)
+Requires-Dist: pandas (>=1.3,<2.0)
+Requires-Dist: typing-extensions (>=3.10,<4.0)
+Project-URL: Documentation, https://astropenguin.github.io/pandas-dataclasses/
+Description-Content-Type: text/markdown
+
+# pandas-dataclasses
+
+[![PyPI](https://img.shields.io/pypi/v/pandas-dataclasses.svg?label=PyPI&style=flat-square)](https://pypi.org/project/pandas-dataclasses/)
+[![Python](https://img.shields.io/pypi/pyversions/pandas-dataclasses.svg?label=Python&color=yellow&style=flat-square)](https://pypi.org/project/pandas-dataclasses/)
+[![Test](https://img.shields.io/github/workflow/status/astropenguin/pandas-dataclasses/Tests?logo=github&label=Test&style=flat-square)](https://github.com/astropenguin/pandas-dataclasses/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat-square)](LICENSE)
+
+pandas extension for typed Series and DataFrame creation
+
+## Installation
+
+```bash
+pip install pandas-dataclasses
+```
+
