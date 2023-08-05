@@ -1,0 +1,64 @@
+/*-----------------------------------------------------------------------------
+| Copyright (c) XpressAI GK and Jupyter Development Team.
+| Distributed under the terms of the Modified BSD License.
+|----------------------------------------------------------------------------*/
+
+/* Refresh Icon */
+#main-logo{
+  background-image: url(../style/icons/xpress-logo.svg); 
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 15%;
+  height: 15%; 
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+#main-logo > svg{
+  visibility: hidden;
+}
+
+.jp-DebuggerWidget {
+  color: var(--jp-ui-font-color1);
+  background: var(--jp-layout-color1);
+  font-size: 14px;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  overflow-y: auto;
+}
+
+.jp-debugger-toolbar-panel {
+  flex: 0 0 auto;
+}
+
+.jp-ComponentLibraryLogo {
+  background-image: url(./icons/component-library.svg);
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+}
+
+.jp-NextLogo {
+  background-image: url(./icons/next.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+}
+
+/* Close button for image viewer*/
+.close {
+  color: #fff;
+  background-color: #999;
+  position: absolute;
+  top: -22px;
+  right: -17px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
