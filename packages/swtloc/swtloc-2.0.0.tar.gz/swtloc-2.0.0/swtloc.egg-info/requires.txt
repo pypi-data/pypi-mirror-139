@@ -1,0 +1,5 @@
+imutils
+matplotlib
+numba
+numpy
+opencv_python
