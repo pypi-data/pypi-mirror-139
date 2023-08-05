@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+fideslib/fideslib.egg-info/PKG-INFO
+fideslib/fideslib.egg-info/SOURCES.txt
+fideslib/fideslib.egg-info/dependency_links.txt
+fideslib/fideslib.egg-info/requires.txt
+fideslib/fideslib.egg-info/top_level.txt
