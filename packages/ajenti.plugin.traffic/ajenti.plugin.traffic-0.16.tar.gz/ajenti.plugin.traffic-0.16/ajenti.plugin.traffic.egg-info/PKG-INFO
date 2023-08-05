@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ajenti.plugin.traffic
+Version: 0.16
+Summary: Traffic Widget
+Home-page: https://ajenti.org
+Author: Ajenti project
+Author-email: e@ajenti.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+
+A Traffic Widget plugin for Ajenti panel
+
