@@ -1,0 +1,14 @@
+foodx_backup_source/__init__.py,sha256=51JQv9bgjuEKgiGKZKQj1e35amvT2ppl2QLpfcRAYTs,332
+foodx_backup_source/_default_values.py,sha256=o0fZ9U_jKUf1i9kBmSlEur_Afym221JM0ry8eNWHX3Q,267
+foodx_backup_source/_file_io.py,sha256=fBlU7OKppG09phN2PpiB1obbycC3WntERbKKdp3W7OY,2639
+foodx_backup_source/_hash.py,sha256=Q7jR54vmGQpNXe40NdB3Jjgg6O-7O56-AI7E1oskLtI,1335
+foodx_backup_source/_main.py,sha256=yk5ONHXBugfNpvfTft-kptviilIkm0fpH_bp0jM6Ttg,3120
+foodx_backup_source/_snapshot.py,sha256=_WxQw7CfYZPp6drYJXymsSmpuX17ob3FN4z3IxUUIVs,2099
+foodx_backup_source/_version.py,sha256=rrfAQ15O4myv3iatpjh__jLsfidefLX23ctAM2TKfvQ,946
+foodx_backup_source/entrypoint.py,sha256=uQ7dAnbmzPleijUlwfQh0RXBuAM04a6VRD_QWIVp81U,297
+foodx_backup_source/schema.py,sha256=Rsm5o-dZkd7UMoyIaGWVjAe4V-2Nl_jFfZjernDuQRE,1407
+foodx_backup_source-0.0.0.dist-info/entry_points.txt,sha256=h21eQ0FrQhcd3GmP9-DB6ltQOZChrmP0irK5llDUFj0,69
+foodx_backup_source-0.0.0.dist-info/LICENSE,sha256=yiHnkrXoBf-oAR5dIhyeiRH7dvx94qBBplQjD59foMQ,1086
+foodx_backup_source-0.0.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+foodx_backup_source-0.0.0.dist-info/METADATA,sha256=oao6pTpClTZmnDGo7oxu3wljh9yWc15rw5UBWmcD-Tw,1377
+foodx_backup_source-0.0.0.dist-info/RECORD,,
