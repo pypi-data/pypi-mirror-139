@@ -1,0 +1,6 @@
+dic
+dm
+en
+sbert
+so
+uvirun
