@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: minitk
+Version: 0.2
+Summary: Minimalist non blocking control panel for parameters
+Home-page: https://gitlab.com/jldez/minitk
+Author: Jean-Luc Déziel
+Author-email: jluc1011@hotmail.com
+License: UNKNOWN
+Description: # minitk
+        
+        Minimalist non blocking control panel for parameters
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
