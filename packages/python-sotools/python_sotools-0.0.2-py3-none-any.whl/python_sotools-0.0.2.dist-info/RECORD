@@ -1,0 +1,11 @@
+python_sotools-0.0.2.data/scripts/ldd.py,sha256=bm9xBE_JlFdvtv9UKp_itj_jLt5s8qH0dnWeUs1NsdI,403
+python_sotools-0.0.2.data/scripts/sowhich.py,sha256=pzwLSrtHEUl8Ti5ZkjP33Xvla-GNBdpHSX0Apb7jsR0,309
+sotools/__init__.py,sha256=ypMc7NyGdGWrx1ynbp-wT2Dc7HeR0C5hwv0V6dMnCDc,2248
+sotools/ldd.py,sha256=5e0xdg1nFQ8xCQZ3WPB78Gc9LiJEqXpdDS-TBLnfYSI,403
+sotools/libraryset.py,sha256=aB2BnfT2mruzbNpzfHFxvZp0zdP8XNYbereZATdVo88,10635
+sotools/linker.py,sha256=rZJuw1q-7tKOQKLiSkZkT2Du1gy38gRQvzN7Lo1qzCQ,3290
+sotools/util.py,sha256=F4ZvNByzOyTBivyqLb5cavwMnEEdYFs9W0BMPGooi9I,124
+python_sotools-0.0.2.dist-info/METADATA,sha256=vlzJnIRqLZDBrZ-hLwd5gICBMBojZh77aCP32-blCQw,513
+python_sotools-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_sotools-0.0.2.dist-info/top_level.txt,sha256=u0pFYRMtAMcA2EL6QSQFBsyWso5pG3M2bWZb3wIq1XU,8
+python_sotools-0.0.2.dist-info/RECORD,,
