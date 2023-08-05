@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ajenti.plugin.power
+Version: 0.23
+Summary: Power management
+Home-page: https://ajenti.org
+Author: Ajenti project
+Author-email: e@ajenti.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+
+A Power management plugin for Ajenti panel
+
