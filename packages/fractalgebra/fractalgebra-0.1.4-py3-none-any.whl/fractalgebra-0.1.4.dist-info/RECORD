@@ -1,0 +1,11 @@
+fractalgebra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractalgebra/helpers/__init__.py,sha256=sounIVzMh2zHa1X0yfRpUzTKZCyEhn5rTuiOqsF0ib8,170
+fractalgebra/helpers/calculator.py,sha256=JM2KoJ9jjkiF7Lmtc7bA35GhO4UHgu7tQpmF6tWs2Q0,1519
+fractalgebra/helpers/errors.py,sha256=qvsuC0fn7Ge-e7NRoPBd6kwFkUc5bTs3TSgBJMlRIA8,1041
+fractalgebra/helpers/main_helper.py,sha256=FWWo8BYWtaGCwmMu_7oG8iO5HIeFURNtJG-UQsqbtmA,5627
+fractalgebra/helpers/rational_number.py,sha256=1xO8yCqGYwo-hDqde2t_kwS5f8xpyp65dCHHaUDv_5M,3377
+fractalgebra/main.py,sha256=hN3SxFSDcG0f4O65vZRFcK9bkTKed1K7JLTvAGHLenM,1088
+fractalgebra-0.1.4.dist-info/entry_points.txt,sha256=5rqrcB9887zyihieKBYH75DOhVTgDb986Ux76MmivZk,45
+fractalgebra-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fractalgebra-0.1.4.dist-info/METADATA,sha256=L1oDbAXv2R2Cjp6ZSAJUCoWHiG5Tx9FJUpCirtkk1TY,3943
+fractalgebra-0.1.4.dist-info/RECORD,,
