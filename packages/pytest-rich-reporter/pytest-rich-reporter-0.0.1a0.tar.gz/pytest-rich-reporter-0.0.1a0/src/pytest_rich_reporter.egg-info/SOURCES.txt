@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pytest_rich_reporter/__init__.py
+src/pytest_rich_reporter/console.py
+src/pytest_rich_reporter/plugin.py
+src/pytest_rich_reporter/reporter.py
+src/pytest_rich_reporter.egg-info/PKG-INFO
+src/pytest_rich_reporter.egg-info/SOURCES.txt
+src/pytest_rich_reporter.egg-info/dependency_links.txt
+src/pytest_rich_reporter.egg-info/entry_points.txt
+src/pytest_rich_reporter.egg-info/requires.txt
+src/pytest_rich_reporter.egg-info/top_level.txt

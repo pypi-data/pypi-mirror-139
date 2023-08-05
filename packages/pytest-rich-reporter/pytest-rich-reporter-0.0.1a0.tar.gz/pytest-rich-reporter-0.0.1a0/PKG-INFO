@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pytest-rich-reporter
+Version: 0.0.1a0
+Summary: A pytest plugin using Rich for beautiful test result formatting.
+Home-page: https://github.com/joshuadavidthomas/pytest-rich-reporter
+Author: Josh Thomas
+Author-email: josh@joshthomas.dev
+Maintainer: Josh Thomas
+Maintainer-email: josh@joshthomas.dev
+License: MIT
+Project-URL: Bug Tracker, https://github.com/joshuadavidthomas/pytest-rich-reporter/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytest-rich-reporter
+
+[![PyPI version](https://img.shields.io/pypi/v/pytest-rich-reporter.svg)](https://pypi.org/project/pytest-rich-reporter)
+
+[![Python versions](https://img.shields.io/pypi/pyversions/pytest-rich-reporter.svg)](https://pypi.org/project/pytest-rich-reporter)
+
+A pytest plugin using [Rich](https://github.com/Textualize/rich) for beautiful test result formatting.
+
+## Disclaimer
+
+This project is a hobby project that is being used as an opportunity to learn Rich, custom Pytest plugin creation, and modern Python package development.
+
+It is currently in an ALPHA state. It is not intended for production use.
+
+## Contributing
+
+Contributions are very welcome. Tests can be run with [`tox`](tox.ini), please ensure
+the coverage at least stays the same before you submit a pull request.
+
+## License
+
+Distributed under the terms of the [`MIT`](LICENSE) license, "pytest-rich-reporter" is free and open source software
+
+## Issues
+
+If you encounter any problems, please [file an issue](https://github.com/joshuadavidthomas/pytest-rich-reporter/issues/new) along with a detailed description.
+
+
