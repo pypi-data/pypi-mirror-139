@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dme
+Version: 1.0
+Summary: SMLM Drift Estimation using the DME algorithm
+Home-page: UNKNOWN
+Author: Jelmer Cnossen
+Author-email: j.cnossen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+
+
+SMLM Drift estimation library, see publication:
+
+Jelmer Cnossen, Tao Ju Cui, Chirlmin Joo, and Carlas Smith, 
+"Drift correction in localization microscopy using entropy minimization," 
+Opt. Express 29, 27961-27974 (2021)
+https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-18-27961&id=457245
+
+

@@ -1,0 +1,13 @@
+dme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dme/dme.py,sha256=TeCAkk4xa334ruE0dZpvBratp4SeuvDKleSM7DX_oZs,8891
+dme/fit_gauss_2D.py,sha256=h5ER8flFtRq4oNlQyFiM2fqUG461IYT3AiPDsOi8J00,1479
+dme/native_api.py,sha256=eHOxbrMNnXcaMwUwXgXCcZwPTMwcgffuYdMHZOfc5RA,8079
+dme/rcc.py,sha256=B7XAdnvF-v5V2g0qp9KOuECWFE9yBi6mwb8In5bMRDs,5195
+dme/bin/release/dme_cpu.dll,sha256=UeDglaIMzlsTuo2MmzON62Vh19pcfntAKqV9UfMy0h0,128512
+dme/bin/release/dme_cuda.dll,sha256=kSTeJZNkMbWFGxuUrFgff2yy4jGsyTt01aZ08QjJlfQ,680448
+dme/bin/release/libdme_cuda.so,sha256=Ixu1zaoHsNquxzOPXTY50SpW-mTsb2u9g2XmkL3M3Rs,4669968
+dme/bin/release/msvcp140.dll,sha256=-HgZroxvfJDTI3oau5gJ6Mup3NDICsPwlppeaO9lLKQ,618264
+dme-1.0.dist-info/METADATA,sha256=-dWybQCor-19lzYN6tHtrzZVRZGZ09YZ4ZymU0cy-Hw,763
+dme-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dme-1.0.dist-info/top_level.txt,sha256=fbuqLxrguqyilbJTwDwi7Lx8XPfb-MrJT22JVnBtmuo,4
+dme-1.0.dist-info/RECORD,,
