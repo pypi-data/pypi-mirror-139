@@ -1,0 +1,10 @@
+aquacropeto/__init__.py,sha256=la1tmiqk9ir0TeSmQsTq8NdFyI4m5cEiHc3RumZf6Co,1918
+aquacropeto/_check.py,sha256=dQYvADqR6N0f8jQQQoGQnL46Uzn8YEk9J_duGw-YYc8,1912
+aquacropeto/convert.py,sha256=zH4HPLq0r6TOVgoldN4ucR9eQZnFAM1eipGaql2LXdE,1032
+aquacropeto/fao.py,sha256=amgTCebXvc4YsEBxe5nT3zbuma6haR4jW_PICnBdvLo,27377
+aquacropeto/thornthwaite.py,sha256=kOh_TtHc5yDD7k2AGlXK9qsNRGq45RuQDv-dWgwvqds,4272
+aquacropeto-0.1.0.dist-info/LICENSE.txt,sha256=PflR0pVdPaP7xljzodhcXTY50v6Zjawg21p0k_7CleE,1486
+aquacropeto-0.1.0.dist-info/METADATA,sha256=4oJiHUGOES_JfCMwS_0qb1vTyojcXx0Ce3teIFgBU64,1252
+aquacropeto-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aquacropeto-0.1.0.dist-info/top_level.txt,sha256=oa5x_b8ciok-rVOsJQvCTc9II9OP9VkSt-GfMGTwLSA,12
+aquacropeto-0.1.0.dist-info/RECORD,,
