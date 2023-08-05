@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+scripts/cfspflat
+src/cfspflat/__init__.py
+src/cfspflat/cf_dns.py
+src/cfspflat/cli.py
+src/cfspflat.egg-info/PKG-INFO
+src/cfspflat.egg-info/SOURCES.txt
+src/cfspflat.egg-info/dependency_links.txt
+src/cfspflat.egg-info/requires.txt
+src/cfspflat.egg-info/top_level.txt
