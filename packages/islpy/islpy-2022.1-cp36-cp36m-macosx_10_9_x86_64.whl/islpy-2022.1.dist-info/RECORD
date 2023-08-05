@@ -1,0 +1,10 @@
+islpy/version.py,sha256=fK77R_lGk_5FCaiVvXqFVYOkwZKUsVsujvq633eofFI,69
+islpy/__init__.py,sha256=wIx1Htir0ZhhyTahEkNY0hZ6Uya-l0MAuW3CyhgZdcA,42003
+islpy/_isl.cpython-36m-darwin.so,sha256=or_w4RhhW5qywJwj7koSgxGyPP3uVwsV9f8EnNgZ3pA,22742736
+islpy/.dylibs/libisl.23.dylib,sha256=geHk0TOMV-Hivxy4N1nQTLPRW9Ezc-yd1YXGScA7RBs,1972720
+islpy/.dylibs/libgmp.10.dylib,sha256=wCa_Irz9FTBwd1do8xi4HSbSG9YQRumA63zJJY2lnLg,817744
+islpy-2022.1.dist-info/RECORD,,
+islpy-2022.1.dist-info/WHEEL,sha256=ye8A2lA8pjGNe7-ueOpggarJAhczq3EZGqnLZzzfQYQ,110
+islpy-2022.1.dist-info/misc.rst,sha256=hRI1EXNt2ymw9328IcE4GPo7DnM0RGx7dveNI4OEAdE,19384
+islpy-2022.1.dist-info/top_level.txt,sha256=txVjJJ85Sa3IMOF6WOh_bTkOyRDWiSW2kQOf8vSPb6M,6
+islpy-2022.1.dist-info/METADATA,sha256=eICPa58RaOz2ctX04pi0ShgIfZ8IPXY1361WMUEMeGg,2564
