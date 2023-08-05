@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pypescript-interface
+Version: 0.0.3
+Summary: Pypescript Interfaces. Typescript style Interface lib, for strongly typing objects in python
+Home-page: https://github.com/gitnology/Pypescript-Interfaces
+Author: Electric Sheep
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: jsonpickle (==2.1.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: py (==1.11.0)
+Requires-Dist: pyparsing (==3.0.7)
+Requires-Dist: pytest (==7.0.0)
+Requires-Dist: tomli (==2.0.0)
+
+UNKNOWN
+
+
