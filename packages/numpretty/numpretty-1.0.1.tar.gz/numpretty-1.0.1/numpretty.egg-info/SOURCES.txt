@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+numpretty/__init__.py
+numpretty/__version__.py
+numpretty/main.py
+numpretty.egg-info/PKG-INFO
+numpretty.egg-info/SOURCES.txt
+numpretty.egg-info/dependency_links.txt
+numpretty.egg-info/top_level.txt
