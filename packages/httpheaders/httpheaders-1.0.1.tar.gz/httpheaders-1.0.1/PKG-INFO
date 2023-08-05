@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: httpheaders
+Version: 1.0.1
+Summary: HTTP Header Service
+Home-page: https://github.com/joniumGit/headers
+Author: joniumGit
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/joniumGit/headers
+Project-URL: Source, https://github.com/joniumGit/headers
+Keywords: HTTP,headers,API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Headers
+
+Python library for HTTP headers.
+
+Contains the standard HTTP headers in a single package for easy importing.
+
+Header definitions are from the IANA site
+https://www.iana.org/assignments/http-fields/http-fields.xhtml
+
