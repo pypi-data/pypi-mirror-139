@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+django-nextjs-i18/__init__.py
+django-nextjs-i18/django-nextjs-i18.py
+django_nextjs_i18.egg-info/PKG-INFO
+django_nextjs_i18.egg-info/SOURCES.txt
+django_nextjs_i18.egg-info/dependency_links.txt
+django_nextjs_i18.egg-info/requires.txt
+django_nextjs_i18.egg-info/top_level.txt
