@@ -1,0 +1,10 @@
+pych_client/__init__.py,sha256=zC9hGgEmycjC3QOa-Jxqy1fazkSYRSErewoZHJapwoE,104
+pych_client/__main__.py,sha256=K0hAUDqKaibpuiPy3I993YKAfh_FiW7Le3SVxQ0syBY,72
+pych_client/cli.py,sha256=IoCsyvpExg3STdaglY2k-3t834E8yIcMMjdJx2c7WdQ,1160
+pych_client/client.py,sha256=OvGTCU3iZrI0oBLOCRgvMEL3vfSFjs447WUcp6Lvo80,5185
+pych_client/logger.py,sha256=ZMBRrYiVVbFLwyqeg-0GQS1-Nc7RvtuWM94f4HlaQU8,58
+pych_client-0.1.4.dist-info/entry_points.txt,sha256=andehyXFsIivKJQN1bD3v6IfUtG8OPv6TjmxKOBUv2c,52
+pych_client-0.1.4.dist-info/LICENSE,sha256=OHcbSFiDWxZ8MRbiJQVh13feK5xbTaJzr3JBdwNkuVE,1077
+pych_client-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pych_client-0.1.4.dist-info/METADATA,sha256=H7FX024h_I38AWSJnbG5lX11fxoU6DhFWpmur7HhjOw,2307
+pych_client-0.1.4.dist-info/RECORD,,
