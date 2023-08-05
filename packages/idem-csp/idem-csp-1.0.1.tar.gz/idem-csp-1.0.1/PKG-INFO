@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: idem-csp
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+
+========
+IDEM_CSP
+========
+
+CSP Cloud Provider for Idem
+
+
+DEVELOPMENT
+===========
+
+Clone the `idem-csp` repository and install with pip.
+
+.. code:: bash
+
+    git clone git@gitlab.com:saltstack/pop/idem-csp.git
+    pip install -e idem_csp
+
+ACCT
+====
+
+After installation the CSP Idem Provider execution and state modules will be accessible to the pop `hub`.
+In order to use them we need to set up our credentials.
+Follow the `instructions <https://docs.vmware.com/en/VMware-Cloud-services/services/Using-VMware-Cloud-Services/GUID-E2A3B1C1-E9AD-4B00-A6B6-88D31FCDDF7C.html>`_ to generate an api token.
+
+Create a new file called `credentials.yaml` and populate it with credentials.
+The `default` profile will be used automatically by `idem` unless you specify one with `--acct-profile=profile_name` on the cli.
+
+There are many ways aws providers/profiles can be stored. See `acct backends <https://gitlab.com/saltstack/pop/acct-backends>`_
+for more information.
+
+A profile needs to specify the api key it uses and can optionally specify the api url.
+
+credentials.yaml
+
+..  code:: sls
+
+    csp.token:
+      default:
+        refresh_token: dmd23q3au8ljyajcvhz207of4ivsn9vjiaxzez223qeagdpe0voqiasknykv58jt
+        default_org_id: my_org
+        # Optional configuration, defaults will be used for these values if not supplied
+        csp_url: https://console.cloud.vmware.com
+        default_org_id: defaults_to_the_logged_in_user_org_id
+
+A profile can also be created that uses an access_token directly.
+However, a csp_url and default_org_id must be explicitly defined.
+
+credentials.yaml
+
+.. code:: sls
+
+    csp:
+        my_profile:
+            csp_url: https://console.cloud.vmware.com
+            access_token: kl2k3jjoij0un093wjn092w34jta0-3
+            default_org_id: my_org_id
+
+
+Now encrypt the credentials file and add the encryption key and encrypted file path to the ENVIRONMENT.
+
+The `acct` command should be available as it is a requisite of `idem` and `idem-csp`.
+Encrypt the the credential file.
+
+.. code:: bash
+
+    acct encrypt credentials.yaml
+
+output::
+
+    -A9ZkiCSOjWYG_lbGmmkVh4jKLFDyOFH4e4S1HNtNwI=
+
+Add these to your environment:
+
+.. code:: bash
+
+    export ACCT_KEY="-A9ZkiCSOjWYG_lbGmmkVh4jKLFDyOFH4e4S1HNtNwI="
+    export ACCT_FILE=$PWD/credentials.yaml.fernet
+
+
+USAGE
+=====
+A profile can be specified for use with a specific state.
+If no profile is specified, the profile called "default", if one exists, will be used:
+
+.. code:: sls
+
+    ensure_user_exists:
+      csp.org.user.present:
+        - acct_profile: my-staging-env
+        - name: a_user_name
+        - kwarg1: val1
+
+It can also be specified from the command line when executing states.
+
+.. code:: bash
+
+    idem state --acct-profile my-staging-env my_state.sls
+
+It can also be specified from the command line when calling an exec module directly.
+
+.. code:: bash
+
+    idem exec --acct-profile my-staging-env csp.org.user.list
+
+
