@@ -1,0 +1,4 @@
+[console_scripts]
+QuickWall = QuickWall.__main__:main_handler
+quickwall = QuickWall.__main__:main_handler
+
