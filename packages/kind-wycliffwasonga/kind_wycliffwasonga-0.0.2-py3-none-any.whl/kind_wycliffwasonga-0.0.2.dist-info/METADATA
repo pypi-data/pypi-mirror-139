@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: kind-wycliffwasonga
+Version: 0.0.2
+Summary: For querying documents from Korea Investor's Network for Disclosure(KIND)
+Home-page: https://github.com/wycliffwasonga/kind
+Author: Wycliff Wasonga
+Author-email: wycliffwasonga@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: async-generator (==1.10)
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: cffi (==1.15.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: click (==8.0.3)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: configparser (==5.2.0)
+Requires-Dist: crayons (==0.4.0)
+Requires-Dist: cryptography (==36.0.1)
+Requires-Dist: h11 (==0.13.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: outcome (==1.1.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pyOpenSSL (==22.0.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: selenium (==4.1.0)
+Requires-Dist: sniffio (==1.2.0)
+Requires-Dist: sortedcontainers (==2.4.0)
+Requires-Dist: trio (==0.19.0)
+Requires-Dist: trio-websocket (==0.9.2)
+Requires-Dist: urllib3 (==1.26.8)
+Requires-Dist: webdriver-manager (==3.5.3)
+Requires-Dist: wsproto (==1.0.0)
+Requires-Dist: pywin32 (==303) ; sys_platform == "win32"
+
+# kind
+
+Query Korea Investor's Network for Disclosure(KIND) for Korean companies' published documents.
+
+## Instructions
+
+The package requires that you have Mozilla Firefox, Internet browser, installed.
+
+1. Install:
+
+```
+pip install kind-wycliffwasonga
+```
+
+## Usage
+
+1. CLI
+
+```sh
+$ kind search --company 241560
+```
+
+```sh
+$ kind search --company 241560 --start 2021-01-01 --end 2021-03-31
+```
+
+2 Library
+
+```python
+from datetime import datetime
+import kind
+
+start_date = datetime(2021, 1, 1)
+end_date = datetime(2021, 3, 31)
+results = kind.search("241560", start_date, end_date)
+```
+
+
