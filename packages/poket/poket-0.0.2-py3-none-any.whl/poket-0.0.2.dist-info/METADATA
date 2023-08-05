@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: poket
+Version: 0.0.2
+Summary: Configuration management tool
+Author: pnowk
+Author-email: pnowk123@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: python-dotenv
+Provides-Extra: check
+Requires-Dist: pre-commit ; extra == 'check'
+Requires-Dist: black ; extra == 'check'
+Requires-Dist: pylint ; extra == 'check'
+Requires-Dist: flake8 ; extra == 'check'
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pipdeptree ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-git ; extra == 'docs'
+Requires-Dist: sphinx-asciidoc ; extra == 'docs'
+Requires-Dist: sphinx-py3doc-enhanced-theme (==2.4.0) ; extra == 'docs'
+Provides-Extra: include_package_data
+Requires-Dist: False ; extra == 'include_package_data'
+
+UNKNOWN
+
