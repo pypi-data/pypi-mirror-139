@@ -1,0 +1,3 @@
+[console_scripts]
+licht = licht.__main__:main
+
