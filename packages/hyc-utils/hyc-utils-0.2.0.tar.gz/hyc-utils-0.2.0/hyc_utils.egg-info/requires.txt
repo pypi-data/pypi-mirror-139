@@ -1,0 +1,8 @@
+
+[packaging]
+twine
+
+[test]
+pytest
+torch
+numpy
