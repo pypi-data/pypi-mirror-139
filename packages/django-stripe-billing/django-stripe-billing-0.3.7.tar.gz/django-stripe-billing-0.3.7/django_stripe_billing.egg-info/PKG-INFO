@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: django-stripe-billing
+Version: 0.3.7
+Summary: Django billing plans and payments with Stripe
+Home-page: https://github.com/hkhanna/django-stripe-billing
+Author: Harry Khanna
+Author-email: harry@khanna.cc
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
