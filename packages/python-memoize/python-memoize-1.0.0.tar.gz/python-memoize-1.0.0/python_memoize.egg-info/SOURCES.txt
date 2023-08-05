@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+memoize/__init__.py
+python_memoize.egg-info/PKG-INFO
+python_memoize.egg-info/SOURCES.txt
+python_memoize.egg-info/dependency_links.txt
+python_memoize.egg-info/top_level.txt
