@@ -1,0 +1,5 @@
+art==5.4
+bs4==0.0.1
+requests==2.27.1
+shell==1.0.1
+string-color==1.2.1
