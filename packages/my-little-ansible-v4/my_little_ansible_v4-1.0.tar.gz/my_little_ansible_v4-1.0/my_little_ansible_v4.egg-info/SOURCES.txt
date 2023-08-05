@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+my_little_ansible.py
+setup.py
+my_little_ansible_v4.egg-info/PKG-INFO
+my_little_ansible_v4.egg-info/SOURCES.txt
+my_little_ansible_v4.egg-info/dependency_links.txt
+my_little_ansible_v4.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+include README
+include LICENCE
+include requirements.txt
+include my_little_ansible.py
