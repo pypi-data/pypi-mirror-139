@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bunnycdn-api-wrapper
+Version: 1.0.14
+Summary: An API Wrapper for the Bunny.net API.
+Home-page: https://github.com/hassanaziz0012/bunnycdn-stream-api
+Author: Hassan Aziz
+Author-email: hassanaziz0012@gmail.com
+License: UNKNOWN
+Project-URL: Creator Site, https://hassanaziz0012.github.io/portfolio-website/#
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.MD
+
+# BunnyCDN API Wrapper
+This is an API wrapper built for using the Bunny.net API in Python.
+
+It currently only supports the Stream API, but I do plan on covering the Edge Storage API and other functionalities soon.
+
