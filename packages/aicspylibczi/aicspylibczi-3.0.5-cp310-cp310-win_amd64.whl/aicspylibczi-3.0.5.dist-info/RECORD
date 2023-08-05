@@ -1,0 +1,10 @@
+_aicspylibczi.cp310-win_amd64.pyd,sha256=pRI9yZPy_g_OzkmnspK9FaUCikV-2e59evjyUzJEGFg,1255936
+aicspylibczi/CziFile.py,sha256=pc9sTd3s2xTZ1NK-a8RweklWJfZ6ap1txeMwBVjiAZg,26240
+aicspylibczi/__init__.py,sha256=hkMXk5C25CmIa3FZIq0-kUe7PEa4B6qmTbbOg5m6NSw,101
+aicspylibczi/_version.py,sha256=bA4J0lvdFU-2UwLANeewvMxBdFLeI1cMF6svk-gCnnA,131
+aicspylibczi/types.py,sha256=_CftPKd4J_WHRnkFBVYDwqaP-UfoNshYNaNnh_pmOBA,269
+aicspylibczi-3.0.5.dist-info/LICENSE,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+aicspylibczi-3.0.5.dist-info/METADATA,sha256=b9VBQ6VodME6mIb50dxJ6b9IrV_4H9dj2gG-mHk5vEM,10350
+aicspylibczi-3.0.5.dist-info/WHEEL,sha256=C6CHup2HLC2Rld8AL5u9w89MYULjdaP5k0k7SG83CcI,102
+aicspylibczi-3.0.5.dist-info/top_level.txt,sha256=qzO3h1O6S8r4HudOEuJyrG17Gv9i_Lkptu_SPXqBuSg,27
+aicspylibczi-3.0.5.dist-info/RECORD,,
