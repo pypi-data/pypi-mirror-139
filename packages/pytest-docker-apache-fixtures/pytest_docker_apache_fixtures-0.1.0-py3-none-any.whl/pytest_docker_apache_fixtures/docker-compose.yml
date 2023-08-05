@@ -1,0 +1,44 @@
+#!/usr/bin/env docker-compose
+
+version: "3"
+services:
+  pytest-apache-insecure: &pytest-apache-insecure
+    container_name: $CONTAINER_NAME
+    image: library/httpd:2.4
+    ports:
+    - "80/tcp"
+    volumes:
+    - "$PATH_APACHECFG:/usr/local/apache2/conf/httpd.conf:ro"
+  pytest-apache-secure: &pytest-apache-secure
+    container_name: $CONTAINER_NAME
+    image: library/httpd:2.4
+    ports:
+    - "443/tcp"
+    volumes:
+    - "$PATH_CERTIFICATE:/pytest-apache.crt:ro"
+    - "$PATH_HTPASSWD:/htpasswd:ro"
+    - "$PATH_KEY:/pytest-apache.key:ro"
+    - "$PATH_APACHECFG:/usr/local/apache2/conf/httpd.conf:ro"
+
+  # If more than 10 are needed, or they need to be asymmetric, or whatever ...
+  # ... override docker-compose.yml or the corresponding fixture downstream ;)
+  pytest-apache-insecure-0: *pytest-apache-insecure
+  pytest-apache-insecure-1: *pytest-apache-insecure
+  pytest-apache-insecure-2: *pytest-apache-insecure
+  pytest-apache-insecure-3: *pytest-apache-insecure
+  pytest-apache-insecure-4: *pytest-apache-insecure
+  pytest-apache-insecure-5: *pytest-apache-insecure
+  pytest-apache-insecure-6: *pytest-apache-insecure
+  pytest-apache-insecure-7: *pytest-apache-insecure
+  pytest-apache-insecure-8: *pytest-apache-insecure
+  pytest-apache-insecure-9: *pytest-apache-insecure
+  pytest-apache-secure-0: *pytest-apache-secure
+  pytest-apache-secure-1: *pytest-apache-secure
+  pytest-apache-secure-2: *pytest-apache-secure
+  pytest-apache-secure-3: *pytest-apache-secure
+  pytest-apache-secure-4: *pytest-apache-secure
+  pytest-apache-secure-5: *pytest-apache-secure
+  pytest-apache-secure-6: *pytest-apache-secure
+  pytest-apache-secure-7: *pytest-apache-secure
+  pytest-apache-secure-8: *pytest-apache-secure
+  pytest-apache-secure-9: *pytest-apache-secure

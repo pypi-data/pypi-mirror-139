@@ -1,0 +1,3 @@
+[pytest11]
+docker_apache_fixtures = pytest_docker_apache_fixtures
+
