@@ -1,0 +1,8 @@
+# Default ignored files
+.idea/*
+build/*
+dist/*
+simple_progress.egg-info/*
+*.xml
+*.iml
+test.py
