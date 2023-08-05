@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: seqpandas
+Version: 0.0.2
+Summary: Read bioinformatics sequence formats into a Pandas DataFrame
+Home-page: https://github.com/tmsincomb/seqpandas
+Author: Troy Sincomb
+Author-email: troysincomb@gmail.com
+License: MIT license
+Keywords: seqpandas
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click (>=7.0)
+Requires-Dist: pandas
+Requires-Dist: biopython
+Requires-Dist: pysam
+
+=========
+SeqPandas 
+=========
+Import genomic data to get a custom Pandas &amp; Biopython hybrid class object with fancy shortcuts to make Machine Learning preprocessing easy!
+
+* Free software: MIT license
+* Documentation: https://seqpandas.readthedocs.io.
+
+
+Installation
+------------
+
+.. code:: bash
+    
+    pip install seqpandas
+
+
+Usage
+-----
+
+.. code:: python
+
+    import seqpandas as spd
+
+    # Direct File Path
+    df = spd.read_seq('file.fasta', format='fasta')
+    df = spd.read_seq('file.sam', format='sam')
+    df = spd.read_vcf('file.vcf', format='vcf')
+    df = spd.read_bed('file.bed', format='bed')
+
+    # Just need BioPython Seqs? No problem!
+    seqrecords = spd.read('file.fasta', format='fasta')
+
+    # Already Opened BioPython Handle
+    from Bio import SeqIO
+    seqrecords = SeqIO.parse('file.fasta', format='fasta')
+    df = spd.BioDataFrame.from_seqrecords(seqrecords)
+
+
+Tutorial
+--------
+For a complete walkthrough and to use it for a machine learning pipeline please follow the `tutorial notebook <https://github.com/tmsincomb/SeqPandas/blob/master/tutorial.ipynb>`_.
+
+
+Credits
+-------
+
+This package was created with Cookiecutter and the audreyr/cookiecutter-pypackage project template.
+
+
+=======
+History
+=======
+
+0.0.1 (2022-02-17)
+------------------
+
+* First release on PyPI.
+
+
