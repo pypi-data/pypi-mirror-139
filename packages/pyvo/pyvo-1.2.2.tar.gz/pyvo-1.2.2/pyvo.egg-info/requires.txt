@@ -1,0 +1,11 @@
+astropy>=4.0
+requests
+
+[all]
+mimeparse
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy
