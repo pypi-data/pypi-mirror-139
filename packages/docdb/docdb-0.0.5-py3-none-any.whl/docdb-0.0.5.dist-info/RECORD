@@ -1,0 +1,6 @@
+docdb/__init__.py,sha256=dHDlnAp4qJrNbnORH_vUKb4aJtEd-fE7Rbjy-bPrMdA,2067
+docdb/collection.py,sha256=NcUyZozv2yGHLmumws_OqFlfMH-KQ9QwbFvwFuegXl8,14466
+docdb/exceptions.py,sha256=ab_EO8rojUr9Sg88gZVj_D1l4RbJlQFJa0sS3QcFXDo,361
+docdb-0.0.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+docdb-0.0.5.dist-info/METADATA,sha256=Eoo3psUlwFb5ePfUKO4Gr22yrY_UB8QiGX3p3KuUp3A,443
+docdb-0.0.5.dist-info/RECORD,,
