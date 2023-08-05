@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: argsubparse
+Version: 0.0.8
+Summary: Dynamically build argparse subparsers
+Home-page: https://github.com/jorwoods/argsubparse
+Author: Jordan Woods
+Author-email: jor.e.woods@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jorwoods/argsubparse/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# argsubparse
+Wrapper code to DRY out use of argparse and subparsers
+
+
