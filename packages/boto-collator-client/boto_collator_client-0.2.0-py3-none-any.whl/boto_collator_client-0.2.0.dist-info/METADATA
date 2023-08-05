@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: boto-collator-client
+Version: 0.2.0
+Summary: A boto3 client wrapper that collates each paginated API call into a single result
+Author: Iain Samuel McLean Elder
+Author-email: iain@isme.es
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
