@@ -1,0 +1,9 @@
+flytekitplugins_data_fsspec-0.30.3-py3.10-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/fsspec/__init__.py,sha256=p5HuJamW0cl87YYWszv3fuZ0LGoEIrW6d9-kJR5EK9c,39
+flytekitplugins/fsspec/persist.py,sha256=ErAb627EuPvoRpfg6U1M0yDbe2wuT6_9BZ40QnroR7U,5395
+flytekitplugins_data_fsspec-0.30.3.dist-info/METADATA,sha256=_U-M5Q7nwgeXV4-MpwYF3AjT5gjqNdB0ygJ4qEPkXTs,1562
+flytekitplugins_data_fsspec-0.30.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flytekitplugins_data_fsspec-0.30.3.dist-info/entry_points.txt,sha256=bgGeUxjD8F5u52OwbcG7KxuzB5B71MGkUnT2gtfbIzs,52
+flytekitplugins_data_fsspec-0.30.3.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_data_fsspec-0.30.3.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_data_fsspec-0.30.3.dist-info/RECORD,,
