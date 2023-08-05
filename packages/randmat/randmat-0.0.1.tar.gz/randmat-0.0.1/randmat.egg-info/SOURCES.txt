@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+.github/workflows/deploy.yml
+.github/workflows/quality_checks.yml
+randmat/__init__.py
+randmat.egg-info/PKG-INFO
+randmat.egg-info/SOURCES.txt
+randmat.egg-info/dependency_links.txt
+randmat.egg-info/requires.txt
+randmat.egg-info/top_level.txt
+tests/test_dummy.py
