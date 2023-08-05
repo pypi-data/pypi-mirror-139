@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+snapshot_queries/__init__.py
+snapshot_queries/query.py
+snapshot_queries/query_list.py
+snapshot_queries/sliceable_list.py
+snapshot_queries/snapshot_queries.py
+snapshot_queries/stacktrace.py
+snapshot_queries/timedelta.py
+snapshot_queries.egg-info/PKG-INFO
+snapshot_queries.egg-info/SOURCES.txt
+snapshot_queries.egg-info/dependency_links.txt
+snapshot_queries.egg-info/requires.txt
+snapshot_queries.egg-info/top_level.txt
