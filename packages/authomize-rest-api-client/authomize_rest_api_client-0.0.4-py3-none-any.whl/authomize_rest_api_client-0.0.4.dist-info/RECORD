@@ -1,0 +1,11 @@
+authomize/rest_api_client/__init__.py,sha256=CDtOFgC_NHv05W8JpnRlUrBlkDygqHYticsYElpBVOE,575
+authomize/rest_api_client/client/__init__.py,sha256=Cm65u5NrTBPDqwswcaqjaGKLY1joTB7XW7bCL5UgJCQ,81
+authomize/rest_api_client/client/base_client.py,sha256=hezxc9DzmsJsBf4tPGBcwaKG_bM89ugfSqi4aLiIKto,1472
+authomize/rest_api_client/client/client.py,sha256=f968i3MT9Ct9FgU7hRK8_gOqGrc78hEu_vHd0zrB8-Q,2099
+authomize/rest_api_client/generated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authomize/rest_api_client/generated/schemas.py,sha256=Tm3ijebfeEftnJUyNEU-VA51cw4As4ALE29iBl1Ubdg,8521
+authomize_rest_api_client-0.0.4.dist-info/LICENSE.txt,sha256=iw4GOjQPbH0SIpLaGxjUBkoh7E5oA1tNMDBB1A_lKjc,1072
+authomize_rest_api_client-0.0.4.dist-info/METADATA,sha256=9fKKfocQ7lAxDKygnhXmNowMvk8MA4qRhKF5Qw__xN8,753
+authomize_rest_api_client-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+authomize_rest_api_client-0.0.4.dist-info/top_level.txt,sha256=FgbkMyFjwI9-1Lh32-DU5n8j9nJ_d6VLuTh0OTKXuv4,10
+authomize_rest_api_client-0.0.4.dist-info/RECORD,,
