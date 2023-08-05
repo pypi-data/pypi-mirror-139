@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pymagicstrip/__init__.py
+pymagicstrip/const.py
+pymagicstrip/errors.py
+pymagicstrip.egg-info/PKG-INFO
+pymagicstrip.egg-info/SOURCES.txt
+pymagicstrip.egg-info/dependency_links.txt
+pymagicstrip.egg-info/requires.txt
+pymagicstrip.egg-info/top_level.txt
+pymagicstrip.egg-info/zip-safe
