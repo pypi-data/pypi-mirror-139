@@ -1,0 +1,10 @@
+numpy
+astropy
+requests
+pyyaml
+
+[dev]
+ipython
+jupyter
+astroplan
+matplotlib
