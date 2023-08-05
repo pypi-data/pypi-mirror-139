@@ -1,0 +1,3 @@
+[spacy_factories]
+simple_corpus_stats=corpus_statistics.component_simple:create_simple_corpus_stats_component
+

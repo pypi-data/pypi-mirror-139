@@ -1,0 +1,10 @@
+corpus_statistics/__init__.py,sha256=LrkrPBw3NPKHc3TFr83XAoiRk-DWrqLUnkPTWpYosiU,90
+corpus_statistics/component_advanced.py,sha256=F8qP98fi2lA-4iQDFe67TzEDDFk9c9_amPGJTNG3IZA,5513
+corpus_statistics/component_simple.py,sha256=qN08Rqs_LkIVjjwdAelLd4HJUDEIbpHNG6ooCuck1BE,2928
+corpus_statistics/corpustypes.py,sha256=nt-Vto_vTr4JNojK5v2MY_GjSLJUEzPRsN_RCruC26A,340
+corpus_statistics/dispersion_functions.py,sha256=dT45ysDL63KkLndHJbJHjKsG9cszu0VZfegbhRswvvw,2837
+corpus_statistics-0.1.0.dist-info/entry_points.txt,sha256=9sN58qHX7LkAUGKNTXbjj-FImmq-axbzSRIwCgwAewc,111
+corpus_statistics-0.1.0.dist-info/LICENSE,sha256=PNtBVnrxtP_bqLJjbiRvk7WQzprgEeNxz832MfKpsk0,1056
+corpus_statistics-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+corpus_statistics-0.1.0.dist-info/METADATA,sha256=SfsfTc_ak_L02SmsyzDdUEUw3G3JiNgLWocOy1XwaGM,3455
+corpus_statistics-0.1.0.dist-info/RECORD,,
