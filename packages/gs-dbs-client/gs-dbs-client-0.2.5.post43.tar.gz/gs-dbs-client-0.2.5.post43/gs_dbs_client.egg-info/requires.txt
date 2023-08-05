@@ -1,0 +1,10 @@
+gql==3.0.0a5
+pandas
+twisted
+ujsonPyYAML
+requests
+aiohttp
+stomper==0.4.3
+graphql-core==3.1.5
+Pillow==8.2.0
+websocket-client
