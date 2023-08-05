@@ -1,0 +1,9 @@
+hookandlook/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+hookandlook/hooks.py,sha256=kTszk1EQ31jDVPAWs1DdlUvgZijKyfGUSnPAB1-xG7Q,1178
+hookandlook/utils.py,sha256=cJ8YnTTRhAFid2T5YAnamk6AMBFRW3ukUYPjwlA2iqk,3016
+hookandlook/watch.py,sha256=tIC1sJgytSTSh7I2Jb0uF2eeeKt417oRsHVnkVqfb3A,5941
+hookandlook-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hookandlook-0.0.1.dist-info/METADATA,sha256=U4cR6SF9IiFpcwKB3XTl_CANI3uJ0PegGJJh1PI8fbw,760
+hookandlook-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hookandlook-0.0.1.dist-info/top_level.txt,sha256=nwi0udjTGShfORqQKT-AEQgmxAJB8SLItrwDQS8_LqQ,12
+hookandlook-0.0.1.dist-info/RECORD,,
