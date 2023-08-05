@@ -1,0 +1,12 @@
+mmf_meta/__init__.py,sha256=TwwCiqEZMo3npPy9Yt6V8F4MSBaFkfQ6_y0hiYgPfiY,314
+mmf_meta/__main__.py,sha256=1GsOchsW4OHDGb8JRhuHoOUtUa4UcwOL546hDuhPlgY,657
+mmf_meta/_imports.py,sha256=LxmbLMDzVdNVWshFtx1ZmXeoqP-MexmjE34yPuLWkIg,437
+mmf_meta/autodoc.py,sha256=o7zqLxronj8pJyXYm1H9x9NDXdd7ECOOq6_8LD9fohk,989
+mmf_meta/core.py,sha256=JNBxcUt4FXDtdFbVFe7TO0BRSOHXrhm9gV_IAGtBTps,5142
+mmf_meta/descriptors.py,sha256=sGmGWzbtWmbf5hl91971QKoQoRRI0pa1rp2-z3MzjGw,14676
+mmf_meta/df_io.py,sha256=Fnai9vAUoIzBSBZEbAzE3dEQlZHQF_Yun0SXXnGy02M,1244
+mmf_meta/formats.py,sha256=EQh29qHRbuPQr-3uYyGzPkd8Nmdb2a5V8x4Z4ay92eA,448
+mmf_meta-0.1.11.dist-info/entry_points.txt,sha256=xk8t8ZHpAjuCrRYIYHgPv5q9RROlo8WpXxc5g8qZ2X4,40
+mmf_meta-0.1.11.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mmf_meta-0.1.11.dist-info/METADATA,sha256=08B8oSQ-2JlItsietDMz8_l33phoC3hmUfpV_3iuGGU,2406
+mmf_meta-0.1.11.dist-info/RECORD,,
