@@ -1,0 +1,4 @@
+pandas
+numpy
+regobslib>=0.2.2
+setuptools

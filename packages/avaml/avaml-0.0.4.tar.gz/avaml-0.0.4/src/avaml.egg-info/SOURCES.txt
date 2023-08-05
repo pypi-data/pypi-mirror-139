@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/avaml/__init__.py
+src/avaml/prepare.py
+src/avaml.egg-info/PKG-INFO
+src/avaml.egg-info/SOURCES.txt
+src/avaml.egg-info/dependency_links.txt
+src/avaml.egg-info/requires.txt
+src/avaml.egg-info/top_level.txt
