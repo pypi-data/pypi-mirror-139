@@ -1,0 +1,8 @@
+geode_simplexremesh/Geode-SimplexRemesh_metric.dll,sha256=1XUwM0r7A9HeDOwTVlMNIbGWVUMTHNPKqw1d-VO9sek,2115072
+geode_simplexremesh/__init__.py,sha256=FyDJ17gsRLo4eJasCOss-n4gIhotz9GyipBfjP5T5jQ,121
+geode_simplexremesh/solid.py,sha256=U4mTvNkvVHnKPAT56erLm3Hi21HbHR5wuu471oKTvm0,248
+geode_simplexremesh/surface.py,sha256=n5cSoGaDnUvBhDyYaF0cph0f6hUWJYaoAqssbMZwOxQ,310
+Geode_SimplexRemesh-3.12.1.dist-info/METADATA,sha256=Fs3l4gVvsKzuHx4PTNg-Pd4VZrx3kN3l057eexUcZwU,2035
+Geode_SimplexRemesh-3.12.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Geode_SimplexRemesh-3.12.1.dist-info/top_level.txt,sha256=bWQcWtl4JS2cTPwjjgsJdxKfwhihyTNgBafCmIctw4c,20
+Geode_SimplexRemesh-3.12.1.dist-info/RECORD,,
