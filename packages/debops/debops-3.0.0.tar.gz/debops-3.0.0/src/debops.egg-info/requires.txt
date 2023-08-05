@@ -1,0 +1,15 @@
+distro
+future
+jinja2
+python-dotenv
+pyxdg
+pyyaml
+toml
+
+[ansible]
+ansible
+dnspython
+netaddr
+passlib
+pyopenssl
+python-ldap
