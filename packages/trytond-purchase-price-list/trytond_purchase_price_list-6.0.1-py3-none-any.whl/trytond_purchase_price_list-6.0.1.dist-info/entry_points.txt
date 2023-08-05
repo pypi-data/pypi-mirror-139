@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    purchase_price_list = trytond.modules.purchase_price_list
+    
