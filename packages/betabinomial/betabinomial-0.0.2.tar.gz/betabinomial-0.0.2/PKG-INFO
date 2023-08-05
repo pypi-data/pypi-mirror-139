@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: betabinomial
+Version: 0.0.2
+Summary: Beta Binomial test to detect aberration in count data
+Home-page: https://github.com/muhammedhasan/betabinomial
+Author: M. Hasan Çelik
+Author-email: muhammedhasancelik@gmail.com
+License: MIT license
+Keywords: beta-binomial,counts,statistics
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+

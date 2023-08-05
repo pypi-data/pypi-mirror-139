@@ -1,0 +1,9 @@
+README.md
+setup.py
+betabinomial/__init__.py
+betabinomial/betabinomial.py
+betabinomial.egg-info/PKG-INFO
+betabinomial.egg-info/SOURCES.txt
+betabinomial.egg-info/dependency_links.txt
+betabinomial.egg-info/requires.txt
+betabinomial.egg-info/top_level.txt

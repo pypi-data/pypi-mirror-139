@@ -1,0 +1,6 @@
+setuptools
+tqdm
+click
+scipy
+numpy
+statsmodels
