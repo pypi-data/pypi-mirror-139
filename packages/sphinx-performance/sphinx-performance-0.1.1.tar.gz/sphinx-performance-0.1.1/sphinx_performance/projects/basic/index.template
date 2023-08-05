@@ -1,0 +1,21 @@
+Performance test
+================
+
+Config
+------
+:pages: {{pages}}
+:dummies: {{dummies}}
+:keep: {{keep}}
+:browser: {{browser}}
+:debug: {{debug}}
+
+Content
+-------
+.. contents::
+
+.. toctree::
+
+{% for page in range(pages) %}
+   page_{{page}}
+{% endfor -%}
+
