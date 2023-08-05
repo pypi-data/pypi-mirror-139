@@ -1,0 +1,102 @@
+{%- if filetype_loop == 0 %}VLAN
+VLAN,
+Node Label,
+Node ID,
+Device Type,
+Device Series,
+Device Family,
+Platform ID,
+Node IP,
+MAC Address,
+Software Version,
+Role,
+Role Source,
+Fabric Role,
+Parent Node ID,
+Greyout,
+Link ID,
+Link Source,
+Link Target,
+Link Status,
+Link Greyout,
+Start Port Name,
+Start Port ID,
+Start Port Speed,
+End Port Name,
+End Port ID,
+End Port Speed,
+{%- for node in vlanTopology.nodes %}
+{%-     for role in node.additionalInfo.fabricRoles %}
+{%-         for link in vlanTopology.links %}
+{%-         endfor %}
+{%-     endfor %}
+{%- endfor %}
+{%- else %}
+{%-     if filetype_loop == 1 %}
+# DNAC VLAN Topology
+|  |
+|  |
+
+|  |
+
+{%-     else %}
+{%-         if filetype_loop == 2 %}
+<html><body>
+<h1>DNAC VLAN Topology</h1>
+<table>
+  <thead>
+    <tr>
+
+    </tr>
+  </thead>
+  <tbody>
+
+  <tr>
+
+  </tr>
+
+  </tbody>
+</table>
+</body></html>
+{%-         else %}
+# {{ vlan }}
+## Nodes
+{%- for node in vlanTopology.nodes %}
+### {{ node.label }}
+#### ID: {{ node.id }}
+#### Platform
+##### Type: {{ node.deviceType }}
+##### Series: {{ node.deviceSeries }}
+##### Family: {{ node.family }}
+##### ID: {{ node.platformId }}
+#### Identity 
+##### IP: {{ node.ip }}
+##### MAC: {{ node.additionalInfo.macAddress }}
+##### Software Version: {{ node.softwareVersion }}
+##### Role: {{ node.role }}
+##### Role Source: {{ node.roleSource }}
+{%-     for role in node.additionalInfo.fabricRoles %}
+##### Fabric Role: {{ node.roleSource }}
+{%-     endfor %}
+##### Parent Node ID: {{ node.customParam.parentNodeId }}
+#### Greyout: {{ node.greyOut }}
+{%- endfor %}
+## Links
+{%- for link in vlanTopology.links %}
+### ID: {{ link.id }}
+#### Source: {{ link.source }}
+#### Target: {{ link.target }}
+#### Status: {{ link.linkStatus }}
+#### Greyout: {{ link.greyOut }}
+#### Start Port
+##### {{ link.startPortName }}
+###### ID: {{ link.startPortID }}
+###### Speed: {{ link.startPortSpeed }}
+#### End Port
+##### {{ link.endPortName }}
+###### ID: {{ link.endPortID }}
+###### Speed: {{ link.endPortSpeed }}
+{%- endfor %}
+{%-         endif %}
+{%-     endif %}
+{%- endif %}
