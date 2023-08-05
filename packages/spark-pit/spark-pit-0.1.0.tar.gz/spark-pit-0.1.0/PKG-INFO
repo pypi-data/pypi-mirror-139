@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: spark-pit
+Version: 0.1.0
+Summary: PIT join library for PySpark
+Home-page: https://github.com/Ackuq/spark-pit/
+Author: Axel Pettersson
+Author-email: axel@pettersson.cc
+License: UNKNOWN
+Keywords: PySpark,point-in-time,joins,SparkSQL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
