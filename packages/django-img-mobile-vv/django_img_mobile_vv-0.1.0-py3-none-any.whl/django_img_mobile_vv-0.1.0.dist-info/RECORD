@@ -1,0 +1,12 @@
+django_img_mobile_vv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_img_mobile_vv/apps.py,sha256=mli6-4xyFxNexL-HxUYW3utJg5VqJEBiJdpqxI9KSy8,171
+django_img_mobile_vv/context_processors.py,sha256=VJO8YmIE4T2Qi8liCuQuCewwccTBECTXKCsQRv7WW4c,504
+django_img_mobile_vv/middleware.py,sha256=hknwC5RqB3I-aUgoO3DvfGFdE6kAJp0gdl8EJG1PsoA,500
+django_img_mobile_vv/utils.py,sha256=dA_NxinGmEeVIP0uVeVFg3Lxecj3aeuNPp0X8ri6F40,2522
+django_img_mobile_vv/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_img_mobile_vv/templatetags/static_mobile.py,sha256=l9WoVgQhbE7LhkA_ZOp8vKklYpBrbZWXb711AwNJrqg,455
+django_img_mobile_vv-0.1.0.dist-info/LICENSE.txt,sha256=iKd6ONv9GsDJfmkFkWgOD9WkA9VrVa4kkI5ijELKCOM,1076
+django_img_mobile_vv-0.1.0.dist-info/METADATA,sha256=haZSdC8TkTe-1pZu6d8YWRtuhxW70_6ATDw1lUbM3IM,1413
+django_img_mobile_vv-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_img_mobile_vv-0.1.0.dist-info/top_level.txt,sha256=Wm3KkcBoB4AlJ1Y-iqC-Bpv5ZPN80F77dlKcafxTq7Q,21
+django_img_mobile_vv-0.1.0.dist-info/RECORD,,
