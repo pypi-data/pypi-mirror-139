@@ -1,0 +1,2 @@
+[console_scripts]
+quickdiary = quickdiary.__main__:quickdiary
