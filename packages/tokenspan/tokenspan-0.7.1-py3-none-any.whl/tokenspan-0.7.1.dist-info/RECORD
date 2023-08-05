@@ -1,0 +1,10 @@
+tokenspan/__init__.py,sha256=N2Dv0SqEf_OpPLlMC8OVbVjG4grP0GX6qPxTyD5EAvc,208
+tokenspan/mergesort.py,sha256=jI67HMbi8j3LC04IR537QDqsi7yr5-QUcn4xhJZYh5s,1209
+tokenspan/span.py,sha256=kLrI3A19AgmouVi1viC0YcZyLQzyyMfqU_jBGkO6Dgw,23848
+tokenspan/tokentokens.py,sha256=G2Q7OdAy8UAfvTBCc0srPdsxd52suG1FmIXAlZ7hWmM,26371
+tokenspan/tools.py,sha256=gGdaiiSswVmmwPcDfvzEZ8CHwVmGb4jAo-T2Np2UnK0,12452
+tokenspan-0.7.1.dist-info/LICENSE,sha256=pYYvenJ4nYRrXXpZfSv2zmSrvMp77Up2gUyeMWExGJg,35085
+tokenspan-0.7.1.dist-info/METADATA,sha256=kQsoHc47d3askgGaYxT8zO9glssBvlttXA_eN9afMGU,7742
+tokenspan-0.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tokenspan-0.7.1.dist-info/top_level.txt,sha256=GEM2Wy60ZQwhVTT4K2_W3Osj9ha5A0WYlBPeYMLgjWc,10
+tokenspan-0.7.1.dist-info/RECORD,,
