@@ -1,0 +1,13 @@
+ucm/__init__.py,sha256=S6-feCwLWyVdtPGIfuwhJQZqZ4UEVvy8jzZoI0VIIAA,87
+ucm/computations.py,sha256=h4wzjfNsnOs9Ahhpwl3cfqzgi_l-m81iU5Z886XSbYg,5976
+ucm/icon.png,sha256=o_E8B3eSLh4vX5kgX4a2EqFQhl4T78qG_y6FTQsJFrg,47272
+ucm/protocols.conf,sha256=wKWqW9MHM-hYzjbkNmUmyCzCNbTqBhJrUUg1p1niKS4,411
+ucm/protocols/__init__.py,sha256=_j4f9ynAMTYwarAGoJt7207rpZXtNnJVXrVH1UlaWDE,103
+ucm/protocols/protocol_loc_b_factor.py,sha256=-4HXHnhxwjP9ARjN-tXJTxxjRgeE9nEFFuWnXBHue0E,4663
+ucm/protocols/protocol_loc_occupancy.py,sha256=sYScQxlynZXcchZ2s-5SduvTCy0PqSAPL91zSLRmRPo,3538
+scipion_em_ucm-1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+scipion_em_ucm-1.0.dist-info/METADATA,sha256=9J7ptF3fBtii6-BazWTeUCuvaNQQ4Lm0aSb2KwZRLF8,1179
+scipion_em_ucm-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scipion_em_ucm-1.0.dist-info/entry_points.txt,sha256=AQfQaJOHrfCI3fQUdE8SPSZvjGOHLzjaNWJHdZrfUsI,31
+scipion_em_ucm-1.0.dist-info/top_level.txt,sha256=vAOXKZgg2ReUb7BELuE5zah-f0X8ULY1zEigDRQYies,4
+scipion_em_ucm-1.0.dist-info/RECORD,,
