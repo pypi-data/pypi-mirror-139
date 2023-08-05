@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: authomize-rest-api-client
+Version: 0.0.3
+Summary: Authomize REST API Python Client
+Author: Authomize inc.
+Author-email: info@authomize.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Requires-Dist: requests (~=2.26)
+Requires-Dist: api-client-pydantic (~=1.2)
+Provides-Extra: codegen
+Requires-Dist: datamodel-code-generator (~=0.11) ; extra == 'codegen'
+Provides-Extra: test
+Requires-Dist: coverage (~=5.2) ; extra == 'test'
+Requires-Dist: flake8 (~=4.0) ; extra == 'test'
+Requires-Dist: flake8-isort (~=4.0) ; extra == 'test'
+Requires-Dist: pyhamcrest (~=2.0) ; extra == 'test'
+Requires-Dist: pytest (~=6.2) ; extra == 'test'
+Requires-Dist: pytest-html (~=2.1) ; extra == 'test'
+
+UNKNOWN
+
