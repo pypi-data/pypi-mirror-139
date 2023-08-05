@@ -1,0 +1,10 @@
+detettore.py,sha256=8sDXIDSeyYZnZbCqaan_Evc1hOBmL2Nv9iJe6U6eDuA,9141
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/bamstats.py,sha256=Wt5zU32LslPp768LYt_5BV7tKJzPUPfBQpGCrKYKS7Q,6463
+scripts/combineVCFs.py,sha256=cv3EDUFASTMrUzDnrqC9ii9Pc5YiQiTpXi3IJwIkaqE,7441
+scripts/strumenti.py,sha256=_JonFtYtQQhniWY82VAC7r73kR9aDKB96WaW9kZ2hbU,54603
+detettore-2.0.3.dist-info/entry_points.txt,sha256=jmd7SA30Y22Ya5HoRGzL1rU1IPK3opc81zjZ3nRtRoE,111
+detettore-2.0.3.dist-info/LICENSE.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+detettore-2.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+detettore-2.0.3.dist-info/METADATA,sha256=xiiVfjUlkhIke-2NLsnhzHYthe8uglWkJi9xgnrONXA,792
+detettore-2.0.3.dist-info/RECORD,,

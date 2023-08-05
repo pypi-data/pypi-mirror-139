@@ -1,0 +1,5 @@
+[console_scripts]
+bamstats=scripts.bamstats:main
+combinevcf=scripts.combineVCFs:main
+detettore=detettore:main
+
