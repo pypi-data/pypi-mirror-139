@@ -1,0 +1,9 @@
+gym>=0.18
+matplotlib>=3.4
+numpy>=1.18.0
+pyglet>=1.4.0
+pyyaml>=6.0
+sacred>=0.8.2
+scikit-learn>=1.0
+scipy>=1.4.1
+tqdm>=4.62.3
