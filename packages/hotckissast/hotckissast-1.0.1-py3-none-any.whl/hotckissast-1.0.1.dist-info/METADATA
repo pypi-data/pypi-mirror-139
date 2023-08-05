@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hotckissast
+Version: 1.0.1
+Summary: py ast visualizer
+Home-page: https://github.com/hotckiss/Py2022
+Author: hotckiss
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Requires-Dist: networkx (==2.6.3)
+Requires-Dist: pydot (==1.4.2)
+
+UNKNOWN
+
