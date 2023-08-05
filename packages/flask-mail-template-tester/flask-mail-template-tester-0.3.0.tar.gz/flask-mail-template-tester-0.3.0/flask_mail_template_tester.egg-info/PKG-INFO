@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: flask-mail-template-tester
+Version: 0.3.0
+Summary:  Add ``flask template-test`` command to send template emails with data read from a test file.
+Home-page: https://github.com/geodav-tech/flask-mail-template-tester
+Author: Shawn Pacarar
+Author-email: shawn@geodav.tech
+License: MIT
+Description: # Flask Mail Template Tester
+        This package provides a faster way to inject data into flask mail templates and send them to a recipient for testing.
+        
+        # Setup
+        - `pip install flask-mail-template-tester`
+        - `pip freeze > requirements.txt`
+        
+        ### using environment variables (recommended)
+        - `export TEMPLATE_DATA_FILE="path/to/some/data.py"`
+        	- note: the default data file is set to look at the current working directory + /templates/test_data.py. This is meant to allow you to write a script to test all your templates with one central and standard set of data.
+        - `export TEMPLATE_EMAIL="my-email@gmail.com"`
+        - `flask template-test name-of-template.html`
+        
+        ### using cli arguments
+        - `flask template-test name-of-template.html -d "path/to/some/data.py" -e "my-email@gmail.com"`
+        
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
