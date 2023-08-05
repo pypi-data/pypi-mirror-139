@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: dev-up
+Version: 2.0.0
+Summary: Библиотека для работы с сервисом DEV-UP.
+Home-page: https://github.com/lordralinc/dev_up
+License: MIT
+Keywords: async,api
+Author: lordralinc
+Requires-Python: >3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Python :: 3.10
+Classifier: Python :: 3.8
+Classifier: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: Pygments (>=2.10.0,<3.0.0)
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: cachetools (>=4.2.4,<5.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: update (>=0.0.1,<0.0.2)
+Description-Content-Type: text/markdown
+
+# DEV UP API wrapper
+
+![PyPI](https://img.shields.io/pypi/v/dev-up)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dev-up)
+![GitHub](https://img.shields.io/github/license/lordralinc/dev_up)
+[![Downloads](https://pepy.tech/badge/dev-up)](https://pepy.tech/project/dev-up)
+## Установка 
+```shell
+pip install dev_up
+```
+
+
+
+## Получение токена
+[dev-up.ru](https://dev-up.ru/lk)
+
+## Использование
+
+```python
+from dev_up import DevUpAPI
+
+api = DevUpAPI("token")
+profile = await api.profile.get()
+stickers = await api.vk.get_stickers(1)
+
+custom = await api.make_request(
+    "section.method",
+    data=dict(param1="foo", param2="bar")
+)
+```
