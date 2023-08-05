@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/ddxl.egg-info/PKG-INFO
+src/ddxl.egg-info/SOURCES.txt
+src/ddxl.egg-info/dependency_links.txt
+src/ddxl.egg-info/requires.txt
+src/ddxl.egg-info/top_level.txt
