@@ -1,0 +1,2 @@
+[console_scripts]
+phrase-hunter = phrasehunter:main
