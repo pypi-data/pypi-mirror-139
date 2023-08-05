@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: pyeuropeana
+Version: 0.1.2
+Summary: A Python wrapper around Europeana APIs
+Home-page: https://github.com/europeana/rd-europeana-python-api
+License: MIT
+Keywords: GLAM,europeana,cultural heritage
+Author: José Eduardo Cejudo Grano de Oro
+Author-email: joseed.cejudo@europeana.eu
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: fire (>=0.4,<0.5)
+Requires-Dist: pandas (>=1.3,<2.0)
+Requires-Dist: pillow (>=9.0.0,<10.0.0)
+Requires-Dist: requests (>=2.27,<3.0)
+Project-URL: Repository, https://github.com/europeana/rd-europeana-python-api
+Description-Content-Type: text/markdown
+
+# Python interface for Europeana's APIs
+
+This package is a Python wrapper for Europeana's [Search](https://pro.europeana.eu/page/search) and [Record](https://pro.europeana.eu/page/record) APIs.
+
+## Installation
+
+As this package is not published on PyPI currently, the only way to install it is through its Git repository host using pip:
+
+`pip install https://github.com/europeana/rd-europeana-python-api/archive/stable.zip`
+
+From source
+
+`git clone https://github.com/europeana/rd-europeana-python-api.git`
+
+`cd rd-europeana-python-api`
+
+`pip install -e .`
+
+## Authentication
+
+Get your API key [here](https://pro.europeana.eu/pages/get-api)
+
+Set `EUROPEANA_API_KEY` as an environment variable running `export EUROPEANA_API_KEY=yourapikey` in the terminal.
+
+If running in Google Colab use `os.environ['EUROPEANA_API_KEY'] = 'yourapikey'`
+
+## Usage
+
+
+```python
+from pyeuropeana.apis import SearchWrapper
+from pyeuropeana.utils.edm_utils import res2df
+
+result = SearchWrapper(
+  query = '*',
+  qf = '(skos_concept:"http://data.europeana.eu/concept/base/48" AND TYPE:IMAGE)',
+  reusability = 'open AND permission',
+  media = True,
+  thumbnail = True,
+  landingpage = True,
+  colourpalette = '#0000FF',
+  theme = 'photography',
+  sort = 'europeana_id',
+  profile = 'rich',
+  rows = 1000,
+) # this gives you full response metadata along with cultural heritage object metadata
+
+# use this utility function to transform a subset of the cultural heritage object metadata
+# into a readable Pandas DataFrame
+dataframe = res2df(result, full=False)
+```
+
+[Colab tutorial](https://colab.research.google.com/drive/1VZJn9JKqziSF2jVQz1HRsvgbUZ0FM7qD?usp=sharing)
+
