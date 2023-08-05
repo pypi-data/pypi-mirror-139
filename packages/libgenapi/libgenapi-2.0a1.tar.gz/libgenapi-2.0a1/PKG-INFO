@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: libgenapi
+Version: 2.0a1
+Summary: UNKNOWN
+License: MIT
+Author-email: Marc Marquez Santamaria <mmsa1994@gmail.com>
+Requires-Python: >=3.8
+Project-URL: homepage, https://github.com/mmarquezs/libgen-python-api
