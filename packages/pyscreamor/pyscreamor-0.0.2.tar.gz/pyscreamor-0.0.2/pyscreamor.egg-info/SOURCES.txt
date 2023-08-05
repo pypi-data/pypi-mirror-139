@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+./pyscreamor/__init__.py
+./pyscreamor/screamor.py
+pyscreamor.egg-info/PKG-INFO
+pyscreamor.egg-info/SOURCES.txt
+pyscreamor.egg-info/dependency_links.txt
+pyscreamor.egg-info/top_level.txt
