@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+evident/__init__.py
+evident/diversity_handler.py
+evident/exceptions.py
+evident/stats.py
+evident/utils.py
+evident.egg-info/PKG-INFO
+evident.egg-info/SOURCES.txt
+evident.egg-info/dependency_links.txt
+evident.egg-info/requires.txt
+evident.egg-info/top_level.txt
