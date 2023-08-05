@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: exo-lang
+Version: 0.0.1
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PySMT (==0.9.0)
+Requires-Dist: asdl-adt (==0.1.0)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: yapf (==0.31.0)
+
+UNKNOWN
+
