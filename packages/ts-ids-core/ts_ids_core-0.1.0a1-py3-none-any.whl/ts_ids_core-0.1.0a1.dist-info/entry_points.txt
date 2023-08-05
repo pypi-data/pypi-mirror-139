@@ -1,0 +1,3 @@
+[console_scripts]
+export-schema=ts_ids_core.generate_jsonschema_ids:write_jsonschema_ids
+
