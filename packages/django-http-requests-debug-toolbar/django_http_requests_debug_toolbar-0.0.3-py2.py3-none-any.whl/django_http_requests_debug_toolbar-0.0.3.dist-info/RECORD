@@ -1,0 +1,8 @@
+requests_panel/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+requests_panel/panel.py,sha256=3j-zZarX4_7P9BjaWF0bQ_5w9V34h0yoL2DhbuXPoSY,3364
+requests_panel/templates/requests_panel/panel.html,sha256=2UGoU8KRyLsFy20WCq8QLItL54VmMbmn6dX9POVMoh4,3448
+django_http_requests_debug_toolbar-0.0.3.dist-info/LICENSE,sha256=iaFzGvCsV1loldJi2aNRsBEusmdETFF43ffe12_6u4Q,1058
+django_http_requests_debug_toolbar-0.0.3.dist-info/METADATA,sha256=H3EDWrrZph3_Xo2kLUgwtH-kUTu2UR5UMua-OqUaCQQ,1429
+django_http_requests_debug_toolbar-0.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_http_requests_debug_toolbar-0.0.3.dist-info/top_level.txt,sha256=HKNfUoCWYEbmx4Xq2zXD6yzek4qqmqcqIDy_LGTUhDs,15
+django_http_requests_debug_toolbar-0.0.3.dist-info/RECORD,,
