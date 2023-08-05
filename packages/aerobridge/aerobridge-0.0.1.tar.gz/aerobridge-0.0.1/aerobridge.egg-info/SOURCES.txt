@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aerobridge.egg-info/PKG-INFO
+aerobridge.egg-info/SOURCES.txt
+aerobridge.egg-info/dependency_links.txt
+aerobridge.egg-info/requires.txt
+aerobridge.egg-info/top_level.txt
+aerobridge_py/__init__.py
+aerobridge_py/aerobridgetools.py
