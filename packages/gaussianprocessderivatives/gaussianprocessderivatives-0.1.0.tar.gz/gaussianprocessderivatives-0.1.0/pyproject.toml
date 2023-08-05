@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "gaussianprocessderivatives"
+version = "0.1.0"
+description = "Uses Gaussian processes to smooth data and estimate first- and second-order derivatives"
+authors = ["Peter Swain"]
+license = "MIT"
+keywords = ["gaussian process", "derivative"]
+classifiers= [
+  "Topic :: Scientific/Engineering",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+scipy = "^1.8.0"
+matplotlib = "^3.5.1"
+numpy = "^1.22.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
