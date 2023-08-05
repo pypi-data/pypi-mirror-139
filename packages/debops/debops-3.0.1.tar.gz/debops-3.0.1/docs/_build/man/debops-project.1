@@ -1,0 +1,190 @@
+.\" Man page generated from reStructuredText.
+.
+.TH "DEBOPS-PROJECT" "1" "Feb 17, 2022" "v3.0.1" "DebOps"
+.SH NAME
+debops-project \- Create or manage a DebOps project directory
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.SH SYNOPSIS
+.sp
+\fBdebops project\fP [\-h|\-\-help] [<command>] [<args>]
+.sp
+\fBdebops project init\fP [\-h|\-\-help] [\-\-git|\-\-no\-git] [\-\-encrypt encfs|git\-crypt \-\-keys <recipient>,[<recipient>]] <project_dir>
+.sp
+\fBdebops project refresh\fP [\-h|\-\-help] [<project_dir>]
+.sp
+\fBdebops project unlock\fP [\-h|\-\-help] [<project_dir>]
+.sp
+\fBdebops project lock\fP [\-h|\-\-help] [<project_dir>]
+.sp
+\fBdebops project status\fP [\-h|\-\-help] [<project_dir>]
+.SH DESCRIPTION
+.sp
+The \fBdebops project\fP section contains comands related to creation and
+maintenance of the DebOps project directories. Each project directory can
+contain one or more Ansible inventories, a PKI infrastructure, and various
+other resources used in a given environment.
+.SH DEBOPS PROJECT INIT
+.sp
+This command can be used to initialize a new project directory, specified as
+the main argument. The script will check if a \fB\&.debops.cfg\fP file exists
+in a given directory; if not, it will be created along with a basic directory
+structure.
+.SS Options
+.INDENT 0.0
+.TP
+.B \fB\-h, \-\-help\fP
+Display the help and usage information
+.TP
+.B \fB\-\-git\fP
+Initialize a \fBgit\fP repository in the project directory (planned)
+.TP
+.B \fB\-\-no\-git\fP
+Do not initialize a \fBgit\fP repository, if it\(aqs created by default
+(planned)
+.TP
+.B \fB\-\-encrypt <encfs|git\-crypt>\fP
+Prepare the project directory to host encrypted \fBansible/secret/\fP
+subdirectory, used to store passwords, encryption keys and other confidential
+information. See the debops.secret Ansible role for more details.
+.sp
+You need to specify either \fBencfs\fP or \fBgit\-crypt\fP (planned) to select the
+encryption method. If encryption is enabled, you need to specify the list of
+GPG recipients as well, using the \fB\-\-keys\fP option.
+.TP
+.B \fB\-\-keys <recipient>[,recipient]\fP
+A list of GPG recipients (e\-mail addresses or key IDs) which will be allowed
+to unlock the \fBansible/secret/\fP directory encrypted with EncFS or
+git\-crypt. Separate multiple list entries by commas.
+.TP
+.B \fB<project_dir>\fP
+Path to the DebOps project directory to initialize. If not specified, DebOps
+will try to use the current directory to create a new project directory. The
+script will check if the current directory is a home directory and will stop
+operation in this case.
+.UNINDENT
+.SS Examples
+.sp
+Create a basic DebOps project directory:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+debops project init ~/src/projects/myproject
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Create a project directory with EncFS encryption for secrets:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+debops project init \-\-encrypt encfs \e
+                    \-\-keys admin@example.org,otheradmin@example.org \e
+                    ~/src/projects/example.org
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.SH DEBOPS PROJECT REFRESH
+.sp
+This command can be used to "refresh" a given DebOps project directory. By
+default DebOps does not modify an existing \fBansible.cfg\fP configuration
+file. This allows the user to test new configuration if needed. When the
+\fBdebops project refresh\fP command is called, DebOps will generate a new
+\fBansible.cfg\fP configuration file based on the contents of its own
+internal configuration. The script will also ensure that the basic directory
+structure of a project exists.
+.SS Options
+.INDENT 0.0
+.TP
+.B \fB\-h, \-\-help\fP
+Display the help and usage information
+.TP
+.B \fB<project_dir>\fP
+Path to the project directory to refresh.
+.UNINDENT
+.SH DEBOPS PROJECT UNLOCK
+.sp
+When the project directory contains an encrypted \fBansible/secret/\fP
+directory, this command can be used to unlock it and provide access to
+encrypted data. This only works for project directories that have been
+initialized with EncFS or git\-crypt support (or that suppor has been configured
+manually).
+.sp
+Keep in mind that after unlocking the directory manually, DebOps will not lock it
+on subsequent Ansible runs. In such case you should use the \fBdebops
+project lock\fP command to secure the secrets.
+.SS Options
+.INDENT 0.0
+.TP
+.B \fB\-h, \-\-help\fP
+Display the help and usage information
+.TP
+.B \fB<project_dir>\fP
+Path to the project directory to unlock.
+.UNINDENT
+.SH DEBOPS PROJECT LOCK
+.sp
+This command can be used to lock and secure the \fBansible/secret/\fP
+directory after it has been unlocked using the \fBdebops project unlock\fP
+command. This only works in project directories that have been configured with
+either EncFS or git\-crypt encryption during initialization.
+.SS Options
+.INDENT 0.0
+.TP
+.B \fB\-h, \-\-help\fP
+Display the help and usage information
+.TP
+.B \fB<project_dir>\fP
+Path to the project directory to lock.
+.UNINDENT
+.SH DEBOPS PROJECT STATUS
+.sp
+This command displays various information about a given project directory known
+to DebOps, for example the type of the project directory, state of encrypted
+\fBansible/secret/\fP directory, and so on.
+.SS Options
+.INDENT 0.0
+.TP
+.B \fB\-h, \-\-help\fP
+Display the help and usage information
+.TP
+.B \fB<project_dir>\fP
+Path to the project directory to inspect.
+.UNINDENT
+.SH AUTHOR
+Maciej Delmanowski, Nick Janetakis, Robin Schneider and others
+.SH COPYRIGHT
+2014-2022, Maciej Delmanowski, Nick Janetakis, Robin Schneider and others
+.\" Generated by docutils manpage writer.
+.
