@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+billrobot_v1.egg-info/PKG-INFO
+billrobot_v1.egg-info/SOURCES.txt
+billrobot_v1.egg-info/dependency_links.txt
+billrobot_v1.egg-info/requires.txt
+billrobot_v1.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: billrobot_v1
+Version: 1.0.1
+Summary: A Python robot that you can use it directly
+Home-page: https://github.com/billma007/billrobot_v1
+Author: BillMa
+Author-email: maboning237103015@163.com
+License: MIT Licence
+Keywords: pip,robots,billma,direct,1.0.0,shat
+Platform: any
+License-File: LICENSE
+
+A Python robot that you can use it directly
+
