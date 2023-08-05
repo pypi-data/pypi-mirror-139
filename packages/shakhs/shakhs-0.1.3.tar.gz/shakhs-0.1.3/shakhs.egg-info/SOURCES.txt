@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+codemelli.py
+lastname.txt
+nameboy.txt
+namegirl.txt
+setup.py
+data/code-city.json
+shakhs.egg-info/PKG-INFO
+shakhs.egg-info/SOURCES.txt
+shakhs.egg-info/dependency_links.txt
+shakhs.egg-info/top_level.txt
