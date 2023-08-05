@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dlds-eval
+Version: 0.2.0
+Summary: Evaluation code for Deep Learning DS from Data Spree.
+Home-page: https://data-spree.com/products/deep-learning-ds
+Author: Data Spree GmbH
+Author-email: info@data-spree.com
+License: Apache-2.0
+Description: UNKNOWN
+Keywords: dataspree,deep learning,artificial intelligence
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Provides-Extra: build
