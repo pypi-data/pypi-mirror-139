@@ -1,0 +1,15 @@
+libgenapi/__init__.py,sha256=CMhGZOMCXTFSf4_-MvhqR1wBy-ezhcIrdQhZ02orQwo,59
+libgenapi/debug.py,sha256=DaekjiO7REOSuMy1Qed0FgPM5GMyTKRGHWU9BEzTKMs,216
+libgenapi/libgenapi.py,sha256=86GFSlzYLJH1ywL1rioWHSevaFzMJ7dfZuIDF-dw17I,3310
+libgenapi/scrapers/__init__.py,sha256=StoHs4g3sK3ZdFe7Yxz4D8w0j-h8kpuGpmmqbWVZlxw,80
+libgenapi/scrapers/comics.py,sha256=JmIysmqF13W69iuWqmF531G5xZTw5_NdDA2aqEAXaF4,5505
+libgenapi/scrapers/fiction.py,sha256=PyA9JyNCQRVRkoDQXeZI0GqN8vRS8ekzvq7UGlta4wM,3824
+libgenapi/scrapers/helpers/lxml_helpers.py,sha256=Zs2ijENQSTBEnswxn2QzmIUELMeAnu9pbMhemE1r4p4,229
+libgenapi/scrapers/nonfiction.py,sha256=Gp-4KuJ1lSEH2lr4d2IHlNNZrKrSjMjWW0lE52AwLwc,5633
+libgenapi/scrapers/scimag.py,sha256=YWh0yYojNXlfluDpMEkLDGXpAQUZ70JCYBmcBxmPCfc,5011
+libgenapi/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libgenapi/utils/results_parser.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libgenapi-2.0a0.dist-info/WHEEL,sha256=H68pkwFXYiPcYQggWGQrteqYmGEtEbAhNbB9JPX9hZ4,88
+libgenapi-2.0a0.dist-info/METADATA,sha256=MmEC0c58liaVIOqZ5lZ_cqemeZJRpAbVpd8KfRRwz7Y,396
+libgenapi-2.0a0.dist-info/LICENSE,sha256=CXy72skMHeMN8pEy_k7dg8XxQCsPKnBhsfbE9cbgrnM,1113
+libgenapi-2.0a0.dist-info/RECORD,,
