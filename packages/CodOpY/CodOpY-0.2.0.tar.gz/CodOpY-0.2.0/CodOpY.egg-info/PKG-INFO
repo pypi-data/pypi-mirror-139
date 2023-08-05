@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: CodOpY
+Version: 0.2.0
+Summary: A Python package for gene optimisation
+Home-page: UNKNOWN
+Author: Tobias von der Haar
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
