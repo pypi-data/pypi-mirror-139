@@ -1,0 +1,2 @@
+[console_scripts]
+google-drive-to-sqlite = google_drive_to_sqlite.cli:cli
