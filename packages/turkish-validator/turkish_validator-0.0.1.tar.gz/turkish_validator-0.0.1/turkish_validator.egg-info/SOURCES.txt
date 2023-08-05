@@ -1,0 +1,10 @@
+LICENSE.MD
+README.md
+pyproject.toml
+setup.py
+turkish_validator/__init__.py
+turkish_validator/turkish_validator.py
+turkish_validator.egg-info/PKG-INFO
+turkish_validator.egg-info/SOURCES.txt
+turkish_validator.egg-info/dependency_links.txt
+turkish_validator.egg-info/top_level.txt
