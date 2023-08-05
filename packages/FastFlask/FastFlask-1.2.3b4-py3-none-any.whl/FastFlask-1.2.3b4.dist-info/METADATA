@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: FastFlask
+Version: 1.2.3b4
+Summary: flask that Easier to install|更容易下载的flask
+Home-page: https://pypi.org/
+Author: CharlesCai
+Author-email: 18222159844@163.com
+Maintainer: 蔡沐含
+Maintainer-email: c6661366613@qq.com
+License: MIT License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3
+
+
+===========
+Install安装
+===========
+
+pip install FastFlask
+
+=======
+Use使用
+=======
+
+from FastFlask.flask import ...
+
+---------------------------------------
+Very simple, isn't it? 是不是非常简单？
+---------------------------------------
+
+注：什么情况下需要使用本库：QPython（华为手机版python）以及不能下载flask的电脑
+
+Note: when do you need use this package: QPythom( python in Huawei phone) and other computer that can't install flask
+
+
