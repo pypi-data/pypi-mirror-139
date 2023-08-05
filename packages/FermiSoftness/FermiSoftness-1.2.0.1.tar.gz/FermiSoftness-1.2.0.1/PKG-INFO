@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: FermiSoftness
+Version: 1.2.0.1
+Summary: A script for calculating Fermi-Softness.
+Home-page: https://github.com/Linqiaosong/Fermi-Softness-for-VASP
+Author: linqiaosong
+Author-email: linqiaosong@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
