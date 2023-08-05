@@ -1,0 +1,10 @@
+phantom_creator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phantom_creator/functions.py,sha256=u5rBO-t_IjCYt9xd3AsOGQOBEY-LIXJ1dVD02x8cKLk,3610
+phantom_creator/main.py,sha256=KI8GTdKAJx-c10qgtpqup0sHJDCTrokzDBOcMp7RP4Y,3362
+phantom_creator/settings.py,sha256=rc1I5h_hdijn4ME_UZBQ22TrPLPefpLQVBZL_2sl4d8,31
+phantom_creator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phantom_creator/tests/functions_tests.py,sha256=WdWU2g8pwGkL6vhTTT1rwx0jqFCrUgOtr1PuYJrRmYA,4859
+phantom_creator-0.0.4.dist-info/METADATA,sha256=dMzLKHSFB4DgMBmiHJ4NJGEKSeLYVt3hQVjmUIxKxs8,209
+phantom_creator-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+phantom_creator-0.0.4.dist-info/top_level.txt,sha256=G9BwJfpoZOa6zYcJbwOkupz5Bkk9dj28WDwksTlf7GU,16
+phantom_creator-0.0.4.dist-info/RECORD,,
