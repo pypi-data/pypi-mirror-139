@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neuro-maintenance-checker
+Version: 22.2.1
+Summary: Internal service for checking for Neu.ro maintenance mode
+Home-page: https://github.com/neuro-inc/neuro-maintenance-checker
+License: Apache 2
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# neuro-maintenance-checker
+Helper library for checking for Neuro maintenance mode
+
+
