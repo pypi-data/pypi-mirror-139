@@ -1,0 +1,8 @@
+PyYAML==5.4
+
+[ci]
+tox~=3.24
+
+[test]
+pytest-cov~=2.7
+pytest~=4.5
