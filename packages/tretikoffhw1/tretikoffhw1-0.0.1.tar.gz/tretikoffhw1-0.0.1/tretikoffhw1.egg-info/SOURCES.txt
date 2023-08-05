@@ -1,0 +1,6 @@
+get-pip.py
+setup.py
+tretikoffhw1.egg-info/PKG-INFO
+tretikoffhw1.egg-info/SOURCES.txt
+tretikoffhw1.egg-info/dependency_links.txt
+tretikoffhw1.egg-info/top_level.txt
