@@ -1,0 +1,6 @@
+BACTERIA = "bacteria"
+CRYPTOCOCCUS_NEOFORMANS = "cryptococcus_neoformans"
+ECOLI = "e_coli"
+HEADACHE = "headache"
+KLEBSIELLA_SPP = "klebsiella_sp"
+NO_GROWTH = "no_growth"
