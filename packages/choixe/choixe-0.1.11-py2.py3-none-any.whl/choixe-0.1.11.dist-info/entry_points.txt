@@ -1,0 +1,2 @@
+[console_scripts]
+choixe = choixe.cli.main:choixe
