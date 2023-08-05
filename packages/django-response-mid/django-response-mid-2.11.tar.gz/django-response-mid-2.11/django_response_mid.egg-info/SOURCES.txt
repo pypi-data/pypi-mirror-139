@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+django_response_mid.egg-info/PKG-INFO
+django_response_mid.egg-info/SOURCES.txt
+django_response_mid.egg-info/dependency_links.txt
+django_response_mid.egg-info/requires.txt
+django_response_mid.egg-info/top_level.txt
+django_response_mid.egg-info/zip-safe
+django_response_middleware/__init__.py
+django_response_middleware/django_response_middleware.py
+django_response_middleware/response_codes.py
+django_response_middleware/response_data.py
+django_response_middleware/utils/__init__.py
+django_response_middleware/utils/type_conversion.py
