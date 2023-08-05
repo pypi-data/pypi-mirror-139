@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: glover
+Version: 0.1
+Summary: An Open**GL** Lay**over** library built on top of vispy for plotting BSB entities.
+Author-email: Francesco Sheiban <frances.j.shei@gmail.com>, Robin De Schepper <robingilbert.deschepper@unipv.it>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: vispy~=0.9
+Requires-Dist: pyglet~=1.5
+Requires-Dist: bsb~=4.0.0a0
+Requires-Dist: trimesh~=3.10
+Requires-Dist: numpy~=1.22
+
+**Glover** \
+An Open**GL** Lay**over** built on top of [`vispy`](https://vispy.org/) for plotting [`Brain Scaffold Builer` (BSB)](https://github.com/dbbs-lab/bsb) entities
+
