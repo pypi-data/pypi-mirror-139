@@ -1,0 +1,5 @@
+cachetools
+dataclasses-json
+requests
+typing-extensions
+python-dotenv
