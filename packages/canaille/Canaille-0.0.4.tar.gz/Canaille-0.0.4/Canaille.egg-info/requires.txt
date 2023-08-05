@@ -1,0 +1,14 @@
+authlib
+click
+email_validator
+flask
+flask-babel
+flask-themer
+flask-wtf
+python-ldap
+sentry-sdk[flask]
+toml
+wtforms
+
+[:python_version < "3.7"]
+dataclasses
