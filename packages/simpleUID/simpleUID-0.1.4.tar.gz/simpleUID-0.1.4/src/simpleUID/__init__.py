@@ -1,0 +1,1 @@
+from .simpleUID import string, integer, password, database, secret
