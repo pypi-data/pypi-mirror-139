@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: inukit
+Version: 0.9.1
+Summary: Kit by & for inuEbisu
+Home-page: https://github.com/inuEbisu/inukit
+Author: inuEbisu
+Author-email: inuebisu@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
