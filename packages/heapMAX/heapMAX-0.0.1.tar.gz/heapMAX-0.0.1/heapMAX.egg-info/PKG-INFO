@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: heapMAX
+Version: 0.0.1
+Summary: implement max heap
+Home-page: UNKNOWN
+Author: Mriganka Saikia
+Author-email: mrigankas2001@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,algorithm,heap,max heap
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
