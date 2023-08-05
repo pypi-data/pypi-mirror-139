@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+django_img_mobile_vv/__init__.py
+django_img_mobile_vv/apps.py
+django_img_mobile_vv/context_processors.py
+django_img_mobile_vv/middleware.py
+django_img_mobile_vv/utils.py
+django_img_mobile_vv.egg-info/PKG-INFO
+django_img_mobile_vv.egg-info/SOURCES.txt
+django_img_mobile_vv.egg-info/dependency_links.txt
+django_img_mobile_vv.egg-info/not-zip-safe
+django_img_mobile_vv.egg-info/requires.txt
+django_img_mobile_vv.egg-info/top_level.txt
+django_img_mobile_vv/templatetags/__init__.py
+django_img_mobile_vv/templatetags/static_mobile.py

@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: django-img-mobile-vv
+Version: 0.1.0
+Summary: Django app designed to be able to use lower quality images for the mobile version of your site. (This package was created quickly and for later use in my company :3)
+Home-page: https://github.com/vlasooff/django_img_mobile_vv
+Author: Vlasov Vitalii
+Author-email: vlasovspk@yandex.ru
+License: MIT
+Description: Django app designed to be able to use lower quality images for the mobile version of your site. (This package was created quickly and for later use in my company :3)
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

@@ -1,0 +1,3 @@
+include LICENSE.txt
+include README.rst
+recursive-include django_img_mobile_vv *.py
