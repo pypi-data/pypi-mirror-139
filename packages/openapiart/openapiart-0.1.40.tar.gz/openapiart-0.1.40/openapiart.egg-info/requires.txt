@@ -1,0 +1,15 @@
+grpcio
+grpcio-tools
+requests
+pyyaml
+pytest
+openapi-spec-validator
+jsonpath-ng
+typing
+black==22.1.0
+
+[testing]
+pytest
+flake8
+black
+flask
