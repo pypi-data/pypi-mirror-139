@@ -1,0 +1,9 @@
+devbio_napari/__init__.py,sha256=wfcz9bwfwPaAl3xvxR_jGYrAPsyxD9dA4dKznDWIrcc,1253
+devbio_napari/__main__.py,sha256=E4yiAmcky9MAaAzp_o0IBp3BaHYxSNg6OQs0nIw-jvU,496
+devbio_napari/_viewer.py,sha256=4B2us27yZQOsU8aBCyf0KYQtildp04wkvtYK454y5gA,388
+devbio_napari-0.2.0.dist-info/LICENSE,sha256=w6SF7RzCWh1QEBfUvBxcebvC_SAJyHcOE1kv-hAMIxc,1505
+devbio_napari-0.2.0.dist-info/METADATA,sha256=XiWKdZasp808EkeBBCQ61WifBzQ-3QZdPCVW_gqVQec,7889
+devbio_napari-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+devbio_napari-0.2.0.dist-info/entry_points.txt,sha256=6FOCsTmgVb-pj9_g_vE1MGYDjXrVR7q-pFJyeKNmf-0,100
+devbio_napari-0.2.0.dist-info/top_level.txt,sha256=YAPkh35ZtTu3P9ml16bs8lTLNPZvheLvaX31kKZdkSs,14
+devbio_napari-0.2.0.dist-info/RECORD,,
