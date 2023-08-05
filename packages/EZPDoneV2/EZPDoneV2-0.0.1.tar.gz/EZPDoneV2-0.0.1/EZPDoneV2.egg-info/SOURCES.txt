@@ -1,0 +1,8 @@
+README.md
+setup.py
+EZPDone/__init__.py
+EZPDone/library.py
+EZPDoneV2.egg-info/PKG-INFO
+EZPDoneV2.egg-info/SOURCES.txt
+EZPDoneV2.egg-info/dependency_links.txt
+EZPDoneV2.egg-info/top_level.txt
