@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: yfinhanced
+Version: 0.0.3
+Summary: A python wrapper around the yahoo finance API that leverages pandas DataFrames
+Home-page: https://github.com/ME-64/yfinhanced
+Author: ME-64
+Author-email: milo_elliott@icloud.com
+License: MIT
+Keywords: api wrapper,yahoo finance,markets
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: requests
+Requires-Dist: dateutil
+Requires-Dist: pytz
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pyteset-asyncio ; extra == 'dev'
+
+## A python wrapper around the yahoo finance API that leverages pandas DataFrames
+
+
+
+# get_quote
+
+- If yahoo error: will raise a valueerror
+- If no data found for quote: will return empty df with all columns present
+- if data found, will return one row in df for each ticker
+
+
+
+from yfinhanced import YFClient
+yf = YFClient()
+await yf.connect()
+
+x = await yf.get_quote('BTC-USD')
+
+
