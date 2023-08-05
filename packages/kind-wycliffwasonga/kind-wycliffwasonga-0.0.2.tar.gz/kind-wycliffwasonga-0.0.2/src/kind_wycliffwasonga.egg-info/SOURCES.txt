@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kind/__init__.py
+src/kind/__main__.py
+src/kind/_kind.py
+src/kind_wycliffwasonga.egg-info/PKG-INFO
+src/kind_wycliffwasonga.egg-info/SOURCES.txt
+src/kind_wycliffwasonga.egg-info/dependency_links.txt
+src/kind_wycliffwasonga.egg-info/entry_points.txt
+src/kind_wycliffwasonga.egg-info/requires.txt
+src/kind_wycliffwasonga.egg-info/top_level.txt

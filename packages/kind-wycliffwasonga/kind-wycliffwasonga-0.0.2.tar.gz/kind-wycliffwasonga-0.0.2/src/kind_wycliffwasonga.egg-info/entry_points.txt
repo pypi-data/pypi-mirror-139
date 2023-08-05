@@ -1,0 +1,2 @@
+[console_scripts]
+kind = kind.__main__:cli

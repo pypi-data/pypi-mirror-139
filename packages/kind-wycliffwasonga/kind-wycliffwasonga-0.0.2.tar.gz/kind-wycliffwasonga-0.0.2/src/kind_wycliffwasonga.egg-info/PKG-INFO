@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: kind-wycliffwasonga
+Version: 0.0.2
+Summary: For querying documents from Korea Investor's Network for Disclosure(KIND)
+Home-page: https://github.com/wycliffwasonga/kind
+Author: Wycliff Wasonga
+Author-email: wycliffwasonga@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kind
+
+Query Korea Investor's Network for Disclosure(KIND) for Korean companies' published documents.
+
+## Instructions
+
+The package requires that you have Mozilla Firefox, Internet browser, installed.
+
+1. Install:
+
+```
+pip install kind-wycliffwasonga
+```
+
+## Usage
+
+1. CLI
+
+```sh
+$ kind search --company 241560
+```
+
+```sh
+$ kind search --company 241560 --start 2021-01-01 --end 2021-03-31
+```
+
+2 Library
+
+```python
+from datetime import datetime
+import kind
+
+start_date = datetime(2021, 1, 1)
+end_date = datetime(2021, 3, 31)
+results = kind.search("241560", start_date, end_date)
+```
+
+
