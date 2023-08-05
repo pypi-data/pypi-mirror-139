@@ -1,0 +1,15 @@
+LICENSE.TXT
+README.rst
+pyproject.toml
+setup.py
+DataModelDict/DataModelDict.py
+DataModelDict/VERSION
+DataModelDict/__init__.py
+DataModelDict/joinpath.py
+DataModelDict/parsepath.py
+DataModelDict/uber_open_rmode.py
+DataModelDict.egg-info/PKG-INFO
+DataModelDict.egg-info/SOURCES.txt
+DataModelDict.egg-info/dependency_links.txt
+DataModelDict.egg-info/requires.txt
+DataModelDict.egg-info/top_level.txt
