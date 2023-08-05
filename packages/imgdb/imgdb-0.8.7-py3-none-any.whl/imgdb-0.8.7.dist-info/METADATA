@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: imgdb
+Version: 0.8.7
+Summary: A command line IMDb search application that can also download movie posters.
+Home-page: https://github.com/bbarcesaj125/imgdb
+Author: Yusuf Felly
+Author-email: youssef@felliaui.email
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bbarcesaj125/imgdb/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: click
+Requires-Dist: pandas
+Requires-Dist: PyYAML
+Requires-Dist: tqdm
+Requires-Dist: Wand
+
+UNKNOWN
+
