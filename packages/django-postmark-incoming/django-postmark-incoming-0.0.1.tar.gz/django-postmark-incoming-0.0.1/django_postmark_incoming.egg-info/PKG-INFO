@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-postmark-incoming
+Version: 0.0.1
+Summary: Django conveniences for Postmark Incoming Emails
+Home-page: https://github.com/hkhanna/django-postmark-incoming
+Author: Harry Khanna
+Author-email: harry@khanna.cc
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
