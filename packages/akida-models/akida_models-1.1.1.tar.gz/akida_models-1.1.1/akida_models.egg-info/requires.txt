@@ -1,0 +1,6 @@
+cnn2snn>=2.1.5
+scipy
+opencv-python
+mtcnn
+imgaug
+trimesh
