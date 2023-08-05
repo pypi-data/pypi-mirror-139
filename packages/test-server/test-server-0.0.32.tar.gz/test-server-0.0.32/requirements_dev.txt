@@ -1,0 +1,7 @@
+coverage
+flake8
+bumpversion
+pytest
+pylint
+sphinx
+pytype
