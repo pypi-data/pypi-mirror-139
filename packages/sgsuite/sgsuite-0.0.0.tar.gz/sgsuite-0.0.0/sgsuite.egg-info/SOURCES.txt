@@ -1,0 +1,13 @@
+README.md
+setup.py
+bin/sgs
+sgsuite/ClusterNews.py
+sgsuite/__init__.py
+sgsuite/rss_parser.py
+sgsuite/util.py
+sgsuite/version.py
+sgsuite.egg-info/PKG-INFO
+sgsuite.egg-info/SOURCES.txt
+sgsuite.egg-info/dependency_links.txt
+sgsuite.egg-info/requires.txt
+sgsuite.egg-info/top_level.txt
