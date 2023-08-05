@@ -1,0 +1,10 @@
+vlsir==0.2.1
+vlsirtools==0.2.1
+pydantic==1.8.2
+
+[dev]
+pytest==5.2
+coverage
+pytest-cov
+black==19.10b0
+twine
