@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-memoize
+Version: 1.0.0
+Summary: An implementation of memoization technique (not django-specific).
+Home-page: https://github.com/AmadeusITGroup/python-memoize
+License: BSD License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+License-File: LICENSE
+
+
+memoize
+--------------
+
+**memoize** is an implementation
+of `memoization <http://en.wikipedia.org/wiki/Memoization>` with persistent storage using redis.
+. You can think of it as a cache for function or method results.
+
+
+
