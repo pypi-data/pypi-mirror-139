@@ -1,0 +1,3 @@
+[napari.manifest]
+napari-IDS = napari_ids:napari.yaml
+

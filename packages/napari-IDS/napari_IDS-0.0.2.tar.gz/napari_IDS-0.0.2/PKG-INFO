@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: napari_IDS
+Version: 0.0.2
+Summary: Plug in which enables to take photo with IDS uEye camera
+Home-page: https://github.com/tcotte/napari-IDS
+Author: Tristan Cotte
+Author-email: tristan.cotte@sgs.com
+License: BSD-3
+Project-URL: Bug Tracker, https://github.com/tcotte/napari-IDS/issues
+Project-URL: Documentation, https://github.com/tcotte/napari-IDS#README.md
+Project-URL: Source Code, https://github.com/tcotte/napari-IDS
+Project-URL: User Support, https://github.com/tcotte/napari-IDS/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: napari
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+file: README.md
+
