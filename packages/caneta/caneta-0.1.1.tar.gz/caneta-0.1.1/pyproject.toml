@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "caneta"
+version = "0.1.1"
+description = ""
+authors = ["Madson Dias <madsonddias@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+pre-commit = "^2.17.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "^0.931"
+black = {version = "^22.1.0", extras = ["jupyter"]}
+python-semantic-release = "^7.25.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = [
+    "caneta/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "master"
+upload_to_pypi = false
+upload_to_release = true
+build_command = "poetry build"
