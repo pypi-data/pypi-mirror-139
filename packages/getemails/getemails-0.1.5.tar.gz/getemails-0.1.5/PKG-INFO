@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: getemails
+Version: 0.1.5
+Summary: Python module for generating random emails
+Home-page: https://github.com/hendalf332/genemails
+Author: Hendalf332
+Author-email: ludvih177xe@tutanota.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1>Python module for generating random emails and names and surnames</h1><br>
+    Initially import: <br>
+    <hr>
+    from genemails import GET_EMAIL<br>
+    To generate one random email:<br>
+        email=GET_EMAIL.generate_email()<br>
+    To generate many emails use:<br>
+        manyemails=GET_EMAIL.generate_emails(15) #It will return string separated by comma<br>
+    To get random 1st or surname name:<br>
+        fisrtname=GET_EMAIL.get_firstname()<br>
+        surname=GET_EMAIL.get_sndname()<br>
+    To Generate random address and telephone number:<br>
+    data['address'],data['tel']=gml.generate_address()<br>
+    for example: 'address': 'UnitedKingdom city.Bangor str.Bell Inn Yard h.63 ft.182'
+    To generate specific email based on real name pass parameters:<br>
+    email=gml.generate_email(firstname=data['firstname'],secondname=data['sndname'])
+    
+    
+

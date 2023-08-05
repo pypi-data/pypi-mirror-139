@@ -1,0 +1,1 @@
+Simple python module for generating random emails and names
