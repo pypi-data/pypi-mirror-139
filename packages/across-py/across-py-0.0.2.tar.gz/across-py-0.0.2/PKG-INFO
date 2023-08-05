@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: across-py
+Version: 0.0.2
+Summary: across sdk in python
+Home-page: https://github.com/qiwihui/across-py
+License: MIT
+Keywords: across,UMA,layer2,bridge
+Author: qiwihui
+Author-email: qwh005007@gmail.com
+Maintainer: qiwihui
+Maintainer-email: qwh005007@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/qiwihui/across-py
+Description-Content-Type: text/markdown
+
+# Across
+
+Across is the fastest, cheapest and most secure cross-chain bridge. It is a system that uses UMA contracts to quickly move tokens across chains. This contains various utilities to support applications on across.
+
+## How to use
+
+Use across official API to get suggested fees.
+```py
+>>> import across
+>>> a = across.AcrossAPI()
+>>> a.suggested_fees("0x7f5c764cbc14f9669b88837ca1490cca17c31607", 10, 1000000000)
+{'slowFeePct': '43038790000000000', 'instantFeePct': '5197246000000000'}
+```
+
+## How to build and test
+
+Install poetry and install the dependencies:
+
+```shell
+pip3 install poetry
+
+poetry install
+
+# test
+python -m unittest
+
+# local install and test
+pip3 install twine
+python3 -m twine upload --repository testpypi dist/*
+pip3 install --index-url https://test.pypi.org/simple/ --no-deps across
+```
+
