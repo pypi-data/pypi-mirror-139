@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: VisAST
+Version: 0.1.1
+Summary: Building and visualising Abstract Syntax Trees for Python code.
+Home-page: https://github.com/JamesPhillipsUK/vast
+Author: Jesse Phillips
+Author-email: james@jamesphillipsuk.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JamesPhillipsUK/vast/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx
+Requires-Dist: EoN
+Requires-Dist: matplotlib
+
+# VAST
+
+VAST - Visualise Abstract Syntax Trees for Python.
+
+VAST generates ASTs for a given Python script and builds visualisations of them.
+
+## Install
+
+Install from PyPI [Here!](https://pypi.org/project/VisAST/)
+
+## How to use
+
+From a python script:
+
+```python
+from vast.vast import Vast
+
+v = Vast("./helloworld.py")
+# or
+v = Vast()
+ast = v.generateASTFromPath("./helloworld.py")
+v.visualiseASTGraph(ast)
+# or
+pyString = "print(\"Hello, World!\")"
+ast = v.generateASTFromString(pyString)
+v.visualiseASTGraph(ast)
+# or
+pyURL = "https://example.com/helloworld.py"
+ast = v.generateASTFromURL(pyURL)
+v.visualiseASTGraph(ast)
+```
+
+Or (if installed from source, rather than pip) from the terminal:
+
+```bash
+python vast.py ./helloworld.py
+```
+
+## Like what you see?  Buy me a snack
+
+If you want to see more of what I do, you can visit [my blog](https://jamesphillipsuk.com "Go there now").
+
+If you want to donate to my development work by buying me a snack, I use [PayPal.Me](https://paypal.me/JamesPhillipsUK "My PayPal.Me").
+
+
