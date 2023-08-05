@@ -1,0 +1,4 @@
+webdavclient3==3.14.6
+drb>=1.0.1,<1.1.0
+requests==2.27.1
+

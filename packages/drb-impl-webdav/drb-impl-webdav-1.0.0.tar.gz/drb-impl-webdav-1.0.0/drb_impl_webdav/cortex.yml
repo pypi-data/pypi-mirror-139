@@ -1,0 +1,6 @@
+id: ee1b4fc6-8da0-11ec-b909-0242ac120002
+label: Web Distributed Authoring and Versioning
+category: PROTOCOL
+signatures:
+    - python: |
+        return False
