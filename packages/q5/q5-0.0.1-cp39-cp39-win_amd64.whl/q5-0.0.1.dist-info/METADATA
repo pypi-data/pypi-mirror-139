@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: q5
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# q5
+
+## Development
+
+```
+pip install setuptools-rust
+python setup.py develop
+```
+
+
