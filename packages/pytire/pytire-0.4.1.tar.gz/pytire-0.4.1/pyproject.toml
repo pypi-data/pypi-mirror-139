@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "pytire"
+version = "0.4.1"
+description = "Python library to handle tire attributes."
+authors = ["girotobial <abrobinson1907@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+documentation = "https://pytire.readthedocs.io/en/latest/index.html"
+repository = "https://github.com/girotobial/pytire"
+classifiers = [
+    "Intended Audience :: Manufacturing",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7 <3.11"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+pytest = "7.0.1"
+mypy = "^0.902"
+tox = "^3.22.0"
+black = "^21.8b0"
+pytest-cov = "3.0.0"
+isort = "^5.8.0"
+flake8-bugbear = "^21.4.3"
+pep8-naming = "^0.11.1"
+flake8-cognitive-complexity = "^0.1.0"
+flake8-comprehensions = "3.8.0"
+flake8-spellcheck = "^0.23.0"
+flake8-use-fstring = "^1.1"
+Sphinx = "^4.0.2"
+pre-commit = "^2.13.0"
+flake8-ownership = "^2.0.1"
+sphinx-rtd-theme = "1.0.0"
+m2r2 = "^0.2.7"
+sphinx-autoapi = "1.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py37, py38, py39
+
+[testenv]
+deps = pytest >= 3.0.0, <4
+commands = pytest
+"""
