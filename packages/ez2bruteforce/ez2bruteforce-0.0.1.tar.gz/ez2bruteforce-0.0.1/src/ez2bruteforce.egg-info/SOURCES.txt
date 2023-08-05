@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ez2bruteforce/__init__.py
+src/ez2bruteforce/problem.py
+src/ez2bruteforce/solver.py
+src/ez2bruteforce/utils.py
+src/ez2bruteforce.egg-info/PKG-INFO
+src/ez2bruteforce.egg-info/SOURCES.txt
+src/ez2bruteforce.egg-info/dependency_links.txt
+src/ez2bruteforce.egg-info/top_level.txt
