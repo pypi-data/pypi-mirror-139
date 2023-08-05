@@ -1,0 +1,12 @@
+zohocrm_prefect_tasks/__init__.py,sha256=H8LeTAe-C_7z3YZrBYJYDSPbqJtN33l_FiicOPsgsYk,522
+zohocrm_prefect_tasks/_version.py,sha256=cNrYM33GLZ9V-oPKNhK6hj7snLyCKE20HW6DwPywW3k,498
+zohocrm_prefect_tasks/client.py,sha256=O0Fn-z-EX8DodGzDYsjaGCzZckUbtzbPmsNsFR-N_9g,3041
+zohocrm_prefect_tasks/utils.py,sha256=bIrE_wmgGXCPEmU6CBwBpSMC96simfqHU8jELLed-Zo,1310
+zohocrm_prefect_tasks/tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zohocrm_prefect_tasks/tasks/notes.py,sha256=QlUA7WeFbHsCRvW0EjAYP9Jl2TxGZmZ2zbjfPX5HkAI,10937
+zohocrm_prefect_tasks/tasks/records.py,sha256=lhw5DkXWhg9xeh_tWdIsbp_J89rqVH8Pc9ae5hz_fhU,19894
+zohocrm_prefect_tasks-0.0.11.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+zohocrm_prefect_tasks-0.0.11.dist-info/METADATA,sha256=y1P9Bzd_6arFkINxg2Tik1j-IrIqU4G2TmvY36SLTuc,693
+zohocrm_prefect_tasks-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zohocrm_prefect_tasks-0.0.11.dist-info/top_level.txt,sha256=N_At8zWMko9wCCwQiOomxQ4ycYS-CB4XGBb-YJ7umzo,22
+zohocrm_prefect_tasks-0.0.11.dist-info/RECORD,,
