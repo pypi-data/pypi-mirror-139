@@ -1,0 +1,11 @@
+FileCopy_01/Robin.Files.FileCopy_01-Python.robin-impinfo,sha256=98qRI2Lz5lovKuKa6WezMUy3BuxQtP6ySTfxJL6enxM,988
+FileCopy_01/__init__.py,sha256=7t8jBvBRb6_Zt6KK1mSEsBb3feqiC6QWf8LGEkrtgF8,33
+FileCopy_01/action.py,sha256=y4E0E59KhuVaAGfG_lxkRiOv6zalnwMZfaO9GRzdYMI,2493
+FileCopy_01/exceptions.py,sha256=yTm6GJSTh_Fa0RIheVmovhhsrAOyBfbLBQNQJVi9Hh4,5446
+FileCopy_01/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FileCopy_01/common/mixins.py,sha256=NluWU0DvJ2nzGS6uuhWYYjp_yo1XYvDbExgn1DYAYaQ,2418
+FileCopy_01/common/validators.py,sha256=NQdvFtPhMQ4r4CbRHPLhn0Hs5fzlOIT7v2BQ4BDvGvE,9910
+Robin.Files.FileCopy_01_Python-1.5.2.dist-info/METADATA,sha256=RukAHOmZkd13VkM5A9dYN_zDJepMXPgM0idYK0Ll-aM,461
+Robin.Files.FileCopy_01_Python-1.5.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+Robin.Files.FileCopy_01_Python-1.5.2.dist-info/top_level.txt,sha256=Vn6Nou0nqcuXgeGkZbv1QuONxAJ46rkZTruqk9Bl7CQ,12
+Robin.Files.FileCopy_01_Python-1.5.2.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Robin.Files.FileCopy-01-Python
+Version: 1.5.2
+Summary: Create a copy of a specified file
+Home-page: http://robingit.itbs.it.ru/actions/python-actions/files_actions
+Author: Dmitry Zimoglyadov
+Author-email: DZimoglyadov@rpa-robin.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ~=3.8
+Requires-Dist: Robin.ActionSDK (==1.5.9)
+Requires-Dist: Robin.Type.FilePath (==1.0.0)
+Requires-Dist: Robin.Type.FolderPath (==1.0.0)
+
+UNKNOWN
+
+
