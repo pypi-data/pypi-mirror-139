@@ -1,0 +1,3 @@
+[console_scripts]
+vtt_run=video_to_text.__main__:main
+
