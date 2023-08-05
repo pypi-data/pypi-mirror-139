@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: simple-encoders
+Version: 0.1.6
+Summary: Simple encoders to pre-process categoric variables for machine learning systems
+Home-page: https://github.com/EmmArrGee/simple-encoders
+Author: Fabian Margreiter
+Author-email: fabian.margreiter@gmail.com
+License: UNKNOWN
+Keywords: python data science pandas machine learning category encoding
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dataframes
+Requires-Dist: pandas (>=1.4.1) ; extra == 'dataframes'
+
+# simple-encoders
+
