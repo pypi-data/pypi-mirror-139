@@ -1,0 +1,13 @@
+License.txt
+MANIFEST.in
+README.md
+setup.py
+src/htLib/__init__.py
+src/htLib/bserial.py
+src/htLib/mail.py
+src/htLib/ubidots.py
+src/htlib.egg-info/PKG-INFO
+src/htlib.egg-info/SOURCES.txt
+src/htlib.egg-info/dependency_links.txt
+src/htlib.egg-info/requires.txt
+src/htlib.egg-info/top_level.txt
