@@ -1,0 +1,42 @@
+hyperpyyaml>=0.0.1
+numpy<1.22.0,>=1.17.0
+torch<=1.9.1,>=1.8.0
+torchaudio<=0.9.1,>=0.8.0
+torchvision<=0.10.1,>=0.8.0
+tqdm>=4.42.0
+
+[all]
+coverage
+identify>=1.4.20
+pre-commit
+sphinx
+sphinx-autobuild
+sphinx_book_theme
+
+[all:python_version < "3.6"]
+watchdog<1.0.0
+
+[all:python_version >= "3.6"]
+black==21.6b0
+readthedocs-sphinx-search
+
+[dev]
+identify>=1.4.20
+pre-commit
+
+[dev:python_version >= "3.6"]
+black==21.6b0
+
+[docs]
+sphinx
+sphinx-autobuild
+sphinx_book_theme
+
+[docs:python_version < "3.6"]
+watchdog<1.0.0
+
+[docs:python_version >= "3.6"]
+readthedocs-sphinx-search
+
+[test]
+coverage
