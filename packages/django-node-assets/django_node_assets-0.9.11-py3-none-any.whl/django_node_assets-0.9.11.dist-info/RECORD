@@ -1,0 +1,10 @@
+django_node_assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_node_assets/finders.py,sha256=9tefHaDj6fYSt8FYt6H8GmHeGSDWV2mgA_0KH9Jc_Hs,3177
+django_node_assets/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_node_assets/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_node_assets/management/commands/npminstall.py,sha256=3fT2wm5a7GLU1XYUGUzfC91r8M0K1b8hQB2R2GvZ4i0,2060
+django_node_assets-0.9.11.dist-info/LICENSE.txt,sha256=fvbqwrApmMjRPQOKxLYJuh8n_Z9YVelr7h4VuNQ0avc,1071
+django_node_assets-0.9.11.dist-info/METADATA,sha256=flWVUVyJPcvvZ_gwJhX0w8NExJH1oditGzwIuYxQEBY,4169
+django_node_assets-0.9.11.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_node_assets-0.9.11.dist-info/top_level.txt,sha256=r09oyRNgI53SJAfQOoe-UlW2lu6x8ZZnrUWB8JxEaJ8,19
+django_node_assets-0.9.11.dist-info/RECORD,,
