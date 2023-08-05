@@ -1,0 +1,8 @@
+LICENSE
+README
+setup.py
+astproject.egg-info/PKG-INFO
+astproject.egg-info/SOURCES.txt
+astproject.egg-info/dependency_links.txt
+astproject.egg-info/top_level.txt
+test/test.py
