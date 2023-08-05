@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pymokugame
+Version: 1.0.2
+Summary: Pymoku a gomoku game!
+Home-page: https://github.com/luzgabriel/pymoku
+Author: Gabriel Luz, Gabriel Langer
+Author-email: me@gabrielluz.com, gabriel.langer94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: numpy
+
+UNKNOWN
+

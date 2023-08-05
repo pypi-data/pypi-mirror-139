@@ -1,0 +1,2 @@
+[console_scripts]
+pymokugame = pymokugame.pymokugame:main
