@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bearboto3
+Version: 0.1.0
+Summary: 
+Author: Paul
+Author-email: dev@studiop.page
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dynamodb
+Provides-Extra: ec2
+Provides-Extra: iam
+Provides-Extra: lambda
+Provides-Extra: s3
+Provides-Extra: sns
+Provides-Extra: sqs
+Requires-Dist: beartype (>=0.9.0,<0.10.0)
+Requires-Dist: dynamodb-stubs[dynamodb] (>=1.20.26,<2.0.0); extra == "dynamodb"
+Requires-Dist: ec2-stubs[ec2] (>=1.20.26,<2.0.0); extra == "ec2"
+Requires-Dist: iam-stubs[iam] (>=1.20.26,<2.0.0); extra == "iam"
+Requires-Dist: lambda-stubs[lambda] (>=1.20.26,<2.0.0); extra == "lambda"
+Requires-Dist: s3-stubs[s3] (>=1.20.26,<2.0.0); extra == "s3"
+Requires-Dist: sns-stubs[sns] (>=1.20.26,<2.0.0); extra == "sns"
+Requires-Dist: sqs-stubs[sqs] (>=1.20.26,<2.0.0); extra == "sqs"
