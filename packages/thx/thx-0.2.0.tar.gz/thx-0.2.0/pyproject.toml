@@ -1,0 +1,80 @@
+[build-system]
+requires = ["flit_core >=3,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "thx"
+author = "John Reese"
+author-email = "john@noswap.com"
+description-file = "README.rst"
+home-page = "https://github.com/jreese/thx"
+requires = [
+    "aioitertools >= 0.10.0b1",
+    "tomli >= 1.0",
+    "trailrunner >= 1.1",
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[tool.flit.sdist]
+exclude = [
+    ".github/",
+]
+
+[tool.flit.scripts]
+thx = "thx.main:main"
+
+[tool.attribution]
+name = "thx"
+package = "thx"
+version_file = true
+signed_tags = false
+
+[tool.coverage.run]
+branch = true
+parallel = true
+include = ["thx/*"]
+omit = ["thx/tests/*"]
+
+[tool.coverage.report]
+fail_under = 90
+precision = 1
+show_missing = true
+skip_covered = true
+
+[tool.mypy]
+python_version = "3.7"
+strict = true
+ignore_missing_imports = true
+
+[tool.thx]
+default = ["format", "html", "test", "lint"]
+module = "thx"
+srcs = "thx"
+python_versions = ["3.5", "3.6", "3.7", "3.8", "3.9", "3.10", "4.0"]
+
+[tool.thx.jobs]
+html = {run="sphinx-build -b html docs html", once=true}
+format = {run="python -m ufmt format {srcs}", once=true}
+coverage = "python -m coverage run -m {module}.tests"
+
+[tool.thx.jobs.test]
+requires = ["coverage"]
+run = [
+    "python -m coverage combine",
+    "python -m coverage report",
+]
+once = true
+
+[tool.thx.jobs.lint]
+run = [
+    "python -m mypy --install-types --non-interactive -p {module}",
+    "python -m flake8 {srcs}",
+    "python -m ufmt check {srcs}",
+]
+parallel = true
