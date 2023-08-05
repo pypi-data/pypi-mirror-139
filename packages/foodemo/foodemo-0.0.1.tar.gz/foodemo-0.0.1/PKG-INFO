@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: foodemo
+Version: 0.0.1
+Summary: Demo project for GitHub Actions
+Home-page: https://github.com/RobertoPrevato/FooPythonDemo
+Author: Roberto Prevato
+Author-email: roberto.prevato@gmail.com
+License: MIT
+Keywords: foo useless package
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Foo Python Demo
+Demo to explain how I am distributing packages using GitHub
+
+
