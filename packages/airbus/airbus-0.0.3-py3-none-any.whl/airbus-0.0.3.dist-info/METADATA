@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: airbus
+Version: 0.0.3
+Summary: airbus package
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: all
+License-File: LICENSE
+Requires-Dist: rich (==11.2.0)
+
+UNKNOWN
+
