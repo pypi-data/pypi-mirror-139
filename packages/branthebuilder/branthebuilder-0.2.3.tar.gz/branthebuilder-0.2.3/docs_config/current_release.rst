@@ -1,0 +1,2 @@
+- bump pyversion
+- fix notebook runner
