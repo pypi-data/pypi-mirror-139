@@ -1,0 +1,2 @@
+[console_scripts]
+effpassphrase = effpassphrase:create_passphrase
