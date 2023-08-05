@@ -1,0 +1,12 @@
+jwst_mast_query/__init__.py,sha256=ByXxeoAGNdWKC3QL5JqlN3WTrxwI5VgxHAMwtYm0Vbs,89
+jwst_mast_query/jwst_download.py,sha256=I3raL-ZhHw-tgv6AD88FsDZBJ6z7fnrZ_tKwYUae3OU,9061
+jwst_mast_query/jwst_query.cfg,sha256=2W8uhxYb-RF_uxOb1RZk4667549SgVuyHTTp9yslVFE,5033
+jwst_mast_query/jwst_query.py,sha256=PqGX-B-ZsM4QTlyx8w-S77U5S5JgVTT84BGy8O-Cpu0,53855
+jwst_mast_query/pdastro.py,sha256=0XxilTkZSnGdvGq9OcQzWI8BdJJoWo8w7BrCXKYtQEE,47459
+jwst_mast_query-0.0.1.data/scripts/jwst_download.py,sha256=KyTzRSCHmVOTQMKqdC2fXVlrpEPyirJL6xjAfmlNqAc,9047
+jwst_mast_query-0.0.1.data/scripts/jwst_query.py,sha256=6vDxErkIpb0Mnb6Y-m0TlzE622rOPpoCjV7i1g_ezoY,53841
+jwst_mast_query-0.0.1.dist-info/LICENSE.txt,sha256=CoGkDRmiy7njexQfWCpFnbGXXuM3uKk-P2zkbdc36p8,1553
+jwst_mast_query-0.0.1.dist-info/METADATA,sha256=ubPbHMcmTXsSPQG161_08ZJC0KbeACbbWIxI_SBnP2c,1385
+jwst_mast_query-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jwst_mast_query-0.0.1.dist-info/top_level.txt,sha256=-DEP0Cv4LdO-JTcKcCqPy-w-Rv5iuhbj_uFDBM-dNTo,16
+jwst_mast_query-0.0.1.dist-info/RECORD,,
