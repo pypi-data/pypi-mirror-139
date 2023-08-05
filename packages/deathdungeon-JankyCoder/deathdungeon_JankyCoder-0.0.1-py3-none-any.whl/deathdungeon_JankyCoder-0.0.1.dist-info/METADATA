@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: deathdungeon-JankyCoder
+Version: 0.0.1
+Summary: A stupid game for a joke.
+Home-page: UNKNOWN
+Author: JankyCoder
+Author-email: whattheguava@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Death's Dungeon
+
+
+If your bored:
+
+    `pip install deathsdungeon`
+
+    `from deathsdungeon import main`
+
+Else:
+
+    `meh`
+
+
+
+
