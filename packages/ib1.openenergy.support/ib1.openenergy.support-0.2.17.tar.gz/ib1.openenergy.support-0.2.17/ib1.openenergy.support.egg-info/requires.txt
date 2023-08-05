@@ -1,0 +1,11 @@
+PyLD
+cachetools
+ckanapi
+cryptography
+flask
+gunicorn
+jinja2
+pem
+pyjwt
+pyyaml
+requests
