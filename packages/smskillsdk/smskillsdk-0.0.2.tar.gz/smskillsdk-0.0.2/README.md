@@ -1,0 +1,166 @@
+# smskillsdk (Python)
+
+The Skills Python SDK package contains data types for the session and execute endpoints specified within the Skills REST API, along with a range of utility functions for working with the memory data structure.
+
+## Installation
+
+This package is intended for use with Python 3.8 and above.
+
+```
+pip install smskillsdk
+```
+
+## Usage
+
+### Accessing request/response models
+
+The request/response models are implemented with [Pydantic](https://pydantic-docs.helpmanual.io/), a library which assists with validation and type-checking.
+
+```python
+from smskillsdk.models.api import (
+    SessionRequest,
+    SessionResponse,
+    ExecuteRequest,
+    ExecuteResponse
+)
+```
+
+Sub-models used within these request and response models can also be imported using
+
+```python
+from smskillsdk.models.api import (
+    Output,
+    Intent,
+    Memory,
+    Variables
+)
+```
+
+In general, a developer should implement separate handler functions for the session and execute endpoints which takes a `SessionRequest` or `ExecuteRequest` as an argument and returns a `SessionResponse` or `ExecuteResponse` respectively. These objects can be serialized to JSON and returned within the HTTP response body. An example implementation of a handler function for generating an `ExecuteResponse` and a route method is shown below.
+
+```python
+# execute endpoint handler containing response generation logic
+def execute_handler(request: ExecuteRequest) -> ExecuteResponse:
+    
+    # response generation logic here
+
+    variables = Variables(public={ "card": { ... }})
+
+    output = Output(
+        text="",
+        variables=variables
+    )
+
+    response = ExecuteResponse(
+        output=output,
+        memory=[],
+        endConversation=True,
+    )
+
+    return response
+
+# route method (using FastAPI syntax)
+@app.post("/execute", status_code=status.HTTP_200_OK, response_model=ExecuteResponse, response_model_exclude_unset=True)
+def execute(request: ExecuteRequest):
+    return execute_handler(request)
+```
+
+#### Deserializing requests
+
+Python dictionary objects can be deserialized into models.
+
+```python
+raw_request = {
+    "key": value,
+    ...
+}
+
+request = ExecuteRequest(**raw_request)
+```
+
+Pydantic will throw a [`ValidationError`](https://pydantic-docs.helpmanual.io/usage/models/#error-handling) if any of the keys or value types does not match the expected keys and values.
+
+#### Serializing responses
+
+Pydantic models can be [converted](https://pydantic-docs.helpmanual.io/usage/exporting_models/) into JSON strings or dictionary objects.
+
+```python
+request = ExecuteRequest(**{'text': 1, 'projectId': '111', 'sessionId': '123', 'memory': []})
+
+json_str = request.json()
+dict_obj = request.dict()
+```
+
+### Working with memory
+
+The memory field within the request and response models of the session/execute endpoints can be used to persist state within conversation turns. The value stored in this field with a response is sent with the next request.
+
+A range of utility functions are provided for working with this data structure, which is assumed to be of type `List[Memory]`, where objects of type `Memory` can be created by serializing generic Python dictionaries.
+
+```python
+obj = { "key": "value" }
+memory = Memory(**obj)
+memories = [ memory ]
+```
+
+The utility functions assume that the `Memory` classes/objects have the following attributes (though this is not enforced)
+
+```python
+class Memory(BaseModel):
+    name: str
+    value: Any
+    session_id: Optional[str]
+```
+
+The memory utility functions can be imported from `smskillsdk.utils.memory`
+
+#### `serialize_memory(data: dict, session_id: Union[str, None] = None) -> List[Memory]`
+
+Converts a Python dict into a list of Memory objects with an optional session ID.
+
+Arguments:
+- `data: dict`: A Python dictionary to be converted; keys should be strings
+- `session_id: str`: An optional session ID to be assigned to each `Memory` object
+
+Returns:
+- `List[Memory]`: A list of `Memory` objects
+
+
+#### `deserialize_memory(memories: List[Memory], session_id: Union[str, None] = None) -> Dict[str, Any]`
+
+Converts a list of `Memory` objects into a Python dict, filtered using an optional session ID.
+
+Arguments:
+- `memories: List[Memory]`: A list of `Memory` objects to be converted
+- `session_id: str`: If provided, will only deserialize `Memory` objects with a matching session ID
+
+Returns:
+- `Dict[str, Any]`
+
+
+#### `get_memory_value(memories: List[Memory], key: str, session_id: Union[str, None] = None) -> Tuple[bool, Any]`
+
+Retrieves a value from a list of `Memory` objects corresponding to a key and optional session ID.
+
+Arguments:
+- `memories: List[Memory]`: The list of `Memory` objects to be searched
+- `key: str`: The key to search for
+- `session_id: str`: If provided, only `Memory` objects with a matching session ID will be considered
+
+Returns:
+- `Tuple[bool, Any]`: A flag indicating whether the key/value pair was found, and the corresponding value
+
+#### `set_memory_value(memories: List[Memory], key: str, value: Any, session_id: Union[str, None] = None) -> None`
+
+Sets a value in a list of `Memory` objects corresponding to a key and optional session ID. If an object with a matching key/session ID exists, its value will be overwritten.
+
+Arguments:
+- `memories: List[Memory]`: The list of `Memory` objects which will be operated on
+- `key: str`: The key to search for
+- `value: Any`: The value to set
+- `session_id: str`: If provided, only `Memory` objects with a matching session ID will be considered; if none are found, a new memory object with a session ID will be created
+
+Returns:
+- No return value, the list of `Memory` objects is modified in-place
+
+**Note that memory objects with the same key but different session ID will be treated as unique.**
