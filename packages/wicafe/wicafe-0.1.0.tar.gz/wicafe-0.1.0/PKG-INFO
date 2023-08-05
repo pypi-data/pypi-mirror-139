@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: wicafe
+Version: 0.1.0
+Summary: Automatic login utility of free Wi-Fi captive portals
+Home-page: UNKNOWN
+Author: puhitaku
+Author-email: puhitaku@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+wicafe
+======
+
+*Automatic login utility of free Wi-Fi captive portals*
+
+
+Supported public Wi-Fi services
+-------------------------------
+
+ - Wi2
+   - Excelsior Caffe
+   - Saint Marc Cafe
+   - San'yo Shinkansen (West Japan Railway)
+   - Tokai Shinkansen (Central Japan Railway)
+
+
+Prerequisites
+-------------
+
+ - Python 3.7+
+
+
+Install
+-------
+
+From PyPI:
+
+```shellsession
+$ pip install wicafe
+```
+
+From GitHub (directly):
+
+```shellsession
+$ pip install git+https://github.com/puhitaku/wicafe
+```
+
+From GitHub (for development):
+
+```shellsession
+$ git clone
+$ pip install -e .[dev]
+```
+
+
+Run
+---
+
+```shellsession
+$ wicafe
+$ python -m wicafe  # alternative way
+```
+
+wicafe begins to poll a remote host and automatically accepts the ToS of
+the captive portal when a redirection is detected.
+
+
+Disclaimer
+----------
+
+ - Read and grant the Terms of Service of Wi-Fi services before using it!
+ - As stated in the license, I'm not liable for any claim and violation of the ToS :wink:
+
+
+

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wicafe/__init__.py
+wicafe/__main__.py
+wicafe.egg-info/PKG-INFO
+wicafe.egg-info/SOURCES.txt
+wicafe.egg-info/dependency_links.txt
+wicafe.egg-info/entry_points.txt
+wicafe.egg-info/requires.txt
+wicafe.egg-info/top_level.txt
