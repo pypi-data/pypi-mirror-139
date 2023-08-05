@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: win32fastutils
+Version: 0.1.0
+Summary: Collection of win32 related utils.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Keywords: win32fastutils
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32
+
+# win32fastutils
+
+Collection of win32 related utils.
+
+## Installed Utils
+
+- win32fastutils.consoleutils
+    - ResetableAttachConsole
+    - ReadConsoleOutputText
+- win32fastutils.guiutils
+    - PostMessage
+    - GetHwndsByProcessIds
+    - GetExplorerHwnds
+    - GetExplorerProcessIds
+- win32fastutils.py32fix
+    - iswin32
+    - DisableFileSystemRedirection
+
+## Usage Examples
+
+### Example 1: Read console output
+
+**examples/read_console_output.py**
+
+```
+import uuid
+import time
+import subprocess
+
+from win32fastutils import consoleutils
+
+CMD = "C:\\Windows\\System32\\cmd.exe"
+
+msg1 = str(uuid.uuid4())
+proc = subprocess.Popen([CMD, "/C", "echo", msg1, "&&", "timeout", "2"], creationflags=subprocess.CREATE_NEW_CONSOLE)
+time.sleep(1)
+result = ""
+with consoleutils.ResetableAttachConsole(proc.pid):
+    result = consoleutils.ReadConsoleOutputText()
+print(result)
+```
+
+**result output**
+
+```
+C:\workspace\win32fastutils>python examples\read_console_output.py
+8a3d81ac-9f59-4066-8206-86cee8101f8c <Note: a lot of space here....>
+
+等待 1 秒，按一个键继续 ...
+```
+
+### Example 2: Press ENTER to end the timeout waiting
+
+**examples/press_enter_to_end_time_timeout_waiting.py**
+```
+import uuid
+import time
+import datetime
+import subprocess
+
+from win32fastutils import guiutils
+
+CMD = "C:\\Windows\\System32\\cmd.exe"
+
+print("start", datetime.datetime.now())
+msg1 = str(uuid.uuid4())
+proc = subprocess.Popen([CMD, "/C", "echo", msg1, "&&", "timeout", "20"], creationflags=subprocess.CREATE_NEW_CONSOLE) # wait for 20 seconds
+time.sleep(1)
+hwnds = guiutils.GetHwndsByProcessIds(proc.pid)
+
+guiutils.PostMessage(hwnds[0], "\n") # press ENTER to end the timeout waiting
+proc.wait()
+print("end  ", datetime.datetime.now())
+```
+
+**result output**
+
+```
+C:\workspace\win32fastutils>python examples\press_enter_to_end_the_timeout_waiting.py
+start 2022-02-17 17:01:15.115822
+end   2022-02-17 17:01:16.210102
+```
+
+### Example 3: Using 32bit-version-python  in 64bit-version-windows, we can NOT access files under folder C:\\Windows\\System32, How to fix the problem?
+
+```
+import os
+from win32fastutils import py32fix
+
+SSH = "C:\\Windows\\System32\\OpenSSH\\ssh.exe"
+
+print("Access directly result:", os.path.exists(SSH))
+
+with py32fix.DisableFileSystemRedirection():
+    print("Access in fixed scope: ", os.path.exists(SSH))
+```
+
+**result output**
+
+```
+C:\workspace\win32fastutils>python examples\32bit_python_access_application_under_system.py
+Access directly result: False
+Access in fixed scope:  True
+```
+
+
+## Releases
+
+### v0.1.0
+
+- First release.
+
+

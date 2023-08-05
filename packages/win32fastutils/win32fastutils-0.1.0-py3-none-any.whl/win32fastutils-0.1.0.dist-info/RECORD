@@ -1,0 +1,9 @@
+win32fastutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+win32fastutils/consoleutils.py,sha256=zQel1d63WriEmOANUf3ROrun4tolBvAGsh-KQv5hKoU,4793
+win32fastutils/guiutils.py,sha256=fYa1s3Je_VTJYWZBLpKjrrStaEssDJUXNsZiR4ey3D4,1448
+win32fastutils/py32fix.py,sha256=TBKKSMF8nzzXJ5WZ_o7DIOXQOSxDtHg0v8jpboHcBw8,1171
+win32fastutils-0.1.0.dist-info/LICENSE,sha256=21FAXX8iSO4jv5T55zF_LCBAO55XDNzyEzkd4Lvl1-8,1067
+win32fastutils-0.1.0.dist-info/METADATA,sha256=4z0UgC4ije5x09DDULSE3TbCLgAkk9A0CKlgJ4s0kSg,3165
+win32fastutils-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+win32fastutils-0.1.0.dist-info/top_level.txt,sha256=QKx7BVQPiEMkk7HnQlaXtqIaHPXv85LA9QQTwLd-ru0,15
+win32fastutils-0.1.0.dist-info/RECORD,,
