@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "osma"
+version = "0.1.0"
+description = ""
+authors = ["Mihails Delmans <m.delmans@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+praw = "^7.5.0"
+tweepy = "^4.4.0"
+newsapi-python = "^0.2.6"
+python-frontmatter = "^1.0.0"
+favicon = "^0.7.0"
+click = "^8.0.3"
+toml = "^0.10.2"
+loguru = "^0.5.3"
+
+[tool.poetry.scripts]
+osma = 'osma.cli:osma'
+
+[tool.poetry.dev-dependencies]
+mkdocs-material = "^8.1.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
