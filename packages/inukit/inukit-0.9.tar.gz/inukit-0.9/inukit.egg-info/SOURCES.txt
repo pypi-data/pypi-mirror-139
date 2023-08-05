@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+inukit/__init__.py
+inukit/howlang.py
+inukit/jsondata.py
+inukit/numeration.py
+inukit/rand.py
+inukit/timestamp.py
+inukit.egg-info/PKG-INFO
+inukit.egg-info/SOURCES.txt
+inukit.egg-info/dependency_links.txt
+inukit.egg-info/top_level.txt
