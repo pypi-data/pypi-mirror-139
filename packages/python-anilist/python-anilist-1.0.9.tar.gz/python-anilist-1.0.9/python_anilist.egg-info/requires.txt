@@ -1,0 +1,6 @@
+httpx[http2]>=0.14.0
+
+[testing]
+pytest>=6.2
+pytest-cov>=2.12
+tox>=3.24
