@@ -1,0 +1,15 @@
+odoo/addons/beesdoo_pos_coop_status/README.rst,sha256=RvC4DkhzMYjrbno0DWzG6gu7nZZ-MoKKA8MDMDcvi84,2037
+odoo/addons/beesdoo_pos_coop_status/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/beesdoo_pos_coop_status/__manifest__.py,sha256=y3PhhL8DoFXuDIUB1r3SPJttlZmMbOFIs9NGPqY__2E,595
+odoo/addons/beesdoo_pos_coop_status/readme/CONTRIBUTORS.rst,sha256=DZWW8lEC7IIrVsyYP3vyY3PzA4hlFHWaPezAaXMopwc,59
+odoo/addons/beesdoo_pos_coop_status/readme/DESCRIPTION.rst,sha256=tyRZY_bb1rmYSu8j3sSGyoMg1jkWapZF0MoYDHCYkB8,154
+odoo/addons/beesdoo_pos_coop_status/static/description/index.html,sha256=rL1PUziP6teNRIR-ODTFpZmP7nZrxp7sVBVsQGP1PWk,10993
+odoo/addons/beesdoo_pos_coop_status/static/src/css/coop_status.css,sha256=IzLW_KJAg6g8rYJmf_LRvGDq9qvNn9sywDRxipPHPLY,157
+odoo/addons/beesdoo_pos_coop_status/static/src/js/models.js,sha256=z3qbkWHx2SRwXtKKcGiRyKRVMHaFJCAj12uGFfbuohA,194
+odoo/addons/beesdoo_pos_coop_status/static/src/js/screens.js,sha256=WD9GiwHSVjGodRYZXLL3ipnHsQdmThjEU2C3NG7pT5A,1608
+odoo/addons/beesdoo_pos_coop_status/static/src/xml/pos.xml,sha256=uo7cylIEo81YrP8m3E9Ivh8Mk8oKAWtFMgHIqmd2Qv4,747
+odoo/addons/beesdoo_pos_coop_status/views/assets.xml,sha256=5r-ccSpu1Lj-asmBw4pCbrvxNACT2OK04s6IdP1y-2o,630
+odoo12_addon_beesdoo_pos_coop_status-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=rhk_giILKlOcN18k6ILsMI0AqXQG1DvPD-G8c98RsC4,2618
+odoo12_addon_beesdoo_pos_coop_status-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_beesdoo_pos_coop_status-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_pos_coop_status-12.0.1.0.0.99.dev3.dist-info/RECORD,,
