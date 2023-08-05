@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BangumiAPI/__init__.py
+BangumiAPI.egg-info/PKG-INFO
+BangumiAPI.egg-info/SOURCES.txt
+BangumiAPI.egg-info/dependency_links.txt
+BangumiAPI.egg-info/top_level.txt
