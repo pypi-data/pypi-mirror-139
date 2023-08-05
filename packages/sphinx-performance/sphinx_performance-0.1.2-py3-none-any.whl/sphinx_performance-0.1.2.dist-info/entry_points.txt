@@ -1,0 +1,3 @@
+[console_scripts]
+sphinx-performance=sphinx_performance.main:cli
+
