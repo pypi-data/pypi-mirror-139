@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: auto-flutter-dig
+Version: 0.3.0
+Summary: Automatic tools for flutter tools
+Home-page: https://github.com/DIG-/auto-flutter
+Author: Gustavo de Oliveira Silva (DIG)
+License: CC BY-ND 4.0
+Project-URL: Bug Tracker, https://github.com/DIG-/auto-flutter/issues
+Keywords: flutter,auto flutter
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: license.txt
+Requires-Dist: appdirs (>=1.4.3)
+Requires-Dist: termcolor (>=1.1.0)
+Requires-Dist: colorama (>=0.4.3) ; platform_system == "Windows"
+
+UNKNOWN
+
