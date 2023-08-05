@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: VTG-con-ast-visualizer
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+A library that can draw a .png file with visualization of AST tree built by your code
+
