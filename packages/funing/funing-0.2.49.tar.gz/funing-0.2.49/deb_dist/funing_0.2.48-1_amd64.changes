@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 24 Jan 2022 20:05:20 +0800
+Source: funing
+Binary: python3-funing
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 0.2.48-1
+Distribution: unstable
+Urgency: low
+Maintainer: larryw3i <larryw3i@163.com>
+Changed-By: larryw3i <larryw3i@163.com>
+Description:
+ python3-funing - A face recognition gui
+Changes:
+ funing (0.2.48-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ 017e7cbcb307c32e5d0d34e0bc94158c8cc1eeb7 7503 funing_0.2.48-1_amd64.buildinfo
+ dc2a236f258de5377c4145ef6a61435752d73340 15664 python3-funing_0.2.48-1_all.deb
+Checksums-Sha256:
+ d711658f7206acca7d929e3fb13518850c9f9c22e36fb232a03a29bd40231f0f 7503 funing_0.2.48-1_amd64.buildinfo
+ c9dda45d60a38116fc6d4f57f4dba7c4f983819a97d5761ec2795d619259d26d 15664 python3-funing_0.2.48-1_all.deb
+Files:
+ 57bbe5c0e5bf7bff2673d5ec00df3dea 7503 python optional funing_0.2.48-1_amd64.buildinfo
+ 6f441e4ce6121ec73b83902832524323 15664 python optional python3-funing_0.2.48-1_all.deb

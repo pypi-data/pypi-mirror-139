@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 24 Jan 2022 20:05:20 +0800
+Source: funing
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 0.2.48-1
+Distribution: unstable
+Urgency: low
+Maintainer: larryw3i <larryw3i@163.com>
+Changed-By: larryw3i <larryw3i@163.com>
+Changes:
+ funing (0.2.48-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ e382dbaeb9c56870e3d74a38232111e3b7cdcc32 854 funing_0.2.48-1.dsc
+ 1b5a9911c21df35185bd9c72bb003dff24f260a2 18591 funing_0.2.48.orig.tar.gz
+ d1fbd0b17a31cc185e141a756978975366a22318 1104 funing_0.2.48-1.debian.tar.xz
+ e78613c7b64e0b0610cd83de4bc36bacd62f7dcb 7441 funing_0.2.48-1_source.buildinfo
+Checksums-Sha256:
+ 459c12a6820492b7d6b34e926aad3ea46c2406b734ba3cc3db38313643aa07ec 854 funing_0.2.48-1.dsc
+ fa7f6469cdc8d39e62fe1090351a92e43baf7b5e69171514026f7f1875e50e10 18591 funing_0.2.48.orig.tar.gz
+ 12dd7472e238f782a252e58ad653368e269330fce3645b99201bd8d82b99e417 1104 funing_0.2.48-1.debian.tar.xz
+ af825586e840534cde8d3a78d9e208a10a0ca552a65d0e33255105827e8c3e0d 7441 funing_0.2.48-1_source.buildinfo
+Files:
+ 86c08cb7b6deb924d15970de7cda73a3 854 python optional funing_0.2.48-1.dsc
+ a69e172b53f6e8578cb0591445bdfcba 18591 python optional funing_0.2.48.orig.tar.gz
+ 8f5adebf213a60ca0fb74d7eaa07ba81 1104 python optional funing_0.2.48-1.debian.tar.xz
+ 53b4c82834fc3acf762a6f7e435ff167 7441 python optional funing_0.2.48-1_source.buildinfo
