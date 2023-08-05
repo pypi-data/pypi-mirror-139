@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+win32fastutils/__init__.py
+win32fastutils/consoleutils.py
+win32fastutils/guiutils.py
+win32fastutils/py32fix.py
+win32fastutils.egg-info/PKG-INFO
+win32fastutils.egg-info/SOURCES.txt
+win32fastutils.egg-info/dependency_links.txt
+win32fastutils.egg-info/not-zip-safe
+win32fastutils.egg-info/requires.txt
+win32fastutils.egg-info/top_level.txt
