@@ -1,0 +1,11 @@
+envreader/__init__.py,sha256=NwnGmx3o6QAyZkRE6GOXf1CRR-VK4fKNiRMyZ_Jip3w,321
+envreader/env_reader.py,sha256=zbLbWlO9HzjHDgRpRm7srTB6920LdVOTvucexrBFav0,2280
+envreader/exceptions.py,sha256=qqpGn4nw2tXlNizWtj8LEJP9Yxz_XZJw6IoqUfmDqg4,468
+envreader/field.py,sha256=MxhKsjDuj1KTPkclByAE8pLD42OklgPmbth35dorLFE,2315
+envreader/field_getter.py,sha256=t4xsnk9vt0TZnddvI4lyiXfBHLp-W153Z5QrjxJ6FFc,989
+envreader/version.py,sha256=F16NSL0FC9GKzBzXnf7KKyIRUc9y5phpA-0BMyl6eFQ,208
+envreader-0.0.5.dist-info/LICENSE,sha256=WjiKB4LLLmemJZz6pwJDSvdsTcQwSSoO8wHv5EhPDsk,1064
+envreader-0.0.5.dist-info/METADATA,sha256=6aA0qvI1600Dte-mVRkLX9egJdsgA-Ni5o5PSqAOo9o,3640
+envreader-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+envreader-0.0.5.dist-info/top_level.txt,sha256=zYusdbE0CK5RWtxozrNpL_T1fKM0FkFMZPp194p5rGQ,10
+envreader-0.0.5.dist-info/RECORD,,
