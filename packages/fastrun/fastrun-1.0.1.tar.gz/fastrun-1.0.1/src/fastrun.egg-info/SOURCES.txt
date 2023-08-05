@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fastrun/__init__.py
+src/fastrun/main.py
+src/fastrun.egg-info/PKG-INFO
+src/fastrun.egg-info/SOURCES.txt
+src/fastrun.egg-info/dependency_links.txt
+src/fastrun.egg-info/top_level.txt
+src/fastrun/android/__init__.py
+src/fastrun/android/handle.py
+src/fastrun/android/script.py
