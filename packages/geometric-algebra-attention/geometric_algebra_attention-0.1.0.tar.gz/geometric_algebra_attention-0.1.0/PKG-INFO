@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: geometric_algebra_attention
+Version: 0.1.0
+Summary: Library for geometric algebra-based attention mechanisms
+Home-page: UNKNOWN
+Author: Matthew Spellings
+Author-email: matthew.p.spellings@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction
+
+This is a library in development for implementing geometric algebra
+attention mechanisms (as detailed in the paper [Geometric Algebra
+Attention Networks for Small Point
+Clouds](https://arxiv.org/abs/2110.02393) in tensorflow, keras,
+pytorch, and jax.
+
+
