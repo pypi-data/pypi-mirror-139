@@ -1,0 +1,30 @@
+
+description = "default container revision recipe"
+schema = "rezup-recipe:2.0"
+
+[root]
+local = ""
+remote = ""
+
+[dotenv]
+
+[dotenv.linux]
+
+[dotenv.darwin]
+
+[dotenv.windows]
+
+[env]
+
+[pip]
+options = [
+    "--disable-pip-version-check",
+]
+[pip.env]
+
+
+[rez]
+name = "rez"
+url = "rez>=2.83"
+
+[[extension]]
