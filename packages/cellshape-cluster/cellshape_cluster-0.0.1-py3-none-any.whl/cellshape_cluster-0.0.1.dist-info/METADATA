@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: cellshape-cluster
+Version: 0.0.1
+Summary: Cell shape analysis using deep embedded clustering
+Home-page: https://github.com/Sentinal4D/cellshape-cluster
+Author: Matt DeVries, Adam Tyson
+Author-email: matthew.devries.13@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Sentinal4D/cellshape-cluster/issues
+Project-URL: Documentation, https://github.com/Sentinal4D/cellshape-cluster#README.md
+Project-URL: Source Code, https://github.com/Sentinal4D/cellshape-cluster
+Project-URL: User Support, https://github.com/Sentinal4D/cellshape-cluster/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+
+# cellshape-cluster
+___
+Cellshape-cluster is an easy-to-use tool to analyse the cluster cells by their shape using deep learning and, in particular, deep-embedded-clustering. The tool provides the ability to train popular graph-based or convolutional autoencoders on point cloud or voxel data of 3D single cell masks as well as providing pre-trained networks for inference.
+
+
+### To install
+```bash
+pip install cellshape-cluster
+```
+
+### For developers
+* Fork the repository
+* Clone your fork
+```bash
+git clone https://github.com/USERNAME/cellshape-cluster 
+```
+* Install an editable version (`-e`) with the development requirements (`dev`)
+```bash
+cd cellshape-cluster
+pip install -e .[dev] 
+```
+* To install pre-commit hooks to ensure formatting is correct:
+```bash
+pre-commit install
+```
+
+* To release a new version:
+
+Firstly, update the version with bump2version (`bump2version patch`, 
+`bump2version minor` or `bump2version major`). This will increment the 
+package version (to a release candidate - e.g. `0.0.1rc0`) and tag the 
+commit. Push this tag to GitHub to run the deployment workflow:
+
+```bash
+git push --follow-tags
+```
+
+Once the release candidate has been tested, the release version can be created with:
+
+```bash
+bump2version release
+```
+
