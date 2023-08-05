@@ -1,0 +1,6 @@
+requests
+pywal
+downloader-cli
+beautifulsoup4
+dbus-python
+simber

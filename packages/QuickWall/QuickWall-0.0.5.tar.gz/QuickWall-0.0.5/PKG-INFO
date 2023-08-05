@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: QuickWall
+Version: 0.0.5
+Summary: Set any wallpaper from commandline
+Home-page: http://github.com/deepjyoti30/QuickWall
+Author: Deepjyoti Barman
+Author-email: deep.barman30@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+Set any wallpaper from Unsplash from the commandline
+
