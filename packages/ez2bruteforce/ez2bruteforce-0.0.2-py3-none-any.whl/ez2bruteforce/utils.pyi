@@ -1,0 +1,3 @@
+from typing import Union
+
+def to_bytes(x: Union[str, bytes], encoding: str) -> bytes: ...
