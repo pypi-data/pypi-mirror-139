@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-response-mid
+Version: 2.11
+Summary: django response middleware
+Home-page: https://github.com/txf402066270/django-midd/
+Author: wu-di-tian-ge-ge
+Author-email: 402066270@qq.com
+License: NEU
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Dist: django
+Requires-Dist: djangorestframework
+
+UNKNOWN
+
