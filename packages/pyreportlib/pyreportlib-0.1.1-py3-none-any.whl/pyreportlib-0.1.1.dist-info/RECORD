@@ -1,0 +1,12 @@
+pyreportlib/__init__.py,sha256=T4elq6_qoDOjgUwnhGyJNhlSYwpo-8fnnxkyQueUbpI,271
+pyreportlib/entail.pdf,sha256=rO8W-6LzUFRGN_elZz_1GUNgkpd6L_rcN6osELdv4S4,1987
+pyreportlib/entail.png,sha256=6b79JWukZ7gCreH7TZiCNnrXB-LsSpiPxJMiDI62cs0,39437
+pyreportlib/get_documents.py,sha256=wMp2bCi9ID11iPNgSWa5nDaEYFpEgNCL15s3MAnu0ss,5854
+pyreportlib/make_documents.py,sha256=gNSaSWEXmKe2Kpmh_P6l3bP4fIniSUd1uEID-_5vkUo,16982
+pyreportlib/tailor.png,sha256=lLekqLIDE_536iuSl9YsTsaH-_8BNe5AIcapM-x2dNc,22757
+pyreportlib/template.docx,sha256=qMX465Dnwo7GtKwWI8IX4xdnb18jfiqBAPWxrnJ9rVo,99944
+pyreportlib/utils/__init__.py,sha256=Odz9Ji4n-Fd4IeKASu_TU1tjD6vMa3Dv4UI6uLZrXnU,108
+pyreportlib/utils/excel_utils.py,sha256=Rud4kiQPhRQYw9342_Z_Z6_VXXTmjvkoFTfYvrcq4-A,3755
+pyreportlib-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyreportlib-0.1.1.dist-info/METADATA,sha256=0j_7kQiMHtiDP2n6KaP5E6uLFLyJTkKqcvctnzRtF6A,548
+pyreportlib-0.1.1.dist-info/RECORD,,
