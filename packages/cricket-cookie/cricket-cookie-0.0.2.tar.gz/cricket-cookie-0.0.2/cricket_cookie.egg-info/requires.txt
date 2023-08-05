@@ -1,0 +1,8 @@
+click
+fastapi[all]
+pyjwt
+requests==2.27.1
+rich==11.2.0
+six==1.16.0
+six==1.16.0
+urllib3==1.26.8
