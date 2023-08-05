@@ -1,0 +1,6 @@
+setup.py
+src/tretikoffhw1/__init__.py
+src/tretikoffhw1.egg-info/PKG-INFO
+src/tretikoffhw1.egg-info/SOURCES.txt
+src/tretikoffhw1.egg-info/dependency_links.txt
+src/tretikoffhw1.egg-info/top_level.txt
