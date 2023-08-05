@@ -1,0 +1,3 @@
+aiohttp>=3.8.1
+neuro-config-client>=22.2.0a0
+neuro-admin-client>=22.2.1
