@@ -1,0 +1,2 @@
+- add pandas req
+- initial working release
