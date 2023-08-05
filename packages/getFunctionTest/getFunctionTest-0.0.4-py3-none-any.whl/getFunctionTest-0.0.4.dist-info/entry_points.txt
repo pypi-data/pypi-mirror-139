@@ -1,0 +1,3 @@
+[console_scripts]
+getFileTest = src.functionTest:getFunction
+
