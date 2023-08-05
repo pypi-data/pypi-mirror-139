@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: oauth-ssh
+Version: 0.14
+Summary: SSH with OAuth Tokens
+Home-page: https://github.com/xsede/oauth-ssh
+Author: Jason Alt
+Author-email: jasonalt@globus.org
+License: Apache License v2.0
+Keywords: oauth,ssh
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Requires-Dist: click (<8,>=7.0)
+Requires-Dist: paramiko (>=2.5.0,<3)
+Requires-Dist: requests (>=2.5.0,<3)
+
+UNKNOWN
+
