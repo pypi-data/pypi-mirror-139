@@ -1,0 +1,8 @@
+PySide2
+PyQt5
+iconify
+cairosvg
+qtsass
+matplotlib
+mock
+urllib
