@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/languager/__init__.py
+src/languager/languages.py
+src/languager.egg-info/PKG-INFO
+src/languager.egg-info/SOURCES.txt
+src/languager.egg-info/dependency_links.txt
+src/languager.egg-info/requires.txt
+src/languager.egg-info/top_level.txt
+test/test_languages.py
