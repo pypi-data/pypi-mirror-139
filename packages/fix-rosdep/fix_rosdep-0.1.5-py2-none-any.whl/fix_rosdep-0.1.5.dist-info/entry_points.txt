@@ -1,0 +1,5 @@
+[console_scripts]
+fix-rosdep = fixed_rosdep.hello.main:main
+rosdep = fixed_rosdep.main:rosdep_main
+rosdep-source = fixed_rosdep.install:install_main
+
