@@ -1,0 +1,28 @@
+# PyYdotool
+
+Python bindings for [`ydotool`](https://github.com/ReimuNotMoe/ydotool) >= 1.0.1
+
+This project was inspired by [pyxdotool](https://github.com/cphyc/pyxdotool)
+
+All `ydotool` commands are chainable.
+
+# Example
+```python
+from ydotool import YdoTool
+ydo = YdoTool().key("29:1", "56:1", "59:1", "59:0", "56:0", "29:0") # press and release 'LeftCtrl+LeftAlt+F1'
+ydo.sleep(0.5).type("echo 'foo bar'")
+# execution is done here
+ydo.exec()
+```
+
+# Requirements
+- Ydotool >= 1.0.1
+
+- Access to `/dev/uinput` device is required. It can be set by adding `udev` rules.<br>
+Example tested for Fedora:
+    #### **`/etc/udev/rules.d/60-uinput.rules`**
+    ```shell
+    KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
+    ```
+
+    This rules will allow regular user logged in to the machine to access `uinput` device. 

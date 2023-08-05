@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "pyydotool"
+version = "1.0.0"
+license = "LGPL-3.0-or-later"
+description = "Python bindings to ydotool"
+homepage = "https://gitlab.com/jdsieci/pyydotool"
+repository = "https://gitlab.com/jdsieci/pyydotool"
+authors = ["Jerzy Drozdz <jerzy.drozdz@jdsieci.pl>"]
+readme = "README.md"
+packages = [
+    { include = "ydotool" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = ">=21.11b0"
+poetry-dynamic-versioning = ">=0.13.1"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+style = "pep440"
+bump = true
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
