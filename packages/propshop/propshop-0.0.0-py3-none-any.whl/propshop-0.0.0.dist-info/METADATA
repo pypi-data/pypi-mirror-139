@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: propshop
+Version: 0.0.0
+Summary: Your one-stop shop for material properties.
+Author-email: Blake Naccarato <blake.naccarato+propshop@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Project-URL: Home, https://github.com/blakeNaccarato/propshop
+
+# propshop
+
+Your one-stop shop for material properties.
+
