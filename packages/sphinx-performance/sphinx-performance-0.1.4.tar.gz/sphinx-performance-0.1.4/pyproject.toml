@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "sphinx-performance"
+version = "0.1.4"
+description = ""
+authors = ["team useblocks"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/useblocks/sphinx-performance"
+documentation = "https://sphinx-performance.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+click = "^8.0.3"
+rich = "^11.2.0"
+Jinja2 = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+sphinx-performance = 'sphinx_performance.main:cli'
+
+[tool.poetry.extras]
+docs = ["sphinx"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
