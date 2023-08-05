@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+termdoro/__init__.py
+termdoro/__main__.py
+termdoro/data.py
+termdoro.egg-info/PKG-INFO
+termdoro.egg-info/SOURCES.txt
+termdoro.egg-info/dependency_links.txt
+termdoro.egg-info/entry_points.txt
+termdoro.egg-info/top_level.txt
