@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: clust
+Version: 1.16.0
+Summary: Optimised consensus clustering of multiple heterogeneous datasets
+Home-page: https://github.com/baselabujamous/clust
+Author: Basel Abu-Jamous
+Author-email: baselabujamous@gmail.com
+License: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: joblib
+Requires-Dist: portalocker
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+
+Optimised consensus clustering of multiple heterogeneous datasets
+
