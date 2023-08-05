@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ws_barcode_scanner/__init__.py
+src/ws_barcode_scanner/barcode_scanner.py
+src/ws_barcode_scanner/memory_map.py
+src/ws_barcode_scanner/serial_port.py
+src/ws_barcode_scanner/utils.py
+src/ws_barcode_scanner.egg-info/PKG-INFO
+src/ws_barcode_scanner.egg-info/SOURCES.txt
+src/ws_barcode_scanner.egg-info/dependency_links.txt
+src/ws_barcode_scanner.egg-info/requires.txt
+src/ws_barcode_scanner.egg-info/top_level.txt
