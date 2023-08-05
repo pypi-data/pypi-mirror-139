@@ -1,0 +1,4 @@
+aiohttp
+acct>=6
+idem>=11
+pop>=16.3
