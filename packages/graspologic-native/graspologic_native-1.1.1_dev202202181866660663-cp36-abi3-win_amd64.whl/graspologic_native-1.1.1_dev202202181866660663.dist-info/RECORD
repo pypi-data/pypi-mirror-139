@@ -1,0 +1,7 @@
+graspologic_native-1.1.1_dev202202181866660663.dist-info/METADATA,sha256=Df2c75X-hzplcS9T0oW_n6QEBduY35GEjYvIqTeLMuE,2540
+graspologic_native-1.1.1_dev202202181866660663.dist-info/WHEEL,sha256=eekL35ew8FliUEpqsF2QkPOIUxVXoMckcoG1ls9Fu9U,95
+graspologic_native/__init__.py,sha256=WDVxOsVBDyJCVq2DMDgiDACiauLIIQ_I2auDqDOy62w,72
+graspologic_native/__init__.pyi,sha256=eemwxavrCZ9Zwkzs80D5ZXw6gZJ0USj6yw6Fx0MvtFA,1012
+graspologic_native/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graspologic_native/graspologic_native.pyd,sha256=5YWjy5wQ3xcWDB_2MyOEaiCCtgbW5v-TTP1-2a1ynNo,447488
+graspologic_native-1.1.1_dev202202181866660663.dist-info/RECORD,,
