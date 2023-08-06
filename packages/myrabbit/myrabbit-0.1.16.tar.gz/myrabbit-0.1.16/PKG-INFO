@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: myrabbit
+Version: 0.1.16
+Summary: Python library for microservice messaging via RabbitMq
+Author: asyncee
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: telemetry
+Requires-Dist: colorama (>=0.4,<0.5)
+Requires-Dist: opentelemetry-instrumentation (>=0.12b0,<0.13); extra == "telemetry"
+Requires-Dist: opentelemetry-sdk (>=0.12b0,<0.13); extra == "telemetry"
+Requires-Dist: orjson (>=3,<4)
+Requires-Dist: pika (>=1,<2)
+Requires-Dist: pydantic (>=1,<2)
