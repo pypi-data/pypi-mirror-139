@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+immutable/__init__.py
+immutable/immutable.py
+immutable_config.egg-info/PKG-INFO
+immutable_config.egg-info/SOURCES.txt
+immutable_config.egg-info/dependency_links.txt
+immutable_config.egg-info/not-zip-safe
+immutable_config.egg-info/top_level.txt
