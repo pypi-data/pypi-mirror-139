@@ -1,0 +1,9 @@
+cool_linear_solver/__init__.py,sha256=u2zKqqsjWEb2NNMaOvcgQ-M950nU_-rP4_DhxT83BWQ,223
+cool_linear_solver/eqs_and_vars.py,sha256=16jncVvMzHlj91UjtGN9Ux88NbGQMbBO1WzYeMMdAbs,3536
+cool_linear_solver/least_squares.py,sha256=eqmf254FBnJWYdCxBN3CQi4BJqwd_2rdVMGbZAXYKBg,3031
+cool_linear_solver/linear_solver.py,sha256=Xbm8T_vUoUjDkRDP_qk7hcBnzkqOwJcF0o0YWxR510w,1375
+cool_linear_solver-0.1.1.dist-info/LICENSE,sha256=8voyKr7nVfs4xG_ZvKW08klipsD9Ln709ohNXNza8Dw,1505
+cool_linear_solver-0.1.1.dist-info/METADATA,sha256=7EB-92EhUcdWgZN4xkpyvX-h-9v_ZKTIglvEi_DBRkI,2928
+cool_linear_solver-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cool_linear_solver-0.1.1.dist-info/top_level.txt,sha256=2VhmHG-r4s5hWhk6o6IB_fauxvUlAJOHIJodVQUf4Z8,19
+cool_linear_solver-0.1.1.dist-info/RECORD,,
