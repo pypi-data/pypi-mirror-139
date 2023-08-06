@@ -1,0 +1,3 @@
+[console_scripts]
+diskloaf = diskloaf.loaf:main
+
