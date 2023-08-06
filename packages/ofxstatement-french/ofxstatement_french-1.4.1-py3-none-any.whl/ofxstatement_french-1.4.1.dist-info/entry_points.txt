@@ -1,0 +1,2 @@
+[ofxstatement]
+fr-banquepopulaire = ofxstatement.plugins.fr.banquepopulaire:Plugin

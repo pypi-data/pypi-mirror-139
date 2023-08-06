@@ -1,0 +1,11 @@
+ofxstatement_french-1.4.1-py3.9-nspkg.pth,sha256=_KjO6Cug2guaia44wgWxchIkQ093BqfLESrr12UogS4,1809
+ofxstatement/plugins/fr/__init__.py,sha256=97jNS4WZG7fnhey6vcTdSUFyhHC4qQ5xfMlXjlH6Gbw,57
+ofxstatement/plugins/fr/banquepopulaire.py,sha256=sPMuWO6YjnxiKroMwRsoAcxsICk8Xuf5H-VOLVZ-SsY,35111
+ofxstatement/plugins/fr/statement.py,sha256=NAl5BdhoM_k6KMih00uqC-XL6CmmBZvE-mOALRieCaQ,979
+ofxstatement_french-1.4.1.dist-info/METADATA,sha256=p1BTMopbhmiR6DHH0GWaFnvEBjrmS1kdFh97zIcaNC4,8978
+ofxstatement_french-1.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ofxstatement_french-1.4.1.dist-info/entry_points.txt,sha256=-QMl9Bq3YFvACWt_oEMZrySLMZzOy878gRbfY5pEYZc,83
+ofxstatement_french-1.4.1.dist-info/namespace_packages.txt,sha256=i29PY9ieDhHxwObljMcvZNQ_PHxIyAHVbzFlzcpcHn4,34
+ofxstatement_french-1.4.1.dist-info/top_level.txt,sha256=QULlVVrNlYwAPeKqH5xw5QYTOH04LNlME6axewv7XDs,13
+ofxstatement_french-1.4.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ofxstatement_french-1.4.1.dist-info/RECORD,,
