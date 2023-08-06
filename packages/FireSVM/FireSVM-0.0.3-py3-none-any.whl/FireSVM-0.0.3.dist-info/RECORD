@@ -1,0 +1,9 @@
+firesvm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firesvm/kernels.py,sha256=ahwPEj7uwUo9N3NDcbvYJBYl0Dlfa1fM6qcUuXoxsP8,234
+firesvm/plots.py,sha256=7SbYLSL78ZxtwSJH3Agyi-J4--Hj01XX60R7o3_mhlQ,1195
+firesvm/svm.py,sha256=b7TnHHerPeeQ2m195uDxhysngD3kyugFkXonzahvY9I,3929
+FireSVM-0.0.3.dist-info/LICENSE,sha256=h9WUPcLRhCsdXCQFbqqVjvQ6QETmXa647aJ3gSKvFbg,1068
+FireSVM-0.0.3.dist-info/METADATA,sha256=k8qX-SjfOywP_IB802ug6yfRqYrk5NpvW98_WVmLnCw,241
+FireSVM-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+FireSVM-0.0.3.dist-info/top_level.txt,sha256=4tOXNRh0G44PmjAp4uGSBPGIDZDwCyspt-Nfnbvdnds,8
+FireSVM-0.0.3.dist-info/RECORD,,
