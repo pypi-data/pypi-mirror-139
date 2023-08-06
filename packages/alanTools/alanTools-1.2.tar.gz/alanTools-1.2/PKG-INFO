@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: alanTools
+Version: 1.2
+Summary: Compilation of functions and modules
+Home-page: https://github.com/alannxq/alanTools
+Author: Alan Koterba
+Author-email: alankoterba12321@gmail.com
+License: MIT
+Download-URL: https://github.com/alannxq/alanTools/archive/refs/tags/0.2.tar.gz
+Description: UNKNOWN
+Keywords: nice,compilation,tools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
