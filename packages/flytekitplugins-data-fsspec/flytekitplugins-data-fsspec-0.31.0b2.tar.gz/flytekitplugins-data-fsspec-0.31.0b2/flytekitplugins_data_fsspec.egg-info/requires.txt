@@ -1,0 +1,6 @@
+flytekit<1.0.0,>=0.21.3
+fsspec>=2021.7.0
+botocore>=1.7.48
+
+[aws]
+s3fs>=2021.7.0
