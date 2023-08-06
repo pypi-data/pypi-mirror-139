@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: osmscigrid
+Version: 1.1.0
+Summary: Extracting gas transport pipelines OSM pbf-files and exporting to SciGRID_gas structure
+Home-page: https://github.com/pypa/osmscigrid
+Author: Adam Pluta
+Author-email: Adam.Pluta@dlr.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: protobuf (<4,>=3)
+Requires-Dist: esy-osm-pbf (>=0)
+Requires-Dist: Unidecode (==1.1.1)
+Requires-Dist: pandas (>=0.25.3)
+Requires-Dist: pathlib (>=1.0.1)
+Requires-Dist: esy-osmfilter
+Requires-Dist: quantulum3 (==0.7.6)
+Requires-Dist: mplcursors (==0.4)
+Requires-Dist: descartes (==1.1.0)
+Requires-Dist: adjustText (==0.7.3)
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: PyShp
+Requires-Dist: geopy
+Requires-Dist: scipy (==1.6.2)
+Requires-Dist: Shapely (==1.7.1)
+
+``` eval_rst
+
+osmscigrid
+=============
+
+**osmscigrid** is a Python library to create a `SciGRID_gas dataset  <https://www.gas.scigrid.de/downloads.html>`_ of the European gas transport 
+pipelines from OpenStreetMap (OSM). It is based on the **esy-osmfilter** library, which is another outcome of the
+the SciGRID_gas project and further described in this linked `article  <https://openresearchsoftware.metajnl.com/article/10.5334/jors.317>`_ .
+
+
+Features
+--------
+
+What does it provide:
+
+- A routine to create SciGRID_gas data from OSM pbf-files
+- A routine to extract meta data from OSM tags 
+- A segmentation routine for pipelines which will remove some intermediate nodes and create short `PipeSegments`
+- An option to remove short pipelines
+- A routine to export the resulting dataset in the CSV or GeoJSON format
+- A routine to read SciGRID_gas CSV files
+- Creating country data from only one European OSM pbf-file 
+
+What does it not provide:
+
+- Extraction of gas network components other than pipelines
+- Visualization of the data
+- OSM pbf-files
+
+Installation
+------------
+
+**osmscigrid** depends on a Python version of 3.6 or above as well as the
+following libraries:
+
+
+-   "matplotlib==3.3.3"
+-   "mplcursors>=0.3"
+-   "Unidecode==1.1.1"
+-   'pandas>=0.25.3'
+-   "esy-osm-pbf>=0"
+-   "esy-osmfilter"
+-   "quantulum3==0.7.6"
+-   "PyShp"
+-   "geopy"
+-   "scipy"
+-   "numpy==1.19.4"
+-   "pathlib>=1.0.1"
+-   "descartes==1.1.0"
+-   "adjustText==0.7.3"
+-   "Shapely==1.7.1"
+
+Use ``pip`` to install **osmscigrid**:
+
+.. code:: bash
+
+    $ pip install osmscigrid
+
+
+
+Installation qplot
+------------------
+
+We recommend, that you also install **qplot** to visualize the results.
+You can use ``pip`` to install **qplot**:
+
+.. code:: bash
+
+    $ pip install qplot
+
+
+Once you have installed **qplot**, you can import the quickplot function via:
+
+.. code:: bash
+
+    $ from qplot.qplot import quickplot
+
+
+Download of WorldBorders
+------------------------
+
+In the next step you need to navigate to the webpage of `thematicmapping <https://thematicmapping.org/downloads/world_borders.php>`_
+and download the TM_WORLD_BORDERS zip-file, which is required for the country classification
+but also to visualize the country borders with **qplot**.
+
+
+Documentation
+-------------
+For more details, jump to the
+[documentation](https://dlr-ve-esy.gitlab.io/osmscigrid/).
+
+
+ 
+
+Bugfixes:
+---------
+
+On some Windows machines, there might be some issues with the installation of "Shapely".
+You can try to download the proper file from the `<https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely>`_
+and install it via pip.
+
+If this does not work, than you can add this two hidden options to your OSM.read *function* which will
+deactivate the country classification.
+
+* CreateCountryCodeForLines=False
+* LoadCountryCodeForLines=False
+
+
+License
+-------
+
+**osmscigrid** is licensed under the `GNU General Public License version
+3.0 <https://www.gnu.org/licenses/gpl-3.0.html>`_.
+
+Data-License
+------------
+
+Please remember that all data extracted from OSM.pbf files is still under the
+`Open Database License (ODbL) 
+<https://opendatacommons.org/licenses/odbl>`_.
+
+The Team
+--------
+
+**osmscigrid** is developed at the
+`DLR <https://www.dlr.de/EN/Home/home_node.html>`_ Institute of
+`Networked Energy Systems
+<https://www.dlr.de/ve/en/desktopdefault.aspx/tabid-12472/21440_read-49440/>`_
+in the department for `Energy Systems Analysis (ESY)
+<https://www.dlr.de/ve/en/desktopdefault.aspx/tabid-12471/21741_read-49802/>`_.
+```
+
+
+
