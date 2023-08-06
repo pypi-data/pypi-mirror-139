@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: autonml
+Version: 0.1.4
+Summary: AutonML : CMU's AutoML System
+Home-page: UNKNOWN
+Author: Saswati Ray, Andrew Williams, Vedant Sanil
+Maintainer: Andrew Williams, Vedant Sanil
+Maintainer-email: awilia2@andrew.cmu.edu, vsanil@andrew.cmu.edu
+License: Apache-2.0
+Keywords: datadrivendiscovery,automl,d3m,ta2,cmu
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE.md
+
+<img src="https://gitlab.com/sray/cmu-ta2/-/blob/dev/docs/img/AutonML_logo.png" width=30%>
+
+
+# CMU TA2 (Built using DARPA D3M ecosystem)
+
+Auto<sup>n</sup> ML is an automated machine learning system developed by CMU Auton Lab 
+to power data scientists with efficient model discovery and advanced data analytics. 
+Auton ML also powers the D3M Subject Matter Expert (SME) User Interfaces such as Two Ravens http://2ra.vn/.
+
+**Taking your machine learning capacity to the nth power.**
+
+  <img src="https://gitlab.com/sray/cmu-ta2/-/blob/dev/docs/img/model_pipeline.png" width="869" height="489">
+
+### D3M dataset
+- Any dataset to be used should be in D3M dataset format (directory structure with TRAIN, TEST folders and underlying .json files).
+- Example available of a single dataset [here](https://datasets.datadrivendiscovery.org/d3m/datasets/-/tree/master/seed_datasets_current/185_baseball_MIN_METADATA)
+- More datasets available [here](https://datasets.datadrivendiscovery.org/d3m/datasets/-/tree/master/seed_datasets_current/)
+- Any non-D3M data can be converted to D3M dataset. (See section below on "Convert raw dataset to D3M dataset").
+
+### Run in search mode
+
+We can run the AutonML pipeline in two ways. It be run as a standalone CLI command, accessed via the `autonml_main` command. This command takes five arguments, listed below:
+- Path to the data directory (must be in D3M format)
+- Output directory where results are to be stored. This directory will be dynamically created if it does not exist.
+- Timeout (measured in minutes)
+- Number of CPUs to be used
+- Path to `problemDoc.json` (see example below)
+
+```bash
+INPUT_DIR=/home/<user>/d3m/datasets/185_baseball_MIN_METADATA
+OUTPUT_DIR=/output
+TIMEOUT=2
+NUMCPUS=8
+PROBLEMPATH=${INPUT_DIR}/TRAIN/problem_TRAIN/problemDoc.json
+
+autonml_main ${INPUT_DIR} ${OUTPUT_DIR} ${TIMEOUT} ${NUMCPUS} ${PROBLEMPATH} 
+```
+
+
+The above script will do the following-
+1. Run search for best pipelines for the specified dataset using TRAIN data.
+2. JSON pipelines (with ranks) will be output in JSON format at /output/<search_dir>/pipelines_ranked/
+3. CSV prediction files of the pipelines trained on TRAIN data and predicted on TEST data will be available at /output/<search_dir>/predictions/
+4. Training data predictions (cross-validated mostly) are produced in the current directory as /output/<search_dir>/training_predictions/<pipeline_id>_train_predictions.csv.
+5. Python code equivalent of executing a JSON pipeline on a dataset produced at /output/<search_dir>/executables/
+
+ An example -
+```
+python ./output/6b92f2f7-74d2-4e86-958d-4e62bbd89c51/executables/131542c6-ea71-4403-9c2d-d899e990e7bd.json.code.py 185_baseball predictions.csv 
+```
+
+

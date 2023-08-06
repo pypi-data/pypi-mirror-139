@@ -1,0 +1,12 @@
+# D3M imports
+d3m-common-primitives==2022.1.5
+d3m-sklearn-wrap==2022.2.8
+sri-d3m==1.9.6
+rpi-d3m-primitives==0.2.7
+dsbox-primitives==1.6.1
+dsbox-corex==1.1.1
+
+# Github -e imports. These need to be resolved as packages are pushed to PyPI
+
+-e git+https://github.com/uncharted-distil/distil-primitives.git@666233600447f7c4cc09fbd0e59c87ca5b842011#egg=distil-primitives
+-e git+https://gitlab.com/datadrivendiscovery/contrib/kungfuai-primitives.git@49acb225bb6994d3dfaffdf3b7761395423680a4#egg=kf-d3m-primitives
