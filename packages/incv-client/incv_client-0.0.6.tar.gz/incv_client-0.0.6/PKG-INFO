@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: incv_client
+Version: 0.0.6
+Summary: An API Gateway Tool for INCV
+Home-page: https://www.incv.net/
+Author: Oren Zhang
+Author-email: oren_zhang@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+## INCV API Client
+
+Depend on Django
+
+### Init
+
+`APP_CODE` `APP_SECRET` `INCV_API_DOMAIN`
+
+### Cos
+
+`COS_REGION` `TCLOUD_SECRET_ID` `TCLOUD_SECRET_KEY` `COS_BUCKET`
+
+

@@ -1,0 +1,11 @@
+## INCV API Client
+
+Depend on Django
+
+### Init
+
+`APP_CODE` `APP_SECRET` `INCV_API_DOMAIN`
+
+### Cos
+
+`COS_REGION` `TCLOUD_SECRET_ID` `TCLOUD_SECRET_KEY` `COS_BUCKET`
