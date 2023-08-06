@@ -1,0 +1,12 @@
+pdappend/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pdappend/cli.py,sha256=lHbR0qyAifPlvWLk02yo4piaNAzxbMZizam-WLr0Rvk,6012
+pdappend/constants.py,sha256=o1mOm43AvoZNZ6D8kPAvM4IClucl7KNCPOMKdaKhio8,490
+pdappend/data.py,sha256=m5ZOjYva9FmFyH0GRpoe_hB_5L4B7j1GHkJh9aWzRuU,150
+pdappend/errors.py,sha256=OdJm4-77_Xi0O9rIBSTp4CMDke8mBMa-maEzg-lL1SQ,221
+pdappend/gui.py,sha256=W5pCQ_j7fIiZvW_VSx5ntoEtmQMN3Y3CDLkGQSqzHJY,610
+pdappend/pdappend.py,sha256=gLMXfk5E2e2RCvxIpYvSgT9GG5rhwFFRRi3o8ZOXfAg,5790
+pdappend-0.1.0.dist-info/entry_points.txt,sha256=8gXhZwItqVqxdeUdPXMXDkJVvRA1YNf4Sn3-v16BJMo,77
+pdappend-0.1.0.dist-info/LICENSE,sha256=_t1ytyuyHY9jKWiY5pGniXEmbx9xhFjwE6X5Y5UPAtk,1072
+pdappend-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pdappend-0.1.0.dist-info/METADATA,sha256=VQVSerfSdMtPmqGYYqdyAbS1aU-0JZ8hFpg_NOc3DGQ,1960
+pdappend-0.1.0.dist-info/RECORD,,
