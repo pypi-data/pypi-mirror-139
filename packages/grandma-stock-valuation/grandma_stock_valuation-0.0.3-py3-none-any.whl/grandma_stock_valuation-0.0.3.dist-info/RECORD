@@ -1,0 +1,12 @@
+grandma_stock_valuation/__init__.py,sha256=gXTiLY3my4xtJuHjcabg2DEbXZJrvUBh221lnfkI84M,385
+grandma_stock_valuation/portfolio_allocator.py,sha256=HFSbeV1E4IupU3rHlQ3o6S4FPgZcgeH3Niz7XP7ZXvg,1999
+grandma_stock_valuation/valuation_model.py,sha256=4eEQL_60It1amGr-d-YX0-rAadf405WasYrHDqyqQG8,17797
+grandma_stock_valuation/yahoo_data_loader.py,sha256=Lbvu3AJFVKnRBJPjIGAKVOahxIHdGH6YsLgi-0HXnfM,10836
+grandma_stock_valuation/data/IVV_EOD.csv.gz,sha256=jW-3C1xxu41cbYCvFV6n4-BcVMGx1h7radxjam3Fe3k,122345
+grandma_stock_valuation/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grandma_stock_valuation/utils/logger.py,sha256=nMD8jjZDRTg6o227ZxGntaSJOd6pqUpVOKxLoOoYyD8,3063
+grandma_stock_valuation-0.0.3.dist-info/LICENSE.txt,sha256=Pcc_N0uAh2U75dHkDNJSSRDHHgmjkkO5cXNe0uTDW1w,1087
+grandma_stock_valuation-0.0.3.dist-info/METADATA,sha256=j34jmFk1gcQRYbHSI3D1IbHllzhKXJ9Gtn8scc2tyzw,3053
+grandma_stock_valuation-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+grandma_stock_valuation-0.0.3.dist-info/top_level.txt,sha256=lnjH6CSaASUD0mvbDzcm_FVWjjSZSCJCd3fC8NU8tLI,54
+grandma_stock_valuation-0.0.3.dist-info/RECORD,,
