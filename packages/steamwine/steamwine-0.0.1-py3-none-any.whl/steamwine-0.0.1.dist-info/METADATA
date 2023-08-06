@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: steamwine
+Version: 0.0.1
+Summary: Simple work with API Steam
+Home-page: https://github.com/Fsoky/steamwine
+Author: Fsoky
+Author-email: cyberuest0x12@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# steamwine
+Example:
+
+
+```py
+import asyncio
+from steamwine import Steam
+
+api = Steam("API_KEY")
+
+
+async def handler():
+	friends = await api.user.friends(76561198982570889)
+
+	for friend in friends.friends_list:
+		usr = await api.user.get(friend.steam_id)
+		print(usr.players[0].name)
+
+
+asyncio.get_event_loop().run_until_complete(handler())
+```
+
