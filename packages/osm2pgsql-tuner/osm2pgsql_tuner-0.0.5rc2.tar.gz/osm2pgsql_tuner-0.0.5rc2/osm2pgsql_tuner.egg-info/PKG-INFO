@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: osm2pgsql-tuner
+Version: 0.0.5rc2
+Summary: osm2pgsql tuner
+Home-page: https://github.com/rustprooflabs/osm2pgsql-tuner
+Author: RustProof Labs
+Author-email: support@rustprooflabs.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
