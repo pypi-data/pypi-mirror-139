@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gspread-rpa
+Version: 1.0.0
+Summary: a gspread (Python API for Google Sheets) hight level wrapper
+Home-page: https://github.com/unipartdigital/gspread_rpa
+Author: Unipart Digital
+Author-email: rpa@unipart.io
+Maintainer: Ali Bendriss
+Maintainer-email: ali.bendriss@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Bug Tracking
+Requires: gspread
+License-File: LICENSE
+
+UNKNOWN
+
