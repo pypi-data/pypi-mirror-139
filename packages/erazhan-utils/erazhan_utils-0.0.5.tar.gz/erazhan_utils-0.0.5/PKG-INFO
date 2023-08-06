@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: erazhan_utils
+Version: 0.0.5
+Summary: some common tools in work
+Home-page: https://github.com/erazhan/erazhan_utils
+Author: erazhan
+Author-email: erazhan@163.com
+License: MIT Licence
+Description: some useful common tools
+Keywords: erazhan_utils
+Platform: any
+Requires-Python: >=3.6.1
