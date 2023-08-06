@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: image-eht
+Version: 0.1
+Summary: image enhancement tool
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: imgaug
+Requires-Dist: tqdm
+
+UNKNOWN
+
