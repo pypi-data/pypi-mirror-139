@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+grandma_stock_valuation/__init__.py
+grandma_stock_valuation/portfolio_allocator.py
+grandma_stock_valuation/valuation_model.py
+grandma_stock_valuation/yahoo_data_loader.py
+grandma_stock_valuation.egg-info/PKG-INFO
+grandma_stock_valuation.egg-info/SOURCES.txt
+grandma_stock_valuation.egg-info/dependency_links.txt
+grandma_stock_valuation.egg-info/requires.txt
+grandma_stock_valuation.egg-info/top_level.txt
+grandma_stock_valuation/data/IVV_EOD.csv.gz
+grandma_stock_valuation/utils/__init__.py
+grandma_stock_valuation/utils/logger.py
