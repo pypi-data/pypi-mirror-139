@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pylore
+Version: 0.0.2
+Summary: LOcal Rule-based Explanations
+Home-page: https://github.com/gerzin/pylore
+Author: Gerardo Zinno
+Author-email: zinno.gerardo.95@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: pytest (>3.7) ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# PyLORE
+
+PACKAGE STILL IN DEVELOPMENT
+
+## Installation
+
+To install pylore run:
+
+```bash
+$ pip install pylore
+```
+
+## Usage
+
+```python
+from pylore.lore import LORE
+
+LORE()
+```
+
+## Developing PyLORE
+
+To install PyLORE, along with the tools you need to develop and run tests, run the following in your virtualenv:
+
+```bash
+$ pip install -e .[dev]
+```
+
+

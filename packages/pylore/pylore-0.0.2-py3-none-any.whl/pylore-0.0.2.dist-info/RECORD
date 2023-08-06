@@ -1,0 +1,11 @@
+pylore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylore/blackbox.py,sha256=vjS_wYLLQoyD35M5Sm5ctlv7066cx55AQjkOm1kjqIA,131
+pylore/distances.py,sha256=VmgsbunCiqAPhpzz-GgSU0nLNqbFozepUHRA8aMoWLw,2067
+pylore/genetics.py,sha256=S37EllpxI7BcjagsP9YxRADnPlu8kvPGRYzjBc8Omw0,1428
+pylore/lore.py,sha256=u0SHBkl-8JG5kq2H2bXjvJSRpEzdIuRhUx5tg4YjvjE,1370
+pylore/treeutils.py,sha256=tUM-TuxJazpaEy3DiODDpB19Mz4yonCZ89IonC062q8,409
+pylore-0.0.2.dist-info/LICENSE.txt,sha256=J3xI7vu_0W8ZsNcb6nxgMP4qvLCggiDOdO8H9CO6YQg,1069
+pylore-0.0.2.dist-info/METADATA,sha256=SeOsAniA3P4CHO-tnEvFlCcB9FByVZ2NxxUSGjTLsPo,1291
+pylore-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylore-0.0.2.dist-info/top_level.txt,sha256=qUHgx8eai979hHk_mKJTP2tcLwi8Ho0oBPZc95beX1o,7
+pylore-0.0.2.dist-info/RECORD,,
