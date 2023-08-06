@@ -1,0 +1,3 @@
+[console_scripts]
+array2 = array2:main
+
