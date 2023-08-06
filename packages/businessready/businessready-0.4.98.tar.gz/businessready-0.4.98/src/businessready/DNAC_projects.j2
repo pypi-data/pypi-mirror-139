@@ -1,0 +1,82 @@
+{%- if filetype_loop == 0 %}Project Name,Project ID,Deletable,Template Name,Template ID,Composite,Language,Custom Parameter Order,Last Update Time,Last Version Time,Project Associated,Document Database
+{%- for project in projects %}
+{%-     for template in project.templates %}
+{{ project.name }},{{ project.id }},{{ project.isDeletable }},{{ template.name }},{{ template.id }},{{ template.composite }},{{ template.language }},{{ template.customParamsOrder }},{{ template.lastUpdateTime }},{{ template.latestVersionTime }},{{ template.projectAssociated }},{{ template.documentDatabase }}
+{%-     endfor %}
+{%- endfor %}
+{%- else %}
+{%-     if filetype_loop == 1 %}
+# DNAC Projects
+| Project Name | Project ID | Deletable | Template Name | Template ID | Composite | Language | Custom Parameter Order | Last Update Time | Last Version Time | Project Associated | Document Database |
+| ------------ | ---------- | --------- | ------------- | ----------- | --------- | -------- | ---------------------- | ---------------- | ----------------- | ------------------ | ----------------- |
+{%- for project in projects %}
+{%-     for template in project.templates %}
+| {{ project.name }} | {{ project.id }} | {{ project.isDeletable }} | {{ template.name }} | {{ template.id }} | {{ template.composite }} | {{ template.language }} | {{ template.customParamsOrder }} | {{ template.lastUpdateTime }} | {{ template.latestVersionTime }} | {{ template.projectAssociated }} | {{ template.documentDatabase }} |
+{%-     endfor %}
+{%- endfor %}
+{%-     else %}
+{%-         if filetype_loop == 2 %}
+<html><body>
+<h1>DNAC Projects</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Project ID</th>
+      <th>Deletable</th>
+      <th>Template Name</th>
+      <th>Template ID</th>
+      <th>Composite</th>
+      <th>Language</th>
+      <th>Custom Parameter Order</th>
+      <th>Last Update Time</th>
+      <th>Last Version Time</th>
+      <th>Project Associated</th>
+      <th>Document Database</th>
+    </tr>
+  </thead>
+  <tbody>
+{%- for project in projects %}
+{%-     for template in project.templates %}
+  <tr>
+    <td>{{ project.name }}</td>
+    <td>{{ project.id }}</td>
+    <td>{{ project.isDeletable }}</td>
+    <td>{{ template.name }}</td>
+    <td>{{ template.id }}</td>
+    <td>{{ template.composite }}</td>
+    <td>{{ template.language }}</td>
+    <td>{{ template.customParamsOrder }}</td>
+    <td>{{ template.lastUpdateTime }}</td>
+    <td>{{ template.latestVersionTime }}</td>
+    <td>{{ template.projectAssociated }}</td>
+    <td>{{ template.documentDatabase }}</td>
+  </tr>
+{%-     endfor %}
+{%- endfor %}
+  </tbody>
+</table>
+</body></html>
+{%-         else %}
+# {{ DNAC }}
+## Project
+{%- for project in projects %}
+### {{ project.name }}
+#### ID: {{ project.id }}
+#### Deletable: {{ project.isDeletable }}
+#### Templates
+{%-     for template in project.templates %}
+##### {{ template.name }}
+###### ID: {{ template.id }}
+###### Composite: {{ template.composite }}
+###### Language: {{ template.language }}
+###### Custom Parameter Order: {{ template.customParamsOrder }}
+###### Last Update Time: {{ template.lastUpdateTime }}
+###### Last Version Time: {{ template.latestVersionTime }}
+###### Project Associated: {{ template.projectAssociated }}
+###### Document Database: {{ template.documentDatabase }}
+{%-     endfor %}
+{%- endfor %}
+{%-         endif %}
+{%-     endif %}
+{%- endif %}
