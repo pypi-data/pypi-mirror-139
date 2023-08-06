@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: smartcrawler
+Version: 0.0.2
+Summary: Package for crawling items from webpages and store them as json file
+Author: Saketh Gundlapalli
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: webdriver-manager (==3.4.2)
+
+UNKNOWN
+
