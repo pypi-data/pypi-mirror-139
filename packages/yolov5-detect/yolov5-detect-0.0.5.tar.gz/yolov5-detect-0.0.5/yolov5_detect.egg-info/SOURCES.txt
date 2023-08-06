@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+yolov5_detect.egg-info/PKG-INFO
+yolov5_detect.egg-info/SOURCES.txt
+yolov5_detect.egg-info/dependency_links.txt
+yolov5_detect.egg-info/top_level.txt
+yolov5detect/__init__.py
+yolov5detect/detect.py
+yolov5detect/models/__init__.py
+yolov5detect/models/common.py
+yolov5detect/models/experimental.py
+yolov5detect/models/yolo.py
