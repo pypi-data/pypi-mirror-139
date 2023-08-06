@@ -1,0 +1,9 @@
+a7dtester.py
+setup.py
+./a7dtester.py
+a7dtester.egg-info/PKG-INFO
+a7dtester.egg-info/SOURCES.txt
+a7dtester.egg-info/dependency_links.txt
+a7dtester.egg-info/entry_points.txt
+a7dtester.egg-info/requires.txt
+a7dtester.egg-info/top_level.txt
