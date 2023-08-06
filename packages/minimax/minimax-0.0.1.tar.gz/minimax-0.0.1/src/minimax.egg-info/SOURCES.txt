@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/minimax.egg-info/PKG-INFO
+src/minimax.egg-info/SOURCES.txt
+src/minimax.egg-info/dependency_links.txt
+src/minimax.egg-info/top_level.txt
+src/minimax_package/__init__.py
+src/minimax_package/minimax.py
