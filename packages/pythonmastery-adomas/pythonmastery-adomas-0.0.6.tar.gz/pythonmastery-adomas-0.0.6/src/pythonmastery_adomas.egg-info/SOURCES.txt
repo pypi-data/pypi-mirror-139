@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/mastery/__init__.py
+src/mastery/calculator.py
+src/pythonmastery_adomas.egg-info/PKG-INFO
+src/pythonmastery_adomas.egg-info/SOURCES.txt
+src/pythonmastery_adomas.egg-info/dependency_links.txt
+src/pythonmastery_adomas.egg-info/top_level.txt
