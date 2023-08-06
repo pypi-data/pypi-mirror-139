@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {%- block head %}
+    <title>
+      {% block title %}
+      {% endblock title %}
+    </title>
+    {%- block metas %}
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+    {%- endblock metas %}
+
+    {%- block styles %}
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="{{ mdbootstrap_find_resource('plugins/fontawesome-free/css/all.css', cdn='local') }}" rel="stylesheet" type="text/css">
+      {% if config.get('MDBOOTSTRAP_USE_PRO', False) %}
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="{{ mdbootstrap_find_resource('MDB-Pro/css/bootstrap.css', cdn='local') }}" rel="stylesheet" type="text/css">
+      <!-- MDB -->
+      <link rel="stylesheet" href="{{ mdbootstrap_find_resource('MDB-Pro/css/mdb.css', cdn='local') }}" rel="stylesheet" type="text/css">
+      {% else %}
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="{{ mdbootstrap_find_resource('MDB/css/bootstrap.css', cdn='local') }}" rel="stylesheet" type="text/css">
+      <!-- MDB -->
+      <link rel="stylesheet" href="{{ mdbootstrap_find_resource('MDB/css/mdb.css', cdn='local') }}" rel="stylesheet" type="text/css">
+      {% endif %}
+    {%- endblock styles %}
+
+    {%- endblock head %}
+  </head>
+
+  <body class="{% block body_attribs %}{% endblock body_attribs %}">
+    {% block body %}
+      {% block header %}
+        {% block sidebar %}
+        {% endblock sidebar %}
+
+        {% block navbar %}
+        {% endblock navbar %}
+      {% endblock header %}
+
+      {% block content %}
+      {% endblock content %}
+
+      {% block footer %}
+      {% endblock footer %}
+    {% endblock body %}
+
+    {% block scripts %}
+      {% if config.get('MDBOOTSTRAP_USE_PRO', False) %}
+      <!-- jQuery -->
+      <script src="{{ mdbootstrap_find_resource('MDB-Pro/js/jquery.js', cdn='local') }}"></script>
+      <!-- Bootstrap tooltips -->
+      <script src="{{ mdbootstrap_find_resource('MDB-Pro/js/popper.js', cdn='local') }}"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script src="{{ mdbootstrap_find_resource('MDB-Pro/js/bootstrap.js', cdn='local') }}"></script>
+      <!-- MDB core JavaScript -->
+      <script src="{{ mdbootstrap_find_resource('MDB-Pro/js/mdb.js', cdn='local') }}"></script>
+      {% else %}
+      <!-- jQuery -->
+      <script src="{{ mdbootstrap_find_resource('MDB/js/jquery.js', cdn='local') }}"></script>
+      <!-- Bootstrap tooltips -->
+      <script src="{{ mdbootstrap_find_resource('MDB/js/popper.js', cdn='local') }}"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script src="{{ mdbootstrap_find_resource('MDB/js/bootstrap.js', cdn='local') }}"></script>
+      <!-- MDB core JavaScript -->
+      <script src="{{ mdbootstrap_find_resource('MDB/js/mdb.js', cdn='local') }}"></script>
+      {% endif %}
+    {% endblock scripts %}
+
+  </body>
+</html>
