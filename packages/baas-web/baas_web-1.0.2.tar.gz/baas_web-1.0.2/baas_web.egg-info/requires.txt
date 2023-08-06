@@ -1,0 +1,3 @@
+seleniumwebui>=1.0.5
+lxml>=3.7.1
+configparser
