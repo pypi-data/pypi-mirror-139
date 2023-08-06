@@ -1,0 +1,15 @@
+__pycache__/
+dist/
+*.egg-info/
+.pytest_cache/
+build/
+htmlcov/
+.coverage
+.eggs/
+.mypy_cache/
+Pipfile
+Pipfile.lock
+docs/_build/
+docs/modules.rst
+docs/vidua.*
+
