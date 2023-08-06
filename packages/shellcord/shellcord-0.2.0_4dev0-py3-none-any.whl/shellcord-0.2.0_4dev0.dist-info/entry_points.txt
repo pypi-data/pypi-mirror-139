@@ -1,0 +1,3 @@
+[console_scripts]
+shellcord=shellcord.cli:cli
+
