@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dj_boilerplate_generator
+Version: 1.1
+Summary: Django Boilerplate Generator - ready to use structure
+Home-page: https://github.com/httperror451/django_boilerplate_generator
+Author: Wasim Shaikh
+Author-email: httperror451@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/httperror451/django_boilerplate_generator/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DJANGO BOILERPLATE GENERATOR
+
+This package creates a core Django project and a core app with simple template including basic configured architectural settings.
+
+## Steps to use Django Boilerplate Generator
+1. If Django not installed, first install Django version >= 3.1using command >
+``` pip install django ```
+2. Go to the directory using the terminal where you want to create the project.
+example ``` cd project_workplace/ ```
+3. Run following command in the terminal >
+```python3 -m dj_boilerplate_generator.create_project ```
+4. It will asks for the project name and after that application name.
+5. Now you able to see django project structure created in the desired project directory.
+
+>Note: Django Boilerplate Generator successfully tested on Ubuntu 20.04.
+
