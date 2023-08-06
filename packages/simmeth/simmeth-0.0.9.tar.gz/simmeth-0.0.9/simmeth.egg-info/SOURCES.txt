@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+simmeth/__init__.py
+simmeth/alternative.py
+simmeth/belief.py
+simmeth/environment.py
+simmeth/simulation.py
+simmeth/strategy.py
+simmeth.egg-info/PKG-INFO
+simmeth.egg-info/SOURCES.txt
+simmeth.egg-info/dependency_links.txt
+simmeth.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
