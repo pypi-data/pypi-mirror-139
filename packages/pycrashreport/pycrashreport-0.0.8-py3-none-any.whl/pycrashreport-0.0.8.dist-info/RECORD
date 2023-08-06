@@ -1,0 +1,10 @@
+pycrashreport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycrashreport/__main__.py,sha256=pKf0Hy8fEU7xpgTP-AYzzUMotf64SWS996RJ1kUOKxk,241
+pycrashreport/crash_report.py,sha256=ZCWxDxjV4DaPYlb1daZt12YHZp0yBj6hbSJHeJGrZSM,7849
+pycrashreport-0.0.8.data/data/requirements.txt,sha256=eWiGo052EIN1WtYGANXX4JfGjb2RfEzUSsLmwPrshEo,21
+pycrashreport-0.0.8.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pycrashreport-0.0.8.dist-info/METADATA,sha256=w_Jk-XoNFRCTOx5Ju9355Bs5xU7igDVfj_hxbmlnQzs,4213
+pycrashreport-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycrashreport-0.0.8.dist-info/entry_points.txt,sha256=EQJT4VOHVS2f2l0-ZKOiaAeFwNnMCnlJ3b8wfCJ1T64,62
+pycrashreport-0.0.8.dist-info/top_level.txt,sha256=bSnAYuVHIeWOliri172dxrpnqtZakKGv0M4Si5FRsX0,14
+pycrashreport-0.0.8.dist-info/RECORD,,
