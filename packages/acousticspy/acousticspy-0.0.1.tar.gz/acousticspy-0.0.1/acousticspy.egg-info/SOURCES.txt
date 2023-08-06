@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+acousticspy.egg-info/PKG-INFO
+acousticspy.egg-info/SOURCES.txt
+acousticspy.egg-info/dependency_links.txt
+acousticspy.egg-info/top_level.txt
