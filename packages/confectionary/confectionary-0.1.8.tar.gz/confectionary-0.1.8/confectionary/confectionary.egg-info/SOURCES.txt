@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+confectionary/confectionary.egg-info/PKG-INFO
+confectionary/confectionary.egg-info/SOURCES.txt
+confectionary/confectionary.egg-info/dependency_links.txt
+confectionary/confectionary.egg-info/top_level.txt
