@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: withcode
+Version: 0.1.2
+Summary: Offline python module to match visualisation and sound features of create.withcode.uk
+Home-page: https://github.com/pddring/withcode
+Author: Pete Dring
+Author-email: pddring@gmail.com
+License: MIT
+Description: Offline python module to match visualisation and sound features of create.withcode.uk
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
