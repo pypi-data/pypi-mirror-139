@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+my_first_libray_testing.egg-info/PKG-INFO
+my_first_libray_testing.egg-info/SOURCES.txt
+my_first_libray_testing.egg-info/dependency_links.txt
+my_first_libray_testing.egg-info/top_level.txt
+my_package/__init__.py
+my_package/functions.py
+my_package/greet.py
