@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: possabilities
+Version: 0.69.1
+Summary: possibilities is a simple python framework to easily use sys.argv
+Home-page: https://github.com/Strawberry-Software-Industries/possibilities
+Author: Juliandev02, Emilthesleeper
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Strawberry-Software-Industries/possibilities/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# possibilities 
+**Difficulties using sys.argv? possibility helps you! By Strawberry Software**
+
+# What is possibilities?
+possibilities is a simple python framework to easily use sys.argv!
+
+# How can I install possibilities?
+-
+
+# How to use possibilities?
+```py
+from possibilities.main  import  add_possability, check, _Empty__  
+
+def print_help():    
+print("Help")
+
+def print_help_test():
+print("Help Test")
+
+def print_help_test_project():
+print("Help Test Project")
+    
+add_possability([[1,"help"],[2,_Empty__],print_help])
+add_possability([[1,"help"],[2,"test"],[3,_Empty__],print_help_test])
+add_possability([[1,"help"],[2,"test"],[3, "project"],print_help_test_project])
+    
+check(errorfunc=False)
+```
+
+
