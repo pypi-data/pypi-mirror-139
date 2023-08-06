@@ -1,0 +1,13 @@
+odoo8_addon_connector_generic-8.0.0.0.1-py3.8-nspkg.pth,sha256=byZRehCeET5bIG0AMyMXPLGoXAE887IW4f1j_Rh4alU,564
+odoo_addons/connector_generic/__init__.py,sha256=xQlWWuZXxEtzNtRElMKNXIigv9Fzr0I-XOCVUeQxEjE,67
+odoo_addons/connector_generic/__openerp__.py,sha256=znWJ7uQJ-BgnNvjIuOs5eF163o0ABfr4bKX_nqVVh0U,709
+odoo_addons/connector_generic/consumer.py,sha256=sCM8K2aLM3MtkiJEqpbfDKrWRemAk4oZs_7hBWxPWsM,3488
+odoo_addons/connector_generic/unit/__init__.py,sha256=kv0VEg-dCQmmdTUbgr1UZvgfrjqh6xnZRv37805dgBM,91
+odoo_addons/connector_generic/unit/deleter.py,sha256=AN0uHKO1cz0xvvSZjun3sIljuT6XLCGoLx1dw5FlOqw,710
+odoo_addons/connector_generic/unit/exporter.py,sha256=--Cl1mfVKDwwyg2bXEPnsqN6OoaKw-2BzwaQR-c1j6Q,12875
+odoo_addons/connector_generic/unit/mapper.py,sha256=Ce3wMB19yexZVBwrZuqEsXCzwV-p3nSD25S_SHW0GdM,486
+odoo8_addon_connector_generic-8.0.0.0.1.dist-info/METADATA,sha256=jUPGlg4hxwiGMJv_UQskdYVs6ZqNQ551_SJrmnzvlE8,501
+odoo8_addon_connector_generic-8.0.0.0.1.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+odoo8_addon_connector_generic-8.0.0.0.1.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_connector_generic-8.0.0.0.1.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_connector_generic-8.0.0.0.1.dist-info/RECORD,,
