@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zuper-testint-z7
+Version: 7.3.2202211922
+Summary: UNKNOWN
+Home-page: https://github.com/zupermind/zuper-testint
+Author: Andrea Censi
+Author-email: info@zupermind.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: networkx
+Requires-Dist: zuper-commons-z7
+Requires-Dist: zuper-html-plus-z7
+Requires-Dist: zuper-html-z7
+Requires-Dist: zuper-typing-z7
+Provides-Extra: test
+
+UNKNOWN
+
