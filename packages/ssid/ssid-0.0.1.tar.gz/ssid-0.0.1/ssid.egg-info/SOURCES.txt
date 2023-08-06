@@ -1,0 +1,6 @@
+ssid.py
+ssid.egg-info/PKG-INFO
+ssid.egg-info/SOURCES.txt
+ssid.egg-info/dependency_links.txt
+ssid.egg-info/requires.txt
+ssid.egg-info/top_level.txt
