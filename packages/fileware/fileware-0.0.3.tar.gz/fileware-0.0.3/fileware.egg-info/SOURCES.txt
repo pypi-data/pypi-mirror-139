@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fileserver/cert.py
+fileserver/env.py
+fileserver/models.py
+fileserver/ngrok_connector.py
+fileserver/server.py
+fileware.egg-info/PKG-INFO
+fileware.egg-info/SOURCES.txt
+fileware.egg-info/dependency_links.txt
+fileware.egg-info/requires.txt
+fileware.egg-info/top_level.txt
