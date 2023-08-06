@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Getvalues
+Version: 0.1.1
+Summary: In Python, it's easy to get the value of a key in JSON
+Home-page: https://github.ky/simple/
+Author: ZPH
+Author-email: puyihd@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+===================
+Getvalues
+===================
+在python中，轻松获取json中某个key的值。
+
+In Python, it's easy to get the value of a key in JSON
+
+- get属性
+ - a = {'a': 1,'b': {[{'c':2}]}}
+ - g = Getvalues.get('c', a)
+ - print(g)  // [2]
+
+
+author: puyihd@gmail.com
+

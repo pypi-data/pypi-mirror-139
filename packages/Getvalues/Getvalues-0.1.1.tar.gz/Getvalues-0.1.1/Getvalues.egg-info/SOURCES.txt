@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+Getvalues/__init__.py
+Getvalues/api.py
+Getvalues.egg-info/PKG-INFO
+Getvalues.egg-info/SOURCES.txt
+Getvalues.egg-info/dependency_links.txt
+Getvalues.egg-info/top_level.txt
