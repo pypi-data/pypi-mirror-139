@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "extrucal"
+version = "0.1.0"
+description = "Provides functions for calculating various parameters in extrusion processes"
+authors = ["John Lee"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.1"
+numpy = "^1.22.2"
+ipykernel = "^6.9.1"
+altair-saver = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+myst-nb = {version = "^0.13.2", python = "^3.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
