@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/plot2html/__init__.py
+src/plot2html/plot2html.py
+src/plot2html.egg-info/PKG-INFO
+src/plot2html.egg-info/SOURCES.txt
+src/plot2html.egg-info/dependency_links.txt
+src/plot2html.egg-info/top_level.txt
