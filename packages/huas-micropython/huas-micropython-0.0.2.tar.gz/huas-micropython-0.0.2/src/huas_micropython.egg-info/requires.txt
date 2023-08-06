@@ -1,0 +1,4 @@
+
+[all]
+adafruit-ampy
+esptool
