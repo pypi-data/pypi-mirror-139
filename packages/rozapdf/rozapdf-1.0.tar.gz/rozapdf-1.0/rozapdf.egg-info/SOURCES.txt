@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+rozapdf/__init__.py
+rozapdf/pdf2image.py
+rozapdf/pdf2text.py
+rozapdf.egg-info/PKG-INFO
+rozapdf.egg-info/SOURCES.txt
+rozapdf.egg-info/dependency_links.txt
+rozapdf.egg-info/top_level.txt
