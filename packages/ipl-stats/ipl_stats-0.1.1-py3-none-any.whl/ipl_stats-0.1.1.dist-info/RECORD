@@ -1,0 +1,16 @@
+ipl_stats/2008_2021_data_matches.csv,sha256=s-KtjUCTtc9aaKL6NLa8cS5Q_9DTC0nZr-vF-45RFD8,165281
+ipl_stats/2008_2021_updated_ball.csv,sha256=0I6U6Bce-YLcQ7BNncIhT63oM0vjnsCPEtLmRujlE0s,24597452
+ipl_stats/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ipl_stats/app.py,sha256=VHoGAK2j4qQ4PVzyI9lJ69J4dK0jbb0Z0YrFaiLgIqM,3022
+ipl_stats/deliveries.csv,sha256=0I6U6Bce-YLcQ7BNncIhT63oM0vjnsCPEtLmRujlE0s,24597452
+ipl_stats/matches.csv,sha256=2me_QHWZPSdOW-X_Ou5mnl2z8963PGDtw_XXKOWu-jk,164747
+ipl_stats/modules.py,sha256=w4vqohE-rqj57z-qZ0H-ETjPT8eG60nKViyhyJbeAuY,17902
+ipl_stats/runserver.py,sha256=j9rPjkl0RmZPokNKSGZusPabIJRbHmNi_0RaPAfkFpY,510
+ipl_stats/teammodules.py,sha256=U8MpuOgZYe2ODNZLxBcnoydogBGdJXQn2J_-a8IbgUY,2830
+ipl_stats/teamutils.py,sha256=Hkqc4SEJXdSnLNfN2qd0FuSrnj0GF9Jjci4kmHpFxG4,2929
+ipl_stats/utils.py,sha256=WNPlxmkS_yUU21qmg8vxlzNGbkxwVdNU_Qc7W7r7Cfo,14962
+ipl_stats-0.1.1.dist-info/entry_points.txt,sha256=DDGOYEHBfPC5d-frgp_wCjoQ_fA50iH2K6u3qHSqeQ0,54
+ipl_stats-0.1.1.dist-info/LICENSE,sha256=4Vuaqof-mOHPLSiCu3yxAGb9KBCLbCAE7GAD2_Yh3jY,1064
+ipl_stats-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ipl_stats-0.1.1.dist-info/METADATA,sha256=99bQwAHeqeIZ0QjPIoTYIRI9TnuOOdCoXn3qCd63llQ,734
+ipl_stats-0.1.1.dist-info/RECORD,,
