@@ -1,0 +1,111 @@
+default:
+  before_script:
+    - pip install --upgrade pip
+
+test37:
+  stage: test
+  image: python:3.7
+  script:
+    - pip install tox
+    - tox -e py37
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+test38:
+  stage: test
+  image: python:3.8
+  script:
+    - pip install tox
+    - tox -e py38
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+test39:
+  stage: test
+  image: python:3.9
+  script:
+    - pip install tox
+    - tox -e py39
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+test310:
+  stage: test
+  image: python:3.10
+  script:
+    - pip install tox
+    - tox -e py310
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+Upload to PyPI:
+  stage: deploy
+  image: python:3.10
+  script:
+    - pip install --upgrade flit
+    - flit publish
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^v/
+
+
+Bump Build Version:
+  stage: build
+  image: python:3.10
+  script:
+    - pip install --upgrade bump2version
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git remote set-url origin "https://gitlab-ci-token:${GITLAB_USER_TOKEN}@gitlab.com/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}.git"
+    - bump2version --verbose --dry-run build
+    - bump2version --verbose build
+    - git push --tags origin HEAD:${CI_COMMIT_REF_NAME}
+  when: manual
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+Bump Release Version:
+  stage: build
+  image: python:3.10
+  script:
+    - pip install --upgrade bump2version
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git remote set-url origin "https://gitlab-ci-token:${GITLAB_USER_TOKEN}@gitlab.com/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}.git"
+    - bump2version --verbose --dry-run release
+    - bump2version --verbose release
+    - git push --tags origin HEAD:${CI_COMMIT_REF_NAME}
+  when: manual
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+
+Bump Minor Version:
+  stage: build
+  image: python:3.10
+  script:
+    - pip install --upgrade bump2version
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git remote set-url origin "https://gitlab-ci-token:${GITLAB_USER_TOKEN}@gitlab.com/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}.git"
+    - bump2version --verbose --dry-run minor
+    - bump2version --verbose patch
+    - git push --tags origin HEAD:${CI_COMMIT_REF_NAME}
+  when: manual
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+
+Bump Major Version:
+  stage: build
+  image: python:3.10
+  script:
+    - pip install --upgrade bump2version
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git remote set-url origin "https://gitlab-ci-token:${GITLAB_USER_TOKEN}@gitlab.com/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}.git"
+    - bump2version --verbose --dry-run major
+    - bump2version --verbose patch
+    - git push --tags origin HEAD:${CI_COMMIT_REF_NAME}
+  when: manual
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

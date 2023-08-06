@@ -1,0 +1,8 @@
+*~
+dist
+.coverage
+.emacs.desktop
+.emacs.desktop.lock
+.guake.yml
+*.tox*
+*__pycache__*

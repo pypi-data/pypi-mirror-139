@@ -1,0 +1,35 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "tyko"
+authors = [{name = "Jorge Cardona", email = "jorge@cardona.co"}]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.7"
+dynamic = ["version", "description"]
+dependencies = [
+  "requests>=2.27"
+]
+
+[project.urls]
+Source = "https://gitlab.com/tyko-ai/tyko"
+Documentation = "https://tyko.readthedocs.io/en/latest"
+Issues = "https://gitlab.com/tyko-ai/tyko/-/issues"
+
+
+[project.optional-dependencies]
+test = [
+     "requests-mock"
+]
+docs = [
+    "mkdocs",
+    "mkdocstrings",
+    "pytkdocs[numpy-style]",
+    "mkdocs-include-markdown-plugin"
+]

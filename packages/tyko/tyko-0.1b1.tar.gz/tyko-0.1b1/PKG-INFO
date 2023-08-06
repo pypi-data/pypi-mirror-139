@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tyko
+Version: 0.1b1
+Summary: Tyko library.
+Author-email: Jorge Cardona <jorge@cardona.co>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests>=2.27
+Requires-Dist: mkdocs ; extra == "docs"
+Requires-Dist: mkdocstrings ; extra == "docs"
+Requires-Dist: pytkdocs[numpy-style] ; extra == "docs"
+Requires-Dist: mkdocs-include-markdown-plugin ; extra == "docs"
+Requires-Dist: requests-mock ; extra == "test"
+Project-URL: Documentation, https://tyko.readthedocs.io/en/latest
+Project-URL: Issues, https://gitlab.com/tyko-ai/tyko/-/issues
+Project-URL: Source, https://gitlab.com/tyko-ai/tyko
+Provides-Extra: docs
+Provides-Extra: test
+
+# Tyko
+
+## Installation
+
+Install via pypi
+
+```bash
+pip install tyko
+```
+
+## Examples
+
