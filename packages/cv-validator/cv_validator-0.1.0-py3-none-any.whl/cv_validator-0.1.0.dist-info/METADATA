@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: cv-validator
+Version: 0.1.0
+Summary: Tool for validating your computer vision data and model results.
+Home-page: https://github.com/ningeen/cv-validator
+License: MIT
+Author: Ruslan Sakaev
+Author-email: sakaevruslan@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipython (>=8.0.1,<9.0.0)
+Requires-Dist: ipywidgets (>=7.6.5,<8.0.0)
+Requires-Dist: numpy (>=1.22.1,<2.0.0)
+Requires-Dist: onnx (>=1.11.0,<2.0.0)
+Requires-Dist: onnxruntime (>=1.10.0,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.5,<5.0.0)
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: plotly (>=5.6.0,<6.0.0)
+Requires-Dist: px (>=0.1.0,<0.2.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Project-URL: Repository, https://github.com/ningeen/cv-validator
+Description-Content-Type: text/markdown
+
+[//]: # (<p align="center">)
+
+[//]: # (<a href="https://github.com/ningeen/ml-validator/actions?query=workflow%3ATest" target="_blank">)
+
+[//]: # (    <img src="https://github.com/ningeen/ml-validator/workflows/Test/badge.svg" alt="Test">)
+
+[//]: # (</a>)
+
+[//]: # (<a href="https://github.com/ningeen/ml-validator/actions?query=workflow%3APublish" target="_blank">)
+
+[//]: # (    <img src="https://github.com/ningeen/ml-validator/workflows/Publish/badge.svg" alt="Publish">)
+
+[//]: # (</a>)
+
+[//]: # (<a href="https://codecov.io/gh/ningeen/ml-validator" target="_blank">)
+
+[//]: # (    <img src="https://img.shields.io/codecov/c/github/ningeen/ml-validator?color=%2334D058" alt="Coverage">)
+
+[//]: # (</a>)
+
+[//]: # (<a href="https://pypi.org/project/cv-validator" target="_blank">)
+
+[//]: # (    <img src="https://img.shields.io/pypi/v/typer?color=%2334D058&label=pypi%20package" alt="Package version">)
+
+[//]: # (</a>)
+
+[//]: # (</p>)
+
+# CV validator
+Library to validate computer vision data and models.
+
