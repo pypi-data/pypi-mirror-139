@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+2.16.14
+-------
+
+* fix app\_current for vivo
+* skip image test
+* update log
+* fix logger not init error
+* Update README.md
+* fix logger
+* update again
+* fix wrong github workflow path
+* fix last fix
+* try not to reinstall apk when atx-agent is not installed
