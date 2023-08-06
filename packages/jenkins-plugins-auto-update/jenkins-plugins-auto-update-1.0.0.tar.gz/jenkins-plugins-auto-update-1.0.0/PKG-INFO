@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: jenkins-plugins-auto-update
+Version: 1.0.0
+Summary: Updates Jenkins plugins with the magic of automation... and Selenium. 
+Home-page: https://github.com/ThePotatoCamera/JenkinsPluginsAutoUpdate
+Author: ThePotatoCamera
+Author-email: alex0xela@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ThePotatoCamera/JenkinsPluginsAutoUpdate/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Jenkins Auto Updater
+
+Using the magic of automation from Selenium and Python, this script will automatically update your Jenkins plugins[1].
+
+[1]At least most of them...
+
+## Requirements
+
+    - Python >= 3.7
+    - Firefox >= 91.5
+
+## Usage
+Just run the script with the following arguments.
+
+`python jenkinsautoupdater.py <jenkins URL> <username> <password> [auto restart jenkins]`
+
+**Example**:
+
+`python jenkinsautoupdater.py https://example.org admin AS3cur3P@$$w0rd! true`
+
+**Note**: If you execute the command with true at the end, Jenkins will auto-restart after downloading the updates.
+Default behaviour is to not restart Jenkins.
+
+## Caveats
+Sometimes the script will not select some checkboxes, but at least will click most of them.
+It's up to you if you want to click the last ones or retry. If you want to fix this behaviour, you're welcome to do so.
+
+
