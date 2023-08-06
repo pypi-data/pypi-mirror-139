@@ -1,0 +1,9 @@
+README.md
+setup.py
+diskloaf/loaf.py
+diskloaf.egg-info/PKG-INFO
+diskloaf.egg-info/SOURCES.txt
+diskloaf.egg-info/dependency_links.txt
+diskloaf.egg-info/entry_points.txt
+diskloaf.egg-info/requires.txt
+diskloaf.egg-info/top_level.txt
