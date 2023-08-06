@@ -1,0 +1,14 @@
+<symbol id="icon-extraicons--large-list" viewbox="0 0 70 60">
+ <path d="M20 0h17v4H20zM20 7h49v3H20zM20 12h43v3H20z" fill="currentColor">
+ </path>
+ <circle cx="7" cy="7" fill="currentColor" r="7">
+ </circle>
+ <path d="M20 22h17v4H20zM20 29h49v3H20zM20 34h43v3H20z" fill="currentColor">
+ </path>
+ <circle cx="7" cy="29" fill="currentColor" r="7">
+ </circle>
+ <path d="M20 44h17v4H20zM20 51h49v3H20zM20 56h43v3H20z" fill="currentColor">
+ </path>
+ <circle cx="7" cy="51" fill="currentColor" r="7">
+ </circle>
+</symbol>
