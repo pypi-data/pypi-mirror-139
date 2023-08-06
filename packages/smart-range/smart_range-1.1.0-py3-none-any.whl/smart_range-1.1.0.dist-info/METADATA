@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: smart-range
+Version: 1.1.0
+Summary: A class to easily deal with ranges.
+Home-page: https://github.com/PythonCoderAS/SmartRange
+Author: PythonCoderAS
+Author-email: sarkaraoyan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+
+# SmartRange
+
+[![Documentation Status](https://readthedocs.org/projects/smartrange/badge/?version=latest)](https://smartrange.readthedocs.io/en/latest/?badge=latest)
+
+View docs at https://smartrange.readthedocs.io/en/latest/.
+
+
