@@ -1,0 +1,26 @@
+attrs
+cached-property
+click
+six
+packaging
+
+[:python_version < "3.5"]
+pathlib2
+
+[:python_version == "2.7"]
+backports.functools_lru_cache
+
+[dev]
+parver
+wheel>=0.33.4
+invoke
+twine
+lxml
+pre-commit
+towncrier
+
+[tests]
+pytest
+pytest-cov
+pytest-timeout
+coverage<5
