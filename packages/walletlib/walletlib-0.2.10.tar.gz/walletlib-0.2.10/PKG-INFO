@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: walletlib
+Version: 0.2.10
+Summary: Library for accessing cryptocurrency wallet files
+License: Unlicense
+Author: jim zhou
+Author-email: 43537315+jimtje@users.noreply.github.com
+Requires-Python: >=3.7
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: arrow (>=0.17.0,<0.18.0)
+Requires-Dist: base58 (>=2.1.0,<3.0.0)
+Requires-Dist: betterproto (>=1.2.5,<2.0.0)
+Requires-Dist: bsddb3 (>=6.2.9,<7.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: coincurve (>=15.0.1,<16.0.0)
+Requires-Dist: pycryptodome (>=3.9.9,<4.0.0)
