@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dmenu_bitwarden/__init__.py
+src/dmenu_bitwarden/__main__.py
+src/dmenu_bitwarden/cli.py
+src/dmenu_bitwarden/dmenu_bitwarden.py
+src/dmenu_bitwarden/setup.py
+src/dmenu_bitwarden/utils.py
+src/dmenu_bitwarden/vault.py
+src/dmenu_bitwarden.egg-info/PKG-INFO
+src/dmenu_bitwarden.egg-info/SOURCES.txt
+src/dmenu_bitwarden.egg-info/dependency_links.txt
+src/dmenu_bitwarden.egg-info/requires.txt
+src/dmenu_bitwarden.egg-info/top_level.txt
