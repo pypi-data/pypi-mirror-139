@@ -1,0 +1,9 @@
+cemake/__init__.py,sha256=bdlW2hx-O5dx_SgU6x25zo6BUcgo_KISNfaL3OpxQII,249
+cemake/cemake_build_ext.py,sha256=jD9Soap0ZHWOLOUH_EbxoLCH51sQNQml5dqB6DnF2Ro,4588
+cemake/cemake_extension.py,sha256=j4tvO5YS-SewFvUlWGBee06mZutBtgWIx3brvSl2efU,1765
+cemake-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+cemake-0.0.3.dist-info/METADATA,sha256=1rjoY7nayGG2py8uals5sXmn4qmclGDJa43565awCFo,4696
+cemake-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cemake-0.0.3.dist-info/entry_points.txt,sha256=LbZgT4Pm-CYYlc9SR4KSR323ZOwXikXdQXarmVN19-k,70
+cemake-0.0.3.dist-info/top_level.txt,sha256=2lF8gIdPnzuoBWZmHtQUIIXZpFHpx12-peVTCroCN3Y,7
+cemake-0.0.3.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[distutils.commands]
+cemake = cemake.cemake_build_ext:cmake_build_ext
