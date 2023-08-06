@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: MakeSens-API
+Version: 0.1.0
+Summary: MakeSense API
+Home-page: https://github.com/Ciencia-de-datos/API_Python/tree/main/MakeSensCloud-base
+Author: MakeSens Maximiliano G.Ch. DAPL
+Author-email: jose.salamancacoy@gmail.com
+License: GNU General Public License v3.0
+Description: Package for accesing the MakeSense API to get data from its devices. Meant for MakeSense users
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
