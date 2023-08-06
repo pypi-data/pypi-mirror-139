@@ -1,0 +1,21 @@
+{
+    "name" : "cagtm_fetch",
+    "label": "Fetch AUTM collection",
+
+    "dag": {
+        "nodes": {
+            "fetch"    : "fetch.download.CATM"
+        },
+        "edges": [
+        ]
+    },
+    "config" : {
+	    "steps": {
+            "fetch": {
+                "file_regex": ".*wpdmdl=.*&ind=.*"
+            }
+        }
+    }
+}
+
+

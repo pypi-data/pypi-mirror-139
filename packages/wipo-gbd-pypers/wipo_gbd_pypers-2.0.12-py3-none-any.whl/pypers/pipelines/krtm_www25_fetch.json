@@ -1,0 +1,112 @@
+{
+    "name" : "krtm_www25_fetch",
+    "label": "Fetch KRTM collection",
+
+    "dag": {
+        "nodes": {
+            "fetch"    : "fetch.download.SFTP",
+            "group"    : "fetch.common.GroupByMask",
+            "extract"  : "fetch.extract.kr.Trademarks",
+            "pxml"     : "process.ProcessXML",
+            "qc"       : "process.QualityCheck",
+            "pimg"     : "process.ProcessIMG",
+            "organize" : "fetch.common.Organize",
+            "merge"    : "fetch.common.Merge",
+            "clean"    : "fetch.common.Cleanup",
+            "notify"   : "fetch.common.Notify"
+        },
+
+        "edges": [
+             {
+                "from"     : "fetch",
+                "to"       : "group",
+                "bindings" : { "sort.input_files" : "fetch.output_files" }
+            },
+            {
+                "from"     : "group",
+                "to"       : "extract",
+                "bindings" : { "extract.archives" : "group.output_files" }
+            },
+            {
+                "from"     : "extract",
+                "to"       : "pxml",
+                "bindings" : { "pxml.data_files"  : "extract.data_files",
+                               "pxml.extraction_dir" : "extract.extraction_dir" }
+            },
+            {
+                "from"     : "extract",
+                "to"       : "pimg",
+                "bindings" : { "pimg.img_files"  : "extract.img_files",
+                               "pimg.extraction_dir"   : "extract.extraction_dir" }
+            },
+             {
+                "from"     : "extract",
+                "to"       : "qc",
+                "bindings" : { "qc.extraction_dir" : "extract.extraction_dir"}
+            },
+            {
+                "from"     : "pxml",
+                "to"       : "qc",
+                "bindings" : { "qc.data_files" : "pxml.data_files"}
+            },
+            {
+                "from"     : "extract",
+                "to"       : "organize",
+                "bindings" : { "organize.archives" : "extract.archives",
+                               "organize.extraction_dir" : "extract.extraction_dir" }
+            },
+            {
+                "from"     : "qc",
+                "to"       : "organize",
+                "bindings" : { "organize.data_files" : "qc.data_files" }
+            },
+            {
+                "from"     : "pimg",
+                "to"       : "organize",
+                "bindings" : { "organize.img_files" : "pimg.img_files" }
+            },
+            {
+                "from"     : "organize",
+                "to"       : "merge",
+                "bindings" : { "merge.appnums_per_archive" : "organize.appnums_per_archive" }
+            },
+            {
+                "from"     : "organize",
+                "to"       : "notify",
+                "bindings" : { "notify.appnums_per_archive" : "organize.appnums_per_archive" }
+            },
+            {
+                "from"     : "fetch",
+                "to"       : "clean",
+                "bindings" : { "clean.processed_list" : "fetch.output_files" }
+            },
+            {
+                "from"     : "extract",
+                "to"       : "clean",
+                "bindings" : { "clean.extracted_list" : "extract.data_files",
+                               "clean.archive_names" : "extract.archives" }
+            },
+            {
+                "from"     : "merge",
+                "to"       : "clean",
+                "bindings" : { "clean.processing_done" : "merge.merged_dir" }
+            },
+            {
+                "from"     : "clean",
+                "to"       : "notify",
+                "bindings" : { "notify.processed_list" : "clean.processed_list"}
+            }
+        ]
+    },
+    "config": {
+        "steps": {
+            "fetch": {
+                "file_regex": "\\d{4}-\\d{2}-\\d{2}-KR-DIFF.*\\.zip"
+            },
+            "group": {
+                "mask_input"  : "(\\d{4})-(\\d{2})-(\\d{2})-.*",
+                "mask_output" : "\\1-\\2-\\3"
+            }
+	    }
+    }
+}
