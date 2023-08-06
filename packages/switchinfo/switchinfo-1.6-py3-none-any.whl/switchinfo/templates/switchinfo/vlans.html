@@ -1,0 +1,9 @@
+{% extends 'switchinfo/base.html' %}
+{% load static %}
+{% block head %}
+    <link rel="stylesheet" href="{% static 'switchinfo/switchinfo_fancy.css' %}" type="text/css">
+{% endblock %}
+
+{% block content %}
+    {% include 'switchinfo/vlan_list.html' %}
+{% endblock %}

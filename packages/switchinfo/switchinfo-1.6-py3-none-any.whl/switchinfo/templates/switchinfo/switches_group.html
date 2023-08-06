@@ -1,0 +1,11 @@
+{% extends 'switchinfo/base.html' %}
+{% load static %}
+{% block head %}
+    <link rel="stylesheet" href="{% static 'switchinfo/switchinfo_fancy.css' %}" type="text/css">
+{% endblock %}
+{% block content %}
+    {% for group, switches in groups %}
+        <h2>{{ group|default:"No group" }}</h2>
+        {% include 'switchinfo/switch_list.html' %}
+    {% endfor %}
+{% endblock %}
