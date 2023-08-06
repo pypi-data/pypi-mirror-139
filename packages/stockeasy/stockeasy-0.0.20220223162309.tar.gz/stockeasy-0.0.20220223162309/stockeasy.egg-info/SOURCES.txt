@@ -1,0 +1,7 @@
+README.md
+setup.py
+stockeasy.egg-info/PKG-INFO
+stockeasy.egg-info/SOURCES.txt
+stockeasy.egg-info/dependency_links.txt
+stockeasy.egg-info/requires.txt
+stockeasy.egg-info/top_level.txt
