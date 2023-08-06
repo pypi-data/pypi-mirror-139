@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+JsoNomads.egg-info/PKG-INFO
+JsoNomads.egg-info/SOURCES.txt
+JsoNomads.egg-info/dependency_links.txt
+JsoNomads.egg-info/entry_points.txt
+JsoNomads.egg-info/requires.txt
+JsoNomads.egg-info/top_level.txt
+jsonomads/__init__.py
+jsonomads/jsonomads.py
