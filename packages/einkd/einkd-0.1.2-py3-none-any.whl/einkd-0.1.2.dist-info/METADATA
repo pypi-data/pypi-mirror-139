@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: einkd
+Version: 0.1.2
+Summary: A daemon and library for displaying images on e-ink displays.
+Home-page: https://github.com/trickeydan/einkd
+Author: Dan Trickey
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pillow (>=8.0.0)
+Provides-Extra: epdrpi
+Requires-Dist: RPi.GPIO ; extra == 'epdrpi'
+Requires-Dist: spidev ; extra == 'epdrpi'
+
+# einkd
+
+A daemon and library for displaying images on e-ink displays.
+
+## Supported Displays
+
+| Manufacturer | Model       | Colours     | Resolution | Support   |
+|--------------|-------------|-------------|------------|-----------|
+| Waveshare    | 2.13" (B)   | Red & Black | 212 x 104  | Supported |
+| Waveshare    | 7.5" HD (B) | Red & Black | 880 x 528  | Planned   |
+| Waveshare    | 7.5" HD     | Black       | 880 x 528  | Planned   |
+
+Displays usually require an SPI interface, for which the `spidev` module is used
+to control them using the standard kernel interfaces.
+
+Additionally, some displays may require additional GPIO pins to control them.
+
