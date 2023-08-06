@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: beenpwned
+Version: 0.1.1
+Summary: Check if you have been pwned
+Home-page: https://github.com/rangulvers/beenpwned
+Author: rangulvers
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rangulvers/beenpwned/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Python package](https://github.com/rangulvers/beenpwned/actions/workflows/python-package.yml/badge.svg)](https://github.com/rangulvers/beenpwned/actions/workflows/python-package.yml)
+[![Upload PyPi](https://github.com/rangulvers/beenpwned/actions/workflows/python-publish.yml/badge.svg)](https://github.com/rangulvers/beenpwned/actions/workflows/python-publish.yml)
+
+
+# beenpwned
+pwned is a small python script to check if a user account or password has been pwned and can be found in the [https://haveibeenpwned.com/](https://haveibeenpwned.com/) database.
+
+
+
