@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: classification_model
+Version: 0.0.1
+Summary: Classification model for animal activity recognition based on XGBoost
+Home-page: UNKNOWN
+Author: Rihab Feki
+Author-email: rihabfeki8@gmail.com
+License: BSD 2
+Description: Classification model for animal activity recognition based on XGBoost
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.5
+Description-Content-Type: text/markdown
