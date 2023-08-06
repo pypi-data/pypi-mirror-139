@@ -1,0 +1,10 @@
+setux/targets/__init__.py,sha256=xWSlVn2X2DFXiKDzV4rlgSm7Iqd6fyL0598AC_pLB64,111
+setux/targets/base.py,sha256=BLWee9LWpeXjlgw2xHxXmDrqARo44_xB-5Cbi3Piyws,839
+setux/targets/local.py,sha256=zUUpN4psGTKVEJXPu1ljz99mXwcn1WUVnSSg9J8kpv0,2516
+setux/targets/remote_tpl.py,sha256=GBuDYJ_puoH5rrwC3Mmnyo5leHrYlDDBGTURvaluejk,203
+setux/targets/ssh.py,sha256=MzR6GwnbIT7uIr-2_p-z5PfjII7qNDTxp4ZWUKng1hc,5192
+setux_targets-0.22.8.0.dist-info/LICENSE,sha256=0tNHXfCacj_eX-GwlIVtBc7i881BDBotZvM9QeCIUPY,1090
+setux_targets-0.22.8.0.dist-info/METADATA,sha256=9DMECCFRFIKhNTcjNB3dsLN2xVlmdHSJrvQDy3FFuVQ,1117
+setux_targets-0.22.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+setux_targets-0.22.8.0.dist-info/top_level.txt,sha256=kmCnG8Rj9-DTuv9TjsPUPItgUhXEAxy9VU24QddH_X4,6
+setux_targets-0.22.8.0.dist-info/RECORD,,
