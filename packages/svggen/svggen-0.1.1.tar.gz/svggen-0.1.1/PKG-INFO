@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: svggen
+Version: 0.1.1
+Summary: Basic svg generator dynamically
+Home-page: https://github.com/hasaser
+Author: Hasan Serdal Köksal
+Author-email: haserdal13@gmail.com
+License: MIT
+Download-URL: https://github.com/hasaser/svggen/archive/refs/tags/v0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: svg,generator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
