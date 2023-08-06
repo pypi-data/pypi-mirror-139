@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/perceptron_pyp_Jeffrylarkins.egg-info/PKG-INFO
+src/perceptron_pyp_Jeffrylarkins.egg-info/SOURCES.txt
+src/perceptron_pyp_Jeffrylarkins.egg-info/dependency_links.txt
+src/perceptron_pyp_Jeffrylarkins.egg-info/requires.txt
+src/perceptron_pyp_Jeffrylarkins.egg-info/top_level.txt

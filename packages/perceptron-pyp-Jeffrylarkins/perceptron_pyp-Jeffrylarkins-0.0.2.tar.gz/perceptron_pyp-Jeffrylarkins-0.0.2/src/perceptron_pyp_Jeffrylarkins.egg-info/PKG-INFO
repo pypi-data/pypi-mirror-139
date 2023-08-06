@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: perceptron-pyp-Jeffrylarkins
+Version: 0.0.2
+Summary: its an implimentation of Perceptron
+Home-page: https://github.com/Jeffrylarkins/perceptron_pyp
+Author: Jeffrylarkins
+Author-email: larkinsjeffry71@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Jeffrylarkins/perceptron_pyp/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# perceptron_pyp
+perceptron_pypi
+
+#REFRENCE-
+[Official python docs](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+[git hub docs for guithub actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
+
+[YAML CODES FOR CI/CD](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
