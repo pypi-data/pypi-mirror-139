@@ -1,0 +1,9 @@
+README.md
+setup.py
+objectinator/__init__.py
+objectinator/from_class.py
+objectinator/to_class.py
+objectinator.egg-info/PKG-INFO
+objectinator.egg-info/SOURCES.txt
+objectinator.egg-info/dependency_links.txt
+objectinator.egg-info/top_level.txt
