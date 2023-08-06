@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+csvdivider/__init__.py
+csvdivider/cli.py
+csvdivider/csv_divider.py
+csvdivider.egg-info/PKG-INFO
+csvdivider.egg-info/SOURCES.txt
+csvdivider.egg-info/dependency_links.txt
+csvdivider.egg-info/entry_points.txt
+csvdivider.egg-info/top_level.txt
