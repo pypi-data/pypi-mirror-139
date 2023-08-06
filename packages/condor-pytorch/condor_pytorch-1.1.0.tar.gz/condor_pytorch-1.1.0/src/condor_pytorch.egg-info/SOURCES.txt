@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/condor_pytorch/__init__.py
+src/condor_pytorch/activations.py
+src/condor_pytorch/dataset.py
+src/condor_pytorch/losses.py
+src/condor_pytorch/metrics.py
+src/condor_pytorch/version.py
+src/condor_pytorch.egg-info/PKG-INFO
+src/condor_pytorch.egg-info/SOURCES.txt
+src/condor_pytorch.egg-info/dependency_links.txt
+src/condor_pytorch.egg-info/top_level.txt
