@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pandas-jsonlines
+Version: 1.0
+Summary: A simple extention to read jsonlines files into pandas dataframes
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENCE.txt
+
+UNKNOWN
+

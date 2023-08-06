@@ -1,0 +1,10 @@
+pip>=9
+setuptools>=26
+twine
+numpy
+pandas
+black
+coverage
+flake8
+pytest
+yapf
