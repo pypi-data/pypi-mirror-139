@@ -1,0 +1,14 @@
+wigeon/__init__.py,sha256=8oAxKUG747GUokmxjkrWejyJa5yPNEsoJDlXxoedxTw,21
+wigeon/__main__.py,sha256=Bkj69bp-ItrNZ5ynelsclLid2RWhODeCM2O5IAt41-0,162
+wigeon/commands.py,sha256=PnHl6cvi8zvhqzNjHwZUpJ2KfDoRe4GzG7IqKJm9nX8,6760
+wigeon/db.py,sha256=Jw1L-oVO_4eqaD8BzxwDDJSDxyPMpRKpHWNhg5g89nQ,4289
+wigeon/dboperations.py,sha256=MsDrBEfJOXY3v0mfpMyL7XeaCwr3a4To7ZCkAo7Vhjg,1111
+wigeon/main.py,sha256=XZCC1ecM9QTjPxRLVNrmFnfv8fgHjdXEb8hyhhmeKhI,170
+wigeon/manifests.py,sha256=InUicIkjdC4900rXUfT3WMC5ebzDj76hD1vBuHX0gz8,378
+wigeon/packages.py,sha256=EWMljr1BZHHfnHHeH-rphs11ZT2vyDdf82FvwXgSfXA,8611
+wigeon-0.1.1.dist-info/LICENSE,sha256=ZEHtyaRC94Xh48yM943Hxn9UZ4qhCEUaLdLPtFlV9os,1456
+wigeon-0.1.1.dist-info/METADATA,sha256=mvXBRXRAerzpxJ58jnjGWXQ7MQSV6IOYfvtMDVAtIoY,5639
+wigeon-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wigeon-0.1.1.dist-info/entry_points.txt,sha256=VBAEWKX3ctzCD7n1o9VghIYQB6RSkrV6mgZQ191pad8,43
+wigeon-0.1.1.dist-info/top_level.txt,sha256=X1uXbHb1IjQP9Ps2TEpCmgEPplTXwgkHKYFs-QL83PA,7
+wigeon-0.1.1.dist-info/RECORD,,
