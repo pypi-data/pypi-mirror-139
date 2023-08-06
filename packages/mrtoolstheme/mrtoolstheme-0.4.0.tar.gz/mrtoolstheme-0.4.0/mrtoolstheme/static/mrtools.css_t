@@ -1,0 +1,586 @@
+/* -*- coding: utf-8; mode: css -*-
+/*
+ * This file's is a custom stylesheet.
+ * The original file's header is:
+ *
+ * sphinxdoc.css_t
+ * ~~~~~~~~~~~~~~~
+ *
+ * Sphinx stylesheet -- sphinxdoc theme.  Originally created by
+ * Armin Ronacher for Werkzeug.
+ *
+ * :copyright: Copyright 2007-2020 by the Sphinx team, see AUTHORS.
+ * :license: BSD, see LICENSE for details.
+ *
+ */
+
+@import url("basic.css");
+
+:root {
+    /* Polar Night */
+    --nord00: #2e3440;
+    --nord01: #3d4454;
+    --nord02: #4b5569;
+    --nord03: #5a667d;
+    /* Snow Storm */
+    --nord04: #d3d9e3;
+    --nord05: #dde2eb;
+    --nord06: #e6ebf2;
+    /* Frost */
+    --nord07: #8fbcbb;
+    --nord08: #88c0d0;
+    --nord09: #81a1c1;
+    --nord10: #5e81ac;
+    /* Aurora */
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+    --nord11rgb: 191,97,106;
+	--nord12rgb: 208,135,112;
+	--nord13rgb: 235,203,139;
+	--nord14rgb: 163,190,140;
+	--nord15rgb: 180,142,173
+}
+
+
+/* -- page layout ----------------------------------------------------------- */
+
+body {
+    font-family: {{ theme_body_font }};
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    background-color: var(--nord04); /* {{ theme_body_background_color }}; */
+    color: var(--nord00); /* {{ theme_body_font_color }}; */
+    padding: 0;
+    border: 1px solid var(--nord03); /* {{ theme_body_border_color }}; */
+    /*
+    margin: 0px 80px 0px 80px;
+    */
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1300px;
+}
+
+/* ---- pageheader ----------------------------------------------------------- */
+.pageheader {
+    background-color: var(--nord07); /* {{ theme_header_background_color }}; */
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.pageheader ul {
+    float: right;
+    /* color: white; */
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.pageheader li {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.pageheader li a {
+    border-radius: 1px;
+    padding: 8px 12px;
+    color: var(--nord00);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.pageheader li a:hover {
+    background-color: #f9f9f0;
+    color: #0a507a;
+    text-shadow: none;
+}
+
+div.related {
+    background-color: var(--nord08); /* {{ theme_related_background_color }}; */
+    font-size: 1em;
+    color: var(--nord03);
+}
+
+div.related ul {
+    height: 2em;
+    border-top: 1px solid var(--nord10); /* {{ theme_related_border_color }}; */
+    border-bottom: 1px solid var(--nord10); /* {{ theme_related_border_color }}; */
+}
+
+div.related ul li {
+    margin: 0;
+    padding: 0;
+    height: 2em;
+    float: left;
+}
+
+div.related ul li.right {
+    float: right;
+    margin-right: 5px;
+}
+
+div.related ul li a {
+    margin: 0;
+    padding: 0 5px 0 5px;
+    line-height: 1.75em;
+    color: var(--nord02);
+}
+
+div.related ul li a:hover {
+    color: var(--nord00);
+}
+
+/* ---- sphinx side bar ------------------------------------------------------ */
+div.sphinxsidebarwrapper {
+    padding: 0;
+}
+
+div.sphinxsidebar {
+    padding: 0.5em 15px 15px 0;
+    width: calc({{ theme_sidebarwidth|todim }} - 20px);
+    float: right;
+    font-size: 1em;
+    text-align: left;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    margin: 1em 0 0.5em 0;
+    font-size: 1em;
+    padding: 0.1em 0 0.1em 0.5em;
+    color: var(--nord06); /* {{ theme_sidebar_h_font_color }}; */
+    border: 1px solid var(--nord03); /* {{ theme_sidebar_h_border_color }}; */
+    background-color: var(--nord10); /* {{ theme_sidebar_h_background_color }}; */
+}
+
+div.sphinxsidebar h3 a {
+    color: var(--nord06); /* {{ theme_sidebar_h_font_color }}; */
+}
+
+div.sphinxsidebar ul {
+    padding-left: 1.5em;
+    margin-top: 7px;
+    padding: 0;
+    line-height: 130%;
+}
+
+div.sphinxsidebar ul ul {
+    margin-left: 20px;
+}
+
+/* ---- footer --------------------------------------------------------------- */
+
+div.footer {
+    background-color: var(--nord08); /* {{ theme_footer_background_color }}; */
+    color: var(--nord10); /* {{ theme_footer_font_color }}; */
+    padding: 3px 8px 3px 0;
+    clear: both;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+div.footer a {
+    color: var(--nord10);
+    text-decoration: underline;
+}
+
+/* -- body styles ----------------------------------------------------------- */
+
+div.document {
+    background-color: var(--nord06); /* {{ theme_document_background_color }}; */
+    text-align: left;
+}
+
+div.documentwrapper {
+    float: left;
+    width: 100%;
+}
+
+div.bodywrapper {
+    margin: 0 calc({{ theme_sidebarwidth|todim }} + 10px) 0 0;
+    border-right: 1px solid #ccc;
+}
+
+div.body {
+    margin: 0;
+    padding: 0.5em 20px 20px 20px;
+    min-width: 450px;
+    max-width: 1000px;
+}
+
+p {
+    margin: 0.8em 0 0.5em 0;
+}
+
+a {
+    color: var(--nord10);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--nord08);
+}
+
+div.body a {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.7em 0 0.3em 0;
+    font-size: 1.5em;
+    color: var(--nord11); /* {{ theme_document_h_font_color }}; */
+}
+
+h2 {
+    margin: 1.3em 0 0.2em 0;
+    font-size: 1.35em;
+    padding: 0;
+    color: var(--nord11); /* {{ theme_document_h_font_color }}; */
+}
+
+h3 {
+    margin: 1em 0 -0.3em 0;
+    font-size: 1.2em;
+    color: var(--nord11); /* {{ theme_document_h_font_color }}; */
+}
+
+div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
+    /* color: black!important; */
+}
+
+h1 a.anchor, h2 a.anchor, h3 a.anchor, h4 a.anchor, h5 a.anchor, h6 a.anchor {
+    display: none;
+    margin: 0 0 0 0.3em;
+    padding: 0 0.2em 0 0.2em;
+    color: #aaa!important;
+}
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor,
+h5:hover a.anchor, h6:hover a.anchor {
+    display: inline;
+}
+
+h1 a.anchor:hover, h2 a.anchor:hover, h3 a.anchor:hover, h4 a.anchor:hover,
+h5 a.anchor:hover, h6 a.anchor:hover {
+    color: #777;
+    background-color: #eee;
+}
+
+a.headerlink {
+    color: var(--nord12)!important;
+    font-size: 1em;
+    margin-left: 6px;
+    padding: 0 4px 0 4px;
+    text-decoration: none!important;
+}
+
+a.headerlink:hover {
+    background-color: var(--nord04);
+    color: var(--nord12)!important;
+}
+
+cite, code {
+    font-family: {{ theme_code_font }};
+    /* font-size: 0.95em; */
+    letter-spacing: 0.05em;
+}
+
+code {
+    background-color: var(--nord05);
+    border-bottom: 1px solid var(--nord04);
+    color: var(--nord03);
+}
+
+code.descname, code.descclassname, code.xref {
+    border: 0;
+}
+
+hr {
+    border: 2px solid var(--nord04);
+    margin: 2em;
+}
+
+a code {
+    border: 0;
+    color: #CA7900;
+}
+
+a code:hover {
+    color: #2491CF;
+}
+
+pre {
+    font-family: {{ theme_code_font }};
+    /* font-size: 0.95em; */
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    padding: 0.5em;
+    /* border: 1px solid var(--nord04); */
+    color: var(--nord06);
+    background-color: var(--nord01);
+}
+
+pre a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+td.linenos pre {
+    padding: 0.5em 0;
+}
+
+span.linenos pre {
+    font-size: 85%;
+}
+
+div.quotebar {
+    background-color: #f8f8f8;
+    max-width: 250px;
+    float: right;
+    padding: 2px 7px;
+    border: 1px solid #ccc;
+}
+
+div.topic {
+    background-color: #f8f8f8;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 -0.5em 0 -0.5em;
+}
+
+table.docutils tr:first-child {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: var(--nord02);
+}
+
+table.docutils tr:last-child td, table.docutils tr:last-child th {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--nord02);
+}
+
+table td, table th {
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+div.admonition {
+    font-size: 0.9em;
+    margin: 1em 0 1em 0;
+    border: 1px solid var(--nord03);
+    background-color: var(--nord04);
+    padding: 0;
+}
+
+div.admonition p {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0;
+}
+
+div.admonition pre,
+div.admonition dl,
+div.admonition .highlight {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0;
+}
+
+div.admonition p.admonition-title {
+    margin: 0;
+    padding: 0.1em 0 0.1em 0.5em;
+    color: var(--nord06);
+    border-bottom: 1px solid var(--nord03);
+    font-weight: bold;
+    background-color: var(--nord10); /* #AFC1C4; */
+}
+
+div.admonition > :last-child {
+    margin-bottom: 0.25em;
+}
+
+div.admonition > div.admonition {
+    margin: 0.5em;
+    font-size: 1em;
+}
+
+div.danger > p.admonition-title,
+div.error > p.admonition-title {
+    background-color: var(--nord11);
+}
+
+div.warning > p.admonition-title {
+    background-color: var(--nord12);
+}
+
+div.attention > p.admonition-title,
+div.caution > p.admonition-title,
+div.important > p.admonition-title {
+    background-color: var(--nord13);
+    color: var(--nord02);
+}
+
+div.note > p.admonition-title {
+    background-color: var(--nord14);
+}
+
+div.hint > p.admonition-title,
+div.tip > p.admonition-title {
+    background-color: var(--nord15);
+}
+
+div.admonition ul, div.admonition ol {
+    margin: 0.1em 0.5em 0.5em 3em;
+    padding: 0;
+}
+
+div.versioninfo {
+    margin: 1em 0 0 0;
+    border: 1px solid #ccc;
+    background-color: #DDEAF0;
+    padding: 8px;
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
+
+div.deprecated{
+    border: 1px solid var(--nord11);
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+div.versionadded{
+    border: 1px solid var(--nord14);
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+div.versionchanged{
+    border: 1px solid var(--nord12);
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+div.deprecated > p, div.versionadded > p, div.versionchanged > p {
+    margin: 0px;
+}
+
+.viewcode-back {
+    font-family: {{ theme_body_font }};
+}
+
+div.viewcode-block:target {
+    background-color: var(--nord03);
+    border-top: 1px solid var(--nord02);
+    border-bottom: 1px solid var(--nord02);
+}
+
+div.admonition div.literal-block-wrapper {
+    margin-top: 1em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+}
+
+div.code-block-caption {
+    background-color: var(--nord03);
+    border: 1px solid var(--nord03);
+    font-size: unset;
+}
+
+div.code-block-caption span.caption-text {
+    color: var(--nord06);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+div.code-block-caption code {
+    font: inherit;
+    color: var(--nord06);
+}
+
+div.code-block-caption span.pre {
+    font: inherit;
+}
+
+div.code-block-caption strong {
+    background-color: var(--nord02);
+    padding-left: 0.2em;
+    margin-left: -0.2em;
+    padding-right: 0.2em;
+    margin-right: -0.2em;
+}
+
+div.code-block-caption sup, div.code-block-caption sub {
+    letter-spacing: 0.05em;
+}
+
+
+aside.sidebar {
+    margin: 10px 0 10px 1em;
+}
+
+/* div.topic::after {
+    content: text;
+} */
+
+.sig {
+    background-color: var(--nord04);
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+dl.py.class > dt.sig {
+    border-top-style: solid;
+    border-top-width: 3px; 
+    border-top-color: var(--nord10);
+}
+
+dl.py.method > dt.sig {
+    border-left-style: solid;
+    border-left-width: 4px; 
+    border-left-color: var(--nord09);
+}
+
+dl.py.attribute > dt.sig {
+    border-left-style: solid;
+    border-left-width: 4px; 
+    border-left-color: var(--nord08);
+}
+
+dl.py.property > dt.sig {
+    border-left-style: solid;
+    border-left-width: 4px; 
+    border-left-color: var(--nord07);
+}
+
+dl.py.exception > dt.sig {
+    border-top-style: solid;
+    border-top-width: 3px; 
+    border-top-color: var(--nord11);
+}
+
+dl.py.function > dt.sig {
+    border-top-style: solid;
+    border-top-width: 3px; 
+    border-top-color: var(--nord14);
+}
+
+dl.py.data > dt.sig {
+    border-top-style: solid;
+    border-top-width: 3px; 
+    border-top-color: var(--nord15);
+}
+
+.highlight {
+    border: 1px solid var(--nord03);
+}

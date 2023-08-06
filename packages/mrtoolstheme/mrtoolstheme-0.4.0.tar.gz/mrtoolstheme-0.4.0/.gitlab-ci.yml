@@ -1,0 +1,37 @@
+image: "python:3.9"
+
+before_script:
+  - python --version
+  - python3 -m venv venv
+  - source venv/bin/activate
+  - pip install -r requirements-dev.txt
+  - pip install .
+
+stages:
+  - Static Analysis
+  - Test
+  - deploy  
+
+flake8:
+  stage: Static Analysis
+  script:
+  - flake8
+
+pylint:
+  stage: Static Analysis
+  allow_failure: true
+  script:
+  - pylint mrtoolstheme/*.py
+
+pages:
+  stage: deploy
+  script:
+  - cd docs
+  - sphinx-build -b html . public
+  - mv public ../
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+  - develop

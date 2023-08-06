@@ -1,0 +1,5 @@
+Sphinx>=4.4.0
+docutils>=0.17.1
+
+[:python_version < "3.8"]
+importlib-metadata
