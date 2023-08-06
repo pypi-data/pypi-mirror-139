@@ -1,0 +1,10 @@
+flows_get_brightest/__init__.py,sha256=UASBqEC43G7TZy1fRyuQLoxhTmqRlPlmTGOOySf-Xhg,326
+flows_get_brightest/catalogs.py,sha256=XGk9I4FGflRnCmU2hL9d0Y4AHxh7RHsHGhR2jsNqVAw,3257
+flows_get_brightest/plots.py,sha256=ynWN1vbfICyZsotcUZYVvlPnkJBkRiYxACHZH8TiHus,8094
+flows_get_brightest/run_get_brightest.py,sha256=hY5GHiOxyYrnVyOxiPWN5iZwoTK3mS0Ya-zeKD3POJ4,12732
+flows_get_brightest/version.py,sha256=hy8QbZHKedqQeQBqR84Fo6iMJAalwA9rzxrUyTW6CRg,39
+flows_get_brightest-1.0.1.dist-info/entry_points.txt,sha256=zvAT3R8dNbGLp37VZjrMMov818vjmtoUrK0trle9KVw,58
+flows_get_brightest-1.0.1.dist-info/LICENSE,sha256=xOMG9pI8zFZfZ3FtLbi-oIeVmajPWFXAVlsSHSu-q9U,1061
+flows_get_brightest-1.0.1.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+flows_get_brightest-1.0.1.dist-info/METADATA,sha256=9xQamDycGmFjXnQ8inzdYeuVyr3U-9sJaWbWJ0JEutI,946
+flows_get_brightest-1.0.1.dist-info/RECORD,,
