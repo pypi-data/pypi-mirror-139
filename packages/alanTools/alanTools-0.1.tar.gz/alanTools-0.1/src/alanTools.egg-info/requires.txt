@@ -1,0 +1,5 @@
+platform
+os
+qrcode
+random
+requests

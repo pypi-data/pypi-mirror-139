@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/alanTools.egg-info/PKG-INFO
+src/alanTools.egg-info/SOURCES.txt
+src/alanTools.egg-info/dependency_links.txt
+src/alanTools.egg-info/requires.txt
+src/alanTools.egg-info/top_level.txt
