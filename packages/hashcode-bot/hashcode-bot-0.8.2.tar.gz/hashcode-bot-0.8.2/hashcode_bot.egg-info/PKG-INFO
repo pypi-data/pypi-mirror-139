@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hashcode-bot
+Version: 0.8.2
+Summary: Utilities to rule Google HashCodes
+Home-page: https://github.com/GaretJax/hashcode-bot
+Author: Jonathan Stoppani
+Author-email: jonathan@stoppani.name
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
