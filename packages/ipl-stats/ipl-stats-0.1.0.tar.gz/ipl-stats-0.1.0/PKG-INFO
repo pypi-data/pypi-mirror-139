@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ipl-stats
+Version: 0.1.0
+Summary: 
+Author: naveengct
+Author-email: naveenrajesh2222@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: altair (>=4.2.0,<5.0.0)
+Requires-Dist: chart-studio (>=1.1.0,<2.0.0)
+Requires-Dist: cufflinks (>=0.17.3,<0.18.0)
+Requires-Dist: importlib-resources (>=5.4.0,<6.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: plotly (>=5.6.0,<6.0.0)
+Requires-Dist: seaborn (>=0.11.2,<0.12.0)
+Requires-Dist: streamlit (>=1.5.1,<2.0.0)
