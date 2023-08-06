@@ -1,0 +1,3 @@
+[console_scripts]
+ctprint=ctprint:main
+
