@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: freqtools
+Version: 0.1.0
+Summary: Tools for phase and frequency data
+Home-page: https://github.com/bleykauf/lab_data_logger
+Author: Bastian Leykauf
+Author-email: leykauf@physik.hu-berlin.de
+Maintainer: Bastian Leykauf
+Maintainer-email: leykauf@physik.hu-berlin.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: allantools
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# Tools for phase and frequency data
+
+## Installation
+
+```
+git clone https://github.com/bleykauf/freqtools
+cd freqtools
+pip install -e .
+```
+
+The option `-e` installs `freqtools` in editable mode, i.e. changes made to the files
+will automatically be applied.
+
+## Features
+
+The main feature are simple conversion between power and amplitude spectral densities as shown in this diagram.
+
+![svg](./docs/representations.svg)
+
+The other features are shown in the Example section below.
+
+## Examples
+
+An example notebook can be found [here](examples/Examples.ipynb).
+
+
