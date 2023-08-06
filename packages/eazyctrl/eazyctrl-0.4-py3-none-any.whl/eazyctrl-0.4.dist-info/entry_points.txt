@@ -1,0 +1,2 @@
+[console_scripts]
+eazyctrl = eazyctrl:run_eazyctrl
