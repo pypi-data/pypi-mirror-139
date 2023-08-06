@@ -1,0 +1,11 @@
+dynacli/__init__.py,sha256=yGJjsc9iv2SuSfW_JjNzKa5mtt6wlnBdE9aI0C5K3sY,106
+dynacli/dynacli.py,sha256=86_athTybtSzWF7z7wn9X13zR8HXJsqSAVm0TUk8mqk,25566
+dynacli/bootstrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynacli/bootstrap/_cli.py,sha256=KxO8DRZR9EzlgbMVF2YTFcqiUSva9Lb_jAnd7O1eUa4,328
+dynacli/bootstrap/_sample_cli,sha256=TDNrcZhSbNYFs1TXnjmlN7b8xE6a12Dwoj-9Tk0Z2Zw,590
+dynacli/bootstrap/init.py,sha256=N3gsT3vum0ybaD62EX_jP4SGofcj-1rd39Yz2ho1nMY,777
+dynacli-1.0.5.dist-info/entry_points.txt,sha256=xx5fAYfTcSP2j3XX3DmIc36hJddFJh25ZW_sQXXCf-A,55
+dynacli-1.0.5.dist-info/LICENSE.md,sha256=o0D9eegv8F0H6SXnk1npNmB8lTaNpnSoqS6C668Yvd8,1069
+dynacli-1.0.5.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+dynacli-1.0.5.dist-info/METADATA,sha256=9w4UbgDQ19oYDFKWtVH6rJGDkxHBpV1qqvqUbPcgUjk,5476
+dynacli-1.0.5.dist-info/RECORD,,
