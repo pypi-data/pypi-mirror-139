@@ -1,0 +1,10 @@
+terseparse/__init__.py,sha256=blRxnvXY-jNFTrLxTMxaVSA6f6j0KVs5YyX1Q97ywxI,334
+terseparse/builders.py,sha256=bHDQPjnyF5TSOFkdA658uV51KrnUXVQX0QJTi_daNKE,7840
+terseparse/root_parser.py,sha256=II1tAqIZKobSnXO5L29V4y2sgmIF_IJD_EwuMYBZW6g,5122
+terseparse/types.py,sha256=TdJcsvARffujPlXRZHnJD97zMXq_jwjw9hn_map3udE,11532
+terseparse/utils.py,sha256=JKX_A7SCeJ1dHfXJ91wiilf30l97WuXHaM_wXj-OriY,953
+terseparse/version.py,sha256=F5mW07pSyGrqDNY2Ehr-UpDzpBtN-FsYU0QGZWf6PJE,22
+terseparse-1.3.0.dist-info/METADATA,sha256=N5G_1BScFk-1wKbIw5HlMzKnuhhzz5rLOaaijKK_Jng,535
+terseparse-1.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+terseparse-1.3.0.dist-info/top_level.txt,sha256=igISZ6DEEmSUQza6xShqQab7XE5qWUfL7LfznipEYZI,11
+terseparse-1.3.0.dist-info/RECORD,,
