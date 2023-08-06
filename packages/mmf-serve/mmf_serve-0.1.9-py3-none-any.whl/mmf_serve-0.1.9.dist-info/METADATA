@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mmf-serve
+Version: 0.1.9
+Summary: Часть проекта MMF отвечающая за serving
+Author: Викторов Андрей Германович
+Author-email: andvikt@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: aio-pika
+Provides-Extra: fastapi
+Provides-Extra: python-multipart
+Requires-Dist: PyTurboJPEG (>=1,<2)
+Requires-Dist: aio-pika (>=6,<7)
+Requires-Dist: aiofile (>=3,<4)
+Requires-Dist: cryptography (>=36)
+Requires-Dist: fastapi (>=0.64,<1.0); extra == "fastapi" or extra == "python-multipart"
+Requires-Dist: mmf-meta[all] (>=0.1.13,<0.2.0)
+Requires-Dist: orjson (>=3,<4)
+Requires-Dist: pydantic[dotenv] (>=1.9,<2.0)
+Requires-Dist: python-multipart (>=0.0.5,<0.0.6)
+Requires-Dist: requests (>=2,<3)
+Description-Content-Type: text/markdown
+
+# MMF-meta
+Эта библиотека - часть проекта Model Management Framework.
+
+Отвечает за serving
+
+### Пример использования
+```shell
+mmfserve serve-rabbit
+```
+
+Конфигурация
+```dotenv
+RABBIT__USER=core
+RABBIT__PASSWORD=somesecret
+RABBIT__HOST=localhost
+EXCHANGE_NAME=test_exchange
+QUEUE_NAME=test_queue
+MAIN_SCRIPT=main.py
+```
+[Подробная документация](https://mm-framework.github.io/docs/)
+
