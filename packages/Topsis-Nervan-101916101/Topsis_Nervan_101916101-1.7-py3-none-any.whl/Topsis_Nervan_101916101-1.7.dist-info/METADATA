@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: Topsis-Nervan-101916101
+Version: 1.7
+Summary: Topsis
+Home-page: UNKNOWN
+Author: Nervan
+Author-email: ngera_be19@thapar.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# Topsis Description
+
+Following python package will help you to use Topsis. It is the Technique for Order of Preference by Similarity to Ideal 
+# Usage
+
+__Step 1:__ Install the topsis package using the following commmand. (pip install Topsis-Nervan-101916101)
+
+__Step 2:__ Import the package using the commmand. (tp=\_\_import__("Topsis-Nervan-101916101"))
+
+__Step 3:__ Call the Topsis function to generate the csv file.
+
+
+1st parameter => input dataframe
+2nd parameter =>  weights 
+3rd parameter => impacts 
+4th parameter => name of output csv file. For eg:
+
+tp.topsis('101916101-data.csv',"1,1,1,1,1","+,+,+,+,+","result.csv")
+
+This command will generate a csv file named result.csv.
+
+# Constraints
+
+1) length of Weights and Impacts should be same
+2) Weights must be commas seperated and in the form of a string.
+3) Impacts must be commas seperated and in the form of a string. 
+4) Don't forget to put .csv extension otherwise it will throw an error
+5) Impacts having only positive and negative sign.
+
