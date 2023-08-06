@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+timespent.py
+git_timespent.egg-info/PKG-INFO
+git_timespent.egg-info/SOURCES.txt
+git_timespent.egg-info/dependency_links.txt
+git_timespent.egg-info/top_level.txt
