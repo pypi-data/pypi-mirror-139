@@ -1,0 +1,6 @@
+spacy>=3
+
+[dev]
+pre-commit
+isort
+black

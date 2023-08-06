@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+spacy_och/lookups/__init__.py
+spacy_och/spacy_och.egg-info/PKG-INFO
+spacy_och/spacy_och.egg-info/SOURCES.txt
+spacy_och/spacy_och.egg-info/dependency_links.txt
+spacy_och/spacy_och.egg-info/entry_points.txt
+spacy_och/spacy_och.egg-info/requires.txt
+spacy_och/spacy_och.egg-info/top_level.txt
