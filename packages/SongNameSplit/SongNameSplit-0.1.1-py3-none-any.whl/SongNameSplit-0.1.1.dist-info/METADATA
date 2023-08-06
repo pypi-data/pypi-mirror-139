@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: SongNameSplit
+Version: 0.1.1
+Summary: Seperate the song and artist name from a song title
+Author: Archit Tandon
+Author-email: archittandon26@gmail.com
+License: UNKNOWN
+Keywords: python,song,artist name,song name
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: google
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+
+## SongNameSplit
+
+The SongNameSplit library can attempt to take a song title and identify the song name and artist name. The input is a string and the output would be a dictionary.
+
+
+
+### Sample Input and Output
+
+Input:
+
+```
+
+"Coldplay - Hymn For The Weekend (Official Video)"
+
+```
+
+Output:
+
+```
+
+{'artist': 'Coldplay', 'songname': 'Hymn For The Weekend'}
+
+```
+
+### Installation
+
+SongNameSplit can be installed using the following pip code. Please note that the SongNameSplit library is internet-dependent, so a stable internet connection is essential.
+
+
+
+```
+
+pip install SongNameSplit
+
+```
+
+### Import
+
+SongNameSplit can be imported using the following code:
+
+
+
+```
+
+import SongNameSplit
+
+```
+
+### Usage
+
+SongNameSplit can be used as:
+
+```
+
+SongNameSplit.namesplit("<< SONG TITLE >>")
+
+```
+
+Replace the "<< SONG TITLE >>" with your song title.
+
+
+
+### Sample Code
+
+
+
+
+
+```
+
+import SongNameSplit
+
+
+
+result = SongNameSplit.namesplit("Coldplay - Hymn For The Weekend (Official Video)")
+
+
+
+print("The name of the song is: ", result['songname'])
+
+print("The name of the sartist is: ", result['artist'])
+
+```
+
+### Credit
+
+Archit Tandon.
+
