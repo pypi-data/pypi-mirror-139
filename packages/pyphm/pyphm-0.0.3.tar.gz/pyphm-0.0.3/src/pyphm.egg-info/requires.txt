@@ -1,0 +1,9 @@
+pandas
+scipy
+numpy
+py7zr
+rarfile
+tqdm
+requests
+versioned-hdf5
+h5py
