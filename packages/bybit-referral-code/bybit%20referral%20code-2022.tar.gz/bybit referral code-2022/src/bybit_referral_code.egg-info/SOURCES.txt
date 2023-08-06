@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/bybit_referral_code.egg-info/PKG-INFO
+src/bybit_referral_code.egg-info/SOURCES.txt
+src/bybit_referral_code.egg-info/dependency_links.txt
+src/bybit_referral_code.egg-info/top_level.txt
