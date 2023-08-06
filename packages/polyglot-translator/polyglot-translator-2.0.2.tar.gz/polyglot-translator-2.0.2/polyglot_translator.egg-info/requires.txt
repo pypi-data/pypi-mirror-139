@@ -1,0 +1,4 @@
+colorama
+polib
+progressbar2
+requests
