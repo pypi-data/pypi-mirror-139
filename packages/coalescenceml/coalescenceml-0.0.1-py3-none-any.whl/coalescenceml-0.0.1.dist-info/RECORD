@@ -1,0 +1,12 @@
+README.md,sha256=B6owiwzjolPkTQrb_Xv7cIrb3Cn-c_2TYlSU2SKC_yM,845
+coalescenceml/__init__.py,sha256=0o5Zv62b6LBZJU9MBh2kUEtcj0MxDJAQhp_a2dRRBgk,78
+coalescenceml/cli/__init__.py,sha256=kcNPxYyx7_En8yvh1Up2_0gxiWFvd7InJ2FGElpeuf8,260
+coalescenceml/cli/cli.py,sha256=_wUX6bH2ZlwAD6IZhSFyOHeGWsP7j983N_rgUD4VWKA,266
+coalescenceml/cli/utils.py,sha256=ThX-TXkuj4QMSLTrkX0Iui6i4NTUL2g925ZuINMp5z8,1884
+coalescenceml/cli/version.py,sha256=R3sONk_ANcGDxx0aBIW09HXyXhFhehhIT4yf31daUvE,2177
+coalescenceml/logger.py,sha256=_qildPF_4wuzsuzX01il9374uB2d2AWzPkRYJ9-P-KE,338
+coalescenceml-0.0.1.dist-info/entry_points.txt,sha256=SS-2GlsYEbJyq-BhiC-0kHzqqTdnGtpEob3InHLVHU4,50
+coalescenceml-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+coalescenceml-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+coalescenceml-0.0.1.dist-info/METADATA,sha256=cGU04YRJm_D7MfGgKmn92Xt1X9cpOcLHdid3zM_HBj0,1800
+coalescenceml-0.0.1.dist-info/RECORD,,
