@@ -1,0 +1,2 @@
+[console_scripts]
+zh-html-to-text = zuper_html.html_to_text:html_to_text_main
