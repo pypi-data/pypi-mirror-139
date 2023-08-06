@@ -1,0 +1,6 @@
+django
+celery
+edx-django-utils
+pytz
+pymongo<4.0.0,>=2.7.2
+six
