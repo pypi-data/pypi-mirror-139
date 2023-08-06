@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/aggregation/__init__.py
+src/aggregation/prueba.py
+src/ranking_aggregation.egg-info/PKG-INFO
+src/ranking_aggregation.egg-info/SOURCES.txt
+src/ranking_aggregation.egg-info/dependency_links.txt
+src/ranking_aggregation.egg-info/requires.txt
+src/ranking_aggregation.egg-info/top_level.txt
