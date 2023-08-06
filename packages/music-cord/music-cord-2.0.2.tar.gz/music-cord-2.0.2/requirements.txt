@@ -1,0 +1,4 @@
+aiohttp==3.8.1
+async-timeout==4.0.2
+wavelink>=1.1.0
+py-cord==2.0.0b4
