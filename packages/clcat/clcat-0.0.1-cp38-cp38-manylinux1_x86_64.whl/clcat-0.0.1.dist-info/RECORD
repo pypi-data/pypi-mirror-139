@@ -1,0 +1,10 @@
+clcat-0.0.1.data/purelib/clcat/__init__.py,sha256=kEsQgH0OvTBCDHz_5M3uYOyEUofmR0JpWRo9QH9BN2w,508
+clcat-0.0.1.data/purelib/clcat/ct_algos.so,sha256=HrJmDgKSe06NnnJEkS9_lh3dJJvSiCwoPsEeMeLcul8,360312
+clcat-0.0.1.data/purelib/clcat/libMDCTBone.so,sha256=cEhfzMWjQh-e7tk05OSXSurBKX0tKUNMmAQ5o6ItdjU,59680
+clcat-0.0.1.data/purelib/clcat/libMDImaging.so,sha256=s4kfHWtvSz2hH7TluevnLKMiLS5jWdWoXUU9yYmBoHU,154520
+clcat-0.0.1.dist-info/DESCRIPTION.rst,sha256=hZDCVJNGNIplVx4Cl4ON8xyjFCTrMRjFS1quVz2T7U0,36
+clcat-0.0.1.dist-info/METADATA,sha256=H6mj6EJA1QC0FvokS_gvS5ZoSGq0jLpgIznMNnUKq2s,297
+clcat-0.0.1.dist-info/RECORD,,
+clcat-0.0.1.dist-info/WHEEL,sha256=gdOsT2JhwXs-ztPazwvcFP_VryQT4XCXBrrp7UjYR3o,103
+clcat-0.0.1.dist-info/metadata.json,sha256=1jbO_d032K3JA5lwxbvvGmNq-r-3JG4YnE3Pq_x9NhA,436
+clcat-0.0.1.dist-info/top_level.txt,sha256=fgeJhd8GkGFgSUCXxS9CZ-b3TzXIwhP05D12aDSx1nk,6
