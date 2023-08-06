@@ -1,0 +1,87 @@
+# wagtail-webradio
+
+Manage your web radio - e.g. podcats, programs - in Wagtail.
+
+**Warning!** This project is still early on in its development lifecycle. It is
+possible for breaking changes to occur between versions until reaching a stable
+1.0. Feedback and pull requests are welcome.
+
+## Requirements
+
+This package requires the following:
+- **Wagtail** >=2.15
+- **Django** (3.1, 3.2)
+- **Python 3** (3.7, 3.8, 3.9)
+
+## Installation
+
+1. Install using ``pip``:
+   ```shell
+   pip install wagtail-webradio
+   ```
+2. Add ``wagtail_webradio`` to your ``INSTALLED_APPS`` setting:
+   ```python
+   INSTALLED_APPS = [
+       # ...
+       'wagtail_webradio',
+       # ...
+   ]
+   ```
+3. Run ``python manage.py migrate`` to create the models
+
+## Configuration
+
+### `WEBRADIO_VALIDATE_PODCAST_URL`
+
+Default: ``True``
+
+Whether to validate the song URL of a Podcast on creation and edition. It just
+ensures that the URL can be fetched, nothing more.
+
+## Development
+### Quick start
+
+To set up a development environment, ensure that Python 3 is installed on your
+system. Then:
+
+1. Clone this repository
+2. Create a virtual environment and activate it:
+   ```shell
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+3. Install this package in develop mode with extra requirements:
+   ```shell
+   pip install -e .[test]
+   ```
+
+If you plan to upload the package on PyPi, you will also need to run:
+```shell
+pip install --upgrade build twine
+```
+
+### Contributing
+
+The Python code is formatted and linted thanks to [flake8], [isort] and [black].
+To ease the use of this tools, the following commands are available:
+- `make lint`: check the Python code syntax and imports order
+- `make format`: fix the Python code syntax and imports order
+
+The tests are written with [pytest] and code coverage is measured with [coverage].
+You can use the following commands for that:
+- ``make test``: run the tests and output a quick report of code coverage
+- ``make coverage``: run the tests and produce an HTML report of code coverage
+
+When submitting a pull-request, please ensure that the code is well formatted
+and covered, and that all the other tests pass.
+
+[flake8]: https://flake8.pycqa.org/
+[isort]: https://pycqa.github.io/isort/
+[black]: https://black.readthedocs.io/
+[pytest]: https://docs.pytest.org/
+[coverage]: https://coverage.readthedocs.io/
+
+## License
+
+This extension is mainly developed by [Cliss XXI](https://www.cliss21.com) and
+licensed under the [AGPLv3+](LICENSE). Any contribution is welcome!
