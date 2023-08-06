@@ -1,0 +1,4 @@
+FontTools
+hyperglot
+protobuf
+setuptools
