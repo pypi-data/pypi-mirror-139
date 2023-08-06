@@ -1,0 +1,1 @@
+https://github.com/dominodatalab/python-domino/archive/refs/tags/1.0.6.zip
