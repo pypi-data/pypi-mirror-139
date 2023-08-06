@@ -1,0 +1,9 @@
+uif_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uif_server/__main__.py,sha256=dUZvBKIfkXErY5BNWrkd7CjvvGufnn2c4FVLj1eA2n4,355
+uif_server/cloudflare.py,sha256=eCO_ft7bsBH0J1ajrCtuBLkzTY-cdXbp_Lb8Iw0iB-E,3854
+uif_server/test_uif_server.py,sha256=rnfhQj3lClFRj1wNjMZ_YZ-2UfyoKYRVfZFZ6bfikII,4387
+uif_server/uif_server.py,sha256=Cld7bNlt_DRaWaifzyT0J8AGRmKDnVxapsF1ApzDKzM,14084
+abcd_0329-1645411549.dist-info/METADATA,sha256=KR1i5pvXDczZun56WO6DfaV-2SnpwC0DHskx2V1zyfU,271
+abcd_0329-1645411549.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+abcd_0329-1645411549.dist-info/top_level.txt,sha256=cfek0AK8k-povsOjnYRfog8a0F89MfrNSq81Iq0Lr98,11
+abcd_0329-1645411549.dist-info/RECORD,,
