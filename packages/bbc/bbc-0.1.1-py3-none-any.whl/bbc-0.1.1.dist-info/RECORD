@@ -1,0 +1,12 @@
+bbc/__init__.py,sha256=5E9UzGBLLM1EiCyPr7mQ0od5WB2Xp21KC37_eDoAMF4,22
+bbc/anthologies/download_acl.sh,sha256=RbFbYRPajnhktw8B5e4Q_OrY9i2dzA_-N5utsL53pdI,535
+bbc/anthologies/download_jmlr.sh,sha256=D2wJL425e1VGvQHoszRMF9Qh9yCUqxsJqcgSkhAhJTs,454
+bbc/anthologies/download_nips.sh,sha256=q2dvgu4-e1N_D7DjYy4XCRwZpJA2d5TRb8E3d6qlbu4,496
+bbc/anthologies/download_pmlr.sh,sha256=0eZlKSY0O02hAgaTxfO4MWiOtmx7N3cNI_JxwSKBnhI,293
+bbc/anthologies/validate.py,sha256=DmQCBHcsPwDH1Py8vZW5Bdt6SB4mNPpY59OLKQ7PUPI,1662
+bbc/bbc.py,sha256=XO0tOgQEZI5b72TkR7Fi5G-3X7sIRW3ruTgP7dxPyLk,27499
+bbc-0.1.1.dist-info/entry_points.txt,sha256=c0TB7JRVACFywt783quk27iwXXkvwbMUWhXON59cpMQ,32
+bbc-0.1.1.dist-info/LICENSE,sha256=304AfGaN27DHdypxutN3XFC7rOUBCmU7nVU1SFWLP0M,1487
+bbc-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bbc-0.1.1.dist-info/METADATA,sha256=klk9f3b_X8d0jxYxIVp1jny34GXLWTOIdchzAmzyp0w,2627
+bbc-0.1.1.dist-info/RECORD,,
