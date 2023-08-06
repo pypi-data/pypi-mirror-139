@@ -1,0 +1,3 @@
+[console_scripts]
+test_with_a7dtester = a7dtester:main
+
