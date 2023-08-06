@@ -1,0 +1,2 @@
+[console_scripts]
+swindpy = solarwindpy.cli:main

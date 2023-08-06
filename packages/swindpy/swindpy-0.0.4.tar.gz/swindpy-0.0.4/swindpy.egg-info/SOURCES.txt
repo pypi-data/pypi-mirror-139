@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+solarwindpy/__init__.py
+solarwindpy/cli.py
+solarwindpy/data_manager.py
+solarwindpy/plotter.py
+solarwindpy/rotation.py
+swindpy.egg-info/PKG-INFO
+swindpy.egg-info/SOURCES.txt
+swindpy.egg-info/dependency_links.txt
+swindpy.egg-info/entry_points.txt
+swindpy.egg-info/requires.txt
+swindpy.egg-info/top_level.txt

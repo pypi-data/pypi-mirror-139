@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+attrs
+matplotlib
+heliopy==0.15.4
+requests
+sunpy
+h5netcdf
+cdflib
+typer
