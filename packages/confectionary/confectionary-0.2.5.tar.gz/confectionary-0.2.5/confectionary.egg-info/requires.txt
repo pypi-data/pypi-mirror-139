@@ -1,0 +1,12 @@
+unidecode
+clean-text
+fpdf2
+gensim
+natsort
+nltk
+pandas
+scikit-learn
+textsplit
+tqdm
+wordninja
+yake
