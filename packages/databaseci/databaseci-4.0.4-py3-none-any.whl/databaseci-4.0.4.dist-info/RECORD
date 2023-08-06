@@ -1,0 +1,14 @@
+databaseci/__init__.py,sha256=-0KuL4A0lcVi93fXKqwsRi7pobO20NcI-RvHVPzrluo,191
+databaseci/call.py,sha256=nc-uah1mZAVV2w-E_KOcxgnIebkfHvTo-uY7l6b8Mrk,224
+databaseci/command.py,sha256=MVSeUAY1SjxYphP-F0Zt7Ytzo8cLBl3S8X2rvJExEqE,718
+databaseci/conn.py,sha256=ShQKNZGd7C7yJpWz4GoqEqXF3WwPbJ_TfD_6SgT4w50,1176
+databaseci/copy.py,sha256=Y2qSoJXP2850WPMtNHATKov6obGLW_qyqIWKQd4Tw6g,6359
+databaseci/do.py,sha256=8vdJh2yZPpcd2Dn4SOXT2cquOE4YiCTNKRk-6kWVHmk,4881
+databaseci/paging.py,sha256=POpKi8g8wyN4cclZlYxGBSM8Osw4ja8_XnHqt7sLGQk,5656
+databaseci/schema.py,sha256=jibj3nqT3gcmiAAeiZwJV5Hpkm97Lv14rvUO-Ivr4IU,744
+databaseci/summary.py,sha256=OP64j67UOux86Kr49DWlf5NuSeGF9bW7JGAmpb4sUpI,1429
+databaseci/util.py,sha256=OLw9jRqvIux724TTObiZVkdxY2jlULHjYY-eHnTcASM,247
+databaseci-4.0.4.dist-info/entry_points.txt,sha256=VtVn2H9abqPMNe4icM5PvHnP5VYl9Ud-7OYc7K5nXbU,53
+databaseci-4.0.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+databaseci-4.0.4.dist-info/METADATA,sha256=iByAlTJC2DS3aQP2rXHLHYDVv8z2CUhKNVxIgtG_74g,762
+databaseci-4.0.4.dist-info/RECORD,,
