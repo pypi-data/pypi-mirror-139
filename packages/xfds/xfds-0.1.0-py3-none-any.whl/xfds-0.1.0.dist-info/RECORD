@@ -1,0 +1,9 @@
+xfds/__init__.py,sha256=zZxkas1QI8BVDqGSb8ow-ZVKHHkwfJuSsWco9dzLxS8,12
+xfds/core.py,sha256=gEnkpQS00JNxBtyIws7MemJH50dK1hvuVbuyifoOPlE,5780
+xfds/docker_hub.py,sha256=KvoK6iO0immsJdcIIzBeN06HnLQRZmWchhRZ2_Ca6Ds,606
+xfds/settings.py,sha256=ncqy3ZyDZovPq-pjDzlUz3E2GDZYkqimnGus7nlbc_k,102
+xfds-0.1.0.dist-info/entry_points.txt,sha256=uI--xxw_oSrd_uz0UD6R3okEf8v29b6iJE76lw_t9jY,39
+xfds-0.1.0.dist-info/LICENSE,sha256=1QvpdgvzsKU1OktVmTGWdB8qwPlwYDAijdzLX8zwHCM,1053
+xfds-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+xfds-0.1.0.dist-info/METADATA,sha256=vAejtdTycqdpIyMki3yxD1vBNzbSUPskXgOpFWm8CyA,5972
+xfds-0.1.0.dist-info/RECORD,,
