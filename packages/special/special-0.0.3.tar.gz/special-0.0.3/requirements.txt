@@ -1,0 +1,8 @@
+numpy
+scipy
+astropy
+emcee==2.2.1
+corner
+nestle
+pandas
+matplotlib<=3.4.3
