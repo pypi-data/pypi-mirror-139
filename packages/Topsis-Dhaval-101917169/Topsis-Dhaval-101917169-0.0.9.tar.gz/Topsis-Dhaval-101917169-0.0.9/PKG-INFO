@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Topsis-Dhaval-101917169
+Version: 0.0.9
+Summary: Topsis program
+Home-page: UNKNOWN
+Author: Dhaval Arya
+Author-email: arya.dhavalv@gmail.com
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Topsis package that allows to calculate topsis score. Give command as pip install Topsis-Dhaval-101917169. Give input csv file name, impacts, weights, output csv file name.
+

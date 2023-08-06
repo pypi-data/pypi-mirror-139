@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Topsis/__init__.py
+Topsis/topsis_101917169.py
+Topsis_Dhaval_101917169.egg-info/PKG-INFO
+Topsis_Dhaval_101917169.egg-info/SOURCES.txt
+Topsis_Dhaval_101917169.egg-info/dependency_links.txt
+Topsis_Dhaval_101917169.egg-info/requires.txt
+Topsis_Dhaval_101917169.egg-info/top_level.txt
