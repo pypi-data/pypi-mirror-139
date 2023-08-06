@@ -1,0 +1,238 @@
+{
+  "app": "superset",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/preamble.85762af1bd9567bf7978.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [
+        "/static/assets/theme.cfa217a886b7f3b2ccd5.entry.css"
+      ],
+      "js": [
+        "/static/assets/theme.cfa217a886b7f3b2ccd5.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [
+        "/static/assets/menu.c097ad57a7b97f2752cd.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/4998.d6e844eed238be641680.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/8075.4c4821589c9b70ac7726.entry.js",
+        "/static/assets/2357.244c45ea0ca6b39ee9b5.entry.js",
+        "/static/assets/9356.5aa02e44eb9f815f6b7e.entry.js",
+        "/static/assets/2717.32d60d7d65f8ae0bc784.entry.js",
+        "/static/assets/741.38b8a835576cf794b017.entry.js",
+        "/static/assets/5473.d7e7409085f95b66d7ee.entry.js",
+        "/static/assets/571.235c9464b45872bae66a.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/6962.b8460e3f7d35b612c256.entry.js",
+        "/static/assets/9083.094004c27a7984205a41.entry.js",
+        "/static/assets/7843.3f394f0ea6610d3aa845.entry.js",
+        "/static/assets/1784.faae1399f6638a40a5a3.entry.js",
+        "/static/assets/3085.21ee3c08a265d7d31f0d.entry.js",
+        "/static/assets/1090.2315b827ef5a62831724.entry.js",
+        "/static/assets/8868.c38c3e3916a6132e3d61.entry.js",
+        "/static/assets/7620.8ce1cfb83c911d228b4d.entry.js",
+        "/static/assets/9196.bb9dfe4f221b8794b2ee.entry.js",
+        "/static/assets/6967.fd4f47b7c402a137ab76.entry.js",
+        "/static/assets/menu.c097ad57a7b97f2752cd.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [
+        "/static/assets/spa.39aa02465fc304ccfa56.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/4998.d6e844eed238be641680.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/8075.4c4821589c9b70ac7726.entry.js",
+        "/static/assets/2357.244c45ea0ca6b39ee9b5.entry.js",
+        "/static/assets/9356.5aa02e44eb9f815f6b7e.entry.js",
+        "/static/assets/2717.32d60d7d65f8ae0bc784.entry.js",
+        "/static/assets/741.38b8a835576cf794b017.entry.js",
+        "/static/assets/5473.d7e7409085f95b66d7ee.entry.js",
+        "/static/assets/995.64a3980b3e46c2bc51b8.entry.js",
+        "/static/assets/5379.ce566981642aff27a4f9.entry.js",
+        "/static/assets/571.235c9464b45872bae66a.entry.js",
+        "/static/assets/9602.3950eaeb94c1baa9c842.entry.js",
+        "/static/assets/5755.9696e28c4166c420c5bb.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/6962.b8460e3f7d35b612c256.entry.js",
+        "/static/assets/9083.094004c27a7984205a41.entry.js",
+        "/static/assets/7843.3f394f0ea6610d3aa845.entry.js",
+        "/static/assets/1784.faae1399f6638a40a5a3.entry.js",
+        "/static/assets/3085.21ee3c08a265d7d31f0d.entry.js",
+        "/static/assets/1090.2315b827ef5a62831724.entry.js",
+        "/static/assets/8868.c38c3e3916a6132e3d61.entry.js",
+        "/static/assets/7620.8ce1cfb83c911d228b4d.entry.js",
+        "/static/assets/5286.b26208585918f46ee258.entry.js",
+        "/static/assets/9196.bb9dfe4f221b8794b2ee.entry.js",
+        "/static/assets/8013.2ffb9d5f62ccc464e031.entry.js",
+        "/static/assets/6967.fd4f47b7c402a137ab76.entry.js",
+        "/static/assets/spa.39aa02465fc304ccfa56.entry.js"
+      ]
+    },
+    "embedded": {
+      "css": [
+        "/static/assets/embedded.f4d7a2b6132e4636019e.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/4998.d6e844eed238be641680.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/8075.4c4821589c9b70ac7726.entry.js",
+        "/static/assets/2357.244c45ea0ca6b39ee9b5.entry.js",
+        "/static/assets/9356.5aa02e44eb9f815f6b7e.entry.js",
+        "/static/assets/2717.32d60d7d65f8ae0bc784.entry.js",
+        "/static/assets/741.38b8a835576cf794b017.entry.js",
+        "/static/assets/5473.d7e7409085f95b66d7ee.entry.js",
+        "/static/assets/571.235c9464b45872bae66a.entry.js",
+        "/static/assets/9602.3950eaeb94c1baa9c842.entry.js",
+        "/static/assets/5755.9696e28c4166c420c5bb.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/6962.b8460e3f7d35b612c256.entry.js",
+        "/static/assets/9083.094004c27a7984205a41.entry.js",
+        "/static/assets/7843.3f394f0ea6610d3aa845.entry.js",
+        "/static/assets/1784.faae1399f6638a40a5a3.entry.js",
+        "/static/assets/3085.21ee3c08a265d7d31f0d.entry.js",
+        "/static/assets/1090.2315b827ef5a62831724.entry.js",
+        "/static/assets/8868.c38c3e3916a6132e3d61.entry.js",
+        "/static/assets/7620.8ce1cfb83c911d228b4d.entry.js",
+        "/static/assets/9196.bb9dfe4f221b8794b2ee.entry.js",
+        "/static/assets/embedded.f4d7a2b6132e4636019e.entry.js"
+      ]
+    },
+    "addSlice": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/thumbnail.01d921166c7c606644cf.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/8075.4c4821589c9b70ac7726.entry.js",
+        "/static/assets/2357.244c45ea0ca6b39ee9b5.entry.js",
+        "/static/assets/2087.684be3c3b21b8574c405.entry.js",
+        "/static/assets/5473.d7e7409085f95b66d7ee.entry.js",
+        "/static/assets/3212.ef8d061f7bdaed2dab05.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/9083.094004c27a7984205a41.entry.js",
+        "/static/assets/1784.faae1399f6638a40a5a3.entry.js",
+        "/static/assets/7620.8ce1cfb83c911d228b4d.entry.js",
+        "/static/assets/7382.52ad7726ce39f8b89d71.entry.js",
+        "/static/assets/362.258427b3071dc01d8887.entry.js",
+        "/static/assets/5286.b26208585918f46ee258.entry.js",
+        "/static/assets/addSlice.2f11abc2ec1b652ac0ed.entry.js"
+      ]
+    },
+    "explore": {
+      "css": [
+        "/static/assets/explore.962619f48a68aff811a5.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/thumbnail.01d921166c7c606644cf.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/4998.d6e844eed238be641680.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/8075.4c4821589c9b70ac7726.entry.js",
+        "/static/assets/2357.244c45ea0ca6b39ee9b5.entry.js",
+        "/static/assets/9356.5aa02e44eb9f815f6b7e.entry.js",
+        "/static/assets/2717.32d60d7d65f8ae0bc784.entry.js",
+        "/static/assets/2087.684be3c3b21b8574c405.entry.js",
+        "/static/assets/741.38b8a835576cf794b017.entry.js",
+        "/static/assets/5473.d7e7409085f95b66d7ee.entry.js",
+        "/static/assets/3212.ef8d061f7bdaed2dab05.entry.js",
+        "/static/assets/995.64a3980b3e46c2bc51b8.entry.js",
+        "/static/assets/5379.ce566981642aff27a4f9.entry.js",
+        "/static/assets/876.91e2313278fced5f9376.entry.js",
+        "/static/assets/9602.3950eaeb94c1baa9c842.entry.js",
+        "/static/assets/2671.e74307a854e7f930e434.entry.js",
+        "/static/assets/1163.339516a83ab6cc4a1091.entry.js",
+        "/static/assets/323.a769020cf56fba10d687.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/6962.b8460e3f7d35b612c256.entry.js",
+        "/static/assets/9083.094004c27a7984205a41.entry.js",
+        "/static/assets/7843.3f394f0ea6610d3aa845.entry.js",
+        "/static/assets/1784.faae1399f6638a40a5a3.entry.js",
+        "/static/assets/3085.21ee3c08a265d7d31f0d.entry.js",
+        "/static/assets/1090.2315b827ef5a62831724.entry.js",
+        "/static/assets/8868.c38c3e3916a6132e3d61.entry.js",
+        "/static/assets/7620.8ce1cfb83c911d228b4d.entry.js",
+        "/static/assets/7382.52ad7726ce39f8b89d71.entry.js",
+        "/static/assets/362.258427b3071dc01d8887.entry.js",
+        "/static/assets/413.7012ab7fc1442ed8f218.entry.js",
+        "/static/assets/explore.962619f48a68aff811a5.entry.js"
+      ]
+    },
+    "sqllab": {
+      "css": [
+        "/static/assets/sqllab.ec3168195eea4b31a971.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/2441.dee1d24fd2b3ad3119d4.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/4998.d6e844eed238be641680.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/8075.4c4821589c9b70ac7726.entry.js",
+        "/static/assets/2357.244c45ea0ca6b39ee9b5.entry.js",
+        "/static/assets/2717.32d60d7d65f8ae0bc784.entry.js",
+        "/static/assets/995.64a3980b3e46c2bc51b8.entry.js",
+        "/static/assets/5379.ce566981642aff27a4f9.entry.js",
+        "/static/assets/9670.d451ed2a904574404faa.entry.js",
+        "/static/assets/323.a769020cf56fba10d687.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/6962.b8460e3f7d35b612c256.entry.js",
+        "/static/assets/9083.094004c27a7984205a41.entry.js",
+        "/static/assets/7843.3f394f0ea6610d3aa845.entry.js",
+        "/static/assets/1784.faae1399f6638a40a5a3.entry.js",
+        "/static/assets/3085.21ee3c08a265d7d31f0d.entry.js",
+        "/static/assets/5286.b26208585918f46ee258.entry.js",
+        "/static/assets/7982.21e5386b40e3c15e0a7c.entry.js",
+        "/static/assets/sqllab.ec3168195eea4b31a971.entry.js"
+      ]
+    },
+    "profile": {
+      "css": [
+        "/static/assets/profile.28258347f390770b8c72.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/1514.44ac06fe7ad2dbad05e8.entry.js",
+        "/static/assets/8075.4c4821589c9b70ac7726.entry.js",
+        "/static/assets/5379.ce566981642aff27a4f9.entry.js",
+        "/static/assets/1508.7ef6e2c13893c7feed08.entry.js",
+        "/static/assets/6962.b8460e3f7d35b612c256.entry.js",
+        "/static/assets/9083.094004c27a7984205a41.entry.js",
+        "/static/assets/5286.b26208585918f46ee258.entry.js",
+        "/static/assets/profile.28258347f390770b8c72.entry.js"
+      ]
+    },
+    "showSavedQuery": {
+      "css": [
+        "/static/assets/showSavedQuery.d3420f886c230b70c0ac.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.dc0eb1e60de52bce61ca.entry.js",
+        "/static/assets/7550.b27b36c6cc1543542472.entry.js",
+        "/static/assets/9670.d451ed2a904574404faa.entry.js",
+        "/static/assets/showSavedQuery.d3420f886c230b70c0ac.entry.js"
+      ]
+    }
+  }
+}
