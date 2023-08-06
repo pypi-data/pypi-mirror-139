@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sudokuapi
+Version: 0.0.1
+Summary: A Python package for solving Sudoku puzzles.
+Home-page: https://github.com/alotofaxolotl/SudokuAPI
+Author: alotofaxolotl
+Author-email: alottaaxolotl@hotmail.com
+License: GNU GPL v3
+Project-URL: Bug Tracker, https://github.com/alotofaxolotl/SudokuAPI/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+License-File: LICENSE
+
+# SudokuAPI
+A Python package for solving Sudoku puzzles.
+
+
