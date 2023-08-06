@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: secretenv
+Version: 0.1.5
+Summary: Playing with a secrets-in-repo idea.
+Home-page: https://github.com/gmfawcett/secretenv
+Author: gmfawcett
+Author-email: graham.fawcett@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: scrypt (==0.8.18)
+
+# secretenv
+
+Just playing with an idea re: storing config information in a git repo along
+with the code, but needing a secret key (in an environment variable) to decrypt
+it. Think, `git-secret`, but `scrypt` / symmetric keys instead of GPG. 
+
+## Change log
+
+- v0.1.5: Relaxed return-type of `secretenv.load` (formerly `open`), to allow
+  Python 3.8 compatibility.
+
+- v0.1.4: first decent version. Requires Python 3.9.
+
+
