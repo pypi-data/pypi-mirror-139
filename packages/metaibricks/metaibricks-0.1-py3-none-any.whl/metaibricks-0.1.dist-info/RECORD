@@ -1,0 +1,16 @@
+metaibricks/__init__.py,sha256=IrWp7_9EenkaaWKkPeCDoVadKXLHTtloyS4w7WPAM50,432
+metaibricks/__main__.py,sha256=o4vQMoBV_7QOPLHKf5lf6f7s0XBCiD1x1AZKdaWM764,309
+metaibricks/base.py,sha256=NlQaujH-2OFCsr7jyRBcEQwec5shESrVFOlYleGXHR4,2021
+metaibricks/extraction/__init__.py,sha256=rAxP21EWdzLg61dUtMN6iMaeGoXV1Jo9GyFdbbyaoU8,119
+metaibricks/extraction/base.py,sha256=8Qo95qnnRFfT6xosT9_56mdRBTkS3XJ1scDWZFNl548,272
+metaibricks/extraction/ftp.py,sha256=H8kO9p7NeaikXnp-QqY-ue6qphhVTzr_-OWl3Fd6agU,15396
+metaibricks/pipeline/__init__.py,sha256=4R5mnhze6Vn0uR62a7wOA-1J1mCkvJ2gofZkcvtth7c,78
+metaibricks/pipeline/pipeline.py,sha256=U38AxHekvXQlWeYPdjkiGfBO427W4spz_BnBwhKOIPE,1138
+metaibricks/settings/__init__.py,sha256=kDs9rWqLo6DVPjiW1zwb4BgYly-j-mTqK3Rg-GEFmN4,209
+metaibricks/settings/cli.py,sha256=2y0KxpBCee12YP_dhDOBvyBXGbnga-se9pjciuFgpu0,1667
+metaibricks/settings/logger.py,sha256=A3VzXFJX7qcUYJSO_J7o9D04CqKvYWPIl2UCoKBDKx8,3610
+metaibricks/settings/settings.py,sha256=TPNkEB2T6JnHoIA04Cic4LLQBWzR4ZnJNIE2RlrVLHI,1203
+metaibricks-0.1.dist-info/METADATA,sha256=5KSG7tgUi1o53HrnAvcwY7ZQ6G6w4rBVOE3sSUX2Z7g,2825
+metaibricks-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+metaibricks-0.1.dist-info/top_level.txt,sha256=xj_4bYk5HF8eJqXXda5fxCN2PzT2idNlM1S1WX6-XXg,12
+metaibricks-0.1.dist-info/RECORD,,
