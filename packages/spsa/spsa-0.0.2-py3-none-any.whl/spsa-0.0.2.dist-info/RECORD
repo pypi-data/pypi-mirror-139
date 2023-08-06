@@ -1,0 +1,9 @@
+spsa/__init__.py,sha256=V24IczDFRmS4HM6wYnbRWoHf87SkC1BR_a2FNtHBsyU,3557
+spsa/_spsa.py,sha256=wFN75EPgIMaKRlpBSHMvF4Lucgipm3-swCxKdGLZBFU,29135
+spsa/aio.py,sha256=vs4okvM_Qp_etxN7F03RvR0VBQjBQHl6kNfQemeDkXU,21190
+spsa/random.py,sha256=HfeZFw8C9P37OMTSsI05XfXyCaBb3QKfJes17U3nlGA,2302
+spsa-0.0.2.dist-info/LICENSE,sha256=VTMMeiZ-Z7tjd7nahLJCqMJla_hpHbvNfeKhdKF6ryo,1086
+spsa-0.0.2.dist-info/METADATA,sha256=c2LCZ4Q0HyMyXsnJMkzw2yOI7WWSY5lCxlGKULTV0gc,2628
+spsa-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spsa-0.0.2.dist-info/top_level.txt,sha256=rJBkbpIyc1jLupECAIaxYxcuXuQLfIIzKcIWqIrxFWo,5
+spsa-0.0.2.dist-info/RECORD,,
