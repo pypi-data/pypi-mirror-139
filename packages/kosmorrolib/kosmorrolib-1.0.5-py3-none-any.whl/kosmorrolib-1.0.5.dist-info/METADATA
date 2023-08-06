@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: kosmorrolib
+Version: 1.0.5
+Summary: A library to computes the ephemerides.
+Home-page: https://kosmorro.space/lib
+License: AGPL-3.0-or-later
+Keywords: kosmorro,astronomy,ephemerides,ephemeris
+Author: Jérôme Deuchnord
+Author-email: jerome@deuchnord.fr
+Requires-Python: >=3.7,<3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: python-dateutil (>=2.8,<3.0)
+Requires-Dist: skyfield (>=1.21,<2.0)
+Requires-Dist: skyfield-data (>=3,<5)
+Project-URL: Documentation, https://kosmorro.space/lib/doc
+Project-URL: Repository, https://github.com/Kosmorro/lib
+Description-Content-Type: text/markdown
+
+# Kosmorrolib - a library to compute your ephemerides!
+
+[![Coverage Status](https://coveralls.io/repos/github/Kosmorro/lib/badge.svg?branch=main)](https://coveralls.io/github/Kosmorro/lib?branch=main) [![Version on PyPI](https://img.shields.io/pypi/v/kosmorrolib)](https://pypi.org/project/kosmorrolib)  [![IRC: #kosmorro on Libera.Chat](https://img.shields.io/badge/Libera.Chat-%23kosmorro-blueviolet)](https://web.libera.chat/?nick=Astronaut?#kosmorro)
+
+## Installation
+
+### Requirements
+
+Kosmorrolib requires the following software to work:
+
+- Python ≥ 3.7.0
+
+And that's all!
+
+### Production environment
+
+Kosmorrolib is available [on PyPI](https://pypi.org/project/kosmorrolib/). To use it, invoke `pip install kosmorrolib`.
+
+### Development environment
+
+To contribute to Kosmorrolib, you will need [Poetry](https://python-poetry.org), a software to manage the project from development to publishing.
+
+Clone this repository and run `poetry install` to install the dependencies.
+And that's all, your development environment is ready for the fight! 👏
+
+## Documentation
+
+All the documentation can be found [on the website](https://kosmorro.space/lib/doc).
+
