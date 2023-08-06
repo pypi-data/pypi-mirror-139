@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rootbridge
+Version: 0.0.2
+Summary: Bridge to the silos.
+License: CC0-1.0
+Author: Angelo Gladding
+Author-email: angelo@ragt.ag
+Requires-Python: >=3.9,<4.0
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
