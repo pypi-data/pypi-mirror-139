@@ -1,0 +1,4 @@
+toml
+
+[docs]
+mkdocs-material
