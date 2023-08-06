@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Strings2/__init__.py
+Strings2/strings.py
+Strings2.egg-info/PKG-INFO
+Strings2.egg-info/SOURCES.txt
+Strings2.egg-info/dependency_links.txt
+Strings2.egg-info/top_level.txt
