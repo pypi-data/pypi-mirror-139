@@ -1,0 +1,3 @@
+[console_scripts]
+get-passphrase=get_passphrase.__main__:run
+
