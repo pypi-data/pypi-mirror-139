@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: simmeth
+Version: 0.0.9
+Summary: Simulation Methods Package
+Home-page: https://github.com/LMU-MBR/simmeth
+Author: Markus Lill
+Author-email: ml.ecm.ec@som.lmu.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simulation Methods - Wiki
+
+![version](https://img.shields.io/badge/version-0.0.8-blue)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+Simple python package to test simulation methods.
+
+# Getting Started
+
+## Installation :hammer:
+
+```commandline
+pip install simmeth
+```
+
+## Basic Usage
+
+To set up a simulation simply create an instance of `Simulation` class. In order to run the simulation call `run()` on
+simulation object.
+
+```python
+from simmeth.simulation import Simulation
+
+env_scenarios = [
+    {
+        'turb': 0,
+        'max_confidence': 1,
+        'unlearn': True
+    }
+]
+sim = Simulation(scenarios=env_scenarios, n_strategies=3, t=100, n=100)
+sim.run()
+```
+
+## Plot Simulation Results
+
+In order to plot simulation results you can call `sim.plot_scenarios()`.
+
+![](./docs/assets/sim_plot.png)
+
+# Change History :arrows_counterclockwise:
+
+## Version 0.0.9
+
+- Perform `shock` only when `turb>0`
+- Added `pytest` package
+- Remove `prefix` argument from `Environment`
+- Fixed python dependencies
+- Removed `main.py`
+
+## Version 0.0.8
+
+- Initially deployed to PyPi
+
