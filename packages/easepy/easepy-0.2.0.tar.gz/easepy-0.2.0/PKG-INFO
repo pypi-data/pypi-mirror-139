@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: easepy
+Version: 0.2.0
+Summary: Python package for working with EASE grids.
+License: MIT
+Author: Karl Nordstrom
+Author-email: karl.am.nordstrom@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pyproj (>=3.3.0,<4.0.0)
