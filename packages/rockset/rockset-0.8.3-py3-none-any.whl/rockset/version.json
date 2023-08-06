@@ -1,0 +1,12 @@
+{
+    "format": "v1",
+    "major": "0",
+    "minor": "8",
+    "patch": "3",
+    "pre_release": ["rel", "20220222"],
+    "build_info": ["5f722579ed"],
+    "version": "0.8.3-rel.20220222+5f722579ed",
+    "dockertag": "0.8.3-rel.20220222-5f722579ed",
+    "python": "0.8.3",
+    "commit_hash": "5f722579ede4ffbbbddd"
+}
