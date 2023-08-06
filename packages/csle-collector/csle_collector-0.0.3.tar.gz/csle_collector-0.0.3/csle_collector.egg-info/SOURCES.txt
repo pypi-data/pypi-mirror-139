@@ -1,0 +1,12 @@
+README.md
+setup.py
+csle_collector/__init__.py
+csle_collector/client_manager.py
+csle_collector/client_manager_pb2.py
+csle_collector/client_manager_pb2_grpc.py
+csle_collector/query_clients.py
+csle_collector.egg-info/PKG-INFO
+csle_collector.egg-info/SOURCES.txt
+csle_collector.egg-info/dependency_links.txt
+csle_collector.egg-info/requires.txt
+csle_collector.egg-info/top_level.txt
