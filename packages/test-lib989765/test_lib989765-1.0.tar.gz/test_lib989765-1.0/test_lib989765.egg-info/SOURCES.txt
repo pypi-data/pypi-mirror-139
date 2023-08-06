@@ -1,0 +1,5 @@
+setup.py
+test_lib989765.egg-info/PKG-INFO
+test_lib989765.egg-info/SOURCES.txt
+test_lib989765.egg-info/dependency_links.txt
+test_lib989765.egg-info/top_level.txt
