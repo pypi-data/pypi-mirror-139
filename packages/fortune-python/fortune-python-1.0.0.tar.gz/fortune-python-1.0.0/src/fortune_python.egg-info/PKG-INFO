@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fortune-python
+Version: 1.0.0
+Summary: A Cowsay clone in Python
+Home-page: https://github.com/James-Ansley/fortune
+Author: James Finnie-Ansley
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Cowsay
+
+A simple self-contained clone of fortune.
+
+## Install
+
+    pip install fortune-python
+
+## Usage
+
+To use this package, import the `fortune` function and call:
+
+```python
+from fortune import fortune
+
+print(fortune())
+```
+
+This will produce a random fortune.
+Offensive fortunes are not included in this Python package.
+
+
