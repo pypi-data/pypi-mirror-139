@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "autodonate-qiwi-api"
+version = "0.1.0"
+description = "QIWI API for Autodonate"
+authors = ["firesquare <team@firesquare.ru>"]
+readme = "README.md"
+repository = "https://github.com/fire-squad/autodonate-qiwi-api"
+license = "AGPL3"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+autodonate = "^0.1.0-alpha.0"
+Django = "^4.0.2"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
