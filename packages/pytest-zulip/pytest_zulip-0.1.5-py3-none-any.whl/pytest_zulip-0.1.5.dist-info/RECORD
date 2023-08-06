@@ -1,0 +1,11 @@
+pytest_zulip/__init__.py,sha256=AS5SB-Kwifb-GYRV_4Wou6v7IppF8lSt4OpEfjN9ErE,101
+pytest_zulip/hooks.py,sha256=oMW7wtT775hqbkzbpDEaOqB6aJ9TCHyOFPLBgGozNTQ,230
+pytest_zulip/plugin.py,sha256=PLnvCFNCJijZh3QEOUcPjVBH3hMTSw3pMpmJXYUwjVI,1140
+pytest_zulip/zulip.py,sha256=jJdAwWXOKlZa_9ncZDWT1zHvRjpmkOHqswBxqpoT2IA,2873
+pytest_zulip/__pycache__/__init__.cpython-310.pyc,sha256=2PA77SpTGdEyq7T-PlohxavKDLPCb7VQowBY54nUT_I,265
+pytest_zulip-0.1.5.data/data/pytest_zulip/__init__.cpython-310.pyc,sha256=2PA77SpTGdEyq7T-PlohxavKDLPCb7VQowBY54nUT_I,265
+pytest_zulip-0.1.5.dist-info/METADATA,sha256=zLg87EupNMgbr28f9CAhzr6JXwX0EnF7cvqF1cZtvSs,2022
+pytest_zulip-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_zulip-0.1.5.dist-info/entry_points.txt,sha256=kSd_XZBP8vfJ-BCpiLszFJBYtgxeo4n3amIGgCoessE,39
+pytest_zulip-0.1.5.dist-info/top_level.txt,sha256=GFKoPZCXPHW3WJGSIqhXJvEhY5jbGZ08fNc3gOgRbNo,13
+pytest_zulip-0.1.5.dist-info/RECORD,,
