@@ -1,0 +1,16 @@
+spacy_och/__init__.py,sha256=gA4-7jyiuQjwT3luCGMWMxvvM2Zxc5nymtTN46uf0uk,1505
+spacy_och/config.cfg,sha256=8VT9wjSOlLSkHmPHjxCHOPYoYYXt7tCxFVdxlh_q-rc,82
+spacy_och/examples.py,sha256=wsmAZfJ7pqIf-OZWzUfbZK1tYSWuyCIjCpIoVTFE4BQ,472
+spacy_och/lex_attrs.py,sha256=D1lmAf-tiZvb8UGtvVLec8sL9ggAQseURFD-TxesoQU,1771
+spacy_och/stop_words.py,sha256=JEpYdc5HDYFK8Z89AbrQ5pNpnLg724yDbBNhvzs44Nc,495
+spacy_och/lookups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacy_och/lookups/och_numbers_lookup.json,sha256=BaQo7IEwaaqT90EfkB6Y9oybAlzRKMBq3oAR3nCHb3I,1702
+spacy_och/lookups/och_phonemes_lookup.json,sha256=4mI142ddCRuMb7fXJJtrGlw13EwViGh1jlewUy1Yp2M,677997
+spacy_och/lookups/och_pinyin_lookup.json,sha256=oykbB8GVT7kjXAKld4ilfR1h8C7CCArHNZY11cvXpds,603866
+spacy_och/lookups/och_variants_lookup.json,sha256=2msLZvuTAn947jOBRhymWSw8LfvYsdCC3oOFgjO8FYk,482945
+spacy_och-0.1.2.dist-info/LICENSE,sha256=xHGmhUiQU_RXCeFg_jTYFVm9Y8kqmLGSO3BBmAZKgfM,1063
+spacy_och-0.1.2.dist-info/METADATA,sha256=n7BsKArbuI2esuJ59ifPmRpu1lTYzbel7RsRUQA9fgI,2477
+spacy_och-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spacy_och-0.1.2.dist-info/entry_points.txt,sha256=-51zH5Gi6Agu-3sK9cGGS8cb1cfbojLFRJiLiDbEYzs,45
+spacy_och-0.1.2.dist-info/top_level.txt,sha256=fJTw4mlzqolSa-BNt31mFR3Svs8dq3yQlLVeAYIlwo0,10
+spacy_och-0.1.2.dist-info/RECORD,,
