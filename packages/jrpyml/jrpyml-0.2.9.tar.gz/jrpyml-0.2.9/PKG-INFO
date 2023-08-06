@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jrpyml
+Version: 0.2.9
+Summary: Jumping Rivers: Machine Learning with Python
+Author: Jamie
+Author-email: jamie@jumpingrivers.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: graphviz (>=0.10,<0.11)
+Requires-Dist: matplotlib (>=3.1,<4.0)
+Requires-Dist: numpy (>=1.22,<2.0)
+Requires-Dist: pandas (>=1,<2)
+Requires-Dist: scikit-learn (>=1,<2)
+Requires-Dist: scipy (>=1.2,<2.0)
+Requires-Dist: seaborn (>=0.11,<0.12)
+Requires-Dist: statsmodels (>=0,<1)
