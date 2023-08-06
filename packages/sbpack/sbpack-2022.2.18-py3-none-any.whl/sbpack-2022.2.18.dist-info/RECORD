@@ -1,0 +1,12 @@
+sbpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbpack/lib.py,sha256=iLN5s31rS9Mg64teYZLk0Cicdjuyb6KdwCjL52r1nrQ,5781
+sbpack/pack.py,sha256=X7V4FmTsA9LBEpFt9tUTQNRsMWMbNVhZlCvUj9U_SoM,13408
+sbpack/schemadef.py,sha256=3z8IgsQlx-Se8-yv4BlxAMyOLF8MpP9oXTRxhldsH3E,7624
+sbpack/unpack.py,sha256=amyfuytRxvsz0-RARfP1Hm4tbpmMVCfLSaM8U3woh-o,3064
+sbpack/version.py,sha256=SeJrkT8K8pgUc1FY41ap-inIt3pIvFL0AckX09Uyeuk,27
+sbpack-2022.2.18.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sbpack-2022.2.18.dist-info/METADATA,sha256=JT9083blIXe316KJV3HzjlZWab4PZ8yRTWrzR_1Ygt8,7445
+sbpack-2022.2.18.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sbpack-2022.2.18.dist-info/entry_points.txt,sha256=bfuZVbh-4dH2tA3zg_fQC2f8baVs2dhanib_MIeNrJI,105
+sbpack-2022.2.18.dist-info/top_level.txt,sha256=jYfNbA_EM0kCUdebAs2xxFukxE1XlzB_BbAr4t25Jmg,7
+sbpack-2022.2.18.dist-info/RECORD,,
