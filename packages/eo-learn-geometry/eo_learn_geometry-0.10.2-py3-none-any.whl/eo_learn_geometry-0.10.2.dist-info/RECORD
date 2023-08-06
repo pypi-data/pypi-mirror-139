@@ -1,0 +1,15 @@
+eolearn/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+eolearn/geometry/__init__.py,sha256=bqizYVZKo6PA0uroiMQQh06Y0IbIL_Aniq8rBFR3QvE,548
+eolearn/geometry/morphology.py,sha256=bDk4VupJFN8L4AYTSA0tBK73JR2Funh0l6Wa7n6MNPQ,2515
+eolearn/geometry/sampling.py,sha256=_BF25LBKVgQjVM1-xtnBiFd7CGWxFDgeRQqzu9WglkM,17979
+eolearn/geometry/superpixel.py,sha256=06cj6VADTrQ0vTWEGgr3xTCYlmkK3wl0I0o8BktryHE,6923
+eolearn/geometry/transformations.py,sha256=EarIgD1W2kZGBruB4Dk3nB7aGAnlekvnw5GiI6Ti5hw,22809
+eolearn/tests/conftest.py,sha256=UEWOND9YxdVa-gSHUCGy8B5m3WRLBDIxhn_CGxarN74,405
+eolearn/tests/test_morphology.py,sha256=nMcTeHv3uKGYLg_T4ffAidJEgSAzH7O-RUATr6vYt7A,2475
+eolearn/tests/test_superpixel.py,sha256=gpgAmLHDSxiCLnkxGLH-NFDUV3n34WuntWwD7TiQekg,2424
+eolearn/tests/test_transformations.py,sha256=ALUEgU-XJyG2CuK_vdcNydet2lMwD1sNmiE8fyAvFLw,10427
+eo_learn_geometry-0.10.2.dist-info/LICENSE,sha256=tBcdTbkneUu8yIJQISjcVf32Jmnzf1dDGKqIvVOvyBA,1602
+eo_learn_geometry-0.10.2.dist-info/METADATA,sha256=CTCfyGOx0O7AiO5RfOuRDpqw3ZiOKdnEJCIKyuEn3OM,798
+eo_learn_geometry-0.10.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eo_learn_geometry-0.10.2.dist-info/top_level.txt,sha256=6ntE_4gIIRW3Yydg59WWgQRdwufG2Z0aUjGnrFxlSVU,8
+eo_learn_geometry-0.10.2.dist-info/RECORD,,
