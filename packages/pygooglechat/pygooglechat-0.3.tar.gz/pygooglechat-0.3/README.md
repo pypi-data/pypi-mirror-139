@@ -1,0 +1,81 @@
+# pygooglechat
+### python 으로 Googlechat webhook 보내주는 친구
+> Python 개발자를 위한 [Googlechat webhook](https://developers.google.com/chat/how-tos/webhooks) 연동 패키지입니다.
+
+
+### 주의 사항
+
+* 이용 중 발생할 무서운 문제는 없지만 책임도 지지 않습니다.
+* 비동기를 지원하지 않습니다. Celery , asyncio 에 의존하는 것은 아주 간단하지는 않기에 추후 다른 방법으로 시도하겠습니다.
+* 비동기를 지원하지 않는 requests 모듈을 사용합니다. 요청 pending 을 피하기 위해 얄팍한 트릭을 제공합니다. 
+
+### 제공하는 것
+
+* Googlechat webhook 을 아주 조금 더 쉽게 보낼 수 있는 클래스를 제공하고 추가로 제공하는 대단한 것은 없습니다.
+* 라이브러리에서 Exception 을 처리하도록 옵션을 넣을 수 있습니다. (opt : raise_exception)
+* http request 의 timetout 을 이용한 유사 비동기 옵션을 제공합니다.
+
+
+### Requirements
+
+---
+
+python3 이상이면 가능합니다. fstring 만 제거해도 버전을 많이 낮출 수 있네요. 
+
+
+
+```bash
+python --version
+
+-- or --
+
+python3 --version
+```
+
+### Installation
+
+
+
+```bash
+$ pip install pygooglechat
+```
+### Get googlechat webhook url
+
+[구글챗 웹훅 url 발급받기](https://developers.google.com/chat/quickstart/incoming-bot-node)
+
+
+## 사용법
+
+### 아주쉽게
+
+```python
+from pygooglechat import Googlechat
+
+# webhook_url 으로 챗봇 객체를 만듭니다.
+chat_bot = Googlechat(
+    webhook_url='"https://chat.googleapis.com/blablablablabla...',
+)
+
+# 챗봇한테 명령합니다.
+chat_bot.send_chat("안녕 나는 챗봇이야")
+```
+
+제공하는 옵션
+```python
+class GoogleChat:
+    def __init__(self, webhook_url: str, timeout: int = None, raise_exception: bool = False,
+                 ignore_timeout: bool = False):
+```
+* timeout : number(default None)
+    * http request 에 timeout 옵션을 넣습니다. 채팅을 보내는 것이 비즈니스 로직의 뒷편이라면 (중요도가 낮은, 즉 오지 않아도 크리티컬하지 않는 메세지라) 굳이 response 를 얻기 위해 기다리지 않아도 되겠죠.
+    * Default 는 none 이며 이는 구글챗의 http response 를 받을 때 까지 기다림을 의미합니다.
+    * response 가 필요 없을 때 이상적인 timeout면 은 개발자의 요청이 구글챗에 닿을때까지의 시간입니다. 제 경우에는 0.2초로도 충분하네요. 0.2초 타임아웃은 send_something 을 실행하는 로직이 0.2초+a 걸린다는 의미입니다.
+    * 조금 더 쉽게 말해, 0.2초만에 채팅 전송에 성공하지만 성공했다는 메세지를 구글 서버로부터 응답받기에는 2초 정도 걸리니, 1.8초를 아끼기 위한 동작이에요버
+  * 하지만 구글 서버로부터의 응답 시간보다 짧은 timeout 을 걸었을 경우 pygooglechat 은 Exception 을 발생시켜요. 이를 피하기 위해선 하기에 있는 ignore_timeout 옵션 설명을 읽어주세
+* raise_exception : bool(default False):
+    * 구글챗의 응답에 따라 예외를 발생시키고 싶을 수 있습니다. 200 번대의 응답이 아니라면 우리의 챗봇은 예외를 발생시켜 줍니다.
+  
+* ignore_timeout : bool(default False)
+  * 구글챗 서버로의 요청에 timeout 예외가 발생했을 경우 해당 에러를 try-except 구문으로 라이브러리에서 처리해줍니다. timeout 옵션과 같이쓰면 좋겠죠.
+    
+

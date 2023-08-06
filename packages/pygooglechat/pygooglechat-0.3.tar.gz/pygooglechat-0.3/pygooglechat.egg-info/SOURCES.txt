@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pygooglechat/__init__.py
+pygooglechat/google_chat.py
+pygooglechat/response.py
+pygooglechat.egg-info/PKG-INFO
+pygooglechat.egg-info/SOURCES.txt
+pygooglechat.egg-info/dependency_links.txt
+pygooglechat.egg-info/top_level.txt
