@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pierpy.egg-info/PKG-INFO
+pierpy.egg-info/SOURCES.txt
+pierpy.egg-info/dependency_links.txt
+pierpy.egg-info/top_level.txt
