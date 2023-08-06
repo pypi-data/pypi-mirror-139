@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: csvdivider
+Version: 1.1
+Summary: csvdivider
+Home-page: https://github.com/AlexNg9527/csvdivider.git
+Author: Alex Ng
+Author-email: alex_q_wu@qq.com
+Maintainer: Alex Ng
+Maintainer-email: alex_q_wu@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# csvdivider
+csvdivider is a command-line tools for dividing CSV into separated CSVs
+
+## Installing threado and Supported Versions
+
+threado is available on PyPI:
+
+```console
+$ python -m pip install csvdivider
+```
+
