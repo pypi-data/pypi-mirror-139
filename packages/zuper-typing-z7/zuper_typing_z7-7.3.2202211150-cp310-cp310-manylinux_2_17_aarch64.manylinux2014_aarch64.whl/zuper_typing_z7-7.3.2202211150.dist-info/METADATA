@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zuper-typing-z7
+Version: 7.3.2202211150
+Summary: UNKNOWN
+Home-page: https://github.com/zupermind/PACKAGENAME
+Author: Andrea Censi
+Author-email: info@zupermind.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mypy-extensions
+Requires-Dist: numpy
+Requires-Dist: termcolor
+Requires-Dist: typing-extensions
+Requires-Dist: zuper-commons-z7
+Provides-Extra: test
+Requires-Dist: nose ; extra == 'test'
+
+UNKNOWN
+
