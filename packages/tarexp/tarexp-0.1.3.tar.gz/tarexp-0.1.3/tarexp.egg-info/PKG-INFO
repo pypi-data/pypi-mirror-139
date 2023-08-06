@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tarexp
+Version: 0.1.3
+Summary: A Python framework for Technology-Assisted Review experiments.
+Home-page: https://github.com/eugene-yang/tarexp
+Author: Eugene Yang
+Author-email: eugene.yang@jhu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TARexp: A Python Framework for Technology-Assisted Review Experiments
+
