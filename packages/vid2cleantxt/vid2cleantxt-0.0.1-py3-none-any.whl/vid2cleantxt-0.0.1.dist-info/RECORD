@@ -1,0 +1,12 @@
+vid2cleantxt/__init__.py,sha256=_dkffjsmksj3BUhg9agAaHonzco6gYb_oV5hEfJQkdk,84
+vid2cleantxt/audio2text_functions.py,sha256=DpYSINCCb-2QeNBxxpKVKDeleJC4FFmpjjR4ivKa6nI,19433
+vid2cleantxt/transcribe.py,sha256=CPEWC9TaBKHqDKcn-cH3MYQIx0qLFOJChHOv9Ok6g3A,17401
+vid2cleantxt/v2ct_utils.py,sha256=1p_Ya3f0cNmLsabzRqDwnS3htsDxlhQshfszi9zeju4,12262
+vid2cleantxt-0.0.1.data/data/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vid2cleantxt-0.0.1.data/data/README.md,sha256=O12sEqtQ3iwyWK1tlusG_fVudIVGFWpk0fZdzIv0yao,25807
+vid2cleantxt-0.0.1.data/data/requirements.txt,sha256=sJ3hFz_Sl3YWwdCrcO3nrUFO2tTWcEa-FPlKIQIDIgo,379
+vid2cleantxt-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vid2cleantxt-0.0.1.dist-info/METADATA,sha256=R32FcBd2e-diXpu23k_KU2Dc5UgLemBY-zU4k7m2ZvE,27325
+vid2cleantxt-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vid2cleantxt-0.0.1.dist-info/top_level.txt,sha256=7CeE6cUtihqeFz70EdsRxZaWtORRGbxAskyZsMIhT08,13
+vid2cleantxt-0.0.1.dist-info/RECORD,,
