@@ -1,0 +1,86 @@
+# mqtt-to-pagerduty
+
+Read from a MQTT topic and generate a alert in PagerDuty.
+
+[![GitHub Super-Linter](https://github.com/unixorn/mqtt-to-pagerduty/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
+## Installation
+
+### Direct install
+
+`pip install mqtt_to_pagerduty`
+
+### Docker
+
+`docker pull unixorn/mqtt-to-pagerduty`
+
+## Configuration
+
+`mqtt-to-pagerduty` looks for a yaml configuration file in `~/.hass-tools/mqtt-to-pagerduty.yaml`, or `/config/mqtt-to-pagerduty.yaml` when run in a container.
+
+### Configuration example
+
+```yaml
+pagerduty-api-token: XYZZY
+mqtt-server: mqtt.example.com
+topic: hass/alerts
+default-sender: your_pd_user@example.com
+service_id: XYZZY
+```
+
+## Tools
+
+### mqtt-alerter
+
+Creates an alert message and writes it to a MQTT topic for processing by `mqtt-topic-to-pd`.
+
+```shell
+usage: mqtt-alerter [-h] [-d] [-l {DEBUG,INFO,ERROR,WARNING,CRITICAL}] [--settings-file SETTINGS_FILE] [--sender SENDER]
+                    [--mqtt-server MQTT_SERVER] --title TITLE --service-id SERVICE_ID [--message MESSAGE] [--topic TOPIC]
+
+Emit messages into a MQTT topic
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --debug           Debug setting
+  -l {DEBUG,INFO,ERROR,WARNING,CRITICAL}, --log-level {DEBUG,INFO,ERROR,WARNING,CRITICAL}
+                        set log level
+  --settings-file SETTINGS_FILE, --settings SETTINGS_FILE
+                        Path to settings file. Settings in the file are overridden by command line options
+  --sender SENDER       Email address to send alerts from
+  --mqtt-server MQTT_SERVER
+                        MQTT Server to use
+  --title TITLE         Message title
+  --service-id SERVICE_ID
+                        PagerDuty service ID to alert
+  --message MESSAGE     Message to send
+  --topic TOPIC         MQTT topic to write to
+```
+
+### mqtt-topic-to-pd
+
+Listens to a MQTT topic and when it sees an alert message, creates a corresponding PagerDuty alert.
+
+```shell
+usage: mqtt-topic-to-pd [-h] [--api-token API_TOKEN] [-l {DEBUG,INFO,ERROR,WARNING,CRITICAL}] [--settings-file SETTINGS_FILE]
+                        [--duration DURATION] [--sender SENDER] [--service-id SERVICE_ID] [--mqtt-server MQTT_SERVER]
+                        [--topic TOPIC]
+
+Read an MQTT queue and create PagerDuty alerts
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --api-token API_TOKEN
+                        PagerDuty api token
+  -l {DEBUG,INFO,ERROR,WARNING,CRITICAL}, --log-level {DEBUG,INFO,ERROR,WARNING,CRITICAL}
+                        set log level
+  --settings-file SETTINGS_FILE, --settings SETTINGS_FILE
+                        Path to settings file. Settings in the file are overridden by command line options
+  --duration DURATION   How long to read the topic, in seconds
+  --sender SENDER       Email address to send alerts from
+  --service-id SERVICE_ID
+                        Service ID to create an alert
+  --mqtt-server MQTT_SERVER
+                        MQTT server
+  --topic TOPIC         MQTT topic to read
+```

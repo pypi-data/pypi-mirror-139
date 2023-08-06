@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "mqtt-to-pagerduty"
+version = "0.2.1"
+license = "Apache"
+description = "Read messages in a MQTT topic and create PagerDuty alerts"
+authors = ["Joe Block <jpb@unixorn.net>"]
+homepage = "https://github.com/unixorn/mqtt-to-pagerduty"
+repository = "https://github.com/unixorn/mqtt-to-pagerduty"
+readme = "README.md"
+include =[ "LICENSE"]
+keywords = ['PagerDuty', 'mqtt']
+documentation = "https://github.com/unixorn/mqtt-to-pagerduty"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pdcrier = "^0.2.0"
+pyaml = "^21.10.1"
+paho-mqtt = "^1.6.1"
+thelogrus = "^0.6.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+mqtt-alerter = "mqtt_to_pagerduty.emitter:createAlertMessage"
+mqtt-topic-to-pd = "mqtt_to_pagerduty.cli:topicReaderCommand"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/unixorn/mqtt-to-pagerduty/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
