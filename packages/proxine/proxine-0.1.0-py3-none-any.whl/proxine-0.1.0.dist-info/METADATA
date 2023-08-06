@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: proxine
+Version: 0.1.0
+Summary: Proxy engine for Python.
+Author: nchz
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.8.*)
+Requires-Dist: httpx (==0.22.*)
+Requires-Dist: lxml (==4.7.*)
+Requires-Dist: requests (==2.27.*)
+
+# Proxine
+
+Proxy engine for Python.
+
+
+## Basic usage
+
+Check proxies one by one:
+
+```python
+import requests
+from proxine.sources import get_all
+
+proxies = get_all()
+
+for proxy in proxies:
+    try:
+        r = requests.get(
+            "https://httpbin.org/ip",
+            proxies={
+                "http": proxy.to_string(),
+                "https": proxy.to_string(),
+            },
+            timeout=5,
+        )
+        print("OK", proxy)
+    except Exception:
+        print("ERROR", proxy)
+```
+
+
