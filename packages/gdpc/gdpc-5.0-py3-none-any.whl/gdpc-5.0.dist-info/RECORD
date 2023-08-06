@@ -1,0 +1,13 @@
+gdpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdpc/bitarray.py,sha256=_OmzcQmgYLd61e4BZGOaUSL3NMSyHNjBoT637slIgbM,2190
+gdpc/direct_interface.py,sha256=AqY09f5i6ZVbLxuEaC6JUy1ZvGVSu8Csytym1XPEmS4,3192
+gdpc/geometry.py,sha256=nwProZM-d7C0zFCL1eGb3nsiGv8EeIaT1UX__6qvXGk,19113
+gdpc/interface.py,sha256=6vH1VZqLNmQQIP2EG5aoUzOf5KSFAoDB249YSj_SppU,13539
+gdpc/lookup.py,sha256=dqLSOmitCHqq1FIUlie2DjWxYP1_h-3l3dYVyAN7s1Q,78619
+gdpc/toolbox.py,sha256=zAs9JZIPjRM0ts502QL7__HEa0plKNp7k37YnnwhjpE,17428
+gdpc/worldLoader.py,sha256=W1ElhjJBWz7zOn7x2NtibW3nAikMFwMEUdPNMgWXqb0,6638
+gdpc-5.0.dist-info/LICENSE,sha256=RXUO4l_b2NAqPv_n-nml3ynmzPzKbbGUXc4v0SIEok0,1106
+gdpc-5.0.dist-info/METADATA,sha256=XZMAEIFaaTI38PSeCoyzF5kZeOYBTxUYU8k8tozWQXw,3742
+gdpc-5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gdpc-5.0.dist-info/top_level.txt,sha256=7OI5uu0brRVKW0DunD9120etdHJg921w4Ao6JjKaBr8,5
+gdpc-5.0.dist-info/RECORD,,
