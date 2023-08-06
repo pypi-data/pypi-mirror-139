@@ -1,0 +1,7 @@
+setup.py
+mmpackage/__init__.py
+mmpackage/file.py
+mmpackage.egg-info/PKG-INFO
+mmpackage.egg-info/SOURCES.txt
+mmpackage.egg-info/dependency_links.txt
+mmpackage.egg-info/top_level.txt
