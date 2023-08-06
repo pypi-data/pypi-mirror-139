@@ -1,0 +1,596 @@
+import json
+import copy
+import os
+import queue
+import subprocess
+import sys
+import threading
+import time
+
+import fire
+import requests
+from aiohttp import web
+from loguru import logger
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+IS_DEBUG = False
+CLIENT_API_PORT = 4567
+API_KEY = "17146021026"
+SERVER_ADDRESS = "http://127.0.0.1:" + str(CLIENT_API_PORT)
+HEART_BEAT_TIME = 100
+CONNECT_TIME = 60 * 60
+
+check_handler = queue.Queue()
+user_dict_lock = threading.Lock()
+client_dict_lock = threading.Lock()
+
+client_dict = {}
+user_dict = {}
+wait_list = []
+
+
+def DoCMD(cmd, is_wait=True, cwd=None):
+    if is_wait:
+        subprocess.Popen(cmd, shell=True, cwd=cwd).wait()
+    else:
+        subprocess.Popen(cmd, shell=True, cwd=cwd)
+
+
+def GetValue(dicts, key, default_value=""):
+    if key in dicts:
+        return dicts[key]
+    return default_value
+
+
+def MyRequest(url, dicts, is_return=True):
+    try:
+        dicts['api_key'] = API_KEY
+        resp = requests.get(url, params=dicts, timeout=5)
+        return resp.text
+    except Exception as e:
+        logger.debug('bad requests ' + url)
+    return ""
+
+
+async def Login(req):
+    params = req.rel_url.query
+    ip = req.remote
+    user_key = GetValue(params, 'user_key')
+    client_address = GetValue(params, 'client_address')
+    client_address_go = GetValue(params, 'client_address_go')
+    time_stamp = int(time.time())
+
+    text = {'status': 1, 'msg': '', 'user_key': user_key}
+    if user_key == '' or client_address == '' or client_address_go == '':
+        text['msg'] = "missing user_key, client_address or client_address_go"
+    else:
+        if client_address not in client_dict:  # 新vps上线
+            client_dict_lock.acquire()
+            client_dict[client_address] = {
+                'online_list': [],
+                'is_crash': False,
+                'ip': ip,
+                'client_address_go': client_address_go,
+                'client_address': client_address
+            }
+            client_dict_lock.release()
+
+        if user_key not in user_dict:  # 新用户
+            user_dict_lock.acquire()
+            user_dict[user_key] = {
+                'last_connect_client': None,
+                'is_waitting': False,
+                'ctrl': {},
+                'user_key': user_key,
+                'last_connect_time': time_stamp,
+                'last_connect_client_time': time_stamp,
+                'is_connect_client': False
+            }
+            user_dict_lock.release()
+
+        user = user_dict[user_key]
+        user['last_connect_time'] = int(time.time())
+        text = GetStatus(user)
+
+    return web.Response(text=json.dumps(text))
+
+
+def GetStatus(user):
+    user_key = user['user_key']
+    res = {'status': 1, 'msg': '', 'user_key': user_key}
+    if user['is_connect_client']:
+        res['status'] = 0  # 使用中
+        res['msg'] = user['last_connect_client']['client_address']
+    else:
+        if user['is_waitting']:
+            res['status'] = 3  # 已经在等了
+        else:
+            res['status'] = 2  # 首次登录
+        res['msg'] = "waitting"
+        res['waittign_info'] = AddToWaitList(user)
+        if res['status'] == 2:
+            check_handler.put(1)
+    res['ctrl'] = user['ctrl']
+    return res
+
+
+def AddToWaitList(user):
+    try:
+        i = wait_list.index(user)
+        queue_len = len(wait_list)
+        i += 1
+    except Exception as e:
+        wait_list.append(user)
+        queue_len = len(wait_list)
+        i = queue_len
+    user['is_waitting'] = True
+    return {'waitting_user_counts': queue_len, 'position': i}
+
+
+def PopWaitList(user):
+    try:
+        i = wait_list.index(user)
+        wait_list.pop(i)
+    except Exception as e:
+        pass
+    user['is_waitting'] = False
+
+
+def AddUser(user):
+    last_connect_client = user['last_connect_client']
+    if last_connect_client is None:
+        return False
+    url = last_connect_client['client_address_go']
+    user_key = user['user_key']
+    res = MyRequest('%s' % (url), {
+        'event': "add",
+        'user_key': user_key,
+    })
+    try:
+        res = json.loads(res)
+        try:
+            i = last_connect_client['online_list'].index(user)
+            last_connect_client['online_list'].pop(i)
+        except:
+            pass
+        last_connect_client['online_list'].append(user)
+        user['is_connect_client'] = True
+        user['ctrl'] = res
+        PopWaitList(user)
+        logger.debug("add user " + str(user_key))
+    except Exception as e:
+        logger.debug('fail to AddUser ' + str(res))
+        return False
+    return res
+
+
+def AssignClient(user):
+    time_stamp = int(time.time())
+    client_dict_lock.acquire()
+    temp = GetKeys(client_dict)
+    client_dict_lock.release()
+    for item in temp:
+        item = client_dict[item]
+        if len(item['online_list']) >= 1000 or item['is_crash']:
+            continue
+        user['last_connect_client'] = item
+        user['last_connect_client_time'] = time_stamp
+        if AddUser(user) is not False:
+            PopWaitList(user)
+            return item
+        item['is_crash'] = True
+    return False
+
+
+def RemoveUser(user):
+    last_connect_client = user['last_connect_client']
+    if last_connect_client is None:
+        return False
+    url = last_connect_client['client_address_go']
+    user_key = user['user_key']
+    res = MyRequest('%s' % (url), {'user_key': user_key, 'event': "remove"})
+    logger.debug(res)
+    try:
+        res = json.loads(res)
+        try:
+            i = last_connect_client['online_list'].index(user)
+            last_connect_client['online_list'].pop(i)
+        except Exception:
+            pass
+        user['is_connect_client'] = False
+        logger.debug('removed ' + str(user_key))
+        user['ctrl'] = res
+        PopWaitList(user)
+    except Exception as e:
+        logger.exception(e)
+        return False
+    return res
+
+
+async def LogOut(req):
+    params = req.rel_url.query
+    ip = req.remote
+    user_key = GetValue(params, 'user_key')
+    user_id = user_key + ip
+
+    text = {'status': 1, 'msg': '', 'user_key': user_key, 'ip': ip}
+    if user_key == '':
+        text['msg'] = "missing user_key"
+    else:
+        text = RemoteLogOut(text)
+    return web.Response(text=json.dumps(text))
+
+
+async def Home(req):
+    text = {'ip': req.remote}
+    return web.Response(text=json.dumps(text))
+
+
+def Run():
+    app = web.Application()
+    app.add_routes([
+        web.get('/', Home),
+        web.get('/login', Login),
+        web.get('/logout', LogOut),
+    ])
+    web.run_app(
+        app,
+        host='127.0.0.1',
+        port=int(CLIENT_API_PORT),
+    )  # block here
+
+
+def Next(pop_user, force=False):
+    if len(wait_list) == 0 and force is False:
+        return
+    RemoveUser(pop_user)
+    if len(wait_list) != 0:
+        AssignClient(wait_list[0])
+
+
+def GetKeys(dicts):
+    res = []
+    for item in dicts:
+        res.append(item)
+    return res
+
+
+def _check():
+    time_stamp = int(time.time())
+    user_dict_lock.acquire()
+    temp = GetKeys(user_dict)
+    user_dict_lock.release()
+    for item in temp:
+        item = user_dict[item]
+
+        with_heart_beat = False
+        if (time_stamp - item['last_connect_time']) < HEART_BEAT_TIME:
+            with_heart_beat = True
+
+        if not item['is_connect_client']:
+            if item['is_waitting'] and not with_heart_beat:  # 用户不想等了，帮他下线。
+                PopWaitList(item)
+        else:
+            if not with_heart_beat:  # 没心跳了
+                Next(item, force=True)
+            elif (time_stamp -
+                  item['last_connect_client_time']) > CONNECT_TIME:  # 用了超过一小时
+                # 如果有人在等的话就强制下线，没人等就继续让他用。
+                Next(item)
+
+
+def CheckHandler():
+    while True:
+        try:
+            item = check_handler.get()
+            logger.debug('BEAT_TIME')
+            for item in wait_list:
+                if AssignClient(item) is False:
+                    break
+            _check()
+        except Exception as e:
+            logger.exception()
+
+
+def Check():  # 没心跳或用了一小时的用户全部下线
+    while True:
+        time.sleep(10)
+        check_handler.put(1)
+
+
+def TestMain():
+    try:
+        # _test_main1()
+        _test_main2()
+    except Exception as e:
+        logger.exception(e)
+
+
+def _test_main2():
+    good_client = 'http://127.0.0.1:4566'
+    good_client_go = 'https://uif01.xyz/handle'
+    test_uuid = 'a331381d-6324-4d53-ad4f-6cda48b30648'
+    # a831381d-6324-4d53-ad4f-9cda48b30648
+    global HEART_BEAT_TIME
+    HEART_BEAT_TIME = 30
+    DoCMD(
+        'python C:/Users/qwer/Desktop/vimrc/myproject/test/uifv2ray/python_new_client/uif_client/uif_client/ctrl/ctrl.py --remote_address "%s" --client_address "%s" --client_address_go "%s"'
+        % (SERVER_ADDRESS, good_client, good_client_go),
+        is_wait=False)
+
+    res = MyRequest('%s/login' % good_client, {
+        'user_key': test_uuid,
+    })
+    res = json.loads(res)
+    logger.debug(res)
+    assert res['status'] == 2  # 首次登录
+    assert len(client_dict) == 1
+    assert len(user_dict) == 1
+
+    time.sleep(2)
+
+    res = MyRequest('%s/login' % good_client, {
+        'user_key': test_uuid,
+    })
+    res = json.loads(res)
+    assert res['status'] == 0  # 使用中
+    assert user_dict[test_uuid]['is_waitting'] is False
+    logger.debug(res)
+
+    for item in range(10):
+        time.sleep(10)
+        res = MyRequest('%s/login' % good_client, {
+            'user_key': test_uuid,
+        })
+
+
+# {{{
+def _test_main1():
+    time.sleep(3)
+    test_uuid = 'a331381d-6324-4d53-ad4f-9cda48b30648'
+    bad_client = 'https://bad_client.yz/'
+    res = MyRequest(
+        '%s/login' % SERVER_ADDRESS, {
+            'user_key': test_uuid,
+            'client_address_go': 'https://bad_client_go.yz/',
+            'client_address': bad_client
+        })
+
+    res = json.loads(res)  # 只许返回json
+    logger.debug(res)
+
+    assert res['status'] == 2  # 首次登录
+    assert 'ip' not in res
+    assert test_uuid in user_dict
+
+    user = user_dict[test_uuid]
+    assert user['user_key'] == test_uuid
+    assert user['is_connect_client'] is False
+    assert user['is_waitting']
+
+    assert bad_client in client_dict
+    client = client_dict[bad_client]
+    assert user['last_connect_client'] == client
+
+    assert client['client_address'] == bad_client
+    assert len(client['online_list']) == 0
+    assert client['is_crash'] == False
+
+    assert len(wait_list) == 1
+    assert wait_list[0] == user
+
+    assert res['waittign_info']['waitting_user_counts'] == 1
+    assert res['waittign_info']['position'] == 1
+
+    time.sleep(6)
+
+    assert len(wait_list) == 1
+    assert len(client['online_list']) == 0
+    assert client['is_crash'] == True
+
+    ###########
+    #  test2  #
+    ###########
+    good_client_go = 'http://127.0.0.1:9090'
+    good_client = 'http://127.0.0.1:4566'
+
+    DoCMD(
+        'C:/Users/qwer/Desktop/vimrc/myproject/test/uifv2ray/python_new_client/uif_client/uif_client/ctrl/windows_x64.exe',
+        is_wait=False)
+
+    DoCMD(
+        'python C:/Users/qwer/Desktop/vimrc/myproject/test/uifv2ray/python_new_client/uif_client/uif_client/ctrl/ctrl.py --remote_address "%s" --client_address "%s" --client_address_go "%s"'
+        % (SERVER_ADDRESS, good_client, good_client_go),
+        is_wait=False)
+
+    time.sleep(3)
+
+    res = MyRequest('%s/login' % good_client, {
+        'user_key': test_uuid,
+    })
+
+    logger.debug(res)
+    res = json.loads(res)
+
+    assert res['status'] == 3  # 这是第二次 GetStatus()，已经在等了
+    assert len(user_dict) == 1
+    # 还在等，因为第一次的客户机是无效的，虽然第二次是有效的客户机，但不会立刻分配
+    assert user['is_connect_client'] is False
+    assert user['is_waitting'] is True
+    assert len(client_dict) == 2
+    assert good_client in client_dict
+    assert len(client_dict[good_client]['online_list']) == 0
+
+    time.sleep(10)
+
+    res = MyRequest('%s/login' % good_client, {
+        'user_key': test_uuid,
+    })
+
+    logger.debug(res)
+    res = json.loads(res)
+    assert res['status'] == 0
+    assert res['msg'] == good_client
+    assert res['user_key'] == test_uuid
+    assert len(client_dict[good_client]['online_list']) == 1
+    assert client_dict[good_client]['online_list'][0] == user_dict[test_uuid]
+    assert user_dict[test_uuid]['last_connect_client']['online_list'][
+        0] == user_dict[test_uuid]
+
+    assert RemoveUser(user_dict[test_uuid]) is not False
+    assert len(client_dict[good_client]['online_list']) == 0
+    assert user_dict[test_uuid]['last_connect_client']['online_list'] == []
+    assert client_dict[good_client]['online_list'] == []
+    assert user_dict[test_uuid]['is_waitting'] is False
+    assert user_dict[test_uuid]['is_connect_client'] is False
+
+    res = MyRequest('%s/login' % good_client, {
+        'user_key': test_uuid,
+    })
+
+    check_handler.put(1)
+    time.sleep(2)
+
+    assert len(client_dict[good_client]['online_list']) == 1
+    assert user_dict[test_uuid]['is_waitting'] is False
+    assert user_dict[test_uuid]['is_connect_client']
+
+    ###########
+    #  test3  #
+    ###########
+    i = 0
+    for item in range(10):
+        res = MyRequest('%s/login' % good_client, {
+            'user_key': i,
+        })
+        res = json.loads(res)
+        logger.debug(res)
+        assert res['status'] == 2
+        i += 1
+        time.sleep(2)
+
+    i = 0
+    for item in range(10):
+        res = MyRequest('%s/login' % good_client, {
+            'user_key': str(i),
+        })
+        res = json.loads(res)
+        logger.debug(res)
+        assert res['status'] == 0
+        i += 1
+
+    for item in range(989):
+        res = MyRequest('%s/login' % good_client, {
+            'user_key': str(i),
+        })
+        res = json.loads(res)
+        logger.debug(res)
+        assert res['status'] == 2
+        assert res['user_key'] == str(i)
+        i += 1
+
+    time.sleep(3)
+    assert len(user_dict) == 1000
+    assert len(wait_list) == 0
+
+    i = 0
+    for item in range(2):
+        res = MyRequest('%s/login' % good_client, {
+            'user_key': 'wait_' + str(i),
+        })
+        res = json.loads(res)
+        logger.debug(res)
+        assert res['status'] == 2
+        assert len(wait_list) == i + 1
+        assert res['waittign_info']['waitting_user_counts'] == i + 1
+        assert res['waittign_info']['position'] == i + 1
+        i += 1
+
+    check_handler.put(1)
+    time.sleep(2)
+    assert len(user_dict) == 1002
+    assert len(client_dict[good_client]['online_list']) == 1000
+    assert len(wait_list) == 2
+
+    i = 0
+    for item in range(2):
+        res = MyRequest('%s/login' % good_client, {
+            'user_key': 'wait_' + str(i),
+        })
+        res = json.loads(res)
+        logger.debug(res)
+        assert res['status'] == 3
+        i += 1
+
+    check_handler.put(1)
+    time.sleep(1)
+    assert len(wait_list) == 2
+    assert user_dict[test_uuid]['last_connect_client'] == client_dict[
+        good_client]
+    assert user_dict[test_uuid]['is_connect_client']
+    assert RemoveUser(user_dict[test_uuid]) is not False
+    assert len(wait_list) == 2
+    assert user_dict[test_uuid]['is_connect_client'] is False
+    assert user_dict[test_uuid]['is_waitting'] is False
+
+    assert len(client_dict[good_client]['online_list']) == 999
+    assert len(
+        user_dict[test_uuid]['last_connect_client']['online_list']) == 999
+
+    check_handler.put(1)
+    time.sleep(1)
+    assert len(wait_list) == 1
+    assert user_dict[test_uuid]['is_connect_client'] is False
+    assert user_dict[test_uuid]['is_waitting'] is False
+    assert len(client_dict[good_client]['online_list']) == 1000
+    assert user_dict['wait_0']['is_waitting'] is False
+    assert user_dict['wait_0']['is_connect_client']
+
+    assert user_dict['wait_1']['is_waitting']
+    assert user_dict['wait_1']['is_connect_client'] is False
+
+    user_dict['wait_0']['last_connect_time'] = int(time.time())
+    check_handler.put(1)
+    time.sleep(4)
+    assert user_dict['wait_0']['is_waitting'] is False
+    assert user_dict['wait_0']['is_connect_client']
+    assert len(wait_list) == 1
+
+    global HEART_BEAT_TIME
+    HEART_BEAT_TIME = 10
+    for item in range(2):
+        res = MyRequest('%s/login' % good_client, {
+            'user_key': 'wait_0',
+        })
+        res = json.loads(res)
+        assert res['status'] == 0
+        assert res['msg'] == good_client
+        time.sleep(5)
+
+    logger.debug('assert ok!')
+
+
+# }}}
+
+
+def Main(server_address=None, is_test=True):
+    global SERVER_ADDRESS
+    if server_address is not None:
+        SERVER_ADDRESS = server_address
+    threading.Thread(target=Check).start()
+    threading.Thread(target=CheckHandler).start()
+
+    if is_test:
+        IS_DEBUG = True
+        path = BASE_DIR + '/debug.log'
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write('')
+        level = "DEBUG"
+        logger.add(path, level=level, encoding='utf-8')
+        threading.Thread(target=TestMain).start()
+
+
+if __name__ == '__main__':
+    fire.Fire(Main)
+    Run()
