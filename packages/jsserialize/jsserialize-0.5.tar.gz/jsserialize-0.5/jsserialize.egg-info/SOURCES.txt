@@ -1,0 +1,8 @@
+README.md
+jsserialize.py
+setup.cfg
+setup.py
+jsserialize.egg-info/PKG-INFO
+jsserialize.egg-info/SOURCES.txt
+jsserialize.egg-info/dependency_links.txt
+jsserialize.egg-info/top_level.txt
