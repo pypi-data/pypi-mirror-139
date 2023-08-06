@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: triangle-sector-similarity
+Version: 1.5
+Summary: Find the similarity between vectors
+Home-page: https://github.com/mohvam98/triangle_sector_similarity
+Author: mohan98
+Author-email: mohanavamsi98@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# Triangle Area - Sector Area Similarity
+It takes two vectors as an input and can return Cosine Similarity, Eucledian Distance, Triangle Area - Sector Area Similarity.
+
+## Installation
+``` pip install triangle_sector_similarity ```
+
+## How to use it?
+```
+from triangle_sector_similarity import Cosine_Similarity,Euclidean_Distance,TS_SS
+
+vec1 = [1,2,3]
+vec2 = [2,4,5]
+
+#Triangle Area Similarity â€“ Sector Area Similarity
+ts_ss = TS_SS(vec1,vec2)
+
+#Cosine Similarity
+cos_sim = Cosine_Similarity(vec1,vec2)
+
+#Euclidean Distance
+euc_dist = Euclidean_Distance(vec1,vec2)
+```
+
+## License
+Â© 2022 mohan98
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
