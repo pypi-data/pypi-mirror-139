@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: genosolver
+Version: 0.1.0.6
+Summary: GENO is a solver for non-linear optimization problems. It can solve constrained and unconstrained problems.
+Home-page: http://www.geno-project.org
+Author: Soeren Laue
+Author-email: soeren.laue@uni-jena.de
+License: AGPL-3.0
+Project-URL: Source, https://github.com/slaue/genosolver/
+Keywords: optimization,machine_learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: packaging
+
+# The GENO solver
+
+[![Build Status](https://app.travis-ci.com/slaue/genosolver.svg?token=6e4Ji9xEp8uDra4uHsxu&branch=main)](https://travis-ci.com/slaue/genosolver)
+
+GENO is a solver for non-linear optimization problems. It can solve constrained and unconstrained problems. It is fully written in Python with no dependencies and it can run on the CPU and on the GPU.
+
+## Installing
+
+```
+pip install genosolver
+```
+
+## Project Homepage
+
+See [geno-project.org](http://www.geno-project.org) for more details, examples, and for an easy-to-read  modeling language interface.
+
+
+## Authors
+
+* [**Sören Laue**](https://theinf2.informatik.uni-jena.de/People/Soeren+Laue.html) - most of the solver -
+* [**Mark Blacher**](https://theinf2.informatik.uni-jena.de/People/Mark+Blacher.html) - GPU support
+* [**Matthias Mitterreiter**](https://theinf2.informatik.uni-jena.de/People/Matthias+Mitterreiter.html)
+
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.
+
+## Papers
+
+For more information, see the papers 
+* [Optimization for Classical Machine Learning Problems on the GPU](https://aaai.org/Conferences/AAAI-22). Sören Laue, Mark Blacher, and Joachim Giesen. In *AAAI Conference on Artificial Intelligence (AAAI),* 2022.
+* [GENO -- GENeric Optimization for Classical Machine Learning](http://papers.nips.cc/paper/8491-geno-generic-optimization-for-classical-machine-learning). Sören Laue, Matthias Mitterreiter, and Joachim Giesen. In *Advances in Neural Information Processing Systems (NeurIPS),* 2019.
+
+
