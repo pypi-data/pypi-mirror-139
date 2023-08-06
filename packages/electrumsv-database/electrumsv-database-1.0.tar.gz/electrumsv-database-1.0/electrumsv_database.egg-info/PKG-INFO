@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: electrumsv-database
+Version: 1.0
+Summary: Database support for use of SQLite (possibly other databases later).
+Home-page: https://github.com/electrumsv/electrumsv-database
+Author: Roger Taylor
+Author-email: roger.taylor.email@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+ElectrumSV Database
+===================
+
+    Licence: MIT License
+    Maintainers: Roger Taylor, AustEcon
+    Project Lead: Roger Taylor
+    Homepage: https://electrumsv.io/
+
+
+Overview
+========
+
+This is the database support library for ElectrumSV. This functionality has been extracted into
+an independent package so that it can be used by other projects.
+
+

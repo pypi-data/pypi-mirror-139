@@ -1,0 +1,7 @@
+README.md
+setup.py
+electrumsv_database.egg-info/PKG-INFO
+electrumsv_database.egg-info/SOURCES.txt
+electrumsv_database.egg-info/dependency_links.txt
+electrumsv_database.egg-info/requires.txt
+electrumsv_database.egg-info/top_level.txt
