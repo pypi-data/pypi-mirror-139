@@ -1,0 +1,6 @@
+sigma/pipelines/crowdstrike/__init__.py,sha256=tkiOB5-QJa4WnEucAzLL-e5CQOol5GlsJU6MMzd0ZDs,60
+sigma/pipelines/crowdstrike/crowdstrike.py,sha256=fN7gukNS99Ef2esRH61R-aj7zlmESUn0K-bj-cBCL1g,5216
+pysigma_pipeline_crowdstrike-0.1.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+pysigma_pipeline_crowdstrike-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pysigma_pipeline_crowdstrike-0.1.1.dist-info/METADATA,sha256=dfsmB_L38aHJ3vZh-a4Vtm_ZF8cX7PD_XDo1mZJ5Hlc,502
+pysigma_pipeline_crowdstrike-0.1.1.dist-info/RECORD,,
