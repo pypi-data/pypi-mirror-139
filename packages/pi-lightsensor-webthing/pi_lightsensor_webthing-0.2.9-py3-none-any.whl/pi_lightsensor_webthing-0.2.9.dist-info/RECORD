@@ -1,0 +1,10 @@
+pi_lightsensor_webthing/__init__.py,sha256=RETbc9Etg5HsEsMUxLS6bd9_Aw9J5PthWrHESHOIxks,1588
+pi_lightsensor_webthing/app.py,sha256=XeO_zz-29rlSANM7k-Vc40MIbqR4M0z9KZZRrpX7_yM,5529
+pi_lightsensor_webthing/lightsensor.py,sha256=PWdzR2ugBd1jDWk_zBxpdifPOiYuLK6owmuROE13fCU,684
+pi_lightsensor_webthing/lightsensor_webthing.py,sha256=QiR9Z49H5xRK370LuD0OWq7SH7PCGVsnmoZltiafWZI,2035
+pi_lightsensor_webthing-0.2.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pi_lightsensor_webthing-0.2.9.dist-info/METADATA,sha256=W1Y3QYJPcYJOTeQV4X4JoV9lCSZn33dubjoI6JqkPDo,2495
+pi_lightsensor_webthing-0.2.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pi_lightsensor_webthing-0.2.9.dist-info/entry_points.txt,sha256=u6xBgUTO2lcV1Jvj8XA9uhwuAzPP-_Td439zO3KbvSc,62
+pi_lightsensor_webthing-0.2.9.dist-info/top_level.txt,sha256=3uN31K1fZS6pEs_rpkWQO0kDZLlpWmrZnlEqdjsJ2ug,24
+pi_lightsensor_webthing-0.2.9.dist-info/RECORD,,
