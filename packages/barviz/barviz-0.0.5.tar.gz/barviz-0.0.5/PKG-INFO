@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: barviz
+Version: 0.0.5
+Summary: A simple python module to visualize barycentric data.
+Home-page: https://gricad-gitlab.univ-grenoble-alpes.fr/pjluc/barviz-mod
+Author: JL Parouty
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BarViz
+
+A simple python module to visualize barycentric data.
+
+## 1/ About
+
+**barviz** is a minimalist python module, built on top of **plotly**, allowing to display data in a barycentric space. 
+
+## 1/ Installation
+
+To install barviz :
+```
+pip install --upgrade barviz
+```
+Ideally, barviz is designed to be used from a **Jupyter lab** notebook.\
+ To create a complete virtual environment :
+```
+python -m venv barviz-env
+source barviz-env/bin/activate
+pip install --upgrade barviz jupyterlab
+jupyter lab
+```
+
+## 2/ Using it
+
+For the impatients :
+```
+from barviz import Simplex
+
+my_simplex = Simplex.build(5)
+my_simlex.plot()
+```
+
+
