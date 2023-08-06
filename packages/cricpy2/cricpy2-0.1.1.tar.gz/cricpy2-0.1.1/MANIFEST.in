@@ -1,0 +1,7 @@
+include README.md
+include requirements.txt
+
+recursive-include cricpy2 *
+
+recursive-include tests *
+recursive-exclude * __pycache__
