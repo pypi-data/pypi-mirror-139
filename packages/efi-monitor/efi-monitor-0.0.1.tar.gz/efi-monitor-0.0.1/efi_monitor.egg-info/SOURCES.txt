@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+efi_monitor/__init__.py
+efi_monitor/_cli.py
+efi_monitor.egg-info/PKG-INFO
+efi_monitor.egg-info/SOURCES.txt
+efi_monitor.egg-info/dependency_links.txt
+efi_monitor.egg-info/entry_points.txt
+efi_monitor.egg-info/requires.txt
+efi_monitor.egg-info/top_level.txt

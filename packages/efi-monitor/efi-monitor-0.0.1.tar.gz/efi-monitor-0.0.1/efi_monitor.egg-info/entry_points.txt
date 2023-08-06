@@ -1,0 +1,3 @@
+[console_scripts]
+efi-check = efi_monitor._cli:check
+efi-clear = efi_monitor._cli:clear
