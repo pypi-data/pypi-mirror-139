@@ -1,0 +1,11 @@
+pyyaml
+numpy
+scipy
+pandas
+pyDataverse>=0.3.0
+tqdm>=4.0.0
+
+[interactive]
+nbstripout
+matplotlib
+jupyter
