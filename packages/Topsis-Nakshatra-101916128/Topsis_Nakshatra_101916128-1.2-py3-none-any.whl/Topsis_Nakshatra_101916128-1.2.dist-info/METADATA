@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: Topsis-Nakshatra-101916128
+Version: 1.2
+Summary: Topsis
+Home-page: UNKNOWN
+Author: Nakshatra
+Author-email: nnakshatra_be19@thapar.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Topsis-Nakshatra-101916128
+
+The Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) is a multi-criteria decision analysis method.
+It is commonly used to solve decision-making problems.\
+This package is used to implement TOPSIS in single line of code.
+
+## Input
+
+It takes a input CSV file which must contain >=3 columns: \
+First column is the object/variable name (e.g. M1, M2, M3, M4â€¦...).\
+From 2nd to last columns must contain numeric values only.
+
+## Output
+
+Result file contains all the columns of input file and two additional columns having Topsis Score and Rank \
+It returns a dataframe as well as creates a CSV file in Current Working Directory.
+
+## Usage:
+
+```python
+!pip install Topsis-Nakshatra-101916128
+tp=__import__("Topsis-Nakshatra-101916128")
+tp.topsis("101916128-data.csv","1,1,1,1,1","+,+,-,+,+","result.csv")
+#tp.topsis("input file name ","weights","impacts","outpul file name")
+```
+
+
