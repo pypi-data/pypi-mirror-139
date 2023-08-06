@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+pycronserver/__init__.py
+pycronserver/__main__.py
+pycronserver/_version.py
+pycronserver/local.py
+pycronserver/server.py
+pycronserver.egg-info/PKG-INFO
+pycronserver.egg-info/SOURCES.txt
+pycronserver.egg-info/dependency_links.txt
+pycronserver.egg-info/entry_points.txt
+pycronserver.egg-info/requires.txt
+pycronserver.egg-info/top_level.txt
