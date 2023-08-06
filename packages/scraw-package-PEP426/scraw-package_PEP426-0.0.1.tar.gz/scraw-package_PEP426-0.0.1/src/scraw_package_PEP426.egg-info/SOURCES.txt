@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/example_package/__init__.py
+src/example_package/example.py
+src/scraw_package_PEP426.egg-info/PKG-INFO
+src/scraw_package_PEP426.egg-info/SOURCES.txt
+src/scraw_package_PEP426.egg-info/dependency_links.txt
+src/scraw_package_PEP426.egg-info/top_level.txt
