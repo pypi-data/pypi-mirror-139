@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: benchENAS
+Version: 1.2.0
+Summary: A benchmark platform for Evolutionary Neural Architecture Search
+Home-page: https://github.com/benchenas/BenchENA
+Author: benchenas
+Author-email: benchenas99@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: paramiko
+Requires-Dist: numpy
+Requires-Dist: multiprocess
+Requires-Dist: torch (==1.6.0)
+Requires-Dist: torchvision (==0.7.0)
+Requires-Dist: redis
+Requires-Dist: scipy
+
+The codes have been tested on Python 3.6 + pytorch 1.1 + torchvision 0.3.0 (pytorch 1.3 seems also ok, but not test thoroughly)
+
+BenchENAS is a platform to help researchers conduct fair comparisons upon Evolutionary algorithm based Neural Architecture Search (ENAS) algorithms. BenchENAS currently has the following features (more are still in process, and welcome join us to contribute BenchENAS):
+ -  Nine representative state-of-the-art ENAS algorithms have been implemented into BenchENAS. They can be easily performed with customized benchmark datasets (including popular preprocessing techniques) and training algorithms (such as learning rate, optimizers, etc).
+
+ - A GPU distributed training component is designed in BenchENAS to accelerate fitness evaluation. This component is specifically developed for common research environments where not many GPUs are specifically prepared.
+
+ - BenchENAS is implemented by native Python with very few third-party libraries for easy installation. All components in BenchENAS can be easily configured with different data settings and different trainer settings.
+
+ - BenchENAS is modular designed for easy extensibility. Researchers can easily implement their ENAS algorithms into BenchENAS, while directly using the implemented datasets, training algorithms (can also add their own datasets and training algorithms into BenchENAS), and distributed training components.
+
+A research paper comprehensively introducing BenchENAS is available at: https://ieeexplore.ieee.org/document/9697075.
+
+ ## Requirements:
+
+ ### Center Computer:
+   - redis (ubuntu software, start using the command redis-server --protected-mode on)
+   - sshpass (python lib)
+   - paramiko (python lib)
+
+ ### Conter Computer & workers:
+   - multiprocess (python lib)
+   - redis (python lib)
+
+## Running
+
+Here's a quick run down of the main steps of running BenchENAS. For more details see our [Documentation](https://benchenas.com/api/modules.html/) and [Example](https://benchenas.com/).
+
+1. Start the redis-server on the center computer
+
+```
+$ ./redis-server   redis.conf
+```
+
+2. Initialize configuration of the algorithm and training parameters
+
+```python
+alg_list = {'algorithm': 'aecnn', 'max_gen': 20, 'pop_size': 20,
+            'log_server': 'xx.xx.xx.xx', 'log_server_port': 6379,
+            'exe_path': '/home/xxx/anaconda3/bin/python3'}
+
+# dataset_list = ['MNIST', 'CIFAR10', 'CIFAR100']
+# if dataset not in dataset_list, load customized dataset(data_dir)
+train_list = {'dataset': 'CIFAR10', 'data_dir': '/home/xiaoyang/eye_dataset', 
+              'img_input_size': [244, 244, 3],'optimizer': 'SGD', 'lr': 0.025,
+              'batch_size': 64, 'total_epoch': 50, 'lr_strategy': 'ExponentialLR'}
+
+gpu_info_list = {}
+content = {'worker_ip': 'xx.xx.xx.xx', 'worker_name': 'cuda0', 'ssh_name': 'xxx',
+           'ssh_password': '.123456', 'gpu': [1, 2]}
+gpu_info_list['xx.xx.xx.xx'] = content
+```
+
+3. Start the init_compute.py script to start the compute platform and detect free GPU devices
+
+```python
+from benchenas import init_compute
+
+init_compute.run(alg_list, train_list, gpu_info_list)
+```
+
+4. Start the algorithm you would like to perform
+
+```python
+from benchenas import main
+
+main.run(alg_list, train_list, gpu_info_list)
+```
+## How to use
+- Start the redis-server on the center computer (redis-server --protected-mode no)
+- Start the init_compute.py script to start the compute platform with parameter[run(alg_list,  train_list,  gpu_info_list)]
+- Start the algorithm you would like to perform with parameter[run(alg_list,  train_list,  gpu_info_list, search_space)] search_space default 'micro' 
+
