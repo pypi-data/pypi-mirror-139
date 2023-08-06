@@ -1,0 +1,5 @@
+recursive-include wagtailextraicons/templates *
+recursive-include docs *
+
+recursive-exclude wagtailextraicons/static *
+recursive-include docs *

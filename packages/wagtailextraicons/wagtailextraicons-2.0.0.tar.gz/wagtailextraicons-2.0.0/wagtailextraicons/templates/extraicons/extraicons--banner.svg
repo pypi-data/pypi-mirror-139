@@ -1,0 +1,8 @@
+<symbol id="icon-extraicons--banner" viewbox="0 0 88 56">
+ <path d="M0,0V56H88V0ZM8,16H36v6H8ZM36,38H8V34H36Zm3-7H8V27H39ZM82,45H45V12H82Z" fill="currentColor">
+ </path>
+ <polygon fill="currentColor" points="80 43 47 43 56.32 33.98 65.25 36.14 73.79 27 80 33.12 80 43">
+ </polygon>
+ <circle cx="54.58" cy="24.75" fill="currentColor" r="3.58">
+ </circle>
+</symbol>

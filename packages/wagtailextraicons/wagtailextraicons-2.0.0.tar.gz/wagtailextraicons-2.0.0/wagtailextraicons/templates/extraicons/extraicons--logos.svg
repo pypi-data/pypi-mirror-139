@@ -1,0 +1,28 @@
+<symbol id="icon-extraicons--logos" viewbox="-1 0 95 35">
+ <path d="M0 0h32v4H0z" fill="currentColor">
+ </path>
+ <circle cx="5" cy="15" fill="currentColor" r="5">
+ </circle>
+ <circle cx="21.6" cy="15" fill="currentColor" r="5">
+ </circle>
+ <circle cx="38.2" cy="15" fill="currentColor" r="5">
+ </circle>
+ <circle cx="54.8" cy="15" fill="currentColor" r="5">
+ </circle>
+ <circle cx="71.4" cy="15" fill="currentColor" r="5">
+ </circle>
+ <circle cx="88" cy="15" fill="currentColor" r="5">
+ </circle>
+ <circle cx="5" cy="29" fill="currentColor" r="5">
+ </circle>
+ <circle cx="21.6" cy="29" fill="currentColor" r="5">
+ </circle>
+ <circle cx="38.2" cy="29" fill="currentColor" r="5">
+ </circle>
+ <circle cx="54.8" cy="29" fill="currentColor" r="5">
+ </circle>
+ <circle cx="71.4" cy="29" fill="currentColor" r="5">
+ </circle>
+ <circle cx="88" cy="29" fill="currentColor" r="5">
+ </circle>
+</symbol>
