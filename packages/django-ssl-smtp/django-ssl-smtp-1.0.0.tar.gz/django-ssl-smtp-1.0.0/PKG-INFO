@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: django-ssl-smtp
+Version: 1.0.0
+Summary: SSL SMTP Support for Django Framework 4.0 and UP
+Home-page: https://himelrana.com
+Author: Himel
+Author-email: contact@himelrana.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
