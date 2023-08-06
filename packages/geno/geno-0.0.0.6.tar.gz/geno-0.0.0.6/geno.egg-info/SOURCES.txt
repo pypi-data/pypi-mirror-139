@@ -1,0 +1,10 @@
+README.md
+setup.py
+geno.egg-info/PKG-INFO
+geno.egg-info/SOURCES.txt
+geno.egg-info/dependency_links.txt
+geno.egg-info/requires.txt
+geno.egg-info/top_level.txt
+genosolver/__init__.py
+genosolver/_version.py
+genosolver/genosolver.py
