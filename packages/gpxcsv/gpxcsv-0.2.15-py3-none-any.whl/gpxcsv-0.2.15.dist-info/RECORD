@@ -1,0 +1,10 @@
+Tests/TestGpx.py,sha256=QPid76NLpoXY3BhW7nxIczTpbFX1Pb2WT5w_XeYhaHs,3054
+Tests/__init__.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+gpxcsv/__init__.py,sha256=vM0EcssUxurNZVsVNnKtjfTssRyK0LopTeOa9jnx5AQ,8826
+gpxcsv/__main__.py,sha256=CxA1iFuskg9oVii2OZoQ8VOruzJ4beUESclOqBCyD4Q,1905
+gpxcsv-0.2.15.dist-info/LICENSE,sha256=X3p1gfAclT1vJPMcceFPj-pezb6g3OaSPnMoWm85qkY,1070
+gpxcsv-0.2.15.dist-info/METADATA,sha256=DLHWfQjZTnRso1vksZBH6ICM3s8OEquQs4Bj8h3Usig,5972
+gpxcsv-0.2.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gpxcsv-0.2.15.dist-info/entry_points.txt,sha256=ebFfr_iCj1KxrWqaPhb2pjQoe3WeZlwLmM5ow8dAzcY,49
+gpxcsv-0.2.15.dist-info/top_level.txt,sha256=GukyeFKz1UmIJLRR3NQT3dYTA-2D5j27ApOx4leUjmk,13
+gpxcsv-0.2.15.dist-info/RECORD,,
