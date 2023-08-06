@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: wechrom
+Version: 0.1.0
+Summary: Python implementation for the WEChroM Model
+Home-page: https://github.com/VickyLu001/wechrom
+Download-URL: https://github.com/VickyLu001/wechrom/tarball/0.1.0
+Author: Weiqi Lu
+Author-email: luweicky@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: openmm (<=7.5)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: MDAnalysis
+Requires-Dist: setuptools
+Requires-Dist: tqdm
+
+wechrom
+
+===============================
+
+
+
+Python implementation for the WEChroM Model
+
+
+
+Documentation
+
+--------------
+
+
+
+Documentation and tutorials are hosted in [readthedocs](https://wechrom.readthedocs.io/en/latest/)
+
+
+
+
+
+Installation / Usage
+
+--------------------
+
+
+
+<!-- To install use pip:
+
+
+
+    $ pip install wechrom -->
+
+
+
+
+
+To install from the source:
+
+
+
+    $ git clone https://github.com/VickyLu001/wechrom.git
+
+    $ pip install -e ./wechrom
+
+    
+
+
+
