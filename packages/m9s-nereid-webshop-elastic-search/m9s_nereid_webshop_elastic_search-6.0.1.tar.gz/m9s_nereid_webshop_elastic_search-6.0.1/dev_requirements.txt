@@ -1,0 +1,10 @@
+# Install development requirements
+
+# trytond/nereid 6.0 depends on lower versions of flask and jinja2
+MarkupSafe<2.1.0
+
+tox
+coverage
+flake8
+
+-r requirements.txt
