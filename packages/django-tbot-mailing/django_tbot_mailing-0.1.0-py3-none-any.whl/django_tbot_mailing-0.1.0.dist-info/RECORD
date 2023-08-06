@@ -1,0 +1,10 @@
+tbot_mailing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbot_mailing/admin.py,sha256=Nqzc-T2oDB-9lwOcW6SuL5TOQ7PwuK7ATASbwTWmoZ0,1716
+tbot_mailing/apps.py,sha256=jxhF0yxuEzWAcpddlgBwoY-mEAO_737thZjNWFtVukA,161
+tbot_mailing/models.py,sha256=APCixPcLc1Fd_Botx1fO2wwo1TlmNnBrY7ess2JFsto,1996
+tbot_mailing/tasks.py,sha256=WIblNKuYxsWr9vMtTlEGo5G_mgSc7QtuUiKAzLCay6M,2060
+tbot_mailing/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_tbot_mailing-0.1.0.dist-info/METADATA,sha256=4_UqIqznLsAubgeTVAJtNL1NcfcGmRoSxG2S9ws5g60,2184
+django_tbot_mailing-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_tbot_mailing-0.1.0.dist-info/top_level.txt,sha256=7dnt1m4I2RR2GjwrsATmys1JHcnv20yuM9VHccUwVAc,13
+django_tbot_mailing-0.1.0.dist-info/RECORD,,

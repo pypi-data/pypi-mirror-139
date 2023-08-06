@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: django-tbot-mailing
+Version: 0.1.0
+Summary: Mailing function in your project
+Home-page: https://gitlab.com/frv3r/django-tbot-mailing/
+Author: frv3r
+Author-email: daniil.marchenko@alpha-bots.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Django :: 4.0
+Description-Content-Type: text/markdown
+Requires-Dist: django-tbot-base (>=1.0.1)
+Requires-Dist: Pillow (>=9.0.1)
+Requires-Dist: celery (>=5.2.3)
+
+# django-tbot-mailing
+
+### Установка
+
+`pip install django-tbot-mailing`
+
+### Настройка
+
+В `settings.py`
+
+```python
+...
+INSTALLED_APPS = [
+    ...,
+    'tbot_base'
+    'tbot_delay_messages'
+]
+
+BOT_HANDLERS = [        # для tbot_base
+    'tbot.dispatcher',
+]
+
+MAILING_USERMODEL = 'tbot.User' # укажите модель пользователя 
+
+from .celery import app
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_APP = app # приложение celery созданное в celery.py проекта
+
+MEDIA_ROOT = 'media/'
+```
+
+Необходимые для работы модуля опции - `MAILING_USERMODEL` и `CELERY_APP`.  
+В модели пользователя, указанной в `MAILING_USERMODEL` должно присутствовать поле
+`user_id`  
+Также, для корректного сохранения изображений рассылки укажите `MEDIA_ROOT`
+
+Далее, выполняем миграции
+
+`./manage.py makemigrations && ./manage.py migrate`
+
+Не забудьте запустить celery  
+
+`celery -A proj worker -E`
+
+### Использование
+
+Создать и запланировать рассылку вы можете в админ-панели 
+
+
