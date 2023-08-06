@@ -1,0 +1,9 @@
+wordlecli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordlecli/cli.py,sha256=fRpiNw7LrH9rmq9ulrTfbXr3lqfk8wlAoYrWLkjliU0,324
+wordlecli/wordle.py,sha256=NqnthXVXUbbHYuwuOvX0h5CTbBNydWhCoslCE-CBfTQ,6193
+wordlecli/words.py,sha256=TCtMM-EBpm9DV-HhrSsoiiedV_vB8-gQLxlh4NyW6M4,116555
+wordlecli-0.1.3.dist-info/entry_points.txt,sha256=zUOKFHvg3Q7KwAedys9PvQDTxHN8DfJBvZc6G1sDEwY,45
+wordlecli-0.1.3.dist-info/LICENSE,sha256=p729qfRDwltAN2FTGhTYgLasZawALtdcapfB-p-PMaE,1065
+wordlecli-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wordlecli-0.1.3.dist-info/METADATA,sha256=8sR3l_aPN6vWOttOIJK1V5dPl4Hj7TPJtgnIsPKK6d4,2230
+wordlecli-0.1.3.dist-info/RECORD,,
