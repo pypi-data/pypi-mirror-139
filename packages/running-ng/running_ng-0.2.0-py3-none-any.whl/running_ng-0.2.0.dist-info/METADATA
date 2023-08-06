@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: running-ng
+Version: 0.2.0
+Summary: Running: Next Generation
+Home-page: https://github.com/anupli/running-ng
+Author: Zixian Cai
+Author-email: u5937495@anu.edu.au
+License: Apache
+Project-URL: Bug Tracker, https://github.com/anupli/running-ng/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Benchmark
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: zulip
+
+# `running-ng`
+`running-ng` is a collection of scripts that help people run workloads in a methodologically sound settings.
+
+## Installation
+`pip install running-ng`
+
+## Documentation
+Please refer to [this site](https://anupli.github.io/running-ng/) for up-to-date documentations.
+
+## License
+This project is licensed under the Apache License, Version 2.0.
+
+
