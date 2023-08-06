@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: microservicemqtt
+Version: 0.1.5
+Summary: A microservice client/server implementation based on JSON-RPC over MQTT
+Home-page: https://github.com/mrbluesky125/microservices-mqtt
+Author: Timo Zimmermann
+Author-email: github@timozimmermann.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mrbluesky125/microservices-mqtt/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# microservices-mqtt
+A microservice client/server implementation based on JSON-RPC over MQTT
+
+
