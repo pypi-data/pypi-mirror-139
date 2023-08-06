@@ -1,0 +1,15 @@
+reprexlite/__init__.py,sha256=YITFb1dY45HWV0-jrl9TAd9pcIO8HDD0O0qtLx-ZNiU,230
+reprexlite/__main__.py,sha256=16pZGPYqSjmnISQloDdl6Qh4Deoxu2E4zSVRAuc6DIw,70
+reprexlite/cli.py,sha256=BazXHRfGL4YK_bXdZcf52CRtfuDZSq43vWIVDT7gFr8,4718
+reprexlite/code.py,sha256=tnSJkbaPMSWHufo9NA-lihLzg9hRxq0r6Zp2Dk9Dv-o,8457
+reprexlite/formatting.py,sha256=SmTkmS5xF08xIErbG8QIlYZPgHNsa8bi5Tj81sZRzg4,6448
+reprexlite/ipython.py,sha256=oVJCN5vpHvgmcR-gdZHLBFa3qaLshNSktCsku-dbdUI,3314
+reprexlite/reprex.py,sha256=fogATDZ_00okZ6Sc_PvzfWxu8j5lOO33LdUbYzfZ7qo,3398
+reprexlite/session_info.py,sha256=k6TWGyz6kegKwIT9X6Rimrri1j9jdSpSmwwtNi6NoIw,2664
+reprexlite/version.py,sha256=uxa186zLkPAF-sD5hMcgEU4QZ9_3XUGVLOLTAI8cStU,205
+reprexlite-0.5.0.dist-info/LICENSE,sha256=V7tufp4blXVtnyAb_7ywcgQC58I4jq4ACT7Ib8Hpdd0,1063
+reprexlite-0.5.0.dist-info/METADATA,sha256=x6N4DDHkj5sm4HBSLcq846Hu-ErVfA2hJERY2HRGcWY,7604
+reprexlite-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+reprexlite-0.5.0.dist-info/entry_points.txt,sha256=9HVubBjWhEqsdYBYDgrl-CQ_X1htGA_kl-pJZMnE0vo,47
+reprexlite-0.5.0.dist-info/top_level.txt,sha256=DMoDFNVjPs76hPUZuXVeMgxCbhRKSdTvWFwkU-W_Ogw,11
+reprexlite-0.5.0.dist-info/RECORD,,
