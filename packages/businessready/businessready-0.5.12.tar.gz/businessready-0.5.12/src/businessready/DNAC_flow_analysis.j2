@@ -1,0 +1,77 @@
+{%- if filetype_loop == 0 %}Flow ID,Status,Created Time,Last Updated,Periodic Refresh,Source IP,Destination IP,Control Path,Previous Flow Analysis ID,Inclusion
+{%- for flow in flow_analysis %}
+{%-     for inclusion in flow.inclusions %}
+{{ flow.id }},{{ flow.status }},{{ flow.createTime }},{{ flow.lastUpdateTime }},{{ flow.periodicRefresh }},{{ flow.sourceIP }},{{ flow.destIP }},{{ flow.controlPath }},{{ flow.previousFlowAnalysisId }},{{ inclusion }}
+{%-     endfor %}
+{%- endfor %}
+{%- else %}
+{%-     if filetype_loop == 1 %}
+# DNAC Flow Analysis
+| Flow ID | Status | Created Time | Last Updated | Periodic Refresh | Source IP | Destination IP | Control Path | Previous Flow Analysis ID | Inclusion |
+| ------- | ------ | ------------ | ------------ | ---------------- | --------- | -------------- | ------------ | ------------------------- | --------- |
+{%- for flow in flow_analysis %}
+{%-     for inclusion in flow.inclusions %}
+| {{ flow.id }} | {{ flow.status }} | {{ flow.createTime }} | {{ flow.lastUpdateTime }} | {{ flow.periodicRefresh }} | {{ flow.sourceIP }} | {{ flow.destIP }} | {{ flow.controlPath }} | {{ flow.previousFlowAnalysisId }} | {{ inclusion }} |
+{%-     endfor %}
+{%- endfor %}
+{%-     else %}
+{%-         if filetype_loop == 2 %}
+<html><body>
+<h1>DNAC Flow Analysis</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Flow ID</th>
+      <th>Status</th>
+      <th>Created Time</th>
+      <th>Last Updated</th>
+      <th>Periodic Refresh</th>
+      <th>Source IP</th>
+      <th>Destination IP</th>
+      <th>Control Path</th>
+      <th>Previous Flow Analysis ID</th>
+      <th>Inclusion</th>
+    </tr>
+  </thead>
+  <tbody>
+{%- for flow in flow_analysis %}
+{%-     for inclusion in flow.inclusions %}
+  <tr>
+    <td>{{ flow.id }}</td>
+    <td>{{ flow.status }}</td>
+    <td>{{ flow.createTime }}</td>
+    <td>{{ flow.lastUpdateTime }}</td>
+    <td>{{ flow.periodicRefresh }}</td>
+    <td>{{ flow.sourceIP }}</td>
+    <td>{{ flow.destIP }}</td>
+    <td>{{ flow.controlPath }}</td>
+    <td>{{ flow.previousFlowAnalysisId }}</td>
+    <td>{{ inclusion }}</td>
+  </tr>
+{%-     endfor %}
+{%- endfor %}
+  </tbody>
+</table>
+</body></html>
+{%-         else %}
+# {{ DNAC }}
+## Flow Analysis Results
+{%- for flow in flow_analysis %}
+### {{ flow.id }}
+#### Status: {{ flow.status }}
+#### Timing
+##### Created: {{ flow.createTime }}
+##### Updated: {{ flow.lastUpdateTime }}
+##### Periodic Refresh: {{ flow.periodicRefresh }}
+#### Source IP: {{ flow.sourceIP }}
+#### Destination IP: {{ flow.destIP }}
+#### Control Path: {{ flow.controlPath }}
+#### Previous Flow Analysis ID: {{ flow.previousFlowAnalysisId }}
+#### Inclusions
+{%-     for inclusion in flow.inclusions %}
+##### {{ inclusion }}
+{%-     endfor %}
+{%- endfor %}
+{%-         endif %}
+{%-     endif %}
+{%- endif %}
