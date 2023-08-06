@@ -1,0 +1,8 @@
+setup.py
+i8.ae.egg-info/PKG-INFO
+i8.ae.egg-info/SOURCES.txt
+i8.ae.egg-info/dependency_links.txt
+i8.ae.egg-info/requires.txt
+i8.ae.egg-info/top_level.txt
+i8_ae/__init__.py
+i8_ae/i8.py
