@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: panda3d_rest
+Version: 1.0.3
+Summary: panda3d-rest provides a panda native solution to performing RESTful HTTP GET/POST requests using non-blocking io.
+Home-page: https://github.com/NxtStudios/p3d-rest
+Author: Jordan Maxwell
+Maintainer: Jordan Maxwell
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+
+panda3d-rest provides a panda native solution to performing RESTful HTTP GET/POST requests using non-blocking io.
+
+

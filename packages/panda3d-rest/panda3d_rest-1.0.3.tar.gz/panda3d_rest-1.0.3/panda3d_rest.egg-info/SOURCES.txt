@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+panda3d_rest/__init__.py
+panda3d_rest/http.py
+panda3d_rest/request.py
+panda3d_rest.egg-info/PKG-INFO
+panda3d_rest.egg-info/SOURCES.txt
+panda3d_rest.egg-info/dependency_links.txt
+panda3d_rest.egg-info/top_level.txt
