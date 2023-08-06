@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: weipyweb
+Version: 0.0.1
+Summary: Beautify the original weipyweb
+Home-page: https://github.com/acloudtwei
+Author: Acloudtwei
+Author-email: acloudtwei@gmail.com
+License: MIT
+Project-URL: Documentation, https://pywebio.readthedocs.io
+Description: **weipyweb的介绍**
+        
+        weipyweb是基于开源项目pywebio二开后的一个开源版本，主要修改了pywebio原来的一些CSS样式和网站ico以及增加了部分JS，目前由于个人时间以及能力的限制，还没有对大部分功能进行修改的增加，只能将初始版本开源。
+        
+        **原因：**
+        
+        为什么要二开而不是用原来的pywebio呢？主要原因还是因为原来的pywebio的ico图片不好看，还有有一些样式增加比较麻烦，所以自己就去看了下源码，然后就去修改了~
+        
+        **说明：**
+        
+        这里说明一下，原来的pywebio的文档并没有告知怎么修改网站的title以及增加一些样式的方法，在我看过源码之后，有一个函数是可以初始化当前页面的参数，比如标题、描述、主题、引用js、css等等，接下来我会告诉大家这个页面初始化的函数的使用！
+        
+        
+        ## 文档
+        
+        参考原来的pywebio的文档[https://pywebio.readthedocs.io](https://pywebio.readthedocs.io)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5.2
+Description-Content-Type: text/markdown
+Provides-Extra: bokeh
+Provides-Extra: flask
+Provides-Extra: doc
+Provides-Extra: django
+Provides-Extra: all
+Provides-Extra: aiohttp
