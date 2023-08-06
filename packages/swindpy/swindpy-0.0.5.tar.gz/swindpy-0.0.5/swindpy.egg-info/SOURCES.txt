@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+swindpy/__init__.py
+swindpy/cli.py
+swindpy/data_manager.py
+swindpy/plotter.py
+swindpy/rotation.py
+swindpy.egg-info/PKG-INFO
+swindpy.egg-info/SOURCES.txt
+swindpy.egg-info/dependency_links.txt
+swindpy.egg-info/entry_points.txt
+swindpy.egg-info/requires.txt
+swindpy.egg-info/top_level.txt
