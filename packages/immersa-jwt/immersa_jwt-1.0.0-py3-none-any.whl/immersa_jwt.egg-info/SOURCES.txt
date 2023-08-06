@@ -1,0 +1,9 @@
+README.md
+__init__.py
+jwt.py
+setup.py
+immersa_jwt.egg-info/PKG-INFO
+immersa_jwt.egg-info/SOURCES.txt
+immersa_jwt.egg-info/dependency_links.txt
+immersa_jwt.egg-info/requires.txt
+immersa_jwt.egg-info/top_level.txt
