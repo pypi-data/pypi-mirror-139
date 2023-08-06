@@ -1,0 +1,158 @@
+# Package Overview
+package_name: heart disease classification model
+model_version: 0.0.10
+pipeline_name: classification_pipeline
+pipeline_save_file: classification_pipeline_output
+
+# model details
+model_name: random forest
+test_size: 0.2
+random_state: 42
+cv: 5
+
+# streamlit sample data
+age : 21
+sodium : 120
+creatinine : 0.2
+pletelets : 266000
+ck : 100
+bp : 105
+hemo : 16.3
+height : 185
+weight : 80
+
+# Data Files
+#training_data_file: train.csv
+#test_data_file: test.csv
+
+# Variables
+target: Survive
+
+
+# Will cause syntax errors as they have spaces
+variables_to_rename:
+  Ejection Fraction : Ejection_Fraction
+  Creatinine phosphokinase: CK
+  Blood Pressure: BP
+
+features:
+  - Gender
+  - Smoke
+  - Diabetes
+  - Age
+  - Ejection Fraction # renamed
+  - Sodium
+  - Creatinine
+  - Pletelets
+  - Creatinine phosphokinase #renamed
+  - Blood Pressure #renamed
+  - Hemoglobin
+  - Height
+  - Weight
+  - BMI #new feature
+
+features_delete:
+  - ID
+  - Favorite color
+
+# numerical features
+features_numerical:
+
+original_features:
+  - ID
+  - Survive
+  - Gender
+  - Smoke
+  - Diabetes
+  - Age
+  - Ejection Fraction
+  - Sodium
+  - Creatinine
+  - Pletelets
+  - Creatinine phosphokinase
+  - Blood Pressure
+  - Hemoglobin
+  - Height
+  - Weight
+  - Favorite color
+
+renamed_features:
+  - ID
+  - Survive
+  - Gender
+  - Smoke
+  - Diabetes
+  - Age
+  - Ejection Fraction
+  - Sodium
+  - Creatinine
+  - Pletelets
+  - Creatinine phosphokinase
+  - Blood Pressure
+  - Hemoglobin
+  - Height
+  - Weight
+  - Favorite color
+
+# categorical features
+cat_features:
+  - Gender
+  - Smoke
+  - Diabetes
+  - Ejection Fraction
+
+
+original_num_features:
+  - Sodium
+  - Creatinine
+  - Pletelets
+  - Creatinine phosphokinase
+  - Blood Pressure
+  - Hemoglobin
+  - Height
+  - Weight
+
+total_num_features:
+  - Age
+  - Sodium
+  - Creatinine
+  - Pletelets
+  - Creatinine phosphokinase
+  - Blood Pressure
+  - Hemoglobin
+  - Height
+  - Weight
+  - BMI
+
+total_features:
+  - Gender
+  - Smoke
+  - Diabetes
+  - Age
+  - Ejection Fraction
+  - Sodium
+  - Creatinine
+  - Pletelets
+  - Creatinine phosphokinase
+  - Blood Pressure
+  - Hemoglobin
+  - Height
+  - Weight
+  - BMI
+
+total_features_with_target:
+  - Survive
+  - Gender
+  - Smoke
+  - Diabetes
+  - Age
+  - Ejection Fraction
+  - Sodium
+  - Creatinine
+  - Pletelets
+  - Creatinine phosphokinase
+  - Blood Pressure
+  - Hemoglobin
+  - Height
+  - Weight
+  - BMI
