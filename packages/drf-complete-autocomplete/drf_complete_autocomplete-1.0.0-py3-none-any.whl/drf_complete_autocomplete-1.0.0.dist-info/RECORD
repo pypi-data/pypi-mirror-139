@@ -1,0 +1,11 @@
+drf_complete_autocomplete/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_complete_autocomplete/configuration.py,sha256=NfWCN6hYEyFfpZ00XxrO6x5q5AT7TCjacG9elsfTQps,896
+drf_complete_autocomplete/filters.py,sha256=diKYv6ziw8ESeR6UQZE7w49Ctl91L0OBtcQd-aflHlk,1451
+drf_complete_autocomplete/serializers.py,sha256=mg0kH9yLBldgOhjxrhqwELz90luWcgqYq9xVKgF-e6Q,1896
+drf_complete_autocomplete/views.py,sha256=ue42OnbRHxWQ1hSYPFy-dYk2asjulBvExf37owuZD4E,3414
+drf_complete_autocomplete/widgets.py,sha256=DEIIr9Q-RJBWX5Ji4uwzspQ6J_A_Ho9l-tNawLAfTWY,739
+drf_complete_autocomplete-1.0.0.dist-info/LICENSE,sha256=-8LbRkCOAOIZgTGSl9zXQjC98oE5OUjTEUUIPZaqTi8,1314
+drf_complete_autocomplete-1.0.0.dist-info/METADATA,sha256=l02lzgOEquw5D83mlftwudAtALBLnepqsL1LHvulZfg,2738
+drf_complete_autocomplete-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drf_complete_autocomplete-1.0.0.dist-info/top_level.txt,sha256=TsCg883IyKQSArm2YHjuq4KHY2hP9TLBY19tmztQBQM,26
+drf_complete_autocomplete-1.0.0.dist-info/RECORD,,
