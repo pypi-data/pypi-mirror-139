@@ -1,0 +1,719 @@
+2022-02-22 16:20:45,220 [MainThread] INFO  commons.py::log_init(@Line:74) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-22 16:20:45,226 [MainThread] INFO  properties.py::_parse(@Line:143) Successfully loaded 0 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/kafman/src/main/kafman/resources/application.properties 
+2022-02-22 16:20:45,227 [MainThread] INFO  app_config.py::__init__(@Line:52) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-RunDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/kafman/src/main/kafman
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/kafman/src/main/kafman/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/kafman/src/main/kafman/resources/log/application.log
+  |-AppProperties:
+   \-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-22 16:20:45,227 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: hspylib.core.config.app_config.AppConfigs 
+2022-02-22 16:20:45,482 [MainThread] DEBUG uiparser.py::classname(@Line:864) uiname is main_dialog 
+2022-02-22 16:20:45,483 [MainThread] DEBUG uiparser.py::createUserInterface(@Line:824) toplevel widget is QDialog 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property geometry 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property windowTitle 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizeGripEnabled 
+2022-02-22 16:20:45,483 [MainThread] DEBUG uiparser.py::push(@Line:108) push QDialog main_dialog 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,483 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_4 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property orientation 
+2022-02-22 16:20:45,483 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property handleWidth 
+2022-02-22 16:20:45,484 [MainThread] DEBUG uiparser.py::push(@Line:108) push QSplitter splitter_pane 
+2022-02-22 16:20:45,484 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,484 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,484 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,484 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShape 
+2022-02-22 16:20:45,484 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShadow 
+2022-02-22 16:20:45,484 [MainThread] DEBUG uiparser.py::push(@Line:108) push QFrame frame_left 
+2022-02-22 16:20:45,484 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,484 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,485 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,485 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,485 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,485 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout 
+2022-02-22 16:20:45,485 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,485 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,485 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property currentIndex 
+2022-02-22 16:20:45,485 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolBox tool_box 
+2022-02-22 16:20:45,485 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property geometry 
+2022-02-22 16:20:45,485 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget page_settings 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,486 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_3 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property currentIndex 
+2022-02-22 16:20:45,486 [MainThread] DEBUG uiparser.py::push(@Line:108) push QStackedWidget stk_settings 
+2022-02-22 16:20:45,486 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget stk_settings_producer 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,486 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,486 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_3 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,487 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_4 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property baseSize 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,487 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property placeholderText 
+2022-02-22 16:20:45,487 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLineEdit le_prod_settings 
+2022-02-22 16:20:45,487 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLineEdit le_prod_settings 
+2022-02-22 16:20:45,487 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_producer 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,488 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_prod_settings_add 
+2022-02-22 16:20:45,488 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_prod_settings_add 
+2022-02-22 16:20:45,488 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_producer 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,488 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,489 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,489 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_prod_settings_del 
+2022-02-22 16:20:45,489 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_prod_settings_del 
+2022-02-22 16:20:45,489 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_producer 
+2022-02-22 16:20:45,489 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HListWidget: QtWidgets.QListWidget 
+2022-02-22 16:20:45,489 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,489 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property editTriggers 
+2022-02-22 16:20:45,490 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property showDropIndicator 
+2022-02-22 16:20:45,490 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property modelColumn 
+2022-02-22 16:20:45,490 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property uniformItemSizes 
+2022-02-22 16:20:45,490 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sortingEnabled 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::push(@Line:108) push HListWidget lst_prod_settings 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HListWidget lst_prod_settings 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_producer 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_4 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_3 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget stk_settings_producer 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings 
+2022-02-22 16:20:45,490 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget stk_settings_consumer 
+2022-02-22 16:20:45,490 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,491 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_6 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,491 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_5 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,491 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,491 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_cons_settings_add 
+2022-02-22 16:20:45,492 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_cons_settings_add 
+2022-02-22 16:20:45,492 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_consumer 
+2022-02-22 16:20:45,492 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,492 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,492 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,493 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property baseSize 
+2022-02-22 16:20:45,493 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,493 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property placeholderText 
+2022-02-22 16:20:45,493 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLineEdit le_cons_settings 
+2022-02-22 16:20:45,493 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLineEdit le_cons_settings 
+2022-02-22 16:20:45,493 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_consumer 
+2022-02-22 16:20:45,494 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,494 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,494 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,494 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,494 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,494 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_cons_settings_del 
+2022-02-22 16:20:45,494 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_cons_settings_del 
+2022-02-22 16:20:45,494 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_consumer 
+2022-02-22 16:20:45,495 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HListWidget: QtWidgets.QListWidget 
+2022-02-22 16:20:45,495 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,495 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property editTriggers 
+2022-02-22 16:20:45,495 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property showDropIndicator 
+2022-02-22 16:20:45,495 [MainThread] DEBUG uiparser.py::push(@Line:108) push HListWidget lst_cons_settings 
+2022-02-22 16:20:45,495 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HListWidget lst_cons_settings 
+2022-02-22 16:20:45,495 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings_consumer 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_5 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_6 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget stk_settings_consumer 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_settings 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QStackedWidget stk_settings 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_settings 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_3 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget page_settings 
+2022-02-22 16:20:45,496 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tool_box 
+2022-02-22 16:20:45,496 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property geometry 
+2022-02-22 16:20:45,497 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget page_schema 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,497 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_10 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,497 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_7 
+2022-02-22 16:20:45,497 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,497 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label 
+2022-02-22 16:20:45,498 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label 
+2022-02-22 16:20:45,498 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,498 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_del_schema 
+2022-02-22 16:20:45,498 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_del_schema 
+2022-02-22 16:20:45,498 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,498 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,499 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,499 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,499 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_sel_schema 
+2022-02-22 16:20:45,499 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_sel_schema 
+2022-02-22 16:20:45,499 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,499 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,499 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,499 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,499 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,499 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,499 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_desel_schema 
+2022-02-22 16:20:45,499 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_desel_schema 
+2022-02-22 16:20:45,499 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,500 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HComboBox: QtWidgets.QComboBox 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property layoutDirection 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property editable 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property insertPolicy 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumContentsLength 
+2022-02-22 16:20:45,500 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,500 [MainThread] DEBUG uiparser.py::push(@Line:108) push HComboBox cmb_sel_schema 
+2022-02-22 16:20:45,500 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HComboBox cmb_sel_schema 
+2022-02-22 16:20:45,500 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,501 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HConsole: QtWidgets.QTextBrowser 
+2022-02-22 16:20:45,501 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,501 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property acceptRichText 
+2022-02-22 16:20:45,501 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property placeholderText 
+2022-02-22 16:20:45,501 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property openLinks 
+2022-02-22 16:20:45,501 [MainThread] DEBUG uiparser.py::push(@Line:108) push HConsole txt_sel_schema 
+2022-02-22 16:20:45,501 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HConsole txt_sel_schema 
+2022-02-22 16:20:45,501 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,501 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,501 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_3 
+2022-02-22 16:20:45,502 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_3 
+2022-02-22 16:20:45,502 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,502 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,502 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,502 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,502 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,502 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,502 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_test_registry_url 
+2022-02-22 16:20:45,502 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_test_registry_url 
+2022-02-22 16:20:45,503 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,503 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HComboBox: QtWidgets.QComboBox 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property layoutDirection 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property editable 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property currentText 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property insertPolicy 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumContentsLength 
+2022-02-22 16:20:45,503 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::push(@Line:108) push HComboBox cmb_registry_url 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HComboBox cmb_registry_url 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_7 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_10 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget page_schema 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tool_box 
+2022-02-22 16:20:45,504 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property geometry 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget page_statistics 
+2022-02-22 16:20:45,504 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,504 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,504 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,504 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,504 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,504 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_7 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property currentIndex 
+2022-02-22 16:20:45,505 [MainThread] DEBUG uiparser.py::push(@Line:108) push QStackedWidget stk_statistics 
+2022-02-22 16:20:45,505 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget stk_statistics_producer 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,505 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_8 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,505 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,505 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_2 
+2022-02-22 16:20:45,506 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,506 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,506 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_stats_produced 
+2022-02-22 16:20:45,506 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_stats_produced 
+2022-02-22 16:20:45,506 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_producer 
+2022-02-22 16:20:45,506 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,506 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,506 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_stats_produced_avg 
+2022-02-22 16:20:45,506 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_stats_produced_avg 
+2022-02-22 16:20:45,506 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_producer 
+2022-02-22 16:20:45,506 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,506 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,507 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_stats_produced_ps 
+2022-02-22 16:20:45,507 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_stats_produced_ps 
+2022-02-22 16:20:45,507 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_producer 
+2022-02-22 16:20:45,507 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,507 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,507 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_5 
+2022-02-22 16:20:45,507 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_5 
+2022-02-22 16:20:45,507 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_producer 
+2022-02-22 16:20:45,507 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,507 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_4 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_4 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_producer 
+2022-02-22 16:20:45,508 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,508 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_2 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_2 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_producer 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_2 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_8 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget stk_statistics_producer 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics 
+2022-02-22 16:20:45,508 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget stk_statistics_consumer 
+2022-02-22 16:20:45,508 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,509 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,509 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,509 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,509 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,509 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_9 
+2022-02-22 16:20:45,509 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,509 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,509 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_6 
+2022-02-22 16:20:45,509 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,510 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,510 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_stats_consumed 
+2022-02-22 16:20:45,510 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_stats_consumed 
+2022-02-22 16:20:45,510 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_consumer 
+2022-02-22 16:20:45,510 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,510 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,510 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_stats_consumed_ps 
+2022-02-22 16:20:45,510 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_stats_consumed_ps 
+2022-02-22 16:20:45,510 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_consumer 
+2022-02-22 16:20:45,510 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,511 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,511 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_stats_consumed_avg 
+2022-02-22 16:20:45,511 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_stats_consumed_avg 
+2022-02-22 16:20:45,511 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_consumer 
+2022-02-22 16:20:45,511 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,511 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,511 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_9 
+2022-02-22 16:20:45,511 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_9 
+2022-02-22 16:20:45,511 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_consumer 
+2022-02-22 16:20:45,511 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,511 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,512 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_8 
+2022-02-22 16:20:45,512 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_8 
+2022-02-22 16:20:45,512 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_consumer 
+2022-02-22 16:20:45,512 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,512 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,512 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_6 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_6 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics_consumer 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_6 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_9 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget stk_statistics_consumer 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_statistics 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QStackedWidget stk_statistics 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_statistics 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_7 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget page_statistics 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tool_box 
+2022-02-22 16:20:45,513 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolBox tool_box 
+2022-02-22 16:20:45,514 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.frame_left 
+2022-02-22 16:20:45,514 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout 
+2022-02-22 16:20:45,514 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QFrame frame_left 
+2022-02-22 16:20:45,514 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.splitter_pane 
+2022-02-22 16:20:45,514 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShape 
+2022-02-22 16:20:45,514 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShadow 
+2022-02-22 16:20:45,514 [MainThread] DEBUG uiparser.py::push(@Line:108) push QFrame frame_right 
+2022-02-22 16:20:45,514 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,514 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,514 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,514 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,514 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,514 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_2 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property autoFillBackground 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property tabShape 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property currentIndex 
+2022-02-22 16:20:45,515 [MainThread] DEBUG uiparser.py::push(@Line:108) push QTabWidget tab_widget 
+2022-02-22 16:20:45,515 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget tab_producer 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,515 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_12 
+2022-02-22 16:20:45,515 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_8 
+2022-02-22 16:20:45,515 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,516 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_prod_connect 
+2022-02-22 16:20:45,516 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_prod_connect 
+2022-02-22 16:20:45,516 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,516 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,517 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_prod_clear_topics 
+2022-02-22 16:20:45,517 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_prod_clear_topics 
+2022-02-22 16:20:45,517 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,517 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,517 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,517 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,517 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,517 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,517 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,518 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_produce 
+2022-02-22 16:20:45,518 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_produce 
+2022-02-22 16:20:45,518 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,518 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HComboBox: QtWidgets.QComboBox 
+2022-02-22 16:20:45,518 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,518 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,518 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,518 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property layoutDirection 
+2022-02-22 16:20:45,518 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property editable 
+2022-02-22 16:20:45,518 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property insertPolicy 
+2022-02-22 16:20:45,519 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumContentsLength 
+2022-02-22 16:20:45,519 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,519 [MainThread] DEBUG uiparser.py::push(@Line:108) push HComboBox cmb_prod_topics 
+2022-02-22 16:20:45,519 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HComboBox cmb_prod_topics 
+2022-02-22 16:20:45,519 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,519 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,519 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_prod_topics 
+2022-02-22 16:20:45,519 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_prod_topics 
+2022-02-22 16:20:45,519 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,519 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,519 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,519 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,520 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,520 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,520 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_prod_add_topics 
+2022-02-22 16:20:45,520 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_prod_add_topics 
+2022-02-22 16:20:45,520 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,520 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,520 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,520 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,520 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,520 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,520 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_prod_del_topics 
+2022-02-22 16:20:45,520 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_prod_del_topics 
+2022-02-22 16:20:45,521 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,521 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_8 
+2022-02-22 16:20:45,521 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property currentIndex 
+2022-02-22 16:20:45,521 [MainThread] DEBUG uiparser.py::push(@Line:108) push QStackedWidget stk_producer_edit 
+2022-02-22 16:20:45,521 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget page_txt_producer 
+2022-02-22 16:20:45,521 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,521 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,522 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_5 
+2022-02-22 16:20:45,522 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_12 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,522 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,522 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_form_view 
+2022-02-22 16:20:45,522 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_form_view 
+2022-02-22 16:20:45,522 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_txt_producer 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,523 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_11 
+2022-02-22 16:20:45,523 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_11 
+2022-02-22 16:20:45,523 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_txt_producer 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,523 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,524 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_format_msg 
+2022-02-22 16:20:45,524 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_format_msg 
+2022-02-22 16:20:45,524 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_txt_producer 
+2022-02-22 16:20:45,524 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_12 
+2022-02-22 16:20:45,524 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HConsole: QtWidgets.QTextBrowser 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property undoRedoEnabled 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property readOnly 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property tabStopWidth 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property acceptRichText 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property placeholderText 
+2022-02-22 16:20:45,524 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property openLinks 
+2022-02-22 16:20:45,524 [MainThread] DEBUG uiparser.py::push(@Line:108) push HConsole txt_producer 
+2022-02-22 16:20:45,525 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HConsole txt_producer 
+2022-02-22 16:20:45,525 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_txt_producer 
+2022-02-22 16:20:45,525 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_5 
+2022-02-22 16:20:45,525 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget page_txt_producer 
+2022-02-22 16:20:45,525 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_producer_edit 
+2022-02-22 16:20:45,525 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget page_schema_form 
+2022-02-22 16:20:45,525 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,525 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,525 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,525 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,525 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,526 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_13 
+2022-02-22 16:20:45,526 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_11 
+2022-02-22 16:20:45,526 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,526 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,526 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,526 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,526 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,526 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_text_view 
+2022-02-22 16:20:45,526 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_text_view 
+2022-02-22 16:20:45,526 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema_form 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,527 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_schema_fields 
+2022-02-22 16:20:45,527 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_schema_fields 
+2022-02-22 16:20:45,527 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema_form 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,527 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,528 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,528 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,528 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,528 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_export_form 
+2022-02-22 16:20:45,528 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_export_form 
+2022-02-22 16:20:45,528 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema_form 
+2022-02-22 16:20:45,528 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_11 
+2022-02-22 16:20:45,528 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShape 
+2022-02-22 16:20:45,528 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShadow 
+2022-02-22 16:20:45,528 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property widgetResizable 
+2022-02-22 16:20:45,528 [MainThread] DEBUG uiparser.py::push(@Line:108) push QScrollArea scrollArea 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property geometry 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,529 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget scrollAreaWidgetContents 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,529 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_15 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,529 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShape 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShadow 
+2022-02-22 16:20:45,530 [MainThread] DEBUG uiparser.py::push(@Line:108) push QFrame frame_form 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,530 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_17 
+2022-02-22 16:20:45,530 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_10 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property enabled 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,530 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShape 
+2022-02-22 16:20:45,531 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShadow 
+2022-02-22 16:20:45,531 [MainThread] DEBUG uiparser.py::push(@Line:108) push QFrame fr_schema_fields 
+2022-02-22 16:20:45,531 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QFrame fr_schema_fields 
+2022-02-22 16:20:45,531 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.frame_form 
+2022-02-22 16:20:45,531 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_10 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_17 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QFrame frame_form 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.scrollAreaWidgetContents 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_15 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget scrollAreaWidgetContents 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.scrollArea 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QScrollArea scrollArea 
+2022-02-22 16:20:45,532 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.page_schema_form 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_13 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget page_schema_form 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.stk_producer_edit 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QStackedWidget stk_producer_edit 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_producer 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_12 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget tab_producer 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_widget 
+2022-02-22 16:20:45,533 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget tab_consumer 
+2022-02-22 16:20:45,534 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,534 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,534 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,534 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,534 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,534 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_11 
+2022-02-22 16:20:45,534 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout_9 
+2022-02-22 16:20:45,534 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,534 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel lbl_cons_topics 
+2022-02-22 16:20:45,534 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel lbl_cons_topics 
+2022-02-22 16:20:45,534 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_consumer 
+2022-02-22 16:20:45,535 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,535 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,535 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,535 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,535 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,535 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_cons_clear_topics 
+2022-02-22 16:20:45,535 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_cons_clear_topics 
+2022-02-22 16:20:45,535 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_consumer 
+2022-02-22 16:20:45,535 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,536 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_cons_connect 
+2022-02-22 16:20:45,536 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_cons_connect 
+2022-02-22 16:20:45,536 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_consumer 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,536 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,537 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_cons_add_topics 
+2022-02-22 16:20:45,537 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_cons_add_topics 
+2022-02-22 16:20:45,537 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_consumer 
+2022-02-22 16:20:45,537 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HComboBox: QtWidgets.QComboBox 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property layoutDirection 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property editable 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property insertPolicy 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumContentsLength 
+2022-02-22 16:20:45,537 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,538 [MainThread] DEBUG uiparser.py::push(@Line:108) push HComboBox cmb_cons_topics 
+2022-02-22 16:20:45,538 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HComboBox cmb_cons_topics 
+2022-02-22 16:20:45,538 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_consumer 
+2022-02-22 16:20:45,538 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,538 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,538 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,538 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,538 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,538 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_cons_del_topics 
+2022-02-22 16:20:45,538 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_cons_del_topics 
+2022-02-22 16:20:45,538 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_consumer 
+2022-02-22 16:20:45,538 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout_9 
+2022-02-22 16:20:45,538 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HTableView: QtWidgets.QTableView 
+2022-02-22 16:20:45,539 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property contextMenuPolicy 
+2022-02-22 16:20:45,539 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,539 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sortingEnabled 
+2022-02-22 16:20:45,539 [MainThread] DEBUG uiparser.py::push(@Line:108) push HTableView tbl_consumer 
+2022-02-22 16:20:45,539 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HTableView tbl_consumer 
+2022-02-22 16:20:45,539 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_consumer 
+2022-02-22 16:20:45,539 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_11 
+2022-02-22 16:20:45,539 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget tab_consumer 
+2022-02-22 16:20:45,539 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_widget 
+2022-02-22 16:20:45,539 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget tab_registry 
+2022-02-22 16:20:45,539 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,539 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,540 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_16 
+2022-02-22 16:20:45,540 [MainThread] DEBUG uiparser.py::push(@Line:108) push QGridLayout gridLayout 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,540 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,540 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_registry_delete 
+2022-02-22 16:20:45,540 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_registry_delete 
+2022-02-22 16:20:45,540 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_registry 
+2022-02-22 16:20:45,541 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HComboBox: QtWidgets.QComboBox 
+2022-02-22 16:20:45,541 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,541 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,541 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,541 [MainThread] DEBUG uiparser.py::push(@Line:108) push HComboBox cmb_registry_schema 
+2022-02-22 16:20:45,541 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HComboBox cmb_registry_schema 
+2022-02-22 16:20:45,541 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_registry 
+2022-02-22 16:20:45,541 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,541 [MainThread] DEBUG uiparser.py::push(@Line:108) push QLabel label_10 
+2022-02-22 16:20:45,541 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QLabel label_10 
+2022-02-22 16:20:45,541 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_registry 
+2022-02-22 16:20:45,541 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,542 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property maximumSize 
+2022-02-22 16:20:45,542 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,542 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,542 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property iconSize 
+2022-02-22 16:20:45,542 [MainThread] DEBUG uiparser.py::push(@Line:108) push QToolButton tbtn_registry_refresh 
+2022-02-22 16:20:45,542 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QToolButton tbtn_registry_refresh 
+2022-02-22 16:20:45,542 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_registry 
+2022-02-22 16:20:45,542 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QGridLayout gridLayout 
+2022-02-22 16:20:45,543 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HTableView: QtWidgets.QTableView 
+2022-02-22 16:20:45,543 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property contextMenuPolicy 
+2022-02-22 16:20:45,543 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,543 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property selectionMode 
+2022-02-22 16:20:45,543 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property selectionBehavior 
+2022-02-22 16:20:45,543 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sortingEnabled 
+2022-02-22 16:20:45,543 [MainThread] DEBUG uiparser.py::push(@Line:108) push HTableView tbl_registry 
+2022-02-22 16:20:45,543 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HTableView tbl_registry 
+2022-02-22 16:20:45,543 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_registry 
+2022-02-22 16:20:45,544 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_16 
+2022-02-22 16:20:45,544 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget tab_registry 
+2022-02-22 16:20:45,544 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_widget 
+2022-02-22 16:20:45,544 [MainThread] DEBUG uiparser.py::push(@Line:108) push QWidget tab_console 
+2022-02-22 16:20:45,544 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property leftMargin 
+2022-02-22 16:20:45,544 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property topMargin 
+2022-02-22 16:20:45,544 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property rightMargin 
+2022-02-22 16:20:45,544 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property bottomMargin 
+2022-02-22 16:20:45,544 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property pyuicMargins 
+2022-02-22 16:20:45,544 [MainThread] DEBUG uiparser.py::push(@Line:108) push QVBoxLayout verticalLayout_14 
+2022-02-22 16:20:45,545 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HConsole: QtWidgets.QTextBrowser 
+2022-02-22 16:20:45,545 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property toolTip 
+2022-02-22 16:20:45,545 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property placeholderText 
+2022-02-22 16:20:45,545 [MainThread] DEBUG uiparser.py::push(@Line:108) push HConsole txt_console 
+2022-02-22 16:20:45,545 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HConsole txt_console 
+2022-02-22 16:20:45,545 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_console 
+2022-02-22 16:20:45,545 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_14 
+2022-02-22 16:20:45,545 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QWidget tab_console 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.tab_widget 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QTabWidget tab_widget 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.frame_right 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_2 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QFrame frame_right 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget self.splitter_pane 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QSplitter splitter_pane 
+2022-02-22 16:20:45,546 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget main_dialog 
+2022-02-22 16:20:45,546 [MainThread] DEBUG qobjectcreator.py::search(@Line:131) resolved baseclass of HLabel: QtWidgets.QLabel 
+2022-02-22 16:20:45,546 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property sizePolicy 
+2022-02-22 16:20:45,547 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property minimumSize 
+2022-02-22 16:20:45,547 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShape 
+2022-02-22 16:20:45,547 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property frameShadow 
+2022-02-22 16:20:45,547 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property text 
+2022-02-22 16:20:45,547 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property textFormat 
+2022-02-22 16:20:45,547 [MainThread] DEBUG properties.py::setProperties(@Line:400) setting property alignment 
+2022-02-22 16:20:45,547 [MainThread] DEBUG uiparser.py::push(@Line:108) push HLabel lbl_status_text 
+2022-02-22 16:20:45,547 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget HLabel lbl_status_text 
+2022-02-22 16:20:45,547 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget main_dialog 
+2022-02-22 16:20:45,547 [MainThread] DEBUG uiparser.py::popLayout(@Line:116) pop layout QVBoxLayout verticalLayout_4 
+2022-02-22 16:20:45,547 [MainThread] DEBUG uiparser.py::popWidget(@Line:122) pop widget QDialog main_dialog 
+2022-02-22 16:20:45,547 [MainThread] DEBUG uiparser.py::popWidget(@Line:130) new topwidget None 
+2022-02-22 16:20:45,755 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: __main__.Main 
+2022-02-22 16:20:45,755 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-22 16:20:45.755280 
+2022-02-22 16:20:48,075 [MainThread] INFO  application.py::run(@Line:100) Run finished 2022-02-22 16:20:48.075582 
