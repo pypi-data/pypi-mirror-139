@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: torchmoon
+Version: 1.0.3
+Summary: Crater detection
+Home-page: https://github.com/afeldman/TorchMoon
+Author: anton feldmann
+Author-email: anton.feldmann@gmail.com
+License: MIT License
+Keywords: moon,crater,detector,hydra,lighting,torch
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+
+https://github.com/silburt/DeepMoon/
+
