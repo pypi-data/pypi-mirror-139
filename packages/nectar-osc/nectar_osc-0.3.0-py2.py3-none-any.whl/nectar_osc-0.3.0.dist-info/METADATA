@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: nectar-osc
+Version: 0.3.0
+Summary: OpenStack client plugin for misc Nectar tooling
+Home-page: https://github.com/NeCTAR-RC/nectar-osc
+Author: Adrian Smith
+Author-email: aussieade@gmail.com
+License: Apache
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Dist: osc-lib
+Requires-Dist: oslo.config
+Requires-Dist: oslo.utils
+Requires-Dist: pbr (>=3.0.0)
+Requires-Dist: python-freshdesk
+Requires-Dist: python-neutronclient
+Requires-Dist: python-openstackclient
+
+UNKNOWN
+
+

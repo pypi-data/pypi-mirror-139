@@ -1,0 +1,17 @@
+nectar_osc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nectar_osc/compute.py,sha256=6KQZ0t3lI2gBvgURG64yuCItOUz2tapLoT4Kcn5BZW8,3796
+nectar_osc/config.py,sha256=yL_o7Ql4P3HdAGXoFnyISp_48JY-cTvsVHu07Fj75yo,1771
+nectar_osc/freshdesk.py,sha256=7KhRRfn7IsyKEVVbBJim7IwfOJhn7GLXszG2wmvxNis,1579
+nectar_osc/identity.py,sha256=7N3xAKkQGnNeX6rA-9SK8KjtwplazD6zo6COTGrZMYI,1057
+nectar_osc/network.py,sha256=QWMhIlBzmDtSvF3GBiKo7-c9kERiptnl3qkv94KTJq8,3715
+nectar_osc/plugin.py,sha256=zo9jdrhdKqzkE1jH4Y9UhwY1lCERWKg632-LsBWVfrY,1549
+nectar_osc/rating.py,sha256=PkQOdw4shPjDp7dNJAbNZ2uURohPuhG50dpkwAdzdEI,2115
+nectar_osc/security.py,sha256=UV7gbVkZudgtEOpVCIEPKC0kE-Q-vd49reTj16id1wQ,11750
+nectar_osc/show.py,sha256=OFkKMzH1fb_W4ZQtiNzgZ5p_3FEkS0Pjkmdr25PvdOc,2158
+nectar_osc-0.3.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+nectar_osc-0.3.0.dist-info/METADATA,sha256=buGGMrKJ22cabGrVvNKUtkptGobqstsHTOrEZ9DIB7o,731
+nectar_osc-0.3.0.dist-info/RECORD,,
+nectar_osc-0.3.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+nectar_osc-0.3.0.dist-info/entry_points.txt,sha256=NDr6ixIn1bKNirSqfxaEbzRwVTnldjJoXMYgOyX2R9w,508
+nectar_osc-0.3.0.dist-info/metadata.json,sha256=UHULCb-xJEZCwhSQOXEG07u6AkjcJKUt7tPTggzg0N4,1409
+nectar_osc-0.3.0.dist-info/top_level.txt,sha256=WFMtCn5VNuvseahg_hiry5fqRoLwnsnHQvQuHAj4cmQ,11
