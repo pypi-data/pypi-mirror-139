@@ -1,0 +1,14 @@
+krovak05/__init__.py,sha256=lbUW1FwCD0UOsOpTg8NYwzzkLdgMWpt7t_Tf-7sfysE,38
+krovak05/krovak05.py,sha256=VOZUMUSD6paU-J7vHPuIaTprbA07mwkrVuC5cANr2Sc,19116
+krovak05/test_krova05.py,sha256=gg6--Hss6f55pVx2A0Ipy4AM4XdZwacweC5mcEqKs7E,1756
+krovak05/difference_tables/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krovak05/difference_tables/table_yx_3_v1005.csv,sha256=kLo1dskFc-AjPaSCVDwvXuGLRW-KYkA3qu7SDV2bOZU,1015821
+krovak05/difference_tables/table_yx_3_v1202.csv,sha256=mTKe5LNTeCdQzsiaoBuKRcm9YRTneVZep6SpZqaXHc8,1015574
+krovak05/difference_tables/table_yx_3_v1710.csv,sha256=0WhbkTh9IWNIAmJa5TA3fsVuXOXHu7ULGiTUYiOlC5c,1016054
+krovak05/kvazigeoids/CR-2005_v1005.csv,sha256=JNpBOSdgit8m4F9I7et8lFfmDdi7VCD9tdMog_zD5dg,1392298
+krovak05/kvazigeoids/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krovak05-0.0.9.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+krovak05-0.0.9.dist-info/METADATA,sha256=skIf4PlQIFQmEO1MPb6NlZ0eMuNVqjkzaO12DlBWA60,3366
+krovak05-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+krovak05-0.0.9.dist-info/top_level.txt,sha256=-cCdrKNvrbjqlNLsbYJLxyuowVJfQXc5Q3Hkney8RpI,9
+krovak05-0.0.9.dist-info/RECORD,,
