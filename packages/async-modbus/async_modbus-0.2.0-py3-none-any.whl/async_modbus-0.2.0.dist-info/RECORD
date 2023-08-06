@@ -1,0 +1,11 @@
+async_modbus/__init__.py,sha256=q4RoJQAcO4HjTJRIAL1JBnw-yj4Pkw3ljyeqbwu_rlY,311
+async_modbus/core.py,sha256=payYOcWDwbkavWUnNam_l7ejOXiLPawpzCDBGQouY0g,9124
+async_modbus/umodbus_numpy.py,sha256=OKDIcK3pidbbO4OEFvEV01IijL2yckadcwajYrvbYIE,5301
+tests/__init__.py,sha256=KXo0TjKwZ2Tfr6MyQhVnibqSDV19xyIkbgeIKIUjj0g,42
+tests/test_async_modbus.py,sha256=w7XlugnhvwWT1wIzmF02IptbHWNDzor9zGxhRs6J5iY,557
+async_modbus-0.2.0.dist-info/LICENSE,sha256=JAKhe23DqWqVuQM0cfHnodCr5HyeWXz35kNHUT9YZZ0,1544
+async_modbus-0.2.0.dist-info/METADATA,sha256=MM7KLrwZt5BHEzRbjTtjFVFkJ2aYIdoXp9KN809n5K0,7162
+async_modbus-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+async_modbus-0.2.0.dist-info/top_level.txt,sha256=5Yv3CQBqHAp188YnCaOhsVLSxlwytGZAe6M_ylgL3so,19
+async_modbus-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+async_modbus-0.2.0.dist-info/RECORD,,
