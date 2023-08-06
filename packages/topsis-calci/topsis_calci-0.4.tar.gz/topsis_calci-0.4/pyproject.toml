@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "topsis_calci"
+version = "0.4"
+description = ""
+readme = "README.md"
+homepage = "https://github.com/ritikrajdev/topsic-calci"
+repository = "https://github.com/ritikrajdev/topsic-calci"
+authors = ["ritikrajdev <ritikrajdev761@gmail.com>"]
+include =  [
+	"LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.0.4"
+numpy = "^1.22.2"
+pandas = "^1.4.1"
+openpyxl = "^3.0.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+topsis = "topsis_calci.cli:cli"
