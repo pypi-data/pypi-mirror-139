@@ -1,0 +1,16 @@
+setup.py
+client_pack/__init__.py
+client_pack/client/__init__.py
+client_pack/client/client.py
+client_pack/client/client_repository.py
+client_pack/common/__init__.py
+client_pack/common/messages.py
+client_pack/common/utils.py
+client_pack/pyqt_ui/__init__.py
+client_pack/pyqt_ui/admin_page.py
+client_pack/pyqt_ui/main.py
+messenger_client_theksanacodes.egg-info/PKG-INFO
+messenger_client_theksanacodes.egg-info/SOURCES.txt
+messenger_client_theksanacodes.egg-info/dependency_links.txt
+messenger_client_theksanacodes.egg-info/requires.txt
+messenger_client_theksanacodes.egg-info/top_level.txt
