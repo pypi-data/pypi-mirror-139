@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+bargets/__init__.py
+bargets/battery.py
+bargets/configparser.py
+bargets/cpu.py
+bargets.egg-info/PKG-INFO
+bargets.egg-info/SOURCES.txt
+bargets.egg-info/dependency_links.txt
+bargets.egg-info/entry_points.txt
+bargets.egg-info/not-zip-safe
+bargets.egg-info/requires.txt
+bargets.egg-info/top_level.txt
