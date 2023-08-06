@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+utils.py
+pyFundamental.egg-info/PKG-INFO
+pyFundamental.egg-info/SOURCES.txt
+pyFundamental.egg-info/dependency_links.txt
+pyFundamental.egg-info/top_level.txt

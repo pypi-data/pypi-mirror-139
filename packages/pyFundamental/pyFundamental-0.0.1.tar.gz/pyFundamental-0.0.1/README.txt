@@ -1,0 +1,1 @@
+This is a python package to sort and organize stock data.
