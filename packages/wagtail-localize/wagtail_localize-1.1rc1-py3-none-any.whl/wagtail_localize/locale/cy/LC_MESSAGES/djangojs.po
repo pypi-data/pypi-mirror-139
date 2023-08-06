@@ -1,0 +1,39 @@
+#
+# Translators:
+# Adam Hughes <adamhughes31@gmail.com>, 2021
+#
+msgid ""
+msgstr ""
+"Last-Translator: Adam Hughes <adamhughes31@gmail.com>, 2021\n"
+"Language-Team: Welsh (https://www.transifex.com/torchbox/teams/8009/cy/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: cy\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3;\n"
+
+msgid "Apply editor lock"
+msgstr "Cymhwyso clo golygydd"
+
+msgid "Choose an image"
+msgstr "Dewis delwedd"
+
+msgid "Delete"
+msgstr "Dileu"
+
+msgid "Edit"
+msgstr "Golygu"
+
+msgid "Lock"
+msgstr "Clo"
+
+msgid "Save"
+msgstr "Cadw"
+
+msgid "Saving..."
+msgstr "Cadw..."
+
+msgid "Unlock"
+msgstr "Datgloi"
+
+msgid "Unpublish"
+msgstr "Anghyhoedd"
