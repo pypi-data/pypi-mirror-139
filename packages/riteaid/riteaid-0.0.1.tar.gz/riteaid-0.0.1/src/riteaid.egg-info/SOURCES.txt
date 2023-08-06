@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/riteaid/__init__.py
+src/riteaid/const.py
+src/riteaid/exceptions.py
+src/riteaid.egg-info/PKG-INFO
+src/riteaid.egg-info/SOURCES.txt
+src/riteaid.egg-info/dependency_links.txt
+src/riteaid.egg-info/requires.txt
+src/riteaid.egg-info/top_level.txt
