@@ -1,0 +1,5 @@
+avro
+confluent_kafka
+setuptools
+elasticsearch
+jsonpickle
