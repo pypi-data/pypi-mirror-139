@@ -1,0 +1,13 @@
+wikijscmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikijscmd/__main__.py,sha256=2xQyIVvHWdQfbEjV_6xyFRbNbSpVWsEv6rXZj3lWLN8,73
+wikijscmd/app.py,sha256=YpRprtnTKb8dLJ-nqKgvU9KP2XMTwAvfIFeTEPS02ss,2602
+wikijscmd/commands.py,sha256=1vfEIp4qQ-CcsRPzF1ERS6h2gvkRbwCvOtBwbraYmXw,4139
+wikijscmd/config.py,sha256=PHNbWZtyJSEDH3zWOaZUa4Fu3kep9P5FOjIbMYDcJ9E,140
+wikijscmd/custom_requests.py,sha256=hA4OHL-6e-Wtwzm6omqPciunqG78hvUaDfKnnMEljeU,752
+wikijscmd/graphql_queries.py,sha256=eVXdw84oXP3cYfhAcVRFgjMvkyE2WVLbuafZSuSe7FI,2338
+wikijscmd/tui.py,sha256=K-T9ESZMIBt29OfFytwAWTdnglYeXUT8WGYlQ0gN50w,3630
+wikijscmd/util.py,sha256=Lr4-3VuDbtKommzKiz400bSiXtHQCsisGHybsVDzfg8,1961
+wikijscmd-0.3.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+wikijscmd-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wikijscmd-0.3.0.dist-info/METADATA,sha256=ueV4c_x1vuswcYEqHwJkNi0hpR2pRQfR2QC4yRIKW_Y,491
+wikijscmd-0.3.0.dist-info/RECORD,,
