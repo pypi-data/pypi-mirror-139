@@ -1,0 +1,10 @@
+bodyguard/__init__.py,sha256=8NX7_jHVHlaQCYKpU1p1FfkZpqeIj1NcmZZO1d1Brus,186
+bodyguard/exceptions.py,sha256=evbVBLGLFbTSds8FXX7BxxM6rCDwFuJ-tFM1cDTXwu4,1726
+bodyguard/read_and_write.py,sha256=dHOSm5EP4dHW5brwVUF_kFcbnIUjcoUu3eD4AbZOIok,5737
+bodyguard/strings.py,sha256=RCLklhG0f7RKusYMCquRlQEhmfij-7xSZBlM1Zuds2g,517
+bodyguard/tools.py,sha256=PWfNkSueLLSmH6rtdLSAwcTiPTsoT1vhJFx9Nk4HAjE,6656
+bodyguard-0.0.21.dist-info/LICENSE,sha256=xQUQx2wVZkINKPXgLrOUbznrDs3ywp1w9U8BVFieKyc,1087
+bodyguard-0.0.21.dist-info/METADATA,sha256=gYqtoP4twdcoBpv6mD3-s8GWfVoSDJNZ3GUJ4U1TGw8,594
+bodyguard-0.0.21.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bodyguard-0.0.21.dist-info/top_level.txt,sha256=cO4TMyu6v3C0aLZ7RgFYnebu-M3lczZT3iB9Mp8Sfdg,10
+bodyguard-0.0.21.dist-info/RECORD,,
