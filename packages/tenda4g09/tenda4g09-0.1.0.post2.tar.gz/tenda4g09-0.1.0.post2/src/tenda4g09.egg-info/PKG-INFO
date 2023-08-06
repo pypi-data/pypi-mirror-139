@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: tenda4g09
+Version: 0.1.0.post2
+Summary: A small library for the Tender 4G09 router
+Home-page: https://github.com/dorianim/py-tenda4g09
+Author: Dorian Zedler
+Author-email: mail@dorian.im
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dorianim/py-tenda4g09/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">
+py-tenda4g09
+</h1>
+<p align="center">
+    <a href="https://www.gnu.org/licenses/agpl-3.0">
+        <img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" />
+    </a>
+    <a href="https://github.com/dorianim/py-tenda4g09/actions/workflows/publish-to-pypi.yml">
+        <img src="https://github.com/dorianim/py-tenda4g09/actions/workflows/publish-to-pypi.yml/badge.svg" />
+    </a>
+</p>
+
+Simple Python lib for the tenda4g09 router.
+
+# Features
+- Login to the Tenda4G09 LTE router
+- Get the current status of the router
+- Reboot the router
+- ...More could be added quite easily
+# Install
+```
+pip3 install tenda4g09
+```
+
+# Usage
+```py
+from tenda4g09 import Tenda4G09
+
+tenda = Tenda4G09("192.168.0.1")
+if tenda.login("somepassword"):
+    print(tenda.status())
+```
+
