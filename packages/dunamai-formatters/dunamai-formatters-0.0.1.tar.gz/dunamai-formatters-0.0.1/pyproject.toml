@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "dunamai-formatters"
+version = "0.0.1"
+description = "A complementary tool to Dunamai that offers formatters that can be used as the format argument of the serialize function."
+license = "Proprietary"
+authors = ["Marnik De Bont <marnik@mdebont.be>"]
+readme = "README.md"
+homepage = "https://gitlab.com/marnik/dunamai-formatters"
+repository = "https://gitlab.com/marnik/dunamai-formatters"
+documentation = "https://marnik.gitlab.io/dunamai-formatters"
+keywords = ["version", "versioning", "dynamic", "dunamai"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Natural Language :: English",
+    "Typing :: Typed",
+]
+include = ["CHANGELOG.md"]
+packages = [{include = "dunamai_formatters"}]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+dunamai = "^1.9.0"
+#dunamai = {git = "https://github.com/mtkennerly/dunamai.git"}
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+isort = {extras = ["colors"], version = "^5.10.1"}
+black = "^21.12b0"
+
+[tool.poetry.group.quality]
+optional = true
+
+[tool.poetry.group.quality.dependencies]
+# Linters
+isort = {extras = ["colors"], version = "^5.10.1"}
+black = "^21.12b0"
+# Checkers
+bandit = "^1.7.1"
+flake8 = "^4.0.1"
+mypy = "^0.931"
+pylint = "^2.12.2"
+safety = "^1.10.3"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^3.0.0"
+tox = "^3.24.5"
+#tox-poetry-installer = {extras = ["poetry"], version = "^0.8.3"}
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+Sphinx = "^3.5.4"
+sphinx-rtd-theme = "^1.0.0"
+myst-parser = "^0.16.1"
+sphinxcontrib-apidoc = "^0.3.0"
+auto-changelog = "^0.5.3"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://gitlab.com/marnik/dunamai-formatters/-/issues"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+format-jinja = "{{ version.serialize(format=dunamai_formatters.pep440.meta_id) }}"
+format-jinja-imports = [
+    { module = "dunamai_formatters" },
+]
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+
+[build-system]
+#requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning", "dunamai_formatters"]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
