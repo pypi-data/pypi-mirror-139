@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: emma-tester
+Version: 1
+Summary: A test utility program for profiling and unit test your code
+Author: Fabio Capocasale
+Author-email: orionwaredevelopment@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
