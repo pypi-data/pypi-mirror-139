@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "deadsimple"
+version = "0.4.0"
+description = "A dependency injection library, aimed for the least amount of magic"
+authors = ["Nitzan Zada <nitzan.zada@gmail.com>"]
+keywords = ["dependency_injection"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/mastern2k3/deadsimple"
+repository = "https://github.com/mastern2k3/deadsimple"
+include = [
+    "LICENSE",
+]
+packages = [
+    { include = "deadsimple", from = "src" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.11b1"
+line-profiler = "^3.3.1"
+pylint = "^2.12.2"
+mkdocs = "^1.2.3"
+mkdocs-material = "^8.1.6"
+
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+
+
+[tool.pylint.basic]
+max-line-length = 88
+
+
+[tool.pylint.message_control]
+disable = [
+    "arguments-differ",
+    "missing-class-docstring",
+    "missing-module-docstring",
+    "missing-function-docstring",
+    "redefined-outer-name",
+    "too-many-instance-attributes",
+    "too-many-arguments",
+    "too-many-locals",
+    "too-many-branches",
+    "too-many-statements",
+    "too-few-public-methods",
+    "too-many-public-methods",
+    "broad-except",
+    "redefined-builtin",
+    "duplicate-code",
+    "no-self-use",
+    "no-name-in-module",
+
+    "invalid-name",
+    "protected-access",
+    "logging-fstring-interpolation",
+]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
