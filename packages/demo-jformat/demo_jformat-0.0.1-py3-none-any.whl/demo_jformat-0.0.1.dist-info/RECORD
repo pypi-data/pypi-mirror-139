@@ -1,0 +1,9 @@
+jformat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jformat/main.py,sha256=s9T15UhYF4WZUo0LS1r-c1VPq3qsTG0g90VCP5j26_E,383
+jformat/utils.py,sha256=iUlZFUQIIcCpQlBMErabgnvSCjSAQkEuq48-NfyO49I,229
+demo_jformat-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+demo_jformat-0.0.1.dist-info/METADATA,sha256=GMp7k8GHFhbSeSegSJ1gaWVhTVhVPwd7OBBJD94yogA,254
+demo_jformat-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+demo_jformat-0.0.1.dist-info/entry_points.txt,sha256=mzKRXqTXvzMSrcRafUAy0RjzzM4ZDN8wCDsoNl4Ccgc,46
+demo_jformat-0.0.1.dist-info/top_level.txt,sha256=M-Vq1J5RTgvOhBGJjhpMURFTFMokaKVH__O5soLH6jc,8
+demo_jformat-0.0.1.dist-info/RECORD,,

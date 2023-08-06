@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: demo-jformat
+Version: 0.0.1
+Summary: Reformats files to stdout
+Author: Alfredo Deza
+Author-email: alfredo@deza.pe
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: colorama
+
+UNKNOWN
+
