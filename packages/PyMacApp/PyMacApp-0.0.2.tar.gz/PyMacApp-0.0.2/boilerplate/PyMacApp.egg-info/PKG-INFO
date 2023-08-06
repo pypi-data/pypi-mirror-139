@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyMacApp
+Version: 0.0.2
+Summary: A boilerplate for creating MacOS desktop apps and installers, including signing and notorizing.
+Home-page: https://github.com/The-Nicholas-R-Barrow-Company-LLC/PyMacApp
+Author: The Nicholas R. Barrow Company, LLC
+Author-email: me@nicholasrbarrow.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/The-Nicholas-R-Barrow-Company-LLC/PyMacApp/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
