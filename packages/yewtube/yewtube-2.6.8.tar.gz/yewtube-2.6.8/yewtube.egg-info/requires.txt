@@ -1,0 +1,10 @@
+requests
+pyperclip
+youtube-search-python
+yt-dlp
+
+[:platform_system == "Linux"]
+pyreadline
+
+[:platform_system == "Windows"]
+pyreadline3
