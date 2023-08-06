@@ -1,0 +1,10 @@
+mrmath/__init__.py,sha256=Kz8J2vL6ThBAoaD9qfCp2eJWu2gaEXwKHMHGh3NR77E,2038
+mrmath/_const.py,sha256=8swuxDzBoX1iRVJrkiwNyR6YfTDPrZ5butGOhVOsUUg,537
+mrmath/_hyperbol.py,sha256=ppwwJ9FYKljiLaYej7-uvRpIVIm7yWXuasSVm4bmt5Y,871
+mrmath/_numtheor.py,sha256=n-n2EgoNf5ZSklVlOivJ4BuKcFlJQh9meW9rV7lH0G4,2714
+mrmath/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mrmath/vecmat3d.py,sha256=lk93TvpfnPe1Ok4eYrL-SHBqZXqzHuOn7VD_DkZA2WQ,41939
+mrmath-0.2.0.dist-info/METADATA,sha256=HP3V18IPvItl1UkNvmOUapbqlCaw7xoy1EIBHMZFcUA,2459
+mrmath-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mrmath-0.2.0.dist-info/top_level.txt,sha256=HBNuo1zkf-QaUQGrAB42oWAB_yCBmQZsm9VXVWIHp3o,7
+mrmath-0.2.0.dist-info/RECORD,,
