@@ -1,0 +1,7 @@
+pastypy/__init__.py,sha256=mx4uVyOk1MkgE7Yo3DO83Z7NqZjTAv0N-jO6gjXotwc,150
+pastypy/asyncio.py,sha256=eHKvlPCPVLvZq0yugFlRufIuo1Wvs8F8d94HY63YfL4,6940
+pastypy/sync.py,sha256=5iNnpkvh4zAP1JZ7-4OJU3k_lwoqi-d4SdzVfTrbDzY,6549
+pastypy-1.0.0.dist-info/LICENSE,sha256=wCf4k1hPkwZCdKjJqq8ONDPAt0TgsqxgjYcYS9w-9bc,1098
+pastypy-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pastypy-1.0.0.dist-info/METADATA,sha256=kZ4jwURBsIrAjrHclpoA1ohQoHHUrLvyU984uzZFLc8,403
+pastypy-1.0.0.dist-info/RECORD,,
