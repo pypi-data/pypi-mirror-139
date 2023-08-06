@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/admin/static/css/main.f047670d.css",
+    "main.js": "/admin/static/js/main.db2c6a1e.js",
+    "static/js/787.707d1bd1.chunk.js": "/admin/static/js/787.707d1bd1.chunk.js",
+    "static/media/tenants.svg": "/admin/static/media/tenants.3a942265546a3a2ebbf16aa58f45311f.svg",
+    "static/media/fief-logo-red.svg": "/admin/static/media/fief-logo-red.ee09b120c56412b835b2cb57d6adaa58.svg",
+    "static/media/dashboard.svg": "/admin/static/media/dashboard.580511ccd86590b36f5819c267461ebe.svg",
+    "index.html": "/admin/index.html",
+    "static/media/clients.svg": "/admin/static/media/clients.9b0e9946f3619c28cab1767cc62a22aa.svg",
+    "static/media/users.svg": "/admin/static/media/users.acc3e62b7bc3248222826909f7911672.svg",
+    "static/media/getFetch.cjs": "/admin/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.f047670d.css.map": "/admin/static/css/main.f047670d.css.map",
+    "main.db2c6a1e.js.map": "/admin/static/js/main.db2c6a1e.js.map",
+    "787.707d1bd1.chunk.js.map": "/admin/static/js/787.707d1bd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f047670d.css",
+    "static/js/main.db2c6a1e.js"
+  ]
+}
