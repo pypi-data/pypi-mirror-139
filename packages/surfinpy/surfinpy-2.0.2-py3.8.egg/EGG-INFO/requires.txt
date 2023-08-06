@@ -1,0 +1,10 @@
+scipy
+numpy
+pymatgen
+numpy
+matplotlib
+seaborn
+pyyaml
+
+[Tutorials]
+jupyter
