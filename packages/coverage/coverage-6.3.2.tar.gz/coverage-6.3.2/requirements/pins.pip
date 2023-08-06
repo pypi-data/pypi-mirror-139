@@ -1,0 +1,9 @@
+# Licensed under the Apache License: http://www.apache.org/licenses/LICENSE-2.0
+# For details: https://github.com/nedbat/coveragepy/blob/master/NOTICE.txt
+
+# Version pins, for use as a constraints file.
+
+# Sphinx pinned to 0.16, then readme-renderer pulled in a newer version, so pin
+# this globally.
+# Sphinx pin: https://github.com/sphinx-doc/sphinx/blob/master/setup.py#L25
+docutils==0.16
