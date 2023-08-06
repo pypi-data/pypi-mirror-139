@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+fourier_integrals/Binomialdistribution.py
+fourier_integrals/Gaussiandistribution.py
+fourier_integrals/Generaldistribution.py
+fourier_integrals/__init__.py
+fourier_integrals.egg-info/PKG-INFO
+fourier_integrals.egg-info/SOURCES.txt
+fourier_integrals.egg-info/dependency_links.txt
+fourier_integrals.egg-info/not-zip-safe
+fourier_integrals.egg-info/top_level.txt
