@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/viztree/__init__.py
+src/viztree/__main__.py
+src/viztree/argments.py
+src/viztree.egg-info/PKG-INFO
+src/viztree.egg-info/SOURCES.txt
+src/viztree.egg-info/dependency_links.txt
+src/viztree.egg-info/entry_points.txt
+src/viztree.egg-info/not-zip-safe
+src/viztree.egg-info/requires.txt
+src/viztree.egg-info/top_level.txt
+src/viztree/templates/dir_tree_html.j2

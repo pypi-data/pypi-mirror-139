@@ -1,0 +1,3 @@
+[console_scripts]
+viztree = viztree.__main__:main
+
