@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Python_discord_rankcard.egg-info/PKG-INFO
+Python_discord_rankcard.egg-info/SOURCES.txt
+Python_discord_rankcard.egg-info/dependency_links.txt
+Python_discord_rankcard.egg-info/requires.txt
+Python_discord_rankcard.egg-info/top_level.txt
+Rankcard/Main.py
+Rankcard/__init__.py
