@@ -1,0 +1,8 @@
+microservicemqtt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microservicemqtt/microservice.py,sha256=R7gajILSC6wZBtwykD2Qlj8auTCvqoZEN7yiGJiJZWU,7163
+microservicemqtt/microserviceclient.py,sha256=OUKV8agLFhSc-RuKtZAS7kFLhrbkO4SQ3yl39smu_ew,10556
+microservicemqtt-0.1.3.dist-info/LICENSE,sha256=ypNbkjxueV8wftLqVR5hKG2YrVbpVUpa-fr7ut-Ea8k,1072
+microservicemqtt-0.1.3.dist-info/METADATA,sha256=LUKU0xOy0Qa5xunA6OOJfChUTXmsRuMrasfshRHvkyc,712
+microservicemqtt-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+microservicemqtt-0.1.3.dist-info/top_level.txt,sha256=e_lFVXHvEbQdnFhn6VP1STBO7xhWtmXk1iNqUsH2yOM,17
+microservicemqtt-0.1.3.dist-info/RECORD,,
