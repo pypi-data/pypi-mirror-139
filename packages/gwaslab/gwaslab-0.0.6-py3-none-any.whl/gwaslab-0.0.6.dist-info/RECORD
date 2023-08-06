@@ -1,0 +1,15 @@
+gwaslab/__init__.py,sha256=lMya99c5kx0W7dgRapiwzcRLLFFMhIBUvMKIqbS_Lk0,346
+gwaslab/compare_effect.py,sha256=X6R06V8SMVSUaZYsS2mGGP2CcLfwH-g1x1ppKDoCcSA,10710
+gwaslab/get_hapmap3.py,sha256=TUeHz5PFsmQhKxQwflYBvq7vZhX7TIDV-sQjEKaZPfE,1106
+gwaslab/getsig.py,sha256=aoGjIQtzIr_21BW5vMpUjbT-K5h5Qfj5nvhd4EYaouQ,2056
+gwaslab/h2_conversion.py,sha256=yAFntur0IUsSDbZz8DPKJ6MXWI-7qzFT8hgeMjjFWVI,1410
+gwaslab/manhattan.py,sha256=0uPdlWdbF85ziFeusgsXbCpgIV7bp0IUlwOIbpI0hkU,9235
+gwaslab/mqqplot.py,sha256=OoZ0Zq69ZSz7g6bSVR2KsmM7HM7y0YLQaCnU2NX19CU,11347
+gwaslab/or_beta.py,sha256=CEg6p8hrL1XlvSRRBQTR3Zbzbb4JuC4fy9Jo3yeqad4,553
+gwaslab/qqplot.py,sha256=zmVC-kkS-V87936T5R7XIwB8KBplkUmz_NYIzrc5xB8,3592
+gwaslab/read_ldsc.py,sha256=aXVGONfMpM8TqPvo6jlLvhpB8BRFV0zmieegOT8W-io,3905
+gwaslab-0.0.6.dist-info/LICENSE,sha256=GhLOU_1UDEKeOacYhsRN_m9u-eIuVTazSndZPeNcTZA,1066
+gwaslab-0.0.6.dist-info/METADATA,sha256=RKrjAt41iOSXv-Jq8a3OaTXebK2S8zWL3j3IsPoYWAc,3463
+gwaslab-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gwaslab-0.0.6.dist-info/top_level.txt,sha256=PyY6hWtrALpv2MAN3kjkIAzJNmmBTH5a2risz9KwH08,8
+gwaslab-0.0.6.dist-info/RECORD,,
