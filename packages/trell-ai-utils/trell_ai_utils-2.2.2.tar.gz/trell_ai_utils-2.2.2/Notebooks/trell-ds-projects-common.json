@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "trellatale",
+  "private_key_id": "87e92771631f52a29a3a8d04034dcf86923dfa2b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCfot0AzBEvGneV\nET4vX2oeoK1OYEPjMCCmrUQBwfXWwQtpogPSss1whOg83SYGOgT/tslnyf0iN/uT\nHWSv+y1XoBjFwWo+/ISui27DFTfGfugnZAjfVghnvdaJJxMH1nJCuDPobw0lgk3g\nbZ7cWjkiogWAE26iRhXbqifT9jVzBADfcWdCwuJd9OcrppYVoYyF8bJqAqknEI9h\nvuV73hc1n69TB1M0PsIPlP8Lk85IOwuVVMWqVRQcZfjO5jcm+swSimTz5R1KtGNK\nCJvmYtGeewfA/tFhhu9v9JW5IBMQFbX6py9qmoNxJWwoLFaqa7sQ/Pp3Qo1dTqjY\nLLa0aiFXAgMBAAECggEASWC23pFuyqyLUCmDYIomwNpRn0evnOP39jWJn5c09hh5\nMv6GbFjFBxYInEV5H36W4qX2ES+vHAYIrThjGmNGFdOg33HG8RnosUSlTqXXo/Wc\np9KbI3Gr3mfMD/I2lLE1h0adkZdOPzIUsvcggSA1yB4akiMchRnbHUQrF4rCSdHQ\nu+ygu2H+uFfqfshHSjbI9dT14kFPZqPQH2BwIB4NdoSc7nwTx2xBOoZbc0GZcIfU\nKnUIPpjY3KG/DIR5zduH/dLAX9Xro9+UESte0a+yYy2De7FFsASd08m8kVvCDVFz\n0gZOxHIPD2R10tXN2Anz+XoxvyHhK38qZHmOfHr3fQKBgQDTptFG8SVyhYIwbFM2\nF4WF7JiQ9YcF7i8kcQL9//OXFrLVyX1H9C+7m+zII6kr35gH36sd2/yN48sLbCBW\nUjH85PcGEGZmss969084GooOnVabhdG7jOp60hKqFe9NIrsvs8sRAXXyDCrMC4u7\nM3ykECsWtJH8Q9HA5b22VMcvQwKBgQDBFeQMykgGtXOwMZRxrVoJ965/BWldjAYX\n2VJBmfAsGHdM+WLvAK4JFXSOELyQkfgWQ0F9HWpPpHhgeiajhODk4zhC3qpikPML\nZ8Hmluuumx2GdWyHUu/Dbbkx1+sSoUu+xaq5vY9TKdyuQAZlRhSNsBL2M+miC7bF\nM5NyHIPSXQKBgQCidBWIDUo/98fw4QSRrUY4gFyuTzbfT23x26h/S3kuDCciPzCh\nDQWiS9FX4T9VRJ8N1BkkpxjX0/OihdDgUOC7iwcsKWRgCXmFmdO9bWlwREYYw4Mz\nILtNoHbhBEsUescQm0EPgX6FVd93lJkhDCjsSNi56clvxqJ2HCEclT/5vwKBgQC/\nqlpA8/8BYddf/CdNnHW3VTzK6/VGnftiayCC7CsDqpmqOBgkBXm8nKahay2zGKK6\nfrKgXrWsLygrJLX8NagErSSpBF0AEMCh/rH0krWLEoEBeshroEFOrjlap+m6CZCl\n45NwYyHFvNVJx1ZR63n1l+WKrcdqStR39pWTfYjBJQKBgACKwoS5xoQxHDoj5A0u\ndL1GfKvHf1fCsbxUOvwLMaIzFEpDa0vdhuVsNvYbhIVRQ3Bi7WEsLhIMB4FMjYpl\nSusvH54kWdiTbw0JKqshFQstSPjB9O3GdJtdljxNySmZPOOr4iTNFL6/l0Ed9zyg\nazuCLoFO+rmM68UM0jhYff5r\n-----END PRIVATE KEY-----\n",
+  "client_email": "trell-ds-projects-common@trellatale.iam.gserviceaccount.com",
+  "client_id": "111808993797011607966",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/trell-ds-projects-common%40trellatale.iam.gserviceaccount.com"
+}
