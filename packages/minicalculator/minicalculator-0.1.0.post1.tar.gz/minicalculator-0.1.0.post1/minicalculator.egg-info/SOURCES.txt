@@ -1,0 +1,8 @@
+README.md
+setup.py
+mini_calculator/__init__.py
+mini_calculator/calculator.py
+minicalculator.egg-info/PKG-INFO
+minicalculator.egg-info/SOURCES.txt
+minicalculator.egg-info/dependency_links.txt
+minicalculator.egg-info/top_level.txt
