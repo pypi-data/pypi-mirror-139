@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: viewephys
+Version: 0.1.1
+Summary: Raw Neuropixel data viewer for numpy
+Home-page: https://github.com/oliche/viewephys
+Author: Olivier Winter
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/oliche/viewephys/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# viewephys
+Neuropixel raw data viewer
+
+## Installation
+`pip install viewephys`
+This is compatible with the [IBL environment](https://github.com/int-brain-lab/iblenv)
+
+Alternatively, for developers:
+```
+git clone https://github.com/oliche/viewephys.git
+cd viewephys
+pip install -e .
+```
+
+## Examples
+Activate your environment and type `viewephys`, you can then load a neuropixel binary file using the file menu.
+
+## Contribution
+Fork and PR.
+
+Pypi Release checklist:
+```shell
+flake8
+rm -fR dist
+rm -fR build
+python setup.py sdist bdist_wheel
+twine upload dist/*
+#twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```
+
+
