@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: fillnull
+Version: 0.0.1
+Summary: fillnull helps to automate the process of filling all null values in a dataframe by predicting their value using your algorithm of choice,
+Home-page: https://github.com/sire-ambrose/fillnull
+Author: Sire Ambrose
+Author-email: ikpeleambroseobinna@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: null,nan,null values,nan values,pandas fill
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
