@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/thepasswordgenerator/__init__.py
+src/thepasswordgenerator/password_generator.py
+src/thepasswordgenerator.egg-info/PKG-INFO
+src/thepasswordgenerator.egg-info/SOURCES.txt
+src/thepasswordgenerator.egg-info/dependency_links.txt
+src/thepasswordgenerator.egg-info/top_level.txt
