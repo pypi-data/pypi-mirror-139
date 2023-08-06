@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pp-iopm
+Version: 0.0.1
+Summary: An Abstraction-Based Approach for Privacy-Aware Inter-Organizational Process Mining
+Home-page: https://github.com/m4jidRafiei/pp-iopm
+Author: Majid Rafiei
+Author-email: majid.rafiei@pads.rwth-aachen.de
+License: UNKNOWN
+Project-URL: Source, https://github.com/m4jidRafiei/pp-iopm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Introduction
+This project implements an abstraction-based approach for privacy-aware inter-organizational process mining.
+## Python package
+The implementation has been published as a standard Python package. Use the following command to install the corresponding Python package:
+
+```shell
+pip install pp-iopm
+```
+
+## Usage
+Look at the "main_....py" files to see the usage example.
+
+
