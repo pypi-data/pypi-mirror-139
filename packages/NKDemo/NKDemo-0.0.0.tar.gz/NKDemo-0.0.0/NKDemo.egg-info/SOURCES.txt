@@ -1,0 +1,17 @@
+setup.py
+NKDemo.egg-info/PKG-INFO
+NKDemo.egg-info/SOURCES.txt
+NKDemo.egg-info/dependency_links.txt
+NKDemo.egg-info/entry_points.txt
+NKDemo.egg-info/top_level.txt
+orangedemo/OWDataSamplerA.py
+orangedemo/OWDataSamplerB.py
+orangedemo/OWDataSamplerC.py
+orangedemo/OWLearningCurveA.py
+orangedemo/OWLearningCurveB.py
+orangedemo/OWLearningCurveC.py
+orangedemo/__init__.py
+orangedemo/icons/DataSamplerA.svg
+orangedemo/icons/DataSamplerB.svg
+orangedemo/icons/DataSamplerC.svg
+orangedemo/icons/LearningCurve.svg
