@@ -1,0 +1,35 @@
+name: Process $dataset_id
+on:
+  workflow_dispatch:
+
+# To upload to the Virtuoso triplestores (production or staging), 
+# you need to set 1 secret: VIRTUOSO_PASSWORD
+jobs:
+
+  process-dataset:
+    runs-on: ubuntu-latest
+    outputs:
+      rdf-output: ${{ steps.stepupload.outputs.rdf_output }}
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+
+    - name: Run dataset processing
+      env:
+        DBA_PASSWORD: ${{ secrets.VIRTUOSO_PASSWORD }}
+      run: |
+        python -m pip install git+https://github.com/MaastrichtU-IDS/d2s-cli.git@master
+        cd datasets/$dataset_id
+        d2s run
+
+    - name: Upload RDF output artifact to GitHub
+      id: stepupload
+      uses: actions/upload-artifact@v1
+      with:
+        name: rdf-output
+        path: output/*
