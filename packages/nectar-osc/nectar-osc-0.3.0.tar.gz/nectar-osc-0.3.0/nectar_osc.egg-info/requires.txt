@@ -1,0 +1,7 @@
+osc-lib
+oslo.config
+oslo.utils
+pbr>=3.0.0
+python-freshdesk
+python-neutronclient
+python-openstackclient
