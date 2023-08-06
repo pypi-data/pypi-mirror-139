@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: matthewflegg-mbti
+Version: 0.0.1
+Summary: Predicting MBTI types based on Twitter posts
+Home-page: https://github.com/matthewflegg/mbti
+Author: Matthew Flegg
+Author-email: matthewflegg@outlook.com
+License: UNKNOWN
+Keywords: MBTI,LSTM,machine learning,neural network,BERT,keras
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: keras
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: transformers
+
+# mbti
+Predicting someone's MBTI type based on their online posts, using AI.
+
+
