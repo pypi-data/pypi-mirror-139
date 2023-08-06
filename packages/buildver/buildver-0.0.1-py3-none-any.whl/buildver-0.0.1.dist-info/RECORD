@@ -1,0 +1,8 @@
+buildver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildver/__main__.py,sha256=hiFQozppv_I9mpUn6IO5q0mq-vFabLrYOlllsYOPZf0,121
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildver-0.0.1.dist-info/METADATA,sha256=XFJYZioYZgVJ3K4ddjCjj3srrYrQbULCu4lctBSbHao,683
+buildver-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+buildver-0.0.1.dist-info/entry_points.txt,sha256=DUVC5R57CtznFjYIGryJCuNSDwmyMUjYo-nYVoai0Uc,53
+buildver-0.0.1.dist-info/top_level.txt,sha256=Q9z7bh1-UQ8UcXxcr0Qfoem6D2Pz13bhidoBZ98eTvk,15
+buildver-0.0.1.dist-info/RECORD,,
