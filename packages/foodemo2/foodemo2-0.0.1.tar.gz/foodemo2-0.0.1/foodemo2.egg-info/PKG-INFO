@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: foodemo2
+Version: 0.0.1
+Summary: Foo demo project the II
+Home-page: https://github.com/RobertoPrevato/FooDemo
+Author: Roberto Prevato
+Author-email: roberto.prevato@gmail.com
+License: MIT
+Keywords: demo project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FooDemo
+Demo project for a tutorial
+
+
