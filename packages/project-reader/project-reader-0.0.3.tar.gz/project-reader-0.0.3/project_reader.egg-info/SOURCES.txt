@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+project/__init__.py
+project/folder_reader.py
+project/folder_summary.py
+project/folder_visualizer.py
+project/read.py
+project_reader.egg-info/PKG-INFO
+project_reader.egg-info/SOURCES.txt
+project_reader.egg-info/dependency_links.txt
+project_reader.egg-info/top_level.txt
