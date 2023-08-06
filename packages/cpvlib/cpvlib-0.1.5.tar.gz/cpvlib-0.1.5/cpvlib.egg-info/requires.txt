@@ -1,0 +1,12 @@
+numpy>=1.20
+pandas>=1.2
+pvlib==0.8
+matplotlib>=3.3
+
+[doc]
+ipython
+matplotlib
+sphinx==3.1.2
+sphinx_rtd_theme==0.5.0
+sphinx-gallery
+sphinxcontrib-apidoc
