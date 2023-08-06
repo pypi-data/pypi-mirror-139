@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ctprint"
+version = "0.1.2"
+description = ""
+authors = ["saner99 <it@saner99.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
