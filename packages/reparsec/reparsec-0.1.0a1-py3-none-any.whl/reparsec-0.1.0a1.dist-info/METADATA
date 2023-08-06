@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: reparsec
+Version: 0.1.0a1
+Summary: Parser combinators library with error recovery
+Home-page: https://github.com/ethframe/reparsec
+Author: ethframe
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing-extensions
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+# reparsec
+
+Small parsec-like parser combinators library with semi-automatic error recovery.
+
+* [Intro](intro.md)
+
+
