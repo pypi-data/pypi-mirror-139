@@ -1,0 +1,12 @@
+include *.txt
+include *.md
+include *.pkl
+include *.yml
+
+recursive-include src/Data *
+recursive-include src/config *
+recursive-include src/model *
+
+exclude Dockerfile
+exclude run.sh
+exclude eda.ipynb
