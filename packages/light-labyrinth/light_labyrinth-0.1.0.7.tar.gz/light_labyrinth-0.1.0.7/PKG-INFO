@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: light_labyrinth
+Version: 0.1.0.7
+Summary: Light labyrinth ML model
+Home-page: https://lightlabyrinth.org
+Author: Marcin Zakrzewski, Krzysztof Wieclaw
+Author-email: enkar@lightlabyrinth.org, wutus@lightlabyrinth.org
+License: UNKNOWN
+Project-URL: Source Code, https://bitbucket.org/Enkar234/lightlabyrinth
+Project-URL: Documentation, https://lightlabyrinth.org
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Light Labyrinth
+Light labyrinth machine learning model.
+
+## How to install?
+`pip install light_labyrinth`
+
+## Documentation
+Documentation available at <https://lightlabyrinth.org>
+
+## Source code
+Source code available at <https://bitbucket.org/Enkar234/lightlabyrinth>
+
