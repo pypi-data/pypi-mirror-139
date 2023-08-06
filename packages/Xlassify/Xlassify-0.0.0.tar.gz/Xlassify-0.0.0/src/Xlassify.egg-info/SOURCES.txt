@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Xlassify.egg-info/PKG-INFO
+src/Xlassify.egg-info/SOURCES.txt
+src/Xlassify.egg-info/dependency_links.txt
+src/Xlassify.egg-info/top_level.txt
+src/xlassify/__init__.py
+src/xlassify/interface.py
