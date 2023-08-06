@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: confectionary
+Version: 0.1.7
+Summary: A tool to quickly create sweet PDF files from text files.
+Home-page: https://github.com/pszemraj/confectionary
+Author: Peter Szemraj, Jonathan Lehner
+Author-email: szemraj.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+README
+
+No history yet.
+
