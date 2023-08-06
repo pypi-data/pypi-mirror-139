@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gpsexif/__init__.py
+gpsexif/reader.py
+gpsexif/writer.py
+gpsexif.egg-info/PKG-INFO
+gpsexif.egg-info/SOURCES.txt
+gpsexif.egg-info/dependency_links.txt
+gpsexif.egg-info/requires.txt
+gpsexif.egg-info/top_level.txt
