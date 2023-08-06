@@ -1,0 +1,2 @@
+[console_scripts]
+setalgebra = setalgebra.__main__:main

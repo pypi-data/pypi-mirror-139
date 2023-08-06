@@ -1,0 +1,10 @@
+setalgebra/__init__.py,sha256=lmkpen6gKpAVuYkOb1Ofc6w4UshJ0CH3EqwSoJfGbSg,4067
+setalgebra/__main__.py,sha256=JGJvKURvRg33KJmncutx7aXxrP-JTrD35oDalDR4A2g,1614
+setalgebra/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+setalgebra/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+setalgebra_files-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+setalgebra_files-1.0.0.dist-info/METADATA,sha256=1RQRosNNFTlkbPFLQ9AUXsfccQdzxX2KLm7me8SflSg,1333
+setalgebra_files-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+setalgebra_files-1.0.0.dist-info/entry_points.txt,sha256=qC3Jvq8-pDmQitncgKHoEzdFsrEJZtxRmFcpipjdGCo,56
+setalgebra_files-1.0.0.dist-info/top_level.txt,sha256=J03ia1Dmk4cyufdP6_bKEjWpnh2KIN8QNB-9MPeIzv8,11
+setalgebra_files-1.0.0.dist-info/RECORD,,
