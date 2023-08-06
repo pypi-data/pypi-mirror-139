@@ -1,0 +1,11 @@
+typetwo/__init__.py,sha256=DgTU3NaPMl7O6ckH70xG3K9KixG6YH6i25iIbkrBHAM,324
+typetwo/dictcomparer.py,sha256=r8lT5my6udkqJ-xV8-pBETAb-GeVXWthSmH0eNCRNGc,624
+typetwo/isojson.py,sha256=eq4rh_Bd_u_oHFQRGk7b7AOC1Msu6BZ5_d9ergK6Fms,2670
+typetwo/rowkey.py,sha256=H2fGuDI1xg-cjnUBSCZepQEjLs_OR5ty4Z_QIyubrxM,1505
+typetwo/transformer.py,sha256=fgWzkzwX2ySFBBQ9nBXOgek6Drpn1ZRtDUclO6JvJls,3643
+typetwo/typetwo.py,sha256=P3SiZeiXwWdItiO9vdHuuOdgUhfKmVPJFjB7-89kZPE,6139
+typetwo-1.0.19.dist-info/LICENSE,sha256=laWBO9fCBHpMe2bfKVOunuf5rxEy3PUrZzvMHRtbj48,1053
+typetwo-1.0.19.dist-info/METADATA,sha256=_iMAfyYQ4BKdRSt4R-s6Xqvynyno2IhZ3rigUi4K2TE,2331
+typetwo-1.0.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+typetwo-1.0.19.dist-info/top_level.txt,sha256=b7uNzZG4_4L4cCIhFXK6HOj0LmtWHYS2UJhhgf3LXy0,8
+typetwo-1.0.19.dist-info/RECORD,,
