@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python-gitlab-submodule
+Version: 0.1.5
+Summary: python-gitlab-submodule : List project submodules and get the commits they point to with python-gitlab.
+Home-page: https://github.com/ValentinFrancois/python-gitlab-submodule
+Author: Valentin François
+Maintainer: Valentin François
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
