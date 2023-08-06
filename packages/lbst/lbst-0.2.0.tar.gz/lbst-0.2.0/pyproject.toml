@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "lbst"
+version = "0.2.0"
+description = "Immutable Log-Balanced Search Tree"
+authors = ["Amirouche <amirouche@hyper.dev>"]
+license = "CC0"
+readme = "README.md"
+homepage = "https://github.com/amirouche/lbst"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+bandit = "*"
+pylama = "*"
+black = "*"
+ipython = "*"
+pytest-cov = "*"
+pytest-randomly = "*"
+pytest-xdist = "*"
+jedi = "*"
+flake8 = "*"
+termgraph = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
