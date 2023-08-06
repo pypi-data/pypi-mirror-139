@@ -1,0 +1,19 @@
+Log file for model results
+Model is random forest
+Classifcation report :
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2006
+           1       1.00      1.00      1.00       994
+
+    accuracy                           1.00      3000
+   macro avg       1.00      1.00      1.00      3000
+weighted avg       1.00      1.00      1.00      3000
+
+Average CV train acc score : 
+ 1.0 
+Average CV test acc score : 
+ 0.9998333333333334 
+ROC AUC score :
+ 0.9987447115394258
+Seconds taken to run results is 3.245539665222168
