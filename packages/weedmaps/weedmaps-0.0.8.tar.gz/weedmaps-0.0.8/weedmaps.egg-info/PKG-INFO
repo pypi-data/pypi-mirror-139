@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: weedmaps
+Version: 0.0.8
+Summary: The Unofficial Weedmaps API wrapper
+Home-page: https://github.com/notjawad/wmapi
+Author: NotJawad
+Author-email: imjawad73@yahoo.com
+License: GPLv3 License
+Download-URL: https://github.com/notjawad/wmapi/archive/0.0.8.tar.gz
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE.txt
+
+### The Unofficial Weedmaps API Wrapper
+
