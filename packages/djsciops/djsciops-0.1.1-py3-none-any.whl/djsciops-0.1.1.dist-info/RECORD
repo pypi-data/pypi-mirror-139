@@ -1,0 +1,12 @@
+djsciops/__init__.py,sha256=v3x5oBkxwKJEZLv62QqSmP3iqNKLtZgrWZfH8eFzlQg,60
+djsciops/authentication.py,sha256=_KO5_fR4ZyjPOBCPWif9pd5YkWk7H-0bacUNGpMniEE,6325
+djsciops/axon.py,sha256=s07E3Lvu-Rz8_n104pte32F5kAIed8z4S7YO-z5H978,2388
+djsciops/command_line.py,sha256=MV-HSLQd5H021Hdv3C8UxyDICA3VJpxu-F10TH0C8lQ,1882
+djsciops/settings.py,sha256=hVNj5JdtwLqa6gwzkVE5YA-B7u2hEPHnaXtTF5Z5FfU,2198
+djsciops/utils.py,sha256=xTSifvXWwaz7Sixhmcpe4KAPc90xEt9GNx2idR1mJnM,324
+djsciops/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+djsciops-0.1.1.dist-info/METADATA,sha256=C0RmNkAEpDI9FiYf3yIxmzDOTUiayQWF302ejg8ySds,637
+djsciops-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+djsciops-0.1.1.dist-info/entry_points.txt,sha256=g18wWfaGAFH0ogPkMjZMRNIhDspjYmMY1S8FAPG_9Ks,61
+djsciops-0.1.1.dist-info/top_level.txt,sha256=e1sYxsQ9MX_QAVkFwkgHan4bzf0jwHBQ2O1nIZIUtE4,9
+djsciops-0.1.1.dist-info/RECORD,,
