@@ -1,0 +1,10 @@
+ws_barcode_scanner/__init__.py,sha256=8CpXs9dTem9IUHyuzUe0L2hrumUIRWZfwrGcCXPHlgk,273
+ws_barcode_scanner/barcode_scanner.py,sha256=smEuG2oaHiUoniRj2HqNLUQ8clHc7PNLVYlu2HohzrM,1518
+ws_barcode_scanner/memory_map.py,sha256=02DhEY-NuuYJVbwJIuSWziA7T-fC35Ynd0TPxYLBOF8,6281
+ws_barcode_scanner/serial_port.py,sha256=AeFBQmACkjCveOqFeSltA8xNa5eHOoBmXogZ06-KGdo,4718
+ws_barcode_scanner/utils.py,sha256=Gipi54dU-Bp-dUNkbIrAdvhw4tsnp9lfnpzwhFy8MXg,1215
+ws_barcode_scanner-0.2.0.dist-info/LICENSE,sha256=PToRHpSu-m-pKp9LqfCaBf8ok_WdV5BO_3by16PocbU,1071
+ws_barcode_scanner-0.2.0.dist-info/METADATA,sha256=T2sZH-gPEPDbPNQ95D7r8yeRvB9GBIToplOy-RfwsiE,1126
+ws_barcode_scanner-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ws_barcode_scanner-0.2.0.dist-info/top_level.txt,sha256=J4O9tf_hPvje-g3JWqOrJjQGpQJCTu2pDYQlcJtNu8U,19
+ws_barcode_scanner-0.2.0.dist-info/RECORD,,
