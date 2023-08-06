@@ -1,0 +1,2 @@
+friendly>=0.4
+friendly-traceback>=0.4.87
