@@ -1,0 +1,9 @@
+autodonate_qiwi_api/__init__.py,sha256=1SNvUesfACplg9Ry1e17oWa8AKbVt4p8rymC2r3M2KY,591
+autodonate_qiwi_api/main.py,sha256=ysdwgFBTLoNw6xNGObox5i1QNC8Ma714662893N8f6Y,3803
+autodonate_qiwi_api/migrations/0001_initial.py,sha256=1TXs0nbyrE7z6FYxzxm64GqScEys7IND3rZe-FkEF7Q,664
+autodonate_qiwi_api/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autodonate_qiwi_api/models.py,sha256=7mIsDKAKpor6FceUoLVoLEmiKUAZbM7qQuwRQTjLDjY,111
+autodonate_qiwi_api/types.py,sha256=LaXtZqMD7xGFzdrIsfy-zoSRT__T87CbQN8_XZTAPfs,526
+autodonate_qiwi_api-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+autodonate_qiwi_api-0.1.4.dist-info/METADATA,sha256=p28PP-XwhLa0bILf7aF6zvZGW8-oSKz1p29qpBI04SI,1407
+autodonate_qiwi_api-0.1.4.dist-info/RECORD,,
