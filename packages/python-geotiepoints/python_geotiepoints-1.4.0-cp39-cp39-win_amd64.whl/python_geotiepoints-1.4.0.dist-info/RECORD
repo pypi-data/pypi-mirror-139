@@ -1,0 +1,16 @@
+geotiepoints/__init__.py,sha256=tkpHKawRUNZmXEveB0FSHdOK4Ci-r3lcUa7ZvYF43nw,5881
+geotiepoints/basic_interpolator.py,sha256=wQXJ41gLCXbneSd4m5_rF3XVZoJbwrMfrda7qVIU9D0,3040
+geotiepoints/geointerpolator.py,sha256=zQEZ4V1JLpFOCEWs-dreoQo5qrclaigq_okH02RrvaE,3893
+geotiepoints/interpolator.py,sha256=Oa3_7Ucf3x5Wzm_Gp3KsspoWBhFUHLrcOl1xScJfv2I,10721
+geotiepoints/modisinterpolator.py,sha256=cnd4wWGw4ear2TYTS_9I-2HcDT8cNu_Vv3bUvD3rm4U,9252
+geotiepoints/multilinear.py,sha256=x4AcrmiVcNW8BAK245pWbb1wqBLVIjFL1xL8k41ZBdo,2724
+geotiepoints/multilinear_cython.cp39-win_amd64.pyd,sha256=b5AtxvXqmSCHKgy52hDFZRbbv-kq_rlOR1fD-lVTbm8,176128
+geotiepoints/simple_modis_interpolator.py,sha256=ZeIc7Yy0zack6PIw4tgZLwvMMgzB1SMf72YiBb7W2hY,9892
+geotiepoints/version.py,sha256=SsEgv8ZJGAsNNSAW_ayyYdOo8Z9lyhZAWWYx4SPUaFM,518
+geotiepoints/viiinterpolator.py,sha256=vwvKRdpT_SZ43110UFG1SPKtwLYG2wnfiS6mHpI9AD4,9508
+python_geotiepoints-1.4.0.dist-info/AUTHORS.md,sha256=jVdSCXefiAKFhw9rnxYNvS6FnB1aZ2_Jys6D8nKVW-0,1008
+python_geotiepoints-1.4.0.dist-info/LICENSE.txt,sha256=Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms,35821
+python_geotiepoints-1.4.0.dist-info/METADATA,sha256=sWp7AODHOxd_-8mTicl5Z86trXbZeLb92lQXQCj1gMQ,749
+python_geotiepoints-1.4.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+python_geotiepoints-1.4.0.dist-info/top_level.txt,sha256=yrBKu3K97lbplO7-s7UvWxS7Ar5NPwk4UXh2YPSiBz8,13
+python_geotiepoints-1.4.0.dist-info/RECORD,,
