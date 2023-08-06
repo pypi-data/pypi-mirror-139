@@ -1,0 +1,38 @@
+2022-02-22 16:57:21,981 [MainThread] INFO  commons.py::log_init(@Line:74) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-22 16:57:21,982 [MainThread] INFO  properties.py::_parse(@Line:143) Successfully loaded 0 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources/application.properties 
+2022-02-22 16:57:21,982 [MainThread] INFO  app_config.py::__init__(@Line:52) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-RunDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources/log/application.log
+  |-AppProperties:
+   \-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-22 16:57:21,983 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: hspylib.core.config.app_config.AppConfigs 
+2022-02-22 16:57:21,998 [MainThread] DEBUG connectionpool.py::_new_conn(@Line:1001) Starting new HTTPS connection (1): homesetup-37970.firebaseio.com:443 
+2022-02-22 16:57:24,590 [MainThread] DEBUG connectionpool.py::_make_request(@Line:456) https://homesetup-37970.firebaseio.com:443 "GET /firebase-test/2c67adfa-b03f-4fb3-b089-9dc836b40a9d.json HTTP/1.1" 200 232 
+2022-02-22 16:57:24,596 [MainThread] DEBUG firebase_config.py::__init__(@Line:95) Successfully connected to Firebase: https://homesetup-37970.firebaseio.com/firebase-test/2c67adfa-b03f-4fb3-b089-9dc836b40a9d 
+2022-02-22 16:57:24,597 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: hspylib.core.crud.db.firebase.firebase_config.FirebaseConfig 
+2022-02-22 16:57:24,597 [MainThread] DEBUG agent_config.py::__init__(@Line:39) Found and loaded a Firebase configuration: 
+# Your Firebase configuration:
+# --------------------------
+PROJECT_ID=homesetup-37970
+USERNAME=hjunior
+DATABASE=firebase-test
+PASSPHRASE=aGp1bmlvcjoxMjM0NTY3OA==
+UUID=2c67adfa-b03f-4fb3-b089-9dc836b40a9d
+ 
+2022-02-22 16:57:24,597 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: firebase.core.agent_config.AgentConfig 
+2022-02-22 16:57:24,597 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: __main__.Main 
+2022-02-22 16:57:24,597 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-22 16:57:24.597522 
+2022-02-22 16:57:24,601 [MainThread] INFO  __main__.py::_main(@Line:73) 
+HSPyLib Firebase Agent v0.9.11
+Settings ==============================
+        STARTED: 2022-02-22 16:57:24
+ 
+2022-02-22 16:57:24,605 [MainThread] DEBUG connectionpool.py::_new_conn(@Line:1001) Starting new HTTPS connection (1): homesetup-37970.firebaseio.com:443 
+2022-02-22 16:57:26,279 [MainThread] DEBUG connectionpool.py::_make_request(@Line:456) https://homesetup-37970.firebaseio.com:443 "GET /firebase-test/2c67adfa-b03f-4fb3-b089-9dc836b40a9d/firebase-test.json HTTP/1.1" 200 214 
+2022-02-22 16:57:26,290 [MainThread] DEBUG application.py::run(@Line:95) Command line arguments: Namespace(operation='download', db_alias='firebase-test', **{'config-dir': '/Users/hjunior', 'dest-dir': 'resources'}) 
+2022-02-22 16:57:26,291 [MainThread] INFO  application.py::run(@Line:100) Run finished 2022-02-22 16:57:26.291078 
