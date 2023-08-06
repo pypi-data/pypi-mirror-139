@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: atcoder
+Version: 0.1.0
+Summary: AtCoder API.
+Home-page: https://atcoder.readthedocs.io
+License: MIT
+Keywords: atcoder,api
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: PyYAML
+Requires-Dist: aiodns
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: cchardet
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: lxml
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: tqdm
+Project-URL: Documentation, https://atcoder.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/atcoder-python
+Description-Content-Type: text/markdown
+
+[![Python package](https://github.com/kagemeka/atcoder-api-python/actions/workflows/python-package.yml/badge.svg)](https://github.com/kagemeka/atcoder-api-python/actions/workflows/python-package.yml)
+[![readthedocs build status](https://readthedocs.org/projects/atcoder-api-python/badge/?version=latest&style=plastic)](https://readthedocs.org/projects/atcoder-api-python/badge/?version=latest&style=plastic)
+
+# AtCoder API for Python.
+
+
+
+## Documentation
+see https://atcoder-api-python.readthedocs.io
+
