@@ -1,0 +1,128 @@
+pre.z-string,
+span.z-string,
+span.z-dict-key,
+span.z-list-index,
+span.z-tuple-index,
+span.z-set-index,
+span.z-dataclass-fieldname {
+  font-family: monospace;
+}
+pre.z-string {
+  border: solid 1px white;
+}
+.z-string {
+  margin: 0.2em;
+}
+.z-list-inline:before {
+  content: '[';
+  color: lightskyblue;
+  font-family: monospace;
+}
+.z-list-inline-element + .z-list-inline-element :before {
+  content: ', ';
+  color: lightskyblue;
+  font-family: monospace;
+}
+.z-list-inline:after {
+  content: ']';
+  color: lightskyblue;
+  font-family: monospace;
+}
+span.z-string,
+pre.z-string {
+  white-space: pre-wrap;
+  color: #dd3ddd;
+}
+span.z-bool {
+  white-space: pre-wrap;
+  font-family: monospace;
+  color: #6e83f7;
+}
+span.z-int {
+  white-space: pre-wrap;
+  font-family: monospace;
+  color: #bd6a2f;
+}
+span.z-type-name {
+  font-weight: bold;
+  color: lightskyblue;
+  font-family: monospace;
+}
+span.z-typelike {
+  font-weight: bold;
+  color: lightskyblue;
+  font-family: monospace;
+}
+td {
+  vertical-align: top;
+}
+details.z-dataclass,
+details.z-dict {
+  background-color: #262323;
+  color: white;
+}
+span.z-dataclass-typename {
+  font-weight: bold;
+  color: orange;
+  font-family: monospace;
+}
+span.z-dataclass-fieldname {
+  /* font-weight: bold; */
+  color: grey;
+  font-family: monospace;
+}
+span.z-dataclass-fieldname:after {
+  content: ':';
+  color: wheat;
+}
+span.z-list-index,
+span.z-tuple-index,
+span.z-set-index {
+  /* font-weight: bold; */
+  color: #43758f;
+  font-family: monospace;
+}
+span.z-list-index:before,
+span.z-tuple-index:before,
+span.z-set-index:before {
+  content: '#';
+  color: #43758f;
+}
+span.z-dict-key {
+  /* font-weight: bold; */
+  color: #b18f20;
+  font-family: monospace;
+}
+span.z-dict-key:after {
+  content: ':';
+  color: wheat;
+}
+details.z-dataclass[open] {
+  border-left: solid 3px orange;
+  margin: 3px;
+}
+details.z-dict[open],
+details.z-list[open],
+details.z-set[open],
+details.z-tuple[open] {
+  border-left: solid 3px #4ce4ff;
+  margin: 3px;
+}
+details.z-dataclass > table > tr > td:nth-child(1) {
+  text-align: right;
+}
+.z-cid {
+  color: red;
+  font-family: monospace;
+}
+.z-decimal {
+  color: violet;
+  font-family: monospace;
+}
+.z-none {
+  color: #007bff;
+  font-family: monospace;
+}
+span.z-render-error {
+  color: red;
+}
