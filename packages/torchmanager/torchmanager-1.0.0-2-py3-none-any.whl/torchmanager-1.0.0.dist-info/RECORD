@@ -1,0 +1,11 @@
+torchmanager/__init__.py,sha256=JWlBg7emmALSyKsPqKFCHW_DDrOT-xpgxhw1kJU621k,131
+torchmanager/callbacks.py,sha256=rPRyML8ig5D2KyD84IgkBQ4Kjjpxe1u0H94imrmMHkg,6171
+torchmanager/losses.py,sha256=BKSKUNWUaWja7ZakQClY-n0el2DmgOgQZE-pvyD1QEI,3187
+torchmanager/managers.py,sha256=nzoIITYTuhIVGKGFdviF4QjP2a7NEiV2MLB_O4FiKKk,20020
+torchmanager/metrics.py,sha256=Mj1p9FjDChQ8scvXDsUo7dVLNjWmWRyHy2GiONqNFfE,5670
+torchmanager/train.py,sha256=EqpN5u42G2bvkNSlen2gfoeYvVaI-E5WfFqIKZUEgG8,3070
+torchmanager-1.0.0.dist-info/LICENSE,sha256=iqzaMhMDjD_Go-Jay_3ertdUbT1xPOZqKtkavzKjjI8,1318
+torchmanager-1.0.0.dist-info/METADATA,sha256=OBmD5lgHMAKWO7VWNnzgMAcWvTj_TgprdvnMRgF4yOo,2003
+torchmanager-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torchmanager-1.0.0.dist-info/top_level.txt,sha256=DsMMRRVrk6D-9KrK44los8GRDHGfFkaTTmxXH_Mr0ts,13
+torchmanager-1.0.0.dist-info/RECORD,,
