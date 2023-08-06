@@ -1,0 +1,3 @@
+database_logger
+django_database_logger
+test_database_logger
