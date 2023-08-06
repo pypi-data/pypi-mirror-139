@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+micropython_ahtx0.egg-info/PKG-INFO
+micropython_ahtx0.egg-info/SOURCES.txt
+micropython_ahtx0.egg-info/dependency_links.txt
+micropython_ahtx0.egg-info/top_level.txt
