@@ -1,0 +1,13 @@
+choam/__init__.py,sha256=pEvbD8Vnl2GH4hUi6nvVUBFn1ZIXKBUA26N9j_lXi7A,28
+choam/__main__.py,sha256=gfK54vpjFlvGsvKVEecqH38cNtW1WeeubozGtrxayTk,68
+choam/choam.py,sha256=UDgnr98JtAPypA2zjE-GX9rwTzhMbBR6lmc5q9h8q_U,17202
+choam/constants.py,sha256=8eXAR1Xw0H5PwiQE2N3n0Bb_kLaYaAyCOzKmjcK1sXk,585
+choam/create_setup_file.py,sha256=xDs4U_4qVAer26O84LjotUyXSTmpKqTOobNCivE-Yes,1228
+choam/find_dependencies.py,sha256=z7XP99-ujAKYUfG569_5275xMps50YdzTWNtjl2gos8,1901
+choam/folder_structure.py,sha256=C4meo9n5v2e6GGxq-xjrkpkMFo-2LsgKPu9LbXtbHdg,2089
+choam/gitignore.py,sha256=x-lCEMnP5lCSN1xhMm4yjQCfmyrr8_xiv-sDQOobF3s,2783
+Choam-0.1.23.dist-info/METADATA,sha256=WP7jw3m2IxrymEY9pvDMVnqTMYEV4nmRgbLMl2sbHqE,4843
+Choam-0.1.23.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Choam-0.1.23.dist-info/entry_points.txt,sha256=-gh5mCYqi7_9xRt6Fyk-gEFiH7wk6CtbGzTJ5sTWl-8,38
+Choam-0.1.23.dist-info/top_level.txt,sha256=L0D6GA2ErvGqgVurYwB-moxPetPn5SSIr8WAShtCZnk,6
+Choam-0.1.23.dist-info/RECORD,,
