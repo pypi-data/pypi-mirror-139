@@ -1,0 +1,15 @@
+EffDI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EffDI/__main__.py,sha256=8XEwfthVYMvbhp4PmIIq7qAwTvyGU_gUCYuSMPwbn9E,36
+EffDI/computation.py,sha256=a2W7ACxPvJ6_ypr9MhOZni9R607B7EqiTGWwH2rjWb4,6670
+EffDI/compute.py,sha256=vSIKiR7fvWT66uEIGmuA9ZwrABxUc29IONO5-GuK6Lg,3269
+EffDI/demo_countries.py,sha256=_f31bNuMjlRXQV0CgsJhvAraYfdKqU6EtGY-eodDgjg,1922
+EffDI/demo_country.py,sha256=J-bPwYDn8yvMAkG-vdfZPoxNtLpx5dmVRbqQbZGtOmM,4546
+EffDI/main.py,sha256=AWbMQuyLWwA-1ZEdzSZoHG_HHjjeAa47GwYrSxlzyFk,5028
+EffDI/pre_compute_weights.py,sha256=6aHFsy8H5Nu_wCjWbR7SXVr4lCpUeTtPN4mXk911GZs,3063
+EffDI/visualization.py,sha256=X55EEUwJC3ih0BLc9F3mRTSMWvnzWzZckyDEXTNkhdk,15174
+effdi-0.1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+effdi-0.1.0.dist-info/METADATA,sha256=QGwre9l8fh_qhn0t0LLHtHbaG7lLlReT1DYaLLa9G3c,634
+effdi-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+effdi-0.1.0.dist-info/entry_points.txt,sha256=DUtfgrjZjUVmLRi7sozTDRhJ7N71en5TrSab1JWF7Bo,43
+effdi-0.1.0.dist-info/top_level.txt,sha256=fvabdE0wTNffpjGCaFch43NdgaqsWN49ilJQAw0EBfM,6
+effdi-0.1.0.dist-info/RECORD,,
