@@ -1,0 +1,2 @@
+setuptools
+deepracer-env-config>=0.1.2
