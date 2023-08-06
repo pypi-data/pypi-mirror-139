@@ -1,0 +1,12 @@
+remarkable_mouse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remarkable_mouse/common.py,sha256=wteBkdv7XQTVEb7A23bT1tq9j1IAuILEzNjDp-W0TBg,3750
+remarkable_mouse/evdev.py,sha256=Borfj9znUBhnvU8UfNyz_QcBsYL4oPtK8NSGsrILyys,4879
+remarkable_mouse/pynput.py,sha256=mKOHzAoU8_T-a9822W0lfxnTU5Wa4Mzg7ns6nMjJa3Y,2316
+remarkable_mouse/remarkable_mouse.py,sha256=uq4mfiAQOG6Ueq42rkd_6Nmi2Ct8yfHBF29yY7CSmqs,5740
+remarkable_mouse/version.py,sha256=_9KQU54Hyfw8clQd2iiunnfZGrxoMQcBYGOF5ASWwNc,22
+remarkable_mouse-7.0.1.dist-info/LICENSE,sha256=QcmC9hWrZBOHJPwyHr2zgWJ3DUbAogmFvc4LMMJuR4Y,35130
+remarkable_mouse-7.0.1.dist-info/METADATA,sha256=j4bllJ096VBJg4Hi-OAFWCjTeOOu_DDGVFkPbvWwW5U,2856
+remarkable_mouse-7.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+remarkable_mouse-7.0.1.dist-info/entry_points.txt,sha256=Q3E8rvU9ftF9AySZZWHuhnx3kWhAGX-CAawhwBoOk-I,126
+remarkable_mouse-7.0.1.dist-info/top_level.txt,sha256=rxMDoGjeXCQs4Yzawv0o4ys2W0rz9h1GVn1HLD9CzkU,17
+remarkable_mouse-7.0.1.dist-info/RECORD,,
