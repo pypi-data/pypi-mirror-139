@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+lormsq/__init__.py
+lormsq.egg-info/PKG-INFO
+lormsq.egg-info/SOURCES.txt
+lormsq.egg-info/dependency_links.txt
+lormsq.egg-info/top_level.txt
