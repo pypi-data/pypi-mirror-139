@@ -1,0 +1,16 @@
+tbot_messages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbot_messages/admin.py,sha256=8WanYvIN0R3gqSWEbEAQRZeuW8jGDcO1jHJWJShcUi8,1822
+tbot_messages/apps.py,sha256=OO-nLMO35DUcDvPfYuufhG4LpUnn7q2hF6XsfgjtjPc,244
+tbot_messages/messages.py,sha256=C3MX73_bSPvoGpUs4uPG_MwPlNWDp7GkFWGRgSpkg4M,7838
+tbot_messages/models.py,sha256=yFG5JCJbJsGFL4KNPJj1dRdLke0-8lD0AEtFOrv0TXE,2231
+tbot_messages/utils.py,sha256=zHicwdjxZ-JSBDSjKlqjisQIiH3d0dfUShbwpMoTLZk,2248
+tbot_messages/_generated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbot_messages/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbot_messages/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbot_messages/management/commands/create_messages.py,sha256=l6PXq7Lc10tClGY34LwfC0S305838H3iJgfT4UtAwrU,8033
+tbot_messages/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_tbot_messages-0.2.2.dist-info/LICENSE,sha256=T0eTPzleHkBrtJvHkUXH-RR8DaI_ULFNjLC2aPeExM4,1073
+django_tbot_messages-0.2.2.dist-info/METADATA,sha256=vN66IQR5KkJYjsK79lHchDyhXynKibvEEWROisv20IU,16312
+django_tbot_messages-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_tbot_messages-0.2.2.dist-info/top_level.txt,sha256=3cuMbcN736K5SQwr2ezWM7xBZHggn8BRtPbjKSloCgw,14
+django_tbot_messages-0.2.2.dist-info/RECORD,,
