@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bvPlayer
+Version: 0.0.7
+Summary: A borderless video player with sound
+Home-page: https://github.com/jwcarlson01/bvPlayer
+Author: Joshua Carlson
+Author-email: joshuacarlson@cedarville.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# bvPlayer
+A borderless video player for python. Comes with a variety of functionalities such as audio synchronization, 
+FPS adjustment, video scaling, window dragging, and menu options.
+
+
