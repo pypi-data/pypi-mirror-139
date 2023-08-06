@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "watson-overtime"
+version = "0.1.1"
+description = "Small tool to check overtime in combination with the td-watson time tracker"
+authors = ["Joris Clement <flyingdutchman@posteo.eu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+humanize = "^4.0.0"
+click = ">=7.1.2, <=9.0.0"
+pytimeparse = "^1.1.8"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+flake8-import-order = "^0.18.1"
+flake8-black = "^0.2.4"
+mypy = "^0.931"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.scripts]
+wo = "watson_overtime.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
