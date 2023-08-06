@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pipeline-deploy=pipeline_deploy.cli:cli
+    
