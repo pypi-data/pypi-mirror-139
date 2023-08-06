@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: dictencli
+Version: 0.1.2
+Summary: A simple commandline dictionary app.
+Author: Nikhil
+Author-email: nikhilomkar99@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pygments (>=2.11.2,<3.0.0)
+Requires-Dist: certifi (>=2021.10.8,<2022.0.0)
+Requires-Dist: charset-normalizer (>=2.0.12,<3.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: commonmark (>=0.9.1,<0.10.0)
+Requires-Dist: idna (>=3.3,<4.0)
+Requires-Dist: playsound (>=1.2.2,<2.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: rich (>=11.2.0,<12.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Requires-Dist: urllib3 (>=1.26.8,<2.0.0)
+Description-Content-Type: text/markdown
+
+# dictencli
+
+---
+
+*A command line dictionary, for those who spend their day in terminal. Get definitons, origin, example and many more information inside your terminal. You are just one command away* 😊 ...
+
+  
+
+### Features
+
+with functionalities like:
+
+- word definition
+
+- example
+
+- origin
+
+- synonyms
+
+- antonyms
+
+- phrases
+
+- pronunciation
+
+  
+
+### Installation
+
+`pip install dictencli`
+
+  
+
+#### Usage
+
+`dictencli [commands] [optional flags] word(required with look command)`
+
+  
+
+##### **Commands:**
+
+1. look - used with optional flags below provided.
+
+`dictencli look word`
+
+2. help - will just show you the help options dicussed above
+
+`dictencli help`
+
+3. about
+
+`dictencli about`
+
+  
+
+##### **Optional flags:**
+
+- orgin: use either '-origin' or '-or'
+
+- example: use either '-example' or '-ex'
+
+- synonyms: use either 'synonyms' or '-syn'
+
+- antonyms: use either '-antonyms' or '-ant'
+
+- pronunciation: use either '-pronunciation' or '-pro'
+
+- phrases: use either '-phrases' or '-phr'
+
+  
+  
+
+### Note
+
+#### **Windows**
+
+If pronunciation doesn't work:
+
+`pip uninstall playsound`
+
+`pip install playsound == 1.2.2`
+
+  
+
+unicode symbols might not be displayed correctly in cmd.
+
+  
+
+#### **Linux**
+
+If pronunciation doesn't work:
+
+`sudo apt install libgirepository1.0-dev`
+
+`pip install pygobject`
+
+  
+
+Namespace Gst not available:
+
+`sudo apt install python3-gst-1.0`
+
+  
+
+*These are the known issues that I had encountered in 'pronunciation', if you face any other issue or wan't to get in contact, feel free to mail at 'nikhilomkar99@gmail.com'. Thanks* 🙌🏻.
+
+  
+
+---
