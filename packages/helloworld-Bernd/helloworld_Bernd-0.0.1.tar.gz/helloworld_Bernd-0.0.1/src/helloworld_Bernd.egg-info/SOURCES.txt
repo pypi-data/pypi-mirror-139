@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/helloworld_Bernd.py
+src/helloworld_Bernd.egg-info/PKG-INFO
+src/helloworld_Bernd.egg-info/SOURCES.txt
+src/helloworld_Bernd.egg-info/dependency_links.txt
+src/helloworld_Bernd.egg-info/requires.txt
+src/helloworld_Bernd.egg-info/top_level.txt
