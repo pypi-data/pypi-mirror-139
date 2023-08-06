@@ -1,0 +1,12 @@
+
+[test]
+repeated_test>=2.1.3
+sphinx
+mock
+coverage
+
+[tests]
+repeated_test>=2.1.3
+sphinx
+mock
+coverage
