@@ -1,0 +1,11 @@
+ubuntu_cloud_image_changelog/__init__.py,sha256=yfqmReA-xO6EO5KUJ3uWz7JU5TzgMdziOlL5jjfLnCY,168
+ubuntu_cloud_image_changelog/cli.py,sha256=qQvN5w_IGBTaok-YTKv9JjVacQ7fEBAvONyGp18BzgY,9292
+ubuntu_cloud_image_changelog/launchpadagent.py,sha256=bFIionUar0J9fvfFy_w4VeKLWYjhHhnFq_YV0lVdJTY,2931
+ubuntu_cloud_image_changelog/lib.py,sha256=ix4eXhhG63PweR5wfHdQIt1hUw3u25MHaUe6HNhT2F8,11868
+ubuntu_cloud_image_changelog-0.9.2.dist-info/AUTHORS.rst,sha256=q7LYFWocRRwSZTUUJfqMrBFbBo2cgzyhF9JXlD-oH5s,162
+ubuntu_cloud_image_changelog-0.9.2.dist-info/LICENSE,sha256=WDBS9H8yRfKGaWjMvxZMcE1F6mvl8c-a08OIHYgGNmM,1585
+ubuntu_cloud_image_changelog-0.9.2.dist-info/METADATA,sha256=aKcSkZ2KGbt-RYxYSCEB66eJmSZ_OJEV25WEcaabEWM,3451
+ubuntu_cloud_image_changelog-0.9.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ubuntu_cloud_image_changelog-0.9.2.dist-info/entry_points.txt,sha256=0F-PARW16nN3M-xh7xoiUDXcRZILVQOZCxrctBID2TM,88
+ubuntu_cloud_image_changelog-0.9.2.dist-info/top_level.txt,sha256=fpN6heRJC5MyV1bwfluMP5wZrQZMhOeh_ueD7QgyzLo,29
+ubuntu_cloud_image_changelog-0.9.2.dist-info/RECORD,,
