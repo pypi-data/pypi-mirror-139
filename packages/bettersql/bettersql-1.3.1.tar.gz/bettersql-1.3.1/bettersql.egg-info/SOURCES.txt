@@ -1,0 +1,11 @@
+README.md
+setup.py
+bettersql/__init__.py
+bettersql/sqldf.py
+bettersql/sqldir.py
+bettersql/test.py
+bettersql.egg-info/PKG-INFO
+bettersql.egg-info/SOURCES.txt
+bettersql.egg-info/dependency_links.txt
+bettersql.egg-info/requires.txt
+bettersql.egg-info/top_level.txt
