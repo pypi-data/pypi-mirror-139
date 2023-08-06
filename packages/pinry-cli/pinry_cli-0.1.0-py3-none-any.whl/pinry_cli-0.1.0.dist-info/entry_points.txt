@@ -1,0 +1,3 @@
+[console_scripts]
+pinry=pinry_cli:cmd_group
+
