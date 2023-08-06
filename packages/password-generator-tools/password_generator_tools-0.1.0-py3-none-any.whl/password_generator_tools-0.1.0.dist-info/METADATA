@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: password-generator-tools
+Version: 0.1.0
+Summary: Hi! I made this package to help us with password generators. If you need more details about the implementation, see the readme.txt file on this repository: https://github.com/arthur-asilva/PasswordGenerator.git.
+Home-page: UNKNOWN
+Author: Arthur de A. Silva
+Author-email: dev.arthur.silva@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
