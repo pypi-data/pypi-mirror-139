@@ -1,0 +1,5 @@
+taichi
+taichi_glsl
+scipy
+opencv-python
+numpy
