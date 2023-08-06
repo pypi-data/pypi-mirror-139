@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gspaces/__init__.py
+gspaces/linear.py
+gspaces/log.py
+gspaces.egg-info/PKG-INFO
+gspaces.egg-info/SOURCES.txt
+gspaces.egg-info/dependency_links.txt
+gspaces.egg-info/top_level.txt
