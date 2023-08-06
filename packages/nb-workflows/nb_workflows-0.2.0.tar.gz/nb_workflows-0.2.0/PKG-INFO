@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: nb-workflows
+Version: 0.2.0
+Summary: Schedule parameterized notebooks programmatically using cli or a REST API
+Home-page: https://github.com/nuxion/nb_workflows
+License: Apache-2.0
+Keywords: papermill,jupyter,workflows,data
+Author: nuxion
+Author-email: nuxion@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: SQLAlchemy-serializer (>=1.4.1,<2.0.0)
+Requires-Dist: SQLAlchemy[asyncio] (>=1.4.26,<2.0.0)
+Requires-Dist: Unidecode (>=1.3.2,<2.0.0)
+Requires-Dist: WTForms (>=2.3.3,<3.0.0)
+Requires-Dist: aiohttp[speedups] (>=3.7.4,<4.0.0)
+Requires-Dist: aioredis[hiredis] (>=2.0.1,<3.0.0)
+Requires-Dist: alembic (>=1.6.5,<2.0.0)
+Requires-Dist: arrow (>=1.2.0,<2.0.0)
+Requires-Dist: asyncpg (>=0.24.0,<0.25.0)
+Requires-Dist: bokeh (>=2.4.1,<3.0.0)
+Requires-Dist: cityhash (>=0.2.3,<0.3.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: cloudpickle (>=2.0.0,<3.0.0)
+Requires-Dist: cryptography (>=36.0.1,<37.0.0)
+Requires-Dist: cytoolz (>=0.11.0,<0.12.0)
+Requires-Dist: dateparser (>=1.1.0,<2.0.0)
+Requires-Dist: discord-webhook (>=0.14.0,<0.15.0)
+Requires-Dist: ipywidgets (>=7.6.5,<8.0.0)
+Requires-Dist: jupyter-server-proxy (>=3.1.0,<4.0.0)
+Requires-Dist: jupyterlab (>=3.1.14,<4.0.0)
+Requires-Dist: jupyterlab-code-formatter (>=1.4.10,<2.0.0)
+Requires-Dist: jupytext (>=1.13.0,<2.0.0)
+Requires-Dist: loky (>=3.0.0,<4.0.0)
+Requires-Dist: nbconvert (>=6.2.0,<7.0.0)
+Requires-Dist: papermill (>=2.3.3,<3.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.1,<3.0.0)
+Requires-Dist: python-slugify (>=5.0.2,<6.0.0)
+Requires-Dist: pytz (>=2021.1,<2022.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: rq (>=1.10.0,<2.0.0)
+Requires-Dist: rq-scheduler (>=0.11.0,<0.12.0)
+Requires-Dist: sanic (>=21.6.2,<22.0.0)
+Requires-Dist: sanic-ext (>=21.9.0,<22.0.0)
+Requires-Dist: sanic-jwt (>=1.7.0,<2.0.0)
+Requires-Dist: sanic-openapi (>=21.6.1,<22.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Requires-Dist: ujson (>=4.2.0,<5.0.0)
+Requires-Dist: uvloop (>=0.16.0,<0.17.0)
+Requires-Dist: webdav4[fsspec] (>=0.9.3,<0.10.0)
+Requires-Dist: xxhash (>=2.0.2,<3.0.0)
+Project-URL: Documentation, https://nb-workflows.readthedocs.io/
+Project-URL: Repository, https://github.com/nuxion/nb_workflows
+Description-Content-Type: text/markdown
+
+# NB Workflows
+
+![readthedocs](https://readthedocs.org/projects/nb_workflows/badge/?version=latest)
+![PyPI - Format](https://img.shields.io/pypi/format/nb_workflows)
+![PyPI - Status](https://img.shields.io/pypi/status/nb_workflows)
+
+
+## Description 
+
+If SQL is a lingua franca for querying data, Jupyter should be a lingua franca for data explorations, model training, and complex and unique tasks related to data. 
+
+This workflow platform allows to run parameterized notebooks programmatically. Notebooks could be scheduled with cron syntax, by intervals, run by n times, only once or in time ranges (from 10am to 18pm).
+
+So, the notebook is the main UI and the workflow job description.  
+
+### Goal
+
+Empowering different data roles in a project to put code into production, simplifying the time required to do so. It enables people to go from a data exploration instance to an entirely pipeline deployed in production, using the same notebook file made by a data scientist, analyst or whatever role working with data in an iterative way.
+
+## How to run
+
+```
+# launch web process
+# swagger by default: http://localhost:8000/docs/swagger 
+make web 
+```
+
+```
+# RQ Worker
+make rqworker
+```
+
+```
+# RQScheduler (optional)
+make rqscheduler
+```
+
+## Architecture
+
+![nb_workflows architecture](/docs/platform-workflows.jpg)
+
+## References & inspirations
+- [Notebook Innovation - Netflix](https://netflixtechblog.com/notebook-innovation-591ee3221233)
+- [Tensorflow metastore](https://www.tensorflow.org/tfx/guide/mlmd)
+- [Maintainable and collaborative pipelines](https://blog.jupyter.org/ploomber-maintainable-and-collaborative-pipelines-in-jupyter-acb3ad2101a7)
+
+
