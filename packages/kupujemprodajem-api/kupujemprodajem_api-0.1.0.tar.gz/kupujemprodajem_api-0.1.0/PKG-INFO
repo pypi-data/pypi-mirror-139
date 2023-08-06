@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kupujemprodajem-api
+Version: 0.1.0
+Summary: Python Unofficial API Wrapper for KupujemProdajem.com
+Author: innicoder
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: lxml (>=4.8.0,<5.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
