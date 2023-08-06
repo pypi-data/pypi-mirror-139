@@ -1,0 +1,12 @@
+ncoreparser/__init__.py,sha256=ra8qdxUAGGXC8TD_zYgXuS2hmd2H6J68YJxsZa4hjNc,304
+ncoreparser/client.py,sha256=hNU_GCAu9ezG-2hRPv0fAvhtrLAdONe-ADDjIeGBu-M,6706
+ncoreparser/constant.py,sha256=vSvtpPYXHLvVftZgVTdEPQOrYgagqBuVIqV9jILkh28,23
+ncoreparser/data.py,sha256=TttNiIqLkSw-gGRa4PPbgyN9CNkMmcS6UAER6ZagaLE,3897
+ncoreparser/error.py,sha256=3miPyYsCgNN0djCiWqmXrpGBumHbHn7uC6GNEu8mSzY,192
+ncoreparser/parser.py,sha256=0s2mX4Lrn6jf4DXq2xJYLS-PEHmcdAAL9GJ0_2usx30,5934
+ncoreparser/torrent.py,sha256=sT1T2xSiCSGle7DrAU-4Ts_hhsqrif3e70yUpk7CHtY,1107
+ncoreparser/util.py,sha256=-Lwm-Q6zsy4qazWoNSypOACFnsMXhLjKI3L-3l6azSg,2224
+ncoreparser-1.8.0.dist-info/LICENSE,sha256=FO91krt-kbpeiOW6AD8fONQJBHuh0U4qe79pdTU9un8,1068
+ncoreparser-1.8.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ncoreparser-1.8.0.dist-info/METADATA,sha256=KLkWielQLpNAMJAS4EXFCKUFR4c6ovmHlRXrxHxLvWQ,3709
+ncoreparser-1.8.0.dist-info/RECORD,,
