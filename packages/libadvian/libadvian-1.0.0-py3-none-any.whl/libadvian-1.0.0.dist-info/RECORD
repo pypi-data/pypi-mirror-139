@@ -1,0 +1,10 @@
+libadvian/__init__.py,sha256=WqI0lMqzoz6SEDKsh8BVqQ18lBkdBQsoOhlmbqRTYE0,156
+libadvian/binpackers.py,sha256=l0pLdBy-stMR2Oyh5T9PZOn6-bAS5QWfcWg8gSuNJp0,1271
+libadvian/classloader.py,sha256=hauRAgvyepWHZAJ4JX7ub6EbAnlBP35ZreDf96rtWBc,761
+libadvian/logging.py,sha256=k3ZBPVkO3vPFZGTqmmptsIiZQL-nLH7_BgjJwgDVKJs,1585
+libadvian/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libadvian/testhelpers.py,sha256=AvCs433ZanWBDKC9s-NlcK-fi4aEVpf5l1DFVbWBJ80,400
+libadvian-1.0.0.dist-info/LICENSE,sha256=3xhGOrCdhWkO8ZjxmgQ1Tq6od8UiBVBIyRTwy29yi9s,1063
+libadvian-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+libadvian-1.0.0.dist-info/METADATA,sha256=y5via5ULIOzgUhfWeCrQs5PPmcE12LExf3cl4yQo1oQ,3645
+libadvian-1.0.0.dist-info/RECORD,,
