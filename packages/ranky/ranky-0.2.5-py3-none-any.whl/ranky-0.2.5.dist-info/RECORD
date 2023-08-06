@@ -1,0 +1,13 @@
+ranky/__init__.py,sha256=fCX_XlhkYu-B-Uc97PfiRSrEzrXkKwBXl9o2an_Utr8,272
+ranky/duel.py,sha256=i157KophBLVFTUTh1Tr8DLZGtfJjMneFD6LKkW7RclM,4363
+ranky/generator.py,sha256=vNYBVdvF0DMfrbslPYNmZszBSBAeSO-LA6uwnApgC7E,3506
+ranky/metric.py,sha256=TzfZOqaIGZPU6cta7jBhGAZexgbZ-s7NhHvHWZKE-8c,23568
+ranky/pairwise.py,sha256=7JLCogiiDaDFkfFI_yK_5_e7sLHXhDyfEciKWipsSbo,4390
+ranky/ranking.py,sha256=0WKSz0irRFRr3U9YoVsGqLxoES3oxILE-uybeZLuhvc,13669
+ranky/utilities.py,sha256=8DMVlBg-VCFmPSVjYb7n6_OIDhY9CaVHKEG8Q8gxV34,745
+ranky/visualization.py,sha256=1Wv_Rs0eZpv9hV74wewivj2Q3S4_KwlD13fB6ORHl90,7077
+ranky-0.2.5.dist-info/LICENSE,sha256=7q1djQBYDky9IVSt7c2p0hmRjAULWLZ02lnlOOL7HQk,288
+ranky-0.2.5.dist-info/METADATA,sha256=eIBYzmd7Eyc0-B-hGUqQLiOpdC5Lhukb8oBaqshxFKE,5382
+ranky-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ranky-0.2.5.dist-info/top_level.txt,sha256=xigcWGcaY2Cz1FawzzbHZL9Rmuz0fvJYLSoqKY4ilP4,6
+ranky-0.2.5.dist-info/RECORD,,
