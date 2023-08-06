@@ -1,0 +1,3 @@
+[console_scripts]
+testrail-reporter = testrail_reporter.cmd.reporter:main
+
