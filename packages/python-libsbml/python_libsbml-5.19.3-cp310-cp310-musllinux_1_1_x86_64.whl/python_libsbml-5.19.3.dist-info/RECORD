@@ -1,0 +1,10 @@
+libsbml/_libsbml.cpython-310-x86_64-linux-gnu.so,sha256=P8OIYj87dqadqLsEdx6IgfR0iBvrGUZpfQ_EP4oxs6M,29555248
+libsbml/__init__.py,sha256=Xa9RyFs-pNMSnfBe0sKQvVm-k6UUD8o9Kb0BnGTnpYQ,7260873
+python_libsbml-5.19.3.dist-info/LICENSE.txt,sha256=OMiWjv3WlhiUzhy5aC5-bWMnQQs0fAFp-7DLiW8sYg0,7565
+python_libsbml-5.19.3.dist-info/METADATA,sha256=4BFlL5DQ1HpFAPQ5Ay5SqXHIp1-YPSqM_yDgvAjXAeE,551
+python_libsbml-5.19.3.dist-info/top_level.txt,sha256=QL4uwL4aVn01KiiTM_rt1jyP8F8r4_bE9dBUfelj4Tw,17
+python_libsbml-5.19.3.dist-info/RECORD,,
+python_libsbml-5.19.3.dist-info/WHEEL,sha256=xobt3k5KCwGovhqNwJJZzcTRHk7Ugs2zGfNVzdzIkQQ,113
+python_libsbml-5.19.3.dist-info/LICENSE.html,sha256=AX2rguZCcwhGbuVpcNRngno4EY3PhFacXlkdi6xUCxw,8527
+python_libsbml.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+python_libsbml.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
