@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xbar
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/justquick/xbar
+Author: Justin Quick
+Author-email: justquick@gmail.com
+License: MIT
+Project-URL: Documentation, https://xbar.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/justquick/xbar
+Description: # XBAR
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+xbar/__init__.py
+xbar/__main__.py
+xbar/__version__.py
+xbar.egg-info/PKG-INFO
+xbar.egg-info/SOURCES.txt
+xbar.egg-info/dependency_links.txt
+xbar.egg-info/entry_points.txt
+xbar.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+__name__ = 'xbar'
+__title__ = 'Python scripting for xbar'
+__version__ = '0.1.0'
+__author__ = 'Justin Quick'
+__author_email__ = 'justquick@gmail.com'
+__url__ = 'https://github.com/justquick/xbar'
+__license__ = 'MIT'
+__description__ = ''

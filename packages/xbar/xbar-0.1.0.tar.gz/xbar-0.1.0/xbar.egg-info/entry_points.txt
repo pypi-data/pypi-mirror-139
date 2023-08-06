@@ -1,0 +1,3 @@
+[console_scripts]
+xbar = xbzr.__main__:main
+
