@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: exiftool-wrapper
+Version: 0.1.1
+Summary: A lightweight wrapper for exiftool
+License: LGPL-3.0-or-later
+Author: Nils Philippsen
+Author-email: nils@tiptoe.de
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
