@@ -1,0 +1,10 @@
+setup.py
+nlutils_mini/Log.py
+nlutils_mini/ParameterWatcher.py
+nlutils_mini/TrainingManager.py
+nlutils_mini/__init__.py
+nlutils_mini.egg-info/PKG-INFO
+nlutils_mini.egg-info/SOURCES.txt
+nlutils_mini.egg-info/dependency_links.txt
+nlutils_mini.egg-info/requires.txt
+nlutils_mini.egg-info/top_level.txt
