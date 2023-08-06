@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Data-Construct
+Version: 0.0.1
+Summary: We construct a data that both predictors and responses ara contaminated.
+Author: Ou Yang, Qin-Ying
+Author-email: 109354014@nccu.edu.tw
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+We construct a data that both predictors and responses ara contaminated.
+
