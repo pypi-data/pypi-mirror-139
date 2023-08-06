@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+aungpdf.egg-info/PKG-INFO
+aungpdf.egg-info/SOURCES.txt
+aungpdf.egg-info/dependency_links.txt
+aungpdf.egg-info/top_level.txt
