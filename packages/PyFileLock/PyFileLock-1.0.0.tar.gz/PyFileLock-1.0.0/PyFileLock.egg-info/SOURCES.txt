@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+PyFileLock/__init__.py
+PyFileLock/__main__.py
+PyFileLock.egg-info/PKG-INFO
+PyFileLock.egg-info/SOURCES.txt
+PyFileLock.egg-info/dependency_links.txt
+PyFileLock.egg-info/requires.txt
+PyFileLock.egg-info/top_level.txt
