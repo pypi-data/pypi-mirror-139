@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+laptop_detect/__init__.py
+laptop_detect/laptop_detect.py
+laptop_detect.egg-info/PKG-INFO
+laptop_detect.egg-info/SOURCES.txt
+laptop_detect.egg-info/dependency_links.txt
+laptop_detect.egg-info/top_level.txt
