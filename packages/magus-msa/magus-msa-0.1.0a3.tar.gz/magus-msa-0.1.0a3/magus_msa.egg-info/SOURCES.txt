@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+./magus.py
+magus_msa.egg-info/PKG-INFO
+magus_msa.egg-info/SOURCES.txt
+magus_msa.egg-info/dependency_links.txt
+magus_msa.egg-info/entry_points.txt
+magus_msa.egg-info/requires.txt
+magus_msa.egg-info/top_level.txt
