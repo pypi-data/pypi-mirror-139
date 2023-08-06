@@ -1,0 +1,9 @@
+LICENSE.txt
+pyproject.toml
+setup.cfg
+EduJornal/__init__.py
+EduJornal.egg-info/PKG-INFO
+EduJornal.egg-info/SOURCES.txt
+EduJornal.egg-info/dependency_links.txt
+EduJornal.egg-info/requires.txt
+EduJornal.egg-info/top_level.txt
