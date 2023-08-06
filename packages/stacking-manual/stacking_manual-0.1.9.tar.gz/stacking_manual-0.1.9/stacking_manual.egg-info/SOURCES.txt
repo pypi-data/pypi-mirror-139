@@ -1,0 +1,6 @@
+README.md
+setup.py
+stacking_manual.egg-info/PKG-INFO
+stacking_manual.egg-info/SOURCES.txt
+stacking_manual.egg-info/dependency_links.txt
+stacking_manual.egg-info/top_level.txt

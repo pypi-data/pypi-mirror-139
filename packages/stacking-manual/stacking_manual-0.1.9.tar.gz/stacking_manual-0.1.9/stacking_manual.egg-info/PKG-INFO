@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stacking-manual
+Version: 0.1.9
+Summary: manual stacking package for ML
+Author: kevin
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content
+
