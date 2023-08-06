@@ -1,0 +1,2 @@
+[console_scripts]
+bisi = bisi.cli.main:cli
