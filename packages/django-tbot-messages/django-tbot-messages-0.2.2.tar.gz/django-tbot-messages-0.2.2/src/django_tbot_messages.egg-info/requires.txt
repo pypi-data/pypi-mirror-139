@@ -1,0 +1,5 @@
+Django>=4.0.2
+loguru>=0.6.0
+pyTelegramBotAPI>=4.4.0
+django-tbot-base>=1.0.1
+bot-storage>=1.0.1
