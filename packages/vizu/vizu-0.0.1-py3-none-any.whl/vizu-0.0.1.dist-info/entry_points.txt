@@ -1,0 +1,3 @@
+[console_scripts]
+vizer = vizer.main:run
+
