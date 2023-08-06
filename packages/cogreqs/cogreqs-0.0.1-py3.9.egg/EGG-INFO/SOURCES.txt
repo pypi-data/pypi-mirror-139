@@ -1,0 +1,9 @@
+setup.py
+cogreqs/__init__.py
+cogreqs/cogreqs.py
+cogreqs.egg-info/PKG-INFO
+cogreqs.egg-info/SOURCES.txt
+cogreqs.egg-info/dependency_links.txt
+cogreqs.egg-info/entry_points.txt
+cogreqs.egg-info/requires.txt
+cogreqs.egg-info/top_level.txt
