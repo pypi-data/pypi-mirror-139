@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: QBinder
+Version: 1.0.9
+Summary: Global Data Binding for Python Qt framework
+Home-page: https://github.com/FXTD-ODYSSEY/QBinder
+Author: timmyliang
+Author-email: 820472580@qq.com
+License: MIT Licence
+Keywords: pip,PyQt,PySide,Qt,DataBinding,Binding,Binder
+Platform: any
+License-File: License
+
+Global Data Binding for Python Qt framework
+
