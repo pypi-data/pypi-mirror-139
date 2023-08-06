@@ -1,0 +1,10 @@
+bw2qsd/__init__.py,sha256=USz6GcGWRUgOUSmYc472-JmRXG-l9CNhxc3B2Lr-50U,2604
+bw2qsd/_cf_getter.py,sha256=dXs2gFokxE82_PALKD4eK4tMu8VUF_uL4ZUj6sFwOH0,16186
+bw2qsd/_db_downloader.py,sha256=LC_n5pyY3-4o5A4nYx5XgZ3vXSistlq0QBWEmfww6WA,12534
+bw2qsd/_exceptions.py,sha256=y7-5RaTCrUOW9rrF8GzIvW3c_FJoXuIO1pjwkRh30us,449
+bw2qsd/utils.py,sha256=KnKrJR2IU6-_PtFM_C7EU_eG6R0TDeeZ4SYLPLYkNac,1913
+bw2qsd-0.1.0.dist-info/LICENSE.txt,sha256=R_zM0zL_DRCFC41vK-FbQ8HDwaDmJmwsOeG6oYicmX8,1829
+bw2qsd-0.1.0.dist-info/METADATA,sha256=TX1erzUbPPFpwpR3c5lrrHm-fU8kom3dVcgnBNl3HGQ,3168
+bw2qsd-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bw2qsd-0.1.0.dist-info/top_level.txt,sha256=4nlyzefK28iuOTk-gQdpR_jzQlY4jgwcmomC22vPy6U,7
+bw2qsd-0.1.0.dist-info/RECORD,,
