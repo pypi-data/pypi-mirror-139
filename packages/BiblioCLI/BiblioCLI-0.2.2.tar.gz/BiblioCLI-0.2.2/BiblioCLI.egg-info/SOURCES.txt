@@ -1,0 +1,7 @@
+setup.py
+BiblioCLI.egg-info/PKG-INFO
+BiblioCLI.egg-info/SOURCES.txt
+BiblioCLI.egg-info/dependency_links.txt
+BiblioCLI.egg-info/entry_points.txt
+BiblioCLI.egg-info/requires.txt
+BiblioCLI.egg-info/top_level.txt
