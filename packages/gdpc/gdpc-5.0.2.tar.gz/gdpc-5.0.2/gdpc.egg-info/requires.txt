@@ -1,0 +1,5 @@
+matplotlib
+NBT
+numpy
+opencv_python
+requests
