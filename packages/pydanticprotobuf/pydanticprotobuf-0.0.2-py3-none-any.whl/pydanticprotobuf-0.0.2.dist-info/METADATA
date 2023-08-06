@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pydanticprotobuf
+Version: 0.0.2
+Summary: pydanticprotobuf
+Author-email: Anthony Corletti <anthcor@gmail.com>
+Requires-Python: >=3.9.10
+Requires-Dist: pydantic>=1.9.0
+Requires-Dist: grpcio>=1.44.0
+Requires-Dist: grpcio-tools>=1.44.0
+Requires-Dist: flake8>=3.9.2 ; extra == "dev"
+Requires-Dist: black>=22.1.0 ; extra == "dev"
+Requires-Dist: isort>=5.9.3 ; extra == "dev"
+Requires-Dist: autoflake>=1.4 ; extra == "dev"
+Requires-Dist: flake8-docstrings>=1.6.0 ; extra == "dev"
+Requires-Dist: types-protobuf>=3.19.12 ; extra == "dev"
+Requires-Dist: pytest>=6.2.5 ; extra == "test"
+Requires-Dist: mypy>=0.910 ; extra == "test"
+Requires-Dist: mypy-protobuf>=3.0.0 ; extra == "test"
+Requires-Dist: coverage>=6.1.1 ; extra == "test"
+Requires-Dist: pytest-cov>=3.0.0 ; extra == "test"
+Requires-Dist: google-cloud-container>=2.10.5 ; extra == "test"
+Project-URL: Documentation, https://www.github.com/anthonycorletti/pydanticprotobuf
+Provides-Extra: dev
+Provides-Extra: test
