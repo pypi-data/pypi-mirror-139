@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: closedexpressions
+Version: 0.1.0
+Summary: Closed expressions for shot noise processes.
+License: MIT
+Author: gregordecristoforo
+Author-email: gregor.decristoforo@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mpmath (>=1.2.1,<2.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
