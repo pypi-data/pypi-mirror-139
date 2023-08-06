@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: laminlake
+Version: 0.2.0
+Summary: Lamin Lake.
+Author-email: Lamin Dev <laminlabs@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: anndata
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: pytest>=6.0 ; extra == "test"
+Requires-Dist: nbmake ; extra == "test"
+Project-URL: Home, https://github.com/laminlabs/laminlake
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# Lamin Lake
+
+Lamin Lake is the biological data management system.
+
+## Installation and configuration
+
+Install the development version:
+```
+flit install -s --deps develop
+```
+Then configure laminlake for use with Notion:
+```
+laminlake configure
+```
+and AWS (`pip install awscli`):
+```
+aws configure
+```
+
+## Tutorials
+
+* Notion integration: https://github.com/laminlabs/laminlake/blob/main/tutorials/notion.ipynb
+* Ingesting Eraslan21: https://github.com/laminlabs/usecases/blob/main/ingest-eraslan21.ipynb
+

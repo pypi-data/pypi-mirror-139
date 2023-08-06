@@ -1,0 +1,3 @@
+[console_scripts]
+laminlake=laminlake.__main__:main
+
