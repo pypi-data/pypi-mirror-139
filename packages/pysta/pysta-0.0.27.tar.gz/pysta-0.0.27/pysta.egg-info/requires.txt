@@ -1,0 +1,6 @@
+Click
+paho-mqtt
+pyproj
+requests
+jsonschema
+pyyaml
