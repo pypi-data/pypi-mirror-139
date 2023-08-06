@@ -1,0 +1,9 @@
+soco>=0.26.3
+tabulate
+rangehttpserver
+xmltodict
+
+[:python_version >= "3.6"]
+fastapi
+uvicorn
+aiofiles
