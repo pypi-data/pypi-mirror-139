@@ -1,0 +1,3 @@
+six
+numpy
+protobuf>=3.8.0
