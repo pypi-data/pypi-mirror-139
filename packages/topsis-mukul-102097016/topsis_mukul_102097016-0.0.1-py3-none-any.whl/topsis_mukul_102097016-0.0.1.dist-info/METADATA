@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: topsis-mukul-102097016
+Version: 0.0.1
+Summary: Topsis package by Mukul Tayal-102097016-CSE4
+Home-page: UNKNOWN
+Author: Bhuvnesh Jindal
+License: UNKNOWN
+Keywords: mukul tayal,tiet,topsis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+#topsis
+
+#how to install 
+pip install topsis_mukul_102097016
+
