@@ -1,0 +1,7 @@
+README.md
+setup.py
+recallai/__init__.py
+recallai.egg-info/PKG-INFO
+recallai.egg-info/SOURCES.txt
+recallai.egg-info/dependency_links.txt
+recallai.egg-info/top_level.txt
