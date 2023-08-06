@@ -1,0 +1,15 @@
+stempy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stempy/_image.cpython-37m-darwin.so,sha256=jn8RFdJX13Q3wLUbljGKgTLyCeNPuinKTGYRebXJ5GM,397120
+stempy/libstem.dylib,sha256=bsoOYAc3leJ0RZmfqpmmEwqA1jsnDlkDEqhPZBsgoTI,1043568
+stempy/_io.cpython-37m-darwin.so,sha256=a_T1kkXHiFvzVzLgQT6Qrk5msDKvJSd3iRVHkb7G40k,259456
+stempy/pipeline/__init__.py,sha256=hpGc5LPXKB5aUiBIOYxMnZeAlWay0m1QptJULIbxVu4,1436
+stempy/io/sparse_array.py,sha256=y2VfSnAgSZHkiROWCZt8X2f9MHktrZspoZti85HR6EM,25996
+stempy/io/__init__.py,sha256=-M-3YjHs3vKhNN1H6EB_aZIDIwDz0sCQej3L5GfhFbw,6683
+stempy/image/__init__.py,sha256=PmHUja5y7j1TYKTOeD7crYO_HCecHxv1dtz3bf3GQB8,28753
+stempy/.dylibs/libsz.2.dylib,sha256=15-mUwUCLrMTvRAEge3GggSC1ICA-aoHg67jRVEQr8A,104272
+stempy/.dylibs/libhdf5.103.dylib,sha256=iDgwLO9KUR5tI9XJYbmbOyQtKV2qe1vpth89N6De7MI,3530320
+stempy-2.0.0a1.dist-info/RECORD,,
+stempy-2.0.0a1.dist-info/LICENSE,sha256=QJBgecdAep_HzSB0K-kXJseqvy6SF5uH8CVPnhHUi0M,1504
+stempy-2.0.0a1.dist-info/WHEEL,sha256=LsQefS11Z2urpmVfc2-k5VM43whvtdH-ZITII7BpqxI,104
+stempy-2.0.0a1.dist-info/top_level.txt,sha256=y781UigXVGwQbPQglCuxXrzVV_KW3zCDzfYZg-Fk_wE,7
+stempy-2.0.0a1.dist-info/METADATA,sha256=L0fuK5pVns6TH8TTl3ks1RyzZ-T2xjqP8w8wL-mF2gI,497
