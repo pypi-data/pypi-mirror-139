@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+c_opensesame_plugins/c_RSVP_plugin/c_RSVP_plugin.md
+c_opensesame_plugins/c_RSVP_plugin/c_RSVP_plugin.png
+c_opensesame_plugins/c_RSVP_plugin/c_RSVP_plugin.py
+c_opensesame_plugins/c_RSVP_plugin/c_RSVP_plugin_large.png
+c_opensesame_plugins/c_RSVP_plugin/info.yaml
+opensesame_plugin_RSVP_copy.egg-info/PKG-INFO
+opensesame_plugin_RSVP_copy.egg-info/SOURCES.txt
+opensesame_plugin_RSVP_copy.egg-info/dependency_links.txt
+opensesame_plugin_RSVP_copy.egg-info/top_level.txt
