@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sheets-tools
+Version: 1.0.0
+Summary: This package read and writes google sheets docs.
+Home-page: https://github.com/davera-017
+Author: Daniel Ávila Vera
+Author-email: davera.017@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+

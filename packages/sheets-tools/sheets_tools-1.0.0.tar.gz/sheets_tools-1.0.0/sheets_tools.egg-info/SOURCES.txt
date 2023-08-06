@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+sheets_tools/__init__.py
+sheets_tools/sheets_manager.py
+sheets_tools.egg-info/PKG-INFO
+sheets_tools.egg-info/SOURCES.txt
+sheets_tools.egg-info/dependency_links.txt
+sheets_tools.egg-info/top_level.txt
