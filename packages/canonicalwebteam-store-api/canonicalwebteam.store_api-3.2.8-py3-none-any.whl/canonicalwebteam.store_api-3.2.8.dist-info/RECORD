@@ -1,0 +1,12 @@
+canonicalwebteam/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+canonicalwebteam/store_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canonicalwebteam/store_api/exceptions.py,sha256=4um55ONI0Uhuc-Acuefi4jdRFDApjLrGvbox7QCkHjI,1402
+canonicalwebteam/store_api/publisher.py,sha256=tkmCPGDFBagx5jvXfOvRDs6wGaBiMVXYzYXqcNZKB6s,10485
+canonicalwebteam/store_api/store.py,sha256=AEOJoUnCk8IU9CSUSo5HG-BEBtaTtSaqm4-GOCSmB1g,6554
+canonicalwebteam/store_api/stores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canonicalwebteam/store_api/stores/charmstore.py,sha256=EIkMYH4Epoj5TU2masdQEut8FUUtftBtgbh9cswkHxQ,6993
+canonicalwebteam/store_api/stores/snapstore.py,sha256=wFixSl6zCIHfUUQ9vwGdesZB1x9VsMkuKaxjESbjaY4,6515
+canonicalwebteam.store_api-3.2.8.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+canonicalwebteam.store_api-3.2.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+canonicalwebteam.store_api-3.2.8.dist-info/METADATA,sha256=cAi_1457Q_jy24lWmJqNn-dBW_qzka92dPMIU7xjhEs,2162
+canonicalwebteam.store_api-3.2.8.dist-info/RECORD,,
