@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/edtw.egg-info/PKG-INFO
+src/edtw.egg-info/SOURCES.txt
+src/edtw.egg-info/dependency_links.txt
+src/edtw.egg-info/requires.txt
+src/edtw.egg-info/top_level.txt
