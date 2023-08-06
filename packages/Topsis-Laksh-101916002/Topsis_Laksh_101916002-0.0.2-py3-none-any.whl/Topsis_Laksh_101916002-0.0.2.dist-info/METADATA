@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Topsis-Laksh-101916002
+Version: 0.0.2
+Summary: Get topsis score
+Home-page: https://github.com/laksh-1/topsis-py
+Author: Laksh Mittal
+Author-email: lmittal_be19@thapar.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+Package to get topsis score and the respective rank
+
+
