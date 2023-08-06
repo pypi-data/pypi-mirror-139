@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyeph
+Version: 1.0.0
+Summary: Cáculos de pobreza y desempleo
+License: MIT
+Author: Caolina
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipykernel (>=6.9.1,<7.0.0)
+Requires-Dist: pandas
+Requires-Dist: wget (>=3.2,<4.0)
