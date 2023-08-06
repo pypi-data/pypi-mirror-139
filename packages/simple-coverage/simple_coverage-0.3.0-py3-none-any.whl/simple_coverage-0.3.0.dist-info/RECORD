@@ -1,0 +1,11 @@
+simple_coverage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_coverage/analyze.py,sha256=u7683Q54awGVumq7EvXzBkiZYT4UXmp93-RqprxR7B4,1823
+simple_coverage/clean.py,sha256=7vPnFsqnd9a_jXYryytMFb4km2if7LbvrUr4IEgU_8M,207
+simple_coverage/coverage.py,sha256=p9kZXBgUAqm_ob7XDshnobRoKIsCS9cs88G-wuId9Rs,3109
+simple_coverage/output.py,sha256=tcFA-c0wTiBVxy_zIXfTbQkcxsOftxUd_KsvpLdY5lI,1452
+simple_coverage/report.py,sha256=oXKVSuoY3lp9oz7e8S1RHEOevRz2ZLtOtI9j_jZZkGo,549
+simple_coverage-0.3.0.dist-info/LICENSE,sha256=HdKe2edb8afA73FpPIYAi-Rnx9BGddZe1R09Z8erBY4,1064
+simple_coverage-0.3.0.dist-info/METADATA,sha256=YzZMStKBbLUD2YMb8KVrPmEd2eXsLcVnYsXGGJ1aOB0,1984
+simple_coverage-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simple_coverage-0.3.0.dist-info/top_level.txt,sha256=jznNaeHSsVgPzJTiUO0ZZPZuyxir3ylXhQuSvB9gjCo,16
+simple_coverage-0.3.0.dist-info/RECORD,,
