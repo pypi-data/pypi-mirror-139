@@ -1,0 +1,10 @@
+
+[linting]
+black
+flake8
+interrogate
+mypy
+
+[testing]
+pytest
+pytest-cov

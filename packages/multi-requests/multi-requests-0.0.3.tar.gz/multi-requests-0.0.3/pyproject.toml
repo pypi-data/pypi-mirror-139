@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools>=45", 
+    "wheel", 
+    "setuptools_scm[toml]>=6.2",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.interrogate]
+fail-under = 100
+
+[tool.coverage.report]
+fail_under = 95
+
+[tool.black]
+line-length = 100

@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tox.ini
+.github/workflows/python-package.yml
+.github/workflows/python-publish.yml
+src/multi_requests/__init__.py
+src/multi_requests/py.typed
+src/multi_requests.egg-info/PKG-INFO
+src/multi_requests.egg-info/SOURCES.txt
+src/multi_requests.egg-info/dependency_links.txt
+src/multi_requests.egg-info/requires.txt
+src/multi_requests.egg-info/top_level.txt
+tests/test_acceptance.py

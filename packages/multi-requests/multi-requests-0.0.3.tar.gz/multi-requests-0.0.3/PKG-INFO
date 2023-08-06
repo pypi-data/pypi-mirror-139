@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: multi-requests
+Version: 0.0.3
+Summary: Make many HTTP requests simultaneously
+Home-page: https://github.com/faph/multi-requests
+Author: Florenz A.P. Hollebrandse
+Author-email: faph@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/faph/multi-requests/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: linting
+License-File: LICENSE
+
+# multi-requests
+
+Python library to make many HTTP requests simultaneously. 
+
+
