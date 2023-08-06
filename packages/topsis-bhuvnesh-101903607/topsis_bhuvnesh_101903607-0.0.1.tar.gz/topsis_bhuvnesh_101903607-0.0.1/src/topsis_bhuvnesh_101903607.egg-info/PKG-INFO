@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: topsis-bhuvnesh-101903607
+Version: 0.0.1
+Summary: Topsis package by Bhuvnesh Jindal-101903607-3CO23
+Home-page: UNKNOWN
+Author: Bhuvnesh Jindal
+License: UNKNOWN
+Description: #topsis
+        
+        #how to install 
+        pip install topsis_bhuvnesh_101903607
+Keywords: bhuvnesh jindal,tiet,topsis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
