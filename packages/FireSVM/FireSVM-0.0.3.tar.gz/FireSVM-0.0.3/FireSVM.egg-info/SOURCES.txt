@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+FireSVM.egg-info/PKG-INFO
+FireSVM.egg-info/SOURCES.txt
+FireSVM.egg-info/dependency_links.txt
+FireSVM.egg-info/top_level.txt
+firesvm/__init__.py
+firesvm/kernels.py
+firesvm/plots.py
+firesvm/svm.py
