@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/CVTLowpoly/__init__.py
+src/CVTLowpoly/cvt_lloyd.py
+src/CVTLowpoly/cvt_lowpoly.py
+src/CVTLowpoly/fast_cvt_lowpoly.py
+src/CVTLowpoly/jumping_flooding.py
+src/CVTLowpoly/tri_raster.py
+src/CVTLowpoly.egg-info/PKG-INFO
+src/CVTLowpoly.egg-info/SOURCES.txt
+src/CVTLowpoly.egg-info/dependency_links.txt
+src/CVTLowpoly.egg-info/requires.txt
+src/CVTLowpoly.egg-info/top_level.txt
