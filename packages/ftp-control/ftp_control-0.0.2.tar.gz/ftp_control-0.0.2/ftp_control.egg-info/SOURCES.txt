@@ -1,0 +1,8 @@
+README.md
+setup.py
+ftp_control/__init__.py
+ftp_control/ftplib.py
+ftp_control.egg-info/PKG-INFO
+ftp_control.egg-info/SOURCES.txt
+ftp_control.egg-info/dependency_links.txt
+ftp_control.egg-info/top_level.txt

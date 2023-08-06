@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ftp-control
+Version: 0.0.2
+Summary: FTP File control
+Home-page: UNKNOWN
+Author: Testere_necmi
+Author-email: 
+License: MIT
+Keywords: ftp_control
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Foobar
+
+ Python library 
+
+## Installation
+
+
+
+```bash
+pip install ftp_control
+```
+
+## Usage
+
+```
+import ftp_control
+ftp_control.main('Host',"user_name","pasw","select_dir",time)
+
+```
+
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
