@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: arcache
+Version: 0.1
+Summary: LRU Cache for TKInter using PIL
+Home-page: https://github.com/manbehindthemadness/rcache
+Author: manbehindthemadness
+Author-email: manbehindthemadness@gmail.com
+License: MIT
+Keywords: tkinter,pil,cache
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Provides in-memory caching in addition to serialized persistent storage
+
