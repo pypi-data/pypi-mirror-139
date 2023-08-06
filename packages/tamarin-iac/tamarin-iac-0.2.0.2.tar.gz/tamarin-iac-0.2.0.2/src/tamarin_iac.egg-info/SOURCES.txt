@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tamarin_iac/__init__.py
+src/tamarin_iac/tamarin.py
+src/tamarin_iac.egg-info/PKG-INFO
+src/tamarin_iac.egg-info/SOURCES.txt
+src/tamarin_iac.egg-info/dependency_links.txt
+src/tamarin_iac.egg-info/entry_points.txt
+src/tamarin_iac.egg-info/requires.txt
+src/tamarin_iac.egg-info/top_level.txt
