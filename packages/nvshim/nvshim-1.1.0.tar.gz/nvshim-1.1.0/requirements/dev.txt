@@ -1,0 +1,10 @@
+-r prod.txt
+-r test.txt
+black
+coverage==5.1
+coveralls==3.3.1
+pylint
+py-githooks
+rope
+twine
+wheel
