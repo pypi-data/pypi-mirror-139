@@ -1,0 +1,12 @@
+setup.py
+abcd_0329.egg-info/PKG-INFO
+abcd_0329.egg-info/SOURCES.txt
+abcd_0329.egg-info/dependency_links.txt
+abcd_0329.egg-info/not-zip-safe
+abcd_0329.egg-info/requires.txt
+abcd_0329.egg-info/top_level.txt
+uif_server/__init__.py
+uif_server/__main__.py
+uif_server/cloudflare.py
+uif_server/test_uif_server.py
+uif_server/uif_server.py
