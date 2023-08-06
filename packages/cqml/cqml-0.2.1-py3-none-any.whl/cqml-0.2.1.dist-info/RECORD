@@ -1,0 +1,14 @@
+cqml/__init__.py,sha256=QNwDk7jVabRMc0GZEhHnzGOKoTEsN8MvT409ONkQ-tY,269
+cqml/boxquilt.py,sha256=oeZs5nWoqtZgy3juhZIIusRBRPX6cPnOIPZyANz673Q,5021
+cqml/cqml12.py,sha256=fqPVrKjZiz4yxWRNK8USlvM8rAB4vF8F-5WAQQoccjM,783
+cqml/cvm.py,sha256=YVcw7a1YXzWCE_Tn64d4hJ6G9K4iuLFQEBX_wV63o8Q,7987
+cqml/db2quilt.py,sha256=tmStN7slBAJA7iuNHFfyYRKc7vRMq56uJ2lOa34y05Y,7937
+cqml/helpers.py,sha256=Bz2ZxiSv4JB8TynjGqQta7aVlf4FLn0B5r5OtYG87nk,3723
+cqml/keys.py,sha256=WkQ4w567h3WimNuMsLMu5CbE4RWyZZ3anbCwDCV8kzU,346
+cqml/vm.py,sha256=jBpZgWqylL1TGdwgUlc_SSzFsg83J1Ro5u86mwAf7yo,5076
+cqml/wrappers.py,sha256=claB8RBYYhcfSk_Lk9VBCTKIPpmgjnX2WgoYURkrLPE,1369
+cqml-0.2.1.dist-info/LICENSE,sha256=s-COvqADIK57pTOYYFw3trlL4vtqd5Dq2X3rGY2aBlo,1073
+cqml-0.2.1.dist-info/METADATA,sha256=v7AyyCrGiUp9l9_6ANuNbCfRNXzy5XJ9jESgOZtEYWA,1380
+cqml-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cqml-0.2.1.dist-info/top_level.txt,sha256=pDoqASAnzypY8-fy2yIVq4pkE2I8idJ99AurICBRTeU,5
+cqml-0.2.1.dist-info/RECORD,,
