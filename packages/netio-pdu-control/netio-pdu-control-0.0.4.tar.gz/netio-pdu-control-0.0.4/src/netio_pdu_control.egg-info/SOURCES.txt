@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/netio_pdu_control/NetioClient.py
+src/netio_pdu_control/__init__.py
+src/netio_pdu_control/__main__.py
+src/netio_pdu_control.egg-info/PKG-INFO
+src/netio_pdu_control.egg-info/SOURCES.txt
+src/netio_pdu_control.egg-info/dependency_links.txt
+src/netio_pdu_control.egg-info/top_level.txt
