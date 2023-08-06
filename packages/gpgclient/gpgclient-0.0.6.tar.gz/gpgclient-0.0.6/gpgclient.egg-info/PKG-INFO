@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gpgclient
+Version: 0.0.6
+Summary: GPG Wrapper Client for leveraging gpg functionality with gcs
+Home-page: UNKNOWN
+Author: chris pearce
+Author-email: christopher.pearce@bt.com
+Maintainer: cpearce
+Maintainer-email: christopher.pearce@bt.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+**Project Summary**
+
+***
+
+**Prerequisites**
+***
+
+**Getting Started**
+***
+
+
+
