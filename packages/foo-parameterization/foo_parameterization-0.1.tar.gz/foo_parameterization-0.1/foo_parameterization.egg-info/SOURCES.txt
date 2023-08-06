@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+foo_parameterization/__init__.py
+foo_parameterization/foo_parameterization.py
+foo_parameterization.egg-info/PKG-INFO
+foo_parameterization.egg-info/SOURCES.txt
+foo_parameterization.egg-info/dependency_links.txt
+foo_parameterization.egg-info/requires.txt
+foo_parameterization.egg-info/top_level.txt
+foo_parameterization/tests/__init__.py
+foo_parameterization/tests/test_foo_parameterization.py
