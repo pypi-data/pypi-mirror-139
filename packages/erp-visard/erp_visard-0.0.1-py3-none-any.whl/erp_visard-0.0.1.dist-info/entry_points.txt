@@ -1,0 +1,3 @@
+[console_scripts]
+erp-visard=erp_visard.__main__:main
+
