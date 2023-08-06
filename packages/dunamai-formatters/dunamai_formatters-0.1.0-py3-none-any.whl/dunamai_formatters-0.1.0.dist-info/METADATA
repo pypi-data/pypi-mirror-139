@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dunamai-formatters
+Version: 0.1.0
+Summary: A complementary tool to Dunamai that offers formatters that can be used as the format argument of the serialize function.
+Home-page: https://gitlab.com/marnik/dunamai-formatters
+License: MIT
+Keywords: version,versioning,dynamic,dunamai
+Author: Marnik De Bont
+Author-email: marnik@mdebont.be
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Typed
+Requires-Dist: dunamai (>=1.9.0,<2.0.0)
+Project-URL: Bug Tracker, https://gitlab.com/marnik/dunamai-formatters/-/issues
+Project-URL: Documentation, https://marnik.gitlab.io/dunamai-formatters
+Project-URL: Repository, https://gitlab.com/marnik/dunamai-formatters
+Description-Content-Type: text/markdown
+
+# Dunamai formatters
+[![pipeline status](https://gitlab.com/marnik/dunamai-formatters/badges/dev/pipeline.svg)](https://gitlab.com/marnik/dunamai-formatters/-/commits/dev)
+[![coverage report](https://gitlab.com/marnik/dunamai-formatters/badges/dev/coverage.svg)](https://gitlab.com/marnik/dunamai-formatters/-/commits/dev)
+[![codecov](https://codecov.io/gl/marnik/dunamai-formatters/branch/dev/graph/badge.svg?token=TWKBXWKOUC)](https://codecov.io/gl/marnik/dunamai-formatters)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+
+A complementary tool to [Dunamai](https://github.com/mtkennerly/dunamai) that offers formatters that can be used as the format argument of the `serialize` function.
+
+## Features
+
+* PEP440 formatters
+
+
+
