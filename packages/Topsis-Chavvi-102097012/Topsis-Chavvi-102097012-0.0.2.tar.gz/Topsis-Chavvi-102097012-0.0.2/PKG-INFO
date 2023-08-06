@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: Topsis-Chavvi-102097012
+Version: 0.0.2
+Summary: A TOPSIS calculator
+Home-page: UNKNOWN
+Author: Chavvi Bhatia
+Author-email: cbhatia_be19@thapar.edu
+License: MIT
+Description: This is a TOPSIS calculator. It takes in 5 arguments.
+        The first argument is the input data file.
+Keywords: TOPSIS
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
