@@ -1,0 +1,4 @@
+[console_scripts]
+pbat = pbat.compile:main
+pbat-watch = pbat.watch:main
+
