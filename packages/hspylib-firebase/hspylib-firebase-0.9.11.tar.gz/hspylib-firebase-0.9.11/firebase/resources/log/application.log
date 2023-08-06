@@ -1,0 +1,38 @@
+2022-02-21 22:09:41,525 [MainThread] INFO  commons.py::log_init(@Line:74) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-21 22:09:41,526 [MainThread] INFO  properties.py::_parse(@Line:141) Successfully loaded 5 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources/application.properties 
+2022-02-21 22:09:41,526 [MainThread] INFO  app_config.py::__init__(@Line:54) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-RunDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources/log/application.log
+  |-AppProperties:
+   \-firebase.project.id=homesetup-37970
+   |-firebase.database=firebase-test
+   |-firebase.project.uuid=2c67adfa-b03f-4fb3-b089-9dc836b40a9d
+   |-firebase.username=hjunior
+   |-firebase.passphrase=MTIzNDU=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-21 22:09:41,540 [MainThread] DEBUG connectionpool.py::_new_conn(@Line:1001) Starting new HTTPS connection (1): homesetup-37970.firebaseio.com:443 
+2022-02-21 22:09:42,069 [MainThread] DEBUG connectionpool.py::_make_request(@Line:456) https://homesetup-37970.firebaseio.com:443 "GET /firebase-test/2c67adfa-b03f-4fb3-b089-9dc836b40a9d.json HTTP/1.1" 200 232 
+2022-02-21 22:09:42,072 [MainThread] DEBUG firebase_config.py::__init__(@Line:95) Successfully connected to Firebase: https://homesetup-37970.firebaseio.com/firebase-test/2c67adfa-b03f-4fb3-b089-9dc836b40a9d 
+2022-02-21 22:09:42,072 [MainThread] DEBUG agent_config.py::__init__(@Line:39) Found and loaded a Firebase configuration: 
+# Your Firebase configuration:
+# --------------------------
+PROJECT_ID=homesetup-37970
+USERNAME=hjunior
+DATABASE=firebase-test
+PASSPHRASE=MTIzNDU=
+UUID=2c67adfa-b03f-4fb3-b089-9dc836b40a9d
+ 
+2022-02-21 22:09:42,072 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-21 22:09:42.072842 
+2022-02-21 22:09:42,074 [MainThread] INFO  __main__.py::_main(@Line:73) 
+HSPyLib Firebase Agent v0.9.10
+Settings ==============================
+        STARTED: 2022-02-21 22:09:42
+ 
+2022-02-21 22:09:42,076 [MainThread] DEBUG connectionpool.py::_new_conn(@Line:1001) Starting new HTTPS connection (1): homesetup-37970.firebaseio.com:443 
+2022-02-21 22:09:42,614 [MainThread] DEBUG connectionpool.py::_make_request(@Line:456) https://homesetup-37970.firebaseio.com:443 "GET /firebase-test/2c67adfa-b03f-4fb3-b089-9dc836b40a9d/firebase-test.json HTTP/1.1" 200 214 
+2022-02-21 22:09:42,629 [MainThread] DEBUG application.py::run(@Line:95) Command line arguments: Namespace(operation='download', db_alias='firebase-test', **{'config-dir': '/Users/hjunior', 'dest-dir': 'resources'}) 
+2022-02-21 22:09:42,629 [MainThread] INFO  application.py::run(@Line:100) Run finished 2022-02-21 22:09:42.629658 
