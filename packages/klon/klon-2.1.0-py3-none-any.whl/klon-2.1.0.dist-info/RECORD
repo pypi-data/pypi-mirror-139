@@ -1,0 +1,17 @@
+klon/__init__.py,sha256=A6QOFEwWYJxylPw2mbISqjnagtGVR9B7dUuAfvG_mIc,323
+klon/build.py,sha256=lhR_COxQVFd6cBASq_jFgIJ7dXtHj5InDRiyoQXV6YE,1589
+klon/compatibility.py,sha256=QXOIRTLoQ629c5ysnQyBk-0QMwtiwo3FYEuJ-XQ5_DI,780
+klon/forms.py,sha256=Vc4jmC5lY03wl8f5GpUC2CkfpumSwJ60uTKySIYPl7g,2884
+klon/html.py,sha256=3EXfd6WjxdFMLoTEDz76v5OWPD4Uzc23lM3-G_3N_Fo,2487
+klon/klon.py,sha256=VXDsR8JXV3hq5YSD7pYCVGDgpyghGwjyjizLbc3fl4Y,2652
+klon/lxml.py,sha256=BbwP6iDJNdDGcHLJpa0MC84sDh0fFMwGbRhJjIigt3M,1413
+klon/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+klon/text.py,sha256=K1ctJL6wwexCXPxihCiFItAZ5Q4ubN2BXavcC4BVIak,1963
+klon/utils.py,sha256=EfJtFqDnbG9U1DXpZGw5AdTnDTjqoIIy0VEV-r4cq5g,1351
+klon/version.py,sha256=_ohyPmCz_WN4awz0abF1W4N0EtZzeEnp-MaGxJ4pRjw,47
+klon/xml.py,sha256=3SMzu7F40HdfFSd0j5Iw8xjrfGSvjhexkr8HGDwIO5g,291
+klon-2.1.0.dist-info/LICENSE,sha256=71cJCvVO8quHIqNw1b76JG-42vujIj9xF66owwPZG7o,1074
+klon-2.1.0.dist-info/METADATA,sha256=B2QOVajKPVF-Sl6_Q-ynbbcLShVweN2RsBBotOw6scs,6513
+klon-2.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+klon-2.1.0.dist-info/top_level.txt,sha256=6fwGn88QSEHhBYF8X3D-7-p3i6uy0jmSsKX6ssumpN4,5
+klon-2.1.0.dist-info/RECORD,,
