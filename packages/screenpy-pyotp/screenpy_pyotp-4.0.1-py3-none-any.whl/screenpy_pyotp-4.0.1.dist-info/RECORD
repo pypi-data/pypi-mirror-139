@@ -1,0 +1,10 @@
+screenpy_pyotp/__init__.py,sha256=FFfeRoNGoc3RKvJ5azVkM8jBHCRAEVquFsj9SEWS094,1224
+screenpy_pyotp/__version__.py,sha256=lXsWySUk0cuhgHxDHEhR72aLVuM7kNHZO_4YMbF1fzE,1206
+screenpy_pyotp/py.typed,sha256=NiCaUx-htsrNiugoLdAkLvcrKL7jfQL5e030KQA9mZM,39
+screenpy_pyotp/abilities/__init__.py,sha256=w1AlrddB9CbztTRd1iTMdlGyjRLH6OxBwWnmiTQRqpY,150
+screenpy_pyotp/abilities/authenticate_with_2fa.py,sha256=p15v9yxAwMkd5c_0OoUGp1IhXO2liC2QfZkKEFcBHnw,1647
+screenpy_pyotp-4.0.1.dist-info/LICENSE,sha256=rzJ7rNtzRtZWoMUTX8gx0-HnRPBjpY37gXiokXuNGOY,1066
+screenpy_pyotp-4.0.1.dist-info/METADATA,sha256=IeCDWPZER2UzIPlHzVTjM7rYnmZ98Q5rzF8UfwRlAVs,2891
+screenpy_pyotp-4.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+screenpy_pyotp-4.0.1.dist-info/top_level.txt,sha256=TLGqLAsLTnix8DVVKmWPf3qsJWtxXX2TGklYVSCNfeA,15
+screenpy_pyotp-4.0.1.dist-info/RECORD,,
