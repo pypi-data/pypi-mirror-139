@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+bilkent_2021_2022_spring_cs453_hw1_ziya_mukhtarov.egg-info/PKG-INFO
+bilkent_2021_2022_spring_cs453_hw1_ziya_mukhtarov.egg-info/SOURCES.txt
+bilkent_2021_2022_spring_cs453_hw1_ziya_mukhtarov.egg-info/dependency_links.txt
+bilkent_2021_2022_spring_cs453_hw1_ziya_mukhtarov.egg-info/requires.txt
+bilkent_2021_2022_spring_cs453_hw1_ziya_mukhtarov.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
