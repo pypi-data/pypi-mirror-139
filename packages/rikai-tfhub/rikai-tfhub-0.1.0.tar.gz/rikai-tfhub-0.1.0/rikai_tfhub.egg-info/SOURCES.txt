@@ -1,0 +1,8 @@
+setup.py
+rikai/experimental/tfhub/__init__.py
+rikai/experimental/tfhub/tfhub_registry.py
+rikai_tfhub.egg-info/PKG-INFO
+rikai_tfhub.egg-info/SOURCES.txt
+rikai_tfhub.egg-info/dependency_links.txt
+rikai_tfhub.egg-info/requires.txt
+rikai_tfhub.egg-info/top_level.txt

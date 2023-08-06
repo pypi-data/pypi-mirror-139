@@ -1,0 +1,9 @@
+rikai>=0.1.1
+tensorflow>=2.5.0
+tensorflow_hub
+
+[dev]
+black
+isort
+pytest
+torch
