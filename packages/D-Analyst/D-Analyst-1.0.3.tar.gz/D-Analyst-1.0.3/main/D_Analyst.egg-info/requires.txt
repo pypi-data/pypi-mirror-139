@@ -1,0 +1,3 @@
+QPlug
+PyQt5
+PyOpengl
