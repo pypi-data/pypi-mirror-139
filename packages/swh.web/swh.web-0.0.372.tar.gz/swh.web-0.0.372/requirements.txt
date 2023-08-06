@@ -1,0 +1,36 @@
+# Add here external Python modules dependencies, one per line. Module names
+# should match https://pypi.python.org/pypi names. For the full spec or
+# dependency lines, see https://pip.readthedocs.org/en/1.1/requirements.html
+
+beautifulsoup4
+chardet
+cryptography
+django < 3
+django-cors-headers
+django-js-reverse
+djangorestframework
+django-webpack-loader
+docutils
+htmlmin
+iso8601
+lxml
+prometheus-client
+pybadges >= 2.2.1
+pygments
+python-magic >= 0.4.0
+python-memcached
+pyyaml
+requests
+sentry-sdk
+typing-extensions
+psycopg2 < 2.9
+
+# TODO: remove dependencies below once pybadges depends on Jinja2 >=3
+
+# Fix "ImportError: cannot import name 'soft_unicode' from 'markupsafe'"
+# when running pytest
+markupsafe < 2.1.0
+# Fix "ImportError: cannot import name 'json' from 'itsdangerous'"
+# when running pytest after calling "./bin/install" from swh-environement
+# in empty venv
+flask >= 1.1.4
