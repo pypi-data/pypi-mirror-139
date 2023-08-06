@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: skillcorner
+Version: 1.0.1
+Summary: SkillCorner API client
+Author: SkillCorner
+Author-email: support@skillcorner.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6, <=3.9
+Provides-Extra: test
+Provides-Extra: release
+License-File: LICENSE
+
+UNKNOWN
+
