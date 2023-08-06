@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "templateco-plugin-plugin"
+version = "0.1.2"
+description = ""
+authors = ["Mike Gregory <mike.ja.gregory@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [
+    { from = "../", include = "templateco_plugin_plugin" }
+]
+exclude = ["*_test.py"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+templateco = "^0"
+
+[tool.poetry.dev-dependencies]
+templateco = { path = "../templateco", develop = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

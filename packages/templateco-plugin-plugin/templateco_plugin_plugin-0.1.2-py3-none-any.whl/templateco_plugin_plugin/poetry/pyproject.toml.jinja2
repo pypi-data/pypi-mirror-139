@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "{{ prefix }}-{{ name }}-plugin"
+version = "0.1.0"
+description = "Description of your Templateco plugin here"
+authors = ["{{ author_name }} <{{ author_email }}>"]{% if use_subfolder %}
+packages = [
+    { include = "{{ prefix }}_{{ name }}_plugin" }
+]{% else %}
+packages = [
+    { from = "../", include = "{{ prefix }}_{{ name }}_plugin" }
+]{% endif %}
+
+[tool.poetry.dependencies]
+python = "^3.7"
+templateco = "^0"
+
+[tool.poetry.dev-dependencies]
+templateco = { path = "../templateco", develop = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

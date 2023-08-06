@@ -1,0 +1,16 @@
+templateco_plugin_plugin/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templateco_plugin_plugin/__init__.py,sha256=qVaJj0HlgLoWH0wzZRKwRaLaDUY8Urx0LlmUPc0DyF4,5087
+templateco_plugin_plugin/poetry/pyproject.toml.jinja2,sha256=3-b-TtDuVCHCcjtM279n7C6xcEonJUHY9sSMkwttxAc,615
+templateco_plugin_plugin/poetry.lock,sha256=mwjlXV_t9h7uT52eQoyWaxjwlEfpEQkWVhyuOYtlCLE,14755
+templateco_plugin_plugin/pyproject.toml,sha256=2WOL0N9IRsEWZ-0jU201ZRDewPnDuekNMMpHRPJcf3o,515
+templateco_plugin_plugin/template/README.md.jinja2,sha256=1SbuJQgdCzhf_ZXuQEU0KED5g-464pKvQGv3ln9eNOw,108
+templateco_plugin_plugin/template/{% if use_subfolder %}{{ prefix }}_{{ name }}_plugin/{% endif %}__init__.py.jinja2,sha256=5AmmRPN2lMa6SsPtHScO1r1oyQ6j-Bn6L53viFUIjtk,1568
+templateco_plugin_plugin/template/{% if use_subfolder %}{{ prefix }}_{{ name }}_plugin/{% endif %}template/.gitkeep.jinja2,sha256=XtAYuaCHiJCwq63SQ1cLZ-f9AxbD-3ZCsp_fPHxMz0Q,27
+templateco_plugin_plugin/tooling/.editorconfig.jinja2,sha256=IufsmzcYSETWqpqTB0iImFku2OqE2KEzQpHHeRAEaWo,199
+templateco_plugin_plugin/tooling/.gitignore.jinja2,sha256=J6md8uOzIuLEmoPierHK-59C9YG__zAujgfsjMIUXHw,40
+templateco_plugin_plugin/tooling/.tool-versions.jinja2,sha256=1PU-ihrw-RifIgYkCe5UmilyS0NSRUwyGY3BQCrAWCo,14
+templateco_plugin_plugin/tooling/Makefile.jinja2,sha256=8AlBt-9Qk-BLGBpb0fqt2-FE-R4Ya379hGrRYOFl4tA,901
+templateco_plugin_plugin/tooling/setup.cfg.jinja2,sha256=9ffrpD3ubWdWaXQDjkj6CZvBjm7lQJ89sU8DEk35egc,727
+templateco_plugin_plugin-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+templateco_plugin_plugin-0.1.2.dist-info/METADATA,sha256=qvKjVetFmTE3G1hGkG18K8dLCkJvr-tWhkdO-exhcSU,557
+templateco_plugin_plugin-0.1.2.dist-info/RECORD,,
