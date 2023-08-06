@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: lazyEdge
+Version: 0.0.3
+Summary: A warp on selenium.webdriver.Edge that free you from managing msedgedriver. 
+Home-page: https://github.com/HellOwhatAs/lazyEdge
+Author: xjq
+Author-email: xjq701229@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
