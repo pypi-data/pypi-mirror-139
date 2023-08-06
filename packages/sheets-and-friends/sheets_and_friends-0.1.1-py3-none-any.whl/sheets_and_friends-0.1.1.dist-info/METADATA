@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sheets-and-friends
+Version: 0.1.1
+Summary: Create a LinkML model with as-is imported slots, imported but modified slots (via yq), or newly minted slots (via schemasheets)
+License: MIT
+Author: Mark Andrew Miller
+Author-email: MAM@lbl.gov
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black
+Requires-Dist: click_log
+Requires-Dist: dpath (>=2.0.6,<3.0.0)
+Requires-Dist: glom (>=22.1.0,<23.0.0)
+Requires-Dist: hident (>=0.1.7,<0.2.0)
+Requires-Dist: pandasql (>=0.7.3,<0.8.0)
+Requires-Dist: pygsheets (>=2.0.5,<3.0.0)
+Requires-Dist: schemasheets (>=0.1.7,<0.2.0)

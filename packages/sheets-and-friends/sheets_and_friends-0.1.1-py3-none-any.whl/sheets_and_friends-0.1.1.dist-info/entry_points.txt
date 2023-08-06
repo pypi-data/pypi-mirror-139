@@ -1,0 +1,7 @@
+[console_scripts]
+compare_enums=sheets_and_friends.compare_enums:compare_enums
+do_shuttle=sheets_and_friends.shuttle:do_shuttle
+linkml2dataharmonizer=sheets_and_friends.converters.commands:linkml2dataharmonizer
+mod_by_path=sheets_and_friends.mod_by_path:mod_by_path
+promote_to_select=sheets_and_friends.converters.commands:promote_to_select
+

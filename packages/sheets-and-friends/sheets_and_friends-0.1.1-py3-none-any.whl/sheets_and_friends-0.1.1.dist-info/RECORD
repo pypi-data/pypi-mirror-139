@@ -1,0 +1,13 @@
+sheets_and_friends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sheets_and_friends/compare_enums.py,sha256=XYkTbCHZyAgqSdaFl6JZ4WaXAdDcBdy2GiF9tnAbAgE,4278
+sheets_and_friends/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sheets_and_friends/converters/commands.py,sha256=d8eRAUbQRHvI6ahEbZ4KVxp34q5g1SWs23Q_I4G_Tdo,10103
+sheets_and_friends/converters/linkml2dataharmonizer.py,sha256=sWHqwAiDoKQtsw2h4U2jp2wMO4Xdv6KSoVs-Crn4wZ8,15780
+sheets_and_friends/converters/sheet2linkml.py,sha256=XuIpLdZ6fT-AJrBpQRN-DzGtI_cryzSd2Cf-uUKfyTs,10703
+sheets_and_friends/mod_by_path.py,sha256=2ufgSf2oSXoNprot1gqvA3DPi5GQgP0xxKaVKM4eH34,4485
+sheets_and_friends/shuttle.py,sha256=vzSGHPdG9YlF9aTRjA1bn71GbfvvRGsrgJHhsvY3Rvk,4646
+sheets_and_friends-0.1.1.dist-info/entry_points.txt,sha256=GqPOlUsNwdw8YHWfGjvyfPrLtIcnwZCE1oN-OmmZJtE,342
+sheets_and_friends-0.1.1.dist-info/LICENSE,sha256=UIKxon-WuRgGHy5UreJMsUxQXdZJGZ3rh_IoYgx8nJI,1071
+sheets_and_friends-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sheets_and_friends-0.1.1.dist-info/METADATA,sha256=Jz48IscLzvnR_fyLlomgS8Pwf3YA5__8pdsdK4VUmO0,783
+sheets_and_friends-0.1.1.dist-info/RECORD,,
