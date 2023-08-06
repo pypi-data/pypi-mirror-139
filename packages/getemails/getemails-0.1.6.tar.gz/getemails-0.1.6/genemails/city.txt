@@ -1,0 +1,2550 @@
+Ukraine:Kyiv:Kyiv
+Ukraine:Kharkiv:Kharkiv Oblast
+Ukraine:Odesa:Odesa Oblast
+Ukraine:Dnipro:Dnipropetrovsk Oblast
+Ukraine:Donetsk:Donetsk Oblast
+Ukraine:Zaporizhzhia:Zaporizhzhia Oblast
+Ukraine:Lviv:Lviv Oblast
+Ukraine:Kryvyi Rih:Dnipropetrovsk Oblast
+Ukraine:Mykolaiv:Mykolaiv Oblast
+Ukraine:Sevastopol:Sevastopol
+Ukraine:Mariupol:Donetsk Oblast
+Ukraine:Luhansk:Luhansk Oblast
+Ukraine:Vinnytsia:Vinnytsia Oblast
+Ukraine:Makiivka:Donetsk Oblast
+Ukraine:Simferopol:Crimea
+Ukraine:Chernihiv:Chernihiv Oblast
+Ukraine:Kherson:Kherson Oblast
+Ukraine:Poltava:Poltava Oblast
+Ukraine:Khmelnytskyi:Khmelnytskyi Oblast
+Ukraine:Cherkasy:Cherkasy Oblast
+Ukraine:Chernivtsi:Chernivtsi Oblast
+Ukraine:Zhytomyr:Zhytomyr Oblast
+Ukraine:Sumy:Sumy Oblast
+Ukraine:Rivne:Rivne Oblast
+Ukraine:Horlivka:Donetsk Oblast
+Ukraine:Ivano-Frankivsk:Ivano-Frankivsk Oblast
+Ukraine:Kamianske:Dnipropetrovsk Oblast
+Ukraine:Ternopil:Ternopil Oblast
+Ukraine:Kropyvnytskyi:Kirovohrad Oblast
+Ukraine:Kremenchuk:Poltava Oblast
+Ukraine:Lutsk:Volyn Oblast
+Ukraine:Bila Tserkva:Kyiv Oblast
+Ukraine:Kerch:Crimea
+Ukraine:Melitopol:Zaporizhzhia Oblast
+Ukraine:Kramatorsk:Donetsk Oblast
+Ukraine:Uzhhorod:Zakarpattia Oblast
+Ukraine:Brovary:Kyiv Oblast
+Ukraine:Yevpatoria:Crimea
+Ukraine:Berdiansk:Zaporizhzhia Oblast
+Ukraine:Nikopol:Dnipropetrovsk Oblast
+Ukraine:Sloviansk:Donetsk Oblast
+Ukraine:Alchevsk:Luhansk Oblast
+Ukraine:Pavlohrad:Dnipropetrovsk Oblast
+Ukraine:Sieverodonetsk:Luhansk Oblast
+Ukraine:Kamianets-Podilskyi:Khmelnytskyi Oblast
+Ukraine:Lysychansk:Luhansk Oblast
+Ukraine:Mukachevo:Zakarpattia Oblast
+Ukraine:Konotop:Sumy Oblast
+Ukraine:Uman:Cherkasy Oblast
+Ukraine:Khrustalnyi:Luhansk Oblast
+Ukraine:Yalta:Crimea
+Ukraine:Oleksandriia:Kirovohrad Oblast
+Ukraine:Yenakiieve:Donetsk Oblast
+Ukraine:Drohobych:Lviv Oblast
+Ukraine:Berdychiv:Zhytomyr Oblast
+Ukraine:Kadiyivka:Luhansk Oblast
+Ukraine:Shostka:Sumy Oblast
+Ukraine:Bakhmut:Donetsk Oblast
+Ukraine:Izmail:Odesa Oblast
+Ukraine:Novomoskovsk:Dnipropetrovsk Oblast
+Ukraine:Kostiantynivka:Donetsk Oblast
+Ukraine:Kovel:Volyn Oblast
+Ukraine:Feodosiya:Crimea
+Ukraine:Nizhyn:Chernihiv Oblast
+Ukraine:Smila:Cherkasy Oblast
+Ukraine:Kalush:Ivano-Frankivsk Oblast
+Ukraine:Chervonohrad:Lviv Oblast
+Ukraine:Boryspil:Kyiv Oblast
+Ukraine:Pervomaisk:Mykolaiv Oblast
+Ukraine:Dovzhansk:Luhansk Oblast
+Ukraine:Irpin:Kyiv Oblast
+Ukraine:Korosten:Zhytomyr Oblast
+Ukraine:Pokrovsk:Donetsk Oblast
+Ukraine:Kolomyia:Ivano-Frankivsk Oblast
+Ukraine:Stryi:Lviv Oblast
+Ukraine:Chornomorsk:Odesa Oblast
+Ukraine:Khartsyzk:Donetsk Oblast
+Ukraine:Rubizhne:Luhansk Oblast
+Ukraine:Novohrad-Volynskyi:Zhytomyr Oblast
+Ukraine:Druzhkivka:Donetsk Oblast
+Ukraine:Lozova:Kharkiv Oblast
+Ukraine:Chystiakove:Donetsk Oblast
+Ukraine:Enerhodar:Zaporizhzhia Oblast
+Ukraine:Pryluky:Chernihiv Oblast
+Ukraine:Antratsyt:Luhansk Oblast
+Ukraine:Novovolynsk:Volyn Oblast
+Ukraine:Horishni Plavni:Poltava Oblast
+Ukraine:Shakhtarsk:Donetsk Oblast
+Ukraine:Bilhorod-Dnistrovskyi:Odesa Oblast
+Ukraine:Okhtyrka:Sumy Oblast
+Ukraine:Myrnohrad:Donetsk Oblast
+Ukraine:Snizhne:Donetsk Oblast
+Ukraine:Izium:Kharkiv Oblast
+Ukraine:Marhanets:Dnipropetrovsk Oblast
+Ukraine:Rovenky:Luhansk Oblast
+Ukraine:Nova Kakhovka:Kherson Oblast
+Ukraine:Brianka:Luhansk Oblast
+Ukraine:Fastiv:Kyiv Oblast
+Ukraine:Lubny:Poltava Oblast
+Ukraine:Svitlovodsk:Kirovohrad Oblast
+Ukraine:Zhovti Vody:Dnipropetrovsk Oblast
+Ukraine:Sorokyne:Luhansk Oblast
+Ukraine:Vyshneve:Kyiv Oblast
+Ukraine:Varash:Rivne Oblast
+Ukraine:Shepetivka:Khmelnytskyi Oblast
+Ukraine:Podilsk:Odesa Oblast
+Ukraine:Yuzhnoukrainsk:Mykolaiv Oblast
+Ukraine:Myrhorod:Poltava Oblast
+Ukraine:Romny:Sumy Oblast
+Ukraine:Pokrov:Dnipropetrovsk Oblast
+Ukraine:Volodymyr-Volynskyi:Volyn Oblast
+Ukraine:Dzhankoy:Crimea
+Ukraine:Vasylkiv:Kyiv Oblast
+Ukraine:Dubno:Rivne Oblast
+Ukraine:Bucha:Kyiv Oblast
+Ukraine:Netishyn:Khmelnytskyi Oblast
+Ukraine:Pervomaisk:Luhansk Oblast
+Ukraine:Kakhovka:Kherson Oblast
+Ukraine:Boiarka:Kyiv Oblast
+Ukraine:Slavuta:Khmelnytskyi Oblast
+Ukraine:Sambir:Lviv Oblast
+Ukraine:Yasynuvata:Donetsk Oblast
+Ukraine:Starokostiantyniv:Khmelnytskyi Oblast
+Ukraine:Zhmerynka:Vinnytsia Oblast
+Ukraine:Voznesensk:Mykolaiv Oblast
+Ukraine:Obukhiv:Kyiv Oblast
+Ukraine:Boryslav:Lviv Oblast
+Ukraine:Yuzhne:Odesa Oblast
+Ukraine:Vyshhorod:Kyiv Oblast
+Ukraine:Hlukhiv:Sumy Oblast
+Ukraine:Avdiivka:Donetsk Oblast
+Ukraine:Chuhuiv:Kharkiv Oblast
+Ukraine:Toretsk:Donetsk Oblast
+Ukraine:Novoiavorivsk:Lviv Oblast
+Ukraine:Kostopil:Rivne Oblast
+Ukraine:Alushta:Crimea
+Ukraine:Mohyliv-Podilskyi:Vinnytsia Oblast
+Ukraine:Tokmak:Zaporizhzhia Oblast
+Ukraine:Synelnykove:Dnipropetrovsk Oblast
+Ukraine:Pervomaiskyi:Kharkiv Oblast
+Ukraine:Sarny:Rivne Oblast
+Ukraine:Dobropillia:Donetsk Oblast
+Ukraine:Truskavets:Lviv Oblast
+Ukraine:Chortkiv:Ternopil Oblast
+Ukraine:Khust:Zakarpattia Oblast
+Ukraine:Novyi Rozdil:Lviv Oblast
+Ukraine:Pershotravensk:Dnipropetrovsk Oblast
+Ukraine:Zolotonosha:Cherkasy Oblast
+Ukraine:Khrestivka:Donetsk Oblast
+Ukraine:Ternivka:Dnipropetrovsk Oblast
+Ukraine:Kupiansk:Kharkiv Oblast
+Ukraine:Khmilnyk:Vinnytsia Oblast
+Ukraine:Balakliia:Kharkiv Oblast
+Ukraine:Holubivka:Luhansk Oblast
+Ukraine:Pereiaslav:Kyiv Oblast
+Ukraine:Bakhchisaray:Crimea
+Ukraine:Haisyn:Vinnytsia Oblast
+Ukraine:Malyn:Zhytomyr Oblast
+Ukraine:Vynohradiv:Zakarpattia Oblast
+Ukraine:Perevalsk:Luhansk Oblast
+Ukraine:Slavutych:Kyiv Oblast
+Ukraine:Krasnoperekopsk:Crimea
+Ukraine:Zdolbuniv:Rivne Oblast
+Ukraine:Korostyshiv:Zhytomyr Oblast
+Ukraine:Oleshky:Kherson Oblast
+Ukraine:Debaltseve:Donetsk Oblast
+Ukraine:Saky:Crimea
+Ukraine:Lebedyn:Sumy Oblast
+Ukraine:Zolochiv:Lviv Oblast
+Ukraine:Kaniv:Cherkasy Oblast
+Ukraine:Berehove:Zakarpattia Oblast
+Ukraine:Brody:Lviv Oblast
+Ukraine:Hadiach:Poltava Oblast
+Ukraine:Dokuchaievsk:Donetsk Oblast
+Ukraine:Koziatyn:Vinnytsia Oblast
+Ukraine:Ladyzhyn:Vinnytsia Oblast
+Ukraine:Nadvirna:Ivano-Frankivsk Oblast
+Ukraine:Molodohvardiysk:Luhansk Oblast
+Ukraine:Vilnohirsk:Dnipropetrovsk Oblast
+Ukraine:Krolevets:Sumy Oblast
+Ukraine:Selydove:Donetsk Oblast
+Ukraine:Znamianka:Kirovohrad Oblast
+Ukraine:Volnovakha:Donetsk Oblast
+Ukraine:Merefa:Kharkiv Oblast
+Ukraine:Armiansk:Crimea
+Ukraine:Kremenets:Ternopil Oblast
+Ukraine:Sokal:Lviv Oblast
+Ukraine:Dolyna:Ivano-Frankivsk Oblast
+Ukraine:Sukhodilsk:Luhansk Oblast
+Ukraine:Polonne:Khmelnytskyi Oblast
+Ukraine:Lyman:Donetsk Oblast
+Ukraine:Stebnyk:Lviv Oblast
+Ukraine:Liubotyn:Kharkiv Oblast
+Ukraine:Krasnohrad:Kharkiv Oblast
+Ukraine:Trostianets:Sumy Oblast
+Ukraine:Popasna:Luhansk Oblast
+Ukraine:Yahotyn:Kyiv Oblast
+Ukraine:Henichesk:Kherson Oblast
+Ukraine:Kilia:Odesa Oblast
+Ukraine:Kalynivka:Vinnytsia Oblast
+Ukraine:Krasyliv:Khmelnytskyi Oblast
+Ukraine:Kurakhove:Donetsk Oblast
+Ukraine:Volochysk:Khmelnytskyi Oblast
+Ukraine:Piatykhatky:Dnipropetrovsk Oblast
+Ukraine:Kreminna:Luhansk Oblast
+Ukraine:Polohy:Zaporizhzhia Oblast
+Ukraine:Balta:Odesa Oblast
+Ukraine:Amvrosiivka:Donetsk Oblast
+Ukraine:Dniprorudne:Zaporizhzhia Oblast
+Ukraine:Reni:Odesa Oblast
+Ukraine:Vovchansk:Kharkiv Oblast
+Ukraine:Derhachi:Kharkiv Oblast
+Ukraine:Bakhmach:Chernihiv Oblast
+Ukraine:Starobilsk:Luhansk Oblast
+Ukraine:Vatutine:Cherkasy Oblast
+Ukraine:Zvenyhorodka:Cherkasy Oblast
+Ukraine:Zuhres:Donetsk Oblast
+Ukraine:Skadovsk:Kherson Oblast
+Ukraine:Svatove:Luhansk Oblast
+Ukraine:Shpola:Cherkasy Oblast
+Ukraine:Novoukrainka:Kirovohrad Oblast
+Ukraine:Korsun-Shevchenkivskyi:Cherkasy Oblast
+Ukraine:Lutuhyne:Luhansk Oblast
+Ukraine:Bilohirsk:Crimea
+Ukraine:Dolynska:Kirovohrad Oblast
+Ukraine:Iziaslav:Khmelnytskyi Oblast
+Ukraine:Bilopillia:Sumy Oblast
+Ukraine:Bohodukhiv:Kharkiv Oblast
+Ukraine:Skvyra:Kyiv Oblast
+Ukraine:Karlivka:Poltava Oblast
+Ukraine:Orikhiv:Zaporizhzhia Oblast
+Ukraine:Bilozerske:Donetsk Oblast
+Ukraine:Zolote:Luhansk Oblast
+Ukraine:Yunokomunarivsk:Donetsk Oblast
+Ukraine:Pidhorodne:Dnipropetrovsk Oblast
+Ukraine:Rozdilna:Odesa Oblast
+Ukraine:Horodok:Khmelnytskyi Oblast
+Ukraine:Chervonopartyzansk:Luhansk Oblast
+Ukraine:Ilovaisk:Donetsk Oblast
+Ukraine:Berezhany:Ternopil Oblast
+Ukraine:Novohrodivka:Donetsk Oblast
+Ukraine:Vuhledar:Donetsk Oblast
+Ukraine:Berezan:Kyiv Oblast
+Ukraine:Putyvl:Sumy Oblast
+Ukraine:Bolhrad:Odesa Oblast
+Ukraine:Bar:Vinnytsia Oblast
+Ukraine:Svaliava:Zakarpattia Oblast
+Ukraine:Bohuslav:Kyiv Oblast
+Ukraine:Huliaipole:Zaporizhzhia Oblast
+Ukraine:Zmiiv:Kharkiv Oblast
+Ukraine:Ovruch:Zhytomyr Oblast
+Ukraine:Verkhniodniprovsk:Dnipropetrovsk Oblast
+Ukraine:Ochakiv:Mykolaiv Oblast
+Ukraine:Krasnohorivka:Donetsk Oblast
+Ukraine:Kivertsi:Volyn Oblast
+Ukraine:Pyriatyn:Poltava Oblast
+Ukraine:Mykolaivka:Donetsk Oblast
+Ukraine:Chasiv Yar:Donetsk Oblast
+Ukraine:Vilniansk:Zaporizhzhia Oblast
+Ukraine:Dunaivtsi:Khmelnytskyi Oblast
+Ukraine:Apostolove:Dnipropetrovsk Oblast
+Ukraine:Talne:Cherkasy Oblast
+Ukraine:Artsyz:Odesa Oblast
+Ukraine:Novyi Buh:Mykolaiv Oblast
+Ukraine:Tulchyn:Vinnytsia Oblast
+Ukraine:Haivoron:Kirovohrad Oblast
+Ukraine:Horodok:Lviv Oblast
+Ukraine:Hola Prystan:Kherson Oblast
+Ukraine:Nosivka:Chernihiv Oblast
+Ukraine:Zhashkiv:Cherkasy Oblast
+Ukraine:Horodysche:Cherkasy Oblast
+Ukraine:Vasylivka:Zaporizhzhia Oblast
+Ukraine:Kamianka-Dniprovska:Zaporizhzhia Oblast
+Ukraine:Petrovske:Luhansk Oblast
+Ukraine:Beryslav:Kherson Oblast
+Ukraine:Snihurivka:Mykolaiv Oblast
+Ukraine:Radomyshl:Zhytomyr Oblast
+Ukraine:Burshtyn:Ivano-Frankivsk Oblast
+Ukraine:Rakhiv:Zakarpattia Oblast
+Ukraine:Novhorod-Siverskyi:Chernihiv Oblast
+Ukraine:Kamianka:Cherkasy Oblast
+Ukraine:Tetiiv:Kyiv Oblast
+Ukraine:Mykolaiv:Lviv Oblast
+Ukraine:Ostroh:Rivne Oblast
+Ukraine:Zelenodolsk:Dnipropetrovsk Oblast
+Ukraine:Vakhrusheve:Luhansk Oblast
+Ukraine:Khorol:Poltava Oblast
+Ukraine:Storozhynets:Chernivtsi Oblast
+Ukraine:Sudak:Crimea
+Ukraine:Siversk:Donetsk Oblast
+Ukraine:Koriukivka:Chernihiv Oblast
+Ukraine:Biliaivka:Odesa Oblast
+Ukraine:Hirnyk:Donetsk Oblast
+Ukraine:Ukrainka:Kyiv Oblast
+Ukraine:Nova Odesa:Mykolaiv Oblast
+Ukraine:Horodnia:Chernihiv Oblast
+Ukraine:Shchastia:Luhansk Oblast
+Ukraine:Kaharlyk:Kyiv Oblast
+Ukraine:Zhdanivka:Donetsk Oblast
+Ukraine:Berezne:Rivne Oblast
+Ukraine:Terebovlia:Ternopil Oblast
+Ukraine:Vynnyky:Lviv Oblast
+Ukraine:Rozhysche:Volyn Oblast
+Ukraine:Yavoriv:Lviv Oblast
+Ukraine:Zhovkva:Lviv Oblast
+Ukraine:Tarascha:Kyiv Oblast
+Ukraine:Myronivka:Kyiv Oblast
+Ukraine:Bershad:Vinnytsia Oblast
+Ukraine:Ukrainsk:Donetsk Oblast
+Ukraine:Zbarazh:Ternopil Oblast
+Ukraine:Novomyrhorod:Kirovohrad Oblast
+Ukraine:Uzyn:Kyiv Oblast
+Ukraine:Svitlodarsk:Donetsk Oblast
+Ukraine:Soledar:Donetsk Oblast
+Ukraine:Bashtanka:Mykolaiv Oblast
+Ukraine:Mala Vyska:Kirovohrad Oblast
+Ukraine:Teplohirsk:Luhansk Oblast
+Ukraine:Barvinkove:Kharkiv Oblast
+Ukraine:Prymorsk:Zaporizhzhia Oblast
+Ukraine:Mena:Chernihiv Oblast
+Ukraine:Hlobyne:Poltava Oblast
+Ukraine:Hnivan:Vinnytsia Oblast
+Ukraine:Komsomolske:Donetsk Oblast
+Ukraine:Ichnia:Chernihiv Oblast
+Ukraine:Novoazovsk:Donetsk Oblast
+Ukraine:Baranivka:Zhytomyr Oblast
+Ukraine:Buchach:Ternopil Oblast
+Ukraine:Lokhvytsia:Poltava Oblast
+Ukraine:Snovsk:Chernihiv Oblast
+Ukraine:Bobrynets:Kirovohrad Oblast
+Ukraine:Nemyriv:Vinnytsia Oblast
+Ukraine:Kobeliaky:Poltava Oblast
+Ukraine:Rodynske:Donetsk Oblast
+Ukraine:Chyhyryn:Cherkasy Oblast
+Ukraine:Bobrovytsia:Chernihiv Oblast
+Ukraine:Sosnivka:Lviv Oblast
+Ukraine:Zhydachiv:Lviv Oblast
+Ukraine:Yampil:Vinnytsia Oblast
+Ukraine:Mospyne:Donetsk Oblast
+Ukraine:Borzna:Chernihiv Oblast
+Ukraine:Shcholkine:Crimea
+Ukraine:Buryn:Sumy Oblast
+Ukraine:Kamianka-Buzka:Lviv Oblast
+Ukraine:Hrebinka:Poltava Oblast
+Ukraine:Khrystynivka:Cherkasy Oblast
+Ukraine:Hirske:Luhansk Oblast
+Ukraine:Tavriysk:Kherson Oblast
+Ukraine:Borschiv:Ternopil Oblast
+Ukraine:Zymohiria:Luhansk Oblast
+Ukraine:Khotyn:Chernivtsi Oblast
+Ukraine:Illintsi:Vinnytsia Oblast
+Ukraine:Pomichna:Kirovohrad Oblast
+Ukraine:Olevsk:Zhytomyr Oblast
+Ukraine:Kamin-Kashyrskyi:Volyn Oblast
+Ukraine:Tatarbunary:Odesa Oblast
+Ukraine:Pohrebysche:Vinnytsia Oblast
+Ukraine:Maryinka:Donetsk Oblast
+Ukraine:Bolekhiv:Ivano-Frankivsk Oblast
+Ukraine:Inkerman:Sevastopol
+Ukraine:Zinkiv:Poltava Oblast
+Ukraine:Khodoriv:Lviv Oblast
+Ukraine:Sniatyn:Ivano-Frankivsk Oblast
+Ukraine:Derazhnia:Khmelnytskyi Oblast
+Ukraine:Liuboml:Volyn Oblast
+Ukraine:Valky:Kharkiv Oblast
+Ukraine:Novodnistrovsk:Chernivtsi Oblast
+Ukraine:Radyvyliv:Rivne Oblast
+Ukraine:Vuhlehirsk:Donetsk Oblast
+Ukraine:Sokyriany:Chernivtsi Oblast
+Ukraine:Verkhivtseve:Dnipropetrovsk Oblast
+Ukraine:Zalischyky:Ternopil Oblast
+Ukraine:Staryi Krym:Crimea
+Ukraine:Bilytske:Donetsk Oblast
+Ukraine:Pereschepyne:Dnipropetrovsk Oblast
+Ukraine:Andrushivka:Zhytomyr Oblast
+Ukraine:Pustomyty:Lviv Oblast
+Ukraine:Horodenka:Ivano-Frankivsk Oblast
+Ukraine:Tysmenytsia:Ivano-Frankivsk Oblast
+Ukraine:Tiachiv:Zakarpattia Oblast
+Ukraine:Semenivka:Chernihiv Oblast
+Ukraine:Dubrovytsia:Rivne Oblast
+Ukraine:Kodyma:Odesa Oblast
+Ukraine:Irshava:Zakarpattia Oblast
+Ukraine:Berezivka:Odesa Oblast
+Ukraine:Ananiv:Odesa Oblast
+Ukraine:Monastyrysche:Cherkasy Oblast
+Ukraine:Lypovets:Vinnytsia Oblast
+Ukraine:Vylkove:Odesa Oblast
+Ukraine:Radekhiv:Lviv Oblast
+Ukraine:Mostyska:Lviv Oblast
+Ukraine:Artemivsk:Luhansk Oblast
+Ukraine:Novodruzhesk:Luhansk Oblast
+Ukraine:Zavodske:Poltava Oblast
+Ukraine:Alupka:Crimea
+Ukraine:Horokhiv:Volyn Oblast
+Ukraine:Pryvillia:Luhansk Oblast
+Ukraine:Chop:Zakarpattia Oblast
+Ukraine:Zastavna:Chernivtsi Oblast
+Ukraine:Zorynsk:Luhansk Oblast
+Ukraine:Tlumach:Ivano-Frankivsk Oblast
+Ukraine:Teplodar:Odesa Oblast
+Ukraine:Lanivtsi:Ternopil Oblast
+Ukraine:Busk:Lviv Oblast
+Ukraine:Korets:Rivne Oblast
+Ukraine:Rohatyn:Ivano-Frankivsk Oblast
+Ukraine:Pivdenne:Kharkiv Oblast
+Ukraine:Dubliany:Lviv Oblast
+Ukraine:Rzhyschiv:Kyiv Oblast
+Ukraine:Novoselytsia:Chernivtsi Oblast
+Ukraine:Vorozhba:Sumy Oblast
+Ukraine:Kosiv:Ivano-Frankivsk Oblast
+Ukraine:Pochaiv:Ternopil Oblast
+Ukraine:Rava-Ruska:Lviv Oblast
+Ukraine:Molochansk:Zaporizhzhia Oblast
+Ukraine:Yaremcha:Ivano-Frankivsk Oblast
+Ukraine:Turka:Lviv Oblast
+Ukraine:Kitsman:Chernivtsi Oblast
+Ukraine:Peremyshliany:Lviv Oblast
+Ukraine:Blahovishchenske:Kirovohrad Oblast
+Ukraine:Seredyna-Buda:Sumy Oblast
+Ukraine:Zboriv:Ternopil Oblast
+Ukraine:Khorostkiv:Ternopil Oblast
+Ukraine:Oster:Chernihiv Oblast
+Ukraine:Sharhorod:Vinnytsia Oblast
+Ukraine:Perechyn:Zakarpattia Oblast
+Ukraine:Oleksandrivsk:Luhansk Oblast
+Ukraine:Kopychyntsi:Ternopil Oblast
+Ukraine:Skole:Lviv Oblast
+Ukraine:Artemove:Donetsk Oblast
+Ukraine:Sudova Vyshnia:Lviv Oblast
+Ukraine:Halych:Ivano-Frankivsk Oblast
+Ukraine:Morshyn:Lviv Oblast
+Ukraine:Monastyryska:Ternopil Oblast
+Ukraine:Miusynsk:Luhansk Oblast
+Ukraine:Vashkivtsi:Chernivtsi Oblast
+Ukraine:Velyki Mosty:Lviv Oblast
+Ukraine:Druzhba:Sumy Oblast
+Ukraine:Staryi Sambir:Lviv Oblast
+Ukraine:Broshniv-Osada:Ivano-Frankivsk Oblast
+Ukraine:Shumsk:Ternopil Oblast
+Ukraine:Sviatohirsk:Donetsk Oblast
+Ukraine:Almazna:Luhansk Oblast
+Ukraine:Svarychiv:Ivano-Frankivsk Oblast
+Ukraine:Vyzhnytsia:Chernivtsi Oblast
+Ukraine:Maydanets:Cherkasy Oblast
+Ukraine:Dobromyl:Lviv Oblast
+Ukraine:Rudky:Lviv Oblast
+Ukraine:Khyriv:Lviv Oblast
+Ukraine:Skalat:Ternopil Oblast
+Ukraine:Komarno:Lviv Oblast
+Ukraine:Bibrka:Lviv Oblast
+Ukraine:Novyi Kalyniv:Lviv Oblast
+Ukraine:Hlyniany:Lviv Oblast
+Ukraine:Pidhaitsi:Ternopil Oblast
+Ukraine:Baturyn:Chernihiv Oblast
+Ukraine:Belz:Lviv Oblast
+Ukraine:Ustyluh:Volyn Oblast
+Ukraine:Hertsa:Chernivtsi Oblast
+Ukraine:Berestechko:Volyn Oblast
+Ukraine:Chornobyl:Kyiv Oblast
+Ukraine:Uhniv:Lviv Oblast
+Ukraine:Prypiat:Kyiv Oblast
+UnitedKingdom:Aberdeen
+UnitedKingdom:Armagh
+UnitedKingdom:Bangor
+UnitedKingdom:Bath
+UnitedKingdom:Belfast
+UnitedKingdom:Birmingham
+UnitedKingdom:Bradford
+UnitedKingdom:Brighton & Hove
+UnitedKingdom:Bristol
+UnitedKingdom:Cambridge
+UnitedKingdom:Canterbury
+UnitedKingdom:Cardiff
+UnitedKingdom:Carlisle
+UnitedKingdom:Chelmsford
+UnitedKingdom:Chester
+UnitedKingdom:Chichester
+UnitedKingdom:Coventry
+UnitedKingdom:Derby
+UnitedKingdom:Derry
+UnitedKingdom:Dundee
+UnitedKingdom:Durham
+UnitedKingdom:Edinburgh
+UnitedKingdom:Ely
+UnitedKingdom:Exeter
+UnitedKingdom:Glasgow
+UnitedKingdom:Gloucester
+UnitedKingdom:Hereford
+UnitedKingdom:Inverness
+UnitedKingdom:Kingston upon Hull
+UnitedKingdom:Lancaster
+UnitedKingdom:Leeds
+UnitedKingdom:Leicester
+UnitedKingdom:Lichfield
+UnitedKingdom:Lincoln
+UnitedKingdom:Lisburn
+UnitedKingdom:Liverpool
+UnitedKingdom:City of London
+UnitedKingdom:Manchester
+UnitedKingdom:Newcastle upon Tyne
+UnitedKingdom:Newport
+UnitedKingdom:Newry
+UnitedKingdom:Norwich
+UnitedKingdom:Nottingham
+UnitedKingdom:Oxford
+UnitedKingdom:Perth
+UnitedKingdom:Peterborough
+UnitedKingdom:Plymouth
+UnitedKingdom:Portsmouth
+UnitedKingdom:Preston
+UnitedKingdom:Ripon
+UnitedKingdom:St Albans
+UnitedKingdom:St Asaph
+UnitedKingdom:St Davids
+UnitedKingdom:Salford
+UnitedKingdom:Salisbury
+UnitedKingdom:Sheffield
+UnitedKingdom:Southampton
+UnitedKingdom:Stirling
+UnitedKingdom:Stoke-on-Trent
+UnitedKingdom:Sunderland
+UnitedKingdom:Swansea
+UnitedKingdom:Truro
+UnitedKingdom:Wakefield
+UnitedKingdom:Wells
+UnitedKingdom:Westminster
+UnitedKingdom:Winchester
+UnitedKingdom:Wolverhampton
+UnitedKingdom:Worcester
+UnitedKingdom:York
+Germany:Aach:Baden-Württemberg
+Germany:Aachen:North Rhine-Westphalia
+Germany:Aalen:Baden-Württemberg
+Germany:Abenberg:Bavaria
+Germany:Abensberg:Bavaria
+Germany:Achern:Baden-Württemberg
+Germany:Achim:Lower Saxony
+Germany:Adelsheim:Baden-Württemberg
+Germany:Adenau:Rhineland-Palatinate
+Germany:Adorf:Saxony
+Germany:Ahaus:North Rhine-Westphalia
+Germany:Ahlen:North Rhine-Westphalia
+Germany:Ahrensburg:Schleswig-Holstein
+Germany:Aichach:Bavaria
+Germany:Aichtal:Baden-Württemberg
+Germany:Albstadt:Baden-Württemberg
+Germany:Alfeld:Lower Saxony
+Germany:Allstedt:Saxony-Anhalt
+Germany:Alpirsbach:Baden-Württemberg
+Germany:Alsdorf:North Rhine-Westphalia
+Germany:Alsfeld:Hesse
+Germany:Altena:North Rhine-Westphalia
+Germany:Altenberg:Saxony
+Germany:Altenburg:Thuringia
+Germany:Altenkirchen:Rhineland-Palatinate
+Germany:Altensteig:Baden-Württemberg
+Germany:Altentreptow:Mecklenburg-Western Pomerania
+Germany:Altlandsberg:Brandenburg
+Germany:Altötting:Bavaria
+Germany:Alzenau:Bavaria
+Germany:Alzey:Rhineland-Palatinate
+Germany:Amberg:Bavaria
+Germany:Amöneburg:Hesse
+Germany:Amorbach:Bavaria
+Germany:Andernach:Rhineland-Palatinate
+Germany:Angermünde:Brandenburg
+Germany:Anklam:Mecklenburg-Western Pomerania
+Germany:Annaberg-Buchholz:Annaberg-Saxony
+Germany:Annaburg:Saxony-Anhalt
+Germany:Ansbach:Bavaria
+Germany:Apolda:Thuringia
+Germany:Arendsee:Saxony-Anhalt
+Germany:Arneburg:Saxony-Anhalt
+Germany:Arnis:Schleswig-Holstein
+Germany:Arnsberg:North Rhine-Westphalia
+Germany:Arnstadt:Thuringia
+Germany:Arnstein:Bavaria
+Germany:Arnstein:Saxony-Anhalt
+Germany:Artern:Thuringia
+Germany:Arzberg:Bavaria
+Germany:Aschaffenburg:Bavaria
+Germany:Aschersleben:Saxony-Anhalt
+Germany:Asperg:Baden-Württemberg
+Germany:Aßlar:Hesse
+Germany:Attendorn:North Rhine-Westphalia
+Germany:Aub:Bavaria
+Germany:Augsburg:Bavaria
+Germany:Augustusburg:Saxony
+Germany:Aulendorf:Baden-Württemberg
+Germany:Auma-Weidatal:Auma-Thuringia
+Germany:Aurich:Lower Saxony
+Germany:Babenhausen:Hesse
+Germany:Bacharach:Rhineland-Palatinate
+Germany:Backnang:Baden-Württemberg
+Germany:Baden-Baden:Baden-Baden-Württemberg
+Germany:Baesweiler:North Rhine-Westphalia
+Germany:Baiersdorf:Bavaria
+Germany:Balingen:Baden-Württemberg
+Germany:Ballenstedt:Saxony-Anhalt
+Germany:Balve:North Rhine-Westphalia
+Germany:Bamberg:Bavaria
+Germany:Bargteheide:Schleswig-Holstein
+Germany:Barmstedt:Schleswig-Holstein
+Germany:Bärnau:Bavaria
+Germany:Barntrup:North Rhine-Westphalia
+Germany:Barsinghausen:Lower Saxony
+Germany:Barth:Mecklenburg-Western Pomerania
+Germany:Baruth/Mark:Baruth/Brandenburg
+Germany:Bassum:Lower Saxony
+Germany:Battenberg:Hesse
+Germany:Baumholder:Rhineland-Palatinate
+Germany:Baunach:Bavaria
+Germany:Baunatal:Hesse
+Germany:Bautzen:Saxony
+Germany:Bayreuth:Bavaria
+Germany:Bebra:Hesse
+Germany:Beckum:North Rhine-Westphalia
+Germany:Bedburg:North Rhine-Westphalia
+Germany:Beelitz:Brandenburg
+Germany:Beeskow:Brandenburg
+Germany:Beilngries:Bavaria
+Germany:Beilstein:Baden-Württemberg
+Germany:Belgern-Schildau:Belgern-Saxony
+Germany:Bendorf:Rhineland-Palatinate
+Germany:Bensheim:Hesse
+Germany:Berching:Bavaria
+Germany:Berga/Elster:Berga/Thuringia
+Germany:Bergen:Lower Saxony
+Germany:Bergheim:North Rhine-Westphalia
+Germany:Bergkamen:North Rhine-Westphalia
+Germany:Bergneustadt:North Rhine-Westphalia
+Germany:Berlin:Berlin
+Germany:Bernburg:Saxony-Anhalt
+Germany:Bernkastel-Kues:Bernkastel-Rhineland-Palatinate
+Germany:Bernsdorf:Saxony
+Germany:Bersenbrück:Lower Saxony
+Germany:Besigheim:Baden-Württemberg
+Germany:Betzdorf:Rhineland-Palatinate
+Germany:Betzenstein:Bavaria
+Germany:Beverungen:North Rhine-Westphalia
+Germany:Bexbach:Saarland
+Germany:Biedenkopf:Hesse
+Germany:Bielefeld:North Rhine-Westphalia
+Germany:Biesenthal:Brandenburg
+Germany:Bietigheim-Bissingen:Bietigheim-Baden-Württemberg
+Germany:Billerbeck:North Rhine-Westphalia
+Germany:Birkenfeld:Rhineland-Palatinate
+Germany:Bischofswerda:Saxony
+Germany:Bitburg:Rhineland-Palatinate
+Germany:Bitterfeld-Wolfen:Bitterfeld-Saxony-Anhalt
+Germany:Blankenhain:Thuringia
+Germany:Blaubeuren:Baden-Württemberg
+Germany:Blaustein:Baden-Württemberg
+Germany:Bleckede:Lower Saxony
+Germany:Bleicherode:Thuringia
+Germany:Blieskastel:Saarland
+Germany:Blomberg:North Rhine-Westphalia
+Germany:Blumberg:Baden-Württemberg
+Germany:Bobingen:Bavaria
+Germany:Böblingen:Baden-Württemberg
+Germany:Bocholt:North Rhine-Westphalia
+Germany:Bochum:North Rhine-Westphalia
+Germany:Bockenem:Lower Saxony
+Germany:Bodenwerder:Lower Saxony
+Germany:Bogen:Bavaria
+Germany:Böhlen:Saxony
+Germany:Boizenburg:Mecklenburg-Western Pomerania
+Germany:Bonn:North Rhine-Westphalia
+Germany:Bönnigheim:Baden-Württemberg
+Germany:Bopfingen:Baden-Württemberg
+Germany:Boppard:Rhineland-Palatinate
+Germany:Borgentreich:North Rhine-Westphalia
+Germany:Borgholzhausen:North Rhine-Westphalia
+Germany:Borken:North Rhine-Westphalia
+Germany:Borkum:Lower Saxony
+Germany:Borna:Saxony
+Germany:Bornheim:North Rhine-Westphalia
+Germany:Bottrop:North Rhine-Westphalia
+Germany:Boxberg:Baden-Württemberg
+Germany:Brackenheim:Baden-Württemberg
+Germany:Brakel:North Rhine-Westphalia
+Germany:Bramsche:Lower Saxony
+Germany:Brand-Erbisdorf:Brand-Saxony
+Germany:Brandis:Saxony
+Germany:Braubach:Rhineland-Palatinate
+Germany:Braunfels:Hesse
+Germany:Braunlage:Lower Saxony
+Germany:Bräunlingen:Baden-Württemberg
+Germany:Braunsbedra:Saxony-Anhalt
+Germany:Braunschweig:Lower Saxony
+Germany:Breckerfeld:North Rhine-Westphalia
+Germany:Bredstedt:Schleswig-Holstein
+Germany:Breisach:Baden-Württemberg
+Germany:Bremen:Bremen
+Germany:Bremerhaven:Bremen
+Germany:Bremervörde:Lower Saxony
+Germany:Bretten:Baden-Württemberg
+Germany:Breuberg:Hesse
+Germany:Brilon:North Rhine-Westphalia
+Germany:Brotterode-Trusetal:Brotterode-Thuringia
+Germany:Bruchköbel:Hesse
+Germany:Bruchsal:Baden-Württemberg
+Germany:Brück:Brandenburg
+Germany:Brüel:Mecklenburg-Western Pomerania
+Germany:Brühl:North Rhine-Westphalia
+Germany:Brunsbüttel:Schleswig-Holstein
+Germany:Brüssow:Brandenburg
+Germany:Buchloe:Bavaria
+Germany:Bückeburg:Lower Saxony
+Germany:Buckow:Brandenburg
+Germany:Büdelsdorf:Schleswig-Holstein
+Germany:Büdingen:Hesse
+Germany:Bühl:Baden-Württemberg
+Germany:Bünde:North Rhine-Westphalia
+Germany:Büren:North Rhine-Westphalia
+Germany:Burg:Saxony-Anhalt
+Germany:Burgau:Bavaria
+Germany:Burgbernheim:Bavaria
+Germany:Burgdorf:Lower Saxony
+Germany:Bürgel:Thuringia
+Germany:Burghausen:Bavaria
+Germany:Burgkunstadt:Bavaria
+Germany:Burglengenfeld:Bavaria
+Germany:Burgstädt:Saxony
+Germany:Burgwedel:Lower Saxony
+Germany:Burladingen:Baden-Württemberg
+Germany:Burscheid:North Rhine-Westphalia
+Germany:Bürstadt:Hesse
+Germany:Butzbach:Hesse
+Germany:Bützow:Mecklenburg-Western Pomerania
+Germany:Buxtehude:Lower Saxony
+Germany:Calau:Brandenburg
+Germany:Calw:Baden-Württemberg
+Germany:Castrop-Rauxel:Castrop-North Rhine-Westphalia
+Germany:Celle:Lower Saxony
+Germany:Cham:Bavaria
+Germany:Chemnitz:Saxony
+Germany:Clausthal-Zellerfeld:Clausthal-Lower Saxony
+Germany:Clingen:Thuringia
+Germany:Cloppenburg:Lower Saxony
+Germany:Coburg:Bavaria
+Germany:Cochem:Rhineland-Palatinate
+Germany:Coesfeld:North Rhine-Westphalia
+Germany:Colditz:Saxony
+Germany:Cologne:North Rhine-Westphalia
+Germany:Coswig:Saxony
+Germany:Cottbus:Brandenburg
+Germany:Crailsheim:Baden-Württemberg
+Germany:Creglingen:Baden-Württemberg
+Germany:Creußen:Bavaria
+Germany:Crimmitschau:Saxony
+Germany:Crivitz:Mecklenburg-Western Pomerania
+Germany:Cuxhaven:Lower Saxony
+Germany:Daaden:Rhineland-Palatinate
+Germany:Dachau:Bavaria
+Germany:Dahlen:Saxony
+Germany:Dahme/Mark:Dahme/Brandenburg
+Germany:Dahn:Rhineland-Palatinate
+Germany:Damme:Lower Saxony
+Germany:Dargun:Mecklenburg-Western Pomerania
+Germany:Darmstadt:Hesse
+Germany:Dassel:Lower Saxony
+Germany:Dassow:Mecklenburg-Western Pomerania
+Germany:Datteln:North Rhine-Westphalia
+Germany:Daun:Rhineland-Palatinate
+Germany:Deggendorf:Bavaria
+Germany:Deidesheim:Rhineland-Palatinate
+Germany:Delbrück:North Rhine-Westphalia
+Germany:Delitzsch:Saxony
+Germany:Delmenhorst:Lower Saxony
+Germany:Demmin:Mecklenburg-Western Pomerania
+Germany:Dessau-Roßlau:Dessau-Saxony-Anhalt
+Germany:Detmold:North Rhine-Westphalia
+Germany:Dettelbach:Bavaria
+Germany:Dieburg:Hesse
+Germany:Diemelstadt:Hesse
+Germany:Diepholz:Lower Saxony
+Germany:Dierdorf:Rhineland-Palatinate
+Germany:Dietenheim:Baden-Württemberg
+Germany:Dietzenbach:Hesse
+Germany:Diez:Rhineland-Palatinate
+Germany:Dillenburg:Hesse
+Germany:Dillingen/Saar:Dillingen/Saarland
+Germany:Dingelstädt:Thuringia
+Germany:Dingolfing:Bavaria
+Germany:Dinkelsbühl:Bavaria
+Germany:Dinklage:Lower Saxony
+Germany:Dinslaken:North Rhine-Westphalia
+Germany:Dippoldiswalde:Saxony
+Germany:Ditzingen:Baden-Württemberg
+Germany:Döbeln:Saxony
+Germany:Doberlug-Kirchhain:Doberlug-Brandenburg
+Germany:Döbern:Brandenburg
+Germany:Dohna:Saxony
+Germany:Dömitz:Mecklenburg-Western Pomerania
+Germany:Dommitzsch:Saxony
+Germany:Donaueschingen:Baden-Württemberg
+Germany:Donauwörth:Bavaria
+Germany:Donzdorf:Baden-Württemberg
+Germany:Dorfen:Bavaria
+Germany:Dormagen:North Rhine-Westphalia
+Germany:Dornburg-Camburg:Dornburg-Thuringia
+Germany:Dornhan:Baden-Württemberg
+Germany:Dornstetten:Baden-Württemberg
+Germany:Dorsten:North Rhine-Westphalia
+Germany:Dortmund:North Rhine-Westphalia
+Germany:Dransfeld:Lower Saxony
+Germany:Drebkau:Brandenburg
+Germany:Dreieich:Hesse
+Germany:Drensteinfurt:North Rhine-Westphalia
+Germany:Dresden:Saxony
+Germany:Drolshagen:North Rhine-Westphalia
+Germany:Duderstadt:Lower Saxony
+Germany:Duisburg:North Rhine-Westphalia
+Germany:Dülmen:North Rhine-Westphalia
+Germany:Düren:North Rhine-Westphalia
+Germany:Düsseldorf:North Rhine-Westphalia
+Germany:Ebeleben:Thuringia
+Germany:Eberbach:Baden-Württemberg
+Germany:Ebermannstadt:Bavaria
+Germany:Ebern:Bavaria
+Germany:Ebersbach-Neugersdorf:Ebersbach-Saxony
+Germany:Ebersberg:Bavaria
+Germany:Eberswalde:Brandenburg
+Germany:Eckartsberga:Saxony-Anhalt
+Germany:Eckernförde:Schleswig-Holstein
+Germany:Edenkoben:Rhineland-Palatinate
+Germany:Egeln:Saxony-Anhalt
+Germany:Eggenfelden:Bavaria
+Germany:Eggesin:Mecklenburg-Western Pomerania
+Germany:Ehrenfriedersdorf:Saxony
+Germany:Eibelstadt:Bavaria
+Germany:Eibenstock:Saxony
+Germany:Eichstätt:Bavaria
+Germany:Eilenburg:Saxony
+Germany:Einbeck:Lower Saxony
+Germany:Eisenach:Thuringia
+Germany:Eisenberg:Thuringia
+Germany:Eisenhüttenstadt:Brandenburg
+Germany:Eisfeld:Thuringia
+Germany:Eisleben:Saxony-Anhalt
+Germany:Eislingen/Fils:Eislingen/Baden-Württemberg
+Germany:Ellingen:Bavaria
+Germany:Ellrich:Thuringia
+Germany:Ellwangen:Baden-Württemberg
+Germany:Elmshorn:Schleswig-Holstein
+Germany:Elsdorf:North Rhine-Westphalia
+Germany:Elsfleth:Lower Saxony
+Germany:Elsterberg:Saxony
+Germany:Elsterwerda:Brandenburg
+Germany:Elstra:Saxony
+Germany:Elterlein:Saxony
+Germany:Eltmann:Bavaria
+Germany:Elzach:Baden-Württemberg
+Germany:Elze:Lower Saxony
+Germany:Emden:Lower Saxony
+Germany:Emmelshausen:Rhineland-Palatinate
+Germany:Emmendingen:Baden-Württemberg
+Germany:Emsdetten:North Rhine-Westphalia
+Germany:Endingen:Baden-Württemberg
+Germany:Engen:Baden-Württemberg
+Germany:Enger:North Rhine-Westphalia
+Germany:Ennepetal:North Rhine-Westphalia
+Germany:Ennigerloh:North Rhine-Westphalia
+Germany:Eppelheim:Baden-Württemberg
+Germany:Eppingen:Baden-Württemberg
+Germany:Eppstein:Hesse
+Germany:Erbach:Hesse
+Germany:Erbendorf:Bavaria
+Germany:Erding:Bavaria
+Germany:Erftstadt:North Rhine-Westphalia
+Germany:Erfurt:Thuringia
+Germany:Erkelenz:North Rhine-Westphalia
+Germany:Erkner:Brandenburg
+Germany:Erkrath:North Rhine-Westphalia
+Germany:Erlangen:Bavaria
+Germany:Erlensee:Hesse
+Germany:Erwitte:North Rhine-Westphalia
+Germany:Eschborn:Hesse
+Germany:Eschershausen:Lower Saxony
+Germany:Eschwege:Hesse
+Germany:Eschweiler:North Rhine-Westphalia
+Germany:Esens:Lower Saxony
+Germany:Espelkamp:North Rhine-Westphalia
+Germany:Essen:North Rhine-Westphalia
+Germany:Ettenheim:Baden-Württemberg
+Germany:Ettlingen:Baden-Württemberg
+Germany:Euskirchen:North Rhine-Westphalia
+Germany:Eutin:Schleswig-Holstein
+Germany:Falkenberg/Elster:Falkenberg/Brandenburg
+Germany:Falkensee:Brandenburg
+Germany:Falkenstein/Harz:Falkenstein/Saxony-Anhalt
+Germany:Falkenstein/Vogtl.:Falkenstein/Vogtl. (Saxony)
+Germany:Fehmarn:Schleswig-Holstein
+Germany:Fellbach:Baden-Württemberg
+Germany:Felsberg:Hesse
+Germany:Feuchtwangen:Bavaria
+Germany:Filderstadt:Baden-Württemberg
+Germany:Finsterwalde:Brandenburg
+Germany:Fladungen:Bavaria
+Germany:Flensburg:Schleswig-Holstein
+Germany:Flöha:Saxony
+Germany:Florstadt:Hesse
+Germany:Forchheim:Bavaria
+Germany:Forchtenberg:Baden-Württemberg
+Germany:Frankenau:Hesse
+Germany:Frankenberg/Sa.:Frankenberg/Sa. (Saxony)
+Germany:Franzburg:Mecklenburg-Western Pomerania
+Germany:Frauenstein:Saxony
+Germany:Frechen:North Rhine-Westphalia
+Germany:Freiberg:Saxony
+Germany:Freilassing:Bavaria
+Germany:Freinsheim:Rhineland-Palatinate
+Germany:Freising:Bavaria
+Germany:Freital:Saxony
+Germany:Freren:Lower Saxony
+Germany:Freudenberg:Baden-Württemberg
+Germany:Freudenberg:North Rhine-Westphalia
+Germany:Freudenstadt:Baden-Württemberg
+Germany:Freystadt:Bavaria
+Germany:Freyung:Bavaria
+Germany:Friedberg:Bavaria
+Germany:Friedberg:Hesse
+Germany:Friedland:Mecklenburg-Western Pomerania
+Germany:Friedland:Brandenburg
+Germany:Friedrichroda:Thuringia
+Germany:Friedrichsdorf:Hesse
+Germany:Friedrichshafen:Baden-Württemberg
+Germany:Friedrichstadt:Schleswig-Holstein
+Germany:Friedrichsthal:Saarland
+Germany:Friesack:Brandenburg
+Germany:Friesoythe:Lower Saxony
+Germany:Fritzlar:Hesse
+Germany:Frohburg:Saxony
+Germany:Fröndenberg:North Rhine-Westphalia
+Germany:Fulda:Hesse
+Germany:Fürstenau:Lower Saxony
+Germany:Fürstenberg/Havel:Fürstenberg/Brandenburg
+Germany:Fürstenfeldbruck:Bavaria
+Germany:Fürstenwalde:Brandenburg
+Germany:Fürth:Bavaria
+Germany:Füssen:Bavaria
+Germany:Gadebusch:Mecklenburg-Western Pomerania
+Germany:Gaggenau:Baden-Württemberg
+Germany:Gaildorf:Baden-Württemberg
+Germany:Gammertingen:Baden-Württemberg
+Germany:Garbsen:Lower Saxony
+Germany:Gardelegen:Saxony-Anhalt
+Germany:Garding:Schleswig-Holstein
+Germany:Gartz:Brandenburg
+Germany:Garz/Rügen:Garz/Mecklenburg-Western Pomerania
+Germany:Gau-Algesheim:Gau-Rhineland-Palatinate
+Germany:Gebesee:Thuringia
+Germany:Gedern:Hesse
+Germany:Geesthacht:Schleswig-Holstein
+Germany:Geestland:Lower Saxony
+Germany:Gefell:Thuringia
+Germany:Gefrees:Bavaria
+Germany:Gehrden:Lower Saxony
+Germany:Geilenkirchen:North Rhine-Westphalia
+Germany:Geisa:Thuringia
+Germany:Geiselhöring:Bavaria
+Germany:Geisenfeld:Bavaria
+Germany:Geisenheim:Hesse
+Germany:Geisingen:Baden-Württemberg
+Germany:Geithain:Saxony
+Germany:Geldern:North Rhine-Westphalia
+Germany:Gelnhausen:Hesse
+Germany:Gelsenkirchen:North Rhine-Westphalia
+Germany:Gengenbach:Baden-Württemberg
+Germany:Genthin:Saxony-Anhalt
+Germany:Georgsmarienhütte:Lower Saxony
+Germany:Gera:Thuringia
+Germany:Gerabronn:Baden-Württemberg
+Germany:Gerbstedt:Saxony-Anhalt
+Germany:Geretsried:Bavaria
+Germany:Geringswalde:Saxony
+Germany:Gerlingen:Baden-Württemberg
+Germany:Germering:Bavaria
+Germany:Germersheim:Rhineland-Palatinate
+Germany:Gernsbach:Baden-Württemberg
+Germany:Gernsheim:Hesse
+Germany:Gerolstein:Rhineland-Palatinate
+Germany:Gerolzhofen:Bavaria
+Germany:Gersthofen:Bavaria
+Germany:Gescher:North Rhine-Westphalia
+Germany:Geseke:North Rhine-Westphalia
+Germany:Gevelsberg:North Rhine-Westphalia
+Germany:Geyer:Saxony
+Germany:Giessen:Hesse
+Germany:Gifhorn:Lower Saxony
+Germany:Ginsheim-Gustavsburg:Ginsheim-Hesse
+Germany:Gladbeck:North Rhine-Westphalia
+Germany:Gladenbach:Hesse
+Germany:Glashütte:Saxony
+Germany:Glauchau:Saxony
+Germany:Glinde:Schleswig-Holstein
+Germany:Glücksburg:Schleswig-Holstein
+Germany:Glückstadt:Schleswig-Holstein
+Germany:Gnoien:Mecklenburg-Western Pomerania
+Germany:Goch:North Rhine-Westphalia
+Germany:Goldberg:Mecklenburg-Western Pomerania
+Germany:Goldkronach:Bavaria
+Germany:Golßen:Brandenburg
+Germany:Gommern:Saxony-Anhalt
+Germany:Göppingen:Baden-Württemberg
+Germany:Görlitz:Saxony
+Germany:Goslar:Lower Saxony
+Germany:Gößnitz:Thuringia
+Germany:Gotha:Thuringia
+Germany:Göttingen:Lower Saxony
+Germany:Grabow:Mecklenburg-Western Pomerania
+Germany:Grafenau:Bavaria
+Germany:Gräfenberg:Bavaria
+Germany:Gräfenhainichen:Saxony-Anhalt
+Germany:Gräfenthal:Thuringia
+Germany:Grafenwöhr:Bavaria
+Germany:Gransee:Brandenburg
+Germany:Grebenau:Hesse
+Germany:Grebenstein:Hesse
+Germany:Greding:Bavaria
+Germany:Greifswald:Mecklenburg-Western Pomerania
+Germany:Greiz:Thuringia
+Germany:Greußen:Thuringia
+Germany:Greven:North Rhine-Westphalia
+Germany:Grevenbroich:North Rhine-Westphalia
+Germany:Grevesmühlen:Mecklenburg-Western Pomerania
+Germany:Griesheim:Hesse
+Germany:Grimma:Saxony
+Germany:Grimmen:Mecklenburg-Western Pomerania
+Germany:Gröditz:Saxony
+Germany:Groitzsch:Saxony
+Germany:Gröningen:Saxony-Anhalt
+Germany:Großalmerode:Hesse
+Germany:Groß-Bieberau:Groß-Hesse
+Germany:Großbottwar:Baden-Württemberg
+Germany:Großbreitenbach:Thuringia
+Germany:Großenhain:Saxony
+Germany:Groß-Gerau:Groß-Hesse
+Germany:Großräschen:Brandenburg
+Germany:Großröhrsdorf:Saxony
+Germany:Großschirma:Saxony
+Germany:Groß-Umstadt:Groß-Hesse
+Germany:Grünberg:Hesse
+Germany:Grünhain-Beierfeld:Grünhain-Saxony
+Germany:Grünsfeld:Baden-Württemberg
+Germany:Grünstadt:Rhineland-Palatinate
+Germany:Guben:Brandenburg
+Germany:Gudensberg:Hesse
+Germany:Güglingen:Baden-Württemberg
+Germany:Gummersbach:North Rhine-Westphalia
+Germany:Gundelsheim:Baden-Württemberg
+Germany:Günzburg:Bavaria
+Germany:Gunzenhausen:Bavaria
+Germany:Güsten:Saxony-Anhalt
+Germany:Güstrow:Mecklenburg-Western Pomerania
+Germany:Gütersloh:North Rhine-Westphalia
+Germany:Gützkow:Mecklenburg-Western Pomerania
+Germany:Haan:North Rhine-Westphalia
+Germany:Hachenburg:Rhineland-Palatinate
+Germany:Hadamar:Hesse
+Germany:Hagen:North Rhine-Westphalia
+Germany:Hagenbach:Rhineland-Palatinate
+Germany:Hagenow:Mecklenburg-Western Pomerania
+Germany:Haiger:Hesse
+Germany:Haigerloch:Baden-Württemberg
+Germany:Hainichen:Saxony
+Germany:Haiterbach:Baden-Württemberg
+Germany:Halberstadt:Saxony-Anhalt
+Germany:Haldensleben:Saxony-Anhalt
+Germany:Halle:North Rhine-Westphalia
+Germany:Hallenberg:North Rhine-Westphalia
+Germany:Hallstadt:Bavaria
+Germany:Halver:North Rhine-Westphalia
+Germany:Hamburg:Hamburg
+Germany:Hameln:Lower Saxony
+Germany:Hamm:North Rhine-Westphalia
+Germany:Hammelburg:Bavaria
+Germany:Hamminkeln:North Rhine-Westphalia
+Germany:Hanau:Hesse
+Germany:Hanover:Lower Saxony
+Germany:Harburg:Bavaria
+Germany:Hardegsen:Lower Saxony
+Germany:Harsewinkel:North Rhine-Westphalia
+Germany:Hartenstein:Saxony
+Germany:Hartha:Saxony
+Germany:Harzgerode:Saxony-Anhalt
+Germany:Haselünne:Lower Saxony
+Germany:Haßfurt:Bavaria
+Germany:Hattingen:North Rhine-Westphalia
+Germany:Hausach:Baden-Württemberg
+Germany:Hauzenberg:Bavaria
+Germany:Havelberg:Saxony-Anhalt
+Germany:Havelsee:Brandenburg
+Germany:Hayingen:Baden-Württemberg
+Germany:Hechingen:Baden-Württemberg
+Germany:Hecklingen:Saxony-Anhalt
+Germany:Heide:Schleswig-Holstein
+Germany:Heideck:Bavaria
+Germany:Heidelberg:Baden-Württemberg
+Germany:Heidenau:Saxony
+Germany:Heilbronn:Baden-Württemberg
+Germany:Heiligenhafen:Schleswig-Holstein
+Germany:Heiligenhaus:North Rhine-Westphalia
+Germany:Heilsbronn:Bavaria
+Germany:Heimbach:North Rhine-Westphalia
+Germany:Heimsheim:Baden-Württemberg
+Germany:Heinsberg:North Rhine-Westphalia
+Germany:Heitersheim:Baden-Württemberg
+Germany:Heldburg:Thuringia
+Germany:Helmbrechts:Bavaria
+Germany:Helmstedt:Lower Saxony
+Germany:Hemau:Bavaria
+Germany:Hemer:North Rhine-Westphalia
+Germany:Hemmingen:Lower Saxony
+Germany:Hemmoor:Lower Saxony
+Germany:Hemsbach:Baden-Württemberg
+Germany:Hennigsdorf:Brandenburg
+Germany:Heppenheim:Hesse
+Germany:Herbolzheim:Baden-Württemberg
+Germany:Herborn:Hesse
+Germany:Herbrechtingen:Baden-Württemberg
+Germany:Herbstein:Hesse
+Germany:Herdecke:North Rhine-Westphalia
+Germany:Herdorf:Rhineland-Palatinate
+Germany:Herford:North Rhine-Westphalia
+Germany:Heringen/Helme:Heringen/Thuringia
+Germany:Heringen:Hesse
+Germany:Hermeskeil:Rhineland-Palatinate
+Germany:Hermsdorf:Thuringia
+Germany:Herne:North Rhine-Westphalia
+Germany:Herrenberg:Baden-Württemberg
+Germany:Herrieden:Bavaria
+Germany:Herrnhut:Saxony
+Germany:Hersbruck:Bavaria
+Germany:Herten:North Rhine-Westphalia
+Germany:Herzogenaurach:Bavaria
+Germany:Herzogenrath:North Rhine-Westphalia
+Germany:Hettingen:Baden-Württemberg
+Germany:Hettstedt:Saxony-Anhalt
+Germany:Heubach:Baden-Württemberg
+Germany:Heusenstamm:Hesse
+Germany:Hilchenbach:North Rhine-Westphalia
+Germany:Hildburghausen:Thuringia
+Germany:Hilden:North Rhine-Westphalia
+Germany:Hildesheim:Lower Saxony
+Germany:Hillesheim:Rhineland-Palatinate
+Germany:Hilpoltstein:Bavaria
+Germany:Hirschau:Bavaria
+Germany:Hirschberg:Thuringia
+Germany:Hitzacker:Lower Saxony
+Germany:Hockenheim:Baden-Württemberg
+Germany:Hof:Bavaria
+Germany:Hofgeismar:Hesse
+Germany:Hofheim:Bavaria
+Germany:Hohenleuben:Thuringia
+Germany:Hohenmölsen:Saxony-Anhalt
+Germany:Hohenstein-Ernstthal:Hohenstein-Saxony
+Germany:Hohnstein:Saxony
+Germany:Höhr-Grenzhausen:Höhr-Rhineland-Palatinate
+Germany:Hollfeld:Bavaria
+Germany:Holzgerlingen:Baden-Württemberg
+Germany:Holzminden:Lower Saxony
+Germany:Hornbach:Rhineland-Palatinate
+Germany:Hornberg:Baden-Württemberg
+Germany:Hörstel:North Rhine-Westphalia
+Germany:Horstmar:North Rhine-Westphalia
+Germany:Höxter:North Rhine-Westphalia
+Germany:Hoya:Lower Saxony
+Germany:Hoyerswerda:Saxony
+Germany:Hückelhoven:North Rhine-Westphalia
+Germany:Hückeswagen:North Rhine-Westphalia
+Germany:Hüfingen:Baden-Württemberg
+Germany:Hünfeld:Hesse
+Germany:Hungen:Hesse
+Germany:Hürth:North Rhine-Westphalia
+Germany:Husum:Schleswig-Holstein
+Germany:Ibbenbüren:North Rhine-Westphalia
+Germany:Ichenhausen:Bavaria
+Germany:Idar-Oberstein:Idar-Rhineland-Palatinate
+Germany:Idstein:Hesse
+Germany:Illertissen:Bavaria
+Germany:Ilmenau:Thuringia
+Germany:Ilsenburg:Saxony-Anhalt
+Germany:Ilshofen:Baden-Württemberg
+Germany:Immenhausen:Hesse
+Germany:Ingelfingen:Baden-Württemberg
+Germany:Ingolstadt:Bavaria
+Germany:Iphofen:Bavaria
+Germany:Iserlohn:North Rhine-Westphalia
+Germany:Isselburg:North Rhine-Westphalia
+Germany:Itzehoe:Schleswig-Holstein
+Germany:Jarmen:Mecklenburg-Western Pomerania
+Germany:Jena:Thuringia
+Germany:Jerichow:Saxony-Anhalt
+Germany:Jever:Lower Saxony
+Germany:Joachimsthal:Brandenburg
+Germany:Johanngeorgenstadt:Saxony
+Germany:Jöhstadt:Saxony
+Germany:Jüchen:North Rhine-Westphalia
+Germany:Jülich:North Rhine-Westphalia
+Germany:Jüterbog:Brandenburg
+Germany:Kaarst:North Rhine-Westphalia
+Germany:Kahla:Thuringia
+Germany:Kaisersesch:Rhineland-Palatinate
+Germany:Kaiserslautern:Rhineland-Palatinate
+Germany:Kalkar:North Rhine-Westphalia
+Germany:Kaltenkirchen:Schleswig-Holstein
+Germany:Kaltennordheim:Thuringia
+Germany:Kamen:North Rhine-Westphalia
+Germany:Kamenz:Saxony
+Germany:Kamp-Lintfort:Kamp-North Rhine-Westphalia
+Germany:Kandel:Rhineland-Palatinate
+Germany:Kandern:Baden-Württemberg
+Germany:Kappeln:Schleswig-Holstein
+Germany:Karben:Hesse
+Germany:Karlsruhe:Baden-Württemberg
+Germany:Karlstadt:Bavaria
+Germany:Kassel:Hesse
+Germany:Kastellaun:Rhineland-Palatinate
+Germany:Katzenelnbogen:Rhineland-Palatinate
+Germany:Kaub:Rhineland-Palatinate
+Germany:Kaufbeuren:Bavaria
+Germany:Kehl:Baden-Württemberg
+Germany:Kelheim:Bavaria
+Germany:Kellinghusen:Schleswig-Holstein
+Germany:Kelsterbach:Hesse
+Germany:Kemberg:Saxony-Anhalt
+Germany:Kemnath:Bavaria
+Germany:Kempen:North Rhine-Westphalia
+Germany:Kenzingen:Baden-Württemberg
+Germany:Kerpen:North Rhine-Westphalia
+Germany:Ketzin/Havel:Ketzin/Brandenburg
+Germany:Kevelaer:North Rhine-Westphalia
+Germany:Kiel:Schleswig-Holstein
+Germany:Kierspe:North Rhine-Westphalia
+Germany:Kirchberg:Saxony
+Germany:Kirchenlamitz:Bavaria
+Germany:Kirchhain:Hesse
+Germany:Kirchheimbolanden:Rhineland-Palatinate
+Germany:Kirn:Rhineland-Palatinate
+Germany:Kirtorf:Hesse
+Germany:Kitzingen:Bavaria
+Germany:Kitzscher:Saxony
+Germany:Kleve:North Rhine-Westphalia
+Germany:Klingenthal/Sa.:Klingenthal/Sa. (Saxony)
+Germany:Klötze:Saxony-Anhalt
+Germany:Klütz:Mecklenburg-Western Pomerania
+Germany:Knittlingen:Baden-Württemberg
+Germany:Koblenz:Rhineland-Palatinate
+Germany:Kolbermoor:Bavaria
+Germany:Kölleda:Thuringia
+Germany:Königsbrück:Saxony
+Germany:Königsbrunn:Bavaria
+Germany:Königsee:Thuringia
+Germany:Königslutter:Lower Saxony
+Germany:Königswinter:North Rhine-Westphalia
+Germany:Könnern:Saxony-Anhalt
+Germany:Konstanz:Baden-Württemberg
+Germany:Konz:Rhineland-Palatinate
+Germany:Korbach:Hesse
+Germany:Korntal-Münchingen:Korntal-Baden-Württemberg
+Germany:Kornwestheim:Baden-Württemberg
+Germany:Korschenbroich:North Rhine-Westphalia
+Germany:Köthen:Saxony-Anhalt
+Germany:Kraichtal:Baden-Württemberg
+Germany:Kranichfeld:Thuringia
+Germany:Krautheim:Baden-Württemberg
+Germany:Krefeld:North Rhine-Westphalia
+Germany:Kremmen:Brandenburg
+Germany:Krempe:Schleswig-Holstein
+Germany:Kreuztal:North Rhine-Westphalia
+Germany:Kronach:Bavaria
+Germany:Kröpelin:Mecklenburg-Western Pomerania
+Germany:Kroppenstedt:Saxony-Anhalt
+Germany:Kühlungsborn:Mecklenburg-Western Pomerania
+Germany:Kulmbach:Bavaria
+Germany:Külsheim:Baden-Württemberg
+Germany:Künzelsau:Baden-Württemberg
+Germany:Kupferberg:Bavaria
+Germany:Kuppenheim:Baden-Württemberg
+Germany:Kusel:Rhineland-Palatinate
+Germany:Kyllburg:Rhineland-Palatinate
+Germany:Kyritz:Brandenburg
+Germany:Laage:Mecklenburg-Western Pomerania
+Germany:Laatzen:Lower Saxony
+Germany:Ladenburg:Baden-Württemberg
+Germany:Lage:North Rhine-Westphalia
+Germany:Lahnstein:Rhineland-Palatinate
+Germany:Lahr/Schwarzwald:Lahr/Baden-Württemberg
+Germany:Laichingen:Baden-Württemberg
+Germany:Lampertheim:Hesse
+Germany:Landsberg:Saxony-Anhalt
+Germany:Landshut:Bavaria
+Germany:Landstuhl:Rhineland-Palatinate
+Germany:Langelsheim:Lower Saxony
+Germany:Langenau:Baden-Württemberg
+Germany:Langenburg:Baden-Württemberg
+Germany:Langenhagen:Lower Saxony
+Germany:Langenselbold:Hesse
+Germany:Langenzenn:Bavaria
+Germany:Lassan:Mecklenburg-Western Pomerania
+Germany:Laubach:Hesse
+Germany:Lauchhammer:Brandenburg
+Germany:Lauchheim:Baden-Württemberg
+Germany:Lauda-Königshofen:Lauda-Baden-Württemberg
+Germany:Lauenburg:Schleswig-Holstein
+Germany:Laufen:Bavaria
+Germany:Laufenburg:Baden-Württemberg
+Germany:Laupheim:Baden-Württemberg
+Germany:Lauscha:Thuringia
+Germany:Lauta:Saxony
+Germany:Lauter-Bernsbach:Lauter-Saxony
+Germany:Lauterecken:Rhineland-Palatinate
+Germany:Lauterstein:Baden-Württemberg
+Germany:Lebach:Saarland
+Germany:Lebus:Brandenburg
+Germany:Leer:Lower Saxony
+Germany:Lehesten:Thuringia
+Germany:Lehrte:Lower Saxony
+Germany:Leichlingen:North Rhine-Westphalia
+Germany:Leimen:Baden-Württemberg
+Germany:Leinefelde-Worbis:Leinefelde-Thuringia
+Germany:Leinfelden-Echterdingen:Leinfelden-Baden-Württemberg
+Germany:Leingarten:Baden-Württemberg
+Germany:Leipheim:Bavaria
+Germany:Leipzig:Saxony
+Germany:Leisnig:Saxony
+Germany:Lemgo:North Rhine-Westphalia
+Germany:Lengenfeld:Saxony
+Germany:Lengerich:North Rhine-Westphalia
+Germany:Lennestadt:North Rhine-Westphalia
+Germany:Lenzen:Brandenburg
+Germany:Leonberg:Baden-Württemberg
+Germany:Leun:Hesse
+Germany:Leuna:Saxony-Anhalt
+Germany:Leutenberg:Thuringia
+Germany:Leutershausen:Bavaria
+Germany:Leverkusen:North Rhine-Westphalia
+Germany:Lich:Hesse
+Germany:Lichtenau:Baden-Württemberg
+Germany:Lichtenau:North Rhine-Westphalia
+Germany:Lichtenberg:Bavaria
+Germany:Lichtenfels:Bavaria
+Germany:Lichtenfels:Hesse
+Germany:Lichtenstein/Sa.:Lichtenstein/Sa. (Saxony)
+Germany:Liebenau:Hesse
+Germany:Liebenwalde:Brandenburg
+Germany:Lieberose:Brandenburg
+Germany:Liebstadt:Saxony
+Germany:Limbach-Oberfrohna:Limbach-Saxony
+Germany:Linden:Hesse
+Germany:Lindenfels:Hesse
+Germany:Lingen:Lower Saxony
+Germany:Linnich:North Rhine-Westphalia
+Germany:Lippstadt:North Rhine-Westphalia
+Germany:Löbau:Saxony
+Germany:Löffingen:Baden-Württemberg
+Germany:Lohmar:North Rhine-Westphalia
+Germany:Lohne:Lower Saxony
+Germany:Löhne:North Rhine-Westphalia
+Germany:Loitz:Mecklenburg-Western Pomerania
+Germany:Lollar:Hesse
+Germany:Lommatzsch:Saxony
+Germany:Löningen:Lower Saxony
+Germany:Lorch:Baden-Württemberg
+Germany:Lorch:Hesse
+Germany:Lörrach:Baden-Württemberg
+Germany:Lorsch:Hesse
+Germany:Lößnitz:Saxony
+Germany:Löwenstein:Baden-Württemberg
+Germany:Lübbecke:North Rhine-Westphalia
+Germany:Lübbenau:Brandenburg
+Germany:Lübeck:Schleswig-Holstein
+Germany:Lübtheen:Mecklenburg-Western Pomerania
+Germany:Lübz:Mecklenburg-Western Pomerania
+Germany:Lucka:Thuringia
+Germany:Luckau:Brandenburg
+Germany:Luckenwalde:Brandenburg
+Germany:Lüdenscheid:North Rhine-Westphalia
+Germany:Lüdinghausen:North Rhine-Westphalia
+Germany:Ludwigsburg:Baden-Württemberg
+Germany:Ludwigsfelde:Brandenburg
+Germany:Ludwigslust:Mecklenburg-Western Pomerania
+Germany:Ludwigsstadt:Bavaria
+Germany:Lugau/Erzgeb.:Lugau/Erzgeb. (Saxony)
+Germany:Lügde:North Rhine-Westphalia
+Germany:Lüneburg:Lower Saxony
+Germany:Lünen:North Rhine-Westphalia
+Germany:Lunzenau:Saxony
+Germany:Lütjenburg:Schleswig-Holstein
+Germany:Lützen:Saxony-Anhalt
+Germany:Lychen:Brandenburg
+Germany:Magdala:Thuringia
+Germany:Magdeburg:Saxony-Anhalt
+Germany:Mahlberg:Baden-Württemberg
+Germany:Mainbernheim:Bavaria
+Germany:Mainburg:Bavaria
+Germany:Maintal:Hesse
+Germany:Mainz:Rhineland-Palatinate
+Germany:Malchin:Mecklenburg-Western Pomerania
+Germany:Malchow:Mecklenburg-Western Pomerania
+Germany:Mannheim:Baden-Württemberg
+Germany:Manderscheid:Rhineland-Palatinate
+Germany:Mansfeld:Saxony-Anhalt
+Germany:Marburg:Hesse
+Germany:Marienberg:Saxony
+Germany:Marienmünster:North Rhine-Westphalia
+Germany:Markdorf:Baden-Württemberg
+Germany:Markgröningen:Baden-Württemberg
+Germany:Markkleeberg:Saxony
+Germany:Markneukirchen:Saxony
+Germany:Markranstädt:Saxony
+Germany:Marktbreit:Bavaria
+Germany:Marktheidenfeld:Bavaria
+Germany:Marktleuthen:Bavaria
+Germany:Marktoberdorf:Bavaria
+Germany:Marktredwitz:Bavaria
+Germany:Marktsteft:Bavaria
+Germany:Marl:North Rhine-Westphalia
+Germany:Marlow:Mecklenburg-Western Pomerania
+Germany:Marne:Schleswig-Holstein
+Germany:Marsberg:North Rhine-Westphalia
+Germany:Maulbronn:Baden-Württemberg
+Germany:Maxhütte-Haidhof:Maxhütte-Bavaria
+Germany:Mayen:Rhineland-Palatinate
+Germany:Mechernich:North Rhine-Westphalia
+Germany:Meckenheim:North Rhine-Westphalia
+Germany:Medebach:North Rhine-Westphalia
+Germany:Meerane:Saxony
+Germany:Meerbusch:North Rhine-Westphalia
+Germany:Meersburg:Baden-Württemberg
+Germany:Meinerzhagen:North Rhine-Westphalia
+Germany:Meiningen:Thuringia
+Germany:Meisenheim:Rhineland-Palatinate
+Germany:Meissen:Saxony
+Germany:Meldorf:Schleswig-Holstein
+Germany:Melle:Lower Saxony
+Germany:Mellrichstadt:Bavaria
+Germany:Melsungen:Hesse
+Germany:Memmingen:Bavaria
+Germany:Mendig:Rhineland-Palatinate
+Germany:Mengen:Baden-Württemberg
+Germany:Meppen:Lower Saxony
+Germany:Merkendorf:Bavaria
+Germany:Merseburg:Saxony-Anhalt
+Germany:Merzig:Saarland
+Germany:Meschede:North Rhine-Westphalia
+Germany:Meßkirch:Baden-Württemberg
+Germany:Meßstetten:Baden-Württemberg
+Germany:Mettmann:North Rhine-Westphalia
+Germany:Metzingen:Baden-Württemberg
+Germany:Meuselwitz:Thuringia
+Germany:Meyenburg:Brandenburg
+Germany:Michelstadt:Hesse
+Germany:Miesbach:Bavaria
+Germany:Miltenberg:Bavaria
+Germany:Mindelheim:Bavaria
+Germany:Minden:North Rhine-Westphalia
+Germany:Mirow:Mecklenburg-Western Pomerania
+Germany:Mittenwalde:Brandenburg
+Germany:Mitterteich:Bavaria
+Germany:Mittweida:Saxony
+Germany:Möckern:Saxony-Anhalt
+Germany:Möckmühl:Baden-Württemberg
+Germany:Moers:North Rhine-Westphalia
+Germany:Mölln:Schleswig-Holstein
+Germany:Mönchengladbach:North Rhine-Westphalia
+Germany:Monheim:Bavaria
+Germany:Monschau:North Rhine-Westphalia
+Germany:Montabaur:Rhineland-Palatinate
+Germany:Moosburg:Bavaria
+Germany:Mörfelden-Walldorf:Mörfelden-Hesse
+Germany:Moringen:Lower Saxony
+Germany:Mosbach:Baden-Württemberg
+Germany:Mössingen:Baden-Württemberg
+Germany:Mügeln:Saxony
+Germany:Mühlacker:Baden-Württemberg
+Germany:Mühldorf:Bavaria
+Germany:Mühlhausen:Thuringia
+Germany:Mülheim-Kärlich:Mülheim-Rhineland-Palatinate
+Germany:Müllheim:Baden-Württemberg
+Germany:Müllrose:Brandenburg
+Germany:Münchberg:Bavaria
+Germany:Müncheberg:Brandenburg
+Germany:Münchenbernsdorf:Thuringia
+Germany:Munderkingen:Baden-Württemberg
+Germany:Munich:Bavaria
+Germany:Münnerstadt:Bavaria
+Germany:Münsingen:Baden-Württemberg
+Germany:Munster:Lower Saxony
+Germany:Münster:North Rhine-Westphalia
+Germany:Münstermaifeld:Rhineland-Palatinate
+Germany:Münzenberg:Hesse
+Germany:Murrhardt:Baden-Württemberg
+Germany:Nabburg:Bavaria
+Germany:Nagold:Baden-Württemberg
+Germany:Naila:Bavaria
+Germany:Nassau:Rhineland-Palatinate
+Germany:Nastätten:Rhineland-Palatinate
+Germany:Nauen:Brandenburg
+Germany:Naumburg:Saxony-Anhalt
+Germany:Naunhof:Saxony
+Germany:Nebra:Saxony-Anhalt
+Germany:Neckarbischofsheim:Baden-Württemberg
+Germany:Neckargemünd:Baden-Württemberg
+Germany:Neckarsteinach:Hesse
+Germany:Neckarsulm:Baden-Württemberg
+Germany:Neresheim:Baden-Württemberg
+Germany:Netphen:North Rhine-Westphalia
+Germany:Nettetal:North Rhine-Westphalia
+Germany:Netzschkau:Saxony
+Germany:Neu-Anspach:Neu-Hesse
+Germany:Neubrandenburg:Mecklenburg-Western Pomerania
+Germany:Neubukow:Mecklenburg-Western Pomerania
+Germany:Neubulach:Baden-Württemberg
+Germany:Neudenau:Baden-Württemberg
+Germany:Neuenbürg:Baden-Württemberg
+Germany:Neuenhaus:Lower Saxony
+Germany:Neuenrade:North Rhine-Westphalia
+Germany:Neuenstein:Baden-Württemberg
+Germany:Neuerburg:Rhineland-Palatinate
+Germany:Neuffen:Baden-Württemberg
+Germany:Neu-Isenburg:Neu-Hesse
+Germany:Neukalen:Mecklenburg-Western Pomerania
+Germany:Neukirchen:Hesse
+Germany:Neukirchen-Vluyn:Neukirchen-North Rhine-Westphalia
+Germany:Neukloster:Mecklenburg-Western Pomerania
+Germany:Neumark:Thuringia
+Germany:Neumünster:Schleswig-Holstein
+Germany:Neunkirchen:Saarland
+Germany:Neuötting:Bavaria
+Germany:Neuruppin:Brandenburg
+Germany:Neusalza-Spremberg:Neusalza-Saxony
+Germany:Neusäß:Bavaria
+Germany:Neuss:North Rhine-Westphalia
+Germany:Neustadt-Glewe:Neustadt-Mecklenburg-Western Pomerania
+Germany:Neustrelitz:Mecklenburg-Western Pomerania
+Germany:Neutraubling:Bavaria
+Germany:Neu-Ulm:Neu-Bavaria
+Germany:Neuwied:Rhineland-Palatinate
+Germany:Nidda:Hesse
+Germany:Niddatal:Hesse
+Germany:Nidderau:Hesse
+Germany:Nideggen:North Rhine-Westphalia
+Germany:Niebüll:Schleswig-Holstein
+Germany:Niedenstein:Hesse
+Germany:Niederkassel:North Rhine-Westphalia
+Germany:Niedernhall:Baden-Württemberg
+Germany:Nieder-Olm:Nieder-Rhineland-Palatinate
+Germany:Niederstetten:Baden-Württemberg
+Germany:Niederstotzingen:Baden-Württemberg
+Germany:Nieheim:North Rhine-Westphalia
+Germany:Niemegk:Brandenburg
+Germany:Nienburg:Lower Saxony
+Germany:Nierstein:Rhineland-Palatinate
+Germany:Niesky:Saxony
+Germany:Nittenau:Bavaria
+Germany:Norden:Lower Saxony
+Germany:Nordenham:Lower Saxony
+Germany:Norderney:Lower Saxony
+Germany:Norderstedt:Schleswig-Holstein
+Germany:Nordhausen:Thuringia
+Germany:Nordhorn:Lower Saxony
+Germany:Nördlingen:Bavaria
+Germany:Northeim:Lower Saxony
+Germany:Nortorf:Schleswig-Holstein
+Germany:Nossen:Saxony
+Germany:Nuremberg:Bavaria
+Germany:Nürtingen:Baden-Württemberg
+Germany:Oberasbach:Bavaria
+Germany:Oberhausen:North Rhine-Westphalia
+Germany:Oberhof:Thuringia
+Germany:Oberkirch:Baden-Württemberg
+Germany:Oberkochen:Baden-Württemberg
+Germany:Oberlungwitz:Saxony
+Germany:Obermoschel:Rhineland-Palatinate
+Germany:Obernkirchen:Lower Saxony
+Germany:Ober-Ramstadt:Ober-Hesse
+Germany:Oberriexingen:Baden-Württemberg
+Germany:Obertshausen:Hesse
+Germany:Oberviechtach:Bavaria
+Germany:Oberwesel:Rhineland-Palatinate
+Germany:Oberwiesenthal:Oberwiesenthal, Saxony
+Germany:Oberzent:Hesse
+Germany:Ochsenfurt:Bavaria
+Germany:Ochsenhausen:Baden-Württemberg
+Germany:Ochtrup:North Rhine-Westphalia
+Germany:Oderberg:Brandenburg
+Germany:Oebisfelde-Weferlingen:Oebisfelde-Saxony-Anhalt
+Germany:Oederan:Saxony
+Germany:Oelde:North Rhine-Westphalia
+Germany:Oelsnitz:Saxony
+Germany:Oelsnitz/Erzgeb.:Oelsnitz/Erzgeb. (Saxony)
+Germany:Oer-Erkenschwick:Oer-North Rhine-Westphalia
+Germany:Oerlinghausen:North Rhine-Westphalia
+Germany:Oestrich-Winkel:Oestrich-Hesse
+Germany:Offenburg:Baden-Württemberg
+Germany:Ohrdruf:Thuringia
+Germany:Öhringen:Baden-Württemberg
+Germany:Olbernhau:Saxony
+Germany:Olching:Bavaria
+Germany:Oldenburg:Lower Saxony
+Germany:Olfen:North Rhine-Westphalia
+Germany:Olpe:North Rhine-Westphalia
+Germany:Olsberg:North Rhine-Westphalia
+Germany:Oppenau:Baden-Württemberg
+Germany:Oppenheim:Rhineland-Palatinate
+Germany:Oranienbaum-Wörlitz:Oranienbaum-Saxony-Anhalt
+Germany:Oranienburg:Brandenburg
+Germany:Orlamünde:Thuringia
+Germany:Ornbau:Bavaria
+Germany:Ortenberg:Hesse
+Germany:Ortrand:Brandenburg
+Germany:Oschatz:Saxony
+Germany:Osnabrück:Lower Saxony
+Germany:Osterburken:Baden-Württemberg
+Germany:Osterfeld:Saxony-Anhalt
+Germany:Osterhofen:Bavaria
+Germany:Osterholz-Scharmbeck:Osterholz-Lower Saxony
+Germany:Osterwieck:Saxony-Anhalt
+Germany:Ostfildern:Baden-Württemberg
+Germany:Osthofen:Rhineland-Palatinate
+Germany:Östringen:Baden-Württemberg
+Germany:Ostritz:Saxony
+Germany:Otterberg:Rhineland-Palatinate
+Germany:Otterndorf:Lower Saxony
+Germany:Ottweiler:Saarland
+Germany:Overath:North Rhine-Westphalia
+Germany:Owen:Baden-Württemberg
+Germany:Paderborn:North Rhine-Westphalia
+Germany:Papenburg:Lower Saxony
+Germany:Pappenheim:Bavaria
+Germany:Parchim:Mecklenburg-Western Pomerania
+Germany:Parsberg:Bavaria
+Germany:Pasewalk:Mecklenburg-Western Pomerania
+Germany:Passau:Bavaria
+Germany:Pattensen:Lower Saxony
+Germany:Pausa-Mühltroff:Pausa-Saxony
+Germany:Pegau:Saxony
+Germany:Pegnitz:Bavaria
+Germany:Peine:Lower Saxony
+Germany:Peitz:Brandenburg
+Germany:Penig:Saxony
+Germany:Penkun:Mecklenburg-Western Pomerania
+Germany:Penzberg:Bavaria
+Germany:Penzlin:Mecklenburg-Western Pomerania
+Germany:Perleberg:Brandenburg
+Germany:Petershagen:North Rhine-Westphalia
+Germany:Pfarrkirchen:Bavaria
+Germany:Pforzheim:Baden-Württemberg
+Germany:Pfreimd:Bavaria
+Germany:Pfullendorf:Baden-Württemberg
+Germany:Pfullingen:Baden-Württemberg
+Germany:Pfungstadt:Hesse
+Germany:Philippsburg:Baden-Württemberg
+Germany:Pinneberg:Schleswig-Holstein
+Germany:Pirmasens:Rhineland-Palatinate
+Germany:Pirna:Saxony
+Germany:Plattling:Bavaria
+Germany:Plaue:Thuringia
+Germany:Plauen:Saxony
+Germany:Plettenberg:North Rhine-Westphalia
+Germany:Pleystein:Bavaria
+Germany:Plochingen:Baden-Württemberg
+Germany:Plön:Schleswig-Holstein
+Germany:Pockau-Lengefeld:Pockau-Saxony
+Germany:Pocking:Bavaria
+Germany:Pohlheim:Hesse
+Germany:Polch:Rhineland-Palatinate
+Germany:Pößneck:Thuringia
+Germany:Potsdam:Brandenburg
+Germany:Pottenstein:Bavaria
+Germany:Preetz:Schleswig-Holstein
+Germany:Premnitz:Brandenburg
+Germany:Prenzlau:Brandenburg
+Germany:Pressath:Bavaria
+Germany:Prichsenstadt:Bavaria
+Germany:Pritzwalk:Brandenburg
+Germany:Prüm:Rhineland-Palatinate
+Germany:Puchheim:Bavaria
+Germany:Pulheim:North Rhine-Westphalia
+Germany:Pulsnitz:Saxony
+Germany:Putbus:Mecklenburg-Western Pomerania
+Germany:Putlitz:Brandenburg
+Germany:Püttlingen:Saarland
+Germany:Quakenbrück:Lower Saxony
+Germany:Quedlinburg:Saxony-Anhalt
+Germany:Querfurt:Saxony-Anhalt
+Germany:Quickborn:Schleswig-Holstein
+Germany:Rabenau:Saxony
+Germany:Radeberg:Saxony
+Germany:Radebeul:Saxony
+Germany:Radeburg:Saxony
+Germany:Radevormwald:North Rhine-Westphalia
+Germany:Raguhn-Jeßnitz:Raguhn-Saxony-Anhalt
+Germany:Rahden:North Rhine-Westphalia
+Germany:Rain:Bavaria
+Germany:Ramstein-Miesenbach:Ramstein-Rhineland-Palatinate
+Germany:Ranis:Thuringia
+Germany:Ransbach-Baumbach:Ransbach-Rhineland-Palatinate
+Germany:Rastatt:Baden-Württemberg
+Germany:Rastenberg:Thuringia
+Germany:Rathenow:Brandenburg
+Germany:Ratingen:North Rhine-Westphalia
+Germany:Ratzeburg:Schleswig-Holstein
+Germany:Rauenberg:Baden-Württemberg
+Germany:Raunheim:Hesse
+Germany:Rauschenberg:Hesse
+Germany:Ravensburg:Baden-Württemberg
+Germany:Ravenstein:Baden-Württemberg
+Germany:Recklinghausen:North Rhine-Westphalia
+Germany:Rees:North Rhine-Westphalia
+Germany:Regen:Bavaria
+Germany:Regensburg:Bavaria
+Germany:Regis-Breitingen:Regis-Saxony
+Germany:Rehau:Bavaria
+Germany:Rehburg-Loccum:Rehburg-Lower Saxony
+Germany:Rehna:Mecklenburg-Western Pomerania
+Germany:Reinbek:Schleswig-Holstein
+Germany:Reinheim:Hesse
+Germany:Remagen:Rhineland-Palatinate
+Germany:Remscheid:North Rhine-Westphalia
+Germany:Renchen:Baden-Württemberg
+Germany:Rendsburg:Schleswig-Holstein
+Germany:Rennerod:Rhineland-Palatinate
+Germany:Renningen:Baden-Württemberg
+Germany:Rerik:Mecklenburg-Western Pomerania
+Germany:Rethem:Lower Saxony
+Germany:Reutlingen:Baden-Württemberg
+Germany:Rheda-Wiedenbrück:Rheda-North Rhine-Westphalia
+Germany:Rhede:North Rhine-Westphalia
+Germany:Rheinau:Baden-Württemberg
+Germany:Rheinbach:North Rhine-Westphalia
+Germany:Rheinberg:North Rhine-Westphalia
+Germany:Rheinböllen:Rhineland-Palatinate
+Germany:Rheine:North Rhine-Westphalia
+Germany:Rheinfelden:Baden-Württemberg
+Germany:Rheinsberg:Brandenburg
+Germany:Rheinstetten:Baden-Württemberg
+Germany:Rhens:Rhineland-Palatinate
+Germany:Rhinow:Brandenburg
+Germany:Ribnitz-Damgarten:Ribnitz-Mecklenburg-Western Pomerania
+Germany:Richtenberg:Mecklenburg-Western Pomerania
+Germany:Riedenburg:Bavaria
+Germany:Riedlingen:Baden-Württemberg
+Germany:Riedstadt:Hesse
+Germany:Rieneck:Bavaria
+Germany:Riesa:Saxony
+Germany:Rietberg:North Rhine-Westphalia
+Germany:Rinteln:Lower Saxony
+Germany:Röbel/Müritz:Röbel/Mecklenburg-Western Pomerania
+Germany:Rochlitz:Saxony
+Germany:Rockenhausen:Rhineland-Palatinate
+Germany:Rodalben:Rhineland-Palatinate
+Germany:Rodenberg:Lower Saxony
+Germany:Rödental:Bavaria
+Germany:Rödermark:Hesse
+Germany:Rodewisch:Saxony
+Germany:Rodgau:Hesse
+Germany:Roding:Bavaria
+Germany:Römhild:Thuringia
+Germany:Romrod:Hesse
+Germany:Ronneburg:Thuringia
+Germany:Ronnenberg:Lower Saxony
+Germany:Rosenfeld:Baden-Württemberg
+Germany:Rosenheim:Bavaria
+Germany:Rosenthal:Hesse
+Germany:Rösrath:North Rhine-Westphalia
+Germany:Roßleben-Wiehe:Roßleben-Thuringia
+Germany:Roßwein:Saxony
+Germany:Rostock:Mecklenburg-Western Pomerania
+Germany:Roth:Bavaria
+Germany:Rötha:Saxony
+Germany:Rothenburg:Saxony
+Germany:Rothenfels:Bavaria
+Germany:Röttingen:Bavaria
+Germany:Rottweil:Baden-Württemberg
+Germany:Rötz:Bavaria
+Germany:Rüdesheim:Hesse
+Germany:Rudolstadt:Thuringia
+Germany:Ruhla:Thuringia
+Germany:Ruhland:Brandenburg
+Germany:Runkel:Hesse
+Germany:Rüsselsheim:Hesse
+Germany:Rutesheim:Baden-Württemberg
+Germany:Rüthen:North Rhine-Westphalia
+Germany:Saalburg-Ebersdorf:Saalburg-Thuringia
+Germany:Saalfeld:Thuringia
+Germany:Saarbrücken:Saarland
+Germany:Saarburg:Rhineland-Palatinate
+Germany:Saarlouis:Saarland
+Germany:Sachsenhagen:Lower Saxony
+Germany:Sachsenheim:Baden-Württemberg
+Germany:Salzgitter:Lower Saxony
+Germany:Salzkotten:North Rhine-Westphalia
+Germany:Salzwedel:Saxony-Anhalt
+Germany:Sandersdorf-Brehna:Sandersdorf-Saxony-Anhalt
+Germany:Sangerhausen:Saxony-Anhalt
+Germany:Sarstedt:Lower Saxony
+Germany:Sassenberg:North Rhine-Westphalia
+Germany:Sassnitz:Mecklenburg-Western Pomerania
+Germany:Sayda:Saxony
+Germany:Schalkau:Thuringia
+Germany:Schauenstein:Bavaria
+Germany:Scheer:Baden-Württemberg
+Germany:Scheibenberg:Saxony
+Germany:Scheinfeld:Bavaria
+Germany:Schelklingen:Baden-Württemberg
+Germany:Schenefeld:Schleswig-Holstein
+Germany:Scheßlitz:Bavaria
+Germany:Schieder-Schwalenberg:Schieder-North Rhine-Westphalia
+Germany:Schifferstadt:Rhineland-Palatinate
+Germany:Schillingsfürst:Bavaria
+Germany:Schiltach:Baden-Württemberg
+Germany:Schirgiswalde-Kirschau:Schirgiswalde-Saxony
+Germany:Schkeuditz:Saxony
+Germany:Schkölen:Thuringia
+Germany:Schleiden:North Rhine-Westphalia
+Germany:Schleiz:Thuringia
+Germany:Schleswig:Schleswig-Holstein
+Germany:Schlettau:Saxony
+Germany:Schleusingen:Thuringia
+Germany:Schlieben:Brandenburg
+Germany:Schlitz:Hesse
+Germany:Schlüchtern:Hesse
+Germany:Schlüsselfeld:Bavaria
+Germany:Schmalkalden:Thuringia
+Germany:Schmallenberg:North Rhine-Westphalia
+Germany:Schmölln:Thuringia
+Germany:Schnackenburg:Lower Saxony
+Germany:Schnaittenbach:Bavaria
+Germany:Schneeberg:Saxony
+Germany:Schneverdingen:Lower Saxony
+Germany:Schömberg:Baden-Württemberg
+Germany:Schönau:Baden-Württemberg
+Germany:Schönberg:Mecklenburg-Western Pomerania
+Germany:Schönebeck:Saxony-Anhalt
+Germany:Schöneck/Vogtl.:Schöneck/Vogtl. (Saxony)
+Germany:Schönewalde:Brandenburg
+Germany:Schongau:Bavaria
+Germany:Schöningen:Lower Saxony
+Germany:Schönsee:Bavaria
+Germany:Schönwald:Bavaria
+Germany:Schopfheim:Baden-Württemberg
+Germany:Schöppenstedt:Lower Saxony
+Germany:Schorndorf:Baden-Württemberg
+Germany:Schortens:Lower Saxony
+Germany:Schotten:Hesse
+Germany:Schramberg:Baden-Württemberg
+Germany:Schraplau:Saxony-Anhalt
+Germany:Schriesheim:Baden-Württemberg
+Germany:Schrobenhausen:Bavaria
+Germany:Schrozberg:Baden-Württemberg
+Germany:Schüttorf:Lower Saxony
+Germany:Schwaan:Mecklenburg-Western Pomerania
+Germany:Schwabach:Bavaria
+Germany:Schwabmünchen:Bavaria
+Germany:Schwaigern:Baden-Württemberg
+Germany:Schwalmstadt:Hesse
+Germany:Schwandorf:Bavaria
+Germany:Schwanebeck:Saxony-Anhalt
+Germany:Schwarzatal:Thuringia
+Germany:Schwarzenbek:Schleswig-Holstein
+Germany:Schwarzenberg/Erzgeb.:Schwarzenberg/Erzgeb. (Saxony)
+Germany:Schwarzenborn:Hesse
+Germany:Schwarzheide:Brandenburg
+Germany:Schwedt:Brandenburg
+Germany:Schweich:Rhineland-Palatinate
+Germany:Schweinfurt:Bavaria
+Germany:Schwelm:North Rhine-Westphalia
+Germany:Schwentinental:Schleswig-Holstein
+Germany:Schwerin:Mecklenburg-Western Pomerania
+Germany:Schwerte:North Rhine-Westphalia
+Germany:Schwetzingen:Baden-Württemberg
+Germany:Sebnitz:Saxony
+Germany:Seeland:Saxony-Anhalt
+Germany:Seelow:Brandenburg
+Germany:Seelze:Lower Saxony
+Germany:Seesen:Lower Saxony
+Germany:Sehnde:Lower Saxony
+Germany:Seifhennersdorf:Saxony
+Germany:Selb:Bavaria
+Germany:Selbitz:Bavaria
+Germany:Seligenstadt:Hesse
+Germany:Selm:North Rhine-Westphalia
+Germany:Senden:Bavaria
+Germany:Sendenhorst:North Rhine-Westphalia
+Germany:Senftenberg:Brandenburg
+Germany:Seßlach:Bavaria
+Germany:Siegburg:North Rhine-Westphalia
+Germany:Siegen:North Rhine-Westphalia
+Germany:Sigmaringen:Baden-Württemberg
+Germany:Simmern:Rhineland-Palatinate
+Germany:Sindelfingen:Baden-Württemberg
+Germany:Singen:Baden-Württemberg
+Germany:Sinsheim:Baden-Württemberg
+Germany:Sinzig:Rhineland-Palatinate
+Germany:Soest:North Rhine-Westphalia
+Germany:Solingen:North Rhine-Westphalia
+Germany:Solms:Hesse
+Germany:Soltau:Lower Saxony
+Germany:Sömmerda:Thuringia
+Germany:Sondershausen:Thuringia
+Germany:Sonneberg:Thuringia
+Germany:Sonnewalde:Brandenburg
+Germany:Sonthofen:Bavaria
+Germany:Sontra:Hesse
+Germany:Spaichingen:Baden-Württemberg
+Germany:Spalt:Bavaria
+Germany:Spangenberg:Hesse
+Germany:Speicher:Rhineland-Palatinate
+Germany:Spenge:North Rhine-Westphalia
+Germany:Speyer:Rhineland-Palatinate
+Germany:Spremberg:Brandenburg
+Germany:Springe:Lower Saxony
+Germany:Sprockhövel:North Rhine-Westphalia
+Germany:Stade:Lower Saxony
+Germany:Stadtallendorf:Hesse
+Germany:Stadtbergen:Bavaria
+Germany:Stadthagen:Lower Saxony
+Germany:Stadtilm:Thuringia
+Germany:Stadtlohn:North Rhine-Westphalia
+Germany:Stadtoldendorf:Lower Saxony
+Germany:Stadtprozelten:Bavaria
+Germany:Stadtroda:Thuringia
+Germany:Stadtsteinach:Bavaria
+Germany:Starnberg:Bavaria
+Germany:Staßfurt:Saxony-Anhalt
+Germany:Staufenberg:Hesse
+Germany:Stein:Bavaria
+Germany:Steinach:Thuringia
+Germany:Steinbach-Hallenberg:Steinbach-Thuringia
+Germany:Steinfurt:North Rhine-Westphalia
+Germany:Steinheim:North Rhine-Westphalia
+Germany:Stendal:Saxony-Anhalt
+Germany:Sternberg:Mecklenburg-Western Pomerania
+Germany:Stockach:Baden-Württemberg
+Germany:Stollberg:Saxony
+Germany:Stolpen:Saxony
+Germany:Stößen:Saxony-Anhalt
+Germany:Straelen:North Rhine-Westphalia
+Germany:Stralsund:Mecklenburg-Western Pomerania
+Germany:Straubing:Bavaria
+Germany:Strausberg:Brandenburg
+Germany:Strehla:Saxony
+Germany:Stromberg:Rhineland-Palatinate
+Germany:Stühlingen:Baden-Württemberg
+Germany:Stutensee:Baden-Württemberg
+Germany:Stuttgart:Baden-Württemberg
+Germany:Suhl:Thuringia
+Germany:Sulingen:Lower Saxony
+Germany:Sulzbach-Rosenberg:Sulzbach-Bavaria
+Germany:Sulzburg:Baden-Württemberg
+Germany:Sundern:North Rhine-Westphalia
+Germany:Süßen:Baden-Württemberg
+Germany:Syke:Lower Saxony
+Germany:Tambach-Dietharz:Tambach-Thuringia
+Germany:Tangerhütte:Saxony-Anhalt
+Germany:Tangermünde:Saxony-Anhalt
+Germany:Tanna:Thuringia
+Germany:Tauberbischofsheim:Baden-Württemberg
+Germany:Taucha:Saxony
+Germany:Taunusstein:Hesse
+Germany:Tecklenburg:North Rhine-Westphalia
+Germany:Tegernsee:Bavaria
+Germany:Telgte:North Rhine-Westphalia
+Germany:Teltow:Brandenburg
+Germany:Templin:Brandenburg
+Germany:Tengen:Baden-Württemberg
+Germany:Tessin:Mecklenburg-Western Pomerania
+Germany:Teterow:Mecklenburg-Western Pomerania
+Germany:Tettnang:Baden-Württemberg
+Germany:Teublitz:Bavaria
+Germany:Teuchern:Saxony-Anhalt
+Germany:Teupitz:Brandenburg
+Germany:Teuschnitz:Bavaria
+Germany:Thale:Saxony-Anhalt
+Germany:Thalheim/Erzgeb.:Thalheim/Erzgeb. (Saxony)
+Germany:Thannhausen:Bavaria
+Germany:Tharandt:Saxony
+Germany:Themar:Thuringia
+Germany:Thum:Saxony
+Germany:Tirschenreuth:Bavaria
+Germany:Titisee-Neustadt:Titisee-Baden-Württemberg
+Germany:Tittmoning:Bavaria
+Germany:Todtnau:Baden-Württemberg
+Germany:Tönisvorst:North Rhine-Westphalia
+Germany:Tönning:Schleswig-Holstein
+Germany:Torgau:Saxony
+Germany:Torgelow:Mecklenburg-Western Pomerania
+Germany:Tornesch:Schleswig-Holstein
+Germany:Traben-Trarbach:Traben-Rhineland-Palatinate
+Germany:Traunreut:Bavaria
+Germany:Traunstein:Bavaria
+Germany:Trebbin:Brandenburg
+Germany:Trebsen/Mulde:Trebsen/Saxony
+Germany:Treffurt:Thuringia
+Germany:Trendelburg:Hesse
+Germany:Treuchtlingen:Bavaria
+Germany:Treuen:Saxony
+Germany:Treuenbrietzen:Brandenburg
+Germany:Tribsees:Mecklenburg-Western Pomerania
+Germany:Trier:Rhineland-Palatinate
+Germany:Triptis:Thuringia
+Germany:Trochtelfingen:Baden-Württemberg
+Germany:Troisdorf:North Rhine-Westphalia
+Germany:Trossingen:Baden-Württemberg
+Germany:Trostberg:Bavaria
+Germany:Tübingen:Baden-Württemberg
+Germany:Tuttlingen:Baden-Württemberg
+Germany:Twistringen:Lower Saxony
+Germany:Übach-Palenberg:Übach-North Rhine-Westphalia
+Germany:Überlingen:Baden-Württemberg
+Germany:Uebigau-Wahrenbrück:Uebigau-Brandenburg
+Germany:Ueckermünde:Mecklenburg-Western Pomerania
+Germany:Uelzen:Lower Saxony
+Germany:Uetersen:Schleswig-Holstein
+Germany:Uffenheim:Bavaria
+Germany:Uhingen:Baden-Württemberg
+Germany:Ulm:Baden-Württemberg
+Germany:Ulmen:Rhineland-Palatinate
+Germany:Ulrichstein:Hesse
+Germany:Ummerstadt:Thuringia
+Germany:Unkel:Rhineland-Palatinate
+Germany:Unna:North Rhine-Westphalia
+Germany:Unterschleißheim:Bavaria
+Germany:Usedom:Mecklenburg-Western Pomerania
+Germany:Usingen:Hesse
+Germany:Uslar:Lower Saxony
+Germany:Vacha:Thuringia
+Germany:Vallendar:Rhineland-Palatinate
+Germany:Varel:Lower Saxony
+Germany:Vechta:Lower Saxony
+Germany:Velbert:North Rhine-Westphalia
+Germany:Velburg:Bavaria
+Germany:Velden:Bavaria
+Germany:Velen:North Rhine-Westphalia
+Germany:Vellberg:Baden-Württemberg
+Germany:Vellmar:Hesse
+Germany:Velten:Brandenburg
+Germany:Verden:Lower Saxony
+Germany:Veringenstadt:Baden-Württemberg
+Germany:Verl:North Rhine-Westphalia
+Germany:Versmold:North Rhine-Westphalia
+Germany:Vetschau/Spreewald:Vetschau/Brandenburg
+Germany:Viechtach:Bavaria
+Germany:Viernheim:Hesse
+Germany:Viersen:North Rhine-Westphalia
+Germany:Villingen-Schwenningen:Villingen-Baden-Württemberg
+Germany:Vilsbiburg:Bavaria
+Germany:Vilseck:Bavaria
+Germany:Vilshofen:Bavaria
+Germany:Visselhövede:Lower Saxony
+Germany:Vlotho:North Rhine-Westphalia
+Germany:Vohenstrauß:Bavaria
+Germany:Vöhrenbach:Baden-Württemberg
+Germany:Vöhringen:Bavaria
+Germany:Volkach:Bavaria
+Germany:Völklingen:Saarland
+Germany:Volkmarsen:Hesse
+Germany:Vreden:North Rhine-Westphalia
+Germany:Wächtersbach:Hesse
+Germany:Wadern:Saarland
+Germany:Waghäusel:Baden-Württemberg
+Germany:Wahlstedt:Schleswig-Holstein
+Germany:Waiblingen:Baden-Württemberg
+Germany:Waibstadt:Baden-Württemberg
+Germany:Waischenfeld:Bavaria
+Germany:Waldbröl:North Rhine-Westphalia
+Germany:Waldeck:Hesse
+Germany:Waldenbuch:Baden-Württemberg
+Germany:Waldenburg:Saxony
+Germany:Waldenburg:Baden-Württemberg
+Germany:Waldershof:Bavaria
+Germany:Waldheim:Saxony
+Germany:Waldkappel:Hesse
+Germany:Waldkirch:Baden-Württemberg
+Germany:Waldkirchen:Bavaria
+Germany:Waldkraiburg:Bavaria
+Germany:Waldmohr:Rhineland-Palatinate
+Germany:Waldmünchen:Bavaria
+Germany:Waldsassen:Bavaria
+Germany:Waldshut-Tiengen:Waldshut-Baden-Württemberg
+Germany:Walldorf:Baden-Württemberg
+Germany:Walldürn:Baden-Württemberg
+Germany:Wallenfels:Bavaria
+Germany:Walsrode:Lower Saxony
+Germany:Waltershausen:Thuringia
+Germany:Waltrop:North Rhine-Westphalia
+Germany:Wanfried:Hesse
+Germany:Wanzleben-Börde:Wanzleben-Saxony-Anhalt
+Germany:Warburg:North Rhine-Westphalia
+Germany:Warendorf:North Rhine-Westphalia
+Germany:Warin:Mecklenburg-Western Pomerania
+Germany:Warstein:North Rhine-Westphalia
+Germany:Wassenberg:North Rhine-Westphalia
+Germany:Wassertrüdingen:Bavaria
+Germany:Wasungen:Thuringia
+Germany:Wedel:Schleswig-Holstein
+Germany:Weener:Lower Saxony
+Germany:Wegberg:North Rhine-Westphalia
+Germany:Wegeleben:Saxony-Anhalt
+Germany:Wehr:Baden-Württemberg
+Germany:Weida:Thuringia
+Germany:Weikersheim:Baden-Württemberg
+Germany:Weilburg:Hesse
+Germany:Weimar:Thuringia
+Germany:Weingarten:Baden-Württemberg
+Germany:Weinheim:Baden-Württemberg
+Germany:Weinsberg:Baden-Württemberg
+Germany:Weinstadt:Baden-Württemberg
+Germany:Weismain:Bavaria
+Germany:Weißenberg:Saxony
+Germany:Weißenfels:Saxony-Anhalt
+Germany:Weißenhorn:Bavaria
+Germany:Weißensee:Thuringia
+Germany:Weißenstadt:Bavaria
+Germany:Weißenthurm:Rhineland-Palatinate
+Germany:Weißwasser:Saxony
+Germany:Weiterstadt:Hesse
+Germany:Welzheim:Baden-Württemberg
+Germany:Welzow:Brandenburg
+Germany:Wemding:Bavaria
+Germany:Werdau:Saxony
+Germany:Werdohl:North Rhine-Westphalia
+Germany:Werl:North Rhine-Westphalia
+Germany:Werlte:Lower Saxony
+Germany:Wermelskirchen:North Rhine-Westphalia
+Germany:Werne:North Rhine-Westphalia
+Germany:Werneuchen:Brandenburg
+Germany:Wernigerode:Saxony-Anhalt
+Germany:Werra-Suhl-Tal:Werra-Suhl-Thuringia
+Germany:Wertheim:Baden-Württemberg
+Germany:Wertingen:Bavaria
+Germany:Wesel:North Rhine-Westphalia
+Germany:Wesenberg:Mecklenburg-Western Pomerania
+Germany:Wesselburen:Schleswig-Holstein
+Germany:Wesseling:North Rhine-Westphalia
+Germany:Westerburg:Rhineland-Palatinate
+Germany:Westerstede:Lower Saxony
+Germany:Wettin-Löbejün:Wettin-Saxony-Anhalt
+Germany:Wetzlar:Hesse
+Germany:Widdern:Baden-Württemberg
+Germany:Wiehl:North Rhine-Westphalia
+Germany:Wiesbaden:Hesse
+Germany:Wiesensteig:Baden-Württemberg
+Germany:Wiesloch:Baden-Württemberg
+Germany:Wiesmoor:Lower Saxony
+Germany:Wildau:Brandenburg
+Germany:Wildberg:Baden-Württemberg
+Germany:Wildenfels:Saxony
+Germany:Wildeshausen:Lower Saxony
+Germany:Wilhelmshaven:Lower Saxony
+Germany:Wilkau-Haßlau:Wilkau-Saxony
+Germany:Willebadessen:North Rhine-Westphalia
+Germany:Willich:North Rhine-Westphalia
+Germany:Wilsdruff:Saxony
+Germany:Wilster:Schleswig-Holstein
+Germany:Wilthen:Saxony
+Germany:Windischeschenbach:Bavaria
+Germany:Windsbach:Bavaria
+Germany:Winnenden:Baden-Württemberg
+Germany:Winterberg:North Rhine-Westphalia
+Germany:Wipperfürth:North Rhine-Westphalia
+Germany:Wirges:Rhineland-Palatinate
+Germany:Wismar:Mecklenburg-Western Pomerania
+Germany:Wissen:Rhineland-Palatinate
+Germany:Witten:North Rhine-Westphalia
+Germany:Wittenberg:Saxony-Anhalt
+Germany:Wittenberge:Brandenburg
+Germany:Wittenburg:Mecklenburg-Western Pomerania
+Germany:Wittichenau:Saxony
+Germany:Wittlich:Rhineland-Palatinate
+Germany:Wittingen:Lower Saxony
+Germany:Wittmund:Lower Saxony
+Germany:Wittstock/Dosse:Wittstock/Brandenburg
+Germany:Witzenhausen:Hesse
+Germany:Woldegk:Mecklenburg-Western Pomerania
+Germany:Wolfach:Baden-Württemberg
+Germany:Wolfenbüttel:Lower Saxony
+Germany:Wolfhagen:Hesse
+Germany:Wolframs-Eschenbach:Wolframs-Bavaria
+Germany:Wolfratshausen:Bavaria
+Germany:Wolfsburg:Lower Saxony
+Germany:Wolfstein:Rhineland-Palatinate
+Germany:Wolgast:Mecklenburg-Western Pomerania
+Germany:Wolkenstein:Saxony
+Germany:Wolmirstedt:Saxony-Anhalt
+Germany:Worms:Rhineland-Palatinate
+Germany:Wörrstadt:Rhineland-Palatinate
+Germany:Wriezen:Brandenburg
+Germany:Wülfrath:North Rhine-Westphalia
+Germany:Wunsiedel:Bavaria
+Germany:Wunstorf:Lower Saxony
+Germany:Wuppertal:North Rhine-Westphalia
+Germany:Würselen:North Rhine-Westphalia
+Germany:Wurzbach:Thuringia
+Germany:Würzburg:Bavaria
+Germany:Wurzen:Saxony
+Germany:Xanten:North Rhine-Westphalia
+Germany:Zahna-Elster:Zahna-Saxony-Anhalt
+Germany:Zehdenick:Brandenburg
+Germany:Zeitz:Saxony-Anhalt
+Germany:Zella-Mehlis:Zella-Thuringia
+Germany:Zerbst:Saxony-Anhalt
+Germany:Zeulenroda-Triebes:Zeulenroda-Thuringia
+Germany:Zeven:Lower Saxony
+Germany:Ziegenrück:Thuringia
+Germany:Zierenberg:Hesse
+Germany:Ziesar:Brandenburg
+Germany:Zirndorf:Bavaria
+Germany:Zittau:Saxony
+Germany:Zörbig:Saxony-Anhalt
+Germany:Zossen:Brandenburg
+Germany:Zschopau:Saxony
+Germany:Zülpich:North Rhine-Westphalia
+Germany:Zweibrücken:Rhineland-Palatinate
+Germany:Zwenkau:Saxony
+Germany:Zwickau:Saxony
+Germany:Zwiesel:Bavaria
+Germany:Zwingenberg:Hesse
+Germany:Zwönitz:Saxony
+UnitedStates:New York:New York
+UnitedStates:Los Angeles:California
+UnitedStates:Chicago:Illinois
+UnitedStates:Houston:Texas
+UnitedStates:Phoenix:Arizona
+UnitedStates:Philadelphia:Pennsylvania
+UnitedStates:San Antonio:Texas
+UnitedStates:San Diego:California
+UnitedStates:Dallas:Texas
+UnitedStates:San Jose:California
+UnitedStates:Austin:Texas
+UnitedStates:Jacksonville:Florida
+UnitedStates:Fort Worth:Texas
+UnitedStates:Columbus:Ohio
+UnitedStates:Indianapolis:Indiana
+UnitedStates:Charlotte:North Carolina
+UnitedStates:San Francisco:California
+UnitedStates:Seattle:Washington
+UnitedStates:Denver:Colorado
+UnitedStates:Washington:District of Columbia
+UnitedStates:Nashville:Tennessee
+UnitedStates:Oklahoma City:Oklahoma
+UnitedStates:El Paso:Texas
+UnitedStates:Boston:Massachusetts
+UnitedStates:Portland:Oregon
+UnitedStates:Las Vegas:Nevada
+UnitedStates:Detroit:Michigan
+UnitedStates:Memphis:Tennessee
+UnitedStates:Louisville:Kentucky
+UnitedStates:Baltimore:Maryland
+UnitedStates:Milwaukee:Wisconsin
+UnitedStates:Albuquerque:New Mexico
+UnitedStates:Tucson:Arizona
+UnitedStates:Fresno:California
+UnitedStates:Sacramento:California
+UnitedStates:Kansas City:Missouri
+UnitedStates:Mesa:Arizona
+UnitedStates:Atlanta:Georgia
+UnitedStates:Omaha:Nebraska
+UnitedStates:Colorado Springs:Colorado
+UnitedStates:Raleigh:North Carolina
+UnitedStates:Long Beach:California
+UnitedStates:Virginia Beach:Virginia
+UnitedStates:Miami:Florida
+UnitedStates:Oakland:California
+UnitedStates:Minneapolis:Minnesota
+UnitedStates:Tulsa:Oklahoma
+UnitedStates:Bakersfield:California
+UnitedStates:Wichita:Kansas
+UnitedStates:Arlington:Texas
+UnitedStates:Aurora:Colorado
+UnitedStates:Tampa:Florida
+UnitedStates:New Orleans:Louisiana
+UnitedStates:Cleveland:Ohio
+UnitedStates:Honolulu:Hawaii
+UnitedStates:Anaheim:California
+UnitedStates:Lexington:Kentucky
+UnitedStates:Stockton:California
+UnitedStates:Corpus Christi:Texas
+UnitedStates:Henderson:Nevada
+UnitedStates:Riverside:California
+UnitedStates:Newark:New Jersey
+UnitedStates:Saint Paul:Minnesota
+UnitedStates:Santa Ana:California
+UnitedStates:Cincinnati:Ohio
+UnitedStates:Irvine:California
+UnitedStates:Orlando:Florida
+UnitedStates:Pittsburgh:Pennsylvania
+UnitedStates:St. Louis:Missouri
+UnitedStates:Greensboro:North Carolina
+UnitedStates:Jersey City:New Jersey
+UnitedStates:Anchorage:Alaska
+UnitedStates:Lincoln:Nebraska
+UnitedStates:Plano:Texas
+UnitedStates:Durham:North Carolina
+UnitedStates:Buffalo:New York
+UnitedStates:Chandler:Arizona
+UnitedStates:Chula Vista:California
+UnitedStates:Toledo:Ohio
+UnitedStates:Madison:Wisconsin
+UnitedStates:Gilbert:Arizona
+UnitedStates:Reno:Nevada
+UnitedStates:Fort Wayne:Indiana
+UnitedStates:North Las Vegas:Nevada
+UnitedStates:St. Petersburg:Florida
+UnitedStates:Lubbock:Texas
+UnitedStates:Irving:Texas
+UnitedStates:Laredo:Texas
+UnitedStates:Winston–Salem:North Carolina
+UnitedStates:Chesapeake:Virginia
+UnitedStates:Glendale:Arizona
+UnitedStates:Garland:Texas
+UnitedStates:Scottsdale:Arizona
+UnitedStates:Norfolk:Virginia
+UnitedStates:Boise:Idaho
+UnitedStates:Fremont:California
+UnitedStates:Spokane:Washington
+UnitedStates:Santa Clarita:California
+UnitedStates:Baton Rouge:Louisiana
+UnitedStates:Richmond:Virginia
+UnitedStates:Hialeah:Florida
+UnitedStates:San Bernardino:California
+UnitedStates:Tacoma:Washington
+UnitedStates:Modesto:California
+UnitedStates:Huntsville:Alabama
+UnitedStates:Des Moines:Iowa
+UnitedStates:Yonkers:New York
+UnitedStates:Rochester:New York
+UnitedStates:Moreno Valley:California
+UnitedStates:Fayetteville:North Carolina
+UnitedStates:Fontana:California
+UnitedStates:Columbus:Georgia
+UnitedStates:Worcester:Massachusetts
+UnitedStates:Port St. Lucie:Florida
+UnitedStates:Little Rock:Arkansas
+UnitedStates:Augusta:Georgia
+UnitedStates:Oxnard:California
+UnitedStates:Birmingham:Alabama
+UnitedStates:Montgomery:Alabama
+UnitedStates:Frisco:Texas
+UnitedStates:Amarillo:Texas
+UnitedStates:Salt Lake City:Utah
+UnitedStates:Grand Rapids:Michigan
+UnitedStates:Huntington Beach:California
+UnitedStates:Overland Park:Kansas
+UnitedStates:Glendale:California
+UnitedStates:Tallahassee:Florida
+UnitedStates:Grand Prairie:Texas
+UnitedStates:McKinney:Texas
+UnitedStates:Cape Coral:Florida
+UnitedStates:Sioux Falls:South Dakota
+UnitedStates:Peoria:Arizona
+UnitedStates:Providence:Rhode Island
+UnitedStates:Vancouver:Washington
+UnitedStates:Knoxville:Tennessee
+UnitedStates:Akron:Ohio
+UnitedStates:Shreveport:Louisiana
+UnitedStates:Mobile:Alabama
+UnitedStates:Brownsville:Texas
+UnitedStates:Newport News:Virginia
+UnitedStates:Fort Lauderdale:Florida
+UnitedStates:Chattanooga:Tennessee
+UnitedStates:Tempe:Arizona
+UnitedStates:Aurora:Illinois
+UnitedStates:Santa Rosa:California
+UnitedStates:Eugene:Oregon
+UnitedStates:Elk Grove:California
+UnitedStates:Salem:Oregon
+UnitedStates:Ontario:California
+UnitedStates:Cary:North Carolina
+UnitedStates:Rancho Cucamonga:California
+UnitedStates:Oceanside:California
+UnitedStates:Lancaster:California
+UnitedStates:Garden Grove:California
+UnitedStates:Pembroke Pines:Florida
+UnitedStates:Fort Collins:Colorado
+UnitedStates:Palmdale:California
+UnitedStates:Springfield:Missouri
+UnitedStates:Clarksville:Tennessee
+UnitedStates:Salinas:California
+UnitedStates:Hayward:California
+UnitedStates:Paterson:New Jersey
+UnitedStates:Alexandria:Virginia
+UnitedStates:Macon:Georgia
+UnitedStates:Corona:California
+UnitedStates:Kansas City:Kansas
+UnitedStates:Lakewood:Colorado
+UnitedStates:Springfield:Massachusetts
+UnitedStates:Sunnyvale:California
+UnitedStates:Jackson:Mississippi
+UnitedStates:Killeen:Texas
+UnitedStates:Hollywood:Florida
+UnitedStates:Murfreesboro:Tennessee
+UnitedStates:Pasadena:Texas
+UnitedStates:Bellevue:Washington
+UnitedStates:Pomona:California
+UnitedStates:Escondido:California
+UnitedStates:Joliet:Illinois
+UnitedStates:Charleston:South Carolina
+UnitedStates:Mesquite:Texas
+UnitedStates:Naperville:Illinois
+UnitedStates:Rockford:Illinois
+UnitedStates:Bridgeport:Connecticut
+UnitedStates:Syracuse:New York
+UnitedStates:Savannah:Georgia
+UnitedStates:Roseville:California
+UnitedStates:Torrance:California
+UnitedStates:Fullerton:California
+UnitedStates:Surprise:Arizona
+UnitedStates:McAllen:Texas
+UnitedStates:Thornton:Colorado
+UnitedStates:Visalia:California
+UnitedStates:Olathe:Kansas
+UnitedStates:Gainesville:Florida
+UnitedStates:West Valley City:Utah
+UnitedStates:Orange:California
+UnitedStates:Denton:Texas
+UnitedStates:Warren:Michigan
+UnitedStates:Pasadena:California
+UnitedStates:Waco:Texas
+UnitedStates:Cedar Rapids:Iowa
+UnitedStates:Dayton:Ohio
+UnitedStates:Elizabeth:New Jersey
+UnitedStates:Hampton:Virginia
+UnitedStates:Columbia:South Carolina
+UnitedStates:Kent:Washington
+UnitedStates:Stamford:Connecticut
+UnitedStates:Lakewood:New Jersey
+UnitedStates:Victorville:California
+UnitedStates:Miramar:Florida
+UnitedStates:Coral Springs:Florida
+UnitedStates:Sterling Heights:Michigan
+UnitedStates:New Haven:Connecticut
+UnitedStates:Carrollton:Texas
+UnitedStates:Midland:Texas
+UnitedStates:Norman:Oklahoma
+UnitedStates:Santa Clara:California
+UnitedStates:Athens:Georgia
+UnitedStates:Thousand Oaks:California
+UnitedStates:Topeka:Kansas
+UnitedStates:Simi Valley:California
+UnitedStates:Columbia:Missouri
+UnitedStates:Vallejo:California
+UnitedStates:Fargo:North Dakota
+UnitedStates:Allentown:Pennsylvania
+UnitedStates:Pearland:Texas
+UnitedStates:Concord:California
+UnitedStates:Abilene:Texas
+UnitedStates:Arvada:Colorado
+UnitedStates:Berkeley:California
+UnitedStates:Ann Arbor:Michigan
+UnitedStates:Independence:Missouri
+UnitedStates:Rochester:Minnesota
+UnitedStates:Lafayette:Louisiana
+UnitedStates:Hartford:Connecticut
+UnitedStates:College Station:Texas
+UnitedStates:Clovis:California
+UnitedStates:Fairfield:California
+UnitedStates:Palm Bay:Florida
+UnitedStates:Richardson:Texas
+UnitedStates:Round Rock:Texas
+UnitedStates:Cambridge:Massachusetts
+UnitedStates:Meridian:Idaho
+UnitedStates:West Palm Beach:Florida
+UnitedStates:Evansville:Indiana
+UnitedStates:Clearwater:Florida
+UnitedStates:Billings:Montana
+UnitedStates:West Jordan:Utah
+UnitedStates:Richmond:California
+UnitedStates:Westminster:Colorado
+UnitedStates:Manchester:New Hampshire
+UnitedStates:Lowell:Massachusetts
+UnitedStates:Wilmington:North Carolina
+UnitedStates:Antioch:California
+UnitedStates:Beaumont:Texas
+UnitedStates:Provo:Utah
+UnitedStates:North Charleston:South Carolina
+UnitedStates:Elgin:Illinois
+UnitedStates:Carlsbad:California
+UnitedStates:Odessa:Texas
+UnitedStates:Waterbury:Connecticut
+UnitedStates:Springfield:Illinois
+UnitedStates:League City:Texas
+UnitedStates:Downey:California
+UnitedStates:Gresham:Oregon
+UnitedStates:High Point:North Carolina
+UnitedStates:Broken Arrow:Oklahoma
+UnitedStates:Peoria:Illinois
+UnitedStates:Lansing:Michigan
+UnitedStates:Lakeland:Florida
+UnitedStates:Pompano Beach:Florida
+UnitedStates:Costa Mesa:California
+UnitedStates:Pueblo:Colorado
+UnitedStates:Lewisville:Texas
+UnitedStates:Miami Gardens:Florida
+UnitedStates:Las Cruces:New Mexico
+UnitedStates:Sugar Land:Texas
+UnitedStates:Murrieta:California
+UnitedStates:Ventura:California
+UnitedStates:Everett:Washington
+UnitedStates:Temecula:California
+UnitedStates:Dearborn:Michigan
+UnitedStates:Santa Maria:California
+UnitedStates:West Covina:California
+UnitedStates:El Monte:California
+UnitedStates:Greeley:Colorado
+UnitedStates:Sparks:Nevada
+UnitedStates:Centennial:Colorado
+UnitedStates:Boulder:Colorado
+UnitedStates:Sandy Springs:Georgia
+UnitedStates:Inglewood:California
+UnitedStates:Edison:New Jersey
+UnitedStates:South Fulton:Georgia
+UnitedStates:Green Bay:Wisconsin
+UnitedStates:Burbank:California
+UnitedStates:Renton:Washington
+UnitedStates:Hillsboro:Oregon
+UnitedStates:El Cajon:California
+UnitedStates:Tyler:Texas
+UnitedStates:Davie:Florida
+UnitedStates:San Mateo:California
+UnitedStates:Brockton:Massachusetts
+UnitedStates:Concord:North Carolina
+UnitedStates:Jurupa Valley:California
+UnitedStates:Daly City:California
+UnitedStates:Allen:Texas
+UnitedStates:Rio Rancho:New Mexico
+UnitedStates:Rialto:California
+UnitedStates:Woodbridge:New Jersey
+UnitedStates:South Bend:Indiana
+UnitedStates:Spokane Valley:Washington
+UnitedStates:Norwalk:California
+UnitedStates:Menifee:California
+UnitedStates:Vacaville:California
+UnitedStates:Wichita Falls:Texas
+UnitedStates:Davenport:Iowa
+UnitedStates:Quincy:Massachusetts
+UnitedStates:Chico:California
+UnitedStates:Lynn:Massachusetts
+UnitedStates:Lee's Summit:Missouri
+UnitedStates:New Bedford:Massachusetts
+UnitedStates:Federal Way:Washington
+UnitedStates:Clinton:Michigan
+UnitedStates:Edinburg:Texas
+UnitedStates:Nampa:Idaho
+UnitedStates:Roanoke:Virginia
