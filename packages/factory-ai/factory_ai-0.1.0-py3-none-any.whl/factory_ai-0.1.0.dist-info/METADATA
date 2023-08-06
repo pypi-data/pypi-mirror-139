@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: factory-ai
+Version: 0.1.0
+Summary: 
+Author: Jidhu Mohan
+Author-email: jidhu.mohan@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: apache-beam (>=2.35.0,<3.0.0)
+Requires-Dist: bayesian-optimization (>=1.2.0,<2.0.0)
+Requires-Dist: future (>=0.18.2,<0.19.0)
+Requires-Dist: gekko (>=1.0.2,<2.0.0)
+Requires-Dist: gym (>=0.21.0,<0.22.0)
+Requires-Dist: keras (==2.6)
+Requires-Dist: keras-tuner (>=1.1.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: mediapipe (>=0.8.9,<0.9.0)
+Requires-Dist: opencv-python (==4.4.0.46)
+Requires-Dist: pyglet (>=1.5.21,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
+Requires-Dist: tensorflow (==2.6)
+Requires-Dist: tensorflow-data-validation (==1.4)
+Requires-Dist: tensorflow-transform (==1.4)
