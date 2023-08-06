@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: attrs-mek
+Version: 0.0.1
+Summary: Clean nested deserialization for attrs
+Home-page: https://www.attrs.org/
+Author: Alex Rudolph
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: attrs
+Requires-Dist: pytest
+
+# Hello
+
+this is my package
+
+here are some examples
+
+# Easy example
+
+```python
+from attrs_mek import mek
+
+person = {"name": "Mek", "age": 0}
+
+
+@mek
+class Person:
+    name: str
+    age: int
+
+
+mek_person = Person.from_dict(person)
+# Person(name="Mek", age=0)
+```
+
+some description
+
+# Example 2
+
+hello
+
+```python
+from attrs_mek import mek, Key
+
+person = {"person": {"name": "Mek", "age": 0}}
+
+
+@mek
+class Person:
+    person: Key
+    name: str
+    age: int
+
+
+mek_person = Person.from_dict(person)
+# Person(name="Mek" age=0)
+```
+
+heres what's happening
+
+```python
+from datetime import datetime
+from attrs.validators import instance_of
+from attrs_mek import mek, Key, Value
+
+person = {
+    "person": {"name": "Mek", "age": 0},
+    "meta": {"created": {"date": "2022/2/19"}},
+}
+
+
+def validate(cls, fields):
+    return [f.evolve(validator=instance_of(f.type)) for f in fields]
+
+
+@mek(frozen=True, field_transformer=validate)
+class Person:
+    person: Key
+    name: str
+    age: int
+
+    meta_created: Key
+    date: datetime = Value()
+
+    @date.converter
+    def date_converter(val):
+        return datetime.strptime(val, "%Y/%m/%d")
+
+
+mek_person = Person.from_dict(person)
+# Person(name='Mek', age=0, created=datetime.datetime(2022, 2, 19, 0, 0))
+```
+
+include attrs stuff
+
