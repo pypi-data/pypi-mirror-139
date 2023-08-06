@@ -1,0 +1,12 @@
+attrs>21
+paho-mqtt~=1.5.0
+pyyaml~=5.4.1
+
+[pymodbus]
+pymodbus==2.5.3
+pyserial-asyncio
+
+[umodbus]
+async_modbus
+connio
+socketio
