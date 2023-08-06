@@ -1,0 +1,14 @@
+withings/__init__.py,sha256=aXzLkmKgCKwsSOVoqY-Vca0mCLCrhiMiT99nl7i21nQ,48
+withings/api.py,sha256=cGKtIQIPcLqXbYi9RFtxPoE5Bg1pXnoo-zVebW859BY,15346
+withings/codes.py,sha256=9QlFoxlV8ecCgWArg7r4LoHEr-gQOTc2cSEdwc9Cs3I,3828
+withings/exceptions.py,sha256=Qrcn5q1nGDErD9rhYDUUZpwRl4AO6iEzHL5VMsPgC3A,4330
+withings/status_codes.py,sha256=z6aiKA4Iiwyds16PHRLC_pp-w6_PvpQ_pBXMnxbkMIc,3090
+withings/structures.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+withings/oauth2/__init__.py,sha256=jmTw_yW4QWH2fGm1JGMcehiq-0AH5DAqt4UC-rSg_5A,36
+withings/oauth2/authorizer.py,sha256=3mAEC3IbcV_g_uuqUnGjvMAEwY0a91I3bmUxiz2Yl-Q,7221
+withings/oauth2/callback.py,sha256=Svto-RGtegm7NB9H2110Hcn-J7W0yIeWAMIVh8hFwgY,2984
+withings/oauth2/parser.py,sha256=2BBc81fAcQMMiOylW_fdXMo9OuAppmdMrMHoERqtRfs,1256
+python_withings-1.0.3.dist-info/METADATA,sha256=Q_fbeUnQ0_O6jt4ZkBDzxg9MVi7H5jq6WBwc_VCOMGQ,1097
+python_withings-1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_withings-1.0.3.dist-info/top_level.txt,sha256=avnMdqjwD-_Qnv_SoCwN2zMw0yFh8jp2AIAoy6au8uo,25
+python_withings-1.0.3.dist-info/RECORD,,

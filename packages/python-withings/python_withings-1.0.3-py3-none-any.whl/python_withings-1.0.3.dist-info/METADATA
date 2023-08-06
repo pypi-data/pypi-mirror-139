@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: python-withings
+Version: 1.0.3
+Summary: Wrapper package for Withings API
+Home-page: https://github.com/strohganoff/python-withings
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests-oauthlib
+Requires-Dist: python-dateutil
+
+# python-withings
+
+Withings API Python Client Implementation
+
+
+
+## Requirements
+
+* `python-dateutil`: https://pypi.org/project/python-dateutil/1.4/
+* `requests-oauthlib`: https://pypi.python.org/pypi/requests-oauthlib
+
+
+## Usage
+
+```python
+
+from withings import Withings
+from withings import WithingsAUTH
+
+# If first time authorizing user
+with_auth = WithingsAUTH('developer client id',
+						 'developer callback url')
+auth_code = with_auth.authorize("user email address",
+								"user password")
+
+# Pass in authorization code to use API
+withings = Withings('developer client id',
+					'developer client secret',
+					'developer callback url',
+					auth_code=auth_code)
+
+# Start making calls
+sleep = withings.get_sleep_detail_data(
+			last_update_date=datetime(year=2021, month=5, day=18))
+
+```
+
