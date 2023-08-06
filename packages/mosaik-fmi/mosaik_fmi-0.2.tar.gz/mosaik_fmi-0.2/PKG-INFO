@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: mosaik_fmi
+Version: 0.2
+Summary: Adapter for FMUs (ME or CS) in mosaik
+Home-page: https://mosaik.offis.de
+Author: Cornelius Steinbrink
+Author-email: mosaik@offis.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+License-File: AUTHORS.txt
+
+==========
+mosaik-fmi
+==========
+
+This mosaik-fmi adapter allows to couple FMUs, which are based on the FMI standard (https://fmi-standard.org) with mosaik.
+
+Installation
+============
+
+* mosaik-fmi is based on the FMI++ library, which can be found at https://fmipp.sourceforge.io/
+* The FMI++ python interface is used, which can be found at https://github.com/AIT-IES/py-fmipp. See this page also for details about installation and requirements of the python interface.
+
+Test
+====
+
+The tests for Co-Simulation and ModelExchange in test_fmuAdapter.py don't work together yet and have to be called separately
+(by commenting out the respective other one in @pytest.mark.parametrize("fmi_type,fmu_dir").
+
+The FMU for the test is based on https://github.com/qtronic/fmusdk.
+
+How to Use
+==========
+Specify simulator configurations within your scenario script::
+
+    sim_config = {
+        'FMI': {
+            'python': 'mosaik_fmi.mosaik_fmi:FmuAdapter',
+        },
+        ...
+    }
+
+Initialize the FMU Simulator::
+
+    fmu_sim = world.start('FMI',
+                        integrator='dp',
+                        work_dir='path/to/the/fmu/directory',
+                        fmu_name='FMU_name',
+                        fmi_version='2',
+                        fmi_type='cs',
+                        logging_on=False,
+                        instance_name='FMU_name',
+                        step_size=60*60)
+
+Instantiate FMU model entity::
+
+    fmu_entity = fmu_sim.FMU_name.create(1,
+                                 input_1=1.0,          #  FMU input variable
+                                 input_2=2.0,          #  All variables are listed in modelDescription.xml
+                                 ...
+                                 )
+
+Connect FMU output to another simulator's input::
+
+    world.connect(fmu_entity[0], other_simulator,'fmu_output_1', 'simulator_input_1')
+
+Getting help
+============
+
+If you need help, please visit the `mosaik-users mailing list`__ .
+
+__ https://mosaik.offis.de/mailinglist
+
+
+Changelog
+=========
+
+0.2 – 2022-02-23
+----------------
+
+- Fix: FMI model identifier instead of model name needed to create FMU using fmipp
+
+0.1 – 2020-08-14
+----------------
+
+- Initial release
+
+
+Authors
+=======
+
+The adapter was initially developed by Cornelius Steinbrink and updated and extended by Thomas Raub and Jan Sören Schwarz.
+
