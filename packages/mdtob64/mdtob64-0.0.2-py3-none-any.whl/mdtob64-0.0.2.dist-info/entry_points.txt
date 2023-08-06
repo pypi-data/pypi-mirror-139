@@ -1,0 +1,3 @@
+[console_scripts]
+mdtob64 = mdtob64.mdtob64:mdtob64
+
