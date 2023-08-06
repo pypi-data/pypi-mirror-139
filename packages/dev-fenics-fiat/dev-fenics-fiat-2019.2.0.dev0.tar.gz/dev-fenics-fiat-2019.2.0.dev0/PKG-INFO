@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dev-fenics-fiat
+Version: 2019.2.0.dev0
+Summary: FInite element Automatic Tabulator
+Home-page: https://bitbucket.org/fenics-project/fiat/
+Author: Robert C. Kirby et al.
+Author-email: fenics-dev@googlegroups.com
+License: LGPL v3 or later
+Platform: UNKNOWN
+License-File: COPYING
+License-File: COPYING.LESSER
+License-File: AUTHORS
+
+UNKNOWN
+
