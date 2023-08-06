@@ -1,0 +1,13 @@
+ncal/__init__.py,sha256=X5shOZ86DoHbOLj5AQ8oJmLb6cMuvyrAJyXp7ll0JHw,70
+ncal/__main__.py,sha256=tHOkYlVebl5nC8V2KaYz2unKzii0gNXo4wGHwCQdai8,32
+ncal/cli.py,sha256=Rk4J4JxFhx-Av_e3b8Es5e0JGgdXqN8kk5ZAan5Uapk,8559
+ncal/config.py,sha256=i0fkOaiP8_jwvUZJ6K4jNQDTfNB3FVJp-NTdT0IJLVI,8131
+ncal/core.py,sha256=GyWpOTGf3LEnyXUx4TOVbyk25DMMjrt0EcYWRvHHrho,64041
+ncal/gcal_token.py,sha256=2iNn3DhRvuOeKoQFoxzr8f9DfpwPxc2ID71R6P4hNGs,443
+ncal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncal/utils.py,sha256=lFrY_uKQFiaX5lnEs3T1EQwCPouSqcOrwmOt6v9S8H8,1715
+ncal-0.1.13.dist-info/entry_points.txt,sha256=SXGmImpmqgRfgxUG37sv6uNS__I_G-GJGx3WdAwRzNc,37
+ncal-0.1.13.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ncal-0.1.13.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ncal-0.1.13.dist-info/METADATA,sha256=Laf5YP8h9u9X0ucVwwlWeBNMbVEQEFqU9yUvmLVK3do,2595
+ncal-0.1.13.dist-info/RECORD,,
