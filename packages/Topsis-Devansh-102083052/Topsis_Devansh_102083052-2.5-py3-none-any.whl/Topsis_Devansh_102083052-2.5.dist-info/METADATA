@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Topsis-Devansh-102083052
+Version: 2.5
+Summary: Topsis
+Home-page: UNKNOWN
+Author: DevanshGupta
+Author-email: dgupta_bemba19@thapar.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# Topsis Description
+
+This Python module will assist you in calculating topsis score and accompanying rank inÂ fewÂ lines of code.
+
+The script will generate a csv file according to the input information, i.e. a dataframe, with extra parameters such as weights and impacts of the columns in the dataframe.
+
+# Usage
+
+Step 1:Use the following command to install the topsis package. (!pip install Topsis-Devansh-10208352) 
+
+Step 2: Using the command, import the package. (tp=\_\_import__("Topsis-Devansh-10208352"))
+
+Step 3: Call the Topsis function to produce the csv file, with the first parameter being your input dataframe, the second being weights, the third being impacts, and the last being the name of the output csv file. As an example:
+tp.topsis('102083052-data.csv',"1,2,1,2,1","+,+,-,+,+","result.csv")
+
+This command will create the csv file result.csv
+
+# Constraints
+1) Create a dataframe with the first column as the model name and the rest as its features.
+2) Weights must be separated by commas and in the form of a string.
+3) Impacts must be separated by commas and in the form of a string with only positive and negative signs.
+4) Don't forget to include the.csv extension.
+
