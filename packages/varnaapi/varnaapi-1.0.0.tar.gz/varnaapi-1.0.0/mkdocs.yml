@@ -1,0 +1,40 @@
+# mkdocs.yml
+
+site_name: VARNA API
+repo_url: "https://gitlab.inria.fr/amibio/varna-api"
+repo_name: "AMIBio/VARNA-API"
+theme:
+  # name: "readthedocs"
+  name: "material"
+
+nav:
+  - Home: index.md
+  - Gallery:
+    - Riboswitch cartoon: gallery/Cartoon-like.ipynb
+  - API:
+    - Drawing Classes: drawing.md
+    - Configurations: config.md
+    - Style Classes: style.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          selection:
+            filters:
+              - "!^_"
+              - "^__init__$"
+          rendering:
+            show_root_toc_entry: False
+      watch:
+        - src/varnaapi
+  - mkdocs-jupyter
+
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - admonition
