@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dahel
+Version: 0.1.0
+Summary: Frequently used data helpers.
+License: MIT
+Author: Fabian Gunzinger
+Author-email: fa.gunzinger@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipykernel (>=6.9.1,<7.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: s3fs (>=2022.2.0,<2023.0.0)
