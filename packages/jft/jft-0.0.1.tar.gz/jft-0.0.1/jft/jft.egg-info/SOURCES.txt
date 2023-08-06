@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jft/jft.egg-info/PKG-INFO
+jft/jft.egg-info/SOURCES.txt
+jft/jft.egg-info/dependency_links.txt
+jft/jft.egg-info/top_level.txt
