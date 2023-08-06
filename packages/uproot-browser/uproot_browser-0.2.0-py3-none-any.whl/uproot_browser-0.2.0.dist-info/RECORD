@@ -1,0 +1,11 @@
+uproot_browser/__init__.py,sha256=LwDGMIPIPz6AYDTc0sA6vLGP14gKef4Gi8w_MkfZT34,200
+uproot_browser/__main__.py,sha256=m21HupueZwDQBaTMYXf74y39bEEIxg67OARYtOrg6b4,1070
+uproot_browser/dirs.py,sha256=BbZwNj3qowQZ_i1AXIY6FwKBBNGSbT0C2JQDalUzfsU,710
+uproot_browser/plot.py,sha256=_el1fFOImG7wU-8FN5w1PLmh6KWmQrkR2xBUWctdWb8,1016
+uproot_browser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uproot_browser/tree.py,sha256=eUg1dXsPSXwd03DLhLkn_UrpvbOdLzCnxib4MULpAEU,3575
+uproot_browser-0.2.0.dist-info/entry_points.txt,sha256=WDozZ6gZwB4bToiEmn-b4ERmUW_Ie1Myhl55A_YQYF0,63
+uproot_browser-0.2.0.dist-info/LICENSE,sha256=xsiXAvEjCkPO2WBPRQYzu5uDw-V80EIrKnjKRB5CUdA,1523
+uproot_browser-0.2.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+uproot_browser-0.2.0.dist-info/METADATA,sha256=sJKouhpx630i3eTBtiJUqq2vXPrW5ne822E8FXJppwc,8735
+uproot_browser-0.2.0.dist-info/RECORD,,
