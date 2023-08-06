@@ -1,0 +1,7 @@
+numpy
+numba
+scikit-learn
+
+[dev]
+pytest>3.7
+twine
