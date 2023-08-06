@@ -1,0 +1,6 @@
+tflearn
+tensorflow
+keras
+nltk
+numpy
+pickle
