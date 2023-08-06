@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyfolio-performance
+Version: 0.1.0
+Summary: Portfolio Performance library
+Home-page: https://pyfolio-performance.readthedocs.io/
+Author: Fabian Bendun
+Author-email: pyfolio-performance@bendun.io
+License: MIT
+Requires-Dist: et-xmlfile
+
+# pyfolio-performance
+
+
