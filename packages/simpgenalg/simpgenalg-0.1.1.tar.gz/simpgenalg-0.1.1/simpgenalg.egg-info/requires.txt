@@ -1,0 +1,6 @@
+simptoolbox==0.1.2
+simplogger==0.2.2
+simpcfg==0.1.8
+
+[scipy]
+scipy==1.8.0
