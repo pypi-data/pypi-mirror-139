@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+libsampled/__init__.py
+libsampled/canonical.py
+libsampled/sampled.py
+libsampled.egg-info/PKG-INFO
+libsampled.egg-info/SOURCES.txt
+libsampled.egg-info/dependency_links.txt
+libsampled.egg-info/top_level.txt
