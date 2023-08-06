@@ -1,0 +1,14 @@
+odoo8_addon_shopinvader_visible_discount-8.0.1.0.0.99.dev1-py3.8-nspkg.pth,sha256=byZRehCeET5bIG0AMyMXPLGoXAE887IW4f1j_Rh4alU,564
+odoo_addons/shopinvader_visible_discount/README.rst,sha256=9LXRJqJfNr-Uw6hdv4SPl1--6Ot2t8CS2KP0y5Y0mt4,1205
+odoo_addons/shopinvader_visible_discount/__init__.py,sha256=wCKnhZIzooth-4Rz8YFe5lgqaEQg1W7SkGY_IWtGNYQ,80
+odoo_addons/shopinvader_visible_discount/__openerp__.py,sha256=Fmrc0wcaMsRZuYJ1NN1YaBz6DQzKCFuQHUdhPK-lrl0,816
+odoo_addons/shopinvader_visible_discount/hooks.py,sha256=D_-iLg9r023ERoovsGFla83-43aSskuU4lnELHiEvCU,405
+odoo_addons/shopinvader_visible_discount/models/__init__.py,sha256=YkJ6gC3bB8c1TrZty9vZUIoQD2KlF_WLxVqjovQU9cs,47
+odoo_addons/shopinvader_visible_discount/models/product.py,sha256=wgmMBxdhP39_BxFnH87R2cZpeWY9qh4IK0vxbiOeoT8,912
+odoo_addons/shopinvader_visible_discount/tests/__init__.py,sha256=rcpW0s8hE9qhpvKnMbF9LpgYbS4pUZcUm81KSz_WbfQ,52
+odoo_addons/shopinvader_visible_discount/tests/test_product.py,sha256=4XlC2ZEpFg-cRNZf0TObua9SxsXkcbstBoMhzjX-P34,733
+odoo8_addon_shopinvader_visible_discount-8.0.1.0.0.99.dev1.dist-info/METADATA,sha256=8qWTmNngtn-4KBxUdgOIYYCgaQfw4ooIxU_K-AxxBIM,1739
+odoo8_addon_shopinvader_visible_discount-8.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+odoo8_addon_shopinvader_visible_discount-8.0.1.0.0.99.dev1.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_shopinvader_visible_discount-8.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_shopinvader_visible_discount-8.0.1.0.0.99.dev1.dist-info/RECORD,,
