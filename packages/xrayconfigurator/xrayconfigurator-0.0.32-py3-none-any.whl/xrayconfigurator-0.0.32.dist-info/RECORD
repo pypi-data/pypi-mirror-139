@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=OlZRqQCibGzh2g3UaH1sQXZS2Eb55I6MtvDGcxnzp80,46
+tests/test_xray_config.py,sha256=eWDdnxxBaychtIjc9lal9H_EeqniWXiDmRXdIFulKIU,4829
+xray_configurator/__init__.py,sha256=OlZRqQCibGzh2g3UaH1sQXZS2Eb55I6MtvDGcxnzp80,46
+xray_configurator/xray_configurator.py,sha256=0Vjg9SJiMGYzgr42qlX0avLQdcOXrWH9KKa1wC_Nb78,7014
+xrayconfigurator-0.0.32.dist-info/METADATA,sha256=B52s2KeSVBE3MsUVCwfFjfIcicQpRcPmVrE-rgDjHGA,597
+xrayconfigurator-0.0.32.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xrayconfigurator-0.0.32.dist-info/top_level.txt,sha256=StuLWGgVuTiczjv8EQp_jYYd83BKrrnn4LhqbzQLVlo,24
+xrayconfigurator-0.0.32.dist-info/RECORD,,
