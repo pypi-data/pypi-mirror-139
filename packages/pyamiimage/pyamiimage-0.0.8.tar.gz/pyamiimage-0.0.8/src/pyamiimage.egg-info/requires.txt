@@ -1,0 +1,11 @@
+Pillow
+lxml
+matplotlib
+networkx
+numpy
+pytesseract
+pytest
+scikit_image
+setuptools
+skan
+sknw
