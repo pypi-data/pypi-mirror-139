@@ -1,0 +1,24 @@
+{%- extends "basic/layout.html" %}
+
+{%- block header %}
+<div class="pageheader">
+  <ul>
+    <!-- <li><a href="{{ pathto('index') }}">Home</a></li>
+    <li><a href="{{ pathto('usage/installation') }}">Get it</a></li>
+    <li><a href="{{ pathto('contents') }}">Docs</a></li>
+    <li><a href="{{ pathto('develop') }}">Extend/Develop</a></li> -->
+  </ul>
+  <div>
+    {% if theme_logo %}
+    <a href="{{ pathto(master_doc) }}">
+      <img src="{{ pathto('_static/' ~ theme_logo, 1) }}" alt="{{ 'Logo ' ~ project }}" />
+      {% if theme_logo_name|lower == 'true' %}
+      <h1 class="logo logo-name">{{ project }}</h1>
+      {% endif %}
+    </a>
+    {% else %}
+    <h1 class="logo"><a href="{{ pathto(master_doc) }}">{{ project }}</a></h1>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

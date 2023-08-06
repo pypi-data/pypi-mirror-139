@@ -1,0 +1,5 @@
+[pygments.styles]
+mrtools = mrtoolstheme.support:MrToolsStyle
+
+[sphinx.html_themes]
+mrtools = mrtoolstheme
