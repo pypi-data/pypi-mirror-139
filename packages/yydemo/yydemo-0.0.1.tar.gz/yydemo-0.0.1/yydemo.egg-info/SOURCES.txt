@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+yydemo/__init__.py
+yydemo/yydemo.py
+yydemo.egg-info/PKG-INFO
+yydemo.egg-info/SOURCES.txt
+yydemo.egg-info/dependency_links.txt
+yydemo.egg-info/not-zip-safe
+yydemo.egg-info/top_level.txt

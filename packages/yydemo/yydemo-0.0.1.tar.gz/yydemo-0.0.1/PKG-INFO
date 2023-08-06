@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: yydemo
+Version: 0.0.1
+Summary: a short descrip
+Home-page: https://github.com/liyangyang515/yydemo
+Author: Li Yangyang
+Author-email: yangyang.li@ntu.edu.sg
+License: MIT license
+Keywords: yydemo
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# yydemo
+
+
+[![image](https://img.shields.io/pypi/v/yydemo.svg)](https://pypi.python.org/pypi/yydemo)
+
+
+**a short descrip**
+
+
+-   Free software: MIT license
+-   Documentation: https://liyangyang515.github.io/yydemo
+    
+
+## Features
+
+-   TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
+
+
