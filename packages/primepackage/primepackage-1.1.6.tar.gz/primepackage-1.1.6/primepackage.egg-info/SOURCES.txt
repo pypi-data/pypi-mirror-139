@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+setup.py
+primepackage.egg-info/PKG-INFO
+primepackage.egg-info/SOURCES.txt
+primepackage.egg-info/dependency_links.txt
+primepackage.egg-info/top_level.txt
+src/__init__.py
+src/isprime.py
+src/isriemann.py
+src/primelist.py
+src/randomprime.py
+src/riemannlist.py
