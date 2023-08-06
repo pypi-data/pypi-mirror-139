@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dotbimpy/__init__.py
+dotbimpy/file.py
+dotbimpy.egg-info/PKG-INFO
+dotbimpy.egg-info/SOURCES.txt
+dotbimpy.egg-info/dependency_links.txt
+dotbimpy.egg-info/requires.txt
+dotbimpy.egg-info/top_level.txt
