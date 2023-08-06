@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dash_d3cloud/WordCloud.py
+dash_d3cloud/__init__.py
+dash_d3cloud/_imports_.py
+dash_d3cloud/dash_d3cloud.dev.js
+dash_d3cloud/dash_d3cloud.dev.js.map
+dash_d3cloud/dash_d3cloud.min.js
+dash_d3cloud/dash_d3cloud.min.js.map
+dash_d3cloud/metadata.json
+dash_d3cloud/package.json
+dash_d3cloud.egg-info/PKG-INFO
+dash_d3cloud.egg-info/SOURCES.txt
+dash_d3cloud.egg-info/dependency_links.txt
+dash_d3cloud.egg-info/top_level.txt

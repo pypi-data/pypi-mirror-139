@@ -1,0 +1,52 @@
+{
+  "name": "dash_d3cloud",
+  "version": "0.2.0",
+  "description": "Dash component based on react-wordcloud which is based on d3-cloud",
+  "scripts": {
+    "start": "webpack-serve ./webpack.serve.config.js --open",
+    "validate-init": "python _validate_init.py",
+    "prepublish": "npm run validate-init",
+    "build:js-dev": "webpack --mode development",
+    "build": "npm run build:js && npm run build:py",
+    "build:js": "webpack --mode production",
+    "build:py": "dash-generate-components ./src/lib/components dash_d3cloud",
+    "build:py-activated": "(. venv/bin/activate || venv\\scripts\\activate && npm run build:py)",
+    "build:all": "npm run build:js && npm run build:js-dev && npm run build:py",
+    "build:all-activated": "(. venv/bin/activate || venv\\scripts\\activate && npm run build:all)"
+  },
+  "author": "Tomas Trnka tomas@trnkatomas.eu",
+  "author_email": "tomas@trnkatomas.eu",
+  "url": "https://github.com/trnkatomas/dash_d3cloud",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^6.4.1",
+    "js-yaml": "^3.13.1",
+    "npm-ls": "^1.0.0",
+    "ramda": "^0.25.0",
+    "react-wordcloud": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "copyfiles": "^2.3.0",
+    "css-loader": "^6.6.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.9.1",
+    "npm": "^7.20.6",
+    "react": "^16.8.6",
+    "react-docgen": "^2.20.1",
+    "react-dom": "^16.8.4",
+    "style-loader": "^0.21.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "engines": {
+    "node": ">=8.11.0",
+    "npm": ">=6.1.0"
+  }
+}
