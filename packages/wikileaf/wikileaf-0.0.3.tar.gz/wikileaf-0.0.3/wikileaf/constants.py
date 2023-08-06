@@ -1,0 +1,1 @@
+SEARCH = 'https://api.wikileaf.com/api/v7/search/all'

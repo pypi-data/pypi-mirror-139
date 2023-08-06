@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wikileaf
+Version: 0.0.3
+Summary: An API Wrapper for the Wikileaf API
+Home-page: https://gitlab.com/notjawad/wikileaf
+Author: Jawad Abd
+Author-email: jawad.abdulrazzaq@outlook.com
+License: MIT
+Keywords: wikileaf,cannabis,weed,weedmaps
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+UNKNOWN
+
