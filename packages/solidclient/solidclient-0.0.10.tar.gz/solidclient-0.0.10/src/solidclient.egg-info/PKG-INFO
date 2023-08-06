@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: solidclient
+Version: 0.0.10
+Summary: Solid Client in Python (https://solidproject.org/)
+Home-page: https://gitlab.com/arbetsformedlingen/individdata/oak/python-solid-client
+Author: Max Dzyuba
+Author-email: max.dzyuba@arbetsformedlingen.se
+License: MIT
+Project-URL: Bug Tracker, https://gitlab.com/arbetsformedlingen/individdata/oak/python-solid-client/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Installing
+
+Enter your virtual environment where you want this module installed and run
+`pip3 install .`
+in this folder.
+
+### Usage:
+```
+	from solidclient import solid_client
+
+	# Create a JWK and an access token, these come from the idp
+	keypair = jwcrypto.JWK.from_json(key)
+
+	access_token = jwcrypto.JWT
+
+	solid_session = solid_client.SolidClient.login_key_access_token(keypair, access_token)
+
+	response = solid_session.get(uri)
+
+	print(response.status_code)
+
+	print(response.get_graph())
+
+	rdf_graph = response.get_graph()
+
+	for s, o, p in rdf_graph:
+		print(s, o, p)
+
+```
+
+
+
