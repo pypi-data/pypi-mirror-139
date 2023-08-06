@@ -1,0 +1,8 @@
+docker==5.0.*
+google-cloud-aiplatform==1.1.*
+grpcio==1.36.*
+PyYAML==5.4.*
+google-api-python-client==2.37.*
+six==1.16.*
+google-cloud-storage==1.32.*
+nbformat==5.1.*
