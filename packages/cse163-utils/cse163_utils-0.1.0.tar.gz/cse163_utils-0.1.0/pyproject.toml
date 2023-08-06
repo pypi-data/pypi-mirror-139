@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cse163_utils"
+version = "0.1.0"
+description = "Useful helper functions for CSE 163: Intermediate Data Programming course content. https://cse163.github.io/book/"
+authors = ["Hunter Schafer <hschafer@cs.washington.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+poetry = "^1.1.13"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
