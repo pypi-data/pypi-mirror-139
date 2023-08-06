@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: autonml
+Version: 0.1.1
+Summary: $AutonML$ : CMU's AutoML System
+Home-page: UNKNOWN
+Author: Saswati Ray, Andrew Williams, Vedant Sanil
+Maintainer: Andrew Williams, Vedant Sanil
+Maintainer-email: awilia2@andrew.cmu.edu, vsanil@andrew.cmu.edu
+License: Apache-2.0
+Keywords: datadrivendiscovery,automl,d3m,ta2,cmu
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Provides-Extra: d3m
+License-File: LICENSE
+License-File: NOTICE.md
+
+UNKNOWN
+
