@@ -1,0 +1,6 @@
+setup.py
+ELITactive.egg-info/PKG-INFO
+ELITactive.egg-info/SOURCES.txt
+ELITactive.egg-info/dependency_links.txt
+ELITactive.egg-info/requires.txt
+ELITactive.egg-info/top_level.txt
