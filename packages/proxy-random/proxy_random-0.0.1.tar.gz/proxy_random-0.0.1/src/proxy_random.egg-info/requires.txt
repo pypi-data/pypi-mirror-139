@@ -1,0 +1,3 @@
+aiohttp
+aiohttp-proxy
+beautifulsoup4
