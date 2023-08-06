@@ -1,0 +1,13 @@
+sphinx_gitref/__init__.py,sha256=H2RQqqUVq6U_9r3LlDrA3sRN_H3h9D1n3_iZzg7l_jU,57
+sphinx_gitref/constants.py,sha256=BcZ3hpFIVOTqnwbG-P5xEoPOohVXtEzlx5xS5SwVUyo,310
+sphinx_gitref/exceptions.py,sha256=zF0o-MsrBH2tMRFNhFvIeigqK2k3kPW-hDAFgVj6hCU,198
+sphinx_gitref/git.py,sha256=wFkW1vJG0PYcj2jzeDBaC4_iN_SsgTFJpo7ZhhiM8-Q,3284
+sphinx_gitref/parser.py,sha256=IBprO4QT_yxep7q06wOyp3QSMT9FvatRZnAUucUbKSM,3173
+sphinx_gitref/remote.py,sha256=zazp-r3DRZplYXus3T_rS6ecY459a4LAJrQYE5DqOMU,3972
+sphinx_gitref/role.py,sha256=khhum2_dqMmLwNpzNW5_7tIzotZHcBC9qsJ-YpWK260,2417
+sphinx_gitref/setup.py,sha256=ZIaUvUOwp_1itXgW9AzGoSWhoksc1IgiizUgx1oRREU,1488
+sphinx_gitref-0.2.1.dist-info/LICENSE,sha256=DvzMM7UNJrK9Wafk0VyCZvXxSQBdBV_Ul5i3V5n-jFA,1646
+sphinx_gitref-0.2.1.dist-info/METADATA,sha256=5972UKScxr6cVhkzxhEJUC2DP7t1PD3IqSyiK_Mm6Os,5115
+sphinx_gitref-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sphinx_gitref-0.2.1.dist-info/top_level.txt,sha256=lLTGM-VzPv-UCIP8nJ24aDN75Zw4OnaIREolJj5393c,14
+sphinx_gitref-0.2.1.dist-info/RECORD,,
