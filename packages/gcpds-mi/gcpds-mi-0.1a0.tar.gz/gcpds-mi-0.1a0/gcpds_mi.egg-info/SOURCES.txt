@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+gcpds/mi/__init__.py
+gcpds_mi.egg-info/PKG-INFO
+gcpds_mi.egg-info/SOURCES.txt
+gcpds_mi.egg-info/dependency_links.txt
+gcpds_mi.egg-info/not-zip-safe
+gcpds_mi.egg-info/requires.txt
+gcpds_mi.egg-info/top_level.txt
