@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dinghy
+Version: 0.1.0
+Summary: Dinghy daily digest tool
+Home-page: https://github.com/nedbat/dinghy
+Author: Ned Batchelder
+Author-email: ned@nedbatchelder.com
+License: Apache
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+######
+Dinghy 
+######
+
+Dinghy daily digest tool.
+
+
