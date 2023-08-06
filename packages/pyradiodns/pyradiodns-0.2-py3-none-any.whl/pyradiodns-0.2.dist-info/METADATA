@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyradiodns
+Version: 0.2
+Summary: A Python port of phpradiodns.
+Home-page: http://github.com/radiodns/pyradiodns
+Author: samstarling
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dnspython (>=2.0)
+
+UNKNOWN
+
