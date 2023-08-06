@@ -1,0 +1,3 @@
+[console_scripts]
+gnssdump = pyrtcmcli.gnssdump:main
+
