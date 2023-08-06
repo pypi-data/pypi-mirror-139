@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+enig/__init__.py
+enig/code.py
+enig.egg-info/PKG-INFO
+enig.egg-info/SOURCES.txt
+enig.egg-info/dependency_links.txt
+enig.egg-info/requires.txt
+enig.egg-info/top_level.txt
