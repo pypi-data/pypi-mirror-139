@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pastypy/__init__.py
+pastypy/asyncio.py
+pastypy/sync.py
+pastypy.egg-info/PKG-INFO
+pastypy.egg-info/SOURCES.txt
+pastypy.egg-info/dependency_links.txt
+pastypy.egg-info/requires.txt
+pastypy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_async.py
+tests/test_sync.py
