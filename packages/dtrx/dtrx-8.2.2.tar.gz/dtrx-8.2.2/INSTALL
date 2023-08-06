@@ -1,0 +1,98 @@
+dtrx Installation Documentation
+===============================
+
+Requirements
+------------
+
+dtrx will work out of the box with Python_ 2.4 or greater.  You can also
+use Python 2.3 if you separately install the `subprocess module`_.
+
+.. _Python: http://www.python.org/
+.. _`subprocess module`: http://www.lysator.liu.se/~astrand/popen5/
+
+dtrx calls out to different external tools to support different archive
+types.  Most of these are already installed on most GNU/Linux systems, so
+you probably won't have to worry about these too much, but just for
+completeness, the exact requirements for each format are as follows:
+
+tar archives
+  tar
+
+zip archives
+  unzip, zipinfo
+
+cpio archives
+  cpio
+
+rpm archives
+  rpm2cpio, cpio
+
+deb archives
+  ar, tar, zcat, bzcat, lzcat
+
+gem archives
+  tar, zcat
+
+7z archives
+  7z
+
+lzh archives
+  lha
+
+Microsoft Cabinet archives
+  cabextract
+
+InstallShield archives
+  unshield
+
+rar archives
+  unar or unrar
+
+arj archives
+  arj
+
+Files compressed with gzip or compress
+  zcat
+
+Files compressed with bzip2
+  bzcat
+
+Files compressed with lzma
+  lzcat
+
+Files compressed with xz
+  xzcat
+
+Files compressed with lrzip
+  lrzcat
+
+Files compressed with lzip
+  lzip
+
+Installation
+------------
+
+dtrx is just a simple script, making it easy to stash wherever you need it.
+Just copy ``scripts/dtrx`` to a location that's convenient for you.  If
+you'd like to install the program system-wide, you can run the following as
+root or equivalent::
+
+   python setup.py install --prefix=/usr/local
+
+Running Tests
+-------------
+
+dtrx comes with a suite of tests that are designed to ensure it's running
+properly.  If you'd like, you can run these tests on your own system.
+Simply run the following command from the dtrx source directory::
+
+   python tests/compare.py
+
+To run the tests, you'll need the `PyYAML module`_.
+
+.. _PyYAML module: http://pyyaml.org/
+
+If everything's in order, all the tests should pass.  Note that some of
+them will fail if some of the programs listed above aren't installed on
+your system.  Many of the tests will fail if for some reason you're missing
+the very common commands, like tar and zcat.

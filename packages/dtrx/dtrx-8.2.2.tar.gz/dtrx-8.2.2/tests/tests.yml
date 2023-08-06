@@ -1,0 +1,857 @@
+# tests.yml -- Whole-program comparison tests for dtrx
+# Copyright © 2006-2011 Brett Smith <brettcsmith@brettcsmith.org>
+# Copyright © 2011 Ville Skyttä <ville.skytta@iki.fi>
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation; either version 3 of the License, or (at your
+# option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+# Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, see <http://www.gnu.org/licenses/>.
+
+- name: basic .tar
+  filenames: test-1.23.tar
+  baseline: |
+    tar -xf $1
+
+- name: basic .tar.gz
+  filenames: test-1.23.tar.gz
+  baseline: |
+    tar -zxf $1
+
+- name: basic .tar.bz2
+  filenames: test-1.23.tar.bz2
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    tar -jxf ../$1
+
+- name: basic .tar.lrz
+  filenames: test-1.23.tar.lrz
+  baseline: |
+    lrzcat $1 | tar -xf -
+
+- name: basic .zip
+  filenames: test-1.23.zip
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    unzip -q ../$1
+
+- name: basic .lzh
+  filenames: test-1.23.lzh
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    lha xq ../$1
+
+- name: basic .deb
+  filenames: test-1.23_all.deb
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    ar p ../$1 data.tar.gz | tar -zx
+
+- name: .deb with LZMA compression
+  filenames: test-2_all.deb
+  baseline: |
+    mkdir test-2
+    cd test-2
+    ar p ../$1 data.tar.lzma | lzcat | tar -x
+
+- name: basic .gem
+  filenames: test-1.23.gem
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    tar -xOf ../$1 data.tar.gz | tar -zx
+
+- name: basic .7z
+  filenames: test-1.23.7z
+  baseline: |
+    7z x $1
+
+- name: basic .lzma
+  filenames: test-1.23.tar.lzma
+  baseline: |
+    lzcat $1 | tar -x
+
+- name: basic .cpio
+  filenames: test-1.23.cpio
+  baseline: |
+    cpio -i --make-directories <$1
+  antigrep: blocks?
+
+- name: basic .rar
+  filenames: test-1.23.rar
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    unar -D ../$1 || unrar x ../$1
+
+- name: basic .arj
+  filenames: test-1.23.arj
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    arj x -y ../$1
+
+- name: .deb metadata
+  filenames: test-1.23_all.deb
+  options: --metadata
+  baseline: |
+    mkdir test-1.23
+    cd test-1.23
+    ar p ../$1 control.tar.gz | tar -zx
+
+- name: .gem metadata
+  filenames: test-1.23.gem
+  options: -m
+  baseline: |
+    tar -xOf $1 metadata.gz | zcat > test-1.23.gem-metadata.txt
+  cleanup: rm -f test-1.23.gem-metadata.txt
+  posttest: |
+    exec [ "$(cat test-1.23.gem-metadata.txt)" = "hi" ]
+
+- name: recursion and permissions
+  filenames: test-recursive-badperms.tar.bz2
+  options: -n -r
+  baseline: |
+    extract() {
+      mkdir "$1"
+      cd "$1"
+      tar "-${3}xf" "../$2"
+    }
+    extract test-recursive-badperms "$1" j
+    extract test-badperms test-badperms.tar
+    chmod 700 testdir
+  posttest: |
+    exec [ "$(cat test-recursive-badperms/test-badperms/testdir/testfile)" = \
+           "hey" ]
+
+- name: decompressing gz, not interactive
+  directory: inside-dir
+  filenames: ../test-text.gz
+  options: ""
+  antigrep: "."
+  baseline: |
+    zcat $1 >test-text
+  posttest: |
+    exec [ "$(cat test-text)" = "hi" ]
+
+- name: decompressing bz2, not interactive
+  directory: inside-dir
+  filenames: ../test-text.bz2
+  options: ""
+  antigrep: "."
+  baseline: |
+    bzcat $1 >test-text
+  posttest: |
+    exec [ "$(cat test-text)" = "hi" ]
+
+- name: decompressing xz, not interactive
+  directory: inside-dir
+  filenames: ../test-text.xz
+  options: ""
+  antigrep: "."
+  baseline: |
+    xzcat $1 >test-text
+  posttest: |
+    exec [ "$(cat test-text)" = "hi" ]
+
+- name: decompressing lrzip, not interactive
+  directory: inside-dir
+  filenames: ../test-text.lrz
+  options: ""
+  antigrep: "."
+  baseline: |
+    lrzcat $1 >test-text
+  posttest: |
+    exec [ "$(cat test-text)" = "hi" ]
+
+- name: decompressing lzip, not interactive
+  directory: inside-dir
+  filenames: ../test-text.lz
+  options: ""
+  antigrep: "."
+  baseline: |
+    lzip -cd <$1 >test-text
+  posttest: |
+    exec [ "$(cat test-text)" = "hi" ]
+
+- name: decompression with -r
+  directory: inside-dir
+  filenames: ../test-text.gz
+  options: -n -r
+  baseline: |
+    zcat $1 >test-text
+
+- name: decompression with -fr
+  directory: inside-dir
+  filenames: ../test-text.gz
+  options: -n -fr
+  baseline: |
+    zcat $1 >test-text
+
+- name: overwrite protection
+  filenames: test-1.23.tar.bz2
+  baseline: |
+    mkdir test-1.23.1
+    cd test-1.23.1
+    tar -jxf ../$1
+  prerun: |
+    mkdir test-1.23
+
+- name: overwrite option
+  filenames: test-1.23.tar.bz2
+  options: -n -o
+  baseline: |
+    cd test-1.23
+    tar -jxf ../$1
+  prerun: |
+    mkdir test-1.23
+
+- name: flat option
+  directory: inside-dir
+  filenames: ../test-1.23.tar.bz2
+  options: -n -f
+  baseline: |
+    tar -jxf $1
+
+- name: flat recursion and permissions
+  directory: inside-dir
+  filenames: ../test-recursive-badperms.tar.bz2
+  options: -n -fr
+  baseline: |
+    tar -jxf $1
+    tar -xf test-badperms.tar
+    chmod 700 testdir
+  posttest: |
+    exec [ "$(cat testdir/testfile)" = "hey" ]
+
+- name: no files
+  error: true
+  grep: "[Uu]sage"
+
+- name: bad file
+  error: true
+  filenames: nonexistent-file.tar
+
+- name: not an archive
+  error: true
+  filenames: tests.yml
+
+- name: bad options
+  options: -n --nonexistent-option
+  filenames: test-1.23.tar
+  error: true
+
+- name: --version
+  options: -n --version
+  grep: ersion \d+\.\d+
+  filenames: test-1.23.tar
+  baseline: |
+    exit 0
+
+- name: one good archive of many
+  filenames: tests.yml test-1.23.tar nonexistent-file.tar
+  error: true
+  baseline: |
+    tar -xf $2
+
+- name: silence
+  filenames: tests.yml
+  options: -n -qq
+  error: true
+  antigrep: '.'
+
+- name: can't write to directory
+  directory: inside-dir
+  filenames: ../test-1.23.tar
+  error: true
+  grep: ERROR
+  antigrep: Traceback
+  prerun: |
+    chmod 500 .
+
+- name: list contents of one file
+  options: -n -l
+  filenames: test-1.23.tar
+  output: |
+    test-1.23.tar:
+    test-1.23/
+    test-1.23/1/
+    test-1.23/1/2/
+    test-1.23/1/2/3
+    test-1.23/a/
+    test-1.23/a/b
+    test-1.23/foobar
+
+- name: list contents of LZH
+  options: -n -l
+  filenames: test-1.23.lzh
+  output: |
+    test-1.23.lzh:
+    1/
+    1/2/
+    1/2/3
+    a/
+    a/b
+    foobar
+
+- name: list contents of .arj
+  options: -n -l
+  filenames: test-1.23.arj
+  output: |
+    test-1.23.arj:
+    a/b
+    1/2/3
+    foobar
+
+- name: list contents of .cpio
+  options: -n -l
+  filenames: test-1.23.cpio
+  grep: ^test-1\.23/1/2/3$
+  antigrep: blocks?
+
+- name: list contents of multiple files
+  options: -n --table
+  filenames: test-1.23_all.deb test-1.23.zip
+  output: |
+    test-1.23_all.deb:
+    1/
+    1/2/
+    1/2/3
+    a/
+    a/b
+    foobar
+
+    test-1.23.zip:
+    1/2/3
+    a/b
+    foobar
+
+- name: list contents of compressed file
+  options: -n -t
+  filenames: test-text.gz
+  output: |
+    test-text.gz:
+    test-text
+
+- name: default behavior with one directory (gz)
+  options: -n
+  filenames: test-onedir.tar.gz
+  baseline: |
+    mkdir test-onedir
+    cd test-onedir
+    tar -zxf ../$1
+
+- name: one directory extracted inside another interactively (gz)
+  options: ""
+  filenames: test-onedir.tar.gz
+  grep: one directory
+  input: i
+  baseline: |
+    mkdir test-onedir
+    cd test-onedir
+    tar -zxf ../$1
+
+- name: one directory extracted with rename interactively (gz)
+  options: ""
+  filenames: test-onedir.tar.gz
+  input: r
+  baseline: |
+    tar -zxf $1
+    mv test test-onedir
+
+- name: one directory extracted here interactively (gz)
+  options: ""
+  filenames: test-onedir.tar.gz
+  input: h
+  baseline: |
+    tar -zxf $1
+
+- name: --one=inside
+  options: "--one=inside -n"
+  filenames: test-onedir.tar.gz
+  baseline: |
+    mkdir test-onedir
+    cd test-onedir
+    tar -zxf ../$1
+
+- name: --one=rename
+  options: "--one-entry=rename -n"
+  filenames: test-onedir.tar.gz
+  baseline: |
+    tar -zxf $1
+    mv test test-onedir
+
+- name: --one=here
+  options: "--one=here -n"
+  filenames: test-onedir.tar.gz
+  baseline: |
+    tar -zxf $1
+
+- name: default behavior with one directory (bz2)
+  options: -n
+  filenames: test-onedir.tar.gz
+  baseline: |
+    mkdir test-onedir
+    cd test-onedir
+    tar -zxf ../$1
+
+- name: one directory extracted inside another (bz2)
+  options: ""
+  filenames: test-onedir.tar.gz
+  input: i
+  baseline: |
+    mkdir test-onedir
+    cd test-onedir
+    tar -zxf ../$1
+
+- name: one directory extracted with rename (bz2)
+  options: ""
+  filenames: test-onedir.tar.gz
+  input: r
+  baseline: |
+    tar -zxf $1
+    mv test test-onedir
+
+- name: one directory extracted here (bz2)
+  options: ""
+  filenames: test-onedir.tar.gz
+  input: h
+  baseline: |
+    tar -zxf $1
+
+- name: default behavior with one file
+  options: -n
+  filenames: test-onefile.tar.gz
+  baseline: |
+    mkdir test-onefile
+    cd test-onefile
+    tar -zxf ../$1
+
+- name: one file extracted inside a directory
+  options: ""
+  filenames: test-onefile.tar.gz
+  input: i
+  grep: one file
+  baseline: |
+    mkdir test-onefile
+    cd test-onefile
+    tar -zxf ../$1
+
+- name: prompt wording with one file
+  options: ""
+  filenames: test-onefile.tar.gz
+  input: i
+  grep: file _I_nside
+
+- name: one file extracted with rename, with Expected text
+  options: ""
+  filenames: test-onefile.tar.gz
+  input: r
+  grep: "Expected: test-onefile"
+  baseline: |
+    tar -zxOf $1 >test-onefile
+
+- name: one file extracted here, with Actual text
+  options: ""
+  filenames: test-onefile.tar.gz
+  input: h
+  grep: "  Actual: test-text"
+  baseline: |
+    tar -zxf $1
+
+- name: bomb with preceding dot in the table
+  filenames: test-dot-first-bomb.tar.gz
+  options: ""
+  antigrep: one
+  baseline: |
+    mkdir test-dot-first-bomb
+    cd test-dot-first-bomb
+    tar -zxf ../$1
+
+- name: one directory preceded by dot in the table
+  filenames: test-dot-first-onedir.tar.gz
+  options: ""
+  grep: "Actual: (./)?dir/"
+  input: h
+  baseline: |
+    tar -zxf $1
+
+- name: two one-item archives with different answers
+  filenames: test-onedir.tar.gz test-onedir.tar.gz
+  options: ""
+  input: |
+    h
+    r
+  baseline: |
+    tar -zxf $1
+    mv test test-onedir
+    tar -zxf $1
+
+- name: interactive recursion (always)
+  filenames: test-recursive-badperms.tar.bz2 test-recursive-badperms.tar.bz2
+  options: ""
+  input: |
+    i
+    a
+    i
+  baseline: |
+    extract() {
+      mkdir test-recursive-badperms$2
+      cd test-recursive-badperms$2
+      tar -jxf ../$1
+      mkdir test-badperms
+      cd test-badperms
+      tar -xf ../test-badperms.tar
+      chmod 700 testdir
+      cd ../..
+    }
+    extract $1
+    extract $1 .1
+
+- name: interactive recursion (once)
+  filenames: test-recursive-badperms.tar.bz2 test-recursive-badperms.tar.bz2
+  options: ""
+  input: |
+    i
+    o
+    i
+    n
+  baseline: |
+    extract() {
+      mkdir "$1"
+      cd "$1"
+      tar "-${3}xf" "../$2"
+    }
+    extract test-recursive-badperms "$1" j
+    extract test-badperms test-badperms.tar
+    chmod 700 testdir
+    cd ../..
+    extract test-recursive-badperms.1 "$1" j
+
+- name: interactive recursion (never)
+  filenames: test-recursive-badperms.tar.bz2 test-recursive-badperms.tar.bz2
+  options: ""
+  input: |
+    i
+    v
+    i
+  baseline: |
+    extract() {
+      mkdir test-recursive-badperms$2
+      cd test-recursive-badperms$2
+      tar -jxf ../$1
+      cd ..
+    }
+    extract $1
+    extract $1 .1
+
+- name: recursion in subdirectories here
+  filenames: test-deep-recursion.tar
+  options: ""
+  input: |
+    h
+    o
+  grep: 'contains 2 other archive file\(s\), out of 2 file\(s\)'
+  baseline: |
+    tar -xf $1
+    cd subdir
+    zcat test-text.gz > test-text
+    cd subsubdir
+    zcat test-text.gz > test-text
+
+- name: recursion in subdirectories with rename
+  filenames: test-deep-recursion.tar
+  options: ""
+  input: |
+    r
+    o
+  grep: "contains 2"
+  baseline: |
+    tar -xf $1
+    mv subdir test-deep-recursion
+    cd test-deep-recursion
+    zcat test-text.gz > test-text
+    cd subsubdir
+    zcat test-text.gz > test-text
+
+- name: recursion in subdirectories inside new dir
+  filenames: test-deep-recursion.tar
+  options: ""
+  input: |
+    i
+    o
+  grep: "contains 2"
+  baseline: |
+    mkdir test-deep-recursion
+    cd test-deep-recursion
+    tar -xf ../$1
+    cd subdir
+    zcat test-text.gz > test-text
+    cd subsubdir
+    zcat test-text.gz > test-text
+
+- name: extracting file with bad extension
+  filenames: test-1.23.bin
+  prerun: cp ${1}test-1.23.tar.gz ${1}test-1.23.bin
+  cleanup: rm -f ${1}test-1.23.bin
+  baseline: |
+    tar -zxf $1
+
+- name: extracting file with misleading extension
+  filenames: trickery.tar.gz
+  prerun: cp ${1}test-1.23.zip ${1}trickery.tar.gz
+  cleanup: rm -f ${1}trickery.tar.gz
+  antigrep: '.'
+  baseline: |
+    mkdir trickery
+    cd trickery
+    unzip -q ../$1
+
+- name: listing file with misleading extension
+  options: -l
+  filenames: trickery.tar.gz
+  prerun: cp ${1}test-1.23.zip ${1}trickery.tar.gz
+  cleanup: rm -f ${1}trickery.tar.gz
+  grep: "^1/2/3$"
+  antigrep: "^dtrx:"
+
+- name: listing multiple file with misleading extensions
+  options: -l
+  filenames: trickery.tar.gz trickery.tar.gz
+  prerun: cp ${1}test-1.23.zip ${1}trickery.tar.gz
+  cleanup: rm -f ${1}trickery.tar.gz
+  output: |
+    trickery.tar.gz:
+    1/2/3
+    a/b
+    foobar
+
+    trickery.tar.gz:
+    1/2/3
+    a/b
+    foobar
+
+- name: non-archive error
+  filenames: /dev/null
+  error: true
+  grep: "not a known archive type"
+
+- name: no such file error
+  filenames: nonexistent-file.tar.gz
+  error: true
+  grep: "[Nn]o such file"
+
+- name: no such file error with no extension
+  filenames: nonexistent-file
+  error: true
+  grep: "[Nn]o such file"
+
+- name: try to extract a directory error
+  filenames: test-directory
+  prerun: mkdir test-directory
+  error: true
+  grep: "cannot work with a directory"
+
+- name: permission denied error
+  filenames: unreadable-file.tar.gz
+  prerun: |
+    touch unreadable-file.tar.gz
+    chmod 000 unreadable-file.tar.gz
+  cleanup: rm -f unreadable-file.tar.gz
+  error: true
+  grep: "[Pp]ermission denied"
+
+- name: permission denied no-pipe file error
+  filenames: unreadable-file.zip
+  prerun: |
+    touch unreadable-file.zip
+    chmod 000 unreadable-file.zip
+  cleanup: rm -f unreadable-file.zip
+  error: true
+  grep: "[Pp]ermission denied"
+
+- name: bad file error
+  filenames: bogus-file.tar.gz
+  prerun: |
+    touch bogus-file.tar.gz
+  cleanup: rm -f bogus-file.tar.gz
+  error: true
+  grep: "returned status code [^0]"
+
+- name: try to extract in unwritable directory
+  directory: unwritable-dir
+  filenames: ../test-1.23.tar.gz
+  prerun: chmod 500 .
+  error: true
+  grep: "cannot extract here: [Pp]ermission denied"
+
+- name: recursive listing is a no-op
+  options: -rl
+  filenames: test-recursive-badperms.tar.bz2
+  grep: test-badperms.tar
+  antigrep: testdir/
+
+- name: graceful coping when many extraction directories are taken
+  directory: busydir
+  prerun: |
+    mkdir test-1.23
+    for i in $(seq 1 10); do mkdir test-1.23.$i; done
+  filenames: ../test-1.23.tar.gz
+  grep: "WARNING: extracting"
+
+- name: graceful coping when many decompression targets are taken
+  directory: busydir
+  prerun: |
+    touch test-text
+    for i in $(seq 1 10); do touch test-text.$i; done
+  filenames: ../test-text.gz
+  grep: "WARNING: extracting"
+
+- name: output filenames with -v
+  options: -v -n
+  filenames: test-onedir.tar.gz test-text.gz
+  output: |
+    test-onedir.tar.gz:
+    test-onedir/
+    test-onedir/test/
+    test-onedir/test/foobar
+    test-onedir/test/quux
+
+    test-text.gz:
+    test-text
+
+- name: output filenames with -v and -f
+  options: -nvf
+  directory: busydir
+  filenames: ../test-onedir.tar.gz
+  output: |
+    ../test-onedir.tar.gz:
+    test/
+    test/foobar
+    test/quux
+
+- name: list recursive archives
+  options: ""
+  filenames: test-deep-recursion.tar
+  input: |
+    r
+    l
+    n
+  grep: '^test-deep-recursion/subsubdir/test-text\.gz$'
+
+- name: partly failed extraction
+  options: -n
+  filenames: test-tar-with-node.tar.gz
+  baseline: |
+    mkdir test-tar-with-node
+    cd test-tar-with-node
+    tar -zxf ../$1
+  grep: Cannot mknod
+
+- name: flat extraction of one-file archive
+  directory: inside-dir
+  options: -f
+  filenames: ../test-onefile.tar.gz
+  baseline: tar -zxf $1
+  antigrep: "contains"
+
+- name: test recursive extraction of one archive
+  directory: inside-dir
+  options: ""
+  filenames: ../test-one-archive.tar.gz
+  baseline: |
+    tar -zxf $1
+    zcat test-text.gz >test-text
+  input: |
+    h
+    o
+
+- name: extracting empty archive
+  filenames: test-empty.tar.bz2
+  options: ""
+  baseline: ""
+  antigrep: '.'
+
+- name: listing empty archive
+  filenames: test-empty.tar.bz2
+  options: -l
+  baseline: |
+    test-empty.tar.bz2:
+
+- name: download and extract
+  filenames: https://raw.githubusercontent.com/dtrx-py/dtrx/master/tests/test-text.gz
+  directory: inside-dir
+  baseline: |
+    wget "$1"
+    zcat test-text.gz >test-text
+  cleanup: rm -f test-text.gz test-text
+
+- name: recursive archive without prompt
+  filenames: test-recursive-no-prompt.tar.bz2
+  options: ""
+  baseline: |
+    mkdir test-recursive-no-prompt
+    cd test-recursive-no-prompt
+    tar -jxf ../$1
+  antigrep: '.'
+
+- name: uncompressed dmg
+  filenames: test.dmg
+  baseline: |
+    mkdir test
+    cd test
+    7z x ../$1
+
+- name: compressed dmg
+  filenames: test.compressed.dmg
+  baseline: |
+    mkdir test.compressed
+    cd test.compressed
+    7z x ../$1
+
+- name: zstd compressed tar
+  filenames: test.tar.zst
+  baseline: |
+    tar --zstd -xf $1
+
+- name: zstd compressed single file
+  filenames: test-text.zst
+  baseline: |
+    zstd -d $1 -o test-text
+
+- name: cpio false extension match recursive extract
+  filenames: test-cpio.tar.gz
+  options: "-rn"
+  baseline: |
+    mkdir test-cpio
+    cd test-cpio
+    tar -zxf ../$1
+
+# this has issues because zip uses a pty to read the password without echo;
+# see https://pexpect.readthedocs.io/en/latest/FAQ.html#whynotpipe
+# disabled for now
+# - name: password zip interactive
+#   filenames: test-pw.zip
+#   input: yolo
+#   baseline: |
+#     mkdir test-pw
+#     cd test-pw
+#     unzip -P yolo -q ../$1
+
+- name: password zip noninteractive
+  filenames: test-pw.zip
+  options: "-n"
+  error: true
+  grep: "cannot extract encrypted archive"
+  cleanup: stty -F /dev/stdout echo
