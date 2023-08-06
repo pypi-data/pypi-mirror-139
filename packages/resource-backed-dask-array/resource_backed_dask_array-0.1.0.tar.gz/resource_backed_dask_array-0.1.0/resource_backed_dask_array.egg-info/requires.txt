@@ -1,0 +1,23 @@
+dask[array]
+typing-extensions
+
+[:python_version < "3.8"]
+importlib-metadata>=1.5.0
+
+[dev]
+black
+flake8
+flake8-docstrings
+ipython
+isort
+jedi<0.18.0
+mypy
+pre-commit
+pydocstyle
+pytest
+
+[testing]
+pytest
+pytest-cov
+tox
+tox-conda
