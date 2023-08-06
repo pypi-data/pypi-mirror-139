@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: unfolded.demo
+Version: 0.0.1
+Summary: Public stub for the private unfolded.demo package
+License: (c) 2022 Foursquare Labs, Inc. Terms available at https://www.unfolded.ai/terms-of-service/
+Author: Unfolded
+Author-email: contact@unfolded.ai
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# `unfolded.demo`
+
+`unfolded.demo` is a package distributed privately by Unfolded.
+
+This public stub is intended to protect users from [dependency confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610), where it's intended to install the private package, but a user accidentally installs a public package from PyPI instead.
+
