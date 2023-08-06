@@ -1,0 +1,38 @@
+2022-02-22 19:12:08,146 [MainThread] INFO  commons.py::log_init(@Line:74) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-22 19:12:08,147 [MainThread] INFO  properties.py::_parse(@Line:143) Successfully loaded 3 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault/resources/application.properties 
+2022-02-22 19:12:08,147 [MainThread] INFO  app_config.py::__init__(@Line:52) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-RunDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault/resources/log/application.log
+  |-AppProperties:
+   \-hhs.vault.file=
+   |-hhs.vault.user=
+   |-hhs.vault.passphrase=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-22 19:12:08,148 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: hspylib.core.config.app_config.AppConfigs 
+2022-02-22 19:12:08,148 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: vault.core.vault_config.VaultConfig 
+2022-02-22 19:12:08,148 [MainThread] DEBUG file_storage.py::load(@Line:38) File storage filename=resources/sample.vault.unlocked loaded 0 entries 
+2022-02-22 19:12:08,148 [MainThread] DEBUG file_storage.py::__init__(@Line:28) File storage filename=resources/sample.vault.unlocked created and loaded entries=0 
+2022-02-22 19:12:08,148 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: vault.core.vault_service.VaultService 
+2022-02-22 19:12:08,148 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: __main__.Main 
+2022-02-22 19:12:08,149 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-22 19:12:08.149034 
+2022-02-22 19:12:08,151 [MainThread] INFO  __main__.py::_main(@Line:75) 
+HSPyLib Vault v0.9.9
+
+Settings ==============================
+        VAULT_USER: test
+        VAULT_FILE: resources/sample.vault
+        STARTED: 2022-02-22 19:12:08
+ 
+2022-02-22 19:12:08,151 [MainThread] DEBUG vault.py::_check_backup(@Line:235) Creating a vault backup before opening it => //Users/hjunior/.sample.vault.bak 
+2022-02-22 19:12:11,706 [MainThread] DEBUG vault.py::_unlock_vault(@Line:220) Vault file is decrypted 
+2022-02-22 19:12:11,707 [MainThread] DEBUG vault.py::open(@Line:64) Vault open and unlocked 
+2022-02-22 19:12:11,709 [MainThread] DEBUG file_storage.py::load(@Line:38) File storage filename=resources/sample.vault.unlocked loaded 2 entries 
+2022-02-22 19:12:11,709 [MainThread] DEBUG vault.py::list(@Line:105) Vault list issued. User=hjunior 
+2022-02-22 19:12:11,785 [MainThread] DEBUG vault.py::_lock_vault(@Line:207) Vault file is encrypted 
+2022-02-22 19:12:11,786 [MainThread] DEBUG vault.py::close(@Line:79) Vault closed and locked 
+2022-02-22 19:12:11,786 [MainThread] DEBUG application.py::run(@Line:95) Command line arguments: Namespace(operation='list', filter=None) 
+2022-02-22 19:12:11,786 [MainThread] INFO  application.py::run(@Line:100) Run finished 2022-02-22 19:12:11.786629 
