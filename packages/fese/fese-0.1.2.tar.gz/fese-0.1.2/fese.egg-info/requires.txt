@@ -1,0 +1,13 @@
+pysubs2
+babelfish
+setuptools
+
+[dev]
+tox
+
+[lint]
+black
+isort
+
+[test]
+pytest

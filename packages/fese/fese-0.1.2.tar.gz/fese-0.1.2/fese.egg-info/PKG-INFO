@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: fese
+Version: 0.1.2
+Summary: A library to extract FFmpeg subtitle streams
+Author: Vitiko
+Author-email: vhnz98@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/vitiko98/fese
+Project-URL: Issues, https://github.com/vitiko98/fese/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# fese
+
+A library to extract FFmpeg subtitle streams
+
+## Usage
+
+```python
+import logging
+import sys
+
+import fese
+
+logging.basicConfig(level=logging.DEBUG)
+
+video_path = sys.argv[1]
+
+video = fese.FFprobeVideoContainer(video_path)
+
+subtitles = video.get_subtitles()
+
+paths = video.extract_subtitles(subtitles)
+print(paths)
+```
+
+

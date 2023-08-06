@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fese/__init__.py
+fese.egg-info/PKG-INFO
+fese.egg-info/SOURCES.txt
+fese.egg-info/dependency_links.txt
+fese.egg-info/requires.txt
+fese.egg-info/top_level.txt
+tests/__init__.py
+tests/test_subtitle_stream.py
+tests/test_subtitle_stream_disposition.py
+tests/test_video_container.py
