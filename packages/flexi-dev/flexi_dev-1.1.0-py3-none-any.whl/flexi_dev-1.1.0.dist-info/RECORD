@@ -1,0 +1,10 @@
+flexi_dev/__init__.py,sha256=5kF_qUPx8vHhupbHhmQTRwdNADiGNuCwgaJNy2gBcRY,169
+flexi_dev/eventdriver.py,sha256=vxQprhhnT98Xjhgaqri8zPASHhI44LAMhvvjrZR7vsw,810
+flexi_dev/joystickdriver.py,sha256=_6hsd_oCOZg6yjLeA6HuiOxJ-m2ICxg1GrIhm6WhXYM,1275
+flexi_dev/metadriver.py,sha256=LVYlMGLyAJCk-s4d5RZeBAJx1qZsmljNlgKxm4mKLVs,1033
+flexi_dev/mousedriver.py,sha256=bLM4JMtCp7oKHXP5Hmw_5ij-3_GzyAbfrjkXmXa55rI,859
+flexi_dev-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+flexi_dev-1.1.0.dist-info/METADATA,sha256=OMVy7MgdCuvlG9q_80EkJPTQDx0Ca0ur1godrrnr4ps,5883
+flexi_dev-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flexi_dev-1.1.0.dist-info/top_level.txt,sha256=J_jUOfX7Pt0w_wPVvEmu7LM0FmbpOQO9OJjCkZpimlE,10
+flexi_dev-1.1.0.dist-info/RECORD,,
