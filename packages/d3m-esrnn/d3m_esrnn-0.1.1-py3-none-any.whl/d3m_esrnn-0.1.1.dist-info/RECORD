@@ -1,0 +1,17 @@
+esrnn/__init__.py,sha256=ZJHNdI7AwDeP0ovY8GliVsF8vc1OM6pCadCpVjzRQwM,86
+esrnn/forecasting_esrnn.py,sha256=57E1fRF3O0wb1S2VyMmhOoIwY_aKMtfTCMBQH3tMRuE,25353
+esrnn/contrib/ESRNN.py,sha256=kMZ_tgE_HOiWp3Wuuc6geWiGxI2KPFyf080O91MDz1E,13806
+esrnn/contrib/ESRNN_auto.py,sha256=dmXyGzT6nz1x5nMY4ZYH62f4YeXXKYK1TPes9R_mI9c,19204
+esrnn/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esrnn/contrib/utils/DRNN.py,sha256=wMWOg_5c4XKYXTEHiMT_dFOAA2ZXx2FmBVvLUGB-Big,11152
+esrnn/contrib/utils/ESRNN.py,sha256=Hb8DmjLzkiCFOG6FLdTnHoSV8J029GGjgo__MhJn7a0,9512
+esrnn/contrib/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esrnn/contrib/utils/config.py,sha256=JKZuqE3_Lq8_EkGCMmhNtwm2LGtY82TVBUqrqL-HujU,1975
+esrnn/contrib/utils/data.py,sha256=Cm4n-YxkRV1aDAGKfhgK16fhz-udfONCa6Wm8xtXALk,4867
+esrnn/contrib/utils/losses.py,sha256=b8thD-84HPUEYusqRM19vvglvVhDthE4YKdvoUloVR0,3877
+d3m_esrnn-0.1.1.dist-info/LICENSE,sha256=9qawwofRjHQEbcGZDeSE-4tx3vpgPRXdZeanaJeZHTw,1093
+d3m_esrnn-0.1.1.dist-info/METADATA,sha256=rJ5hWU-y6qsVmdpCtdU3LWyVCusXvQ7pwzY76as6BTk,804
+d3m_esrnn-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+d3m_esrnn-0.1.1.dist-info/entry_points.txt,sha256=i3xDCT53N1bjsc_kf4mR9vyK--yIBxVONcb6iv_LLVE,103
+d3m_esrnn-0.1.1.dist-info/top_level.txt,sha256=auHEj7EJOH8rLufwNM9rtdAdFHdpIKA4PDNpk0OLMZ8,6
+d3m_esrnn-0.1.1.dist-info/RECORD,,
