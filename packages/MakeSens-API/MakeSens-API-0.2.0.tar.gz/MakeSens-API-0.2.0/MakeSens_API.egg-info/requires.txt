@@ -1,0 +1,5 @@
+datetime
+json==2.0.9
+pandas==1.3.0
+requests==2.22.0
+typing

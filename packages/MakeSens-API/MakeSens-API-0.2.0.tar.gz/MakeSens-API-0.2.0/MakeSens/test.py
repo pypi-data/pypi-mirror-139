@@ -1,0 +1,5 @@
+from MakeSens import MakeSens
+
+token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJUb2tlbl9QYXNvZWNvIiwic3ZyIjoibWFrZXNlbnMuYXdzLnRoaW5nZXIuaW8iLCJ1c3IiOiJNYWtlU2VucyJ9.MRZqkj8fnqXkzqf_EefhzXVQ6FYnL4iyNX-GraCKuhU'
+mk=MakeSens('PasoEco',token)
+print(mk.devices)
