@@ -1,0 +1,7 @@
+README.md
+setup.py
+ftpbr/__init__.py
+ftpbr.egg-info/PKG-INFO
+ftpbr.egg-info/SOURCES.txt
+ftpbr.egg-info/dependency_links.txt
+ftpbr.egg-info/top_level.txt

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ftpbr
+Version: 0.0.1
+Summary: A basic  installer
+Home-page: UNKNOWN
+Author: em
+Author-email: 
+License: MIT
+Keywords: ftpbr
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Foobar
+
+ Python library 
+
+## Installation
+
+
+
+```bash
+pip install ftbr
+```
+
+## Usage
+
+```
+import ftbr
+ftpbr.main('Host',"user_name","pasw","select_dir",time)
+
+```
+
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
