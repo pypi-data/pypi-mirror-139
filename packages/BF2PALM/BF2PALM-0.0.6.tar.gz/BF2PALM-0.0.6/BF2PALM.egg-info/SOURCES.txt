@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+BF2PALM.egg-info/PKG-INFO
+BF2PALM.egg-info/SOURCES.txt
+BF2PALM.egg-info/dependency_links.txt
+BF2PALM.egg-info/top_level.txt
