@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: CHO-ratio
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: atoy322
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# CnHnOn
+物質の質量、塩化カルシウム管の増加量、ソーダ石灰管の増加量を入力すると、炭素、水素、酸素の整数比を出力するPythonライブラリ
+
+## Setup
+```shell
+$ pip install CHO_ratio
+```
+
+## Usage
+```python
+from CHO_ratio import Ratio
+
+# 物質の質量24.1[mg]、塩化カルシウム管の増加量62.5[mg]、ソーダ石灰管の増加量12.7[mg]のとき
+
+Ratio(24.1, 62.5, 12.7)
+# (4, 4, 1)  C : H : O
+
+Ratio(24.1, 62.5, 12.7, str_output=True)
+# 'C₄H₄O₁'   組成式
+```
+
+
