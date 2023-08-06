@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "terality"
+version = "0.2.0"
+description = "The Data Processing Engine for Data Scientists"
+authors = ["Terality Engineering Team <dev.null@terality.com>"]
+license = "Proprietary"
+readme = "README.md"
+homepage = "https://terality.com/"
+
+packages = [
+    { include = "terality" },
+    { include = "terality_bin" },
+]
+
+[tool.poetry.dependencies]
+# Ensure this package is never used on more recent Python versions
+python = ">=3.6, <3.7.1"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+terality = 'terality_bin:main'
