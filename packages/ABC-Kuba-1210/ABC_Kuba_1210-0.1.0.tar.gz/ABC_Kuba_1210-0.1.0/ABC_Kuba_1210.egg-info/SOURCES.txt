@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+ABC_Kuba_1210.egg-info/PKG-INFO
+ABC_Kuba_1210.egg-info/SOURCES.txt
+ABC_Kuba_1210.egg-info/dependency_links.txt
+ABC_Kuba_1210.egg-info/top_level.txt
