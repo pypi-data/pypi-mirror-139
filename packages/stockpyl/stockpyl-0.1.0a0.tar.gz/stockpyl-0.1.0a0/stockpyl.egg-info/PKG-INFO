@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stockpyl
+Version: 0.1.0a0
+Summary: Python package for inventory optimization
+Home-page: https://github.com/LarrySnyder/stockpyl
+Author: Larry Snyder
+Author-email: larry.snyder@lehigh.edu
+License: GPLv3
+Description: Python tools for inventory optimization.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Education
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
