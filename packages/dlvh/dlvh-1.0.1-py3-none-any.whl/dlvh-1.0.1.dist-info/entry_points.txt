@@ -1,0 +1,4 @@
+[console_scripts]
+dlvh=dlvh:main
+ytd=dlvh:main
+
