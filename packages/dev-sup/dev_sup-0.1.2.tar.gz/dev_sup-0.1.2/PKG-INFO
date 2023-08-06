@@ -1,0 +1,76 @@
+Metadata-Version: 1.2
+Name: dev_sup
+Version: 0.1.2
+Summary: A Django app supporting app developer.
+Home-page: https://github.com/JanekKar/django-dev-sup
+Author: Jan Karaszewski
+Author-email: jakarwski19@gmail.com
+License: BSD-3-Clause
+Project-URL: Authors Github, https://github.com/JanekKar
+Description: =======
+        Dev_Sup
+        =======
+        
+        Dev_Sup is a Django app that supports developer in process of creation of Django application.
+        
+        Quick start
+        -----------
+        
+        1. Add "dev_sup" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'dev_sup',
+            ]
+        
+        2. Include the dev_sup URLconf in your project urls.py like this::
+        
+            path('', include('dev_sup.urls')),
+        
+        Pro tip: include it after your ``admin`` paths, so it won't mess them up.
+        
+        3. Configure your TEMPLATES settings like this::
+            
+            TEMPLATES = [
+                {
+                    ...
+                    'DIRS': [os.path.join(BASE_DIR, "dev_sup/templates")],
+                    ...
+                    'OPTIONS': {
+                        'context_processors': [
+                            ...
+                            'dev_sup.context_processors.all',
+                        ],
+                    },
+                },
+            ]
+        
+        You will probably need to add ``import os`` on top of your ``settings.py`` module.
+        
+        
+        4. Run ``python manage.py migrate`` to create the dev_sup models.
+        
+        5. Run ``python manage.py generate_project`` to generate simple project.
+        
+        6. Start the development server and visit http://127.0.0.1:8000/ to check out generated project.
+        
+        7. Visit http://127.0.0.1:8000/admin to add more sites, links, drop down menus and page styles.
+        
+        You will find more instructions in generated project's index page.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
