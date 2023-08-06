@@ -1,0 +1,4 @@
+ubuntu-versions:
+  focal:
+    packages:
+      - linux-fips
