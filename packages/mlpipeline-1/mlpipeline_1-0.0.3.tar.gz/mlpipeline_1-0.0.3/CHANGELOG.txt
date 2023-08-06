@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.3 (18/02/2022)
+--------------------
+- This is my Third Release of the project with some changes solving some errors from the version issue.

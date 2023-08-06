@@ -1,0 +1,1 @@
+Currently it prepares the data ready for a Machine Learning Classification problem. I am soon planning to add other features for Regression problem as well as for Clustering based Problem. My purpose of creating this project is to build an AutoML library, which reduces writing more code to a create a model.

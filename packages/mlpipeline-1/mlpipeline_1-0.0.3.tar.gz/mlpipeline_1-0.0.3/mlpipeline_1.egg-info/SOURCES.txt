@@ -1,0 +1,14 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+requirements.txt
+setup.py
+data/WA_Fn-UseC_-HR-Employee-Attrition.csv
+data/tested.csv
+ml_pipeline/__init__.py
+ml_pipeline/pipeline.py
+mlpipeline_1.egg-info/PKG-INFO
+mlpipeline_1.egg-info/SOURCES.txt
+mlpipeline_1.egg-info/dependency_links.txt
+mlpipeline_1.egg-info/requires.txt
+mlpipeline_1.egg-info/top_level.txt
