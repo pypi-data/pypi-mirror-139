@@ -1,0 +1,7 @@
+tinydb
+requests
+pydantic
+python-dotenv
+bs4
+unidecode
+ebooklib
