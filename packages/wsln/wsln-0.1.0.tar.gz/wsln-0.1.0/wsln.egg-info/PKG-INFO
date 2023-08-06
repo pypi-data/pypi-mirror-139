@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wsln
+Version: 0.1.0
+Summary: Understand the Semantics of Text
+Author: gajanlee
+Author-email: lee_jiazh@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
