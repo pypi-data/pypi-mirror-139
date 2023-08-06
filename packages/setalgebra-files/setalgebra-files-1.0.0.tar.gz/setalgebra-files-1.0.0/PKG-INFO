@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: setalgebra-files
+Version: 1.0.0
+Summary: Arbitrary set calculations using the shunting yard algorithm
+Home-page: https://gitlab.com/jfriis/setalgebra
+Author: Jens Friis-Nielsen
+Author-email: jensfriisnielsen@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Bug Tracker, https://gitlab.com/jfriis/setalgebra/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+==========
+setalgebra
+==========
+
+https://gitlab.com/jfriis/setalgebra
+
+Arbitrary set calculations using the shunting yard algorithm
+
+
+Install
+=======
+
+To install using pip:
+
+.. code:: shell
+
+   pip install setalgebra
+
+
+Usage
+=====
+
+.. code::
+
+    setalgebra \( file1 + file2 \) x file3 - file4
+
+Treat ... as a set-based arithmetic expression of files and operators.
+Files are sets of lines (whitespace stripped).
+
+Operators from lower to higher precedence
+
+.. list-table::
+
+    * - \+
+      - set union
+    * - \-
+      - set difference
+    * - x
+      - set intersection
+    * - (
+      - group precedence
+    * - )
+      -
+
+Union and difference has the same precedence.
+
+

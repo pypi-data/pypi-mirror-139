@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/setalgebra/__init__.py
+src/setalgebra/__main__.py
+src/setalgebra/exceptions.py
+src/setalgebra/version.py
+src/setalgebra_files.egg-info/PKG-INFO
+src/setalgebra_files.egg-info/SOURCES.txt
+src/setalgebra_files.egg-info/dependency_links.txt
+src/setalgebra_files.egg-info/entry_points.txt
+src/setalgebra_files.egg-info/top_level.txt
