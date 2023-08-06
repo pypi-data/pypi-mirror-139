@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+from exectr import main
+from strictfire import StrictFire
+
+
+if __name__ == '__main__':
+    StrictFire(main)

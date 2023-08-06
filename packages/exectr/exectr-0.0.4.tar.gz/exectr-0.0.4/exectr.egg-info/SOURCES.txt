@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+exectr.egg-info/PKG-INFO
+exectr.egg-info/SOURCES.txt
+exectr.egg-info/dependency_links.txt
+exectr.egg-info/requires.txt
+exectr.egg-info/top_level.txt
+scripts/executor
