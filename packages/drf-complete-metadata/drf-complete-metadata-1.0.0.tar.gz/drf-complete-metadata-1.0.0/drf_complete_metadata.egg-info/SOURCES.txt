@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+complete_metadata/__init__.py
+complete_metadata/mixins.py
+drf_complete_metadata.egg-info/PKG-INFO
+drf_complete_metadata.egg-info/SOURCES.txt
+drf_complete_metadata.egg-info/dependency_links.txt
+drf_complete_metadata.egg-info/requires.txt
+drf_complete_metadata.egg-info/top_level.txt
