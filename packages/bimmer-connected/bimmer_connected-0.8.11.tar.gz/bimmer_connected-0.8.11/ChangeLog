@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.11
+------
+
+* Don't store GCJ02 converted position to VehicleStatus (#421)
