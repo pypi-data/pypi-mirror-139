@@ -1,0 +1,16 @@
+xumx/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xumx/args.py,sha256=hHE4f7AJUz6iwTMLuSuBxkKO8ToU_PfB7Mr0NOyne8o,5810
+xumx/comm.py,sha256=yuAI6U44oLocmVGJmFg8SFqcMqk6QXGszefGzBu_VwU,3031
+xumx/data.py,sha256=bdxY3j9umxC_W84N_8FukqNd8G1Ml9yUPqdrwDoGGWM,7975
+xumx/eval.py,sha256=149PwGbVWy3aGIrmNrfjLUZlBeDC7L5E9NoVyFGE3GM,4236
+xumx/loss.py,sha256=Fh4sV2V7CgdMM1TQfuo3yy9Q1TJsOp7kJ_Skd1K9YKk,6561
+xumx/lr_scheduler.py,sha256=fARkUT1QYZIHWiXVMHNjQYCnmxXkShnjUVFZSuuJJ6w,5605
+xumx/model.py,sha256=0077WJ64LFOcKA_5Am2v_PFkfuvmZhwiPk3oYm-i8B8,16849
+xumx/test.py,sha256=ZFMlI2dfO_mNE1hNstFFMif_YxyzDknQgTXwk1dNPLs,7357
+xumx/train.py,sha256=IiqLMlt7zi4MQS_w9pqhEvqYP9I-G0Y_NulTZPl_S14,8338
+xumx/utils.py,sha256=BcPxGpjwXlxT9a7M1EsiWHnAXd0qJKNLCYolsMs5UHQ,3362
+xumx_unofficial-0.2.0.dist-info/LICENSE,sha256=0JfZ4pXj63H5_n5F_Eb1vYhpJxmrr82GT6DO1e4qI8U,12644
+xumx_unofficial-0.2.0.dist-info/METADATA,sha256=p9ppgYcO1v_DG484FP_eLk6H_Xx96G_BagiyeNMJbgo,14168
+xumx_unofficial-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xumx_unofficial-0.2.0.dist-info/top_level.txt,sha256=QcYdjtlMIKAnJ51jnf79TF8M_w6uL87jaZg5ugSDrso,5
+xumx_unofficial-0.2.0.dist-info/RECORD,,
