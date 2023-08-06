@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: kjst-kuku
+Version: 0.1.2
+Summary: 
+Author: Kenji Sato
+Author-email: mail@kenjisato.jp
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: plotly (>=5.6.0,<6.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+kjst-kuku
+=========
+
+掛け算ドリル
+
+Install
+-------
+
+```sh
+python -m pip install --upgrade git+https://github.com/kenjisato/kjst-kuku
+```
+
+Usage
+-----
+
+### 3の段を順番に出題
+
+```sh
+kjst-kuku start -o 3
+```
+
+### 5の段のシャッフル
+
+```sh
+kjst-kuku start 5
+```
+
+### 全部をシャッフル
+
+```sh
+kjst-kuku start
+```
+
+### 3, 4, 6, 8の段をシャッフルしない
+
+```sh
+kjst-kuku start -o 3-4/6-8
+```
+
+
+Show Records
+------------
+
+Helper commands will come soon. Until then, see 
+
+```sh
+cat ~/.kuku_records
+```
+
