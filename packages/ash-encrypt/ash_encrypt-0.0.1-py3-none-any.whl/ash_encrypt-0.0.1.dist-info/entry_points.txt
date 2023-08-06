@@ -1,0 +1,2 @@
+[console_scripts]
+ash-encrypt = mainfile.ashFile:main
