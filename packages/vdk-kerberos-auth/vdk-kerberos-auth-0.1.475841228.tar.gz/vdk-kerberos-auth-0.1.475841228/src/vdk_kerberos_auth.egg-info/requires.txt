@@ -1,0 +1,3 @@
+vdk-core
+minikerberos==0.1.0
+requests-kerberos==0.12.0
