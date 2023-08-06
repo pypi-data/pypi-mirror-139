@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: leafnlp
+Version: 0.0.10
+Summary: Domain-specific Natural Language Processing with LeafNLP
+Home-page: https://leafnlp.org
+Author: The LeafNLP Team
+Author-email: 
+License: UNKNOWN
+Description: # LeafNLP - A package for domain specific natural language processing
+        
+        This repository contains codes for LeafNLP.
+        
+        ## Installation
+        Use ``pip`` to install LeafNLP. Run:
+        
+        ```
+        pip install leafnlp
+        ```
+        
+        ## Usage
+        
+        ```
+        
+        from leafnlp.nlp.named_entity_recogonition.bert import modelNER
+        from pprint import pprint
+        
+        model = modelNER()
+        input_text = [{"text": "The storm hits New York."}]
+        input_text = ["The storm arrived at New York."]
+        
+        results = model.annotate(input_text)
+        results = model.annotate_raw_dump(input_text, top_n=10)
+        
+        ```
+        
+        ## Available Models
+        
+        Task|Model|model_param|Note|
+        |-|-|-|-|
+        |NER|BERT|model_ner_bert_conll2003||
+        |ED|BERT|model_ed_bert_maven2020||
+        
+        - ``NER``: Named Entity Recogonition.
+        - ``ED``: Event Detection.
+        
+        ## Acknowledgements
+        
+        ``LeafNLP`` is maintained by the LeafNLP Team.
+Keywords: leafnlp NLP Deep Learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8.10
+Description-Content-Type: text/markdown
