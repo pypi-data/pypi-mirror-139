@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: woodchipper
+Version: 0.5
+Summary: Woodchipper is a support library for plugging structured logging into a Python project.
+Home-page: https://github.com/tackle-io/woodchipper
+Author: Tackle.io, Inc.
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.6
+License-File: COPYING
+
+UNKNOWN
+
