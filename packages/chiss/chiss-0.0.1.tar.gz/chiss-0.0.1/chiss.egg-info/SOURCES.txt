@@ -1,0 +1,6 @@
+setup.py
+chiss.egg-info/PKG-INFO
+chiss.egg-info/SOURCES.txt
+chiss.egg-info/dependency_links.txt
+chiss.egg-info/requires.txt
+chiss.egg-info/top_level.txt
