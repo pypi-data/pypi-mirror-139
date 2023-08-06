@@ -1,0 +1,16 @@
+cardmarket_api/__init__.py,sha256=PKcMBXu1wa9egMTL-XpFlrkgK1oCB7b4IGB6jJpgQ8Y,216
+cardmarket_api/auth.py,sha256=4rdPt_IBL6ainTFrDqOSTZ74TLPXmn41yOkXRfTXqMs,591
+cardmarket_api/cardmarket_api.py,sha256=FlPsCRUCZrYXZ97E4_Smdc3CqlfU1Za9bOgL9w5pcys,2619
+cardmarket_api/clients/__init__.py,sha256=Tqxb7m5n0XM-LFQMdGwgyTYiJJEfT8RoZHgtIUXUmVQ,267
+cardmarket_api/clients/base.py,sha256=0rjh22iROB0LydXwtcrqeYcyS83YEjNCcLTf8cO09kY,710
+cardmarket_api/clients/exceptions.py,sha256=SkK0XK4kOCbpssKwmDXIsWOeksrOqlPzP6_ZOFyT_hc,123
+cardmarket_api/clients/global_client.py,sha256=sQpBX3QgQ5_VvuWGQWBTVRYGvHymfBn09yxS9zJmThE,655
+cardmarket_api/clients/marketplace_client.py,sha256=vJeoFwuAFi879S9gqWM2GCeLnbFLmv6h5muRBdV4cT0,1152
+cardmarket_api/clients/product_client.py,sha256=xkxhXXvHnEwKzCN6o3Zuz5ag8RYT-9vZ2bbllasxH2w,2837
+cardmarket_api/clients/user_client.py,sha256=_5ZjRq-ry8z-V6bno_wbBNHyOnfNEJaaJgodHLT6XC8,4782
+cardmarket_api-0.1.0.dist-info/AUTHORS.rst,sha256=G12AfTdmnMEooyDYyIf0i0P8GAs-wvGFke_sUIEfSLs,156
+cardmarket_api-0.1.0.dist-info/LICENSE,sha256=6lqVeFWy5IrfN3ML_NGLXoLm7AKpLpKy3QS0VcXoj5k,1071
+cardmarket_api-0.1.0.dist-info/METADATA,sha256=3E8AmNU6Yfc7W7J7FaT0iAqFX2brm0TKPs5lSf5Swe8,2607
+cardmarket_api-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+cardmarket_api-0.1.0.dist-info/top_level.txt,sha256=PhCkrQjaWbC43II9anCek9BlzCbtfEhOGMnI6fiMaSM,15
+cardmarket_api-0.1.0.dist-info/RECORD,,
