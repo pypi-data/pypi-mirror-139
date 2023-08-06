@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: robotframework-publisher-results-azure
+Version: 2.0.1
+Summary: Library to publish robot framework automation results on azure
+Home-page: https://github.com/ismailktami/robotframework-publisher-results-azure
+Author: Ismail Ktami
+Author-email: ktamiismail@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: robotframework azure devops testplans results outcomes
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

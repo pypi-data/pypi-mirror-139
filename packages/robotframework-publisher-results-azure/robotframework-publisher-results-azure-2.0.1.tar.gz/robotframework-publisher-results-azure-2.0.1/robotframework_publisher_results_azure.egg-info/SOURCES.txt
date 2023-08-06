@@ -1,0 +1,16 @@
+README.md
+setup.py
+PublisherAzureTestsResults/__init__.py
+PublisherAzureTestsResults/azureTestPlansClient.py
+PublisherAzureTestsResults/azureTestsResultsKeywords.py
+PublisherAzureTestsResults/constants.py
+PublisherAzureTestsResults/formatterPayloadAzure.py
+PublisherAzureTestsResults/logger.py
+PublisherAzureTestsResults/suiteResults.py
+PublisherAzureTestsResults/variables.py
+PublisherAzureTestsResults/version.py
+robotframework_publisher_results_azure.egg-info/PKG-INFO
+robotframework_publisher_results_azure.egg-info/SOURCES.txt
+robotframework_publisher_results_azure.egg-info/dependency_links.txt
+robotframework_publisher_results_azure.egg-info/requires.txt
+robotframework_publisher_results_azure.egg-info/top_level.txt
