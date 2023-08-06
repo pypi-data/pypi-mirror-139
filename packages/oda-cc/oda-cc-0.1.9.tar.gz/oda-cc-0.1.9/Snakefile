@@ -1,0 +1,16 @@
+argcodes, = glob_wildcards("args/args-{argcode}.yaml")
+
+rule all:
+    input:
+        expand("results/result-{argcode}", argcode=argcodes)
+
+rule one:
+    input:
+        "args/args-{argcode}.yaml",
+    output:
+        "results/result-{argcode}"
+    log:
+        "logs/logs-{argcode}"
+    shell:
+        "RUN_ONE_INDIR=/tmp/run-one-$RANDOM bash ci-template-cc/make-functions.sh run-one {input} > {log} 2>&1; echo $? > results/result-{wildcards.argcode}"
+        #"sleep $((RANDOM%300)); RUN_ONE_INDIR=/tmp/run-one-$RANDOM bash ci-template-cc/make-functions.sh run-one {input} > {log} 2>&1 && touch results/result-{wildcards.argcode}"

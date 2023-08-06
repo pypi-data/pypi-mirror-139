@@ -1,0 +1,15 @@
+# metadata is describing the meaning of the workflow, and not so much implemtation 
+metadata:
+# source name is used for some naming but source-focused workflows
+  source_short_name: crab 
+# short name/slug for the test. better if unique. preferrable if compatible with uri_base
+  test_case_short_name: crab-inrev-stability
+
+# unique and universal URI of the workflow. 
+uri_base: http://odahub.io/cc/crab-inrev-stability
+
+# notebook which will be used
+root_notebook: crab-inrev-stability.ipynb
+
+# base docker image
+cc_base_image: integralsw/osa-python:11.1-3-g87cee807-20200410-144247-refcat-43.0-heasoft-6.27.2-python-3.8.2

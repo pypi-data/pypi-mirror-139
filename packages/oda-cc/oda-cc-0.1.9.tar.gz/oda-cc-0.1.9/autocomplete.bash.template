@@ -1,0 +1,14 @@
+
+function _%CLI_SCRIPT_NAME%_script() {
+    local cur prev opts base
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+    cmds=$( < $(which %CLI_SCRIPT_NAME%)  awk -F'[ (]' '/^function/ {print $2}' )
+
+    COMPREPLY=($(compgen -W "${cmds}" -- ${cur}))
+    return 0
+}
+
+complete -o nospace -F _%CLI_SCRIPT_NAME%_script %CLI_SCRIPT_NAME%
+
