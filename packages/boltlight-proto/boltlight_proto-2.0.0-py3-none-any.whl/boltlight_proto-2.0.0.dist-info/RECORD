@@ -1,0 +1,6 @@
+boltlight_proto/__init__.py,sha256=-dnBj1WNikx9QcSYSoWODdkapkoE-0QI25dd5qyuyNQ,31
+boltlight_proto/boltlight_pb2.py,sha256=0IgyNKGKrSsMjDxcM3Xt9GffEmODfYi2OBCGnNQvtwo,117031
+boltlight_proto/boltlight_pb2_grpc.py,sha256=vlEc9CJToZEtrbaHpr2iEpbMGJ22TRcWUUI6Wj0Yq5M,37312
+boltlight_proto-2.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+boltlight_proto-2.0.0.dist-info/METADATA,sha256=ZchzJ8wLhUCPwqUwUMVFp_6fVb-Rf9MkjHnytHtnSuI,1045
+boltlight_proto-2.0.0.dist-info/RECORD,,
