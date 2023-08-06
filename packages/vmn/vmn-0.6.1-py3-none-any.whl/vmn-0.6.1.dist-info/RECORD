@@ -1,0 +1,11 @@
+version_stamp/__init__.py,sha256=p_9bnBNpi1jHdKDsmBM7tN2Da3N-QOYEe8s09k9NIrk,152
+version_stamp/stamp_utils.py,sha256=TDFvdQmV-pNFcAdFLmouVsgw6AGgqrNKP-Vl8ibv4n8,22009
+version_stamp/version.py,sha256=Cli7H3Fnn8FU0_I2Hwg9iahhNR4mo5DEEXE0BlLXReU,50
+version_stamp/vmn.py,sha256=vf7gZLo-jMiS5qWIE_mgCc0yCYilIYs-KkYA13TiTF4,74822
+vmn-0.6.1.dist-info/DESCRIPTION.rst,sha256=zD3e_3entFredaeb-KCD6IoVJ6Y8zQpLUNr7l4sgWVY,19
+vmn-0.6.1.dist-info/METADATA,sha256=Rg--rQbG3ZOpm2cKRGogHL8B8Dvo8Mq4T6Nqh796azI,425
+vmn-0.6.1.dist-info/RECORD,,
+vmn-0.6.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+vmn-0.6.1.dist-info/entry_points.txt,sha256=1v5GbQiSC3z8ZF_dwxte6MeXbHSvUkBqiSVvXsjfzk0,48
+vmn-0.6.1.dist-info/metadata.json,sha256=heyj-9Gf_eENxgQ2KbQ7fT4efCgSQzP76FUd_UdfZso,709
+vmn-0.6.1.dist-info/top_level.txt,sha256=nVR6dU2EinKSe5A4ZJa7NR1aOPNV7QMXvB5Sm-rWbJs,14
