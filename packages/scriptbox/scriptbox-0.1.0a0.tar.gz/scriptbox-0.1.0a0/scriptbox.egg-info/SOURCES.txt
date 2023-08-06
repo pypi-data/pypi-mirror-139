@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+docs/screencapture.1
+docs/screencapture.1.md
+docs/scriptbox.1
+docs/scriptbox.1.md
+scriptbox/__init__.py
+scriptbox/screencapture.py
+scriptbox.egg-info/PKG-INFO
+scriptbox.egg-info/SOURCES.txt
+scriptbox.egg-info/dependency_links.txt
+scriptbox.egg-info/entry_points.txt
+scriptbox.egg-info/not-zip-safe
+scriptbox.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+screencapture = scriptbox.screencapture:main
