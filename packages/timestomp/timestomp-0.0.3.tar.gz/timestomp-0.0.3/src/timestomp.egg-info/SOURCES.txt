@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/timestomp/__init__.py
+src/timestomp.egg-info/PKG-INFO
+src/timestomp.egg-info/SOURCES.txt
+src/timestomp.egg-info/dependency_links.txt
+src/timestomp.egg-info/top_level.txt
