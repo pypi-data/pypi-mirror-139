@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+alpha-wordle/src/alpha-wordle.py
+alpha-wordle/src/alpha_wordle.egg-info/PKG-INFO
+alpha-wordle/src/alpha_wordle.egg-info/SOURCES.txt
+alpha-wordle/src/alpha_wordle.egg-info/dependency_links.txt
+alpha-wordle/src/alpha_wordle.egg-info/top_level.txt
