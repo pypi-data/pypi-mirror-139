@@ -1,0 +1,1 @@
+We construct a data that both predictors and responses ara contaminated.

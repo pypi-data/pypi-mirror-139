@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+Construct/Construction.py
+Construct/__init__.py
+Data_Construct.egg-info/PKG-INFO
+Data_Construct.egg-info/SOURCES.txt
+Data_Construct.egg-info/dependency_links.txt
+Data_Construct.egg-info/top_level.txt
