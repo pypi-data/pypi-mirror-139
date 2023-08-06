@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bot_storage/storage.py
+bot_storage.egg-info/PKG-INFO
+bot_storage.egg-info/SOURCES.txt
+bot_storage.egg-info/dependency_links.txt
+bot_storage.egg-info/requires.txt
+bot_storage.egg-info/top_level.txt
