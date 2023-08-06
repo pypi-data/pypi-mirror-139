@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: stacking_manual
+Version: 0.1.6
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Motivation:
+        
+        Sometimes we train multiple models for different contexts in the data, for example:
+        
+        - We want to build many independent linear models, for example estimating elasticity for different products
+        
+        - Model input table has a block of observations with NULLS in some features, we want two (or more) independent models; for data with nulls vs without
+        
+        But, as we build separate models, we have several challenges:
+        
+        - It's hard to keep track of overall (combined) model performance.  Often we resort to reporting performance on models individually 
+        
+        - Many MLOps performance monitoring systems - such as MLFlow - are structured to track a single model object, and having multiple independent model objects can make the interface unwieldy
+        
+        - We may resort to doing training and model inference in one shot without saving the model object, since running a training pipeline, then inference pipeline requires saving and loading many models, which is hard to keep track of
+         
+        This library helps combine models (also known as "stacking") when you want to explicitly assign the models to fit and predict on specific observations.  Currently, the sklearn stacking module does not allow for explicitly assigning models or independent model training
+Platform: UNKNOWN
