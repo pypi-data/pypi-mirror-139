@@ -1,0 +1,8 @@
+vcoml/__init__.py,sha256=ZrKATatRO8ONXXCQJ8xJIVrLUrLu21f1KR66HItN63s,85
+vcoml/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcoml/packer.py,sha256=yHK5ffwIG2EiLOV2c19HxloCqMmJqG_aMEiYc9JXaM0,1022
+vcoml/unpacker.py,sha256=suhazIRzdzEcYQDk7PetJ1dXcuvN93KZhDkR4WuZhMo,1881
+vcoml-1.0.1.dist-info/LICENSE,sha256=yuCKmDKmBN3HCG8j1AAxNwc2Gl0hIjHwuDWy30sWVuM,1066
+vcoml-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+vcoml-1.0.1.dist-info/METADATA,sha256=gNgMWT2eT0HFK-t5at5cOorcc5u1bouffc8QxTupdUM,1336
+vcoml-1.0.1.dist-info/RECORD,,
