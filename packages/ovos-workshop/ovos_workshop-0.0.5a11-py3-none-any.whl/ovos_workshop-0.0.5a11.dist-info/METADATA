@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ovos-workshop
+Version: 0.0.5a11
+Summary: frameworks, templates and patches for the mycroft universe
+Home-page: https://github.com/OpenVoiceOS/OVOS-workshop
+Author: jarbasAi
+Author-email: jarbasai@mailfence.com
+License: apache-2.0
+Platform: UNKNOWN
+Requires-Dist: ovos-utils (>=0.0.12a5)
+Requires-Dist: ovos-plugin-common-play (~=0.0.1a11)
+
+UNKNOWN
+
+
