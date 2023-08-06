@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bbc
+Version: 0.1.0
+Summary: utility to check and format bibtex files
+License: BSD-3
+Author: tdsimao
+Author-email: tdsimao@users.noreply.github.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SPARQLWrapper (>=1.8.5,<2.0.0)
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: bibtexparser (>=1.2.0,<2.0.0)
+Requires-Dist: isbnlib (>=3.10.9,<4.0.0)
+Requires-Dist: pycountry (>=22.1.10,<23.0.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
