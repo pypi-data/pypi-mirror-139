@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+p3d_analyze.egg-info/PKG-INFO
+p3d_analyze.egg-info/SOURCES.txt
+p3d_analyze.egg-info/dependency_links.txt
+p3d_analyze.egg-info/top_level.txt
+panda3d_analyze/__init__.py
