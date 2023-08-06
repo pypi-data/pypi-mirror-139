@@ -1,0 +1,10 @@
+bargets/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bargets/battery.py,sha256=Bg7kslejfzW-S1cxphzeth5KRHnBC7oPfLAeUusQ22E,16257
+bargets/configparser.py,sha256=pGhw6wk0yfiDwRs-7VL7q8Ie4k69Yjxm_a2lVtwGBGs,11563
+bargets/cpu.py,sha256=opXSn6kFz48oKaRYXypYwyLWH9hkHe2PwZMkZoJbJuY,4214
+bargets-0.1.0rc2.dist-info/LICENSE.txt,sha256=W19Ci1I2HPe710WZUp0Ly2KpFsz-uLgASi4rKAWBI34,1071
+bargets-0.1.0rc2.dist-info/METADATA,sha256=iQqU4wPbyFewS7Ilavwm-8RJumRbEtJUTNxA-qcDAB0,2105
+bargets-0.1.0rc2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bargets-0.1.0rc2.dist-info/entry_points.txt,sha256=3BebzGVm55r1Mlo43YynUPiM0TqRh6U9GTU-60FqoFA,88
+bargets-0.1.0rc2.dist-info/top_level.txt,sha256=sMSuS1venWlFWDmL1-Jt83Gq3H14ykobsCTD-dnbjxM,8
+bargets-0.1.0rc2.dist-info/RECORD,,
