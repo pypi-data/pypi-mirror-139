@@ -1,0 +1,4 @@
+#!python
+from commentary import commentary
+
+commentary.main()
