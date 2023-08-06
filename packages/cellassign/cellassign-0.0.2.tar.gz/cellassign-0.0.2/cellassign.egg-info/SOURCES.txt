@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+cellassign/__init__.py
+cellassign/cellassign.py
+cellassign.egg-info/PKG-INFO
+cellassign.egg-info/SOURCES.txt
+cellassign.egg-info/dependency_links.txt
+cellassign.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: cellassign
+Version: 0.0.2
+Summary: A cell assigner for single cell.
+Home-page: https://github.com/alexmascension/cell_asign
+Author: alexmascension
+Author-email: alexmascension@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: example pypi tutorial
+Platform: UNKNOWN
