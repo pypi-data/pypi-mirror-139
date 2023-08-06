@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: djangocms-dag-jetcode
+Version: 1.0.0
+Summary: 
+License: LICENSE.txt
+Author: Kapt dev team
+Author-email: dev@kapt.mobi
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=2.0,<3.0)
+Requires-Dist: django-cms (>=3.8.0,<4.0.0)
+Requires-Dist: django-multiselectfield (>=0.1.12,<0.2.0)
+Requires-Dist: djangocms-attributes-field (>=2.0.0,<3.0.0)
