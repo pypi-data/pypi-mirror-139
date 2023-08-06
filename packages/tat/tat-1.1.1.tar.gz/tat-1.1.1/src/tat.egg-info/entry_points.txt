@@ -1,0 +1,2 @@
+[gui_scripts]
+tat = tat.gui.main:main

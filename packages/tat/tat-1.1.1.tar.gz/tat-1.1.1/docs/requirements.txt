@@ -1,0 +1,9 @@
+sphinx==3.5.4
+myst-parser==0.14.0
+pbr==5.6.0
+sphinx-material==0.0.32
+PySide6>=6.0
+numpy>=1.19.0
+opencv-python>=4.5.1.48
+scikit-image>=0.16.2
+scikit-learn>=0.23.2
