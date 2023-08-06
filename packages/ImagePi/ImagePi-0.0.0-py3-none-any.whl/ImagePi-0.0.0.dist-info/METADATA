@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ImagePi
+Version: 0.0.0
+Summary: Placeholer. ImagePi N-dimensional image-like data evaluation and processing tools
+Home-page: https://gitlab.com/sergey.mainz/imagepy
+Author: Sergii Chernov
+Author-email: contact.sergii.chernov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyqtgraph
+
+TODO: Create a readme file
+
