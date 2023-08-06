@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "templateco"
+version = "0.1.5"
+description = ""
+authors = ["Mike Gregory <mike.ja.gregory@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [
+    { from = "../", include = "templateco" }
+]
+exclude = ["*_test.py"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+questionary = "^1.10"
+Jinja2 = "^3.0"
+colorama = "^0.4.4"
+typing-extensions = "^4.0.1"
+importlib-metadata = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
