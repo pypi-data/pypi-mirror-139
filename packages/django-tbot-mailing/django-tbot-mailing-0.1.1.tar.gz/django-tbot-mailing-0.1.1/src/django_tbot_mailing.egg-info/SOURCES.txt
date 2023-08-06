@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+src/django_tbot_mailing.egg-info/PKG-INFO
+src/django_tbot_mailing.egg-info/SOURCES.txt
+src/django_tbot_mailing.egg-info/dependency_links.txt
+src/django_tbot_mailing.egg-info/requires.txt
+src/django_tbot_mailing.egg-info/top_level.txt
+src/tbot_mailing/__init__.py
+src/tbot_mailing/admin.py
+src/tbot_mailing/apps.py
+src/tbot_mailing/models.py
+src/tbot_mailing/tasks.py
+src/tbot_mailing/migrations/__init__.py
