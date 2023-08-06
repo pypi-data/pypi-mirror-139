@@ -1,0 +1,17 @@
+odoo8_addon_shopinvader_reset_password-8.0.1.0.0.99.dev3-py3.8-nspkg.pth,sha256=byZRehCeET5bIG0AMyMXPLGoXAE887IW4f1j_Rh4alU,564
+odoo_addons/shopinvader_reset_password/README.rst,sha256=oqg5ydbOR4mhc5uMrEPVAKe27lOCK5xAR1-KJNQvzlM,516
+odoo_addons/shopinvader_reset_password/__init__.py,sha256=CDxDfRyWPfLiThFHkB550LaL6-h8j2dJtbSTwvi_kSU,91
+odoo_addons/shopinvader_reset_password/__openerp__.py,sha256=nDJeLcuWU5HorlpX9Xei2pRhJ9I5REU9QtZcPl0cvZw,818
+odoo_addons/shopinvader_reset_password/models/__init__.py,sha256=gn1LNEyR4DkwNQRJNjKIUu2QnmivMseYtoz92dhm83s,47
+odoo_addons/shopinvader_reset_password/models/partner.py,sha256=e2KnfWiGE8Fk6ZZ_Db3ZJ2117gcBxZ942cj5vL7938g,1159
+odoo_addons/shopinvader_reset_password/services/__init__.py,sha256=eD4RWEpkjEbIqIAiz-4IhXB9K750OhDjPTdAybCuEg0,44
+odoo_addons/shopinvader_reset_password/services/sign.py,sha256=rd4mJpX7Z8vc3ZTzG_1N0hVBSTUGtjavTEGujrhDRqw,860
+odoo_addons/shopinvader_reset_password/views/partner_view.xml,sha256=qY7wzlxfskDWsjDgsHxTqQP0dJFxbV8hOCE2JprC0_w,1627
+odoo_addons/shopinvader_reset_password/wizards/__init__.py,sha256=Dr2Wqy_OiEWuUu3T4dMKoslFbGlT8J0vDo9VIJ0cRBs,54
+odoo_addons/shopinvader_reset_password/wizards/reset_password.py,sha256=IkmzezO7ZOk-f9AUiufUfL6cBr1ukyDOQsSOJocjnJs,2507
+odoo_addons/shopinvader_reset_password/wizards/reset_password_view.xml,sha256=xP5iuoVBj5Qf4kU6FSC0hmkTnm7YnQSTyprvRpzt8F8,1242
+odoo8_addon_shopinvader_reset_password-8.0.1.0.0.99.dev3.dist-info/METADATA,sha256=rtzAo6GOHPmLhPCWsGG7YaeOeHDEreA6j2ik9sR6Nxw,1060
+odoo8_addon_shopinvader_reset_password-8.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+odoo8_addon_shopinvader_reset_password-8.0.1.0.0.99.dev3.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_shopinvader_reset_password-8.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_shopinvader_reset_password-8.0.1.0.0.99.dev3.dist-info/RECORD,,

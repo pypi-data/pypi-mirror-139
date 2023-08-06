@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: odoo8-addon-shopinvader-reset-password
+Version: 8.0.1.0.0.99.dev3
+Summary: Give the possibility to send a email to reset thepassword from odoo
+Home-page: https://www.akretion.com
+Author: Akretion
+License: AGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 8.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: ~=2.7
+Requires-Dist: odoo8-addon-shopinvader
+Requires-Dist: odoo (<9.0a,>=8.0a)
+
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
+
+==========================
+Shopinvader Reset Password
+==========================
+
+This module add the possibility to send an email from odoo to the customer to reset their password
+
+Email Template is selectionnable so you can use it to send a custom email depending of the customer
+
+
+
+Contributors
+------------
+
+* BEAU Sébastien <sebastien.beau@akretion.com>
+
+
