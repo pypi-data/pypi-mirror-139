@@ -1,0 +1,6 @@
+trame
+torch>=1.9.1
+pytorch_lightning
+captum
+pftools[all]
+xaitk-saliency
