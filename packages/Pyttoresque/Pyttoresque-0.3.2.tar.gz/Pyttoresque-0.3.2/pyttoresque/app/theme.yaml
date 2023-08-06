@@ -1,0 +1,10 @@
+attrs:
+  InputWidget:
+    default_size: 500
+    css_classes: ["horizontal"]
+  Box:
+    spacing: 20
+  Tabs:
+    css_classes: ["mytabs"]
+  Spacer:
+    css_classes: ["spacer"]
