@@ -1,0 +1,12 @@
+pyyaml>=5.4
+numpy
+xarray
+numba
+dask
+imageio>=2.9.0
+
+[all]
+imageio>=2.9.0
+
+[pfsol]
+imageio>=2.9.0
