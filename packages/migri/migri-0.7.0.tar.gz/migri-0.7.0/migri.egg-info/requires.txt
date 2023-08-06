@@ -1,0 +1,12 @@
+asyncpg
+click<9,>=7
+sqlparse==0.4.*
+
+[mysql]
+aiomysql
+
+[postgresql]
+asyncpg
+
+[sqlite]
+aiosqlite
