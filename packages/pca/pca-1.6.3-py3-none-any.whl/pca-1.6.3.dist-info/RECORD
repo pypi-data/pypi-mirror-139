@@ -1,0 +1,11 @@
+pca/__init__.py,sha256=lOsFFEqXL6ZOQ-oHNatY8YsyhFV2nNlfxkXFLH1Wo4k,1310
+pca/examples.py,sha256=1shQm69A5Y4hhmMEjk5kPLUyQUeX1tKDXJC9wHzfbBQ,12339
+pca/pca.py,sha256=jUQUZo1b3PNuEFqakNQFE-0mxk3VEgbJXo1zyOMndM4,52472
+pca/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pca/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pca/tests/test_pca.py,sha256=8f2p4PHNZ1-CNFLDoZwPz_p7TjLDh-J-zIFKXtTxIyU,6914
+pca-1.6.3.dist-info/LICENSE,sha256=pCSNOgJv4AYryLJD_ARRUoEAoiS1eJTB6B3bcOx-rHs,1094
+pca-1.6.3.dist-info/METADATA,sha256=OJwkNfVq-aCNlU_tP39geiuYoVj0Nf2bYdGOsnwUZDY,13685
+pca-1.6.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pca-1.6.3.dist-info/top_level.txt,sha256=78V6i9FlKqgjWTqh7r9Cvm_yg-s14LiL5dbqqbHVvWQ,4
+pca-1.6.3.dist-info/RECORD,,
