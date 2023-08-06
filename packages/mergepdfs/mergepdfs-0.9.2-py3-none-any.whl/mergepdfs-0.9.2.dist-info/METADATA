@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: mergepdfs
+Version: 0.9.2
+Summary: Python command line program for merging multiple PDF-files to one PDF
+Home-page: https://github.com/HermitOS/mergepdfs
+Author: Isabel Sandstrøm, Terje Sandstrom,
+Author-email: isabel@hermit.no
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyPDF2 (>=1.26.0)
+
+# mergepdfs
+
+Python command line program to merge multiple pdfs to one pdf.
+
+## Usage:
+
+Â´Â´Â´
+mergepdfs [inputfiles] outputfile
+Â´Â´Â´
+
+where inputfiles either is a sequence of pdf files or the wild card symbol Â´*Â´ which will take all pdf files in the folder.
+The outputfile is the complete name of the new pdf file.
+
+## Example:
+
+Â´Â´Â´
+mergepdfs file1.pdf file2.pdf outputfile.pdf
+Â´Â´Â´
+
+Â´Â´Â´
+mergepdfs * outputfile.pdf
+Â´Â´Â´
+
