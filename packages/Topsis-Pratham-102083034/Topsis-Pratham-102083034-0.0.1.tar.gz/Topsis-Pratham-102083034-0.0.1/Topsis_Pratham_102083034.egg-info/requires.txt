@@ -1,0 +1,4 @@
+topsispy
+numpy
+pandas
+matplotlib
