@@ -1,0 +1,7 @@
+binance_historical_data/__init__.py,sha256=z8mgO9_jC6E5gp6MiNKRbPmiMukpFSf5Zir0D0SjD40,370
+binance_historical_data/data_dumper.py,sha256=LxDVaonGXgbiNrKJMMS0cb0-U1F-jdWXdvo3n63se20,18485
+binance_historical_data/logger.py,sha256=CMSVckZaRcogIPQjbB0TVMn5ZwIb76xr4ZnR2AjSB-c,4695
+binance_historical_data-0.1.4.dist-info/LICENSE.txt,sha256=BCLEKwi1XBaE3mOOAt3btKjvX9h_ndpGOfw0-iJgprs,1095
+binance_historical_data-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+binance_historical_data-0.1.4.dist-info/METADATA,sha256=O8eXDQmBgb0bIiDZSFhwAONC0dl0loa7Yd22c0ArgiU,7560
+binance_historical_data-0.1.4.dist-info/RECORD,,
