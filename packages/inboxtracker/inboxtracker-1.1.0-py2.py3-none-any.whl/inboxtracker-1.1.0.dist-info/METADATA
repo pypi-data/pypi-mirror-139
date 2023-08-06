@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: inboxtracker
+Version: 1.1.0
+Summary: Inbox Tracker Python API Library
+Home-page: https://github.com/darrensmith223/InboxTracker
+Author: Darren Smith
+Author-email: darren.smith@sparkpost.com
+License: Apache 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests (>=2.20.1)
+
+UNKNOWN
+
