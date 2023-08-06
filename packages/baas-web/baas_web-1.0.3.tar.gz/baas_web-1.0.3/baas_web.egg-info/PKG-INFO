@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: baas-web
+Version: 1.0.3
+Summary: baas web project
+Home-page: UNKNOWN
+Author: perilong
+Author-email: yeqianlong@mrray.cn
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
