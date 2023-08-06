@@ -1,0 +1,74 @@
+[project]
+name = "playbacque"
+description = "Loop play audio"
+authors = [
+	{ name = "George Zhang", email = "geetransit@gmail.com" },
+]
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: End Users/Desktop",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3",
+	"Topic :: Multimedia :: Sound/Audio :: Players",
+]
+requires-python = ">=3.7,<4.0"
+dependencies = [
+	"sounddevice>=0.4.0,<0.5.0",
+	"ffmpeg-python>=0.2.0,<0.3.0",
+	"typing-extensions>=4.0.0,<5.0.0;python_version<'3.10'",
+	"importlib-metadata>=4.0.0,<5.0.0;python_version<'3.8'",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://pypi.org/project/playbacque/"
+Repository = "https://github.com/GeeTransit/playbacque"
+
+[project.scripts]
+playbacque = "playbacque:main"
+
+[tool.hatch]
+version = { source = "vcs" }
+
+[tool.hatch.build]
+ignore-vcs = true
+include = ["playbacque.py"]
+
+[tool.hatch.build.targets.sdist]
+[tool.hatch.build.targets.wheel]
+
+[tool.hatch.envs.lint]
+skip-install = true
+dependencies = [
+    "flake8>=4.0.0",
+    "pyproject-flake8>=0.0.1a2",
+    "mypy>=0.901",
+]
+
+[tool.hatch.envs.lint.scripts]
+# TODO: Change to flake8 when it supports pyproject.toml
+style = "pflake8 playbacque.py"
+typing = "mypy --install-types --non-interactive playbacque.py"
+all = ["style", "typing"]
+
+[tool.hatch.envs.test.scripts]
+doctest = "python -m doctest playbacque.py"
+all = ["doctest"]
+
+[tool.hatch.envs.test-matrix]
+template = "test"
+matrix = [ { python = ["37", "38", "39", "310"] } ]
+
+[tool.flake8]
+extend-ignore = "E302, E305"
+
+[tool.mypy]
+strict = true
+show_error_codes = true
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
