@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+bardzolosowanazwapaczki.egg-info/PKG-INFO
+bardzolosowanazwapaczki.egg-info/SOURCES.txt
+bardzolosowanazwapaczki.egg-info/dependency_links.txt
+bardzolosowanazwapaczki.egg-info/top_level.txt
