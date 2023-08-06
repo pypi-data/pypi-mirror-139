@@ -1,0 +1,7 @@
+README.md
+click_bash42_completion.py
+setup.py
+click_bash4.2_completion.egg-info/PKG-INFO
+click_bash4.2_completion.egg-info/SOURCES.txt
+click_bash4.2_completion.egg-info/dependency_links.txt
+click_bash4.2_completion.egg-info/top_level.txt

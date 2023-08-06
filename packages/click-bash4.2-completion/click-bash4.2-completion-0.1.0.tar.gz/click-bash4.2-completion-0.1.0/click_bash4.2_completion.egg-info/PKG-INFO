@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: click-bash4.2-completion
+Version: 0.1.0
+Summary: Bash 4.2 completion support for Click 8.0.x
+Home-page: UNKNOWN
+Author: Egor Abramov
+Author-email: coreegor@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/coreegor/click-bash4.2-completion/archive/refs/tags/0.1.0.tar.gz
+Project-URL: Source, https://github.com/coreegor/click-bash4.2-completion
+Description: # click-bash4.2-completion
+        Bash 4.2 completion support for Click 8.0.x
+        
+        Beginning with Click 8.0.x, completion support for older Bash versions was dropped. See https://github.com/pallets/click/issues/2152 and https://github.com/pallets/click/issues/2200
+        
+        This package adds support for Bash version 4.2
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
