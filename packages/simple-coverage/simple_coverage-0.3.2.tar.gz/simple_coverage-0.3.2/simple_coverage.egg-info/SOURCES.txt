@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+simple_coverage/__init__.py
+simple_coverage/analyze.py
+simple_coverage/clean.py
+simple_coverage/coverage.py
+simple_coverage/output.py
+simple_coverage/report.py
+simple_coverage.egg-info/PKG-INFO
+simple_coverage.egg-info/SOURCES.txt
+simple_coverage.egg-info/dependency_links.txt
+simple_coverage.egg-info/requires.txt
+simple_coverage.egg-info/top_level.txt
