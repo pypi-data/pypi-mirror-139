@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+datatool/__init__.py
+datatool/cli.py
+datatool/persister.py
+nmwdidatatool.egg-info/PKG-INFO
+nmwdidatatool.egg-info/SOURCES.txt
+nmwdidatatool.egg-info/dependency_links.txt
+nmwdidatatool.egg-info/entry_points.txt
+nmwdidatatool.egg-info/requires.txt
+nmwdidatatool.egg-info/top_level.txt

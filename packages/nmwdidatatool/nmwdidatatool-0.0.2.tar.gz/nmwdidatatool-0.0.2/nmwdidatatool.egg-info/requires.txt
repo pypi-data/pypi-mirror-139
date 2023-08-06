@@ -1,0 +1,6 @@
+cython
+Click
+requests
+shapely
+pyshp
+pysta>=0.0.28

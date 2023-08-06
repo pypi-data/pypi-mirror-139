@@ -1,0 +1,2 @@
+[console_scripts]
+nmwdi = datatool.cli:cli

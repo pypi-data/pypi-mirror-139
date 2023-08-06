@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nmwdidatatool
+Version: 0.0.2
+Summary: NMWDI Data Tool
+Home-page: https://github.com/NMWDI/pysta
+Author: Jake Ross
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NMWDIDataTool
+A python based tool for accessing data in the NMWDI catalog. Uses PySTA to query SensorThings instances. 
+The application logic in order integrate other APIs exists here also
+
+
