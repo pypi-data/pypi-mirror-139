@@ -1,0 +1,141 @@
+load(
+    "@py_tests_deps//:requirements.bzl",
+    "requirement",
+)
+load("@rules_python//python:defs.bzl", "py_library")
+load("//bazel:python.bzl", "py_test_with_shim")
+
+py_library(
+    name = "test_helper_files",
+    srcs = glob(["*.py"]),
+)
+
+py_test_with_shim(
+    name = "test_base_controller",
+    size = "medium",
+    srcs = ["test_base_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_cloud_controller",
+    size = "medium",
+    srcs = ["test_cloud_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_cluster_compute_controller",
+    size = "medium",
+    srcs = ["test_cluster_compute_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_cluster_controller",
+    size = "medium",
+    srcs = ["test_cluster_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_cluster_env_controller",
+    size = "medium",
+    srcs = ["test_cluster_env_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_config_controller",
+    size = "medium",
+    srcs = ["test_config_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_exec_controller",
+    size = "medium",
+    srcs = ["test_exec_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_job_controller",
+    size = "medium",
+    srcs = ["test_job_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_list_controller",
+    size = "medium",
+    srcs = ["test_list_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_project_controller",
+    size = "medium",
+    srcs = ["test_project_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_service_controller",
+    size = "medium",
+    srcs = ["test_service_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        "//frontend/cli/tests/controllers:test_helper_files",
+        requirement("pytest"),
+    ],
+)
+
+py_test_with_shim(
+    name = "test_session_controller",
+    size = "medium",
+    srcs = ["test_session_controller.py"],
+    deps = [
+        "//frontend/cli/tests:test_helper_files",
+        requirement("pytest"),
+    ],
+)
