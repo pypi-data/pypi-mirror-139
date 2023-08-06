@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "mc_monitor_helper_package"
+version = "0.1.0"
+description = "Utility package for setting and updating monte carlo monitors"
+license = "GPL-3.0-or-later"
+authors = ["Gitznik <r.offner@gmx.de>"]
+readme = "README.md"
+repository = "https://github.com/Gitznik/monte_carlo_helper_package"
+keywords = ["monte carlo", "quality", "monitoring", "data governance"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+gql = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.12.2"
+black = {version = "^21.12b0", allow-prereleases = true}
+python-dotenv = "^0.19.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
