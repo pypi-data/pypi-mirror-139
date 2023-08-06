@@ -1,0 +1,5 @@
+setup.py
+transformers3.egg-info/PKG-INFO
+transformers3.egg-info/SOURCES.txt
+transformers3.egg-info/dependency_links.txt
+transformers3.egg-info/top_level.txt
