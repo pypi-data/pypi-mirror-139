@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pypose
+Version: 0.1.1
+Summary: PyPose = (GTSAM | G2O) x PyTorch
+Home-page: https://pypose.org
+Author: Chen Wang
+Author-email: chenwang@dr.com
+License: BSD 3-Clause License
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
