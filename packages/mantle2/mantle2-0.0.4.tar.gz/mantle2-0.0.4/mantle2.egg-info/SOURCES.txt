@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mantle2/__init__.py
+mantle2/counter.py
+mantle2/decoder.py
+mantle2/queue.py
+mantle2/util.py
+mantle2.egg-info/PKG-INFO
+mantle2.egg-info/SOURCES.txt
+mantle2.egg-info/dependency_links.txt
+mantle2.egg-info/requires.txt
+mantle2.egg-info/top_level.txt
