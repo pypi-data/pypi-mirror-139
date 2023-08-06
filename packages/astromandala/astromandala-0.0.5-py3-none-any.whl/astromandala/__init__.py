@@ -1,0 +1,1 @@
+from astromandala import astro
