@@ -1,0 +1,14 @@
+README.md
+setup.py
+similarities/__init__.py
+similarities/similarity.py
+similarities/version.py
+similarities.egg-info/PKG-INFO
+similarities.egg-info/SOURCES.txt
+similarities.egg-info/dependency_links.txt
+similarities.egg-info/not-zip-safe
+similarities.egg-info/requires.txt
+similarities.egg-info/top_level.txt
+similarities/../LICENSE
+similarities/../README.md
+similarities/../requirements.txt
