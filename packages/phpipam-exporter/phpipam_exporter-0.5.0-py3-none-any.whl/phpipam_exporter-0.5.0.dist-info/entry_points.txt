@@ -1,0 +1,3 @@
+[console_scripts]
+phpipam_export=phpipam_exporter.cli:main
+
