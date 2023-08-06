@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Topsis-Sarthak-401903029
+Version: 1.0.1
+Summary: A Python package for Multiple Criteria Decision Making (MCDM) using TOPSIS made by Sarthak Vohra, a student of Thapar Institute of Engineering and Technology, Patiala.
+Author: Sarthak Vohra
+Author-email: svohra_bemba19@thapar.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+
+# Topsis-Sarthak-401903029
+
+It takes a csv file, along with weights and impacts, and displays the topsis score
+
+## Installation
+
+`pip install topsis-sarthak-401903029`
+
+## How to use it?
+
+In Command Prompt
+
+> Topsis-Sarthak-401903029 data.csv "1,1,1,1,1" "+,-,+,+,+"
+
+## License
+
+Â© 2022 Sarthak Vohra
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+
