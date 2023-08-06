@@ -1,0 +1,14 @@
+gofer_service/__init__.py,sha256=gfWJ67CMv6vRHhn46s4SfwMCQdr_kjT3GhvenF6I5_4,25
+gofer_service/create_database.py,sha256=a4VYQSZSdvJy-_8ti0SfYes0TQXSanzOqHNvVCqoL5I,1434
+gofer_service/dump_grades.py,sha256=-uwqVjhDBOGKqxvDfQhPMDucj1nEUOOZerMyNJcJWw0,665
+gofer_service/gofer_nb.py,sha256=hlOfmvJbEMShYHP-gU2iKmq9x9pVwti9C9OlSYUJiYA,14429
+gofer_service/grade_assignment.py,sha256=SbPxhIpq1x6_LF5bDD3jgQ5lGuvtx6vesjHz4QO3u8I,2578
+gofer_service/lti_keys.py,sha256=sUMWuEhqvqiZuf5GJ2_OPrQZibUZpqWUW2mKJg5BMGo,1428
+gofer_service/secrets/gh_key.yaml,sha256=ZifuptT8ZVjXIyyDSXMbGKatEPQ8VF4tiv8p21HIALE,983
+gofer_service/secrets/gke_key.yaml,sha256=Q6cRwf8FOEJd1BVvuEl02Rxqs1UZan0fzp-o3D0Bf90,1229
+gofer_service-0.1.dev0.dist-info/LICENSE,sha256=3cDbVFAJ1vsGCAq_0KwvqIVDs8vpJvEDQQ0fEmCv4NU,1498
+gofer_service-0.1.dev0.dist-info/METADATA,sha256=loWEK8jhGF3UvodQfV1GfVdj3JZMEeoSqm_c0A11TWM,2619
+gofer_service-0.1.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gofer_service-0.1.dev0.dist-info/entry_points.txt,sha256=pVQy44vzUAmql0l1TbkdUCqN-w9hjzGxhTkmcP_XhFM,62
+gofer_service-0.1.dev0.dist-info/top_level.txt,sha256=MqnZKpB-ApOpWGN2ncARDcndIwhae37X1ed1IZWWHY4,14
+gofer_service-0.1.dev0.dist-info/RECORD,,
