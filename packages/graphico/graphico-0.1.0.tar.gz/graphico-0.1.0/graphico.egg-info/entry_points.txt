@@ -1,0 +1,2 @@
+[console_scripts]
+graphico = graphico.cli:main
