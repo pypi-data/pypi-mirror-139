@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Topsis-Jaskaran-101917129
+Version: 0.0.13
+Summary: TOPSIS:Topsis(Technique for Order Preference by Similarity to Ideal Solution): Of the numerous criteria decision-making (MCDM) methods, TOPSIS is a practical and useful technique for ranking and selecting a number of possible alternatives by measuring Euclidean distances. TOPSIS, is a simple ranking method in conception and application.USED: import topsislib as tb    df=tb.topsis(dff,weights,impacts).
+Author: Jaskaran Singh Purewal
+Author-email: jaskaransinghpurewal7@gmail.com
+License: UNKNOWN
+Keywords: python,topsis
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
