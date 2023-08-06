@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+EasyLiker/EasyLiker.py
+EasyLiker/__init__.py
+EasyLiker.egg-info/PKG-INFO
+EasyLiker.egg-info/SOURCES.txt
+EasyLiker.egg-info/dependency_links.txt
+EasyLiker.egg-info/not-zip-safe
+EasyLiker.egg-info/requires.txt
+EasyLiker.egg-info/top_level.txt
