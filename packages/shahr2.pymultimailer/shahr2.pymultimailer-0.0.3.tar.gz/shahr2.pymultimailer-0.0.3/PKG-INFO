@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: shahr2.pymultimailer
+Version: 0.0.3
+Summary: Send mail to multiple user at once.
+Home-page: https://github.com/shahadathshahriarakash/shahr2.pymultimailer
+Author: Shahadath Shahriar
+Author-email: shahadathshahriarakash@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/shahadathshahriarakash/shahr2.pymultimailer/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Py Multi-Mailer
+
+Send mail to multiple user at once.
+
+
+## Releases
+
+
+![PyPi](https://img.shields.io/pypi/v/shahr2.pymultimailer?logo=PyPi&logoColor=orange)
+## Requirements
+
+![Python](https://img.shields.io/badge/Python%203.10.2-TESTED-brightgreen)
+## Installation
+
+Install shahr2.pymultimailer with pip
+
+```bash
+  pip install shahr2.pymultimailer
+```
+    
+## Usage/Examples
+
+```python
+from shahr2 import pymultimailer
+
+SENDER = 'sender gmail'
+PASSWORD = 'sender app password/gmail password'
+SUBJECT = 'subject of mail'
+BODY = 'body of mail with {} {} 2 empty braces for first and last name.'
+FILE = 'csv file location'
+FIRST_NAME = 'first name parameter in csv file'
+LAST_NAME = 'last name parameter in csv file'
+EMAIL = 'email parameter in csv file'
+
+mail = pymultimailer.input(
+    SENDER, PASSWORD, SUBJECT, BODY
+    )
+
+mail.csvData(
+    FILE, FIRST_NAME, LAST_NAME, EMAIL
+    )
+
+mail.send()
+```
+
+
+## Authors
+
+- [@shahadathshahriarakash](https://github.com/shahadathshahriarakash)
+
+
+

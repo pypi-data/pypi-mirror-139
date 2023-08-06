@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/shahr2/__init__.py
+src/shahr2/pymultimailer.py
+src/shahr2.pymultimailer.egg-info/PKG-INFO
+src/shahr2.pymultimailer.egg-info/SOURCES.txt
+src/shahr2.pymultimailer.egg-info/dependency_links.txt
+src/shahr2.pymultimailer.egg-info/top_level.txt
