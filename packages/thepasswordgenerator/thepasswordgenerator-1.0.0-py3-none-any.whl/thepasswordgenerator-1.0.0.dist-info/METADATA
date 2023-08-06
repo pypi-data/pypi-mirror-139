@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: thepasswordgenerator
+Version: 1.0.0
+Summary: Generate passwords within your scripts or programs in one line!
+Home-page: https://github.com/agent47nh/the-password-generator
+Author: Naimul Hasan
+Author-email: agent47nh9@gmail.com
+License: AGPLv3
+Project-URL: Documentation, https://github.com/agent47nh/the-password-generator/blob/master/README.md
+Project-URL: Source, https://github.com/agent47nh/the-password-generator
+Project-URL: Tracker, https://github.com/agent47nh/the-password-generator/issues
+Keywords: passwords generator password-generator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Password Generator
+
+Generate passwords more easily with complexities!
+
+## Usage
+
+Use it in your scripts like this
+
+```python
+from thepasswordgenerator import PasswordGenerator
+
+generator = PasswordGenerator(length=16, upper=2, 
+                              lower=2, special=2, numbers=2)
+print(generator.generate_password())
+```
+
+
