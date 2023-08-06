@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/rfkadapter/__init__.py
+src/rfkadapter/rfkadapter.py
+src/rfkadapter.egg-info/PKG-INFO
+src/rfkadapter.egg-info/SOURCES.txt
+src/rfkadapter.egg-info/dependency_links.txt
+src/rfkadapter.egg-info/top_level.txt

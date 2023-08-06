@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: rfkadapter
+Version: 0.3.4
+Summary: RFKAdapter emulates a SQL-like CRUD API for DBF
+Home-page: https://github.com/koljenovic/rfk
+Author: Malik Koljenović
+Author-email: malik@mekom.ba
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/koljenovic/rfk/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: Bosnian
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Other
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Database :: Front-Ends
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RFKAdapter 0.3.4
+
+RFKAdapter enables easy access to local legacy xBase (DBF) *databases* originally used by dBase, Clipper, FoxPro etc. It includes a native Harbour adapter component for data *table* access and full support for index updating. MEMO fields are skipped, this can be fixed.
+***
+RFKAdapter omogućava jednostavan pristup lokalnim legacy xBase (DBF) *bazama podataka* originalno korištenim u programskim jezicima dBase, Clipper, FoxPro etc. Uključuje native Harbour adapter komponentu za pristup *tabelama* i punu podršku za održavanje indeksa. MEMO polja su zanemarena, što može biti popravljeno.
+
+# Install
+
+Ensure that `dbfadapter` is compiled and present on the system path, instruction available in `harbour` folder README.
+***
+Osigurajte da je `dbfadapter` kompajliran i dostupan na `path` putanji pretrživanja, uputstva dostupna u README unutar `harbour` direktorija.
+
+```bash
+pip install rfkadapter
+```
+
+
