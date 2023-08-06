@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sup3.egg-info/PKG-INFO
+src/sup3.egg-info/SOURCES.txt
+src/sup3.egg-info/dependency_links.txt
+src/sup3.egg-info/top_level.txt
