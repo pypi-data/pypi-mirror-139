@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: Python-discord-rankcard
+Version: 0.0.3
+Summary: A simple discord rank card written in python.
+Home-page: https://github.com/yangman946/Python-discord-rankcard
+Author: yangman946
+Author-email: clarenceyang284@gmail.com
+License: UNKNOWN
+Keywords: python,pillow,discord,discord-py
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python-discord-rankcard
+
+![img](https://github.com/yangman946/Python-discord-rankcard/blob/main/Rankcard/pics/out.jpg)
+
+## Installation
+
+`pip install Python-discord-rankcard`
+
+## Usage
+```
+  import discord
+  from discord.ext import commands
+  from Rankcard import Main
+  
+  class Rank(commands.Cog):
+	def __init__(self, bot):
+		self.bot = bot
+		self.rankcard = Main.RANKCARD()
+      
+	@commands.command()
+	async def rank(self, ctx):
+		card = self.rankcard.rank_card(
+				    username=ctx.author.name, # user name
+				    avatar= ctx.author.avatar_url, 
+				    level=1, # user level
+				    rank=1, # user rank
+				    current_xp=0, # user xp
+				    custom_background= "#000000", # background colour
+				    xp_color="#FF7A7A", # Foreground colour
+				    next_level_xp=100) # Next level xp
+		file = discord.File(card)
+		await ctx.send(file=file)
+        
+  def setup(bot):
+    	bot.add_cog(Rank(bot))
+          
+
+
+```
+
+
+
+
+
