@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pythonquerylanguage
+Version: 0.1.1
+Summary: Python SQL wrapper based on pandas and SQLalchemy
+License: MIT
+Author: Pablo Ruiz
+Author-email: pablo.r.c@live.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.31,<2.0.0)
+Requires-Dist: ipython (>=8.0.1,<9.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
