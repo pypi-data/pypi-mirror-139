@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DrawFigure
+Version: 0.0.1
+Summary: A app with tkinter of python
+Home-page: https://github.com/pypa/sampleproject
+Author: ZhiZhaoZang
+Author-email: zhizhaozang@163.com
+License: UNKNOWN
+Description: This is a drawing software that uses the TK library in python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
