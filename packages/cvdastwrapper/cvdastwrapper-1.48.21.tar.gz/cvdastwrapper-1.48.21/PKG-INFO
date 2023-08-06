@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: cvdastwrapper
+Version: 1.48.21
+Summary: This is a wrapper around CVDAST
+Home-page: UNKNOWN
+Author: Bala Kumaran
+Author-email: balak@cloudvector.com
+License: UNKNOWN
+Description: 
+        
+        CVDAST Wrapper
+        ==============
+        
+        This is a wrapper around CVDAST
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5,<4.0

@@ -1,0 +1,35 @@
+# APIShark/CloudVector-EE environment details
+# Important: leave ce_host: blank if you want to use a spec 
+#            to generate test cases without ce_host
+ce_setup:
+  ce_host: 
+  ce_username: cvbot@cloudvector.com
+# API to use to authenticate the session
+authentication:
+  # url for the auth API
+  api_url: /app-demo/oauth/token
+  # headers for the auth API
+  headers:
+      'Content-Type': 'application/json'
+  # payload for the auth API
+  payload: {
+   "email":"john@demoapp.com",
+   "password":"john@demoapp",
+   "grant_type":"password",
+   "client_id": "2dae3d881e0087de9387a8d41431e1f6925c40681f2152f47622ccbb0d042693",
+   "client_secret": "74860e849b0fe3c956ae5f5dd28fe701fb53c66bd66af76b4d261ca34a3a9d9e"
+  }
+  # key in the response to pick the value from for authentication.
+  # use "." for mentioning nested keys
+  response_key: access_token
+  # type of authentication. Basic or Bearer or for custom prefix use the value as is
+  type: Bearer 
+# option to generate test cases for all response codes for the APIs from SPEC
+# N will generate and validate only 200 response codes
+generate_tests_for_response_codes: Y
+execution_info:
+        dhostname: "http://20.185.192.231:30617"
+        dcviast_max_value_to_fuzz: "50"
+        usecustomlist: False
+        #apispeclist:                     	
+        fuzzattacklist: sql-injection,string-expansion,format-strings,xss,control-chars,server-side-include
