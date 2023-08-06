@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+jmat/__init__.py
+jmat/matrix.py
+jmat.egg-info/PKG-INFO
+jmat.egg-info/SOURCES.txt
+jmat.egg-info/dependency_links.txt
+jmat.egg-info/not-zip-safe
+jmat.egg-info/top_level.txt
