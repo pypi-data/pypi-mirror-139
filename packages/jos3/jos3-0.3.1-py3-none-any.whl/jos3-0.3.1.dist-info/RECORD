@@ -1,0 +1,12 @@
+jos3/__init__.py,sha256=0ufD62Cg21v4FmHPfb8UqFLNItTDztjbZPIKEB-AYbw,71
+jos3/comfmod.py,sha256=yjSbf2AZi8KMKMz2uMEPjnWg4KZNxWYmeUqrzSyTBMM,3500
+jos3/construction.py,sha256=7Zqc_YvXjTMoJkvYrT8KdOD3Kro_pnuD15zLgPCOfbE,14511
+jos3/jos3.py,sha256=hTocqVVvEOWlA05qEqg0kdkSmKM_vf4ofA3srWyrlWQ,36283
+jos3/matrix.py,sha256=UCz0q0CGkANYGB7RHsQT47CGw-hT7NLN11LFYVu23FQ,11779
+jos3/params.py,sha256=NVej8RMfE2F5ZCkOFiVpOP1Nm7FP1m_Izp9_op7ZLwo,11430
+jos3/thermoregulation.py,sha256=izsmcz3B-3mTJ62aae_e6XAhUrln5Q_ZHBjEquR2wqo,27804
+jos3-0.3.1.dist-info/LICENSE,sha256=hXMAiNKVWajMt8nCUZoPsj3ETI8pTO1oMP2JYdFP6f4,1095
+jos3-0.3.1.dist-info/METADATA,sha256=ejYXuvxU8IDLAwDttABKJnYns6xCl9yGnp27LdukLrk,2968
+jos3-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jos3-0.3.1.dist-info/top_level.txt,sha256=sOqoYG1qLliOJ9Bs_MM75ZhQ5RaKy3ycr24g-ZOU_JA,5
+jos3-0.3.1.dist-info/RECORD,,
