@@ -1,0 +1,15 @@
+huggingsound/__init__.py,sha256=-m79vGKCQFFYV4n3dD_yvFyRlQNIwpmJFDDQxtv-UJA,66
+huggingsound/classification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huggingsound/listener.py,sha256=zLEJAQMGhS82rMDoOdgWR5_zo68Xf1K51VRDsrIMNm0,385
+huggingsound/metrics.py,sha256=x7R65jD7WAupDnhuarmq_4e6jawB0ICOF4vfVsjLl6Q,5229
+huggingsound/recognition/__init__.py,sha256=-UbMQ_mRtKDFGtWlGN5Oy4cvglnEF-_koRbC1A35GhQ,274
+huggingsound/recognition/decoder.py,sha256=v2rPjgJFN5evJ2HDYLViLeO788VV9HLHnsiM5IoDhLc,31642
+huggingsound/recognition/model.py,sha256=r-SYd_IJR5EmGTVcykm560zcEp2PJG98lAIru8ppoAE,14506
+huggingsound/recognition/normalizer.py,sha256=Q4jNe5Cr8L_-q8UN3fIe13HBM8XOwQtNNAxaPvpUJvc,1511
+huggingsound/recognition/token_set.py,sha256=R7MnTw6kRjqwox1ovLmM_sjBdzDvmAwwGsIr1zlkE64,6013
+huggingsound/trainer.py,sha256=XFO_qdwGb25-QMESFujVTDS_D5bpvYgva-gukqL5fr0,27977
+huggingsound/utils.py,sha256=huXZzg6omufkwUdZSMFdutXJFs-SemvvKEl-7uONP50,2308
+huggingsound-0.0.1.dist-info/LICENSE,sha256=bRsiXU5PFy-y3qcQDG3j4Ms2NbdEINMyqeVjYDtM-ao,1072
+huggingsound-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+huggingsound-0.0.1.dist-info/METADATA,sha256=kPlNyRrj_C6zboRQ302HDclcjqWP3ovSI9azRLdtXOU,7460
+huggingsound-0.0.1.dist-info/RECORD,,
