@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/LoraDroidClient/__init__.py
+src/LoraDroidClient/client.py
+src/LoraDroidClient.egg-info/PKG-INFO
+src/LoraDroidClient.egg-info/SOURCES.txt
+src/LoraDroidClient.egg-info/dependency_links.txt
+src/LoraDroidClient.egg-info/not-zip-safe
+src/LoraDroidClient.egg-info/requires.txt
+src/LoraDroidClient.egg-info/top_level.txt
+src/LoraDroidClient/converter/__init__.py
+src/LoraDroidClient/grpc_interface/__init__.py
+src/LoraDroidClient/grpc_interface/bot_pb2.py
+src/LoraDroidClient/grpc_interface/bot_pb2_grpc.py
