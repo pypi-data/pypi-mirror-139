@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: graphframes-stubs
+Version: 0.8.0
+Summary: Stub files for graphframes
+Home-page: https://gitlab.com/zero323/graphframes-stubs
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: graphframes
+Requires-Dist: graphframes (~=0.8) ; extra == 'graphframes'
+
+# graphframes-stubs
+
+POC type hints for [`graphframes`](https://github.com/graphframes/graphframes).
+
+

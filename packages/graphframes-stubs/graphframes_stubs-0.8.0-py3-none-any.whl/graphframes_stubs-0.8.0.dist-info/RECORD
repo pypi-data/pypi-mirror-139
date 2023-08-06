@@ -1,0 +1,16 @@
+graphframes/__init__.pyi,sha256=RrMlua1FDqQa8cJBCenqqr3PjXhLTvhFou0HE2Xwcpg,625
+graphframes/_typing.pyi,sha256=LdHgdY8C93pkMvjlzETb0PxXUYngcd3wtkKoUPxofug,753
+graphframes/graphframe.pyi,sha256=IpdVwvsODfaygm9b_fqGvlChRWmMiNLA7GWbEcje_1w,3850
+graphframes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphframes/tests.pyi,sha256=XMjDyMwSCiJrRO8KAtkm8z-0E2XqdItvHUWY8H3FwEM,3582
+graphframes/examples/__init__.pyi,sha256=JYPvJYm0NGBlRB-iG-QCTRwHI9JDYbPF7TgXv7g1n9w,684
+graphframes/examples/belief_propagation.pyi,sha256=Ti2tFLNzbJLvEKXLyWHuYbCg1-3eBVVxMrsVsJIVl1M,915
+graphframes/examples/graphs.pyi,sha256=tvYG7Vx8_TwHGQuXfAWBHeowAV9gCF9KdNiicBrwfu0,946
+graphframes/lib/__init__.pyi,sha256=He9XpW5ZIoeL7EamYBH8Re9QkqldDT0sbkJYclhIcIc,684
+graphframes/lib/aggregate_messages.pyi,sha256=FxTmefYAbXBQOGZGzaYUpIO3a9a7yQPl3PQWiDAfvbM,1289
+graphframes/lib/pregel.pyi,sha256=BydfK1cTUfOa02ifjyAKEM2-RqXrg-ZJbv4szYC6OwY,1664
+graphframes_stubs-0.8.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+graphframes_stubs-0.8.0.dist-info/METADATA,sha256=G9Q2AIFGU6aOiyJd5HV5FX3fGMQ7DGIozNRPZeIqLOg,748
+graphframes_stubs-0.8.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+graphframes_stubs-0.8.0.dist-info/top_level.txt,sha256=--iCtka4sC0gBHL6hWSpwZDo88sJ0208riPirxtmifk,12
+graphframes_stubs-0.8.0.dist-info/RECORD,,
