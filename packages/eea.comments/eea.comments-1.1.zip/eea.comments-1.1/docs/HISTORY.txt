@@ -1,0 +1,19 @@
+Changelog
+=========
+
+1.1 - (2022-02-18)
+---------------------------
+* Bugfix: Fix restAPI if not user can_view
+  [avoinea - refs #133348]
+* Change: Add missing __init__ files in restapi modules
+  [avoinea - refs #133348]
+
+1.0 - (2022-02-17)
+---------------------------
+* Change: Added permissions to discussion restapi [razvanMiu]
+
+1.0 - (2022-02-17)
+-----------------------
+
+* Initial release.
+  [eea]
