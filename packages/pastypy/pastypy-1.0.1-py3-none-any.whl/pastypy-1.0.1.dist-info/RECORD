@@ -1,0 +1,11 @@
+pastypy/__init__.py,sha256=bVPUHPb384BdCthHS0w-8Ibgz9OZ-2FxIgi0mV2cnjA,144
+pastypy/asyncio.py,sha256=I8NCi67g7PbqvGSX1-mX8iRj_JG0ixW2QGSselD76RE,6713
+pastypy/sync.py,sha256=zTHeBfRXtBEpb_9bjVfumSZClGvHgxmQLEsy0rMTRN8,6327
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_async.py,sha256=klnB855WzrUGaDunaC7maWEL-GHEJ9ciEqaQeVQFua8,3125
+tests/test_sync.py,sha256=iAuTxISPlrtugTLYzLvoE7pIr-xus24Y6siy8kDan2c,2895
+pastypy-1.0.1.dist-info/LICENSE,sha256=HTg9ZuM62r28FqFZF2OvFfxiyAVQMjvS2_kunyJMITY,1077
+pastypy-1.0.1.dist-info/METADATA,sha256=bhaDf38iBhcPNs-X4-LGReZ1uYyqcMF_X2CjX0NN14U,2688
+pastypy-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pastypy-1.0.1.dist-info/top_level.txt,sha256=HHJBEQ1G-_0VRp65tmHc5T7tL9kbXFiL2TFOq0CtIZA,14
+pastypy-1.0.1.dist-info/RECORD,,
