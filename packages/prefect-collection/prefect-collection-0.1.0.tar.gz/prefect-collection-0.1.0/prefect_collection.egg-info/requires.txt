@@ -1,0 +1,10 @@
+prefect>=2.0a9
+
+[dev]
+pytest
+black
+flake8
+mypy
+mkdocs
+mkdocs-material
+mkdocstrings
