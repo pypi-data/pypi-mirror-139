@@ -1,0 +1,7 @@
+docker
+GPUtil
+numpy
+pandas
+Pillow
+requests
+tqdm
