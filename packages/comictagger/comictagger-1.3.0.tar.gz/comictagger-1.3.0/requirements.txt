@@ -1,0 +1,5 @@
+beautifulsoup4 >= 4.1
+configparser
+natsort
+pillow>=4.3.0
+requests
