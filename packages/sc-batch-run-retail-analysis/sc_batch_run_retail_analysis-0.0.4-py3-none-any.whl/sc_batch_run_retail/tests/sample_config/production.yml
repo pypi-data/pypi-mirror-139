@@ -1,0 +1,10 @@
+environment: production
+
+# 批量
+batch:
+  # 零售批量重跑日期列表
+  retail_rerun_dates:
+    - 20201231
+    - 20210331
+    - 20210630
+    - 20210701
