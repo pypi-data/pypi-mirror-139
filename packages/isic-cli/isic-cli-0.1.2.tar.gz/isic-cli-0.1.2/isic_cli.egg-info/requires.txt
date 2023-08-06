@@ -1,0 +1,15 @@
+girder-cli-oauth-client
+humanize
+isic-metadata
+joblib
+more-itertools
+numpy
+pandas
+requests
+retryable-requests
+rich
+typer
+
+[dev]
+ipython
+tox
