@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+OptimizationTools/__init__.py
+OptimizationTools/linearsys.py
+OptimizationTools/multidimension.py
+OptimizationTools/unidimension.py
+OptimizationTools.egg-info/PKG-INFO
+OptimizationTools.egg-info/SOURCES.txt
+OptimizationTools.egg-info/dependency_links.txt
+OptimizationTools.egg-info/requires.txt
+OptimizationTools.egg-info/top_level.txt
