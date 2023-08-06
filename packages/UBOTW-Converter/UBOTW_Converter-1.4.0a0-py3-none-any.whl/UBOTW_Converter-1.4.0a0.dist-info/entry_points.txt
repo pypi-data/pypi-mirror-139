@@ -1,0 +1,2 @@
+[console_scripts]
+convert_to_switch = ubotw_converter.converter:main
