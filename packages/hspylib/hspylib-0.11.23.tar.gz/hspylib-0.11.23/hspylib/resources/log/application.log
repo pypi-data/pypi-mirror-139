@@ -1,0 +1,19 @@
+2022-02-22 21:01:41,368 [MainThread] INFO  commons.py::log_init(@Line:74) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-22 21:01:41,369 [MainThread] INFO  properties.py::_parse(@Line:143) Successfully loaded 0 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib/resources/application.properties 
+2022-02-22 21:01:41,369 [MainThread] INFO  app_config.py::__init__(@Line:54) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-RunDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib/resources/log/application.log
+  |-AppProperties:
+   \-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-22 21:01:41,369 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: hspylib.core.config.app_config.AppConfigs 
+2022-02-22 21:01:41,369 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: __main__.Main 
+2022-02-22 21:01:41,369 [MainThread] INFO  application.py::run(@Line:91) Run started 2022-02-22 21:01:41.369895 
+2022-02-22 21:01:41,372 [MainThread] DEBUG singleton.py::__call__(@Line:33) Created a new Singleton instance: hspylib.addons.widman.widman.WidgetManager 
+2022-02-22 21:01:41,391 [MainThread] ERROR exceptions.py::__init__(@Line:25) Unable to initialize sockets 
+2022-02-22 21:01:41,391 [MainThread] ERROR exceptions.py::__init__(@Line:25) Unable to execute widget 'sendmsg' -> Unable to initialize sockets 
+2022-02-22 21:01:41,391 [MainThread] INFO  application.py::run(@Line:102) Run finished 2022-02-22 21:01:41.391899 
