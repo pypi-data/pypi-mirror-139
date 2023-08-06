@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: quantutils
+Version: 1.1
+Summary: Quant Utils.
+Author-email: yvictor <yvictor3141@gmail.com>
+Description-Content-Type: text/markdown
+Project-URL: Home, https://github.com/Yvictor/quantutil
+
+# quantutils
+
+## QuickStart
+
+### Installation
+
+``` bash
+pip install quantutils
+```
+
+### Usage
+``` python
+import quantutils as qs
+qs.gen_daily_profit_df(df, "Name")
+```
