@@ -1,0 +1,13 @@
+httptools/_version.py,sha256=QdklEeLZB5T8Ey9DHVLBOl_Ic1SaK-dbPM-Ii3gdCPg,575
+httptools/__init__.py,sha256=plt3MIbueJdco9Dy7zoH3ksLNeyirqWagat5rwRmAjo,147
+httptools/parser/parser.cpython-37m-aarch64-linux-gnu.so,sha256=ZBv0gkdjihlUNHKzCVIKoUXVYSnfB-CJBSPrcz0mLos,741480
+httptools/parser/url_parser.cpython-37m-aarch64-linux-gnu.so,sha256=x-Jb6nQGU1kSWd4jGTw6hgOoskb8orGwkNqaRjogCTI,309048
+httptools/parser/__init__.py,sha256=fWyconPEHZlJojzRwmBKSn4C85OGXmKEwiEcdjHqXO8,166
+httptools/parser/url_parser.c,sha256=6suugtlPt_RJRuHASJ9niThaVreBhf_sglZVwQ8PUiI,237060
+httptools/parser/errors.py,sha256=ZVrtN1smPIb_opQ2Ud3uCbGlNLMlECYM2-6S7r5LnHs,566
+httptools/parser/parser.c,sha256=_-hDV3fny7vbTVBITuWQ3qHe-qoQHzTA9wGrga1DMq8,400672
+httptools-0.4.0.dist-info/LICENSE,sha256=9Fc-fLdnZ0X7W402-lSKqT45HPtoct2s1lEwxF6mqS0,1093
+httptools-0.4.0.dist-info/METADATA,sha256=SPBw4NDQwGZinZd69ZJt4v5SQMU-1gcJmjeRT47LOkw,3597
+httptools-0.4.0.dist-info/top_level.txt,sha256=APjJKTbZcj0OQ4fdgf2eTCk82nK1n2BFXOD7ky41MPY,10
+httptools-0.4.0.dist-info/RECORD,,
+httptools-0.4.0.dist-info/WHEEL,sha256=sd32oL6c-EzUH92efpYdETcONu8MSNr3wlSolfcvSDI,152
