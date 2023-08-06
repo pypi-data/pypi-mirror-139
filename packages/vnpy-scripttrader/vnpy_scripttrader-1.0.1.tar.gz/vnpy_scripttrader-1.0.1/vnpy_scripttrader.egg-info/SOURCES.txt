@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vnpy_scripttrader/__init__.py
+vnpy_scripttrader/cli.py
+vnpy_scripttrader/engine.py
+vnpy_scripttrader.egg-info/PKG-INFO
+vnpy_scripttrader.egg-info/SOURCES.txt
+vnpy_scripttrader.egg-info/dependency_links.txt
+vnpy_scripttrader.egg-info/not-zip-safe
+vnpy_scripttrader.egg-info/requires.txt
+vnpy_scripttrader.egg-info/top_level.txt
+vnpy_scripttrader/ui/__init__.py
+vnpy_scripttrader/ui/script.ico
+vnpy_scripttrader/ui/widget.py
