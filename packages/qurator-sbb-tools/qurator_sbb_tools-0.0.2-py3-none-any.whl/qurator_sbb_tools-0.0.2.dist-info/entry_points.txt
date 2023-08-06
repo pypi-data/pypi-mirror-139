@@ -1,0 +1,36 @@
+[console_scripts]
+alto-annotator = qurator.sbb.xml:altoannotator
+altotool = qurator.sbb.xml:altotool
+batchel = qurator.sbb.ned:run_on_corpus
+batchel-wp = qurator.wikipedia.ned:run_on_tagged
+batchner = qurator.sbb.ner:on_db_file
+compute-apriori-probs = qurator.wikipedia.entities:compute_apriori_probs
+corpusentropy = qurator.sbb.entropy:main
+corpuslanguage = qurator.sbb.language:main
+csv2sqlite = qurator.utils.csv:to_sqlite
+df2sqlite = qurator.utils.pickle:to_sqlite
+example = qurator.examples.multiprocessing:example
+extract-corpus = qurator.topic_modeling.cli:extract_corpus
+extract-docs = qurator.topic_modeling.cli:extract_docs
+extract-wiki-full-text-parquet = qurator.wikipedia.xml:to_parquet
+extract-wiki-full-text-sqlite = qurator.wikipedia.xml:to_sqlite
+extract-wiki-ner-entities = qurator.wikipedia.entities:extract
+find-entities = qurator.utils.entities:find_entities
+join-entities = qurator.wikidata.cli:join_entities
+lda-grid-search = qurator.topic_modeling.cli:lda_grid_search
+make-topicm-config = qurator.topic_modeling.cli:make_config
+ned-statistics = qurator.sbb.ned:ned_statistics
+parquet2csv = qurator.utils.parquet:to_csv
+print-wiki-article = qurator.wikipedia.ner:print_article_command_line
+redirects2entities = qurator.wikipedia.entities:redirects2entities
+redirects2pkl = qurator.wikipedia.entities:redirects2pkl
+run-lda = qurator.topic_modeling.cli:run_lda
+run-sparql = qurator.wikidata.cli:cli_run_sparql
+select-by-lang = qurator.sbb.select:by_lang
+select-by-lang-and-entropy = qurator.sbb.select:by_lang_and_entropy
+show-ner-models = qurator.sbb.ner:show_models
+tag-wiki-entities2parquet = qurator.wikipedia.ner:tag_entities2parquet
+tag-wiki-entities2sqlite = qurator.wikipedia.ner:tag_entities2sqlite
+train-test-split-wiki = qurator.wikipedia.ner:train_test_split
+wikidatamapping = qurator.wikipedia.entities:wikidatamapping
+
