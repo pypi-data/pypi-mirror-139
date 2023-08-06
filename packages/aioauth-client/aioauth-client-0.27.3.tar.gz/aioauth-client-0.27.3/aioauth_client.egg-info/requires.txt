@@ -1,0 +1,18 @@
+httpx>=0.17
+
+[build]
+bump2version
+wheel
+
+[example]
+asgi-tools
+asgi-sessions
+uvicorn
+
+[tests]
+pytest
+pytest-aio[trio]
+pytest-mypy
+
+[tests:python_version < "3.8"]
+mock
