@@ -1,0 +1,12 @@
+fiicha/__init__.py,sha256=9jZPtzVDnhQUUO878POEenv765uRYzO6WByrkaMNDwQ,431
+fiicha/context.py,sha256=DUhm4t-nugD2EcMmLD9V8A4l4bS2jSV_XqvoOe_YvMg,1165
+fiicha/core.py,sha256=uDWgxWZ2AKXnFiCnYLtkVvA3WowNG6y3IU1l6hJXMbU,4593
+fiicha/doc.py,sha256=-iWaxN3DmxsXMM5RKFq-J3o0ZG2VrIVGba8BxTPnX8Y,1264
+fiicha/parser.py,sha256=PmjjCdmvxn5BvN5_Sy7WGqoA7Qqb_ehno6Xrwm3tUuc,2243
+fiicha/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiicha/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiicha-0.1.1.dist-info/LICENSE,sha256=lNhgrZBXM--Lawr8GALpxIyHT6m5r2UPcLrkSTOvIaI,1324
+fiicha-0.1.1.dist-info/METADATA,sha256=75fozfOatQbZq_05EV-K2WIDKAKqZ3OBaq53nJvM33Y,5217
+fiicha-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fiicha-0.1.1.dist-info/top_level.txt,sha256=PuGzi_gPXhaOdZg2ZtKyDH_1Jdctl_vYuJtR1J8g40U,7
+fiicha-0.1.1.dist-info/RECORD,,
