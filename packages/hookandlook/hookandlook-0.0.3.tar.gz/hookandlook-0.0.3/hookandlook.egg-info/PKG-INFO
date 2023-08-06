@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hookandlook
+Version: 0.0.3
+Summary: A tool helping to gather stats and run checks during training deep learning models with Pytorch using hooks.
+Home-page: https://github.com/arsenyinfo/hookandlook
+License: UNKNOWN
+Description: A tool helping to gather stats and run checks during training deep learning models with Pytorch using hooks.
+Keywords: Machine Learning,Deep Learning,Computer Vision,PyTorch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
