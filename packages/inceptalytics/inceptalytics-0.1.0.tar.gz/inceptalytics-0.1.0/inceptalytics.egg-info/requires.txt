@@ -1,0 +1,7 @@
+dkpro-cassis
+pandas
+scikit-learn
+krippendorff
+numpy==1.20
+pygamma-agreement
+pycaprio
