@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: telegram-sdk
+Version: 1.0.0
+Summary: Telegram SDK for public or private Telegram API
+Home-page: https://gitlab.com/layrz-software/libraries/telegram-sdk
+Author: Layrz
+Author-email: software@layrz.com
+License: MIT
+Keywords: telegram api bot sdk layrz goldenm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
