@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+secretenv/__init__.py
+secretenv/__main__.py
+secretenv.egg-info/PKG-INFO
+secretenv.egg-info/SOURCES.txt
+secretenv.egg-info/dependency_links.txt
+secretenv.egg-info/requires.txt
+secretenv.egg-info/top_level.txt
