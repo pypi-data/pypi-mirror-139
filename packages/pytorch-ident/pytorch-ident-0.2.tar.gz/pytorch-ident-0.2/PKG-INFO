@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytorch-ident
+Version: 0.2
+Summary: System identification with pytorch package
+Home-page: https://github.com/forgi86/pytorch-ident.git
+Author: Marco Forgione
+Author-email: marco.forgione1986@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: continuous-time integration
+Provides-Extra: download datasets
+Provides-Extra: open datasets
+Provides-Extra: generate documentation
+License-File: LICENSE
+
+UNKNOWN
+
