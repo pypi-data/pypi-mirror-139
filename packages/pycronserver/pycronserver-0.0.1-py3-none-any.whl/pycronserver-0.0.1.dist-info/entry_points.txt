@@ -1,0 +1,2 @@
+[console_scripts]
+pycronserver = pycronserver.__main__:command_line_parser
