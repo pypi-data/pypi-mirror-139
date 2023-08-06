@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Topsis-Sanat-101903326/__init__.py
+Topsis-Sanat-101903326/topsis1.py
+Topsis_Sanat_101903326.egg-info/PKG-INFO
+Topsis_Sanat_101903326.egg-info/SOURCES.txt
+Topsis_Sanat_101903326.egg-info/dependency_links.txt
+Topsis_Sanat_101903326.egg-info/requires.txt
+Topsis_Sanat_101903326.egg-info/top_level.txt
