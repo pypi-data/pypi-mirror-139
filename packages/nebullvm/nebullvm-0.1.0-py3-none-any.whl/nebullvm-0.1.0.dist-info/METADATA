@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nebullvm
+Version: 0.1.0
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy (>=1.19.0)
+Requires-Dist: joblib (>=1.1.0)
+Requires-Dist: onnx (>=1.10.0)
+Requires-Dist: py-cpuinfo (>=8.0.0)
+Requires-Dist: tensorflow (~=2.7.0)
+Requires-Dist: tf2onnx (~=1.8.4)
+Requires-Dist: torch (>=1.10.0)
+
+UNKNOWN
+
