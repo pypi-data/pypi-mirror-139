@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: satdata
+Version: 0.2.3
+Summary: Satellite data access from Amazon S3 via python
+Home-page: https://github.com/leifdenby/satdata
+Author: Leif Denby
+Author-email: leifdenby@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tqdm
+Requires-Dist: s3fs
+
+UNKNOWN
+
