@@ -1,0 +1,14 @@
+pywisetransfer/__init__.py,sha256=PMdi2LRAucz9Hsxa5momvwW9Pb7fym9y0nKeJ_pnXcs,1388
+pywisetransfer/base.py,sha256=vBeBCHaaOM3QK9V_z_1dZsVToqKcR-EL0d1VIVt2RuQ,936
+pywisetransfer/borderless_account.py,sha256=TWTudi7uf9K5RBRyoep7PZ3hhEHtl7iETuYEhKQ0pHc,1164
+pywisetransfer/endpoint.py,sha256=oXNTJeT4-5Fl8sOobNTCrCCAjZk1wdetk0kM5OXytYg,1970
+pywisetransfer/keys.py,sha256=WtCV6Otx4a3zFw1qMuL3cGT8cJZvurfxsrp047EYGNk,996
+pywisetransfer/profile.py,sha256=Kh_tWIBUfVEH8xnkc70rdVAgz-ZxGoUvbYcmvI-EaWE,625
+pywisetransfer/signing.py,sha256=8xWqOdwPcAo4shtTLriU3Zv0vtJJ-DIKQwl5hfkuRY4,497
+pywisetransfer/subscription.py,sha256=p7cBdzewLRP9KbpqLQo0XgMz8Sp0EvDndGp2Xq31-Tw,681
+pywisetransfer/user.py,sha256=x1eem8lyZccM9qnm1EJJquTzOW7prN9cIZISz0H6av8,465
+pywisetransfer/webhooks.py,sha256=Q0xTSL2CC-qz3SZUSK-8WQw4A3H69x7DA6emR0KzoE0,942
+pywisetransfer-0.2.0.dist-info/LICENSE,sha256=hSdqu5PWeCqb0JvRx5LPMJwO1Kbe42Og-fO5YcS-ASg,32337
+pywisetransfer-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pywisetransfer-0.2.0.dist-info/METADATA,sha256=u3VYDXieHg8PsEgpe9w4iFitUsX7BJ0ZcbCZQNPFADY,2201
+pywisetransfer-0.2.0.dist-info/RECORD,,
