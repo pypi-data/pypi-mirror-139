@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: window-maker
+Version: 0.0.2
+Summary: a python module which you can easy make windows.          functions:   window_drawer (title, geometry)      eg.:         window_drawer ("test", "500x400") 
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: tkinter
+
+UNKNOWN
+
