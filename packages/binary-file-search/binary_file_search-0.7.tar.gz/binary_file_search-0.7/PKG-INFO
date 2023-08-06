@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: binary_file_search
+Version: 0.7
+Summary: Binary search algorithm for big sorted files that cannot be read into RAM.
+Home-page: https://github.com/MrTomRod/BinaryFileSearch
+Author: Thomas Roder
+Author-email: roder.thomas@gmail.com
+License: MIT
+Download-URL: https://github.com/MrTomRod/BinaryFileSearch/archive/v0_6.tar.gz
+Description: Please read the descriptionon on the github page.
+Keywords: binary,search,file,files
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
