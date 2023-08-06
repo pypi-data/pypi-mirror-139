@@ -1,0 +1,3 @@
+[console_scripts]
+notion2pg=notion2pg:main
+
