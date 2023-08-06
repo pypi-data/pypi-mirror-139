@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pdappend
+Version: 0.2.0
+Summary: Append csv, xlsx, and xls files.
+Home-page: https://github.com/cnpryer/pdappend
+License: MIT
+Author: Chris
+Author-email: cnpryer@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: openpyxl (>=3.0.9,<4.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: python-dotenv (>=0.19.2,<0.20.0)
+Requires-Dist: xlrd (>=2.0.1,<3.0.0)
+Project-URL: Documentation, https://github.com/cnpryer/pdappend/wiki
+Project-URL: Repository, https://github.com/cnpryer/pdappend
+Description-Content-Type: text/markdown
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/pdappend)](https://pypi.org/project/pdappend/)
+![tests](https://github.com/cnpryer/pdappend/workflows/ci/badge.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![pdappend](https://img.shields.io/pypi/pyversions/pdappend?color=blue)
+
+This project is under development.
+
+# pdappend
+
+Run `pdappend` from the command line to append csv, xlsx, and xls files.
+
+## Installation
+
+`pip install pdappend`
+
+## Using `pdappend`
+
+Append specific files
+
+`pdappend file1.csv file2.csv file3.csv`
+
+Append specific file types in your directory
+
+`pdappend *.csv`
+
+Append all `pdappend`-compatible files in your directory
+
+`pdappend .`
+
+## Supported file types
+
+- csv
+- xls
+- xlsx: [Not supported in Python 3.6 environments](https://groups.google.com/g/python-excel/c/IRa8IWq_4zk/m/Af8-hrRnAgAJ?pli=1) (downgrade to `xlrd 1.2.0` or convert to `.xls`)
+
+## Documentation
+
+(TODO)
+See the [wiki](https://github.com/cnpryer/pdappend/wiki) for more on `pdappend`.
+
+## Contributing
+
+Pull requests are welcome!
+

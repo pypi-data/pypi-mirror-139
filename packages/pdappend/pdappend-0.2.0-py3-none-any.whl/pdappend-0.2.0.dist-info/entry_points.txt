@@ -1,0 +1,4 @@
+[console_scripts]
+pdappend=pdappend.cli:main
+pdappend-gui=pdappend.gui:main
+
