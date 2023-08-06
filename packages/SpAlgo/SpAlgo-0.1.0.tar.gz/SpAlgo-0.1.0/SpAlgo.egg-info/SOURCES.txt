@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+SpAlgo/Array.py
+SpAlgo/Matrix.py
+SpAlgo/SubSeq.py
+SpAlgo/__init__.py
+SpAlgo.egg-info/PKG-INFO
+SpAlgo.egg-info/SOURCES.txt
+SpAlgo.egg-info/dependency_links.txt
+SpAlgo.egg-info/requires.txt
+SpAlgo.egg-info/top_level.txt

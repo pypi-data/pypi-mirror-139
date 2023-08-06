@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SpAlgo
+Version: 0.1.0
+Summary: SpAlgo is a python library with special algorithms which will helps you in your education and your tasks.
+Home-page: https://github.com/Amir-Shamsi/SpAlgo & https://github.com/mohammadkeshavarzi/SpAlgo
+Download-URL: https://github.com/Amir-Shamsi/SpAlgo/archive/refs/tags/0.1.0.tar.gz
+Author: Mohammad Keshavarzi & Amir Shamsi
+Author-email: amirshamsi.github@gmail.com
+License: MIT
+Keywords: SpAlgo,Algorithm,Matrix,Array
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
