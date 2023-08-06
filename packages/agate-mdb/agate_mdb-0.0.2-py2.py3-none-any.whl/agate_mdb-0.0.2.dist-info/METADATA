@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: agate-mdb
+Version: 0.0.2
+Summary: agate-mdb adds read support for Microsoft Access files to agate.
+Home-page: http://agate-mdb.readthedocs.org/
+Author: Loïc Corbasson
+Author-email: loic.corbasson@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: COPYING
+License-File: AUTHORS.rst
+Requires-Dist: agate (>=1.5.0)
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=1.2.2) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.1.6) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: nose (>=1.1.2) ; extra == 'test'
+
+.. image:: https://travis-ci.org/lcorbasson/agate-mdb.png
+    :target: https://travis-ci.org/lcorbasson/agate-mdb
+    :alt: Build status
+
+.. image:: https://img.shields.io/pypi/v/agate-mdb.svg
+    :target: https://pypi.python.org/pypi/agate-mdb
+    :alt: Version
+
+.. image:: https://img.shields.io/pypi/l/agate-mdb.svg
+    :target: https://pypi.python.org/pypi/agate-mdb
+    :alt: License
+
+.. image:: https://img.shields.io/pypi/pyversions/agate-mdb.svg
+    :target: https://pypi.python.org/pypi/agate-mdb
+    :alt: Support Python versions
+
+agate-mdb adds read support for Microsoft Access files (\*.mdb, \*.accdb) to `agate <https://github.com/wireservice/agate>`_, with the help of `mdbtools <https://github.com/mdbtools/mdbtools>`_.
+
+**It's still a work in progress. Caveat emptor!**
+
+Important links:
+
+* agate             http://agate.rtfd.org
+* Documentation:    http://agate-mdb.rtfd.org
+* Repository:       https://github.com/lcorbasson/agate-mdb
+* Issues:           https://github.com/lcorbasson/agate-mdb/issues
+
+
