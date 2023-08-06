@@ -1,0 +1,9 @@
+fdrtd
+fdrtd-server
+functools
+importlib
+numpy
+pathlib
+rpy2
+threading
+uuid

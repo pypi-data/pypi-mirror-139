@@ -1,0 +1,13 @@
+MANIFEST.in
+pyproject.toml
+setup.cfg
+setup.py
+fdrtd/plugins/datashield/__init__.py
+fdrtd/plugins/datashield/connection.py
+fdrtd/plugins/datashield/helpers.py
+fdrtd/plugins/datashield/login.py
+fdrtd_datashield.egg-info/PKG-INFO
+fdrtd_datashield.egg-info/SOURCES.txt
+fdrtd_datashield.egg-info/dependency_links.txt
+fdrtd_datashield.egg-info/requires.txt
+fdrtd_datashield.egg-info/top_level.txt
