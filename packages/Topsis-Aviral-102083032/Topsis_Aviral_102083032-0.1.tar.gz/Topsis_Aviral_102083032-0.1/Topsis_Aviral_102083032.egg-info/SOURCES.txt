@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Topsis_Aviral_102083032/__init__.py
+Topsis_Aviral_102083032/__main__.py
+Topsis_Aviral_102083032.egg-info/PKG-INFO
+Topsis_Aviral_102083032.egg-info/SOURCES.txt
+Topsis_Aviral_102083032.egg-info/dependency_links.txt
+Topsis_Aviral_102083032.egg-info/requires.txt
+Topsis_Aviral_102083032.egg-info/top_level.txt
