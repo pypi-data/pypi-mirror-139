@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fastidius
+Version: 0.0.10
+Summary: A full stack web app creator with FastAPI
+Home-page: https://github.com/johnckealy/fastidius
+Author: John Kealy
+Author-email: johnckealy.dev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: mako
+Requires-Dist: setuptools
+Requires-Dist: twine
+Requires-Dist: typer
+Requires-Dist: uvicorn
+
+To develop:
+
+```
+python setup.py develop
+```
+
+To upload:
+
+
+```bash
+python setup.py sdist bdist_wheel
+
+twine upload --repository testpypi --skip-existing dist/*
+```
+
+Use `__token__` as username and the token as the password.
+
+Install with
+```
+pip install --index-url https://test.pypi.org/simple/my-test-cli-click-tool
+```
+
+
