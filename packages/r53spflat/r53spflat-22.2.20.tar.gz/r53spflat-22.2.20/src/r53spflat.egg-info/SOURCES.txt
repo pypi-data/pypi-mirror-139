@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+scripts/r53spflat
+src/r53spflat/__init__.py
+src/r53spflat/cli.py
+src/r53spflat/r53_dns.py
+src/r53spflat.egg-info/PKG-INFO
+src/r53spflat.egg-info/SOURCES.txt
+src/r53spflat.egg-info/dependency_links.txt
+src/r53spflat.egg-info/requires.txt
+src/r53spflat.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+boto3>=1.21.2
+sender-policy-flattener==0.3.1
