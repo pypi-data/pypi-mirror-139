@@ -1,0 +1,3 @@
+[console_scripts]
+g2w = g2w.__main__:main
+
