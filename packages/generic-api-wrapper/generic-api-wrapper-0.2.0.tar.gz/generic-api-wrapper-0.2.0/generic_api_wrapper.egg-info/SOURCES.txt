@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+generic_api_wrapper/__init__.py
+generic_api_wrapper/aws_iam_auth.py
+generic_api_wrapper/generic_api_wrapper.py
+generic_api_wrapper.egg-info/PKG-INFO
+generic_api_wrapper.egg-info/SOURCES.txt
+generic_api_wrapper.egg-info/dependency_links.txt
+generic_api_wrapper.egg-info/not-zip-safe
+generic_api_wrapper.egg-info/requires.txt
+generic_api_wrapper.egg-info/top_level.txt
