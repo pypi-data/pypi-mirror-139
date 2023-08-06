@@ -1,0 +1,9 @@
+LICENSE,sha256=fIeHMpHyiXE6xd9IsfIBDraWN1K71rUwQWq5n8N5FKg,10765
+send2any/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+send2any/cli.py,sha256=awP00JKvxknOPvMeuDBcGudX1IntLfFy7-i9rt40lO8,61
+send2any/conf.py,sha256=iQnG3Y356_PLKv2_rK61tsr4Ny-uYgVrKJa7RhKvmX8,353
+send2any/slack.py,sha256=ZrxwqP56H-ThMUh7S1E2J_vduP2sXOgAJ17UAwjMg1U,621
+send2any-0.1.0.dist-info/LICENSE,sha256=fIeHMpHyiXE6xd9IsfIBDraWN1K71rUwQWq5n8N5FKg,10765
+send2any-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+send2any-0.1.0.dist-info/METADATA,sha256=vu68NSGCZYnyTvg2-bhAmwqEqqRQStWuwBArpeJ5UNU,2054
+send2any-0.1.0.dist-info/RECORD,,
