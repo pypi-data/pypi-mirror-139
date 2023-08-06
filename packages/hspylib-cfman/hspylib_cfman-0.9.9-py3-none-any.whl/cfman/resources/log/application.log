@@ -1,0 +1,14 @@
+2022-02-22 03:29:07,328 [MainThread] INFO  commons.py::log_init(@Line:74) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-22 03:29:07,329 [MainThread] INFO  properties.py::_parse(@Line:141) Successfully loaded 0 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman/resources/application.properties 
+2022-02-22 03:29:07,329 [MainThread] INFO  app_config.py::__init__(@Line:54) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-RunDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman/resources/log/application.log
+  |-AppProperties:
+   \-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-22 03:29:07,329 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-22 03:29:07.329397 
+2022-02-22 03:29:07,330 [MainThread] INFO  application.py::run(@Line:100) Run finished 2022-02-22 03:29:07.330900 
