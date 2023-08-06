@@ -1,0 +1,7 @@
+pandas_selector/__init__.py,sha256=ZgZSVHL7VLoI7vxkMdcICnrQkQPR389LC5GKPJGlWp0,4750
+pandas_selector/axis.py,sha256=-ydntgE_zpRXnir8TVRZtHpV50UcCaTzxziKVDzvwIA,12141
+pandas_selector/df_accessor.py,sha256=jd95pEw_pDM4DqxzZZxyOBQi-AwYWAoPEblODR-n9K4,13553
+pandas_selector-1.2.1.dist-info/LICENSE,sha256=WEVOM9QILXGXLGaxfiyWtOy-xhwhIsUaSx44DywSxH0,1096
+pandas_selector-1.2.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+pandas_selector-1.2.1.dist-info/METADATA,sha256=7ly41vi8lLUfILaE1JOcSxQz6B4cBWnL1WMUG3Cg_PE,7023
+pandas_selector-1.2.1.dist-info/RECORD,,
