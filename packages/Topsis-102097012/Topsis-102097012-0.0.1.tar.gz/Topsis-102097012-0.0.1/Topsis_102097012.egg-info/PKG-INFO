@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Topsis-102097012
+Version: 0.0.1
+Summary: A TOPSIS calculator
+Home-page: UNKNOWN
+Author: Chavvi Bhatia
+Author-email: chavvibhatia23@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: TOPSIS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
