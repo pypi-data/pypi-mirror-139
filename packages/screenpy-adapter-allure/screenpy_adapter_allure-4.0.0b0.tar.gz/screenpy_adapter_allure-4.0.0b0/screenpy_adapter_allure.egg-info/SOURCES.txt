@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+screenpy_adapter_allure/__init__.py
+screenpy_adapter_allure/__version__.py
+screenpy_adapter_allure/adapters.py
+screenpy_adapter_allure.egg-info/PKG-INFO
+screenpy_adapter_allure.egg-info/SOURCES.txt
+screenpy_adapter_allure.egg-info/dependency_links.txt
+screenpy_adapter_allure.egg-info/requires.txt
+screenpy_adapter_allure.egg-info/top_level.txt
