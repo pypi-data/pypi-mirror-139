@@ -1,0 +1,2 @@
+[console_scripts]
+aero-core = metaflow.main_cli:cli
