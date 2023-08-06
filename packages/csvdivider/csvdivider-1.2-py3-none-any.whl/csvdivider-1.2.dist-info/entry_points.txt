@@ -1,0 +1,3 @@
+[console_scripts]
+csvdivide = csvdivider.csv_divider:main
+
