@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Strings2
+Version: 0.0.4
+Summary: Some operations on strings
+Home-page: https://github.com/CountChangye/Strings2
+Author: Strings2.strings
+Author-email: 121116728@qq.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Strings
+Some operations on strings
+
+
