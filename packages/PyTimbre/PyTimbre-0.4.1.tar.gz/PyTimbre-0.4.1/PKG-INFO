@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: PyTimbre
+Version: 0.4.1
+Summary: Python conversion of Timbre Toolbox
+Home-page: https://gitlab.com/python-audio-feature-extraction/pytimbre
+Download-URL: 
+Author: Frank Mobley
+Author-email: mobssoft@gmail.com
+License: MIT
+Keywords: machine learning,feature extraction,MATLAB,audio
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+PyTimbre is a Python conversion of the Matlab package Timbre Toolbox, found here (https://github.com/VincentPerreault0/timbretoolbox).
+
+This refactoring of the Matlab package employs the ideas of object oriented design to improve the code re-use. 
+This also removes the requirements upon the code to use the ``eval`` command from the implementation of the calculations
+of the individual packages.
+
+Usage:
+
+from .AudioSignal import AudioSignal as timbre_AudioSignal
+
+timbre_as = timbre_AudioSignal(filename)
+
+results = timbre_as.get_features()
+
+This software was developed in conjunction with research into the human perception of sound at the 711th Human 
+Performance Wing, Airman Systems Directorate, and has been approved for Distribution A, 88ABW-2020-2147.
+
+#Developement History
+
+# 2020
+## April
+
+- Added logic to avoid adding the STFT when it is not within the input configuration
+
+- Added logic to the generate and evaluate functions to skip over elements that are not included, or 
+    included as None
+
+- Added try catch to trap error on linear algebra analysis
+
+- Added a new function to create a column-wise output file for the results.
+
+- Edited the calculation of the Attack so that if it returns a single value rather than the expected 
+    array, it will continue to process the data.
+
+- Added logic to put -9999 in place of the NaN while exporting data that was not calculated
+
+## May
+
+- Added logic to ensure that the index is always less than the length of the vector (lines 967 of 
+    StaticMethods)
+
+## June
+
+- Added the History.md file back into the repository, and changed the column widths in every file to the 
+    limit within PyCharm.
+    
+## October 
+- Added comments and details regarding classes.
+ 
+- Added the average statistic to the output dictionary
+
+- Added logic to the determination of the Attack start and stop in cases when there is no array matching 
+the constraints.
+
+#2021
+## July
+
+- Added functions to SoundFile to facilitate easier use of the class.  Created an 'all' and new 'default' 
+configuration.  Added the ability to return only a specific metric from the new 'process' function.
+ - Updated calculation within Harmonic representation to address potential for index violations.
+ - Updated the default_configuration function
+ - Updated document string and other formatting issues within the source code.
+ - Initial design of new interface complete.  This design removes the MATLAB style 'eval' command and creates the parent-child classes for the 
+ various spectro-temporal representations.  The entirety of the feature extraction is contained within the parent class and provides the interface 
+ for interaction with the pytimbre classes.
+   
+## August
+
+- Added a function to the AudioSignal that permits the definition of the names of the features prior to running the analysis.  This assists with the definition of the DataFrame that might hold the data.
+
+##  September
+
+- Formatted the project for inclusion in PYPI.com and Test.PyPi.com
+
+##  November
+- Create a spectrum class that calculates the various spectro-temporal elements of the timbre toolbox.
+- Updated the Spectro_Temporal class(s) to use the spectrum class to determine the non-harmonic features
+- Created a new child class based on Spectro_Temporal that employs the SciPy.Signal.spectrogram function for determining the spectrogram that is passed to the spectrum class
+- Added class to hold the temporal energy calculations.
+- Updated GlobalTimeFeatures to employ these new classes and reduce the coding within that class 
+- Added a "none" statistic that returns the array of values that were calculated within the features
+- __Changed version to 0.3.2__
+- Added the ability to request a specific feature from the calculation, but at this time is still calculates all the features and just selects the feature from the dictionary of results
+- __Changed version to 0.3.3__
+
+#2022
+## January
+- __Changed version to 0.3.4__
+- Added functions to automatically recalculate the temporal energy envelope features when the various parameters were changed base on a property setter function.
+## February
+- __Changed to version 0.4.1__
+- Copied the generic_time_waveform and wave_file classes from AFRL Physical Acoustics to remove dependancy on the soundfile library.
+
+
+
