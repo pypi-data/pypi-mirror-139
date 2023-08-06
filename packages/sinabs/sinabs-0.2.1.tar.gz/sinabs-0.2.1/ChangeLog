@@ -1,0 +1,315 @@
+CHANGES
+=======
+
+v0.2.1
+------
+
+* added pip install
+* added requirements
+* Fixed path to conf.py in readthedocs config file
+* added rtd yaml file
+* Synops support for average pooling layers -> Synopcounter now works correctly when average pooling layers are used
+* rename input tensor for gpu
+* re-add unit-test for normalize\_weights
+* add GPU tensor support for normalize\_weights method
+* minor documentation typo fixes and some clarifications
+* Added test to check on initialization with batch\_size
+* wip
+* move name\_list acquiring from plot\_comparison() into compare\_activations()
+* Fix sinabs.network.Network.plot\_comparison() not work correctly for nested ANN and make it only plot Spiking layers' comparison-plot
+* added test
+* speeds up total power use using the new method
+* added total synops counter that doesnt use pandas
+* speeds up pandas use in synops count, big advantage
+* Name convert\_torch\_ann
+* necessary change in notebook
+* updated docs
+* added docs
+* bug fixed
+* synopcounter tests, changed network and from\_torch accordingly
+* moved counter function
+* SNNSynopCounter class
+* Fix from\_torch method when model contains a ReLU that is not child of a Sequential
+* m2r changed to m2r2
+* swapped dimensions with batch, default batch None
+* Documentation added and method name renamed to normalize\_weights
+* Smart weight rescaling added
+* fixed cuda issues on from torch, added test
+* Changed aiCTX references to SynSense
+* membrane reset implementation, removed layer name
+* Equation rendering in docs fixed
+* Doc front page changed to README
+* Added documentation pipeline for testing doc generation
+* Setup tools integration for sphinx documentation
+* Martino added to authors
+* Theme changed to rtd
+* added a detach() call
+* changed network removing no\_grad
+* working bptt notebook
+* twine deploy conditional on env variable
+* Added condition on env variable to pypi\_deploy
+* Add another pipeline that shouldn't execute
+* WIP bptt notebook
+* CI Lint corrections
+* Added test for CI pipeline
+* Link to contributing.md file fixed
+* Description file content type updated
+* Description file content type updated
+* Update description type to markdown
+* Update development status
+* Updated Classifiers
+
+v0.2.0
+------
+
+* Threshold gradient scaled by threshold (Bug fix)
+* updated docs, removed exclude\_negative\_spikes from fromtorch (no effect)
+* test requirements separated
+* added coverage
+* temporary solution for onnx
+* temporary solution for onnxruntime
+* amended test requirements to include onnxruntime
+* trying to trigger CI
+* Updated MNIST notebook
+* Instructions for testing added
+* \_\_version\_\_ specified from pbr
+* Cleaned up setup.py and requirements with pbr
+* added coverage tools
+* removed network utilities not needed
+* updated tests using pathlib
+* added some network tests
+* WIP on functional docstrings
+* removed old stuff from network summary
+* update gitignore
+* notebook docs updated (WIP)
+* fix docs for input shape in from\_torch, removed depency of Network on legacy layers
+* removed deprecated arguments of from\_torch
+* cleaned up keras in docs
+* removed input shape from spiking which caused bugs, and output\_shape from inputlayer
+* change dummy input to device, calculate layer-wise output size
+* Updated URL
+* Keras-related stuff all removed
+* removed pandas from layers
+* removed and updated keras tests
+* removed summary; device not determined automatically in from\_torch
+* removed old tests
+* Fixed relative imports
+* Added deprecation warning
+* Moved layers around, added deprecation
+* Moved neuromorphicrelu, quantize, sumpool to separate files, functions to functional
+* Unit test for adding spiking output in 'from\_model'
+* Enable adding spiking layer to sequential model in from\_torch function
+* Version bump
+* removed bad choice
+* removed unnecessary calls to print
+* fixed bug in old version
+* and again
+* More updates to deepcopy
+* Second deepcopy argument
+* Added tentative deepcopy
+* added ugly workaround to samna-torch crash problem
+* bugfix: reset\_states in network
+* Refactored keras\_model -> analog\_model
+* Added tool to compute output shapes
+* correct device for spiking layers
+* added tentative synops support
+* version number updated
+* updated file paths in tests
+* threshold methods updated, onnnx conversion works now
+* wip:added test for equivalence
+* fixed bug from\_torch was doing nothing
+* model build method separately added
+* changed default membrane subtract to Threshold, as in IAF. implemented in from\_torch
+* updated documentation
+* fixed bug in from\_torch; negative spikes no longer supported
+* onnx support for threshold operation
+* updated test; removed dummy input shape
+* added warnings for unsupported operations
+* Input shape optional and neurons dynamically allocated
+* from\_torch completely rewritten (WIP)
+* wip: from\_torch refractoring
+* marked all torch layer wrappers to deprecated
+* Depricated TorchLayer added
+* merged master to bptt\_devel
+* install m2r with hotfix for new version of sphinx
+* changed membrane\_subtract and reset defaults, some cleanup
+* added test to compare iaf implementations
+* added dummy test file intended for bptt layer
+* sumpool layer stride is None bug
+* updated version number
+* added support for batch mode operation
+* added conversion of flatten and linear to convolutions
+* provided default implementation of iaf\_bptt to passthrough
+* SpikingLayer with learning added to layers without default import
+* SpikingLayer attributes membrane\_subtract and membrane\_reset as properties to avoid that both are None at the same time
+* threshold function fix, bptt mnist example with spiking layer in notebook
+* threshold functions used in forward iaf method for bptt
+* added differentiable threshold functions
+* bugfix related to sumpool
+* added synopscount to master
+* added documentation synopcounter and sumpool
+* added new layers to docs
+* Added analogue sumpool layer
+* added two  layers by qian
+* updated summary function for iaf\_tc
+* added synoploss and refactored
+* added classifiers to setup.py
+* fixed typos in setup.py
+* updated setup file
+* updated branch to master for pypi deployment
+* fixed reference to rockpool in tag
+* upload to pypi and tags in readme file
+* version bump for test
+* direct execute with twine
+* typo fix
+* added tags of the runner
+* pypi build triggered on pip branch
+* removed trailing line
+* ci script to upload to test pypi
+* wip: adding pip support for sinabs
+* added option to only reproduce current instead of spikes
+* added clear buffer method
+* pew workon to pew ls
+* added pew to documentation
+* round on stochastic rounding eval mode
+* stochastic rounding only during learning
+* added stochastic rounding option to NeuromorphicReLU
+* added normalization level to sig2spike layer
+* updated documentation structure and pipenv tutorial
+* modified iaf tc's expecte dims to be [t, ch]
+* merged changes from master
+* fixed missing module sinabs.from\_keras
+* fixed tensorflow version 1.15
+* fixed tensorflow version in ci script
+* added tensorflow install to ci script
+* typo fix
+* force install torch
+* updated documentation for from\_keras
+* added pipfile
+* moved all from keras methods to from\_keras.py
+* added doc string
+* added rescaling of biases to from\_torch
+* breaking change to Sig2SpikeLayer
+* time steps computed based on dimensions of synaptic output
+* functioning code for spiking model
+* renamed TorchLayer to Layer, TDS to TemporalConv1d
+* added kernel shape for tds layer
+* fixed cuda imports in tests
+* merged master
+* updated notebook with a full run time output
+* added mnist\_cnn weight matrix for the examples to run smoothly
+* example of from\_torch Lenet 5
+* example of from\_torch Lenet 5
+* lenet example from\_torch, and in Chinese
+* missing import added
+* quantize layers are not called by name any more
+* supported avgpool with different kernel sizes
+* added some documentation, quantize now does nothing
+* fix linear layer and add sumpool layer to from\_torch
+* clean up maxpooling2d
+* clean up maxpoooling2d
+* fix maxpooling spike\_count error
+* fix maxpooling spike\_count error
+* implemented quantization
+* load DynapSumPool and DynapConv2dSynop from pytorch
+* added flag to exclude negative spikes
+* added support for neuromorphicrelu
+* updated setup file to specify tensorflow version dependency
+* Some minor changes
+* fixes summary
+* threshold management in from torch
+* functionalities added to torch vonverter
+* line-height fixed in h1
+* added intro to snns notebook documentation
+* merge errors fixed in init file
+* synops to cpu
+* fixes needed for summary and synops
+* merged init file
+* init file merged
+* overwrote forward method
+* removed detach()
+* all self.spikes\_number are numbers only and detached now
+* fixed incorrect variable name for weights
+* added SpikingLinearLayer
+* doc string corrections
+* fixed test following small refactor
+* fixed documentation
+* allowed threshold\_low setting
+* added documentation
+* added YOLO layer and converted converter
+* converter uses Sequential and Network instead of ModuleList
+* merged latest version (PR) or no\_spike\_tracking
+* iaf layers do not save spikes
+* fixed loss return with flag
+* trivial merge of no spike tracking
+* removed status caching and sum(0)
+* merged no spike tracking but test not fixed
+* iaf layers do not save spikes
+* changed copying strategy to avoid warnings
+* Sadique worked on clearing cache on iaf forward()
+* img\_to\_spk fix
+* small improvements to spkconverter
+* linear imgtospk
+* spike converter from torch and test
+* remove unwanted prints
+* small changes useful for yolo
+* implemented linear mode for conv2d
+* changes to synaptic output
+* implemented spike generation layer from analog signals
+* fixed causal convolutions and padding
+* implemented delay buffer
+* added initial code for time delayed spiking layer
+* added image to spike conversion layer
+* added conv1d to the documentation
+* added conv1d layer
+* updated notebooks in examples
+* conversion from markdown fixed
+* added link to gitlab pages in readme
+* documentation added to pages
+* updated branch for testing and building
+* fixed path to build folder
+* pip upgrade command missing pip
+* added gitlab CI script
+* state to cuda device
+* license notice updated in setup file
+* layers submodule added to setupfile
+* fixed calls to np load with allow\_pickle arg
+* added conv3d layer
+* initial code
+* merged
+* fixed typos in readme
+
+v0.1.0
+------
+
+* fixed version number
+* removed contrib branch
+* added initial text for contributions file
+* updated mirror url
+* Added contact text
+* added contributing file
+* added license text to readme
+* added AGPL license notice to all files in library
+* added LeNet 5 example
+* default neuron parameters updated to work out of the box
+* added convtranspose2d layer
+* abstract class SpikingLayer added to documentation
+* iaf code moved to abstract class
+* summary added to layer base class
+* summary modified
+* update example to generate and readout spike trains
+* max pooling keras
+* restored readme text
+* added readme in docs folder
+* added license AGPL
+* auto rescale multiple average pooling in row
+* fix quantizing nBits for weights and threshold
+* softmax means ReLU for inference and fix auto-rescaling
+* push test
+* push test
+* summary modified
+* added build to gitignore list
+* typos in readme
+* updated documentation file structure
+* Initial file commit
+* Initial commit
