@@ -1,0 +1,30 @@
+b2sdk<2.0.0,>=1.14.1
+docutils==0.16
+phx-class-registry==3.0.5
+rst2ansi==0.1.5
+
+[:platform_system == "Java"]
+idna>=2.2.0
+
+[:python_version <= "3.5"]
+arrow<1.0.0,>=0.8.0
+importlib-metadata<3.0.0,>=2.1.1
+
+[:python_version > "3.5" and python_version < "3.8"]
+importlib-metadata>=3.3.0
+
+[:python_version >= "3.6"]
+arrow<2.0.0,>=1.0.2
+
+[doc]
+sadisplay
+sphinx-argparse
+sphinx-autobuild
+sphinx-rtd-theme
+sphinxcontrib-plantuml
+
+[doc:python_version <= "3.5"]
+sphinx<4.0
+
+[doc:python_version > "3.5"]
+sphinx<5.0
