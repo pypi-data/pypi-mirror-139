@@ -1,0 +1,2 @@
+- no retag on reruns
+- pull before readme dump
