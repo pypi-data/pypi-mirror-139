@@ -1,0 +1,10 @@
+README.md
+setup.py
+wordlbot/__main__.py
+wordlbot/official_wordlist.json.xz
+wordlbot/words.txt.xz
+wordlbot.egg-info/PKG-INFO
+wordlbot.egg-info/SOURCES.txt
+wordlbot.egg-info/dependency_links.txt
+wordlbot.egg-info/entry_points.txt
+wordlbot.egg-info/top_level.txt
