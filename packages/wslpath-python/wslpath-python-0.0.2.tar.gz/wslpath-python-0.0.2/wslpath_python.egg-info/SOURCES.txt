@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+wslpath/__init__.py
+wslpath/_wslpath.py
+wslpath_python.egg-info/PKG-INFO
+wslpath_python.egg-info/SOURCES.txt
+wslpath_python.egg-info/dependency_links.txt
+wslpath_python.egg-info/top_level.txt
