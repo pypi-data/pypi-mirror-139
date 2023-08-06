@@ -1,0 +1,10 @@
+aioworkers_pg/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+aioworkers_pg/base.py,sha256=tCIwgP1sYNOz4MnJTUjrmSewpTkUShixBcPYt-vVed0,3558
+aioworkers_pg/formatter.py,sha256=M2h3DuiotRjVVez_fstl1L52iHkDvgLQCPWbL1lgtog,707
+aioworkers_pg/sa.py,sha256=hkZ3sPi18kGaWvyx-dk5s28XopQ5RHE7m_kJHbWV--Y,922
+aioworkers_pg/sql.py,sha256=CC21FXAjYhOp1w8EFnJKP-_0pmWONYm-RDPUzBa3r4A,1895
+aioworkers_pg/storage.py,sha256=wJ0W8SZq00gRBRLY44J2adsglNBArxxuDMUkXML54Js,1067
+aioworkers_pg-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aioworkers_pg-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aioworkers_pg-0.3.0.dist-info/METADATA,sha256=U4ijftPFbtSNVITzE9Ds74p82tn2mvyyc7127Yrd9vs,2433
+aioworkers_pg-0.3.0.dist-info/RECORD,,
