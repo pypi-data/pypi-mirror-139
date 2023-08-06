@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wcommon
+Version: 0.2.1
+Summary: 简单的加减运算上传测试
+Home-page: http://www.hohode.com
+Author: 王俊博
+Author-email: wjbhnu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+简单的加减运算上传测试
+
+
