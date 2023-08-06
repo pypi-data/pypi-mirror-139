@@ -1,0 +1,7 @@
+MANIFEST.in
+README.txt
+setup.py
+vikash_sinha.egg-info/PKG-INFO
+vikash_sinha.egg-info/SOURCES.txt
+vikash_sinha.egg-info/dependency_links.txt
+vikash_sinha.egg-info/top_level.txt
