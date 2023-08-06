@@ -1,0 +1,11 @@
+pants_jupyter_plugin/__init__.py,sha256=drddSuDJ3Fea7xTgCzIKGSVWUFaj2Aj64kequpLHiGs,530
+pants_jupyter_plugin/cache.py,sha256=g1yswcBS5lqh6W1XxAhoURNhonwfXLfvzGT8JnXqApk,228
+pants_jupyter_plugin/download.py,sha256=TfN_--mcetkuOBatnvJEFseoe6bhOWX6RlK3ex7N-Yc,1287
+pants_jupyter_plugin/env.py,sha256=sf0QwU0qwzAdey8Bl5lQZh_cE-YmuW25PU1H74SZSwY,756
+pants_jupyter_plugin/lock.py,sha256=gbofZcKzz0KrP7zBdIKhEIgkhGSKQxCM-9ykkcGSB_w,902
+pants_jupyter_plugin/pex.py,sha256=e8uWORoH8P5MxqP0W5i6PJ4fWXkZKmbEV5JvFFec1kc,7488
+pants_jupyter_plugin/plugin.py,sha256=sp3bYGZ5T43EcWbAmuMqx3nRSabuEyRUwobR-JNLaLA,16558
+pants_jupyter_plugin-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pants_jupyter_plugin-0.0.6.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+pants_jupyter_plugin-0.0.6.dist-info/METADATA,sha256=FEoSUnsT5PSiUAaI7XBebEOtRUReeBM_vRpYyvmgKX4,3964
+pants_jupyter_plugin-0.0.6.dist-info/RECORD,,
