@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: HypixelWrapper
+Version: 0.0.1
+Summary: Hypixel API Wrapper
+Home-page: https://github.com/Loser-EXE/HypixPY
+Author: LoserEXE
+License: MIT
+Keywords: Minecraft,Hypixel
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: mojang
+Requires-Dist: requests-html
+
+UNKNOWN
+

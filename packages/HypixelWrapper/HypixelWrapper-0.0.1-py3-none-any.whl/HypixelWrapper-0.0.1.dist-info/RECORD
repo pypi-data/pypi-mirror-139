@@ -1,0 +1,14 @@
+HypixelWrapper/Test.py,sha256=LvizB-Vw2h4nINpbK-C1mO30prgPJcH2ieBNX5P6HYI,2056
+HypixelWrapper/__init__.py,sha256=qOLC7g40tFyPo4Io4yNUSigmdww6tMJGbxfMQkOgvAg,149
+HypixelWrapper/errors.py,sha256=Hq4yth9XaMYgnTywN7e_pm73d3ho9ZNgC2O4oSrk7Us,239
+HypixelWrapper/guild.py,sha256=O6O_5225LzZcEGAYqYJfO8gHFbPbdKxbWyd4dBrZBRE,4464
+HypixelWrapper/guildldb.py,sha256=2vlPG3o46uvHzAvo7WkJpHvPLTPYh4x5-UxieQCRnKM,1965
+HypixelWrapper/key.py,sha256=id6VVR45bJ2TYHj3tqeT_E8YGmpwFoV44dmCeVXVcI0,857
+HypixelWrapper/player.py,sha256=n0Oxcfr8VbH4phoWZmAGZiGlnKYGQh_0MgYagPwFXf8,4663
+HypixelWrapper/utils.py,sha256=KyDROae23Jt7wDB_XjTVaUx9gmj7WP06iTOw_e9h_Gg,450
+HypixelWrapper/vars.py,sha256=9Nnt8mxBQnnuEOOSLywRcMc4iWCDs55yXNaw5pmCA8M,288
+HypixelWrapper-0.0.1.dist-info/LICENSE,sha256=EPrK9A4Y7eo2Z0BlqNuDDgmzKETdYUXlx27eeBJBEmY,1086
+HypixelWrapper-0.0.1.dist-info/METADATA,sha256=ovFMcQBxgT66vP0sAS2uth-p6yZ_M0IgFdhB6CQ83Qo,417
+HypixelWrapper-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+HypixelWrapper-0.0.1.dist-info/top_level.txt,sha256=zYR5BwqzjNacrXq8A4a3-I990oadd_qTKQ_0h6thyFQ,15
+HypixelWrapper-0.0.1.dist-info/RECORD,,
