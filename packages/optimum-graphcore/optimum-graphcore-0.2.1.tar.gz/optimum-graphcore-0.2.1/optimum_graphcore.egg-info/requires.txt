@@ -1,0 +1,10 @@
+optimum
+datasets
+tokenizers
+torch
+sentencepiece
+scipy
+pillow
+pytest
+pytest-pythonpath
+parameterized
