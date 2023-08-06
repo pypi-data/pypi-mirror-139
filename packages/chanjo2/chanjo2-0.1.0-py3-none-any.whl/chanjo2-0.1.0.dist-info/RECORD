@@ -1,0 +1,16 @@
+chanjo2/__init__.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+chanjo2/dependencies.py,sha256=ShciSeDyDRVzsosqbYxo6_wZ9EhW5s1YmtsVpXp6TLM,321
+chanjo2/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chanjo2/endpoints/individuals.py,sha256=UCXSPA_EuGpVp80QTt7ZGL-i9LcglhMJ-AvG5ROds5A,4021
+chanjo2/endpoints/regions.py,sha256=iG8H9qgK_QA1FLvmHMVJ8ucE2j8sgUDPa5qtClP7N1w,1129
+chanjo2/main.py,sha256=DK8o6J-CxFcOPP3CfX9LX-W03p-RppH8mxAG2U_glbs,1143
+chanjo2/meta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chanjo2/meta/handle_bed.py,sha256=1_-J8AIvfEGlOkpMu9tV5voPYqfJiVJWaVvTSXnEEks,487
+chanjo2/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chanjo2/models/coverage_interval.py,sha256=dvrMRZpT4gAO69WOAnX1XE8uJrM29JtsoZKheksI8hs,185
+chanjo2/models/individuals.py,sha256=dLeMi4sj22I1kfREYh7TAVAi__PtX6XGNDTDQf8p_AY,390
+chanjo2/models/regions.py,sha256=w3dxiWVqpW_zc_6TuN1TohjhV8V1alQ_-cQGhATbaJ8,362
+chanjo2-0.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+chanjo2-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+chanjo2-0.1.0.dist-info/METADATA,sha256=y1nVDvJHiuNsuChJIV5mxHox2eaKRVBoVQxqa3Q1kwo,542
+chanjo2-0.1.0.dist-info/RECORD,,
