@@ -1,0 +1,8 @@
+include README.rst
+include LICENSE.txt
+include release_notes.rst
+include staticmodel/VERSION.txt
+recursive-exclude tests *
+recursive-exclude django_test_app *
+exclude run_tests.py
+exclude test_requirements.txt
