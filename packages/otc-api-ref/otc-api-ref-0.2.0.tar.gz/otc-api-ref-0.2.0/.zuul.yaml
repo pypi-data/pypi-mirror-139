@@ -1,0 +1,24 @@
+- job:
+    name: otc-api-ref-src
+    parent: otc-tox-docs
+    description: |
+      Run tox -e api-ref with src otc-api-ref and otcdocstheme
+    required-projects:
+      - opentelekomcloud/otcdocstheme
+      - opentelekomcloud-infra/otc-api-ref
+
+- project:
+    merge-mode: squash-merge
+    default-branch: main
+    templates:
+      - publish-to-pypi
+      - publish-otc-docs-pti
+    check:
+      jobs:
+        - otc-tox-pep8
+        - otc-tox-py39
+        - otc-api-ref-src
+    gate:
+      jobs:
+        - otc-tox-pep8
+        - otc-tox-py39

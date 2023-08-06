@@ -1,0 +1,163 @@
+/*
+tt.literal {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    white-space: nowrap;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+*/
+
+/* bootstrap users blockquote for pull quotes, so they are much
+larger, we need them smaller */
+blockquote {
+  font-size: 1em;
+}
+
+td > p {
+  margin: 0 0 0.5em;
+}
+
+.operation-grp {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+/* Ensure the method buttons and their links don't split lines when
+the page is narrower */
+.operation {
+  /* this moves the link icon into the gutter */
+  margin-left: -1.25em;
+  margin-right: 1.25em;
+  white-space: nowrap;
+}
+
+/* These make the links only show up on hover */
+a.operation-anchor {
+  visibility: hidden;
+}
+
+.operation-grp:hover a.operation-anchor {
+  visibility: visible;
+}
+
+/* All parameter tables should be full width */
+
+.api-detail table.docutils {
+  width: 100%;
+}
+
+.versionmodified {
+  font-weight: bold;
+}
+
+.label-POST {
+  background-color: var(--dt-color-green-60);
+}
+.label-POST[href]:hover,
+.label-POST[href]:focus {
+  background-color: var(--dt-color-green-60);
+}
+.label-GET,
+.label-HEAD {
+  background-color: var(--dt-color-teal-30);
+}
+.label-GET[href]:hover,
+.label-GET[href]:focus,
+.label-HEAD[href]:hover,
+.label-HEAD[href]:focus {
+  background-color: var(--dt-colot-teal-30);
+}
+.label-PUT,
+.label-PATCH {
+  background-color: var(--dt-color-orange-60);
+}
+.label-PUT[href]:hover,
+.label-PUT[href]:focus,
+.label-PATCH[href]:hover,
+.label-PATCH[href]:focus {
+  background-color: var(--dt-color-orange-60);
+}
+.label-COPY {
+  background-color: var(--dt-color-blue-60);
+}
+.label-COPY[href]:hover,
+.label-COPY[href]:focus {
+  background-color: var(--dt-color-blue-60);
+}
+.label-DELETE {
+  background-color: var(--dt-color-red-70);
+}
+.label-DELETE[href]:hover,
+.label-DELETE[href]:focus {
+  background-color: var(--dt-color-red-70);
+}
+
+.btn-detail:not(.collapsed)::after {
+  content: "close";
+}
+.btn-detail::after {
+  content: "detail";
+}
+
+.btn-detail:hover,
+.btn-detail:focus,
+.btn-expand-all:hover,
+.btn-expand-all:focus {
+  color: #fff !important;
+  background-color: #3b6c91;
+  border-color: #269abc;
+}
+
+.btn-detail,
+.btn-expand-all {
+  color: #fff !important;
+  background-color: #2a4e68;
+}
+
+span.path_parameter {
+  font-family: monospace;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: var(--dt-color-red-70);
+  white-space: nowrap;
+  background-color: var(--dt-color-rose-0);
+  border-radius: 4px;
+}
+
+p.url-subtitle {
+  color: var(--dt-color-grey-70);
+  font-weight: bold;
+}
+
+.docs-body .section h1 {
+  display: block;
+}
+/*
+div.docs-sidebar-toc > div > ul > li {
+  list-style-type: none;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+div.docs-sidebar-toc > div > ul {
+  padding-left: 20px
+}
+
+div.docs-sidebar-toc > div > ul > li > ul > li {
+  / *list-style-type: disc;* /
+  font-weight: normal;
+}
+*/
+div.docs-top-contents {
+  display: none;
+}
+
+div.endpoint-container {
+  padding-left: 15px;
+}
+
+#expand-all {
+  margin-top: 23px;
+}
