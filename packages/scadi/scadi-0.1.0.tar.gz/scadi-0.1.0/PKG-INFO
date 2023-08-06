@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: scadi
+Version: 0.1.0
+Summary: SCAD Inliner: Roll up OpenSCAD includes into the main file for easy sharing.
+Home-page: https://nascentmaker.com/py/scadi
+License: MIT
+Keywords: openscad,inline,minimizer,rollup,scad
+Author: Nascent Maker
+Author-email: hello@nascentmaker.com
+Maintainer: Nascent Maker
+Maintainer-email: hello@nascentmaker.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: cliff (>=3.10.0,<4.0.0)
+Project-URL: Repository, https://github.com/NascentMaker/scadi
+Description-Content-Type: text/x-rst
+
+=====
+scadi
+=====
+
+Command-line tool for rolling up all includes into the main file of your model so that you can easily share it online.
+
+Installation
+============
+
+::
+
+   pip3 install scadi
+
+Usage
+=====
+
+::
+
+   scadi inline ./my-model.scad
+
+The above command will create a file called ``./inline-my-model.scad`` that can be shared on sites that have OpenSCAD customizers.
+
