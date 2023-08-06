@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datasette_redirect_forbidden/__init__.py
+datasette_redirect_forbidden.egg-info/PKG-INFO
+datasette_redirect_forbidden.egg-info/SOURCES.txt
+datasette_redirect_forbidden.egg-info/dependency_links.txt
+datasette_redirect_forbidden.egg-info/entry_points.txt
+datasette_redirect_forbidden.egg-info/requires.txt
+datasette_redirect_forbidden.egg-info/top_level.txt
