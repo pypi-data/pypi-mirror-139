@@ -1,0 +1,14 @@
+client_pack/__init__.py,sha256=VxXgKa6cNDIVusRCDdRiBQ56FkYRh_lW4Bf57UvjU7E,23
+client_pack/client/__init__.py,sha256=VxXgKa6cNDIVusRCDdRiBQ56FkYRh_lW4Bf57UvjU7E,23
+client_pack/client/client.py,sha256=bWpu2dD6muUMA82K8yE-rG0rv-cMspRYNhXxMWlxR00,13678
+client_pack/client/client_repository.py,sha256=D1fD63zJw3PdVm1tRJ7inEUuCtgT68Q2xFlqpWG8-jo,3799
+client_pack/common/__init__.py,sha256=VxXgKa6cNDIVusRCDdRiBQ56FkYRh_lW4Bf57UvjU7E,23
+client_pack/common/messages.py,sha256=bTXrQFjYjSrs7DWRfTdtr9t2xMPKTZxkE9YEDdminsY,1205
+client_pack/common/utils.py,sha256=9BwVEH1rAcQco6amCsoJp99f2Fqop2aAstnJoQj6gbM,938
+client_pack/pyqt_ui/__init__.py,sha256=VxXgKa6cNDIVusRCDdRiBQ56FkYRh_lW4Bf57UvjU7E,23
+client_pack/pyqt_ui/admin_page.py,sha256=uSvwvPCkW2tSiLXtFOmcAOMkzI4p7oOUhumINC6FlRA,5679
+client_pack/pyqt_ui/main.py,sha256=drK9xj0gV0zRQ3BOqfx22nwlwdpjFJonAPxXKB2Bs3Q,16051
+messenger_client_theksanacodes-0.0.1.dist-info/METADATA,sha256=IR3SRXnepY3iwcWc2KmIXoQUF_lljAyzan3ktXD4ihQ,257
+messenger_client_theksanacodes-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+messenger_client_theksanacodes-0.0.1.dist-info/top_level.txt,sha256=o_EGMcQmYxXz8smwqIOOqTGv_iAbwjlmVjolaGO7q7U,12
+messenger_client_theksanacodes-0.0.1.dist-info/RECORD,,

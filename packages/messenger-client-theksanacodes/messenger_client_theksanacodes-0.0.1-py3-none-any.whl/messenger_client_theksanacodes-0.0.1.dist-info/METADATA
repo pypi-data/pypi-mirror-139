@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: messenger-client-theksanacodes
+Version: 0.0.1
+Summary: Messenger client
+Home-page: UNKNOWN
+Author: oxana
+Author-email: ddd.d@google.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+
