@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cpas-toolbox
+Version: 0.1.0
+Summary: Toolbox to evaluate categorical pose and shape estimation
+Home-page: https://github.com/roym899/pose_and_shape_evaluation
+Author: Leonard Bruns
+Author-email: roym899@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: open3d
+Requires-Dist: opencv-python-headless
+Requires-Dist: Pillow
+Requires-Dist: requests
+Requires-Dist: scipy
+Requires-Dist: tikzplotlib
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: trimesh
+Requires-Dist: yoco
+
+# Categorical Pose and Shape Evaluation Toolbox
+CPAS Toolbox is a package for evaluation of categorical pose and shape estimation methods. It contains metrics, and wrappers for datasets and methods.
+Visit the [documentation](https://roym899.github.io/pose_and_shape_evaluation/) for detailed usage instructions and API reference.
+
+
+## Installation
+```bash
+pip install cpas_toolbox
+```
+
+## Development
+- Use `pip install -e .` to install the package in editable mode
+- Use `pip install -r requirements-dev.txt` to install dev tools
+- Use `pytest -rf --cov=cpas_toolbox --cov-report term-missing tests/` to run tests and check code coverage
+
+
