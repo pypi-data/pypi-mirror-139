@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./pytts/__init__.py
+./pytts/voicerss/__init__.py
+./pytts/voicerss/codecs.py
+./pytts/voicerss/formats.py
+./pytts/voicerss/languages.py
+./pytts/voicerss/voices.py
+swisscore_pyTTS.egg-info/PKG-INFO
+swisscore_pyTTS.egg-info/SOURCES.txt
+swisscore_pyTTS.egg-info/dependency_links.txt
+swisscore_pyTTS.egg-info/not-zip-safe
+swisscore_pyTTS.egg-info/requires.txt
+swisscore_pyTTS.egg-info/top_level.txt
