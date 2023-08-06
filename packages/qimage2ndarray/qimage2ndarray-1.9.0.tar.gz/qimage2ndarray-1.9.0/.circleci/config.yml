@@ -1,0 +1,63 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@2.0.1
+
+jobs:
+  test-PyQt5:
+    executor: python/default
+    steps:
+      - checkout
+      - run:
+          command: pip install numpy PyQt5 pytest
+          name: Install Dependencies (PyQt5)
+      - run:
+          command: pip install . && pytest
+          environment:
+            QT_API: pyqt5
+          name: Test (PyQt5)
+  
+  test-PySide2:
+    executor: python/default
+    steps:
+      - checkout
+      - run:
+          command: pip install numpy PySide2 pytest
+          name: Install Dependencies (PySide2)
+      - run:
+          command: pip install . && pytest
+          environment:
+            QT_API: pyside2
+          name: Test (PySide2)
+  
+  test-PySide6:
+    executor: python/default
+    steps:
+      - checkout
+      - run:
+          command: pip install numpy PySide6 pytest
+          name: Install Dependencies (PySide6)
+      - run:
+          command: pip install . && pytest
+          environment:
+            QT_API: pyside6
+          name: Test (PySide6)
+
+workflows:
+  unit-tests:
+    jobs:
+      - test-PyQt5:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+      - test-PySide2:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+      - test-PySide6:
+          filters:
+            branches:
+              ignore:
+                - gh-pages

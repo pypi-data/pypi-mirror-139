@@ -1,0 +1,13 @@
+numpy
+
+[PyQt4]
+PyQt4
+
+[PyQt5]
+PyQt5
+
+[PySide]
+PySide
+
+[PySide2]
+PySide2
