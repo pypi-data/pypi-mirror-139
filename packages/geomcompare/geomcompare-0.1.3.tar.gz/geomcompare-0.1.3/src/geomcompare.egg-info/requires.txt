@@ -1,0 +1,13 @@
+shapely
+pyproj
+psycopg2
+rtree
+numpy
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
