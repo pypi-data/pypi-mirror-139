@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ffmpeg-downloader
+Version: 0.1.1
+Summary: FFmpeg Release Build Downloader
+License: GPL-2.0 License
+        url=https://github.com/python-ffmpegio/python-ffmpeg-downloader
+Project-URL: Issues, https://github.com/python-ffmpegio/python-ffmpegio-downloader/issues
+Project-URL: Pull Requests, https://github.com/python-ffmpegio/python-ffmpegio-downloader/pulls
+Keywords: multimedia,ffmpeg,ffprobe
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Capture
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+UNKNOWN
+
