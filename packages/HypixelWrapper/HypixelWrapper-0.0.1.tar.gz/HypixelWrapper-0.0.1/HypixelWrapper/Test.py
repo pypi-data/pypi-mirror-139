@@ -1,0 +1,65 @@
+from player import *
+from guild import *
+from key import *
+from guildldb import *
+
+if __name__ == "__main__":
+    import os
+    Guildldb = GuildLeaderboard()
+    Key = Key(os.getenv('HYPIXEL'))
+    Guild = Guild(name='WristSpasm')
+    Player = Player("LoserEXE")
+    # print(Key.key())
+    # print(Key.limit())
+    # print(Key.ownerUUID())
+    # print(Key.queriesInPastMin())
+    # print(Key.totalQueries())
+    # print(Key.ownerIGN())
+    # print(Player.ign())
+    # print(Player.UUID())
+    # print(Player.karma())
+    # print(Player.networkLevel())
+    # print(Player.networkExp())
+    # print(Player.knownAliases())
+    # print(Player.rank())
+    # print(Player.loginLogoutInfo())
+    # print(Player.rankHistory())
+    # print(Player.socialMediaLinks())
+    # print(Player.socialMediaLinked())
+    # print(Player.friendCount())
+    # print(Player.friendNameList())
+    # print(Player.friendUUIDList())
+    # print(Player.plusColor())
+    # print(Player.achievementPoints())
+    # print(Guildldb.isOnLeaderboard("MLG"))
+    # print(Guildldb.top())
+    # print(Guildldb.guildPlacement("WristSpasm"))
+    # print(Guildldb.guildLvl("WristSpasm"))
+    # print(Guildldb.guildExp("WristSpasm"))
+    # print(Guildldb.Guildleaderboard)
+    # print(Player.isOnline())
+    # try:
+    #     print(Player.currentlyPlaying())
+    # except PlayerNotOnlineError:
+    #     pass
+    # print(Guild.created())
+    # print(Guild.description())
+    # print(Guild.name())
+    # print(Guild.guildExp())
+    # print(Guild.guildLevel())
+    # print(Guild.guildId())
+    # print(Guild.isPubliclyListed())
+    # print(Guild.tag())
+    # print(Guild.tagColor())
+    # print(Guild.preferredGames())
+    # print(Guild.guildExpByGame())
+    # print(Guild.ranks())
+    # print(Guild.rank("nooab"))
+    # print(Guild.onlinePlayers())
+    # print(Guild.memberCount())
+    # print(Guild.memberList())
+    # print(Guild.member("LoserEXE"))
+    print(Guild.expHistory("LoserEXE"))
+    print(Guild.gexpToday("LoserEXE"))
+
+    
