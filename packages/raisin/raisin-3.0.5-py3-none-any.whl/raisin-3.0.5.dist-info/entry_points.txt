@@ -1,0 +1,2 @@
+[console_scripts]
+raisin = raisin.__main__:main
