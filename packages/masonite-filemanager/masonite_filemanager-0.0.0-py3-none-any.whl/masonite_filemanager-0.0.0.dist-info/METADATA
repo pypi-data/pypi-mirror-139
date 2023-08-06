@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: masonite-filemanager
+Version: 0.0.0
+Summary: File management solution for Masonite
+Home-page: https://github.com/yubarajshrestha/masonite-filemanager
+Author: Yubaraj Shrestha
+Author-email: companion.krish@outlook.com
+License: MIT
+Keywords: masonite,storage,filemanager,masonite-filemanager
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Masonite
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: masonite (<5.0,>=4.0)
+
+**Masonite FileManager**
+
+A simple yet powerful file management solution for your masonite application.
+
+> Note this is still in development.
+
+

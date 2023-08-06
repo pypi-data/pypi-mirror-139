@@ -1,0 +1,16 @@
+filemanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filemanager/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filemanager/config/filemanager.py,sha256=D9ia3LjdcE6FiZNAgMjS9bMpuSaW-uV2NqpUOJgGQTk,44
+filemanager/controllers/filemanager_controller.py,sha256=PniRhXp9LspjUqblTKimdAu4Ez9cE4PSkheq54URi4c,2450
+filemanager/drivers/__init__.py,sha256=V1Td9Sqif68x21kkwxHPCmMZGoFBA50HFjlPlT8Q5jY,49
+filemanager/drivers/filemanager_driver.py,sha256=ZYKrg4hiDybo-DWwgv2qWgjctvXS6ve6pQBieaLQCuY,4575
+filemanager/providers/__init__.py,sha256=m3yIx2xeoIXa0_rXmYHyNwOoLaqyRU3c80l00jUVQP8,54
+filemanager/providers/filemanager_provider.py,sha256=dxApgWXopKE5cpAcKoTtFv0iZDnwRh9CMVnriAEn3VU,487
+filemanager/routes/__init__.py,sha256=4ys4ymMDeVYqYadwR2ADb1msblpzJBDpkQrQtYUn3kk,26
+filemanager/routes/route.py,sha256=T7UFWVFcH9meNqTh-z9e7JgFgSSwsU6ukKhnE13AqcQ,608
+filemanager/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+masonite_filemanager-0.0.0.dist-info/LICENSE,sha256=Bf6uxpWyw3g7PCXOjjD9hl3Z2asrSPZoBaADHZXuwzs,1068
+masonite_filemanager-0.0.0.dist-info/METADATA,sha256=aD9wYvgB9-gpNEKPUFcF_Z2lOTCcFgZVyx4BmZZa5kw,662
+masonite_filemanager-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+masonite_filemanager-0.0.0.dist-info/top_level.txt,sha256=QMC_l_eynOtUW2DOmLn8x4y-0NTLV8LUhK5gH1fvwfU,12
+masonite_filemanager-0.0.0.dist-info/RECORD,,
