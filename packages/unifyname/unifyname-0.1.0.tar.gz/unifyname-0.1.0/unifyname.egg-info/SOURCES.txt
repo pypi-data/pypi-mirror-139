@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+unifyname/__init__.py
+unifyname/utils.py
+unifyname.egg-info/PKG-INFO
+unifyname.egg-info/SOURCES.txt
+unifyname.egg-info/dependency_links.txt
+unifyname.egg-info/requires.txt
+unifyname.egg-info/top_level.txt
