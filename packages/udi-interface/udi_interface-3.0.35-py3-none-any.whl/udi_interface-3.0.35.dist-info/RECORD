@@ -1,0 +1,12 @@
+udi_interface/__init__.py,sha256=iTvGISjuoANP0-O94Aj-6rea6HHySovyPRofhRmQRMI,544
+udi_interface/custom.py,sha256=BhQvaoLiBaD6qrkO5DlaASl5GZjNuiu-ci0zo8EZZKY,4913
+udi_interface/interface.py,sha256=P8Yjh8xkc95T9BIJc61Q7CDYcw5gN22aomVlXSQ-i3g,48413
+udi_interface/isy.py,sha256=rFWNH8jiNgdEKKv7FnlN9P84FjAxkdnM4myYN-bKhJo,2337
+udi_interface/node.py,sha256=o8kESlLd_ncetr8ChTOphkpiBvP_5MgbP0XoApY67S8,6146
+udi_interface/polylogger.py,sha256=LxDrFAr9qgx720fDFgt5eNs408Ys5UHy5j0ngzDX3Qw,2882
+udi_interface/udi_interface.py,sha256=ZcoMGtxJSpXjp63FIpVPi4rzf02mcESnT4Vtfw8LPZU,4004
+udi_interface-3.0.35.dist-info/LICENSE,sha256=AYK_dwTK6cWRTWySZihkO5kTf2M2vZiCMpJHcgkV67o,1068
+udi_interface-3.0.35.dist-info/METADATA,sha256=ABfJgNLD27myp2E15MwyUldjHteUjtMdJgj3jUcpWtA,2576
+udi_interface-3.0.35.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+udi_interface-3.0.35.dist-info/top_level.txt,sha256=F5QGDURXDLG1oHo7t3HCMze5v70Wr04rKBqjEi6EJVM,14
+udi_interface-3.0.35.dist-info/RECORD,,
