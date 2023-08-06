@@ -1,0 +1,12 @@
+dmenu_bitwarden/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmenu_bitwarden/__main__.py,sha256=aUxZamkc5vQjPALnBxyUKWDdUIlKqhezweciSnrnVrk,43
+dmenu_bitwarden/cli.py,sha256=y6EaEdov7hZCUQUjvBImfa5DuPmBfs6I9ydXjU3JaSw,771
+dmenu_bitwarden/dmenu_bitwarden.py,sha256=UAd_zqdQH1Z0m3gfJG6UoyqtGcSClUK9wLQ_LNV_Xks,4660
+dmenu_bitwarden/setup.py,sha256=eNP_ArNDQtL1ghaYoqAR32hpi1bsNnX70ob7TVa5TmM,940
+dmenu_bitwarden/utils.py,sha256=mhEk78O_oDFjvqRGdYGW8TORu1GTB-bU6nrHYgNheIs,317
+dmenu_bitwarden/vault.py,sha256=G8TEfAil-EICF-7KSYei0pw87aQa4yj97fcJ8ozxgl4,1383
+dmenu_bitwarden-1.0.2.dist-info/LICENSE,sha256=QZdWHZ39QymoluX36YhH4V1K1PekgCRsstOp5jvHamE,35087
+dmenu_bitwarden-1.0.2.dist-info/METADATA,sha256=DqxlmwZcRT4IGU5Ez6tYxfx2r0Wsc73VVySBDmGf8QI,1850
+dmenu_bitwarden-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dmenu_bitwarden-1.0.2.dist-info/top_level.txt,sha256=x8ouXYVPZMG-ZQMn_EpMtut519we_HjVW6jzlD5GxEo,16
+dmenu_bitwarden-1.0.2.dist-info/RECORD,,
