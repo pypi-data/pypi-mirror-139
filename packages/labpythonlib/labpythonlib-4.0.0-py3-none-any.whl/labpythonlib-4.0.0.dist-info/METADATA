@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: labpythonlib
+Version: 4.0.0
+Summary: Library with useful functions for robotics labs.
+Home-page: UNKNOWN
+Author: Jhon Charaja
+Author-email: jhon.charaja@usp.br
+License: MIT
+Platform: UNKNOWN
+
+This library have functions to generate tree differents trajectories, robot dinamyc and kinematic is computed using Pinocchio library.
+
+
