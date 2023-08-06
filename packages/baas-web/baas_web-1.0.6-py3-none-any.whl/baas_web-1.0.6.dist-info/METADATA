@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: baas-web
+Version: 1.0.6
+Summary: baas web project
+Home-page: UNKNOWN
+Author: perilong
+Author-email: yeqianlong@mrray.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: seleniumwebui (>=1.0.5)
+
+UNKNOWN
+
+
