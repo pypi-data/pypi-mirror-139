@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: lazerpay-python-sdk
+Version: 0.1
+Summary: API Wrapper for LazerPay
+Home-page: https://github.com/johnkayode/lazerpay-python-sdk
+Author: John Shodipo
+Author-email: newtonjohn043@gmail.com
+License: MIT
+Download-URL: https://github.com/Johnkayode/lazerpay-python-sdk/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: lazerpay,python,crypto
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
