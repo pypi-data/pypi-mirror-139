@@ -1,0 +1,10 @@
+CDEF/CDEF_main.py,sha256=W0Y4lY6SBmX3HOzsBs-8KMFi_r1WAUUZu5IEgQd4x4M,5590
+CDEF/__init__.py,sha256=lkI-S-xQ6V4z98GKDrvxH_cOCqkU66t6TABjCrmLxXQ,48
+CDEF/cloud.py,sha256=OMli1WneZFyBBgHM7WVH1L4CVyw8W7YCN-_SeHT8E-A,15253
+CDEF/debyer.cp36-win_amd64.pyd,sha256=CWB2yO_sz4q71N3iLtrMGNUnot1kQ5MFokDAOPG3KLQ,78336
+CDEF/sobol_seq.py,sha256=2JdOQFpSZag2Z7VkCHxsy_E6sU6xrqK7-vl3bm-XRSk,15413
+CDEF-1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+CDEF-1.0.dist-info/METADATA,sha256=1-GScRMUfjJoHH-SOIRvQQZWgpb3omvkNtlrnmjCjCE,3667
+CDEF-1.0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+CDEF-1.0.dist-info/top_level.txt,sha256=KmArKV3ofMGmUtX_yLlke-1Exohn-L7uBO3X6wvDqQA,5
+CDEF-1.0.dist-info/RECORD,,
