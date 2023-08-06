@@ -1,0 +1,14 @@
+libcst
+typer
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[black]
+black
+
+[ipython]
+ipython
+
+[pygments]
+Pygments
