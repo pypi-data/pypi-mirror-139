@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pyliphemus
+Version: 0.0.2
+Summary: Simple (at now) BIGSMM api wrapper
+Home-page: https://github.com/baltazarx/pyliphemus'
+Author: baltazarx
+Author-email: qwasar9@protonmail.com
+License: MIT
+Download-URL: https://github.com/baltazarx/pyliphemus
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
