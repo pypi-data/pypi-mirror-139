@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: chanjo2
+Version: 0.1.0
+Summary: Next generation coverage analysis
+Author: moonso
+Author-email: mans.magnusson@scilifelab.se
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.68.1,<0.69.0)
+Requires-Dist: pyd4 (>=0.1.13,<0.2.0)
+Requires-Dist: sqlmodel (>=0.0.4,<0.0.5)
+Requires-Dist: uvicorn (>=0.15.0,<0.16.0)
