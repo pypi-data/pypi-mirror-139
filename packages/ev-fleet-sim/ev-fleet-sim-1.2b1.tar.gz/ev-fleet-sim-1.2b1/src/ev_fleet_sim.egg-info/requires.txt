@@ -1,0 +1,17 @@
+tqdm
+matplotlib
+pandas
+hdbscan
+numpy
+scipy
+scikit-learn
+folium
+haversine
+rtree
+memory_profiler
+PyQt5
+mpl_axes_aligner
+statsmodels
+pdbpp
+area
+build
