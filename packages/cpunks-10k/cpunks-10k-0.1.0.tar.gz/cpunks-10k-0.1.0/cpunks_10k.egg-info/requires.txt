@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+tensorflow
+jupyter
+
+[dev]
+flake8

@@ -1,0 +1,32 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+bin/cpunk
+cpunks/__init__.py
+cpunks/cli.py
+cpunks/cpunks10k.py
+cpunks/cutils.py
+cpunks/nb.py
+cpunks/data/_colors_count.pickle
+cpunks/data/_x_test_flat.pickle
+cpunks/data/_x_train_flat.pickle
+cpunks/data/punks.json
+cpunks/data/punks.pkl
+cpunks/models/AE.py
+cpunks/models/__init__.py
+cpunks/models/base.py
+cpunks/models/callbacks.py
+cpunks/models/cgan.py
+cpunks/tutorial/AR Punks.ipynb
+cpunks/tutorial/Color Punx.ipynb
+cpunks/tutorial/FadetoPunk.ipynb
+cpunks/tutorial/Mean Punks.ipynb
+cpunks/tutorial/Simple Neural Net Classifier.ipynb
+cpunks/tutorial/VAR Punks.ipynb
+cpunks/tutorial/colorpunx.ipynb
+cpunks_10k.egg-info/PKG-INFO
+cpunks_10k.egg-info/SOURCES.txt
+cpunks_10k.egg-info/dependency_links.txt
+cpunks_10k.egg-info/requires.txt
+cpunks_10k.egg-info/top_level.txt
