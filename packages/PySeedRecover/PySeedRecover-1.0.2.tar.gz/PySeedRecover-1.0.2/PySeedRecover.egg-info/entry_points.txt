@@ -1,0 +1,2 @@
+[console_scripts]
+seedrecover = seedrecover.cli:main
