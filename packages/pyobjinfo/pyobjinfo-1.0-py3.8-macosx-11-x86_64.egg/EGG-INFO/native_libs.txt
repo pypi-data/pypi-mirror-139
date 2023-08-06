@@ -1,0 +1,1 @@
+pyobjinfo.cpython-38-darwin.so

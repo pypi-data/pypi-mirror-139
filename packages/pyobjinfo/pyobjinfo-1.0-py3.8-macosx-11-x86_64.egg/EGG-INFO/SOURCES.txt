@@ -1,0 +1,8 @@
+LICENCE
+README.md
+obj_info.c
+setup.py
+pyobjinfo.egg-info/PKG-INFO
+pyobjinfo.egg-info/SOURCES.txt
+pyobjinfo.egg-info/dependency_links.txt
+pyobjinfo.egg-info/top_level.txt
