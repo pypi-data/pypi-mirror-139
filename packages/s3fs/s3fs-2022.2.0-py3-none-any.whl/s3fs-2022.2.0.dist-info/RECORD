@@ -1,0 +1,12 @@
+s3fs/__init__.py,sha256=_6_Vs_vblhJSJw-62JVIBIM8kTKLhuwPFAIvt3hanls,160
+s3fs/_version.py,sha256=tXaMzWO5F5hILlzDtiw0Dv6FW95qvTi2FQVLKe2JSwI,501
+s3fs/core.py,sha256=JWWFvdbz-4dcfVYvfL-gXa5Kq2uK7Gi9WkNmKK-Ze9Y,74351
+s3fs/errors.py,sha256=y4lpQHKdnuO4_tmiob_BQc_FcyrDKrA7GQZLRz7VDiY,7712
+s3fs/mapping.py,sha256=FoqEdMne7LXUL4HgPN4j6WsMsrwxpb53GynDhXs9VRI,237
+s3fs/utils.py,sha256=fakP978HHzqH3-Alq6ugr3ijAF1X64t5f-Qi7Zkb960,5026
+s3fs-2022.2.0.dist-info/LICENSE.txt,sha256=3DWZ-ma8G8_6I2g4vi-04V-EzkgBJE7sk9kOUVz8WNE,1505
+s3fs-2022.2.0.dist-info/METADATA,sha256=lvm1AOT8vXKG-eQ6QXyuo_aLubPDgBFBAi0AZPLajfo,1513
+s3fs-2022.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+s3fs-2022.2.0.dist-info/pbr.json,sha256=0sInMIvBRipDYl53OSOltXEZ_22FlQwyqy3jrGJehmk,46
+s3fs-2022.2.0.dist-info/top_level.txt,sha256=Lf6EI3TdjlPu7TN-92IIY6c-GdrHnkrKGb1n0iwKooI,5
+s3fs-2022.2.0.dist-info/RECORD,,
