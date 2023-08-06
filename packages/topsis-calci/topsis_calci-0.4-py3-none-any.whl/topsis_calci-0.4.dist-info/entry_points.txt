@@ -1,0 +1,3 @@
+[console_scripts]
+topsis=topsis_calci.cli:cli
+
