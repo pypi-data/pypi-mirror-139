@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dssp-wsl
+Version: 0.1
+Summary: for windows programs (such as BioPython) to call dssp program.
+Home-page: https://github.com/thautwarm/dssp-wsl
+Author: thautwarm
+Author-email: twshere@outlook.com
+License: mit
+Keywords: dssp,bioinfomatics
+Platform: any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## dssp-wsl
+
