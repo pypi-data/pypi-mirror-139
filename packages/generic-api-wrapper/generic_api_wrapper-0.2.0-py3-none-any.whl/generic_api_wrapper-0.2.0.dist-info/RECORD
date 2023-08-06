@@ -1,0 +1,8 @@
+generic_api_wrapper/__init__.py,sha256=goEfwq30fCQBmtrcCbgHjYB3Ps2dgHlS341r8eKDzWs,239
+generic_api_wrapper/aws_iam_auth.py,sha256=jbPj_k60ULNnVwhAyQ1iTLeMYI80pyfR4YaTDCLBNmE,553
+generic_api_wrapper/generic_api_wrapper.py,sha256=OQRLYtvSYFQ1VNIqxB1rEGWhbdc-iIAHcp0b6FKlddM,3292
+generic_api_wrapper-0.2.0.dist-info/LICENSE,sha256=w-00m-LFaL5ymoqm9vVpwBr5fH1P47U7b4gykxACtyc,1077
+generic_api_wrapper-0.2.0.dist-info/METADATA,sha256=EXr2J6MyAnBblBT2XTixCkhcBXR1Nl3XGzz98pq6Qk0,2764
+generic_api_wrapper-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+generic_api_wrapper-0.2.0.dist-info/top_level.txt,sha256=9kp1LbNOPTnjorWBkDVZJXG1D_nvXQglnIaBVaZoT9o,20
+generic_api_wrapper-0.2.0.dist-info/RECORD,,
