@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+Boosting/Logistic.py
+Boosting/__init__.py
+Boosting_Logistic_model.egg-info/PKG-INFO
+Boosting_Logistic_model.egg-info/SOURCES.txt
+Boosting_Logistic_model.egg-info/dependency_links.txt
+Boosting_Logistic_model.egg-info/top_level.txt
