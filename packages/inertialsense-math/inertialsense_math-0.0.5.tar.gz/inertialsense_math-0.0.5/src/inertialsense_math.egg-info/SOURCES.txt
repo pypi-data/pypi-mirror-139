@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/inertialsense_math/__init__.py
+src/inertialsense_math/pose.py
+src/inertialsense_math.egg-info/PKG-INFO
+src/inertialsense_math.egg-info/SOURCES.txt
+src/inertialsense_math.egg-info/dependency_links.txt
+src/inertialsense_math.egg-info/top_level.txt
