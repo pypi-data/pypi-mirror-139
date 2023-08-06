@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jinja-layout
+Version: 0.3
+Summary: Extended layout system for Jinja2
+Home-page: http://github.com/frascoweb/jinja-layout
+Author: Maxime Bouroumeau-Fuseau
+Author-email: maxime.bouroumeau@gmail.com
+License: MIT
+Platform: any
+License-File: LICENSE
+
+UNKNOWN
+
