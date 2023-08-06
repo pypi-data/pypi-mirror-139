@@ -1,0 +1,6 @@
+[console_scripts]
+selector=pytest_diff_selector.main:run
+
+[pytest11]
+pytest-diff-selector=pytest_diff_selector.plugin
+

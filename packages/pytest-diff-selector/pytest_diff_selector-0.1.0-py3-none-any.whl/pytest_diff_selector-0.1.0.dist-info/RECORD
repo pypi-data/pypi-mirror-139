@@ -1,0 +1,8 @@
+pytest_diff_selector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_diff_selector/main.py,sha256=QT_N1rBpooFq5kEAG-07CgW1cBYpvl4INSuG27MrVFo,6908
+pytest_diff_selector/plugin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_diff_selector-0.1.0.dist-info/entry_points.txt,sha256=Ujgm2CVQNoSisAhCc_4raTSe87QjiUofx8G3YFzHm4Q,119
+pytest_diff_selector-0.1.0.dist-info/LICENSE,sha256=wbxc8K_HSinkp4doxW-vJb4vQ06XvH2jfMn-70ihR10,1072
+pytest_diff_selector-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pytest_diff_selector-0.1.0.dist-info/METADATA,sha256=LRXm7LUKijBLQ2TxDteZvR9AlESsG6d7rbIfUYhWAt0,900
+pytest_diff_selector-0.1.0.dist-info/RECORD,,
