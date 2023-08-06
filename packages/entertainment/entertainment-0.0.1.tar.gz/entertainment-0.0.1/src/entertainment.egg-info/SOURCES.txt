@@ -1,0 +1,10 @@
+LICENSE
+README
+pyproject.toml
+setup.cfg
+src/entertainment/__init__.py
+src/entertainment/example.py
+src/entertainment.egg-info/PKG-INFO
+src/entertainment.egg-info/SOURCES.txt
+src/entertainment.egg-info/dependency_links.txt
+src/entertainment.egg-info/top_level.txt
