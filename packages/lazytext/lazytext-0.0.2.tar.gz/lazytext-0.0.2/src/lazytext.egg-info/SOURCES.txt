@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+requirements/docs.txt
+requirements/prod.txt
+src/lazytext/__init__.py
+src/lazytext/_repo_version.py
+src/lazytext/cli.py
+src/lazytext/create_table.py
+src/lazytext/supervised.py
+src/lazytext.egg-info/PKG-INFO
+src/lazytext.egg-info/SOURCES.txt
+src/lazytext.egg-info/dependency_links.txt
+src/lazytext.egg-info/entry_points.txt
+src/lazytext.egg-info/requires.txt
+src/lazytext.egg-info/top_level.txt
