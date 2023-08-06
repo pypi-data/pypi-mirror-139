@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tq-zip-file-reader
+Version: 1.0
+Summary: TQ module.
+Home-page: https://github.com/farooq-teqniqly/tq-zip-file-reader
+Author: Teqniqly
+Author-email: farooq@teqniqly.com
+License: MIT
+Project-URL: GitHub, https://github.com/farooq-teqniqly/tq-zip-file-reader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tq-zip-file-reader
+A library to make reading zip files easier.
+
+
