@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pydaisi.egg-info/PKG-INFO
+pydaisi.egg-info/SOURCES.txt
+pydaisi.egg-info/dependency_links.txt
+pydaisi.egg-info/requires.txt
+pydaisi.egg-info/top_level.txt
