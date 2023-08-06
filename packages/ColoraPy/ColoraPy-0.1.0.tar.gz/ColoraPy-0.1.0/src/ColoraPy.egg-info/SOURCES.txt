@@ -1,0 +1,16 @@
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/ColoraPy/ColoraPy.py
+src/ColoraPy/__init__.py
+src/ColoraPy/__main__.py
+src/ColoraPy/cli.py
+src/ColoraPy/py.typed
+src/ColoraPy.egg-info/PKG-INFO
+src/ColoraPy.egg-info/SOURCES.txt
+src/ColoraPy.egg-info/dependency_links.txt
+src/ColoraPy.egg-info/not-zip-safe
+src/ColoraPy.egg-info/top_level.txt
