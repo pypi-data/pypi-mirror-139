@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "knoepfe"
+version = "0.1.0"
+description = "Connect and control Elgato Stream Decks"
+authors = ["Simon Hayessen <simon@lnqs.io>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/lnqs/knoepfe"
+repository = "https://github.com/lnqs/knoepfe"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+schema = "^0.7.5"
+appdirs = "^1.4.4"
+docopt = "^0.6.2"
+pytest-cov = "^3.0.0"
+streamdeck = "^0.9.0"
+Pillow = "^9.0.1"
+pulsectl-asyncio = "^0.2.0"
+obs-websocket-py = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.931"
+flake8 = "^4.0.1"
+flake8-bugbear = "^22.1.11"
+black = "^22.1.0"
+isort = "^5.10.1"
+pre-commit = "^2.17.0"
+pytest = "^7.0.1"
+types-docopt = "^0.6.5"
+types-appdirs = "^1.4.2"
+types-Pillow = "^9.0.6"
+pytest-asyncio = "^0.18.1"
+
+[tool.poetry.scripts]
+knoepfe = 'knoepfe.__main__:main'
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+filterwarnings = "ignore::DeprecationWarning:pulsectl_asyncio"
+addopts = "--cov=knoepfe --cov-report=term-missing --asyncio-mode=auto"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
