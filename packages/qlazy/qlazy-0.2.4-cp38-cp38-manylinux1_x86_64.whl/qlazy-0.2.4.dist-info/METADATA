@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: qlazy
+Version: 0.2.4
+Summary: Quantum Computing Simulator
+Home-page: https://github.com/samn33/qlazy
+Author: Sam.N
+Author-email: saminriver33@gmail.com
+License: Apache Software License
+Keywords: quantum,simulator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: numpy (>=1.22.0)
+Requires-Dist: pyzx (>=0.7.0)
+
+UNKNOWN
+
+
