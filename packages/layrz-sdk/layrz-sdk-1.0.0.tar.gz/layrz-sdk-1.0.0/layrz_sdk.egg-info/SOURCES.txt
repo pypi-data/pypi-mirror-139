@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+layrz_sdk.egg-info/PKG-INFO
+layrz_sdk.egg-info/SOURCES.txt
+layrz_sdk.egg-info/dependency_links.txt
+layrz_sdk.egg-info/requires.txt
+layrz_sdk.egg-info/top_level.txt
+lcl/__init__.py
+lcl/core/__init__.py
+lcl/core/language.py
