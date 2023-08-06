@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: evaluate_classification
+Version: 0.0.1
+Summary: finding Factors and basic sum
+Home-page: UNKNOWN
+Author: jupiter
+Author-email: npsjupiter@gmail.com
+License: MIT
+Keywords: HCF/Factor
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This package would be usefull for basic calculations and fing HCF
+
+
+
+

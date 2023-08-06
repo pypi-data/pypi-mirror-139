@@ -1,0 +1,9 @@
+ChangeLog.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+evaluate_classification.egg-info/PKG-INFO
+evaluate_classification.egg-info/SOURCES.txt
+evaluate_classification.egg-info/dependency_links.txt
+evaluate_classification.egg-info/top_level.txt
