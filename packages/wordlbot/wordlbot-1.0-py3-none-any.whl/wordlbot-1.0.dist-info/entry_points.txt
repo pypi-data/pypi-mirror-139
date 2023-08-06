@@ -1,0 +1,3 @@
+[console_scripts]
+wordlbot = wordlbot.__main__:main
+
