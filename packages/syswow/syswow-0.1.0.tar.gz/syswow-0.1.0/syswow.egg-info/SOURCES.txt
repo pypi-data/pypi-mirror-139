@@ -1,0 +1,8 @@
+LICENCE
+__init__.py
+injector.py
+setup.py
+syswow.egg-info/PKG-INFO
+syswow.egg-info/SOURCES.txt
+syswow.egg-info/dependency_links.txt
+syswow.egg-info/top_level.txt
