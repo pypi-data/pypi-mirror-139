@@ -1,0 +1,9 @@
+numpy
+pandas
+fiona
+shapely
+geopandas
+plotly
+kaleido
+setuptools>=42
+wheel
