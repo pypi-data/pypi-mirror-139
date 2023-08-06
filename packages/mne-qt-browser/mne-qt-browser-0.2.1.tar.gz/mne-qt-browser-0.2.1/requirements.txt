@@ -1,0 +1,8 @@
+# Basic dependencies for browser
+numpy
+scipy
+matplotlib
+mne
+qtpy
+PyQt5
+pyqtgraph
