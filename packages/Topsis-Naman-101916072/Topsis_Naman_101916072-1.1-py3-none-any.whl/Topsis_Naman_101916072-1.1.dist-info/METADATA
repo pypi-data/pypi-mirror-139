@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Topsis-Naman-101916072
+Version: 1.1
+Summary: Topsis
+Home-page: UNKNOWN
+Author: NamanMalik
+Author-email: namanmalikk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Topsis-Naman-101916072
+
+## How to install this package:
+
+```
+>> pip install Topsis-Naman-101916072
+```
+
+### In Command Prompt
+
+```
+>> 101916072.csv "1,1,1,1" "+,+,-,+" 101916072-output.csv
+```
+
+
