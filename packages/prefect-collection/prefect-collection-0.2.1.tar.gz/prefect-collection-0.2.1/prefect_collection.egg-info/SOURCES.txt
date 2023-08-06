@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_collection/__init__.py
+prefect_collection/_version.py
+prefect_collection/flows.py
+prefect_collection/tasks.py
+prefect_collection.egg-info/PKG-INFO
+prefect_collection.egg-info/SOURCES.txt
+prefect_collection.egg-info/dependency_links.txt
+prefect_collection.egg-info/requires.txt
+prefect_collection.egg-info/top_level.txt
