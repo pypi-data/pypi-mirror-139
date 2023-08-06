@@ -1,0 +1,12 @@
+scikit-learn
+pandas
+
+[full]
+tensorflow>=2.8.0
+seaborn
+
+[sns]
+seaborn
+
+[tf]
+tensorflow>=2.8.0
