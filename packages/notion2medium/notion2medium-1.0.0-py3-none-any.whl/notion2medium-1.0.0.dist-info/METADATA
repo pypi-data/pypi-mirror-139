@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: notion2medium
+Version: 1.0.0
+Summary: a Simple command that publishes Notion Page to Medium.
+Author: echo724
+Author-email: eunchan1001@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cleo (==1.0.0a4)
+Requires-Dist: notion-client (>=0.9.0,<0.10.0)
+Requires-Dist: notion2md (>=2.7.1,<3.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)

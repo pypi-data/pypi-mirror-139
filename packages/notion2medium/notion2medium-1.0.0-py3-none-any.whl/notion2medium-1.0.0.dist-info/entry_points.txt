@@ -1,0 +1,3 @@
+[console_scripts]
+notion2medium=notion2medium.console.application:main
+
