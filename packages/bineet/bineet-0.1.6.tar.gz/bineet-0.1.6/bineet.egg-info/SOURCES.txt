@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+bineet/FileOperations.py
+bineet/TCGA.py
+bineet/__init__.py
+bineet.egg-info/PKG-INFO
+bineet.egg-info/SOURCES.txt
+bineet.egg-info/dependency_links.txt
+bineet.egg-info/requires.txt
+bineet.egg-info/top_level.txt
