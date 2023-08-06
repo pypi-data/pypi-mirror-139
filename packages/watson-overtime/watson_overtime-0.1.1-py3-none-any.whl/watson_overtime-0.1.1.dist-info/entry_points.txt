@@ -1,0 +1,3 @@
+[console_scripts]
+wo=watson_overtime.main:main
+
