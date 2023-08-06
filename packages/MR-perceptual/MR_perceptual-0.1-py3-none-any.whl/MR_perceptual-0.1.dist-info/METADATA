@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: MR-perceptual
+Version: 0.1
+Summary: Implementation of the MR-perceptual loss
+Home-page: https://github.com/ENSTA-U2IS/MR_perceptual
+Author: Remi Kazmierczak, Gianni Franchi
+Author-email: remi.kazmierczak@ensta-paris.fr
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ENSTA-U2IS/MR_perceptual/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Pip package of the MR-perceptual loss.
+
+More information on the Github page : (https://github.com/ENSTA-U2IS/MR_perceptual)
+
