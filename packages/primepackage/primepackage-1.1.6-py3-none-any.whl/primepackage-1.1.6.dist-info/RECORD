@@ -1,0 +1,11 @@
+src/__init__.py,sha256=isk5ycAbwa5lHdNghbolwNrjVEXvPOTmfOd7SMCjIJ4,4506
+src/isprime.py,sha256=2_fdgN9HYUYB1BMhXug_k_vM6ReI0pjXIt9yqAThPxg,1573
+src/isriemann.py,sha256=mBqnOmzQkV09tVjqVa3JEdmjdcJFnNt5NZSbW4FtaYQ,776
+src/primelist.py,sha256=8CmjMaMVBSkF67SAlYDncjdKz-7IMapK-RDkM_Kahx4,1572
+src/randomprime.py,sha256=GBtrxDg7jwqmEJ02pQM0FVfU-cWYWxKMjs9O3gU83fk,890
+src/riemannlist.py,sha256=exIwgvfYQnJDQfmZfQNLcSZmu6owQGO1P4Dw8JheKX0,630
+primepackage-1.1.6.dist-info/LICENSE,sha256=BJT4s8x9IhiMnyxcIB8QT-ZZew5tvyItZebvp3qczYU,1079
+primepackage-1.1.6.dist-info/METADATA,sha256=GQ1VO2A1KegTPGFMRC3peuKrn7AMjvV4DpkbAcoqX5U,1474
+primepackage-1.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+primepackage-1.1.6.dist-info/top_level.txt,sha256=iIP02yGGi7rEFFBOXrUUIo-8U6bGZoCPl2ARIRgSP2U,56
+primepackage-1.1.6.dist-info/RECORD,,

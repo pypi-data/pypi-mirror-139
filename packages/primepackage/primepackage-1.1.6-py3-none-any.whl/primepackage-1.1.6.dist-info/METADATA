@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: primepackage
+Version: 1.1.6
+Summary: A prime package for calculating prime numbers and non trivial riemann zeros
+Home-page: https://github.com/jamellknows/primepackage
+Author: jamellknows
+Author-email: jamellsamuels@googlemail.com
+License: MIT
+Keywords: prime,riemann,maths,calculation,numerical
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#PrimePackage v1.1.4
+
+#to install pip install primepackage 
+
+#import primepackage
+
+#This package defines primes as solutions to the riemann hypothesis. therefore all prime products are also treated as primes i.e 3*5 = 15 15v is a prime product and therefore treated as prime
+
+#FUNCTIONS
+randomprime()
+primelist()
+riemannlist()
+isprime()
+isriemann()
+
+#to calculate a random prime = primepackage.randomprime(seed) seed can be left empty but will return a value less than 589.  
+#if a seed is passed into randomprime() it is possible to calculate larger prime values. 
+
+#primelist() returns a list of prime numbers package.primelist(start, end) returns a list of primes from the start and up to the end 
+
+#riemannlist() works as primelist does
+
+#isprime() and isriemann() return a boolean value for if the number is a prime/prime product or Riemann non trivial zero (rounded to the nearest integer)
+
