@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./OpenMediaBot/__init__.py
+./OpenMediaBot/bot.py
+./OpenMediaBot/twitter_bot.py
+OpenMediaBot.egg-info/PKG-INFO
+OpenMediaBot.egg-info/SOURCES.txt
+OpenMediaBot.egg-info/dependency_links.txt
+OpenMediaBot.egg-info/requires.txt
+OpenMediaBot.egg-info/top_level.txt
