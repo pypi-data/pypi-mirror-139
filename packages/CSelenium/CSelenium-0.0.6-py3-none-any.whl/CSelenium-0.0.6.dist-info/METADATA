@@ -1,0 +1,200 @@
+Metadata-Version: 2.1
+Name: CSelenium
+Version: 0.0.6
+Summary: Simplify native Selenium operations to locate elements in a shorter manner
+Home-page: https://github.com/LX-sys/CSelenium
+Author: LX
+Author-email: lx984608061@163.com
+Maintainer: LX
+Maintainer-email: lx984608061@163.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: selenium
+
+[TOC]
+### CSelenium
+作者：LX
+
+开始时间: 2021.12.15
+
+更新时间: 2022.1.3
+
+简化原生selenium操作,以更简短的方式对元素定位
+使代码看起来更加清晰.
+
+特点：
+
+    代码简洁,
+    代码具有及联操作
+
+author: LX
+
+Start Time: 2021.12.15
+
+UpdateTime: 2021.12.20
+
+Simplify native Selenium operations to locate elements in a shorter manner
+Make the code look cleaner.
+
+characteristics:
+
+    Clean code,
+    Code has and associated operations
+```python
+from src.Cselenium.CSelenium import ChromeSelenium,CSeleniumThread
+
+def test1():
+    cs = ChromeSelenium()
+    cs.frame()
+    # cs.get("http://www.baidu.com")
+    cs.wait(2)
+    cs.quit()
+# test1()
+
+def test2():
+    cs = ChromeSelenium()
+    cs.get("http://www.baidu.com")
+    cs.id("kw").send_keys("hello")
+    cs.wait(1)
+    cs.quit()
+
+
+def test3():
+    cs = ChromeSelenium()
+    cs.get("http://www.baidu.com")
+    cs.id("kw").send_keys("hello world")
+    cs.id("su").click()
+    cs.wait(2)
+    cs.quit()
+
+# test3()
+
+def test4():
+    # 显示信息,无界面
+    # info_tracking=True,is_interface=True
+    cs = ChromeSelenium(info_tracking=True)
+    cs.get("http://www.baidu.m")
+    cs.wait(3)
+    cs.id("kw").send_keys("abc")
+    cs.id("su").click()
+    cs.alert()
+    cs.wait(4)
+    cs.quit()
+
+def test5():
+    cs = ChromeSelenium()
+    cs.get("http://127.0.0.1:8080/shixunyun")
+    cs.implicitly_wait(3)
+    cs.id("username").send_keys("lxadmin").xpath('//*[@id="app"]/div/div/form/div[3]/div/div/input').send_keys("admin")
+    cs.id("loginBtn")
+    cs.wait(5)
+    cs.quit()
+
+
+def test6():
+    # 显示错误信息,并且忽略错误
+    cs = ChromeSelenium(info_tracking=True,ignore_err=False)
+    cs.get("http://www.baidu.com")
+    cs.id("kw").send_keys([1,2,3])
+    cs.wait(1)
+    cs.quit()
+
+
+def test7():
+    # 显示错误信息,并且忽略错误
+    cs = ChromeSelenium(info_tracking=True,ignore_err=False)
+    cs.get("http://www.baidu.com")
+    # cs.clear()
+    cs.id("kw").send_keys("hello").click()
+    cs.wait(1)
+    cs.quit()
+
+# test7()
+# ----------------------------------CSeleniumThread测试----------------
+def test8():
+    # "firefox",chrome
+    s = CSeleniumThread(["chrome", "firefox"], info_tracking=True)
+    s.get("http://www.baidu.com")
+    # s.id("kw").send_keys("hello")
+    s.id("kw").send_keys("hello").wait(2).id("su").click()
+    s.wait(3)
+    s.quit()
+    s.run()
+
+```
+0.0.5版本 做了一次大调整
+```python
+改动时间 2022.1.3
+改动一:wait_time原来int 修改为 float
+改动二:ChromeSelenium类中初始化新增executable_path参数,ignore_err参数
+      executable_path:浏览器驱动路径
+      ignore_err:是布尔值,当值为False时,可以忽略执行方法产生当报错(大部分),一般配合
+      info_tracking参数一起使用,
+改动三:新增newElement()方法,这个方法可以让你去定位另一个元素
+      修改原setEle()方法名为setElement(),
+      新增currentTime()一个参数connector,时间的连接符号,默认-,
+      新增getBrowserName()方法,返回浏览器名称,
+      新增class_()方法,获取元素值class属性值,
+      新增name_()方法,获取元素值name属性值,
+      删除autoValue()方法,
+      修改原resize()方法名为resizeWin(),
+      修改原getEle()方法名为element()
+      新增elements()方法,
+      修改原eleIs_Displayed()方法名为isElementDisplayed(),
+      修改原eleAttr()方法名g为etElementAttr(),
+      修改原absElePos()方法名为elementPos(),
+      修改原abaX()方法名为elementX(),
+      修改原absY()方法名为elementY(),
+      修改原eleSize()方法名为elementSize(),
+      修改原eleWidth()方法名为elementWidth(),
+      修改原eleHeight()方法名为elementHeight(),
+      修改原moreWins()方法名为moreWin(),
+      删除simulationKeyDown()方法,
+      删除simulationKeyUp()方法,
+改动四:新增CSeleniumThread类
+        一种写法对映多个浏览器执行
+        为了保证这个类正常运行,请将 浏览器驱动 放在与Python解释器同级目录下
+        One script executes against multiple browsers
+        To keep this class running, place the browser driver in the same directory as the Python interpreter
+```
+```python
+# CSeleniumThread 类例子:
+from src.Cselenium.CSelenium import ChromeSelenium,CSeleniumThread
+'''
+    请确保chrome,firefox的驱动能正常使用
+    Ensure that the Chrome and Firefox drivers work properly
+'''
+s = CSeleniumThread(["chrome", "firefox"], info_tracking=True)
+s.get("http://www.baidu.com")
+s.id("kw").send_keys("hello").wait(2).id("su").click()
+s.wait(2)
+s.quit()
+s.run()
+```
+```python
+改动时间 2022.1.7
+版本: 0.0.6
+新增方法className()
+新增方法classNames()
+修复css()BUG
+```
+```python
+改动时间 2022.2.15
+版本: 0.0.6
+新增方法 location()
+增加日志参数:log,保持日志需要使用pintStep()方法
+```
+
