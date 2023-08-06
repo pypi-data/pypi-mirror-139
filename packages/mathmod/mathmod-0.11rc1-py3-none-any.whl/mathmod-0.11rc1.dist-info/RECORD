@@ -1,0 +1,10 @@
+mathmod/__init__.py,sha256=2fkss0xz5Zmb_H1T8XxUP9hOPA3F-oAiPiT2-oZeiHI,8764
+mathmod/area.py,sha256=tGhX0SDVRVZMbeAlSUlknVWQH3BkuBjBYRzbVYsAkDE,2369
+mathmod/fibonacci.py,sha256=oFUkh8cESHkqQxEt20wusRksH6zeWJBo27Nl7EEGbTA,2947
+mathmod/temperature.py,sha256=LoZckPt7wiN47sZ6n_dn0VRSacVZ3AHeZWKuh3W9cMI,1567
+mathmod/volume.py,sha256=q_9BT2vSQ9oRP6oB8Rs_KpHQyF3Qirj_oDAwTmEriFc,2718
+mathmod-0.11rc1.dist-info/LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mathmod-0.11rc1.dist-info/METADATA,sha256=Yovpy-6dZwsa0Zlui2m5Lk7ABTgmUzvWf-Don1O02As,1170
+mathmod-0.11rc1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mathmod-0.11rc1.dist-info/top_level.txt,sha256=1vXbXJOBjSVeCytOk7EUGeIPCqvuIa62c4ywR8F4D48,8
+mathmod-0.11rc1.dist-info/RECORD,,
