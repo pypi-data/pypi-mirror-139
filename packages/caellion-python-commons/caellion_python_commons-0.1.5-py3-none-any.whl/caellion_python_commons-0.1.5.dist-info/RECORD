@@ -1,0 +1,11 @@
+caellion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caellion/pycommons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caellion/pycommons/codeanalysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caellion/pycommons/codeanalysis/reports.py,sha256=PMzMpbPr1jzmen_wMbe9FRegGZPvpJBDQAUHJi0tG7E,2957
+caellion/pycommons/stringutil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caellion/pycommons/stringutil/formatters.py,sha256=5Tr27VhkyFW4lYUGQ5egy6asniTn5v1M6E-LYuQjhHM,4465
+caellion_python_commons-0.1.5.dist-info/LICENSE.txt,sha256=SW9ksVZO1RirwQXJGI69nP_bdK2zTzHHMF5O7r552Oo,10236
+caellion_python_commons-0.1.5.dist-info/METADATA,sha256=6O-GGdu2tqPlFn8xlz_7Y7OWWypJU1fhTxrvFJfuov8,722
+caellion_python_commons-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+caellion_python_commons-0.1.5.dist-info/top_level.txt,sha256=W-KV4LamvVcaaiKh-izVhVi6xHwTUj2EImo_Npozm-0,9
+caellion_python_commons-0.1.5.dist-info/RECORD,,
