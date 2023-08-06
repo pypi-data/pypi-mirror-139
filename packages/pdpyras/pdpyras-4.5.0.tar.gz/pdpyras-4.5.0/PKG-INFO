@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pdpyras
+Version: 4.5.0
+Summary: PagerDuty Python REST API Sessions
+Home-page: https://pagerduty.github.io/pdpyras
+Author: PagerDuty
+Author-email: support@pagerduty.com
+License: MIT
+Download-URL: https://pypi.org/project/pdpyras/
+Description: A basic REST API client for PagerDuty based on Requests' Session class
+Platform: UNKNOWN
+Requires-Python: >=3.5
