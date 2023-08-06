@@ -1,0 +1,10 @@
+taylor/__init__.py,sha256=F4s1Kj3KvpWnorYCWge1QLVQqYCS1tCGOtJ5r6nlroo,24
+taylor/error.py,sha256=zp9078AACq3eQkd3aXu1JtVl_jh2GpnIhPgFqAFrKUQ,554
+taylor/main.py,sha256=KdNCuUVm-visQrcV-XaerTmAiIJI57wzEbIRLYUlvBE,4138
+taylor/rules.py,sha256=VtMtKSEZEE50ZwFrFG_G68bD1SDGuMBWsTKJcMH74DM,2706
+taylor-0.0.0.data/scripts/taylor,sha256=NKJyCC0fONcaYytG9mysca37TZf8wBDISvRNAW-78pQ,9
+taylor-0.0.0.dist-info/LICENSE,sha256=vHAJspHfYC5fsBYMCaeWb34CKPetXWbSIXpGQgAX7-0,1070
+taylor-0.0.0.dist-info/METADATA,sha256=neEJ6ltfsRh-pRMe5Pq_LuqITukELBk80q0Big-pkt8,3841
+taylor-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+taylor-0.0.0.dist-info/top_level.txt,sha256=P5Dmjmz60RcNekIRVU6y9icD0gmS5YRGf96r141uQRs,7
+taylor-0.0.0.dist-info/RECORD,,
