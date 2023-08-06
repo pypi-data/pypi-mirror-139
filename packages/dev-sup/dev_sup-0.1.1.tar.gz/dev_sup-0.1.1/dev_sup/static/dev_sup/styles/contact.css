@@ -1,0 +1,51 @@
+h1 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.big-icon {
+    padding-top: 1.5rem;
+    height: 3rem;
+    width: auto;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content a {
+    font-size: 1.5rem;
+    color: var(--navbar-background) !important;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: var(--navbar-submenu-background) !important;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: var(--navbar-background) !important;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .content a {
+        color: var(--navbar-mainmenu-color) !important;
+        text-decoration: none;
+    }
+
+    .content a:hover {
+        color: var(--) !important;
+    }
+
+    .content p {
+        color: var(--navbar-mainmenu-color) !important;
+        text-decoration: none;
+    }
+}

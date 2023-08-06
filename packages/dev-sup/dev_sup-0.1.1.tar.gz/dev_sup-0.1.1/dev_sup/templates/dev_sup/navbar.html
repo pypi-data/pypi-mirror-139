@@ -1,0 +1,49 @@
+<nav>
+    <div class="logo-box">
+        {% include "dev_sup/logo.html" %}
+    </div>
+
+
+    <div class="burger">
+        <div class="line0"></div>
+        <div class="line1"></div>
+        <div class="line2"></div>
+    </div>
+
+    <div class="main-menu">
+        {% if not nav_elems %}
+        <p>No elements to display</p>
+        {% else %}
+        <ul>
+            {% for element in nav_elems %}
+            {% comment %} {% include "dev_sup/navbar_element_template.html" %} {% endcomment %}
+
+
+            {% if element.link.url != "" %}
+            <li class="navbar-link"><a href="{{element.link.url}}">{{element.displayed_name}}</a></li>
+            {% endif %}
+
+            {% if element.dropdownmenu != "" %}
+            <li>
+                <a><span>{{element.displayed_name}}</span>
+                    <i data-feather="chevron-down"></i>
+                </a>
+                <div class="dropdown_menu">
+                    <ul>
+                        {% for item in element.dropdownmenu.ordered_item_list.all %}
+
+                        {% with element=item %}
+                        {% comment %} <li><a href="{{item.link.url}}">{{item.name}}</a></li> {% endcomment %}
+                        {% include "dev_sup/navbar_element_template.html"%}
+                        {% endwith %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </li>
+            {% endif %}
+
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</nav>

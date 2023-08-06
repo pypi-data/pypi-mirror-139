@@ -1,0 +1,33 @@
+{% extends "dev_sup/base_dev_sup.html" %}
+{% load static %}
+
+{% block title %}
+{{site_name}}
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href=" {% static 'dev_sup/styles/about.css' %}" />
+{% endblock %}
+
+{% block js %}
+{% endblock %}
+
+{% block navbar %}
+{% include "dev_sup/navbar.html"%}
+{% endblock %}
+
+{% block site_content %}
+
+<div class="content">
+    <h1>About</h1>
+    <section>
+        <h2>About us</h2>
+        <p>{{about_us}}</p>
+    </section>
+    <section>
+        <h2>Our mission</h2>
+        <p>{{mission}}</p>
+    </section>
+</div>
+
+{% endblock %}

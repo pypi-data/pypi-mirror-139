@@ -1,0 +1,27 @@
+{% extends "dev_sup/base_dev_sup.html" %}
+{% load static %}
+
+{% block title %}
+Not found
+{% endblock %}
+
+
+{% block css %}
+<link rel="stylesheet" type"text/css" href="{% static 'dev_sup/styles/error.css' %}" />
+{% endblock %}
+
+
+{% block navbar %}
+{% include "dev_sup/navbar.html"%}
+{% endblock navbar %}
+
+{% block site_content %}
+
+<div class="page-container">
+    <h1 class="message">Upss... Something went wrong.<br>Sorry for inconvenience.</h1>
+
+    <h1 class="error-code">404</h1>
+    <h2 class="error-message">Page not found.<br><a href="/">Go back to main page.</a></h2>
+</div>
+
+{% endblock %}

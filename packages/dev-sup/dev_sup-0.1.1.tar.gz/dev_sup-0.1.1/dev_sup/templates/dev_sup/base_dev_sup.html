@@ -1,0 +1,89 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{%block title%}Title{%endblock%}</title>
+  {% block favicon %}
+  {%endblock%}
+  <style>
+    :root {
+      --navbar-background: {{navbar_background}};
+      --navbar-mainmenu-color: {{navbar_mainmenu_color}};
+      --navbar-submenu-background: {{navbar_submenu_background}};
+      --navbar-inner-dropdown-background: {{navbar_inner_dropdown_background}};
+      --link-hover: {{link_hover}};
+      --navbar_inner_dropdown_foreground: {{navbar_inner_dropdown_foreground}};
+      --darkmode-body-background:{{darkmode_body_background}};
+      --darkmode-background: {{darkmode_background}};
+    }
+  </style>
+  <link rel="stylesheet" type"text/css" href="{% static 'dev_sup/styles/navbar.css' %}"/>
+  <link rel="stylesheet" type"text/css" href="{% static 'dev_sup/styles/main.css' %}"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type"text/css">
+  {% block css %}
+  {% endblock %}
+
+  {% if google_tag and site_tracking%}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?{{google_tag}}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', '{{google_tag}}');
+  </script>
+  {% endif %}
+
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+
+  {% block navbar%}
+  {% endblock %}
+
+  <div class=page-wrapper>
+    <div class=main-content-wrapper>
+      {% block site_content %}
+      {% endblock %}
+    </div>
+  </div>
+
+  {% block footer %}
+  <footer>
+    <p>Powered by DevSup</p>
+  </footer>
+  {% endblock footer %}
+
+  <script>
+    //TODO Co tu się dzieje, jak to działa?
+    // Open navigation slide
+    let navSlide = () => {
+      const burger = document.getElementsByClassName('burger')[0];
+      const nav = document.getElementsByClassName('main-menu')[0];
+      // const subMenu = document.querySelector('.sub-menu');
+
+      burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+        // Burger Animation 
+        burger.classList.toggle('toggle');
+        // subMenu.classList.remove('active');
+      });
+    }
+    navSlide()
+    feather.replace()
+  </script>
+  {%block js%}
+  {%endblock%}
+</body>
+
+</html>

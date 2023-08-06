@@ -1,0 +1,124 @@
+{% extends "dev_sup/base_dev_sup.html" %}
+{% load static %}
+
+{%block favicon%}
+{%endblock%}
+
+{% block title %}
+Welcome to Dev-Sup
+{% endblock %}
+
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'dev_sup/styles/index.css' %}" />
+{% endblock %}
+
+
+{% block navbar %}
+{% include "dev_sup/navbar.html"%}
+{% endblock navbar %}
+
+{% block site_content %}
+<div>
+    <section id="firstSection">
+        <h1>Welcome in Django Dev-Sup application.</h1>
+        <h2>
+            If you see this text, that means your installation was successful.
+        </h2>
+    </section>
+    <h2>
+        Simple guide
+    </h2>
+    <section>
+        <h3>How to generate the project</h3>
+        <p>
+            Dev-Sup provides an easy tool to generate simple website which includes Home, About and Contact pages. And
+            it's quite simple:
+            <ol>
+                <li>Run command <code>python3 manage.py generate_project</code></li>
+            </ol>
+            In your Django project tree you should notice new directory <code>dev_sup</code>, in which you should find
+            directory with your template files and <code>dev_views.py</code> file. The first location should contain
+            HTML files with your views. Python file is where you will write your view functions (if you need them).
+
+            Be aware that even if you're not going to need any Django app alongside this one, it's best to create even
+            an empty one.
+        </p>
+    </section>
+    <section>
+        <h3>How to use admin panel?</h3>
+        <p>
+            In <a href="{% url 'admin:index' %}">Django admin panel</a> you should find a few new sections:
+            <ul>
+                <li>Links</li>
+                <li>Dropdown menus</li>
+                <li>Sites</li>
+                <li>Styles</li>
+            </ul>
+            These are models used for site creation and management. <br>
+            Links and dropdown menus are items displayable on navigational bar. <br>
+            Sites are are object representations of sites in this application. <br>
+            Styles are simple color schemas used across this application.
+        </p>
+    </section>
+    <section>
+        <h3>Site creation</h3>
+        <p>
+            Adding new page is quite simple - just add one new object in 'Site' section in <a
+                href="{% url 'admin:index' %}">Django admin panel</a>. If you want to populate your site with custom
+            logic and data from your models, check <code>custom view function</code>. This option will generate custom
+            view function in file <code>dev_sup/dec_views.py</code>. In your view function, you can access URL arguments
+            in the same way, as in 'normal' Django view function - <code>request.GET.get("arg_name")</code>.
+        </p>
+    </section>
+    <section>
+        <h3>Custom index page</h3>
+        <p>
+            If you want to override this main page, just create <code>index.html</code> in <code>generated</code>
+            directory and add view function with name 'index' to <code>dev_views.py</code>.
+            <br>
+            Add <code>{% verbatim %}{% extends "dev_sup/base_dev_sup.html" %}{% endverbatim %}</code> to extend dev_sup
+            base template.
+        </p>
+    </section>
+    <section>
+        <h3>Adding your logo</h3>
+        <p>
+            The Dev_Sup logo on navigation bar is only a placeholder. To use your own logo crete
+            <code>dev_sup/logo.html</code> in <bold>YOUR APPLICATION'S</bold> template folder.
+
+            The whole directory tree should look something like this:<br>
+            <pre>
+                <code style="line-height: 1.5rem;">
+DJANGO_PROJECT
+├── dev_sup
+│   ├── dev_views.py
+│   └── templates
+│       └── generated
+│           └── ...
+├── manage.py
+├── YOUR_APP_NAME
+│   ├── ...
+│   ├── templates
+│   │   └── dev_sup
+│   │       └── logo.html
+│   └── ...
+└── DJANGO_PROJECT
+    ├── settings.py
+    ├── urls.py
+    └── ...
+            </code>
+        </pre>
+        </p>
+        <h4>Another important note!</h4>
+        <p>
+            Your application should be listed before <code>dev_sup</code> in <code>INSTALLED_APPS</code> in your
+            <code>settings.py</code>
+        </p>
+    </section>
+    <h2>
+        Thank you for choosing this application.
+    </h2>
+</div>
+
+{% endblock %}
