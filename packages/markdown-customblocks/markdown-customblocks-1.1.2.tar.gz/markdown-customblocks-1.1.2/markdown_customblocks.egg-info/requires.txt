@@ -1,0 +1,6 @@
+markdown
+yamlns
+beautifulsoup4
+decorator
+pytest
+responses
