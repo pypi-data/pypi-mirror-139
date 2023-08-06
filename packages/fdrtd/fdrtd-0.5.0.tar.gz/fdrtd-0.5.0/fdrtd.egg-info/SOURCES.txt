@@ -1,0 +1,14 @@
+MANIFEST.in
+pyproject.toml
+setup.cfg
+setup.py
+fdrtd.egg-info/PKG-INFO
+fdrtd.egg-info/SOURCES.txt
+fdrtd.egg-info/dependency_links.txt
+fdrtd.egg-info/requires.txt
+fdrtd.egg-info/top_level.txt
+fdrtd/client/__init__.py
+fdrtd/client/api.py
+fdrtd/client/representation.py
+fdrtd/client/interfaces/__init__.py
+fdrtd/client/interfaces/http.py
