@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+kontur/unp1c/__init__.py
+kontur/unp1c/helpers.py
+kontur/unp1c/tools/v8file.py
+kontur/unp1c/tools/v8form.py
+kontur_unp1c.egg-info/PKG-INFO
+kontur_unp1c.egg-info/SOURCES.txt
+kontur_unp1c.egg-info/dependency_links.txt
+kontur_unp1c.egg-info/requires.txt
+kontur_unp1c.egg-info/top_level.txt
