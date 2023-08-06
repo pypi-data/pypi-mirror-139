@@ -1,0 +1,9 @@
+README.md
+setup.py
+synthviz/__init__.py
+synthviz/main.py
+synthviz.egg-info/PKG-INFO
+synthviz.egg-info/SOURCES.txt
+synthviz.egg-info/dependency_links.txt
+synthviz.egg-info/requires.txt
+synthviz.egg-info/top_level.txt
