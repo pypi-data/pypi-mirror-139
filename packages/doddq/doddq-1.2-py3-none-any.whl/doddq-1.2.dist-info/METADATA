@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: doddq
+Version: 1.2
+Summary: A simple library for use with Qiskit. Requires NumPy!
+Home-page: https://github.com/tomdodd4598/doddq
+Author: Tom Dodd
+Author-email: joedodd35@gmail.com
+License: UNKNOWN
+Project-URL: Issues, https://github.com/tomdodd4598/doddq/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+DoddQ
+=====
+
+
+Summary
+-------
+
+A simple library for use with Qiskit. Requires NumPy! Available as the ['doddq'](https://pypi.org/project/doddq/) package (`pip install doddq`).
+
+
+Permissions
+-----------
+
+In practice, the license on any code I write means very little, but for those who want a some semblance of formality, let it be stated that all code is available under the [MIT License](https://github.com/tomdodd4598/doddq/blob/main/LICENSE.md).
+
+
