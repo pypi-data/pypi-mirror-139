@@ -1,0 +1,11 @@
+pytts/__init__.py,sha256=8QhRCslppFXJ2_NisOwnJnttX1cHrquxfp5p2DwUOFQ,259
+pytts/voicerss/__init__.py,sha256=Nq2Tg1m_CXGGMYTf6M4ICUaWwS8CdzE7P57SNVUlG5o,6846
+pytts/voicerss/codecs.py,sha256=swqQoLVQve0UrUzGCrBKR9INEoXItmFRaaMB_WuFVfA,149
+pytts/voicerss/formats.py,sha256=Q5FJeP51O41ZztCPCyLFFFayuBqzNhrifx5D93ylPv0,3534
+pytts/voicerss/languages.py,sha256=R3NrV0axL1Gqvcxp48ZGSglkHtfDD0ejklm2FBJ45OI,1761
+pytts/voicerss/voices.py,sha256=cBuGN_-2cptrVYKVBtPtyJO49W_VQJt3EQ2Ss3BcHIM,7147
+swisscore_pyTTS-1.0.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+swisscore_pyTTS-1.0.0.dist-info/METADATA,sha256=WyqYgVCOcYI5h3NXepizeMkv39veaKMBcwKQtPq7mfE,1878
+swisscore_pyTTS-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+swisscore_pyTTS-1.0.0.dist-info/top_level.txt,sha256=flHXbu1zlYQfTKpFItZ6IhXDWP8_U4qYxWqj7qCruyc,21
+swisscore_pyTTS-1.0.0.dist-info/RECORD,,
