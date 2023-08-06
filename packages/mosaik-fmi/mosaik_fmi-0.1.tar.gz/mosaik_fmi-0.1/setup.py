@@ -1,0 +1,33 @@
+from setuptools import setup, find_packages
+
+setup(name='mosaik_fmi',
+      version='0.1',
+      description='Adapter for FMUs (ME or CS) in mosaik',
+      author='Cornelius Steinbrink',
+      author_email='mosaik@offis.de',
+      url='https://mosaik.offis.de',
+      install_requires=[
+            'mosaik-api>=2.0',
+            'fmipp',
+            'mosaik',
+            'pytest',
+      ],
+      packages=find_packages(exclude=['tests*']),
+      include_package_data=True,
+      classifiers=[
+            'Development Status :: 5 - Production/Stable',
+            'Environment :: Console',
+            'Intended Audience :: Science/Research',
+            'Natural Language :: English',
+            'License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)',
+            'Natural Language :: English',
+            'Operating System :: OS Independent',
+            'Programming Language :: Python',
+            'Programming Language :: Python :: 3',
+            'Programming Language :: Python :: 3.6',
+            'Programming Language :: Python :: 3.7',
+            'Programming Language :: Python :: 3.8',
+            'Topic :: Scientific/Engineering',
+            'Topic :: Software Development :: Libraries :: Python Modules',
+      ],
+)
