@@ -1,0 +1,16 @@
+[aiida.calculations]
+environ.finite=aiida_environ.calculations.finite:calculate_finite_differences
+environ.pw=aiida_environ.calculations.pw:EnvPwCalculation
+
+[aiida.data]
+environ.charges=aiida_environ.data.charge:EnvironChargeData
+
+[aiida.parsers]
+environ.pw=aiida_environ.parsers.pw:EnvPwParser
+
+[aiida.workflows]
+environ.pw.base=aiida_environ.workflows.pw.base:EnvPwBaseWorkChain
+environ.pw.force_test=aiida_environ.workflows.pw.force_test:EnvPwForceTestWorkChain
+environ.pw.relax=aiida_environ.workflows.pw.relax:EnvPwRelaxWorkChain
+environ.pw.solvation=aiida_environ.workflows.pw.solvation:PwSolvationWorkChain
+
