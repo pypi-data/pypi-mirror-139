@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: withcode
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/pddring/withcode
+Author: Pete Dring
+Author-email: pddring@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Offline python module to match visualisation and sound features of create.withcode.uk
+
