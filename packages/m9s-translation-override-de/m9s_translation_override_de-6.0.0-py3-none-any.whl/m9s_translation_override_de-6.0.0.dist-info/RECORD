@@ -1,0 +1,10 @@
+trytond/modules/translation_override_de/__init__.py,sha256=mHZJmbK4dYo8xHjKFYNQODQt6SKoETmHOStJULAWad4,417
+trytond/modules/translation_override_de/tryton.cfg,sha256=r7-kpq0P6jjnmDqJyPBEC57-BPVDbc8CbTS6fzkeanw,3017
+trytond/modules/translation_override_de/tests/__init__.py,sha256=SdFtrPPlOTiV7aiQMON2NTAdrHBiJ6oo_13ZuZOcaEc,310
+trytond/modules/translation_override_de/tests/test_translation_override_de.py,sha256=M8sHAnEOoIKQJrbbn8zqt0cBxHmB0zAkrALZcqq9aYM,544
+m9s_translation_override_de-6.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_translation_override_de-6.0.0.dist-info/METADATA,sha256=QS7xjfnojH7HatX7WmFBN2yI99_OT00-Ra-yi9F1e20,3110
+m9s_translation_override_de-6.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+m9s_translation_override_de-6.0.0.dist-info/entry_points.txt,sha256=YfRMS_Q8FcE4PIw4GOsJuGUtJvm2Cmz938mHv2tJ9ug,97
+m9s_translation_override_de-6.0.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_translation_override_de-6.0.0.dist-info/RECORD,,
