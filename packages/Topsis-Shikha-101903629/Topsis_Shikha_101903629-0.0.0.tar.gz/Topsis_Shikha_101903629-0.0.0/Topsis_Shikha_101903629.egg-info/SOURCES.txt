@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Topsis_Shikha_101903629.egg-info/PKG-INFO
+Topsis_Shikha_101903629.egg-info/SOURCES.txt
+Topsis_Shikha_101903629.egg-info/dependency_links.txt
+Topsis_Shikha_101903629.egg-info/top_level.txt
+python_topsis/Topsis_Shikha_101903629.py
+python_topsis/__init__.py

@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: Topsis_Shikha_101903629
+Version: 0.0.0
+Summary: TOPSIS Implementation using Python
+Author: ShikhaShikha
+Author-email: sshikha_be19@thapar.edu
+License: UNKNOWN
+Keywords: python,topsis python,calculate topsis score,TOPSIS,topsis using python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Package Usage
+
+# TOPSIS-Technique for order performance by similarity to ideal solution
+Submitted By: Shikha 101903629
+
+-------------
+
+### What is TOPSIS?
+A simple but powerful decision method.
+
+
+![](https://i.ytimg.com/vi/0_imbSU7mH4/hqdefault.jpg)
+
+TOPSIS, known as Technique for Order of Preference by Similarity to Ideal Solution, is a multi-criteria decision analysis method. It compares a set of alternatives based on a pre-specified criterion. The method is used in the business across various industries, every time we need to make an analytical decision based on collected data.
+### How to use this package?
+To begin with, you have to install the package 'Topsis_Shikha_101903629' using the following command:
+bash
+pip install Topsis_Shikha_101903629
+
+Then you just need to do a function call by passing some specified parameters.
+We provided you with a function named as top_score().
+This function requires three parameters.
+### Parameters:
+
+1. First Parameter - Matrix
+
+   Create a matrix consisting of M alternatives and N criteria. This matrix is usually called an “evaluation matrix”.
+All values should be numerical.
+
+2. Second Parameter - Array consisting weights for each column. 
+
+   Assign weights to each column. Weights
+can be (1,1,1,1) or (1,1,0.5,0.5) or (1,1,2,2)
+
+3. Third Parameter - Array consisting impact of each column. 
+
+   E.g. : (1,0,1,1) (1 for max value as best, 0 for min value as best)
+
+
+Example:
+bash
+from python_topsis import Topsis_Shikha_101903629 as tps
+tps.top_score(evaluation_matrix, weights, impacts)
+
+
+
+>Coding is the language of the future, and every one should learn it !!
+
+
