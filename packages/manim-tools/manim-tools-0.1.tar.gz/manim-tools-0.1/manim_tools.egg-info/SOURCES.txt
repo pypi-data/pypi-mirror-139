@@ -1,0 +1,7 @@
+setup.py
+manim-tools/__init__.py
+manim_tools.egg-info/PKG-INFO
+manim_tools.egg-info/SOURCES.txt
+manim_tools.egg-info/dependency_links.txt
+manim_tools.egg-info/not-zip-safe
+manim_tools.egg-info/top_level.txt
