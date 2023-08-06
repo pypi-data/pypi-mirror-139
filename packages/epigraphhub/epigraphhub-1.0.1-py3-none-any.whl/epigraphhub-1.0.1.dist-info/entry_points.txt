@@ -1,0 +1,3 @@
+[console_scripts]
+epigraphhub=epigraphhub.__main__:app
+

@@ -1,0 +1,15 @@
+epigraphhub/__init__.py,sha256=03FgNgLpSPtElYu-7G0FvcYYzPKPnt4XEghfjEl9ESM,400
+epigraphhub/__main__.py,sha256=QpUWTDVtQFookN4gEIH1LZI2J4ChE3YVf_Qpn5DNnWE,1504
+epigraphhub/analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epigraphhub/analysis/epistats.py,sha256=S_OiNTFJYfEoDR3px7kw2KK8AXLkEWxGgRLe3VNxv_8,785
+epigraphhub/analysis/rtestim.py,sha256=rFpqS0eRaPIw9Iid2mclcOgy0_8QfGg7Lg5k7Ms3_nc,58
+epigraphhub/connection.py,sha256=5s7vQTiDW10LMXpNeM8xsXS_ztG-4ctsCMCr3K7sGBs,1437
+epigraphhub/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epigraphhub/data/ggtrends.py,sha256=pwylob0ByNC3uZsr6yxIuh2Ry3qiDILQ3w9gq6oUpiA,3051
+epigraphhub/data/upload.py,sha256=YQ6sgaZQ98z2pU-VsYs8EoFyJmFz1SmbC8cqgiN9_a4,453
+epigraphhub/example.py,sha256=m80Z9xlCdvY6EGTL6DFHqZUZiCv-qAF17Eylh6ZJC1o,313
+epigraphhub-1.0.1.dist-info/entry_points.txt,sha256=AFjwjlLorkQjWQZJNP0BOYW7zB9brOHFdkdvcyTuWeo,56
+epigraphhub-1.0.1.dist-info/LICENSE,sha256=0ElQUwUZZ-vnb7H6zSh9edHtgA2hvnXPUBpVa8OaBHI,32471
+epigraphhub-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+epigraphhub-1.0.1.dist-info/METADATA,sha256=exX5LNxkJzXyngvlnZ-AhIACnexsKTH5G_LbfW2ADwM,14614
+epigraphhub-1.0.1.dist-info/RECORD,,
