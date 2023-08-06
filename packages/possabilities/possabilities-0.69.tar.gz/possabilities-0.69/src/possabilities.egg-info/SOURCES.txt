@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/possabilities.egg-info/PKG-INFO
+src/possabilities.egg-info/SOURCES.txt
+src/possabilities.egg-info/dependency_links.txt
+src/possabilities.egg-info/top_level.txt
