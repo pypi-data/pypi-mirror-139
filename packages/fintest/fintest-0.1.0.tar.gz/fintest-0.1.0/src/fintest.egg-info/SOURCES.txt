@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fintest/__init__.py
+src/fintest.egg-info/PKG-INFO
+src/fintest.egg-info/SOURCES.txt
+src/fintest.egg-info/dependency_links.txt
+src/fintest.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov=fintest --cov-fail-under=80"
+testpaths = [
+    "tests",
+]
+
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+
+[tool.bandit]
+skips = ["B104"]
+exclude = ["./venv/*"]
+
+[tool.bandit.assert_used]
+skips = ['tests', '*/*_test.py', '*/test_*.py']
