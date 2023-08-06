@@ -1,0 +1,3 @@
+stacking_manual
+scikit-learn
+pandas
