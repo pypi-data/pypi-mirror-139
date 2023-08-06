@@ -1,0 +1,8 @@
+materia/.gitignore,sha256=9YWkfr8LG1w9hhtIx5RK2OIs0l5aNTe4mDNm17e77U0,113
+materia/utils/__init__.py,sha256=HpP1jMwM4L1bceRszGlgUUouadsJXuVdVRbAZXM3NhM,41
+materia/utils/math.py,sha256=KPNlGdr_YSqlee15Py0kRcDEiv5Wa76B71VvIxHkZZ4,14985
+materia/utils/utils.py,sha256=1Ab5UZD_2I0DytewmEIuM6HXeBLIDlWIH9HBM7zdcRo,1164
+materia_utils-1.0.0.dist-info/LICENSE,sha256=7V7LnfWX8ToRTzrpApGy0OBy6y4RI1P7d53YABe8Atg,1071
+materia_utils-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+materia_utils-1.0.0.dist-info/METADATA,sha256=nSHhWZIe0N6ZhGdNMWn64QYoj__r9zg0rInW21Gheds,2067
+materia_utils-1.0.0.dist-info/RECORD,,
