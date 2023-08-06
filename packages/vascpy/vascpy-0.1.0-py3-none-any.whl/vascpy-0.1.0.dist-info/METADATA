@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: vascpy
+Version: 0.1.0
+Summary: Vasculature API
+Home-page: https://github.com/BlueBrain/vascpy
+Author: Blue Brain Project, EPFL
+License: Apache-2
+Project-URL: Tracker, https://github.com/BlueBrain/vascpy/issues
+Project-URL: Source, https://github.com/BlueBrain/vascpy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: scipy (>=1.0.0)
+Requires-Dist: h5py (>=3.5.0)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: morphio (>=3.0.0)
+Requires-Dist: libsonata (>=0.1.8)
+Requires-Dist: click (>=8.0)
+Provides-Extra: all
+Requires-Dist: vtk (>=8.1.2) ; extra == 'all'
+Requires-Dist: python-igraph (>=0.8.0) ; extra == 'all'
+Provides-Extra: convert-vtk
+Requires-Dist: vtk (>=8.1.2) ; extra == 'convert-vtk'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-bluebrain-theme ; extra == 'docs'
+
+UNKNOWN
+
