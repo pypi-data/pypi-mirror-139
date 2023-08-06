@@ -1,0 +1,6 @@
+binteger>=0.8.0
+coloredlogs>=15.0
+tqdm>=4.58.0
+subsets>=0.1.0
+justlogs>=0.1.0
+hackycpp>=0.1.0
