@@ -1,0 +1,2 @@
+[console_scripts]
+kltpicker = kltpicker.main:main
