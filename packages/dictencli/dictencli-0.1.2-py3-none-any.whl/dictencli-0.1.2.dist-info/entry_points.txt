@@ -1,0 +1,3 @@
+[console_scripts]
+dictencli=dictencli.dictencli:dict_app
+
