@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fastapi-better-logger
+Version: 0.0.3
+Summary: An utils package for fastapi
+Home-page: https://github.com/finalsa/fastapi-better-logger
+Author: Luis Jimenez
+Author-email: luis@finalsa.com
+License: MIT
+Keywords: fastapi,logger
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: standard
+License-File: LICENSE.md
+
+# Fastapi Better Logger
+
+This pip packages will help you to make your life easier when working with fastapi and ormar.
+
+For installing this package:
+
+```bash
+pip install fastapi-helpers
+```
+
+
+Happy codding!
+
