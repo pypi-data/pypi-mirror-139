@@ -1,0 +1,3 @@
+[console_scripts]
+kjst-kuku=kjst_kuku.main:app
+
