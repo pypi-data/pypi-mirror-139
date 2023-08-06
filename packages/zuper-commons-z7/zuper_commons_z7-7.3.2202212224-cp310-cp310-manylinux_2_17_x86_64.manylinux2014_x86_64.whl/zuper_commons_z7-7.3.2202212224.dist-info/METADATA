@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: zuper-commons-z7
+Version: 7.3.2202212224
+Summary: UNKNOWN
+Home-page: https://github.com/zupermind/PACKAGENAME
+Author: Andrea Censi
+Author-email: info@zupermind.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: aiofile
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: setuptools
+Requires-Dist: termcolor
+Requires-Dist: typing-extensions
+Requires-Dist: webcolors
+Requires-Dist: xtermcolor
+Provides-Extra: test
+Requires-Dist: nose ; extra == 'test'
+
+UNKNOWN
+
