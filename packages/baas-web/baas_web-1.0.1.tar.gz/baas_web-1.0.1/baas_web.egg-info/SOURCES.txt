@@ -1,0 +1,10 @@
+setup.py
+baas/__init__.py
+baas/functions.py
+baas_web.egg-info/PKG-INFO
+baas_web.egg-info/SOURCES.txt
+baas_web.egg-info/dependency_links.txt
+baas_web.egg-info/requires.txt
+baas_web.egg-info/top_level.txt
+baas_web.egg-info/zip-safe
+config/setting.py
