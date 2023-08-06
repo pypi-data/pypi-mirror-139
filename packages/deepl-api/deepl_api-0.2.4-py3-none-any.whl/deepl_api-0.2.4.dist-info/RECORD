@@ -1,0 +1,9 @@
+deepl_api/__init__.py,sha256=IrhBvyIecM6rqJ94NapL9IBp4KtvaPxJJkKtaiFwPHM,6729
+deepl_api/cli.py,sha256=1awD0tr3IL5SEEKx6PGUtyh_cI5mqsYgzDbbbMEd9NY,3469
+deepl_api/doc_api.md,sha256=v30WDu2bBtX1FsUq1M1H_FUWHQ43_feBiK9oihNj6W0,913
+deepl_api/doc_cli.md,sha256=yEJlrzuDdDoHwY7XtAaO7sVqeD2ggFbcW67Dm80ZHos,1641
+deepl_api/exceptions.py,sha256=LMVSQnrWhJuCBKqzj1P_uEvOaGZ-zSl2wuCxRUZxjoM,458
+deepl_api-0.2.4.dist-info/entry_points.txt,sha256=DXVH3hxKQndRNtHTvtMGkwM3hjGu7R_VcdDpVqA8yvE,43
+deepl_api-0.2.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+deepl_api-0.2.4.dist-info/METADATA,sha256=86qaFuiLSDAYs2woYfwj6RIjq1ih-zD48OISVrfr5C4,2141
+deepl_api-0.2.4.dist-info/RECORD,,
