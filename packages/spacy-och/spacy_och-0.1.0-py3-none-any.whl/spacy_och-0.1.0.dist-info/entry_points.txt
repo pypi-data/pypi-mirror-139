@@ -1,0 +1,2 @@
+[spacy_languages]
+och = spacy_och:OldChinese
