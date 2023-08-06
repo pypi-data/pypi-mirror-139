@@ -1,0 +1,3 @@
+[console_scripts]
+CustomCam = CustomCam.__main__:run
+
