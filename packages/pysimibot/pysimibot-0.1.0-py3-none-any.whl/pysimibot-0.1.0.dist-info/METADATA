@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pysimibot
+Version: 0.1.0
+Summary: 
+Author: Rafael Lima
+Author-email: rafael.lima3301@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.14.0,<3.0.0)
