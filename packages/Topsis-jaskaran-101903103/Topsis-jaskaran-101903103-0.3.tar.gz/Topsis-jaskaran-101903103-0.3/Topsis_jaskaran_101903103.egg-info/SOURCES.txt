@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Topsis-jaskaran-101903103/101903103.py
+Topsis-jaskaran-101903103/__init__.py
+Topsis-jaskaran-101903103/__main__.py
+Topsis_jaskaran_101903103.egg-info/PKG-INFO
+Topsis_jaskaran_101903103.egg-info/SOURCES.txt
+Topsis_jaskaran_101903103.egg-info/dependency_links.txt
+Topsis_jaskaran_101903103.egg-info/requires.txt
+Topsis_jaskaran_101903103.egg-info/top_level.txt
