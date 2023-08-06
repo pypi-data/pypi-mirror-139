@@ -1,0 +1,12 @@
+tbot_base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbot_base/admin.py,sha256=AwBe4PQr7s8B_dyECUsxJN55ZypO9kcpSMUpIVGXI78,351
+tbot_base/apps.py,sha256=eaB8xMzeARTcL8oNn2rlSVeIZ_u9V0iLO_4CsyhMIyg,270
+tbot_base/bot.py,sha256=gtFA40r1NdNdAXBEthdMlP5VDtvLd_F2ACTVA0JkCbY,583
+tbot_base/models.py,sha256=fVsNSN1dtfdZzxrtydODLKeVxJ3dATtkdbFG1xFIUag,2898
+tbot_base/urls.py,sha256=5owm4xwymy98UZGtaVeh7tBShtIR-Bd4THnUqQ-q6ME,144
+tbot_base/views.py,sha256=TqY-YFTZceEQVKNum7v2lQGIwSPSlIoEAmAblH50_X4,560
+django_tbot_base-1.0.1.dist-info/LICENSE,sha256=pebds694OgLqzISMvjCcwJQLSFmsZT6bGi4hpP6iJVI,1056
+django_tbot_base-1.0.1.dist-info/METADATA,sha256=WicV0zweqNann_O-8W4GzI0o6K0ifVXaMynUGT90VrA,1934
+django_tbot_base-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_tbot_base-1.0.1.dist-info/top_level.txt,sha256=a5hsr_hqQHVF0veGLeFihztGISuP4hqViQR0ZT5wdY4,10
+django_tbot_base-1.0.1.dist-info/RECORD,,
