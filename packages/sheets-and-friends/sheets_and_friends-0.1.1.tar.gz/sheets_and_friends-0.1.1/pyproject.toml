@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "sheets_and_friends"
+version = "0.1.1"
+description = "Create a LinkML model with as-is imported slots, imported but modified slots (via yq), or newly minted slots (via schemasheets)"
+authors = ["Mark Andrew Miller <MAM@lbl.gov>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+black = "*"
+click_log = "*"
+dpath = "^2.0.6"
+glom = "^22.1.0"
+hident = "^0.1.7"
+pandasql = "^0.7.3"
+pygsheets = "^2.0.5"
+python = "^3.9"
+schemasheets = "^0.1.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+do_shuttle = "sheets_and_friends.shuttle:do_shuttle"
+mod_by_path = "sheets_and_friends.mod_by_path:mod_by_path"
+linkml2dataharmonizer = "sheets_and_friends.converters.commands:linkml2dataharmonizer"
+promote_to_select = "sheets_and_friends.converters.commands:promote_to_select"
+compare_enums = "sheets_and_friends.compare_enums:compare_enums"
+
