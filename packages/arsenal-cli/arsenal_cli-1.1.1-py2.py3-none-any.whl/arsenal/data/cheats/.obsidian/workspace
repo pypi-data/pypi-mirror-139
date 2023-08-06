@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "1ed13ab57ce273ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "21acfc3a6648da98",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Metasploit/msf.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cb9fe63558e4edd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3245c64d0620a138",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "432e6ea4ca9abaff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2105220c27c2a819",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "exemple",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff241249b4190fe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0c746d2257d258c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68a320e48363124e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Metasploit/msf.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "21acfc3a6648da98",
+  "lastOpenFiles": [
+    "Metasploit/msf.md",
+    "Network/chisel.md",
+    "Windows/windows.md",
+    "Active_directory/SCShell.md",
+    "Password extraction/LAPS.md",
+    "ReverseShell/msfvenom.md",
+    "OSEP.md",
+    "Language/dotnet.md",
+    "Protocol/ldap.md",
+    "Password extraction/mimikatz.md"
+  ]
+}
