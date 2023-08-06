@@ -1,0 +1,15 @@
+numpy
+pandas
+pyntcloud
+open3d>=0.14.0
+plotly
+fastparquet
+dask>=2022.02.0
+rospkg
+py3rosmsgs
+pycryptodomex
+typer
+rich
+
+[LAS]
+pylas
