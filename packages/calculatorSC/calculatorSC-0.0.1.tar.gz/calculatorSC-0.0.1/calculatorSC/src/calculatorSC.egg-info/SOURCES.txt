@@ -1,0 +1,7 @@
+setup.py
+calculatorSC/src/calculatorSC.egg-info/PKG-INFO
+calculatorSC/src/calculatorSC.egg-info/SOURCES.txt
+calculatorSC/src/calculatorSC.egg-info/dependency_links.txt
+calculatorSC/src/calculatorSC.egg-info/top_level.txt
+calculatorSC/src/calculatorSC.py
+calculatorSC/src/calculatorSC.egg-info/SOURCES.txt
