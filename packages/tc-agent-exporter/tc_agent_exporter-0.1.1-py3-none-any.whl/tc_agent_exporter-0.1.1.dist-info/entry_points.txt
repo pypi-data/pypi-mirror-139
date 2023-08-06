@@ -1,0 +1,2 @@
+[console_scripts]
+tc_agent_exporter = tc_agent_exporter:run
