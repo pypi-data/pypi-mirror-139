@@ -1,0 +1,9 @@
+fdrtd/client/__init__.py,sha256=6AIINaS7WcoMWnfYwdvS-DdXrayer-lumva966kPvmw,33
+fdrtd/client/api.py,sha256=wdONHg-Fb4jgg7665_hmp-jyw3JbGHq9UuhGBK_HsoQ,1855
+fdrtd/client/representation.py,sha256=8OUBXQp46jLF4VRY2UXenYJFELXlFf3SKVdtQfMowvY,865
+fdrtd/client/interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdrtd/client/interfaces/http.py,sha256=88vyp58Ykb94mQZlrURFDfoqgx1XdNQlAGsvTQ1a4Zk,4494
+fdrtd-0.5.0.dist-info/METADATA,sha256=yGD9eXKpCSk10-gLiC-RXeKT0QvCfV9U9HVlKaruDsk,1132
+fdrtd-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fdrtd-0.5.0.dist-info/top_level.txt,sha256=ZE_wsGry1rssOIIuWapfIk2soUFBksWFWRrwE5zeTzI,6
+fdrtd-0.5.0.dist-info/RECORD,,
