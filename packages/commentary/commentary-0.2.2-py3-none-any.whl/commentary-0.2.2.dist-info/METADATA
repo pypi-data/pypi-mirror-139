@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: commentary
+Version: 0.2.2
+Summary: comment-preserving docx <-- --> markdown converter
+Home-page: https://github.com/hdb/commentary
+Author: Hudson Bailey
+Author-email: hudsondiggsbailey@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pypandoc (>=1.4)
+Requires-Dist: pyyaml (>=5.2)
+
+# Commentary
+
+Commentary is a command line document conversion tool that preserves native-style comments between Markdown and MS Word.
+
+## Requirements
+
+- [Python 3](https://www.python.org/downloads/)
+- [Pandoc](https://pandoc.org/)
+
+## Installation
+
+```
+pip install commentary
+```
+
+## Usage
+
+See [documentation](https://commentary.readthedocs.io/en/latest/usage.html).
+
+
