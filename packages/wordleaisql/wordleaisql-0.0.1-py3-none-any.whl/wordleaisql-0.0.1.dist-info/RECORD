@@ -1,0 +1,9 @@
+wordleaisql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordleaisql/wordle-all-pairs.cpp,sha256=kJoYp6eaWGBiqLey3hv37BQSmudmLUsmoTCFtYdjtlA,2458
+wordleaisql/wordle-vocab.txt,sha256=orqXenlUFXg2uT747ohF-L7dcIXHqfW5cnE0W9GSx-s,77681
+wordleaisql/wordleai.py,sha256=dkEuVNjpEI4b_28hwpP-5Ay56Vd3SCHYYmQmDRNZKuo,28685
+wordleaisql-0.0.1.dist-info/METADATA,sha256=BM4vK9mXnFRdFDqMwXsKwQRenDnRHm2Hr77zGeqohtA,8645
+wordleaisql-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wordleaisql-0.0.1.dist-info/entry_points.txt,sha256=J6YGnZf3DI4y2cJ_FLhlISWQwRljnl2BkoaVp5fUDlc,58
+wordleaisql-0.0.1.dist-info/top_level.txt,sha256=ED5KJlkvg-Jnp7S2-OJcDxg9jFDy9eqNyAcZegzv3Dw,12
+wordleaisql-0.0.1.dist-info/RECORD,,
