@@ -1,0 +1,8 @@
+fastapi
+aiofiles
+commonmark
+requests
+jinja2
+
+[test]
+pytest
