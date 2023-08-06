@@ -1,0 +1,2 @@
+[pylsp]
+pyls_memestra = pyls_memestra.plugin
