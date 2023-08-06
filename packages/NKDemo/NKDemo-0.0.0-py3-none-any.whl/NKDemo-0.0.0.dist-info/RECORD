@@ -1,0 +1,16 @@
+orangedemo/OWDataSamplerA.py,sha256=xLQM3R72oMCwVBrq_U-h8UeJUmx_DBryNXJ6NqL94js,2031
+orangedemo/OWDataSamplerB.py,sha256=IA327zHM_VoVkNZ1oxJ9RfkXW38RcbD-pp3Koz59fLY,2908
+orangedemo/OWDataSamplerC.py,sha256=0M6HzL3eb-PMDu0k2BVcNMLa3mbJh-LtNxbjGCOJZyw,3095
+orangedemo/OWLearningCurveA.py,sha256=XXD9BTPrEIcMeDQTY57q_yidfIt_IvFIqKkiREXQWRw,10245
+orangedemo/OWLearningCurveB.py,sha256=O5Oo4q6RGP1PwKt6lBr_S4e3_uRV-aJ_TjG9AF5-VMY,13844
+orangedemo/OWLearningCurveC.py,sha256=6oXUAgPhT5dgeHmyUa0JBglSa83NeNSKKBD9CNJE-bE,19716
+orangedemo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangedemo/icons/DataSamplerA.svg,sha256=eO-iqEUJsfMlqzR7LLlIs_jPOn5NFELZ8Mg-UifN07Y,2422
+orangedemo/icons/DataSamplerB.svg,sha256=G8P_LLhvSs4UfWtaeLsLeaQ5wMmhMFAIKZsNFuVyiEc,2425
+orangedemo/icons/DataSamplerC.svg,sha256=EBAB-HG0MCrktZnhS6JC0aX79r-3zby9wlcEySsRe8g,2425
+orangedemo/icons/LearningCurve.svg,sha256=XE8h8S9p2R4g0ufGqJZBiQ8D3yxEAw27eyM16m9Z9j0,5625
+NKDemo-0.0.0.dist-info/METADATA,sha256=DQRorDqdLfR2Vrs0VEi4nnmPYSBmhEVgsrS2MspXujc,131
+NKDemo-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+NKDemo-0.0.0.dist-info/entry_points.txt,sha256=FAiHkYrULMlVOX89sQ5Kf4iRIE4gRP6clJfQjIYbkVE,38
+NKDemo-0.0.0.dist-info/top_level.txt,sha256=cJWVP5SnXOEXCE0iocHpyjdN5i53Q0fGFuyxw-OMhSI,11
+NKDemo-0.0.0.dist-info/RECORD,,
