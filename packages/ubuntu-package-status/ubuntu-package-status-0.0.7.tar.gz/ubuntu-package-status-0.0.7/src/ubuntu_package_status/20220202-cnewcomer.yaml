@@ -1,0 +1,31 @@
+ubuntu-versions:
+  bionic:
+    packages:
+      - linux-aws
+      - linux-azure
+      - linux-azure-fde
+      - linux-gcp
+      - linux-gke
+      - linux-gkeop
+      - linux-oracle
+      - linux-ibm
+  focal:
+    packages:
+      - linux-aws
+      - linux-azure
+      - linux-azure-fde
+      - linux-gcp
+      - linux-gke
+      - linux-gkeop
+      - linux-oracle
+      - linux-ibm
+  impish:
+    packages:
+      - linux-aws
+      - linux-azure
+      - linux-azure-fde
+      - linux-gcp
+      - linux-gke
+      - linux-gkeop
+      - linux-oracle
+      - linux-ibm
