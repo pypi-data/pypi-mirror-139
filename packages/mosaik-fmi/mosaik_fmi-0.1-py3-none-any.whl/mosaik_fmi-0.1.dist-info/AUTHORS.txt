@@ -1,0 +1,4 @@
+Authors
+=======
+
+The adapter was initially developed by Cornelius Steinbrink and updated and extended by Thomas Raub and Jan Sören Schwarz.
