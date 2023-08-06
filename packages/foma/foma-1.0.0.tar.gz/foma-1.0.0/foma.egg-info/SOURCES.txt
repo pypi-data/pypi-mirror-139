@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+foma/__init__.py
+foma/attapply.py
+foma/foma2js.py
+foma/phonrule.py
+foma.egg-info/PKG-INFO
+foma.egg-info/SOURCES.txt
+foma.egg-info/dependency_links.txt
+foma.egg-info/top_level.txt
