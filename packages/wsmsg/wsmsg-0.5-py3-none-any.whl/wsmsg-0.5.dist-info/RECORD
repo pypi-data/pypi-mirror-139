@@ -1,0 +1,10 @@
+wsmsg/__init__.py,sha256=01MyTsnmwfKJdq_tZIUeQBg6Jw8bFSH20DPmDXI3Tl8,248
+wsmsg/__main__.py,sha256=UJfeKUi6Es6opi3-g_Dob3SIj2xD9PqBP5YNPZRMKBc,757
+wsmsg/client.py,sha256=QkUBH18r5YinRpQvkw05Y6Ov3RXyswNQFwZwNjFi9Sw,8660
+wsmsg/common.py,sha256=qVFwThLFT0nxxMAg98AdFUHRSe3pdYfZ1vgO8C8ubSs,1934
+wsmsg/server.py,sha256=FWZoLmtfVJOJd5RjUfbCAbW_TkJsDN2mmu_b3tTmg1k,13737
+wsmsg-0.5.dist-info/LICENSE,sha256=BW6cowEgLI_sOfL2jQhjsf8DSbazjeodeze1yw-6-P0,907
+wsmsg-0.5.dist-info/METADATA,sha256=fHSUKFzyb8HTcaPodRwJ9NWDOoaES32ufhFswy4Tjvw,563
+wsmsg-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wsmsg-0.5.dist-info/top_level.txt,sha256=t6lTmXRYHask5J9BzDux_EMMHK46R2nHtIFEmV_RzHI,6
+wsmsg-0.5.dist-info/RECORD,,
