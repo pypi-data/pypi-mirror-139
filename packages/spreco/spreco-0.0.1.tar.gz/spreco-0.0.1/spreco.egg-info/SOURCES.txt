@@ -1,0 +1,17 @@
+Containerfile
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+spreco/__init__.py
+spreco/__main__.py
+spreco/base.py
+spreco.egg-info/PKG-INFO
+spreco.egg-info/SOURCES.txt
+spreco.egg-info/dependency_links.txt
+spreco.egg-info/requires.txt
+spreco.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_base.py
