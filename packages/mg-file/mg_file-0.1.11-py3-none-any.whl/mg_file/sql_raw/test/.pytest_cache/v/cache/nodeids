@@ -1,0 +1,13 @@
+[
+  "test_postgres.py::Test_Async::test_write",
+  "test_postgres.py::Test_Sync::test_read",
+  "test_postgres.py::Test_Sync::test_write",
+  "test_postgres.py::Test_Sync::test_write_read",
+  "test_postgres.py::test_main",
+  "test_postgres.py::test_main_speed",
+  "test_postgres.py::test_main_test",
+  "test_postgres.py::test_read",
+  "test_postgres.py::test_sd",
+  "test_postgres.py::test_test",
+  "test_postgres.py::test_write"
+]
