@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+diogi/__init__.py
+diogi/aliases.py
+diogi/conventions.py
+diogi/decorators.py
+diogi/functions.py
+diogi.egg-info/PKG-INFO
+diogi.egg-info/SOURCES.txt
+diogi.egg-info/dependency_links.txt
+diogi.egg-info/top_level.txt
