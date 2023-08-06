@@ -1,0 +1,8 @@
+deltarescdk/__init__.py,sha256=KiUwWoGRjQAQm4r4VKnQ3NMNJJNoN7Zs16RkZlqB8pA,47
+deltarescdk/kube_bucket.py,sha256=zl1-HlM3cZ-7xblBwuoGbAJYG_vYJN3mMaTg505p7PQ,4139
+deltarescdk/utils.py,sha256=wWMfdR3VF0sVy8wmzN7UQYyuoBKyL-PD4O8aT9-D9gs,871
+deltarescdk-0.1.1.dist-info/LICENSE,sha256=LIwaNchjFUw8LBajGHZnVBc3fLFqSReav7QzIibNKrI,1075
+deltarescdk-0.1.1.dist-info/METADATA,sha256=nIGQdKtq_Bt092ysGZTjwu-0Wyo9IVjvu9vOZm1gkUM,937
+deltarescdk-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+deltarescdk-0.1.1.dist-info/top_level.txt,sha256=hvQdycsvXMEIXrBOh-PZTJNY8NWzJO2wmbjpJwhVKQU,12
+deltarescdk-0.1.1.dist-info/RECORD,,
