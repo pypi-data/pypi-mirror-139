@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: RandomDataset
+Version: 0.2.0
+Summary: Random dataset generation tool
+Home-page: https://github.com/KCL-BMEIS/RandomDataset
+Author: Eric Kerfoot, KCL
+Author-email: eric.kerfoot@kcl.ac.uk
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: pandas
+Requires-Dist: click
+Requires-Dist: pyyaml
+
+RandomDataset is a tool for generating randomized tabular data for testing databases, import routines, algorithms, etc.
+It's oriented towards creating CSV files primarily for importation into simple database structures or tables.
+
