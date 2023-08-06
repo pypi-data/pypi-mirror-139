@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: coalescenceml
+Version: 0.0.1
+Summary: An open-source MLOps framework to develop industry-grade production ML pipelines coalescing the MLOps stack under one umbrella.
+License: Apache-2.0
+Keywords: mlops,machine learning,pipeline
+Author: Magd Bayoumi, Rafael Chaves, Elva Gao, Edward Gu, Sanjali Jha, Iris Li, Jerry Sun, Emily Wang, Chelsea Xiong
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+# CoalescenceML
+
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/coalescenceml)](https://pypi.org/project/coalescenceml/)
+[![PyPI Status](https://pepy.tech/badge/coalescenceml)](https://pepy.tech/project/coalescenceml)
+[![codecov](https://codecov.io/gh/bayoumi17m/CoalescenceML/branch/main/graph/badge.svg?token=7QNV6GV4B3)](https://codecov.io/gh/bayoumi17m/CoalescenceML)
+![GitHub](https://img.shields.io/github/license/bayoumi17m/CoalescenceML)
+[![Interrogate](docs/interrogate.svg)](https://interrogate.readthedocs.io/en/latest/)
+![Main Workflow Tests](https://github.com/bayoumi17m/CoalescenceML/actions/workflows/main.yml/badge.svg)
+
+# What is Coalescence ML?
+
+# Why use Coalescence ML?
+
+# Learn more about Coalescence ML
+
+## Learn more about MLOps
+
+# Features
+
+# Getting Started
+
+## Install Coalescence ML
+
+## Quickstart
+
+
