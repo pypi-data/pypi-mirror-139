@@ -1,0 +1,44 @@
+LICENSE
+README.rst
+setup.py
+BiGG_SABIO.egg-info/PKG-INFO
+BiGG_SABIO.egg-info/SOURCES.txt
+BiGG_SABIO.egg-info/dependency_links.txt
+BiGG_SABIO.egg-info/requires.txt
+BiGG_SABIO.egg-info/top_level.txt
+bigg_sabio/BiGG_metabolite_names, parsed.json
+bigg_sabio/BiGG_metabolites, parsed.json
+bigg_sabio/BiGG_reactions, parsed.json
+bigg_sabio/__init__.py
+bigg_sabio/geckodriver.exe
+bigg_sabio/google_drive.py
+bigg_sabio/scraper.py
+bigg_sabio/l2pnahxq.scraper/AlternateServices.txt
+bigg_sabio/l2pnahxq.scraper/SiteSecurityServiceState.txt
+bigg_sabio/l2pnahxq.scraper/addonStartup.json.lz4
+bigg_sabio/l2pnahxq.scraper/addons.json
+bigg_sabio/l2pnahxq.scraper/cert9.db
+bigg_sabio/l2pnahxq.scraper/compatibility.ini
+bigg_sabio/l2pnahxq.scraper/containers.json
+bigg_sabio/l2pnahxq.scraper/content-prefs.sqlite
+bigg_sabio/l2pnahxq.scraper/cookies.sqlite
+bigg_sabio/l2pnahxq.scraper/extension-preferences.json
+bigg_sabio/l2pnahxq.scraper/extensions.json
+bigg_sabio/l2pnahxq.scraper/favicons.sqlite
+bigg_sabio/l2pnahxq.scraper/formhistory.sqlite
+bigg_sabio/l2pnahxq.scraper/handlers.json
+bigg_sabio/l2pnahxq.scraper/key4.db
+bigg_sabio/l2pnahxq.scraper/parent.lock
+bigg_sabio/l2pnahxq.scraper/permissions.sqlite
+bigg_sabio/l2pnahxq.scraper/pkcs11.txt
+bigg_sabio/l2pnahxq.scraper/places.sqlite
+bigg_sabio/l2pnahxq.scraper/prefs.js
+bigg_sabio/l2pnahxq.scraper/protections.sqlite
+bigg_sabio/l2pnahxq.scraper/search.json.mozlz4
+bigg_sabio/l2pnahxq.scraper/sessionCheckpoints.json
+bigg_sabio/l2pnahxq.scraper/sessionstore.jsonlz4
+bigg_sabio/l2pnahxq.scraper/shield-preference-experiments.json
+bigg_sabio/l2pnahxq.scraper/storage.sqlite
+bigg_sabio/l2pnahxq.scraper/times.json
+bigg_sabio/l2pnahxq.scraper/webappsstore.sqlite
+bigg_sabio/l2pnahxq.scraper/xulstore.json
