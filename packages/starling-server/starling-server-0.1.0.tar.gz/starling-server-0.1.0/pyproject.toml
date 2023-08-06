@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "starling-server"
+version = "0.1.0"
+description = "An API for working with a validated subset of the Starling Bank API"
+authors = ["Richard <richlyon@mac.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.74.0"
+uvicorn = "^0.17.5"
+pydantic = "^1.9.0"
+Sphinx = "^4.4.0"
+sphinx-rtd-theme = "^1.0.0"
+PyYAML = "^6.0"
+cleo = "^0.8.1"
+httpx = "^0.22.0"
+config-path = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[tool.poetry.scripts]
+starling-server = 'starling_server.cli.cli:cli'
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
