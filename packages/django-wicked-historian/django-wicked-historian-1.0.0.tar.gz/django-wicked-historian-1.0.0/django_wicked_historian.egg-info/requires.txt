@@ -1,0 +1,11 @@
+Django<3.0,>=2.1
+django-diffable>=1.0.0
+
+[django-jsonfield]
+django-jsonfield>=1.0.1
+
+[mysql]
+django-mysql>=2.2.0
+
+[postgres]
+psycopg2>=2.6.2
