@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: proxine
+Version: 0.0.1
+Summary: Proxy engine for Python.
+Author: nchz
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: aiohttp (==3.8.*)
+Requires-Dist: httpx (==0.22.*)
+Requires-Dist: lxml (==4.7.*)
+Requires-Dist: requests (==2.27.*)
+
+UNKNOWN
+
