@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: simmeth
+Version: 0.0.6
+Summary: Simulation Methods Package
+Home-page: https://github.com/LMU-MBR/simmeth
+Author: Markus Lill
+Author-email: ml.ecm.ec@som.lmu.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simulation Methods - Wiki
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+# Getting Started
+
+## Installation :hammer:
+
+```
+pip install simmeth
+```
+
