@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+niclasProject/__init__.py
+niclasProject/niclasProject.py
+niclasProject.egg-info/PKG-INFO
+niclasProject.egg-info/SOURCES.txt
+niclasProject.egg-info/dependency_links.txt
+niclasProject.egg-info/requires.txt
+niclasProject.egg-info/top_level.txt
