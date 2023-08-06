@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: attrs-mek
+Version: 0.0.0
+Summary: An awesome package that does something
+Home-page: http://pypi.python.org/pypi/attrs-mek/
+Author: Alex Rudolph
+Author-email: alex3rudolph@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: attrs (>=21.4.0)
+Requires-Dist: pytest
+
+UNKNOWN
+
