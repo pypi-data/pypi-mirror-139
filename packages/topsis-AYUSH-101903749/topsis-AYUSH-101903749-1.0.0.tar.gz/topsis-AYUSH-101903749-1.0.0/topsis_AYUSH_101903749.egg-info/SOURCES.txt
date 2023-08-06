@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Topsis-Ayush-101903749/101903749.py
+Topsis-Ayush-101903749/main.py
+topsis_AYUSH_101903749.egg-info/PKG-INFO
+topsis_AYUSH_101903749.egg-info/SOURCES.txt
+topsis_AYUSH_101903749.egg-info/dependency_links.txt
+topsis_AYUSH_101903749.egg-info/top_level.txt
