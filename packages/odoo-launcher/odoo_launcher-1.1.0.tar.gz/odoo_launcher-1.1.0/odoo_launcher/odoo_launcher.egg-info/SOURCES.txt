@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+odoo_launcher/odoo_launcher.egg-info/PKG-INFO
+odoo_launcher/odoo_launcher.egg-info/SOURCES.txt
+odoo_launcher/odoo_launcher.egg-info/dependency_links.txt
+odoo_launcher/odoo_launcher.egg-info/requires.txt
+odoo_launcher/odoo_launcher.egg-info/top_level.txt
