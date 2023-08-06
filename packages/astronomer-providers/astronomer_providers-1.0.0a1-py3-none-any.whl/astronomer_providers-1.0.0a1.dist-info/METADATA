@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: astronomer-providers
+Version: 1.0.0a1
+Summary: Airflow Providers containing Deferrable Operators & Sensors from Astronomer
+Home-page: https://github.com/astronomer/astronomer-providers/
+Author: Astronomer
+Author-email: humans@astronomer.io
+License: Apache License 2.0
+Project-URL: Source Code, https://github.com/astronomer/astronomer-providers/
+Project-URL: Homepage, https://astronomer.io/
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Requires-Dist: aioresponses
+Requires-Dist: apache-airflow-providers-amazon (==3.0.0)
+Requires-Dist: apache-airflow[snowflake] (>=2.2.0)
+Requires-Dist: apache-airflow-providers-cncf-kubernetes (>=3)
+Requires-Dist: apache-airflow-providers-databricks (==2.2.0)
+Requires-Dist: apache-airflow-providers-google (<=6.3.0)
+Requires-Dist: asgiref
+Requires-Dist: aiobotocore (==2.1.1)
+Requires-Dist: kubernetes-asyncio
+Requires-Dist: gcloud-aio-storage
+Requires-Dist: gcloud-aio-bigquery
+Requires-Dist: markupsafe (<2.1.0,>=1.1.1)
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Provides-Extra: tests
+Requires-Dist: parameterized ; extra == 'tests'
+Requires-Dist: asynctest ; extra == 'tests'
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: mypy (>=0.800) ; extra == 'tests'
+Requires-Dist: pre-commit ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-asyncio ; extra == 'tests'
+
+Astronomer Providers
+====================
+
+`Apache Airflow <https://airflow.apache.org/>`_ Providers containing Deferrable Operators & Sensors from Astronomer.
+
+Installation
+------------
+
+.. code-block:: bash
+
+    pip install astronomer-providers
+
+
+Example Usage
+-------------
+
+This repo is structured same as the Apache Airflow's source code, so for example
+if you want to import Async operators, you can import it as follows:
+
+.. code-block:: python
+
+    from astronomer.providers.amazon.aws.sensors.s3 import S3KeySensorAsync as S3KeySensor
+
+    waiting_for_s3_key = S3KeySensor(
+        task_id="waiting_for_s3_key",
+        bucket_key="sample_key.txt",
+        wildcard_match=False,
+        bucket_name="sample-bucket",
+    )
+
+Development Environment
+------------------------
+
+Run the following commands from the root of the repository:
+
+- ``make dev`` - To create a development Environment using `docker-compose` file.
+- ``make logs`` - To view the logs of the all the containers
+- ``make stop`` - To stop all the containers
+- ``make clean`` - To remove all the containers along with volumes
+- ``make help`` - To view the available commands
+- ``make build-run`` - To build the docker image and then run containers
+- ``make restart`` - To restart Scheduler & Triggerer containers
+- ``make restart-all`` - To restart all the containers
+- ``make run-tests`` - Run CI tests
+- ``make run-static-checks`` - Run CI static code checks
+
+Following ports are accessible from the host machine:
+
+- ``8080`` - Webserver
+- ``5555`` - Flower
+- ``5432`` - Postgres
+
+Dev Directories:
+
+- ``dev/dags/`` - DAG Files
+- ``dev/logs`` - Logs files of the Airflow containers
+
+License
+-------
+
+`Apache License 2.0 <LICENSE>`_
+
+
