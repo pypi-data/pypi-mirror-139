@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ykpivfs/__init__.py
+src/ykpivfs/cli.py
+src/ykpivfs/fs.py
+src/ykpivfs/fuse.py
+src/ykpivfs/io.py
+src/yubikey_pivfs.egg-info/PKG-INFO
+src/yubikey_pivfs.egg-info/SOURCES.txt
+src/yubikey_pivfs.egg-info/dependency_links.txt
+src/yubikey_pivfs.egg-info/entry_points.txt
+src/yubikey_pivfs.egg-info/requires.txt
+src/yubikey_pivfs.egg-info/top_level.txt

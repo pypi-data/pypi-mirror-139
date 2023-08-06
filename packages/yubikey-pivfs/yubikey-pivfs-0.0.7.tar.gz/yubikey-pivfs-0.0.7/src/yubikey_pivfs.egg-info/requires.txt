@@ -1,0 +1,5 @@
+fs
+zstd
+PyNaCL
+fusepy
+yubikey-manager
