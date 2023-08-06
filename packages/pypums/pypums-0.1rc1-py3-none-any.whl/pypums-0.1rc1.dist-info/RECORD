@@ -1,0 +1,11 @@
+pypums/__init__.py,sha256=STtB37g9UGfh_Pppz679zovhcOMubd8UDblEn2tscXk,479
+pypums/__main__.py,sha256=0O8-o3inUMIJ4GxDZlMLE7N07z71fXYPoEsa7w0Fpc4,108
+pypums/cli.py,sha256=RVSOCITBxD76tYpEBspcL-1j0ORcmDlhZGsrUUKO74E,3217
+pypums/surveys.py,sha256=y8M0HFIpBo2-vHb662kIBPTNJUEe-2bAO67JIAMCIpY,2695
+pypums/utils.py,sha256=7FmcxdMPmlsQJl0xdd250pTbeBwgpfM5pO023uCL9Go,6556
+pypums-0.1rc1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pypums-0.1rc1.dist-info/METADATA,sha256=_hUTWX75XPQyebGC58voGXZHVLxKcxayR1gt1I-H8hQ,2680
+pypums-0.1rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypums-0.1rc1.dist-info/entry_points.txt,sha256=v3E1s3d6FJDHizhd2vRjNcwYFXOcAK-wynkaGo_eCnA,42
+pypums-0.1rc1.dist-info/top_level.txt,sha256=fVL7BbzCjHWXeMWCTUL_8FWFZR1o_Lxxz9QPxC09R-E,7
+pypums-0.1rc1.dist-info/RECORD,,
