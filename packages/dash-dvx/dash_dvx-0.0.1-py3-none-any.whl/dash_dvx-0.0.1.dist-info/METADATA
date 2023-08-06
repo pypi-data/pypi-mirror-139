@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dash-dvx
+Version: 0.0.1
+Summary: A simple wrapper for the Devextreme js library of components
+Author: Geraldine Geoffroy <geraldine.geoffroy@univ-cotedazur.fr>
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+License-File: LICENSE
+
+UNKNOWN
+
