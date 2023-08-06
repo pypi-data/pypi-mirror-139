@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: arkdriver
+Version: 0.0.1
+Summary: This application accesses the Ark system.
+Home-page: https://github.com/mjlomeli/arkadmin
+Author: Mauricio
+Author-email: dev.mauricio.lomeli@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mjlomeli/arkdriver/issues
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# arkadmin
+A client side driver for the administration of a server.
+
+
