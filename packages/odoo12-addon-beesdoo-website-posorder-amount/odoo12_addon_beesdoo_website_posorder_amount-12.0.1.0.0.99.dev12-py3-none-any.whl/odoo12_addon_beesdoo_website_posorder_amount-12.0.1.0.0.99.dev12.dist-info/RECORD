@@ -1,0 +1,13 @@
+odoo/addons/beesdoo_website_posorder_amount/README.rst,sha256=K7n61wSrkRRtVQH0ElZa6B32E6LXvWe6J4hdnn7usU8,1919
+odoo/addons/beesdoo_website_posorder_amount/__init__.py,sha256=kSWYuO-PxZ84nc6BjSWeVUfsZm6WHS036w3uy09DqBA,26
+odoo/addons/beesdoo_website_posorder_amount/__manifest__.py,sha256=ReS0geJO9w2xwoTtb5K8MyfdoRMQyoh5tVGe13qoZYk,552
+odoo/addons/beesdoo_website_posorder_amount/controllers/__init__.py,sha256=4KFqEP2QHFbPN66eQJMdGsmNz2v7ywWv_FR1pW_kkLk,19
+odoo/addons/beesdoo_website_posorder_amount/controllers/main.py,sha256=JlB8QrWNJAp6vhwgC9vN3sSvi1adr3MutJvC7xasQRs,1589
+odoo/addons/beesdoo_website_posorder_amount/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_website_posorder_amount/readme/DESCRIPTION.rst,sha256=Byxbh_4nIGflIfzH49OznUtbvZjqHW8imCN6wb-vhEI,58
+odoo/addons/beesdoo_website_posorder_amount/static/description/index.html,sha256=kNQ8w3eb4A5szxEdkx0by6XGVcZJ1IPA0smn55OEdfw,10795
+odoo/addons/beesdoo_website_posorder_amount/templates/portal_posorder_amount.xml,sha256=59igGqz58s0heoj4Vbs3YsShDYMQ1kmhzFgKcCk3m80,1835
+odoo12_addon_beesdoo_website_posorder_amount-12.0.1.0.0.99.dev12.dist-info/METADATA,sha256=ngJdyV_4d-so0mjP7JD6j1zcMkT-LdGat6ssysyMSlY,2450
+odoo12_addon_beesdoo_website_posorder_amount-12.0.1.0.0.99.dev12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_beesdoo_website_posorder_amount-12.0.1.0.0.99.dev12.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_website_posorder_amount-12.0.1.0.0.99.dev12.dist-info/RECORD,,
