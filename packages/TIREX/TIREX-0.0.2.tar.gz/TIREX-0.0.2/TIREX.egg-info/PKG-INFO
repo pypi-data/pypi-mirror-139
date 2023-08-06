@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: TIREX
+Version: 0.0.2
+Summary: Dimensionality Reduction in extreme regions
+Home-page: UNKNOWN
+Author: Anass Aghbalou
+Author-email: anass.aghbalou@hotmail.com
+License: UNKNOWN
+Description: # Tirex
+        
+        Tirex package is a tool for dimensionality reduction in a regression context. More precisely, Tirex extracts the features that explains the extreme values of Y , where Y is the target variable. To illustrate our claim, consider a problem of risk management, where one wants to predict accuratly large values. In this case, using standard dimensionality reduction methods (PCA,SVD, Locally linear embedding,etc.) before a regression can give a very poor performance in the region of interest (Y large). Tirex comes in hand to tackle this problem by extracting the necessary features for predicting large values.
+        
+        The package we provide is also compatible with sickit-learn Pipelines.
+        
+        Calling fit will fit the model on the training data X.
+        
+        
+        Calling fit_transform will fit the model and perform the dimensionality reduction task.
+        
+        
+        Calling transform will 
+        
+Keywords: python,Dimensionality reduction,Large/extreme values,Machine learning,regression,anomaly detection
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
