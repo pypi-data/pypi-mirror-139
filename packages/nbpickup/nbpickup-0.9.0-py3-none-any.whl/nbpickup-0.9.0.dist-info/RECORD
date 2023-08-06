@@ -1,0 +1,15 @@
+nbpickup/__init__.py,sha256=cUtQq3j0oB3xHWb46V2yH5v1mpBGWD1eVK8DIxBEFH8,548
+nbpickup/authoring.py,sha256=Lka6fE2Cy0_P5GvQGGE0zPDx2EzQOSGDq7dozQ7Og4s,9975
+nbpickup/gradebook_tools.py,sha256=XmpwbOXDsvQaaWKpIJPxaChSW_IXETgm2DhlQcKh1Nw,865
+nbpickup/grading.py,sha256=dBMRP9eiuhWVYGfUY7HoGa_-0H1199Hm3bKaA3m70do,7347
+nbpickup/submissions.py,sha256=lYNo8Q5q8KwnCnSBEgzehAPPaam3wU76CzPmLWUcvr0,3536
+nbpickup/EventHandlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbpickup/EventHandlers/autosave_authoring.py,sha256=_eWjkh8VT-72JpvporU1vWmsk4mWnD4LIcPTTxqaSv8,2298
+nbpickup/EventHandlers/autosave_gradebook.py,sha256=sTYQb7f688OF0qY_ujVy47t1TfsAiFlT652Z8esi4lc,2064
+nbpickup/Helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbpickup/Helpers/jupyter_tools.py,sha256=lhCvDicVE6zc6au6iJB1bvRLMgtfH8NErtB8vvqe5wA,1905
+nbpickup-0.9.0.dist-info/LICENSE,sha256=aWNmIempTv9pU6eYvi-Ll_Cm4Y3WY1OURSZek9Zds_8,1089
+nbpickup-0.9.0.dist-info/METADATA,sha256=6Ycdj5CUlFI8XiK7couej2xMevPrJokgAvQfRGS77ZE,656
+nbpickup-0.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nbpickup-0.9.0.dist-info/top_level.txt,sha256=j9cNksourEYk1me_SWqmn9H2GlzGzg7GPQ9IgqoK1K4,9
+nbpickup-0.9.0.dist-info/RECORD,,
