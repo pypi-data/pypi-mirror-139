@@ -1,0 +1,10 @@
+git_workon/__init__.py,sha256=da0Zo8xkGzJJoGUU1ZiY-Sg7JrJMauSfpXkAZJ8aMtI,26
+git_workon/cli.py,sha256=Ij5SeiGZ_878VnfctffNfXZrI-jDXz6iesW8RIB7sJU,6215
+git_workon/config.py,sha256=MoTjJM4DvDR13jUXziSU84YUvThNCVegXsDVoVNTX5U,1801
+git_workon/git.py,sha256=tQSBS9PKPNVRzvAtm9-MtborDzKi-geYlyxWFimafEE,3281
+git_workon/workon.py,sha256=87t8wCv34tkkQtZyyuGYqUZh85Y3Bb8Q4LHf-XEjC8E,4389
+git_workon-2.0.0.dist-info/entry_points.txt,sha256=BUiAVM0CjGeVVuTSuyAdutBScYdAUChbSIgeUM0vzTE,42
+git_workon-2.0.0.dist-info/LICENSE,sha256=787yiMiXHMleK64j8G67ChwyB3ka7xsP7Q9I3bQ86Mg,1058
+git_workon-2.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+git_workon-2.0.0.dist-info/METADATA,sha256=lZEbV15MfACdTF6FBqgJ37QmcF3R1g9JtSHFFpEQF1Q,4604
+git_workon-2.0.0.dist-info/RECORD,,
