@@ -1,0 +1,50 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/rdflib-6.1.1-1340e920-4729-2ab0-c67c-a5a0ac3a7b84
+DocumentName: rdflib-6.1.1
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>This document was created automatically using available information from python packages.</text>
+
+
+# Creation Info
+
+Creator: Person: Daniel 'eikeon' Krech (eikeon@eikeon.com)
+Creator: Tool: mbed-spdx-generator
+Created: 2022-02-21T18:32:33Z
+
+
+# Package
+
+PackageName: rdflib
+SPDXID: SPDXRef-rdflib
+PackageVersion: 6.1.1
+PackageDownloadLocation: NONE
+PackageSummary: <text>RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.</text>
+PackageFileName: rdflib
+PackageOriginator: Person: Daniel 'eikeon' Krech (eikeon@eikeon.com)
+PackageChecksum: SHA1: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageDescription: <text>NOASSERTION</text>
+PackageLicenseDeclared: BSD-3-Clause
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: NOASSERTION
+PackageHomePage: https://github.com/RDFLib/rdflib
+
+
+# File
+
+FileName: UNKNOWN
+SPDXID: SPDXRef-ad921d60-4863-6625-8809-553a3db49a4a
+FileType: SOURCE
+FileChecksum: SHA1: 0
+LicenseConcluded: BSD-3-Clause
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# Extracted Licenses
+

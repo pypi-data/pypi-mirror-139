@@ -1,0 +1,19 @@
+gitpython
+towncrier==21.3.0
+pyautoversion~=1.2.0
+pdoc3==0.9.1
+toml
+python-dotenv
+twine
+boto3
+packaging
+licenseheaders<0.8.9
+spdx-tools
+license-expression
+wcmatch
+jellyfish
+jinja2==2.11.3
+markupsafe==2.0.1
+
+[:python_version < "3.7"]
+dataclasses

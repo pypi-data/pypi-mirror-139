@@ -1,0 +1,50 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/GitPython-3.1.27-659c64fd-44bc-3a8f-57c3-8e6b30ab93b0
+DocumentName: GitPython-3.1.27
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>This document was created automatically using available information from python packages.</text>
+
+
+# Creation Info
+
+Creator: Person: Sebastian Thiel, Michael Trier (byronimo@gmail.com, mtrier@gmail.com)
+Creator: Tool: mbed-spdx-generator
+Created: 2022-02-21T18:32:33Z
+
+
+# Package
+
+PackageName: GitPython
+SPDXID: SPDXRef-GitPython
+PackageVersion: 3.1.27
+PackageDownloadLocation: NONE
+PackageSummary: <text>GitPython is a python library used to interact with Git repositories</text>
+PackageFileName: GitPython
+PackageOriginator: Person: Sebastian Thiel, Michael Trier (byronimo@gmail.com, mtrier@gmail.com)
+PackageChecksum: SHA1: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageDescription: <text>NOASSERTION</text>
+PackageLicenseDeclared: 0BSD
+PackageLicenseConcluded: 0BSD
+PackageLicenseInfoFromFiles: 0BSD
+PackageCopyrightText: NOASSERTION
+PackageHomePage: https://github.com/gitpython-developers/GitPython
+
+
+# File
+
+FileName: UNKNOWN
+SPDXID: SPDXRef-ad921d60-4863-6625-8809-553a3db49a4a
+FileType: SOURCE
+FileChecksum: SHA1: 0
+LicenseConcluded: 0BSD
+LicenseInfoInFile: 0BSD
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# Extracted Licenses
+
