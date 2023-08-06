@@ -1,0 +1,7 @@
+README.md
+setup.py
+csle_collector.egg-info/PKG-INFO
+csle_collector.egg-info/SOURCES.txt
+csle_collector.egg-info/dependency_links.txt
+csle_collector.egg-info/requires.txt
+csle_collector.egg-info/top_level.txt
