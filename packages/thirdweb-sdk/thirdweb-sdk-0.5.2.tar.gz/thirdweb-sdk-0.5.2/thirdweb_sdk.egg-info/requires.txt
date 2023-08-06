@@ -1,0 +1,5 @@
+dataclasses-json
+requests
+thirdweb-contract-wrappers
+thirdweb-web3
+deprecation
