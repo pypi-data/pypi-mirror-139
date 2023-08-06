@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hctest/HCtest.py
+src/hctest/__init__.py
+src/higher_criticism_test.egg-info/PKG-INFO
+src/higher_criticism_test.egg-info/SOURCES.txt
+src/higher_criticism_test.egg-info/dependency_links.txt
+src/higher_criticism_test.egg-info/requires.txt
+src/higher_criticism_test.egg-info/top_level.txt
