@@ -1,0 +1,8 @@
+cssselect
+lxml
+mechanicalsoup
+prometheus_client
+pytest
+requests
+selenium
+setuptools
