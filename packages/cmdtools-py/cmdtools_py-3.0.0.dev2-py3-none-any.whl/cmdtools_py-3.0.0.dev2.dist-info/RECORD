@@ -1,0 +1,16 @@
+CHANGELOG.md,sha256=9Vv1X7NsmGOuGlVXWKSIMakS_4SPu1kWRqGTNHUWtdQ,831
+cmdtools/__init__.py,sha256=QYE-jUNN61YklBhDZW9VXQW6GLL4g5pF759wEOOpMcs,121
+cmdtools/base.py,sha256=xVyLzAKZVNc9ch86CR7bnCl2LtgNoHv2UKs7d8yDyOM,3421
+cmdtools/callback/__init__.py,sha256=nVtJLZ9en_u19P6cNtpbwDQCoUz27ZdA9_KnH67plMY,38
+cmdtools/callback/base.py,sha256=xxM-qwow3wuo4DDZUXezB_UoL2cHNlr9yBQaE3OWtUI,3942
+cmdtools/callback/option.py,sha256=YKE6NBC-Wmh98mNhh5bhUisWJA3Tt0YKrJcLQZR13jA,1534
+cmdtools/errors.py,sha256=td3x7GoVKs-3HLpqgAPX_s_YZLNRLP2ZFqoncCQURMI,701
+cmdtools/ext/__init__.py,sha256=edusRVfGFkHXdzKxqrSIE3D_g2rWlQ2HVRkvmBT-II0,36
+cmdtools/ext/command.py,sha256=OfcJVF8Ten-L_fdht8RhkBJit5cAEvkWloQaKBvmDgI,3523
+cmdtools/utils/__init__.py,sha256=0jFOaT0sbL7ychs8V5RdVtxSc0LHgYNDBluWpe0KZt0,35
+cmdtools/utils/string.py,sha256=tKXikTqJpFgolc-cfotlBrSCUHbf0BxcWd9lN9u6my4,2085
+MANIFEST.in,sha256=u1MDzoSMYm-s9vfnpzzL6vvNGxIHzZRg2iq6FJivE-w,22
+cmdtools_py-3.0.0.dev2.dist-info/LICENSE,sha256=5I1Cg5uU6dP7oaDFPu-dzwu67rfzhdE3CeI0FzMzPCM,1094
+cmdtools_py-3.0.0.dev2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cmdtools_py-3.0.0.dev2.dist-info/METADATA,sha256=-GNCyeXVvTsAg2DAf20_tHoMX9ltdEzJ__VgYLak-qI,3007
+cmdtools_py-3.0.0.dev2.dist-info/RECORD,,
