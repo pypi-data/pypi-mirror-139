@@ -1,0 +1,3 @@
+[console_scripts]
+fakedns = fakedns.fakedns_cli:main
+fakedns-config = fakedns.fakedns_config_cli:main
