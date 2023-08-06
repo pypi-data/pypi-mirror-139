@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ProjectPyAfaf
+Version: 0.0.1
+Summary: test of lib
+Home-page: UNKNOWN
+Author: Afaf Belati 
+Author-email: afafbelati00@gmail.com
+License: MIT
+Keywords: test
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+this is a simple code that adds and sub numbers 
+
+Change Log
+==========
+
+0.0.1 (22/02/2022)
+-------------------
+- First Release 
+
