@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nurimungmung
+Version: 0.0.1
+Summary: A conversion package
+Home-page: UNKNOWN
+Author: Yong-Jun Shin
+Author-email: yshin1209@gmail.com
+License: MIT
+Keywords: conversion
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+A package that makes it easy to convert values between several units of measurement
+
+
