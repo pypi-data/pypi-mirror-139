@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/doddq/__init__.py
+src/doddq/helpers.py
+src/doddq/qpe.py
+src/doddq.egg-info/PKG-INFO
+src/doddq.egg-info/SOURCES.txt
+src/doddq.egg-info/dependency_links.txt
+src/doddq.egg-info/top_level.txt
