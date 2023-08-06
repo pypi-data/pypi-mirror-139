@@ -1,0 +1,4 @@
+numpy
+fenics-fiat<2019.3,>=2019.2.0.dev0
+fenics-ufl>=2021.1.0
+fenics-dijitso<2019.3,>=2019.2.0.dev0
