@@ -1,0 +1,1 @@
+flask==2.0.3pandas==1.4.1scipy==1.8.0dash==2.2.0dash-extensions==0.0.71dash-bootstrap-components==1.0.3dash-table==5.0.0

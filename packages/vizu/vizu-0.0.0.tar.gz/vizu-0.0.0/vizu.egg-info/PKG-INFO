@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: vizu
+Version: 0.0.0
+Summary: Visualization of data files
+Home-page: UNKNOWN
+Author: Jesper Halkjær Jensen
+Author-email: mail@jeshj.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
