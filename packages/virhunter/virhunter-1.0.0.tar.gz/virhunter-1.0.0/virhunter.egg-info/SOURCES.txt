@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+virhunter.egg-info/PKG-INFO
+virhunter.egg-info/SOURCES.txt
+virhunter.egg-info/dependency_links.txt
+virhunter.egg-info/top_level.txt
