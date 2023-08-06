@@ -1,0 +1,7 @@
+row_matchers.py
+setup.py
+row_matchers.egg-info/PKG-INFO
+row_matchers.egg-info/SOURCES.txt
+row_matchers.egg-info/dependency_links.txt
+row_matchers.egg-info/top_level.txt
+row_matchers.egg-info/zip-safe
