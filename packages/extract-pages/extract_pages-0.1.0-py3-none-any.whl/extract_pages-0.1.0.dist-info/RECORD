@@ -1,0 +1,14 @@
+extract_pages/__init__.py,sha256=-smE97T0GIdW0ZbgDEz1pm-GLcDsH7XtnVy3MH4vxak,148
+extract_pages/_version.py,sha256=fPiXh8Mez1e66E2-sgqvR5dngdetdhWpYTr8rJv5_zg,497
+extract_pages/extract_pages.py,sha256=OpDIgVJ5FHEsGCrBvfGiYGtuv7Sqq9Ts4c7x_ibIM6c,4032
+extract_pages/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extract_pages/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extract_pages/tests/test_extract.py,sha256=gJ5hST0oRBtagBdeHHGC3cKiifg5zc-h5nij1V33fy8,1767
+extract_pages/tests/test_data/diatonic-harmony-set.pdf,sha256=ReSl-ek9j83KrokpTVri-RLddzzIyPpM4T9ecI320CI,2606963
+extract_pages/tests/test_data/fundamentals-set.pdf,sha256=4puw3TaUq1on4M-_NvgS40getAKWXMioFvSa-4osksM,2118361
+extract_pages-0.1.0.dist-info/LICENSE,sha256=hrX17BQbBH53zLPsfjQnh9D-5YNqaCmxW1ZvhnMMWIw,1548
+extract_pages-0.1.0.dist-info/METADATA,sha256=jw6YapX0dB-ciQElZw7oeRURCDT4muIKjhJwXYKFiRM,945
+extract_pages-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+extract_pages-0.1.0.dist-info/entry_points.txt,sha256=tdrVxF684kKsRve2khQiuBmTPz7QJJIT0VjoouvhIX4,54
+extract_pages-0.1.0.dist-info/top_level.txt,sha256=szqm-ggAuHr88udZ4PgEPT1m1f5RTGjaMvUl4ruC4dI,14
+extract_pages-0.1.0.dist-info/RECORD,,
