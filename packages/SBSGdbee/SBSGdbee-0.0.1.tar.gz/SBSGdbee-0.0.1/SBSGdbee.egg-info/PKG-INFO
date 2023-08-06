@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: SBSGdbee
+Version: 0.0.1
+Summary: Package for interfacing with the SBSG database
+Home-page: UNKNOWN
+Author: Alex Perkins (SBSG UoE)
+Author-email: a.j.p.perkins@sms.ed.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
