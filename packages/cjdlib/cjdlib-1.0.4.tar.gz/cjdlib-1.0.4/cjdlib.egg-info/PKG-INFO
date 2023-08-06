@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cjdlib
+Version: 1.0.4
+Summary: 学而思编程社区陈峻德的库
+Home-page: 
+Author: dede
+Author-email: chenjunde_2020@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 这个是学而思编程社区陈峻德的第一个模块，可以看我的作品
+**V1.0.3修复**
+修复：
+1：修复了print_all的错误
+
