@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['yfrake',
+ 'yfrake.client',
+ 'yfrake.openapi',
+ 'yfrake.openapi.specs',
+ 'yfrake.server']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['aiohttp-swagger3>=0.7,<0.8',
+ 'aiohttp>=3.8,<4.0',
+ 'psutil>=5.9,<6.0',
+ 'pyyaml>=6.0,<7.0',
+ 'tomli>=2.0,<3.0']
+
+entry_points = \
+{'console_scripts': ['generate_swagger_spec = '
+                     'yfrake.openapi.generator:generate_openapi_spec']}
+
+setup_kwargs = {
+    'name': 'yfrake',
+    'version': '0.1.4',
+    'description': 'A flexible and agile stock market data scraper and server.',
+    'long_description': '# YFrake\n\n<!-- <a target="new" href="https://pypi.python.org/pypi/yfrake"><img border=0 src="https://img.shields.io/pypi/dm/yfrake?label=installs" alt="Installs per month"></a> -->\n<!--  <a target="new" href="https://pypi.python.org/pypi/yfrake"><img border=0 src="https://img.shields.io/pypi/pyversions/yfrake" alt="Supported Python versions"></a>  -->\n<a target="new" href="https://pypi.python.org/pypi/yfrake"><img border=0 src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Supported Python versions"></a>\n<a target="new" href="https://pypi.python.org/pypi/yfrake"><img border=0 src="https://img.shields.io/pypi/v/yfrake?label=version" alt="Package version on PyPI"></a>\n<a target="new" href="https://www.codefactor.io/repository/github/aspenforest/yfrake"><img border=0 src="https://img.shields.io/codefactor/grade/github/aspenforest/yfrake" alt="CodeFactor code quality"></a>\n<a target="new" href="https://scrutinizer-ci.com/g/aspenforest/yfrake/"><img border=0 src="https://scrutinizer-ci.com/g/aspenforest/yfrake/badges/build.png?b=main" alt="Scrutinizer build inspection"></a>\n<a target="new" href="https://github.com/aspenforest/yfrake/issues"><img border=0 src="https://img.shields.io/github/issues/aspenforest/yfrake" alt="Issues on Github"></a>\n<a target="new" href="https://github.com/aspenforest/yfrake/blob/main/LICENSE"><img border=0 src="https://img.shields.io/github/license/aspenforest/yfrake" alt="License on GitHub"></a>\n<a target="new" href="https://twitter.com/aabmets"><img border=0 src="https://img.shields.io/github/stars/aspenforest/yfrake?style=social" alt="Stars on GitHub"></a>\n<a target="new" href="https://twitter.com/aabmets"><img border=0 src="https://img.shields.io/twitter/follow/aabmets?style=social&label=Followers" alt="Followers on Twitter"></a>\n\n### Description\nYFrake is a flexible and agile stock market data scraper and server. <sup>[note](#footnote)</sup></br>\nIt enables developers to build powerful apps without having to worry about optimizing network requests or maximizing throughput.\nYFrake can be used as a client to directly return data or as a programmatically controllable server to forward data to web clients.\nIn addition, all requests in both sync and async modes are non-blocking, meaning that your program can continue running your code without freezing while network requests are in progress.\nThe best part about YFrake is its built-in swagger API documentation, from which you can perform test-queries against the server and examine the returned responses.\n\n\n### Getting Started\n#### Installation\n```\npip install yfrake\n```\n\n<a id="footnote"><sup>note:</sup></a> Stock market data is sourced from Yahoo Finance.\n',
+    'author': 'Mattias Aabmets',
+    'author_email': 'mattias.aabmets@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': None,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.7,<4.0',
+}
+
+
+setup(**setup_kwargs)
