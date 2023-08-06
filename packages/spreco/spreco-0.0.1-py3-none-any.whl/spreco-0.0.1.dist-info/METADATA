@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: spreco
+Version: 0.0.1
+Summary: Training priors for MRI image reconstruction
+Home-page: https://github.com/mrirecon/spreco
+Author: Guanxiong Jason Luo
+Author-email: guanxiong.luo@med.uni-goettingen.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: tensorflow-gpu
+Requires-Dist: tf-slim (==1.1.0)
+Requires-Dist: numpy
+Requires-Dist: pillow (==8.2.0)
+Requires-Dist: matplotlib (==3.3.4)
+Requires-Dist: scikit-image (==0.18.1)
+Requires-Dist: pyyaml (==5.4.1)
+Requires-Dist: tqdm
+
+UNKNOWN
+

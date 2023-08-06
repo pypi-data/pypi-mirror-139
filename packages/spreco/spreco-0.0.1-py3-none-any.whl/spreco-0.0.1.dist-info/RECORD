@@ -1,0 +1,11 @@
+spreco/__init__.py,sha256=BK2_v56gGazyYpuTwB-ADlZ9uQe7ZLqFAmpKK-wU470,85
+spreco/__main__.py,sha256=UiC0Rx7t9d6In_jyRm_JDFnvlkuhs3x2qLB2pOO2e60,1589
+spreco/base.py,sha256=tyRcKXeQMumsUWPRlr1brhM4vIg6EjxB2PEXviekje8,592
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=h0WZ9HKekBZRZcae8T1qqtAOFrIZctk2FaNvSujNiZg,398
+tests/test_base.py,sha256=TCALz5Rjwv8ijdXuYVHAGC4KTgBS7RMy5tYLpwke4i8,376
+spreco-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+spreco-0.0.1.dist-info/METADATA,sha256=kfgRH9RPhP9CeB9jY1O88YxM0escIiHnrg5Rd1W6PmU,586
+spreco-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spreco-0.0.1.dist-info/top_level.txt,sha256=hU66Ud-lgoZO9Fu4Nu8quwommdONbL78GSF6Ws4zgYE,13
+spreco-0.0.1.dist-info/RECORD,,
