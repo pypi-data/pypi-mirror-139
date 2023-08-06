@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: yfrake
+Version: 0.1.0
+Summary: The most flexible Yahoo Finance stock market data scraper and server.
+License: MIT
+Keywords: yahoo,finance,api,server,scraper
+Author: Mattias Aabmets
+Author-email: mattias.aabmets@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Requires-Dist: aiohttp (>=3.8,<4.0)
+Requires-Dist: aiohttp-swagger3 (>=0.7,<0.8)
+Requires-Dist: psutil (>=5.9,<6.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: tomli (>=2.0,<3.0)
+Project-URL: Bug Reports, https://github.com/aspenforest/yfrake/issues
+Project-URL: Repository, https://github.com/aspenforest/yfrake
+Description-Content-Type: text/markdown
+
+# YFrake
+The most flexible Yahoo Finance stock market data scraper and server.
+
