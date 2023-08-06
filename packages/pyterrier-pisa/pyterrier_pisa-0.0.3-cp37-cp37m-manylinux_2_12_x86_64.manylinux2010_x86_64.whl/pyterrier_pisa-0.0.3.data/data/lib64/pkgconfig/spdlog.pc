@@ -1,0 +1,6 @@
+prefix=/tmp/pip-req-build-rw42dkec/_skbuild/linux-x86_64-3.7/cmake-install
+includedir=${prefix}/include
+
+Name: spdlog
+Description: Super fast C++ logging library. 
+Version: 1.3.1

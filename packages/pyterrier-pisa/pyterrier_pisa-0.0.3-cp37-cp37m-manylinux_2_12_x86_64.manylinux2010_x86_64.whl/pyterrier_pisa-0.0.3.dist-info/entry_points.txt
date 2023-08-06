@@ -1,0 +1,2 @@
+[console_scripts]
+pyterrier_pisa = pyterrier_pisa:main
