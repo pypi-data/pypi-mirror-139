@@ -1,0 +1,13 @@
+presidio_cli/__init__.py,sha256=N593q74Xg13azVWSnwyZP1oDQW3mFtqviwB87iszGuQ,374
+presidio_cli/__main__.py,sha256=LHcNinfMPaSc9eQTy4ne2HordVqxG0WTUL3SoxXAUMk,71
+presidio_cli/analyzer.py,sha256=_er5NpUCIm_tezp-YfxCkTQyuRFlLVhOJ_br5_qjBHg,2917
+presidio_cli/cli.py,sha256=oDD-UJT-gEaV71Ztc7NxPiVYZpkC3jQ1mZj-6kHba5M,6765
+presidio_cli/config.py,sha256=0WKj1QMAF4GA5BlRyPpOjX9rUgNa_yU5kldNZ8Cyye4,3901
+presidio_cli/conf/default.yaml,sha256=wcLspgu8-DVZNmfdX4g3Ot-75DIfcuqVunC6WNCPVNk,34
+presidio_cli/conf/limited.yaml,sha256=w2vExzEhDcc0Qgo_Av5EdrntgwevfugkjUBWk5QHrS8,608
+presidio_cli-0.0.6.dist-info/LICENSE,sha256=NtE60MKOVVCKi4Gm5-qMZ8T2aQHIAsMkR0LmxVyXyhk,12891
+presidio_cli-0.0.6.dist-info/METADATA,sha256=WJjSeVxFGKRZPTj5g8PMoXMdklarrz4f-Rh8iFfIH7w,6486
+presidio_cli-0.0.6.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+presidio_cli-0.0.6.dist-info/entry_points.txt,sha256=a0vB4ZDFxNzNkFbmlGERbuYenNdDTGxUdeYr00qKw90,50
+presidio_cli-0.0.6.dist-info/top_level.txt,sha256=pim2P16hsJ8M9ApIW6ZhEPiBP0qoOzxOjqAS3MvNfxc,13
+presidio_cli-0.0.6.dist-info/RECORD,,
