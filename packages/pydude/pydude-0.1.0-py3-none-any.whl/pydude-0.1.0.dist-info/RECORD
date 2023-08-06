@@ -1,0 +1,10 @@
+dude/__init__.py,sha256=q8Pj-rL1fEKCnPx_LktycAWsuv0JkZS8LxjCEujSZkg,4138
+dude/context.py,sha256=RBrcH45qIObCMlsUYtLXGQN9Njx8kXmq0-dj4sdZQjA,1925
+dude/rule.py,sha256=2dY0XnopcMJ33yvFjAHwSsJxg46n-zfQGfUY19byWHs,626
+dude/scraped_data.py,sha256=T9_X1iASpXVzpr-diDKzG3AFB6u6nkqWkirkHiEhVWw,525
+dude/scraper.py,sha256=-enzXS8e-nMOTrXLe2U2QXAzvUPVTGulZpwNAnMdN-0,13622
+pydude-0.1.0.dist-info/entry_points.txt,sha256=mYa5HmgPDQLAUdKodNcXQjmvssQwR9pQowKcVjHTgUM,33
+pydude-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pydude-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pydude-0.1.0.dist-info/METADATA,sha256=5lt8MD_syLzvmeo9rfKDvRgHdlUOx9ntHmlbLbwINrY,16856
+pydude-0.1.0.dist-info/RECORD,,
