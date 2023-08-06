@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/boto3_stubs_reducer/__init__.py
+src/boto3_stubs_reducer/__main__.py
+src/boto3_stubs_reducer/reducer.py
+src/boto3_stubs_reducer.egg-info/PKG-INFO
+src/boto3_stubs_reducer.egg-info/SOURCES.txt
+src/boto3_stubs_reducer.egg-info/dependency_links.txt
+src/boto3_stubs_reducer.egg-info/entry_points.txt
+src/boto3_stubs_reducer.egg-info/requires.txt
+src/boto3_stubs_reducer.egg-info/top_level.txt

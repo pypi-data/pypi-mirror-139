@@ -1,0 +1,3 @@
+[console_scripts]
+boto3-stubs-reducer = boto3_stubs_reducer.reducer:main
+
