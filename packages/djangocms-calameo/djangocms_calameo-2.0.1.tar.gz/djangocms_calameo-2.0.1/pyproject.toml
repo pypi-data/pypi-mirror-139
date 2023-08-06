@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "djangocms_calameo"
+version = "2.0.1"
+description = "Django CMS Calaméo is a plugin for Django CMS that allows you to add Calaméo widgets on your site."
+authors = ["Kapt dev team <dev@kapt.mobi>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://gitlab.com/kapt/open-source/djangocms-calameo"
+
+[tool.poetry.dependencies]
+python = "^2.7 || ^3.8"
+Django = ">=1.8, <3"
+django-cms = "^3.4"
+
+[tool.poetry.dev-dependencies]
+gitchangelog = "^3.0.4"
+bumpversion = "^0.6.0"
+black = "20.8b1"
+flake8 = "3.8.4"
+pre-commit = "~2.8"
+isort = "5.6.4"
+
+[build-system]
+requires = ["poetry-core>=2.0.1"]
+build-backend = "poetry.core.masonry.api"

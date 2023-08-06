@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-24 11:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: djangocms_calameo/cms_plugins.py:12
+msgid "Widgets"
+msgstr "Widgets"
+
+#: djangocms_calameo/cms_plugins.py:13
+msgid "Calaméo publication widget"
+msgstr "Widget Calaméo"
+
+#: djangocms_calameo/cms_plugins.py:22
+msgid "More options"
+msgstr "Plus d’options"
+
+#: djangocms_calameo/models.py:11
+msgid "Title"
+msgstr "Titre"
+
+#: djangocms_calameo/models.py:13
+msgid "URL"
+msgstr "URL"
+
+#: djangocms_calameo/models.py:14
+msgid "The URL of the publication"
+msgstr "L’URL de la publication"
+
+#: djangocms_calameo/models.py:18
+msgid "Mini"
+msgstr "Mini"
+
+#: djangocms_calameo/models.py:19
+msgctxt "like a book"
+msgid "Publication"
+msgstr "Publication"
+
+#: djangocms_calameo/models.py:22
+msgid "Mode"
+msgstr "Mode"
+
+#: djangocms_calameo/models.py:26
+msgid "Auto"
+msgstr "Auto"
+
+#: djangocms_calameo/models.py:27
+msgctxt "noun"
+msgid "Book"
+msgstr "Livre"
+
+#: djangocms_calameo/models.py:28
+msgid "Slide"
+msgstr "Diapositive"
+
+#: djangocms_calameo/models.py:29
+msgid "Scroll"
+msgstr "Défiler"
+
+#: djangocms_calameo/models.py:32
+msgid "View"
+msgstr "Mode d’affichage"
+
+#: djangocms_calameo/models.py:36
+msgid "Small"
+msgstr "Petit"
+
+#: djangocms_calameo/models.py:37
+msgid "Medium"
+msgstr "Moyen"
+
+#: djangocms_calameo/models.py:38
+msgid "Big"
+msgstr "Grand"
+
+#: djangocms_calameo/models.py:39
+msgid "Full"
+msgstr "Pleine largeur"
+
+#: djangocms_calameo/models.py:42
+msgid "Size"
+msgstr "Taille"
+
+#: djangocms_calameo/models.py:46
+msgid "Default page"
+msgstr "Page par défaut"
+
+#: djangocms_calameo/models.py:48
+msgid "Enter the page number to display by default"
+msgstr "Entrez le numéro de la page à afficher par défaut"
+
+#: djangocms_calameo/models.py:52
+msgid "Open publication in full screen directly"
+msgstr "Ouvrir la publication en plein écran"
+
+#: djangocms_calameo/models.py:53
+msgid "Open description page"
+msgstr "Ouvrir la page de description"
+
+#: djangocms_calameo/models.py:54
+msgid "Open viewer directly"
+msgstr "Ouvrir directement la liseuse"
+
+#: djangocms_calameo/models.py:57
+msgid "Actions"
+msgstr "Actions"
+
+#: djangocms_calameo/models.py:61
+msgid "Open in new window"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+#: djangocms_calameo/models.py:64
+msgid "Show the sharing menu after reading"
+msgstr "Afficher le menu de partage après avoir lu"
+
+#: djangocms_calameo/models.py:67
+msgid "Display the publication title"
+msgstr "Afficher le titre de la publication"
+
+#: djangocms_calameo/models.py:70
+msgid "Automatically turn pages"
+msgstr "Tourner les pages automatiquement"
+
+#: djangocms_calameo/models.py:74
+msgid "Publication"
+msgstr "Publication"
+
+#: djangocms_calameo/models.py:75
+msgid "Publications"
+msgstr "Publications"
+
+#: djangocms_calameo/templates/djangocms_calameo/default.html:18
+msgid "Read more publications on Calaméo"
+msgstr "Lire plus de publications sur Calaméo"

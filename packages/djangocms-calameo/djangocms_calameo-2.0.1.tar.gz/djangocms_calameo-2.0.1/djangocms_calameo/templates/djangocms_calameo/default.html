@@ -1,0 +1,23 @@
+{% load i18n %}
+
+<div style="text-align:center;">
+  {% if instance.must_show_book_title %}
+    <div style="margin:8px 0px 4px;">
+      <a href="{{ instance.url }}" target="_blank">{{ instance.title }}</a>
+    </div>
+  {% endif %}
+  <iframe
+    src="//v.calameo.com/?{{ instance.get_parameters }}"
+    width="{{ instance.get_size.width }}"
+    height="{{ instance.get_size.height }}"
+    frameborder="0"
+    scrolling="no"
+    allowtransparency
+    allowfullscreen
+    style="margin:0 auto;">
+  </iframe>
+  <div style="margin:4px 0px 8px;">
+    <a href="http://www.calameo.com/" target="_blank">{% trans "Read more publications on Calaméo" %}</a>
+  </div>
+</div>
+
