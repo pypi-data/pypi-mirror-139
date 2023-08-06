@@ -1,0 +1,16 @@
+pyodide_build/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyodide_build/__main__.py,sha256=OPfDlUM1DnVe70xCra2KkuJoUMnHm8cjED_dG4Z7BPY,1803
+pyodide_build/_f2c_fixes.py,sha256=1BBEA5WicxMUskxcUREVUqIKod4jduiJHj5dQebQE1o,9059
+pyodide_build/buildall.py,sha256=iY_xbLea-En0uZR0LlZObnaiwaYgDpOpj-aVGOdnI2Q,19162
+pyodide_build/buildpkg.py,sha256=ZWPSBgFGUc9tchCgfYVJmimX79wFDzOBG8usy2WIyE8,26428
+pyodide_build/common.py,sha256=M-O3isuaXqzPmAShCzrvv9x3V29x5FnczMcW5LLuRX0,4282
+pyodide_build/io.py,sha256=Y6pHPdhpRC43rRrrlfcZwO0sXLW4W7Rzura5HLcasBM,4070
+pyodide_build/mkpkg.py,sha256=SFK7VGw1TkQCEzkESLiuYhp0j-8ajJLvXlF_xsBul0E,7458
+pyodide_build/pywasmcross.py,sha256=heg2gQsBcX2OmzvJbo2-xapvfuY1H-Gz_NzkC_qk-0E,19699
+pyodide_build/serve.py,sha256=eLyuXna_B7pg0jSAaB6ZniZ-AgtY72ZjuLZWlw67G74,1369
+pyodide_build/testing.py,sha256=q3ruXjF27t91mGP4pdvemZPO8bPlgaaQalYL3Hqc-ug,5219
+pyodide_build-0.19.1.dist-info/METADATA,sha256=qT9Xd7cO3_t9n6GMoTqIi2abB_xv-DuLsgduNeEt1EQ,876
+pyodide_build-0.19.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyodide_build-0.19.1.dist-info/entry_points.txt,sha256=hO0VnQc4SWb6EEkvoUBLQ2rRHs_5d6Rr3cYdHKWEdWQ,62
+pyodide_build-0.19.1.dist-info/top_level.txt,sha256=-1gTkzfELp8xrphBOdkMeoZIH7P79_5sY0yyBGEu0AA,14
+pyodide_build-0.19.1.dist-info/RECORD,,
