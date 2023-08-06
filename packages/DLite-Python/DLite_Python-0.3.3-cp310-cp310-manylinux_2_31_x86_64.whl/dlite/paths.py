@@ -1,0 +1,12 @@
+dlite_INSTALL_ROOT = '/opt/python/cp310-cp310'
+dlite_BUILD_ROOT = '/io/python/build/temp.linux-x86_64-3.10'
+
+dlite_PATH = ''
+dlite_LD_LIBRARY_PATH = '/io/python/build/temp.linux-x86_64-3.10/src;/io/python/build/temp.linux-x86_64-3.10/src/utils;/io/python/build/temp.linux-x86_64-3.10/src/pyembed'
+dlite_PYTHONPATH = '/io/python/build/temp.linux-x86_64-3.10/bindings/python'
+dlite_STORAGE_PLUGINS = '/io/python/build/temp.linux-x86_64-3.10/storages/json;/io/python/build/temp.linux-x86_64-3.10/storages/rdf;/io/python/build/temp.linux-x86_64-3.10/storages/python'
+dlite_MAPPING_PLUGINS = ''
+dlite_PYTHON_STORAGE_PLUGINS = '/io/storages/python/python-storage-plugins'
+dlite_PYTHON_MAPPING_PLUGINS = '/io/bindings/python/python-mapping-plugins'
+dlite_TEMPLATES = '/io/tools/templates'
+dlite_STORAGES='/io/examples/storages/*.json'
