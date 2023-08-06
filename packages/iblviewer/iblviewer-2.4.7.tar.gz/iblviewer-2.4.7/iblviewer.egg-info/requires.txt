@@ -1,0 +1,15 @@
+numpy
+matplotlib
+requests
+pandas
+pynrrd
+trimesh
+k3d
+vtk>=9.0
+ipywebrtc
+ibllib
+iblutil
+vedo>=2022.0.1
+ipyvtklink
+PyQt5
+pyqt-darktheme
