@@ -1,0 +1,10 @@
+amilatest/__init__.py,sha256=T6kkORW_rCq9DlGeTGO_ru99JSo1wH4xKQX0dbFv2fw,60
+amilatest/__version__.py,sha256=aOHawL1zuHMfBWKXqwUkXcW96oXLNCY-CXdHDqkz4g4,18
+amilatest/cli.py,sha256=cuMw3bgNiXvbco6v578jC8jGUVPe0oywI9nEdLORLto,780
+amilatest/main.py,sha256=ByECFXHMq7_5LZVCZ2zPzvHOtbeX_kukGrtrM7HPZ8w,3561
+amilatest-0.1.0.dist-info/LICENSE,sha256=CYy8FpNhnXPJzy6WUmVKGqQoloC7AOedrPOCgY1o48w,1051
+amilatest-0.1.0.dist-info/METADATA,sha256=WAp2Ua7c9Ze5SQP3pY03dLMsX35BQUkXA-akmj4T8EM,2039
+amilatest-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+amilatest-0.1.0.dist-info/entry_points.txt,sha256=OMEC-YvvV170BVhyQhaojphQOIkeEEfkVsacN2etpAY,50
+amilatest-0.1.0.dist-info/top_level.txt,sha256=d9IhOQd3TckkyVlVHH_p_Fhl5I3Hso7FfE3wZYaIFt4,10
+amilatest-0.1.0.dist-info/RECORD,,
