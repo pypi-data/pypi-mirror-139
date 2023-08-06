@@ -1,0 +1,3 @@
+[console_scripts]
+start=src.ipl_stats.runserver:main
+
