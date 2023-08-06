@@ -1,0 +1,12 @@
+[kiara.metadata_models]
+network = kiara_modules.network_analysis.metadata_models:metadata_models
+
+[kiara.modules]
+_network = kiara_modules.network_analysis:modules
+
+[kiara.pipelines]
+_network = kiara_modules.network_analysis.pipelines:pipelines
+
+[kiara.value_types]
+network = kiara_modules.network_analysis.value_types:value_types
+
