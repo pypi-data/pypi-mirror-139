@@ -1,0 +1,10 @@
+README.md
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+libpythonpro_wp.egg-info/PKG-INFO
+libpythonpro_wp.egg-info/SOURCES.txt
+libpythonpro_wp.egg-info/dependency_links.txt
+libpythonpro_wp.egg-info/not-zip-safe
+libpythonpro_wp.egg-info/requires.txt
+libpythonpro_wp.egg-info/top_level.txt
