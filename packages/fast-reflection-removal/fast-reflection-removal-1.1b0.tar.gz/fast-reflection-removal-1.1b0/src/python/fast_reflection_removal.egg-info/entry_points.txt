@@ -1,0 +1,2 @@
+[console_scripts]
+frr = frr.__main__:main
