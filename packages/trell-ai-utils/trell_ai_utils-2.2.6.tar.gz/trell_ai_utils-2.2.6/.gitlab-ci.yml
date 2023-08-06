@@ -1,0 +1,49 @@
+image: python:3.6
+variables:
+    TWINE_USERNAME: $PRODUCTION_USERNAME
+    TWINE_PASSWORD: $PRODUCTION_PASSWORD
+
+
+
+stages:
+#  - build
+  - deploy
+
+before_script:
+   - echo " *********** Installing pip packages first *************************"
+#   - export TWINE_USERNAME=$PRODUCTION_USERNAME
+#   - export TWINE_PASSWORD=$PRODUCTION_PASSWORD
+   - pip install --upgrade pip
+   - pip install twine
+   - python3 setup.py sdist bdist_wheel
+   - echo " *********** Done Installing pip packages  *************************"
+
+
+#build:
+#  stage: build
+#  script:
+#    - echo "---------- Building started ----------------"
+#    - python3 setup.py sdist bdist_wheel
+#    - echo "-----------Build completed -----------------"
+#  artifacts:
+#    paths:
+#      - dist/
+
+
+
+
+#deploy_staging:
+#  stage: deploy
+#  script:
+#    - echo "deploying to test pypi server"
+#    - twine upload --repository testpypi dist/*
+#  except:
+#    - tags
+
+deploy_production:
+  stage: deploy
+  script:
+    - echo "deploying to  pypi server"
+    - twine upload  dist/*
+  only:
+    - tags
