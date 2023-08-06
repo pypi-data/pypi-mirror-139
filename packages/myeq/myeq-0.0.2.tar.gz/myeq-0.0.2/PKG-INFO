@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: myeq
+Version: 0.0.2
+Summary: Some simple useful math equations.
+Home-page: https://github.com/jmgomezsoriano/myeq
+Author: José Manuel Gómez Soriano
+Author-email: jmgomez.soriano@gmail.com
+License: lGPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# myeq
+
+
