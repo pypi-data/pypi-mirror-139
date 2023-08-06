@@ -1,0 +1,11 @@
+constructROM/__init__.py,sha256=nWo-jCXIDl_fx4jh4Y9dMsTWR4_3b4TlLa3po2FeMK8,46
+constructROM/conserv_laws.py,sha256=vg6G9cRG3mWiuCTXn7tgRyOOz3eSjueQDvY80wX5SbU,2192
+constructROM/construct_rhs_functions.py,sha256=OJJ33Dzg-rsSrIdySx6twqInwBGidpLWyUTBaTRMTkc,8024
+constructROM/construct_roms.py,sha256=0-I45aJHqNmYCdo9cNCyJF9ZUnOX8GQ7xpzh2oD0GpY,9248
+constructROM/display_odes.py,sha256=78Sb9jWXpp8uoUEtm9ifolNqmans_pD3UsyHhGSZnkg,2515
+constructROM/hk_modes.py,sha256=mq7xYOJDx9m-MStf05gBowhbW45DuF1BMv9zmCxIfB8,1706
+construct_roms-1.0.dist-info/LICENSE,sha256=8ScOhm-7cwRMVlMfa7o6VrCFAdMRo87t9rxkDgx5iyk,1089
+construct_roms-1.0.dist-info/METADATA,sha256=dYIDgatkRr5s0UTTCqNwNc07veS49R5blvy6JUDBKMM,3880
+construct_roms-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+construct_roms-1.0.dist-info/top_level.txt,sha256=5F61yfYl_n0p3jTTdXJnepACQgPklH0FgvoIx_kzW5o,13
+construct_roms-1.0.dist-info/RECORD,,
