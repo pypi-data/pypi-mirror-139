@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: PyBark
+Version: 0.1
+Summary: A simple Bark application for notification
+Home-page: https://github.com/MrReochen/PyBark
+Author: Reo Chen
+Author-email: reo@pku.edu.cn
+License: MIT License
+Description: A simple application to send a message push via Bark
+Keywords: pip,PyBark,Bark
+Platform: any
