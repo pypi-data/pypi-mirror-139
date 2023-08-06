@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+dogwood/__init__.py
+dogwood/hello.py
+dogwood.egg-info/PKG-INFO
+dogwood.egg-info/SOURCES.txt
+dogwood.egg-info/dependency_links.txt
+dogwood.egg-info/top_level.txt
