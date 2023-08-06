@@ -1,0 +1,730 @@
+{%- if filetype_loop == 0 %}Hostname,Management State,Managed At Least Once,Description,ID,Tenant ID,Location,Location Name,Tag Count,Management State,Last Booted,Uptime,Type,Series,Family,Platform ID,Line Card ID,Line Card Count,Interface Count,Memory Size,Management IP,MAC Address,Support Level,Serial Number,AP Ethernet MAC Address,AP Manager Interface IP,Associated WLC IP,Tunnel UDP Port,WAAS Device Mode,Software Type,Software Version,Role,Role Source,Collection Status,Last Updated,Collection Interval,Reachability Status,Reachability Failure Reason,Error Code,Error Description,SNMP Location,SNMP Contact,Chassis,Chassis Description,Chassis Part Number,Chassis Hardware Version,Chassis Serial Number,Chassis Is Reporting Alarms Allowed,Power Supply,Power Supply Description,Power Supply Part Number,Power Supply Vendor Equipment Type,Power Supply Serial Number,Power Supply Operational State Code,Fan,Fan Description,Fan Part Number,Fan Vendor Equipment Type,Fan Serial Number,Fan Operational State Code,Backplane,Backplane Description,Backplane Part Number,Backplane Vendor Equipment Type,Backplane Serial Number,Backplane Operational State Code,Module,Module Description,Module Part Number,Module Vendor Equipment Type,Module Serial Number,Module Operational State Code,Processor,Processor Description,Processor Part Number,Processor Vendor Equipment Type,Processor Serial Number,Processor Operational State Code,Other Parts,Other Parts Description,Other Parts Part Number,Other Parts Vendor Equipment Type,Other Parts Serial Number,Other Parts Operational State Code,Power Over Ethernet Interface,Power Over Ethernet Operational,Power Over Ethernet Admin,Power Over Ethernet Allocated,Power Over Ethernet Maximum,Power Over Ethernet Drawn,VLAN Number,VLAN Interface Name,VLAN IP Address,VLAN Network Address,VLAN Number of IPs,Insight VLAN ID,Insight VLAN Type,Insight VLAN Average Update Frequency,Insight VLAN Last Updated,Insight VLAN Number of Updates,Insight VLAN Link Status,Insight VLAN Start Device,Insight VLAN Start Device ID,Insight VLAN Start Device IP Address,Insight VLAN End Device,Insight VLAN End Device End Device ID,Insight VLAN End Device IP Address,Insight VLAN End Start Port Name,Insight VLAN End Start Port ID,Insight VLAN End Start Port Address,Insight VLAN End Start Port Mask,Insight VLAN End Start Port Speed,Insight VLAN End Start Port Duplex,Insight VLAN End Start Port PEP ID,Insight VLAN End Start Port Allowed VLAN IDs,Insight VLAN End Start Port Native VLAN,Insight VLAN End Port,Insight VLAN End Port ID,Insight VLAN End Port Address,Insight VLAN End Port Mask,Insight VLAN End Port Speed,Insight VLAN End Port Duplex,Insight VLAN End Port PEP ID,Insight VLAN End Port Allowed VLAN IDs,Insight VLAN End Port Native VLAN,Insight VLAN Instance Info ID,Insight VLAN Instance Tenant ID,Insight Link Mismatch ID,Insight Link Mismatch Type,Insight Link Mismatch Average Update Frequency,Insight Link Mismatch Last Updated,Insight Link Mismatch Number of Updates,Insight Link Mismatch Link Status,Insight Link Mismatch Start Device HostnameInsight Link Mismatch Start Device ID,Insight Link Mismatch Start Device IP Address,Insight Link Mismatch End Device Hostname,Insight Link Mismatch End Device ID,Insight Link Mismatch End Device IP Address,Insight Link Mismatch Start Port Name,Insight Link Mismatch Start Port ID,Insight Link Mismatch Start Port Address,Insight Link Mismatch Start Port Mask,Insight Link Mismatch Start Port Speed,Insight Link Mismatch Start Port Duplex,Insight Link Mismatch Start Port PEP ID,Insight Link Mismatch Start Port Allowed VLAN IDs,Insight Link Mismatch Start Port Native VLAN,Insight Link Mismatch End Port Name,Insight Link Mismatch End Port ID,Insight Link Mismatch End Port Address,Insight Link Mismatch End Port Mask,Insight Link Mismatch End Port Speed,Insight Link Mismatch End Port Duplex,Insight Link Mismatch End Port PEP ID,Insight Link Mismatch End Port Allowed VLAN IDs,Insight Link Mismatch End Port Native VLAN,Insight Link Mismatch Instance Info ID,Insight Link Mismatch Instance Tenant ID,Interface Portname,Interface Description,Interface Admin Status,Interface Operational Status,Interface MAC Address,Interface IP Address,Interface Mask,Interface Speed,Interface Duplex,Interface MTU,Interface Type,Interface Media,Interface Class Name,Interface Index,Interface Power over Ethernet,Interface Type,Interface Mode,Interface VLAN ID,Interface Native VLAN,Interface Voice VLAN,Interface OSPF Support,Interface ISIS Support,Interface Physical Mapping Name,Interface Physical ID,Interface ID,Interface Instance ID,Interface Tenant ID,Interface Last Updated,Stack Member,Stack Hardware Priority,Stack Switch Priority,Stack Platform,Stack Role,Stack State,Stack MAC Address,Stack Next Reload,Stack Software Image,Stack Serial Number,Stack Port Name,Stack Port Is Synch Ok,Stack Port Switchport,Stack Port Neighbor Port,Stack Port Link OK Changes,Stack Port Stack Cable Length,Stack Port Stack Port Status,Stack Port Link Active,Stack Port Link OK,Overall Health,Reachability Health,Issue Count,Interface Link Error Health,Inter Device Link Available Health,Inter Device Link Available Fabric,CPU Health,Memory Utilization Health,Client Count,Free Timer Score,Packet Pool Health,WQE Pools Health,WAN Link Utilization,Interference Health,Noise Health,Air Quality Health,Complaince Type,Complaince Status,Complaince State,Complaince Last Sync,Complaince Last Update,Complaince Message,Additional Complaince Info
+{%- for item in chassis %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},{{ item.name }},{{ item.description }},{{ item.partNumber }},{{ item.hardwareVersion }},{{ item.serialNumber }},{{ item.isReportingAlarmsAllowed }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%- endfor %}
+{%- if powersupply %}
+{%-     for item in powersupply %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,{{ item.name }},{{ item.description }},{{ item.productId }},{{ item.vendorEquipmentType }},{{ item.serialNumber }},{{ item.operationalStateCode }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if fan %}
+{%-     for item in fan if fan %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.name }},{{ item.description }},{{ item.productId }},{{ item.vendorEquipmentType }},{{ item.serialNumber }},{{ item.operationalStateCode }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if backplane %}
+{%-     for item in backplane if backplane %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.name }},{{ item.description }},{{ item.productId }},{{ item.vendorEquipmentType }},{{ item.serialNumber }},{{ item.operationalStateCode }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if module %}
+{%-     for item in module if module %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.name }},{{ item.description }},{{ item.productId }},{{ item.vendorEquipmentType }},{{ item.serialNumber }},{{ item.operationalStateCode }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if processor %}
+{%-     for item in processor if processor %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.name }},{{ item.description }},{{ item.productId }},{{ item.vendorEquipmentType }},{{ item.serialNumber }},{{ item.operationalStateCode }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if other %}
+{%-     for item in other if other %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.name }},{{ item.description }},{{ item.productId }},{{ item.vendorEquipmentType }},{{ item.serialNumber }},{{ item.operationalStateCode }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if poe %}
+{%-     for interface in poe %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ interface.interfaceName }},{{ interface.operStatus }},{{ interface.adminStatus }},{{ interface.allocatedPower }},{{ interface.maxPortPower }},{{ interface.portPowerDrawn }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if vlan %}
+{%-     for item in vlan %}
+{%-         if item.ipAddress %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.vlanNumber }},{{ item.interfaceName }},{{ item.ipAddress }} / {{ item.prefix }},{{ item.networkAddress }},{{ item.numberOfIPs }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-         endif %}
+{%-     endfor %}
+{%- endif %}
+{%- if insightVLAN or insightSpeedDuplex %}
+{%-     if insightVLAN %}
+{%-         for insight in insightVLAN if device.hostname == insight.startDeviceHostName or insight.endDeviceHostName %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ insight.id }},{{ insight.type }},{{ insight.avgUpdateFrequency }},{{ insight.lastUpdated }},{{ insight.numUpdates }},{{ insight.linkStatus }},{{ insight.startDeviceHostName }},{{ insight.startDeviceId }},{{ insight.startDeviceIpAddress }},{{ insight.endDeviceHostName }},{{ insight.endDeviceId }},{{ insight.endDeviceIpAddress }},{{ insight.startPortName }},{{ insight.startPortId }},{{ insight.startPortAddress }},{{ insight.startPortMask }},{{ insight.startPortSpeed }},{{ insight.startPortDuplex }},{{ insight.startPortPepId }},{{ insight.startPortAllowedVlanIds }},{{ insight.startPortNativeVlanId }},{{ insight.endPortName }},{{ insight.endPortId }},{{ insight.endPortAddress }},{{ insight.endPortMask }},{{ insight.endPortSpeed }},{{ insight.endPortDuplex }},{{ insight.endPortPepId }},{{ insight.endPortAllowedVlanIds }},{{ insight.endPortNativeVlanId }},{{ insight.instanceUuid }},{{ insight.instanceTenantId }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-         endfor %}
+{%-     endif %}
+{%-     if insightSpeedDuplex %}
+{%-         for insight in insightSpeedDuplex if device.hostname == insight.startDeviceHostName or insight.endDeviceHostName %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ insight.id }},{{ insight.type }},{{ insight.avgUpdateFrequency }},{{ insight.lastUpdated }},{{ insight.numUpdates }},{{ insight.linkStatus }},{{ insight.startDeviceHostName }},{{ insight.startDeviceId }},{{ insight.startDeviceIpAddress }},{{ insight.endDeviceHostName }},{{ insight.endDeviceId }},{{ insight.endDeviceIpAddress }},{{ insight.startPortName }},{{ insight.startPortId }},{{ insight.startPortAddress }},{{ insight.startPortMask }},{{ insight.startPortSpeed }},{{ insight.startPortDuplex }},{{ insight.startPortPepId }},{{ insight.startPortAllowedVlanIds }},{{ insight.startPortNativeVlanId }},{{ insight.endPortName }},{{ insight.endPortId }},{{ insight.endPortAddress }},{{ insight.endPortMask }},{{ insight.endPortSpeed }},{{ insight.endPortDuplex }},{{ insight.endPortPepId }},{{ insight.endPortAllowedVlanIds }},{{ insight.endPortNativeVlanId }},{{ insight.instanceUuid }},{{ insight.instanceTenantId }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-         endfor %}
+{%-     endif %}
+{%- endif %}
+{%- for interface in interfaces %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ interface.portName }},{{ interface.description }},{{ interface.adminStatus }},{{ interface.status }},{{ interface.macAddress }},{{ interface.ipv4Address }},{{ interface.ipv4Mask }},{{ interface.speed }},{{ interface.duplex }},{{ interface.mtu }},{{ interface.interfaceType }},{{ interface.mediaType }},{{ interface.className }},{{ interface.ifIndex }},{{ interface.poweroverethernet }},{{ interface.portType }}{{ interface.portMode }}{{ interface.vlanId }},{{ interface.nativeVlanId }},{{ interface.voiceVlan }},{{ interface.ospfSupport }},{{ interface.isisSupport }},{{ interface.mappedPhysicalInterfaceName }}{{ interface.mappedPhysicalInterfaceId }},{{ interface.id }},{{ interface.instanceUuid }},{{ interface.instanceTenantId }},{{ interface.lastUpdated }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%- endfor %}
+{%- if stack.stackSwitchInfo %}
+{%-     for item in stack.stackSwitchInfo %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.stackMemberNumber }},{{ item.hwPriority }},{{ item.switchPriority }},{{ item.platformId }},{{ item.role }},{{ item.state }},{{ item.macAddress }},{{ item.numNextReload }},{{ item.softwareImage }},{{ item.serialNumber }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if stack.stackPortInfo %}
+{%-     for item in stack.stackPortInfo %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.name }},{{ item.isSynchOk }},{{ item.switchPort }},{{ item.neighborPort }},{{ item.nrLinkOkChanges }},{{ item.stackCableLengthInfo }},{{ item.stackPortOperStatusInfo }},{{ item.linkActive }},{{ item.linkOk }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- if health %}
+{%-     for item in health if item.name == device.hostname %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.overallHealth }},{{ item.reachabilityHealth }},{{ item.issueCount }},{{ item.interfaceLinkErrHealth }},{{ item.interDeviceLinkAvailHealth }},{{ item.interDeviceLinkAvailFabric }},{{ item.cpuHealth }},{{ item.memoryUtilizationHealth }},{{ item.clientCount }},{{ item.freeTimerScore }},{{ item.packetPoolHealth }},{{ item.wqePoolsHealth }},{{ item.wanLinkUtilization }},{{ item.interferenceHealth }},{{ item.noiseHealth }},{{ item.airQualityHealth }},N/A,N/A,N/A,N/A,N/A,N/A,N/A
+{%-     endfor %}
+{%- endif %}
+{%- for item in compliance %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.complianceType }},{{ item.status }},{{ item.state }},{{ item.lastSyncTime }},{{ item.lastUpdateTime }},{%-     if item.message %}{{ item.message }},{%- else %}N/A,{%-     endif %}N/A
+{%-     if item.additionalDataURL %}
+{{ device.hostname }},{{ device.managementState }},{{ device.managedAtleastOnce }},{{ device.description }},{{ device.id }},{{ device.instanceTenantId }},{{ device.location }},{{ device.locationName }},{{ device.tagCount }},{{ device.managementState }},{{ device.bootDateTime }},{{ device.upTime }},{{ device.type }},{{ device.series }},{{ device.family }},{{ device.platformId }},{{ device.lineCardId }},{{ device.lineCardCount }},{{ device.interfaceCount }},{{ device.memorySize }},{{ device.managementIpAddress }},{{ device.macAddress }},{{ device.deviceSupportLevel }},{{ device.serialNumber }},{{ device.apEthernetMacAddress }},{{ device.apManagerInterfaceIp }},{{ device.associatedWlcIp }},{{ device.tunnelUdpPort }},{{ device.waasDeviceMode }},{{ device.softwareType }},{{ device.softwareVersion }},{{ device.role }},{{ device.roleSource }},{{ device.collectionStatus }},{{ device.lastUpdated }} {{ device.lastUpdateTime }},{{ device.collectionInterval }},{{ device.reachabilityStatus }},{{ device.reachabilityFailureReason }},{{ device.errorCode }},{{ device.errorDescription }},{{ device.snmpLocation }},{{ device.snmpContact }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ item.additionalDataURL }}
+{%-     endif %}
+{%- else %}
+{%-     if filetype_loop == 1 %}
+# DNAC Device
+| |
+| |
+
+| |
+
+{%-     else %}
+{%-         if filetype_loop == 2 %}
+<html><body>
+<h1>DNAC Device</h1>
+<table>
+  <thead>
+    <tr>
+
+    </tr>
+  </thead>
+  <tbody>
+
+  <tr>
+
+  </tr>
+
+  </tbody>
+</table>
+</body></html>
+{%-         else %}
+# {{ device.hostname }}
+## Base Details
+### Management State
+#### Management State: {{ device.managementState }}
+#### Managed At Least Once: {{ device.managedAtleastOnce }}
+### Description: {{ device.description }}
+### ID
+#### {{ device.id }}
+##### Tenant: {{ device.instanceTenantId }}
+##### Location: {{ device.location }}
+##### Location Name: {{ device.locationName }}
+##### Tag Count: {{ device.tagCount }}
+### Management State: {{ device.managementState }}
+### Platform
+#### Last Booted: {{ device.bootDateTime }}
+#### Uptime: {{ device.upTime }}
+#### Type: {{ device.type }}
+#### Series: {{ device.series }}
+#### Family: {{ device.family }}
+#### Platform ID: {{ device.platformId }}
+#### Line Card ID: {{ device.lineCardId }}
+#### Line Card Count: {{ device.lineCardCount }}
+#### Interface Count: {{ device.interfaceCount }}
+#### Memory Size: {{ device.memorySize }}
+#### Management IP: {{ device.managementIpAddress }}
+#### MAC Address: {{ device.macAddress }}
+#### Support Level: {{ device.deviceSupportLevel }}
+#### Serial Number: {{ device.serialNumber }}
+#### AP Ethernet MAC Address: {{ device.apEthernetMacAddress }}
+#### AP Manager Interface IP: {{ device.apManagerInterfaceIp }}
+#### Associated WLC IP: {{ device.associatedWlcIp }}
+#### Tunnel UDP Port: {{ device.tunnelUdpPort }}
+#### WAAS Device Mode: {{ device.waasDeviceMode }}
+#### Software
+##### Type: {{ device.softwareType }}
+##### Version: {{ device.softwareVersion }}
+### Role
+#### {{ device.role }}
+#### Source: {{ device.roleSource }}
+### Collection
+#### Status: {{ device.collectionStatus }}
+#### Last Updated: {{ device.lastUpdated }} {{ device.lastUpdateTime }}
+#### Collection Interval: {{ device.collectionInterval }}
+### Reachability
+#### {{ device.reachabilityStatus }}
+#### Failure Reason: {{ device.reachabilityFailureReason }}
+#### Error Code: {{ device.errorCode }}
+#### Error Description: {{ device.errorDescription }}
+### SNMP
+#### Location: {{ device.snmpLocation }}
+#### Contact: {{ device.snmpContact }}
+## Chassis
+{%- for item in chassis %}
+### {{ item.name }}
+#### Description: {{ item.description }}
+#### Part Number: {{ item.partNumber }}
+#### Hardware Version: {{ item.hardwareVersion }}
+#### Serial Number: {{ item.serialNumber }}
+#### Is Reporting Alarms Allowed: {{ item.isReportingAlarmsAllowed }}
+{%- endfor %}
+{%- if powersupply %}
+## Power Supply
+{%-     for item in powersupply %}
+### {{ item.name }}
+#### Description: {{ item.description }}
+#### Part Number: {{ item.productId }}
+#### Vendor Equipment Type: {{ item.vendorEquipmentType }}
+#### Serial Number: {{ item.serialNumber }}
+#### Operational State Code: {{ item.operationalStateCode }}
+{%-     endfor %}
+{%- endif %}
+{%- if fan %}
+## Fan
+{%-     for item in fan if fan %}
+### {{ item.name }}
+#### Description: {{ item.description }}
+#### Part Number: {{ item.productId }}
+#### Vendor Equipment Type: {{ item.vendorEquipmentType }}
+#### Serial Number: {{ item.serialNumber }}
+#### Operational State Code: {{ item.operationalStateCode }}
+{%-     endfor %}
+{%- endif %}
+{%- if backplane %}
+## Backplane
+{%-     for item in backplane if backplane %}
+### {{ item.name }}
+#### Description: {{ item.description }}
+#### Part Number: {{ item.productId }}
+#### Vendor Equipment Type: {{ item.vendorEquipmentType }}
+#### Serial Number: {{ item.serialNumber }}
+#### Operational State Code: {{ item.operationalStateCode }}
+{%-     endfor %}
+{%- endif %}
+{%- if module %}
+## Module
+{%-     for item in module if module %}
+### {{ item.name }}
+#### Description: {{ item.description }}
+#### Part Number: {{ item.productId }}
+#### Vendor Equipment Type: {{ item.vendorEquipmentType }}
+#### Serial Number: {{ item.serialNumber }}
+#### Operational State Code: {{ item.operationalStateCode }}
+{%-     endfor %}
+{%- endif %}
+{%- if processor %}
+## Processor
+{%-     for item in processor if processor %}
+### {{ item.name }}
+#### Description: {{ item.description }}
+#### Part Number: {{ item.productId }}
+#### Vendor Equipment Type: {{ item.vendorEquipmentType }}
+#### Serial Number: {{ item.serialNumber }}
+#### Operational State Code: {{ item.operationalStateCode }}
+{%-     endfor %}
+{%- endif %}
+{%- if other %}
+## Other Parts
+{%-     for item in other if other %}
+### {{ item.name }}
+#### Description: {{ item.description }}
+#### Part Number: {{ item.productId }}
+#### Vendor Equipment Type: {{ item.vendorEquipmentType }}
+#### Serial Number: {{ item.serialNumber }}
+#### Operational State Code: {{ item.operationalStateCode }}
+{%-     endfor %}
+{%- endif %}
+{%- if poe %}
+## Power Over Ethernet
+{%-     for interface in poe %}
+### {{ interface.interfaceName }}
+#### Status
+##### Operational: {{ interface.operStatus }}
+##### Admin: {{ interface.adminStatus }}
+#### Power
+##### Allocated: {{ interface.allocatedPower }}
+##### Maximum: {{ interface.maxPortPower }}
+##### Drawn: {{ interface.portPowerDrawn }}
+{%-     endfor %}
+{%- endif %}
+{%- if vlan %}
+## VLANs
+{%-     for item in vlan %}
+### {{ item.vlanNumber }}
+#### Name: {{ item.interfaceName }}
+{%-         if item.ipAddress %}
+#### IP Address: {{ item.ipAddress }} / {{ item.prefix }}
+#### Network Address: {{ item.networkAddress }}
+#### Number of IPs: {{ item.numberOfIPs }}
+{%-         endif %}
+{%-     endfor %}
+{%- endif %}
+{%- if insightVLAN or insightSpeedDuplex %}
+## Insights
+{%-     if insightVLAN %}
+### Link Mismatch - VLANs
+{%-         for insight in insightVLAN if device.hostname == insight.startDeviceHostName or insight.endDeviceHostName %}
+#### ID: {{ insight.id }}
+##### Type: {{ insight.type }}
+##### Average Update Frequency: {{ insight.avgUpdateFrequency }}
+##### Last Updated: {{ insight.lastUpdated }}
+##### Number of Updates: {{ insight.numUpdates }}
+##### Link Status: {{ insight.linkStatus }}
+##### Start Device
+###### {{ insight.startDeviceHostName }}
+###### ID: {{ insight.startDeviceId }}
+###### IP Address: {{ insight.startDeviceIpAddress }}
+##### End Device
+###### {{ insight.endDeviceHostName }}
+###### End Device ID: {{ insight.endDeviceId }}
+###### IP Address: {{ insight.endDeviceIpAddress }}
+##### Start Port
+###### {{ insight.startPortName }}
+###### ID: {{ insight.startPortId }}
+###### Address: {{ insight.startPortAddress }}
+###### Mask: {{ insight.startPortMask }}
+###### Speed: {{ insight.startPortSpeed }}
+###### Duplex: {{ insight.startPortDuplex }}
+###### PEP ID: {{ insight.startPortPepId }}
+###### Allowed VLAN IDs: {{ insight.startPortAllowedVlanIds }}
+###### Native VLAN: {{ insight.startPortNativeVlanId }}
+##### End Port
+###### {{ insight.endPortName }}
+###### ID: {{ insight.endPortId }}
+###### Address: {{ insight.endPortAddress }}
+###### Mask: {{ insight.endPortMask }}
+###### Speed: {{ insight.endPortSpeed }}
+###### Duplex: {{ insight.endPortDuplex }}
+###### PEP ID: {{ insight.endPortPepId }}
+###### Allowed VLAN IDs: {{ insight.endPortAllowedVlanIds }}
+###### Native VLAN: {{ insight.endPortNativeVlanId }}
+##### Instance Info
+###### ID: {{ insight.instanceUuid }}
+###### Tenant ID: {{ insight.instanceTenantId }}
+{%-         endfor %}
+{%-     endif %}
+{%-     if insightSpeedDuplex %}
+### Link Mismatch - Speed / Duplex
+{%-         for insight in insightSpeedDuplex if device.hostname == insight.startDeviceHostName or insight.endDeviceHostName %}
+#### ID: {{ insight.id }}
+##### Type: {{ insight.type }}
+##### Average Update Frequency: {{ insight.avgUpdateFrequency }}
+##### Last Updated: {{ insight.lastUpdated }}
+##### Number of Updates: {{ insight.numUpdates }}
+##### Link Status: {{ insight.linkStatus }}
+##### Start Device
+###### {{ insight.startDeviceHostName }}
+###### ID: {{ insight.startDeviceId }}
+###### IP Address: {{ insight.startDeviceIpAddress }}
+##### End Device
+###### {{ insight.endDeviceHostName }}
+###### End Device ID: {{ insight.endDeviceId }}
+###### IP Address: {{ insight.endDeviceIpAddress }}
+##### Start Port
+###### {{ insight.startPortName }}
+###### ID: {{ insight.startPortId }}
+###### Address: {{ insight.startPortAddress }}
+###### Mask: {{ insight.startPortMask }}
+###### Speed: {{ insight.startPortSpeed }}
+###### Duplex: {{ insight.startPortDuplex }}
+###### PEP ID: {{ insight.startPortPepId }}
+###### Allowed VLAN IDs: {{ insight.startPortAllowedVlanIds }}
+###### Native VLAN: {{ insight.startPortNativeVlanId }}
+##### End Port
+###### {{ insight.endPortName }}
+###### ID: {{ insight.endPortId }}
+###### Address: {{ insight.endPortAddress }}
+###### Mask: {{ insight.endPortMask }}
+###### Speed: {{ insight.endPortSpeed }}
+###### Duplex: {{ insight.endPortDuplex }}
+###### PEP ID: {{ insight.endPortPepId }}
+###### Allowed VLAN IDs: {{ insight.endPortAllowedVlanIds }}
+###### Native VLAN: {{ insight.endPortNativeVlanId }}
+##### Instance Info
+###### ID: {{ insight.instanceUuid }}
+###### Tenant ID: {{ insight.instanceTenantId }}
+{%-         endfor %}
+{%-     endif %}
+{%- endif %}
+## Interfaces 
+### Application
+{%- for interface in interfaces if interface['portName'].startswith("App") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+### Bluetooth
+{%- for interface in interfaces if interface['portName'].startswith("Blue") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+### Looback
+{%- for interface in interfaces if interface['portName'].startswith("Loop") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+### SVI
+{%- for interface in interfaces if interface['portName'].startswith("Vlan") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+### Fourty Gigabit
+{%- for interface in interfaces if interface['portName'].startswith("Fourty") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+### Twenty Five Gigabit
+{%- for interface in interfaces if interface['portName'].startswith("Twenty") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+### Ten Gigabit
+{%- for interface in interfaces if interface['portName'].startswith("Ten") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+### Gigabit
+{%- for interface in interfaces if interface['portName'].startswith("Giga") %}
+#### {{ interface.portName }}
+##### Description: {{ interface.description }}
+##### Status
+###### Admin: {{ interface.adminStatus }}
+###### Operational: {{ interface.status }}
+##### Addresses
+###### MAC: {{ interface.macAddress }}
+###### IP: {{ interface.ipv4Address }}
+###### Mask: {{ interface.ipv4Mask }}
+##### Physical
+###### Speed: {{ interface.speed }}
+###### Duplex: {{ interface.duplex }}
+###### MTU: {{ interface.mtu }}
+###### Type: {{ interface.interfaceType }}
+###### Media: {{ interface.mediaType }}
+###### Class Name: {{ interface.className }}
+###### Index: {{ interface.ifIndex }}
+###### Power over Ethernet: {{ interface.poweroverethernet }}
+##### Port
+###### Type: {{ interface.portType }}
+###### Mode: {{ interface.portMode }}
+##### VLANs
+###### ID: {{ interface.vlanId }}
+###### Native: {{ interface.nativeVlanId }}
+###### Voice: {{ interface.voiceVlan }}
+##### Routing
+###### OSPF: {{ interface.ospfSupport }}
+###### ISIS: {{ interface.isisSupport }}
+##### Physical Mappings
+###### Name: {{ interface.mappedPhysicalInterfaceName }}
+###### ID: {{ interface.mappedPhysicalInterfaceId }}
+##### ID
+###### {{ interface.id }}
+###### Instance: {{ interface.instanceUuid }}
+###### Tenant: {{ interface.instanceTenantId }}
+##### Last Updated {{ interface.lastUpdated }}
+{%- endfor %}
+## Stack
+{%- if stack.stackSwitchInfo %}
+### Switch Info
+{%-     for item in stack.stackSwitchInfo %}
+#### {{ item.stackMemberNumber }}
+##### Priority 
+###### Hardware: {{ item.hwPriority }}
+###### Switch: {{ item.switchPriority }}
+##### Platform: {{ item.platformId }}
+##### Role: {{ item.role }}
+##### State: {{ item.state }}
+##### MAC Address: {{ item.macAddress }}
+##### Next Reload: {{ item.numNextReload }}
+##### Software Image: {{ item.softwareImage }}
+##### Serial Number: {{ item.serialNumber }}
+{%-     endfor %}
+{%- endif %}
+{%- if stack.stackPortInfo %}
+### Port Info
+{%-     for item in stack.stackPortInfo %}
+#### {{ item.name }}
+##### Is Synch Ok: {{ item.isSynchOk }}
+##### Switchport: {{ item.switchPort }}
+##### Neighbor Port: {{ item.neighborPort }}
+##### Link OK Changes: {{ item.nrLinkOkChanges }}
+##### Stack Cable Length: {{ item.stackCableLengthInfo }}
+##### Stack Port Status: {{ item.stackPortOperStatusInfo }}
+##### Link Active: {{ item.linkActive }}
+##### Link OK: {{ item.linkOk }}
+{%-     endfor %}
+{%- endif %}
+{%- if health %}
+## Health
+{%-     for item in health if item.name == device.hostname %}
+### Overall: {{ item.overallHealth }}
+#### Reachability: {{ item.reachabilityHealth }}
+#### Issue Count: {{ item.issueCount }}
+#### Interface Link Error: {{ item.interfaceLinkErrHealth }}
+#### Inter Device Link Available: {{ item.interDeviceLinkAvailHealth }}
+#### Inter Device Link Available Fabric: {{ item.interDeviceLinkAvailFabric }}
+#### CPU: {{ item.cpuHealth }}
+#### Memory: {{ item.memoryUtilizationHealth }}
+#### Client Count: {{ item.clientCount }}
+#### Free Timer: {{ item.freeTimerScore }}
+#### Packet Pool: {{ item.packetPoolHealth }}
+#### WQE Pools: {{ item.wqePoolsHealth }}
+#### WAN Link Utilization: {{ item.wanLinkUtilization }}
+#### Interference: {{ item.interferenceHealth }}
+#### Noise: {{ item.noiseHealth }}
+#### Air Quality: {{ item.airQualityHealth }}
+{%-     endfor %}
+{%- endif %}
+## Compliance
+{%- for item in compliance %}
+### {{ item.complianceType }}
+#### Status: {{ item.status }}
+#### State: {{ item.state }}
+#### Last Contact
+##### Sync: {{ item.lastSyncTime }}
+##### Update: {{ item.lastUpdateTime }}
+{%-     if item.message %}
+#### Message: {{ item.message }}
+{%-     endif %}
+{%-     if item.additionalDataURL %}
+#### [Additional Info]({{ item.additionalDataURL }})
+{%-     endif %}
+{%- endfor %}
+{%-         endif %}
+{%-     endif %}
+{%- endif %}
