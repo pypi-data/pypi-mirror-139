@@ -1,0 +1,2 @@
+[console_scripts]
+dijitso = dijitso.__main__:main
