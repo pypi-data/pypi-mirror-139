@@ -1,0 +1,5 @@
+mako
+setuptools
+twine
+typer
+uvicorn
