@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: physiofit
+Version: 2.0b2
+Summary: Calculate extracellular fluxes from metabolite concentrations and biomass data
+Home-page: https://github.com/MetaSys-LISBP/PhysioFit
+Author: Loïc Le Grégam
+Author-email: legregam@insa-toulouse.fr
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MetaSys-LISBP/PhysioFit/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: streamlit (>=1.5.0)
+Requires-Dist: matplotlib
+Requires-Dist: openpyxl
+
+# PhysioFit
+
+PhysioFit is a scientific tool designed to i) quantify exchange (production and consumption) fluxes and  ii) cell growth rate during (batch) cultivations of microorganisms. Fluxes are estimated from time-course measurements of extracellular metabolites and biomass concentrations. An important assumption is that cells are in metabolic (pseudo) steady-state.
+
+PhysioFit includes the following features:
+-	Calculation of growth rate and extracellular (uptake and production) fluxes.
+-	Lag before growth (e.g. due to adaptation to a novel environment) can be taken into account and estimated.
+-	Non-enzymatic degradation of some carbon sources (e.g. DHA or glutamine) can be estimated and taken into account when calculating exchange fluxes.
+-	Sensitivity analyses are performed to estimate the precision of the calculated fluxes.
+-	Evaluation of the goodness of fit and visual inspection of the fitted curves.
+
+
