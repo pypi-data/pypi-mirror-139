@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/GitEdit.egg-info/PKG-INFO
+src/GitEdit.egg-info/SOURCES.txt
+src/GitEdit.egg-info/dependency_links.txt
+src/GitEdit.egg-info/top_level.txt
+src/editfile/__init__.py
+src/editfile/util.py
