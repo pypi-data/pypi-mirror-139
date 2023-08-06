@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: parsedan
+Version: 0.0.3a2
+Summary: A shodan parser that given a query will download results and parse them into CSV or JSON files while also scoring them.
+Home-page: https://github.com/SDMI-Developers/parsedan
+Author: Louisiana State University at Stephenson Disaster Management Institute
+Author-email: sdmidev@lsu.edu
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+README
+
