@@ -1,0 +1,13 @@
+line-profiler
+qtpy
+
+[PyQt5]
+pyqt5
+
+[PySide2]
+pyside2
+
+[test]
+pytest
+pytest-qt
+pytest-cov
