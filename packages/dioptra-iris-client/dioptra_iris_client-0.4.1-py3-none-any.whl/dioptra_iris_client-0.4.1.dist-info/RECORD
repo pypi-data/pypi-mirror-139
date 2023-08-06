@@ -1,0 +1,9 @@
+iris_client/__init__.py,sha256=kDfcVXL2VI0CiG8y35WOPHrcKSlgMw6_bs0V4XpWGOw,126
+iris_client/client.py,sha256=ziKslyUi5SxEnPNJVRWx10G8dgiIv8d0F4N2CVzQx90,3817
+iris_client/constants.py,sha256=r2ckm5M87cTEX7BM6fsCkWK_pHhsHGy9WRQSlB-BQOQ,285
+iris_client/logger.py,sha256=HelmBBH78U_X7hWNodcZWoVkREW4xHbKMDbViD6Z--I,58
+iris_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dioptra_iris_client-0.4.1.dist-info/LICENSE,sha256=OHcbSFiDWxZ8MRbiJQVh13feK5xbTaJzr3JBdwNkuVE,1077
+dioptra_iris_client-0.4.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dioptra_iris_client-0.4.1.dist-info/METADATA,sha256=Lk5rxsxzWH0kMTFIB4d5o0VyZ4UOON4JuXk4HH3JPqk,2608
+dioptra_iris_client-0.4.1.dist-info/RECORD,,
