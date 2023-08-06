@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ez_pd
+Version: 1.1
+Summary: This is a package to make it easier to use pandas for bundling
+Home-page: https://https://github.com/fabi-ignacio
+Author: Fabian Matus
+Author-email: fabiax.e.m10@gmail.com
+License: MIT
+Download-URL: https://github.com/fabi-ignacio/ez-pandas/archive/refs/tags/v1.tar.gz
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
