@@ -1,0 +1,5 @@
+numpy>=1.16.5
+pandas>=0.25.3
+matplotlib>=2.2.4
+joblib>=0.11
+subprocess32>=3.5.4
