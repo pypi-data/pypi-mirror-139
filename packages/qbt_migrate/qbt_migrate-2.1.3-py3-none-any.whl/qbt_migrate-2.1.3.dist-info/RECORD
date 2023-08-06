@@ -1,0 +1,13 @@
+qbt_migrate/__init__.py,sha256=qdAwa74E4B8INytjan7Rjl8g3ThXQIQ6BXp0l-w371w,195
+qbt_migrate/classes.py,sha256=O-Uz0KNLZ-QXB-tkO669MERjnf99V4ZcF_GOBL72XuM,8038
+qbt_migrate/cli.py,sha256=SXyq55ZWGlBOsFXO0m0XqnJg18z9ExKnmrd7nvwahso,3089
+qbt_migrate/methods.py,sha256=Thog1gUeozUOuMaG1hieaUTg0EFWIn1cYL0snAo4JtE,1769
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_methods.py,sha256=KRoJRIzaBzLlirtE_O5AlZRFwLiwaDit2VWMhC9q-u4,1184
+tests/test_qbt_migrate.py,sha256=imcIsfJNDdEXdimc6vktJmAz96-V39zP76hWmw1a_MA,428
+qbt_migrate-2.1.3.dist-info/LICENSE.md,sha256=Oxk3WmxNzSEI5vMoNl_om5yAPdVdQjIXvhhyAKP8RCY,1079
+qbt_migrate-2.1.3.dist-info/METADATA,sha256=oNg6bmS5fp-T5dyLdxMxEUxpOklMhCsDTHJ575Q6DJU,6327
+qbt_migrate-2.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+qbt_migrate-2.1.3.dist-info/entry_points.txt,sha256=gJlLv4omxWESJ3ZqWZwymJSaKgcM0ossBV1PnvEGM10,54
+qbt_migrate-2.1.3.dist-info/top_level.txt,sha256=-c4FYGhS1sW4H1EiAVvlMxZhcHj-ehbsFDWXIwp1ZKw,18
+qbt_migrate-2.1.3.dist-info/RECORD,,
