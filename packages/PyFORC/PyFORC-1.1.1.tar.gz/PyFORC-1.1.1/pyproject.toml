@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "bump2version",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.interrogate]
+ignore-init-method = true
+ignore-init-module = true
+ignore-magic = true
+ignore-module = true
