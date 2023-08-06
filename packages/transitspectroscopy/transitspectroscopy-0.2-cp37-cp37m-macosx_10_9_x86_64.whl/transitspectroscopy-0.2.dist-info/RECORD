@@ -1,0 +1,12 @@
+Marsh.cpython-37m-darwin.so,sha256=6mctl9M_HCdiyxr5lyeUP8bG52CfPyHasXdSCz1ENQk,89456
+transitspectroscopy/__init__.py,sha256=msgX1yrIT9rkLrjl3SoTwdRtKCNlook3qd2NVyqNQ1c,196
+transitspectroscopy/_version.py,sha256=Myupfp18EVZacE4Tp7qYqYpimE8TWJJr-zQjrBwIJiA,20
+transitspectroscopy/jwst.py,sha256=SS_CK_jMFYyxw1OnhPYrIK5ULE9cDq0wrinyWA3lHbA,34623
+transitspectroscopy/spectroscopy.py,sha256=nhvPd2CrRa0vLGD1JAGybZVwPP_izMlQzHGUAUfI5lg,21985
+transitspectroscopy/transitfitting.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transitspectroscopy/utils.py,sha256=FZiY6zycjL9AO-RqKtZWNMCM6G5ae1q4p9x0-N21TS0,2895
+transitspectroscopy-0.2.dist-info/LICENCE,sha256=_mwoWNGaXT1A9kHdV47qeWLhVHJHYeFukhMCBX3CT4A,1060
+transitspectroscopy-0.2.dist-info/METADATA,sha256=Yu6xLh5Hh1KdGZpAkI0OCVWK-XWK0zcmnUHy2jLehkg,1321
+transitspectroscopy-0.2.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+transitspectroscopy-0.2.dist-info/top_level.txt,sha256=a6pHI1GUnB9fKoTlDv3T2L_HnvaUOxum0IZvhaqiTXU,26
+transitspectroscopy-0.2.dist-info/RECORD,,
