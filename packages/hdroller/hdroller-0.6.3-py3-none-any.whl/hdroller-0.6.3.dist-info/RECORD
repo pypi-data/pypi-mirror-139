@@ -1,0 +1,16 @@
+hdroller/__init__.py,sha256=dtI0qztqTOMscr78MTlXjLmIxtm0VAPAtqR6zf1sIS0,1384
+hdroller/collections.py,sha256=XvSnLq9t17rtdZAEQ1AxrPMuIa_np1SJEcnxhtUcNuY,1976
+hdroller/eval_pool.py,sha256=VtjYRaRmQ2rSYokqF6RNhVjwCNlkxxtKAaqlOguKUo4,16341
+hdroller/math.py,sha256=rXUeJPgWM6uc52genbF_TaKbVjZ3wIVb3PU7_u8vTPc,433
+hdroller/pool.py,sha256=D7jf49FLRL00pcl0UEO4y1dPut1NMMHFb8DCaUPGEWA,25092
+hdroller/tournament.py,sha256=7UDhYFlsP-wyfhJ4hpWmsljgT3dzRl9TSyKRswfJ0Ok,794
+hdroller/die/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hdroller/die/base.py,sha256=D0y05pxljMKrifRd3er3Bas39YKSY-1URguEYpsCiSw,37596
+hdroller/die/func.py,sha256=pYx_3MRmEvstdTVbVAZAECShUpC6PxPpf63jpmiGGqo,13058
+hdroller/die/scalar.py,sha256=6wswP1DBlQdmhPCrCU2Opcaur9pw-Zn6nggKy5WVn_I,9552
+hdroller/die/vector.py,sha256=BIs2qI3rFi_UwfrJJ1EnA5NUWK0qw2TfWtRpn-vnrN4,6674
+hdroller-0.6.3.dist-info/LICENSE.md,sha256=BfrIRapfjcV9Vd_FYUJGBzshkNXUfsqCEK5ohX2uADA,1155
+hdroller-0.6.3.dist-info/METADATA,sha256=w3UMjD4NmQfMy3IlSQOvosp-047SKcoiYDdwfKjzBeE,3472
+hdroller-0.6.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hdroller-0.6.3.dist-info/top_level.txt,sha256=wiL4LFQhQepCCO0mAPNVWWREiiQ8UmW5Usm_QUT7TS0,9
+hdroller-0.6.3.dist-info/RECORD,,
