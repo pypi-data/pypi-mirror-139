@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: coshed-flask
+Version: 0.16.0
+Summary: flask helper for lazy developer(s)
+Author: doubleO8
+Author-email: wb008@hdm-stuttgart.de
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=2.0.2,<3.0.0)
+Requires-Dist: Flask-Compress (>=1.10.1,<2.0.0)
+Requires-Dist: Flask-Cors (>=3.0.10,<4.0.0)
+Requires-Dist: Flask-HTTPAuth (>=4.5.0,<5.0.0)
+Requires-Dist: Werkzeug (>=2.0.3,<3.0.0)
