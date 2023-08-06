@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: fibermagic
+Version: 0.1.4
+Summary: Python package for Fiber Photometry Data Analysis
+Home-page: https://github.com/Goreg12345/fibermagic
+Author: fibermagic
+Author-email: mail@georglange.com
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: plotly
+Requires-Dist: dash
+
+==========
+fibermagic
+==========
+
+.. image:: https://img.shields.io/travis/Goreg12345/fibermagic.svg
+        :target: https://travis-ci.org/Goreg12345/fibermagic
+
+.. image:: https://img.shields.io/pypi/v/fibermagic.svg
+        :target: https://pypi.python.org/pypi/fibermagic
+
+
+Python package for Fiber Photometry Data Analysis
+
+* Free software: 3-clause BSD license
+* Documentation: (COMING SOON!!) https://Goreg12345.github.io/fibermagic.
+
+Features
+--------
+
+* TODO
+
+
