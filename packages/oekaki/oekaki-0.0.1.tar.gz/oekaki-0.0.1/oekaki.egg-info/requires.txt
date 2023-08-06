@@ -1,0 +1,7 @@
+matplotlib
+
+[dev]
+pytest
+
+[ja]
+japanize-matplotlib
