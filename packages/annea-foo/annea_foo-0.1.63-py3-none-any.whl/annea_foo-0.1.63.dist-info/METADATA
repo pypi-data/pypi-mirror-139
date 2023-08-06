@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: annea-foo
+Version: 0.1.63
+Summary: An example python package
+Home-page: https://github.com/annea-ai/python-framework/tree/master/libs/annea_foo
+Author: horken7
+Author-email: Johan Larsson Hörkén <johan.horken@annea.ai>
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: annea-bar (==0.1.0)
+
+Foo
+===
+
+An example lib with dependency to another lib
+
