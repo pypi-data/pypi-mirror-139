@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: data-disaggregation
+Version: 0.1.0
+Summary: TODO SHORT DESCRIPTION
+Home-page: https://github.com/wingechr/data-disaggregation
+Author: Christian Winger
+Author-email: c.winger@oeko.de
+Maintainer: Christian Winger
+Maintainer-email: c.winger@oeko.de
+License: GPLv3+
+Download-URL: https://github.com/wingechr/data-disaggregation
+Project-URL: Bug Tracker, https://github.com/wingechr/data-disaggregation
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+## Install
+
+```bash
+pip install data-disaggregation
+```
+
+## Quickstart
+
+```python
+from data_disaggregation import Dimension, Variable
+
+time = Dimension("time")
+hours = time.add_level("hours", [1, 2, 3])
+
+
+```
+
+
