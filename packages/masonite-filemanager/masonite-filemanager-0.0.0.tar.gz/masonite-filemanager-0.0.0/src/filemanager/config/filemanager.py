@@ -1,0 +1,3 @@
+FILEMANAGER = {
+    'name': 'Filemanager',
+}
