@@ -1,0 +1,13 @@
+discretisedfield~=0.61.0
+ubermagtable~=0.61.0
+
+[dev]
+build
+invoke
+pre-commit
+twine
+
+[test]
+nbval
+pytest
+pytest-cov
