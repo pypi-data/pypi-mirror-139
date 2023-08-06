@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: aiida-environ
+Version: 1.0.0
+Summary: AiiDA plugin for Environ
+Keywords: aiida,workflows,environ
+Author: MateriaLAB
+Author-email: materialab@unt.edu
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiida_core>=1.6
+Requires-Dist: aiida_quantumespresso>=3.5
+Requires-Dist: numpy
+Requires-Dist: Sphinx ; extra == "docs"
+Requires-Dist: pytest~=6.0 ; extra == "tests"
+Project-URL: source, https://github.com/environ-developers/aiida-environ
+Provides-Extra: docs
+Provides-Extra: tests
+
+# `aiida-environ`
+
+This plugin builds on top of [aiida-quantumespresso](https://github.com/aiidateam/aiida-quantumespresso).
+
+## Compatibility
+
+Currently tested with aiida-core~1.6 and aiida-quantumespresso~3.5
+
+## Installation
+
+To install from PyPI,
+
+    pip install aiida-environ
+
+To install from source
+
+    git clone https://github.com/environ-developers/aiida-environ
+    pip install aiida-environ
+
+## License
+
+See the `LICENSE.txt` file for more details.
+
+
