@@ -1,0 +1,34 @@
+[console_scripts]
+kiara = kiara.interfaces.cli:cli
+
+[kiara.metadata_models]
+python_class = kiara.metadata.core_models:PythonClassMetadata
+
+[kiara.modules]
+metadata.python_class = kiara.modules.metadata:ExtractPythonClass
+pipeline = kiara.pipeline.module:PipelineModule
+value.hash = kiara.operations.calculate_hash:CalculateValueHashModule
+value.pretty_print = kiara.operations.pretty_print:PrettyPrintValueModule
+
+[kiara.operation_types]
+all = kiara.operations:AllOperationType
+calculate_hash = kiara.operations.calculate_hash:CalculateHashOperationType
+create = kiara.operations.create_value:CreateValueOperationType
+export = kiara.operations.data_export:ExportDataOperationType
+extract_metadata = kiara.operations.extract_metadata:ExtractMetadataOperationType
+import = kiara.operations.data_import:ImportDataOperationType
+pretty_print = kiara.operations.pretty_print:PrettyPrintOperationType
+sample = kiara.operations.sample:SampleValueOperationType
+serialize = kiara.operations.serialize:SerializeValueOperationType
+store_value = kiara.operations.store_value:StoreOperationType
+
+[kiara.value_types]
+any = kiara.data.types.core:AnyType
+deserialize_config = kiara.data.types.core:DeserializeConfigData
+load_config = kiara.data.types.core:LoadConfigData
+value_info = kiara.data.types.core:ValueInfoData
+value_lineage = kiara.data.types.core:ValueLineageData
+
+[mkdocs.plugins]
+frkl-docgen = kiara.doc:FrklDocumentationPlugin
+
