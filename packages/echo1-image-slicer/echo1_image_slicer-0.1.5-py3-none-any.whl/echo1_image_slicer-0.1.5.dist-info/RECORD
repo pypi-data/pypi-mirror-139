@@ -1,0 +1,9 @@
+LICENSE,sha256=3V4H2N8nGaV7aksOwxTeDRU19HMDww4oY0-OnVJSrs8,1076
+echo1_image_slicer/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+echo1_image_slicer/echo1_image_slicer.py,sha256=2e8QsaTt4OvjWvD6tucgblnhdMMTj1om3xXsA1azTRw,3390
+echo1_image_slicer/helpers/sahi.py,sha256=l2WfrVS30MvvA0hSYkYMR9lLlsyQgytjMzoxJUkT5dI,5084
+echo1_image_slicer-0.1.5.dist-info/entry_points.txt,sha256=hk-uZo--G1jN7mrB8a9B2Dz0SpmUlvdT4XBkz0IWFyo,74
+echo1_image_slicer-0.1.5.dist-info/LICENSE,sha256=3V4H2N8nGaV7aksOwxTeDRU19HMDww4oY0-OnVJSrs8,1076
+echo1_image_slicer-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+echo1_image_slicer-0.1.5.dist-info/METADATA,sha256=Jbz4W9gfGPImgGnw60c3ScyV9C8sq5toKD6DyNPaX0s,2817
+echo1_image_slicer-0.1.5.dist-info/RECORD,,
