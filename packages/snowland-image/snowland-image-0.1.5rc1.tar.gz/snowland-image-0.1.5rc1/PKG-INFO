@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: snowland-image
+Version: 0.1.5rc1
+Summary: toolkit for image
+Home-page: https://github.com/AAFun/scikit-snowland
+Author: A.Star
+Author-email: astar@snowland.ltd
+Maintainer: A.Star
+Maintainer-email: astar@snowland.ltd
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: gis_tool
+Provides-Extra: database_tool
+License-File: LICENSE
+
+snowland-image
+==============
+
+|version| |gitee| |github| |download| |wheel| |status|
+
+参考资料
+~~~~~~~~
+
+[1] https://github.com/ASTARCHEN/astartool
+
+[2] https://github.com/astar-club/astar-devopstool-python
+
+.. |version| image:: https://img.shields.io/pypi/v/snowland-image.svg
+   :target: https://pypi.python.org/pypi/snowland-image
+.. |gitee| image:: https://gitee.com/snowlandltd/scikit-snowland/badge/star.svg
+   :target: https://gitee.com/snowlandltd/scikit-snowland/stargazers
+.. |github| image:: https://img.shields.io/github/stars/astar-club/scikit-snowland
+   :target: https://img.shields.io/github/stars/astar-club/scikit-snowland
+.. |download| image:: https://img.shields.io/pypi/dm/snowland-image.svg
+   :target: https://pypi.org/project/snowland-image
+.. |wheel| image:: https://img.shields.io/pypi/wheel/snowland-image.svg
+   :target: https://pypi.python.org/pypi/snowland-image
+.. |status| image:: https://img.shields.io/pypi/status/snowland-image.svg
+
+
