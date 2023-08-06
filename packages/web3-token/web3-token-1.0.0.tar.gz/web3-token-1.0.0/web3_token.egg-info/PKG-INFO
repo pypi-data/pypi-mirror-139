@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: web3-token
+Version: 1.0.0
+Summary: Web3 Token implementation for python
+Home-page: https://github.com/MetaAdsTeam/web3-token-python
+Download-URL: https://github.com/MetaAdsTeam/web3-token-python/archive/v_1_0_3.tar.gz
+Author: Alex Dudko
+Author-email: duke@simfik.ru
+License: MIT
+Keywords: web,web3,web3-token,etherium,crypto,blockchain
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Web3 Token implementation for python
+
+Using this package you can verify web3 token, get signer, signed message and statement  
+
+###  Getting it  
+  
+To download web3-token, either fork this github repo or simply use PyPI via pip.  
+```sh
+$ pip install web3-token
+```
+  
+## Usage  
+
+1 - Import  
+```python
+from web3_token import Web3Token
+```
+  
+2 - Usage:  
+```python
+wt = Web3Token(token)
+
+signer = wt.get_signer(validate=True)
+
+token_data = wt.get_data()
+
+statement = wt.statement
+```
+
+

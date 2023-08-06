@@ -1,0 +1,12 @@
+LICENSE.txt
+README
+README.md
+setup.cfg
+setup.py
+web3_token/__init__.py
+web3_token/web3_token.py
+web3_token.egg-info/PKG-INFO
+web3_token.egg-info/SOURCES.txt
+web3_token.egg-info/dependency_links.txt
+web3_token.egg-info/requires.txt
+web3_token.egg-info/top_level.txt
