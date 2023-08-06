@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+dm_easy_email.egg-info/PKG-INFO
+dm_easy_email.egg-info/SOURCES.txt
+dm_easy_email.egg-info/dependency_links.txt
+dm_easy_email.egg-info/top_level.txt
+src/__init__.py
+src/easy_email.py
