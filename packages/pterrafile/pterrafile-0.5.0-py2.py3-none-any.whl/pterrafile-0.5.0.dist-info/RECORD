@@ -1,0 +1,11 @@
+pterrafile/__init__.py,sha256=KM8Di6RRT9gVdxYgdxZUt2yePtimOj78fZeps4jx0VQ,7882
+pterrafile/__main__.py,sha256=ayn68fy9wsdTzUyj_RyMklGd4K1VIaW4vV30mrbT-jQ,160
+pterrafile/constants.py,sha256=PjQusLy_G62Rw5KS7_eum8dbu0v16PKPVP3wnzD-rI8,196
+pterrafile/patch.py,sha256=sKiA-YE2DACLVJ_ARO65MI4WzPzMdhJBBEBhwAYgezg,2423
+pterrafile/repository.py,sha256=ZpASnIJhze6eozJzZr1DEs6oaTplbMKrT_fWpT2XxF4,3325
+pterrafile-0.5.0.data/scripts/pterrafile,sha256=HfgJLdqc4NLcsqCTPWQVNbcqpTTz6L3tW8d56-9s2OI,37
+pterrafile-0.5.0.dist-info/LICENSE,sha256=1aV2MrSDZ7G9S9urPX5Qyj0JB2GTOoW87y9k4jeOp-w,1065
+pterrafile-0.5.0.dist-info/METADATA,sha256=SLE7iqR1haFisRKD03rr-pesW-Jwhl6hWg7T5c8OWvU,332
+pterrafile-0.5.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pterrafile-0.5.0.dist-info/top_level.txt,sha256=j9ogYBbcHEvJFh3K1JvPWYLhb8iIDPhDyt8mzwiJqPo,11
+pterrafile-0.5.0.dist-info/RECORD,,
