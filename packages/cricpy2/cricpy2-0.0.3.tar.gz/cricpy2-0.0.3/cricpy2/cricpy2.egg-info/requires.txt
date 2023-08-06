@@ -1,0 +1,4 @@
+python-dotenv
+twine
+setuptools
+wheel
