@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "patternProperties": {
+    "^__[a-z]+__$": {}
+  },
+  "properties": {
+    "__type__": {
+      "enum": [ "composite" ]
+    },
+    "include": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "opacity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "compop": {
+      "type": "string"
+    }
+  }
+}
