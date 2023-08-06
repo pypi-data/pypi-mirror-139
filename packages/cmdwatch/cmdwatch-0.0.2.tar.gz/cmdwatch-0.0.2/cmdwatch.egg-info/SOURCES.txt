@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cmdwatch.egg-info/PKG-INFO
+cmdwatch.egg-info/SOURCES.txt
+cmdwatch.egg-info/dependency_links.txt
+cmdwatch.egg-info/entry_points.txt
+cmdwatch.egg-info/top_level.txt
+cmdwatcher/__init__.py
+cmdwatcher/__main__.py
