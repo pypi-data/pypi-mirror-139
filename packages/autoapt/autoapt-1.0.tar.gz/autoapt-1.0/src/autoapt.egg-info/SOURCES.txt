@@ -1,0 +1,10 @@
+LICENSE
+README
+pyproject.toml
+setup.cfg
+src/autoapt/__init__.py
+src/autoapt.egg-info/PKG-INFO
+src/autoapt.egg-info/SOURCES.txt
+src/autoapt.egg-info/dependency_links.txt
+src/autoapt.egg-info/top_level.txt
+test/test.py
