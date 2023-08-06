@@ -1,0 +1,6 @@
+[console_scripts]
+node = nvshim.core.shim:main
+npm = nvshim.core.shim:main
+npx = nvshim.core.shim:main
+nvm = nvshim.core.shim_nvm:main
+
