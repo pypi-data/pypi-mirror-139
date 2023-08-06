@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: foundrydeploy
+Version: 0.1.0
+Summary: basic wrapper around `forge create` and `cast send` for basic deployment flows
+Home-page: 
+Author: joshie
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
