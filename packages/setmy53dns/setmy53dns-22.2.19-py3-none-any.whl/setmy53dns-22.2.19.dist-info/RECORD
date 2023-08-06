@@ -1,0 +1,12 @@
+getmyip/__init__.py,sha256=NC0TgKEJfG-cqAEsYQtk9TlaG3-4HHxU7TY4f76GAFI,43
+getmyip/getmyip.py,sha256=qawv82hpsqaZpAWsS0GZjpvwlM8DS2i8b8OMAG4BPn8,977
+r53dns/__init__.py,sha256=GAM1_j2QlDVwViV5zkGWb3ZqA_5FlEJZ14XEow9UhGE,52
+r53dns/r53_dns.py,sha256=lP1axJOqizY61bqOX1UlfzNuRY4lZgBTeh1ZFqE9lgc,6876
+setmy53dns/__init__.py,sha256=lztGtbkM9UzEx4td5EGLLaf6le6yIJSiOw6jxIHpFdw,39
+setmy53dns/set_my_rt53_dns.py,sha256=s-3wRM8GLuldkatmoPX2UmzkAurSZYk7B3whBo4fYyc,3736
+setmy53dns-22.2.19.data/scripts/setmy53dns,sha256=cdSAsl37t1dMNUa1s6wouEq6-N8mnyUu-tGf2vxQF_8,89
+setmy53dns-22.2.19.dist-info/LICENSE.txt,sha256=IsKhNAExnuxGLWUOpUYTEH0JttGV2QexZXW-ttXs0YE,1067
+setmy53dns-22.2.19.dist-info/METADATA,sha256=G1JzBPx6sHUphS2_cs3zyXK8KWcDATbrpMRsm7nXbUw,6759
+setmy53dns-22.2.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+setmy53dns-22.2.19.dist-info/top_level.txt,sha256=THWXFJfOvE3hKpV08teQ9yi8a8KQfaVmKQfGua56QxE,26
+setmy53dns-22.2.19.dist-info/RECORD,,
