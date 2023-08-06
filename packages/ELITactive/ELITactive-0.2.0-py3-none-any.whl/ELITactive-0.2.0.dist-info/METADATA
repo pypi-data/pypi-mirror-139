@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ELITactive
+Version: 0.2.0
+Summary: ELIT active package
+Home-page: UNKNOWN
+Author: Kevin M. Roccapriore
+License: UNKNOWN
+Keywords: ELIT,nionswift
+Platform: UNKNOWN
+Requires-Python: ~=3.6
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: torch
+
+UNKNOWN
+
+
