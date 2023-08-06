@@ -1,0 +1,2 @@
+version = "0.36.*"
+requires = ["types-flask", "marshmallow", "apispec"]
