@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+django_ssl_smtp.egg-info/PKG-INFO
+django_ssl_smtp.egg-info/SOURCES.txt
+django_ssl_smtp.egg-info/dependency_links.txt
+django_ssl_smtp.egg-info/top_level.txt
