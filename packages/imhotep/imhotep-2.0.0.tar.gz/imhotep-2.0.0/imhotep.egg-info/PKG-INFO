@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: imhotep
+Version: 2.0.0
+Summary: A tool to pipe linters into code review
+Home-page: https://github.com/justinabrahms/imhotep
+Author: Justin Abrahms
+Author-email: justin@abrah.ms
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.0
+Provides-Extra: pylint
+License-File: LICENSE
+
+UNKNOWN
+

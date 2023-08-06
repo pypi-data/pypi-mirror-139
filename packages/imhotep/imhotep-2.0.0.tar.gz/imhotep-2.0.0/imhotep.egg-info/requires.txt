@@ -1,0 +1,5 @@
+requests==2.20.0
+six
+
+[pylint]
+PyLint
