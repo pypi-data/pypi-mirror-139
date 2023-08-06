@@ -1,0 +1,10 @@
+clippynote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clippynote/__main__.py,sha256=ssf5MFib_Eu7Ldy3lHiGf2Xdu4UgwP1sXWYOeWQF0jk,79
+clippynote/cli.py,sha256=tDGWgZq-URowd0uXUsYRgrcYIgDRnp499sT1Sg0fHJw,2876
+clippynote/note.py,sha256=IjEYWtmiJpEfgrtXBNh9FMR3KSzopLG2gQ82Q4YSfDI,4779
+clippynote-1.0a1.dist-info/LICENSE,sha256=NQLIvkU93RcuBNxKeTRncSIZ3q7kuwTl9-NPUVixyD0,1084
+clippynote-1.0a1.dist-info/METADATA,sha256=0DkEmDGAEaf18jMTEZ9TZtzrMnoMy_nTErf2v5VpR7g,719
+clippynote-1.0a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+clippynote-1.0a1.dist-info/entry_points.txt,sha256=kDSePA7pvZAfoThYhkvgvomfAA9jY5vtHbLatAtkNg4,48
+clippynote-1.0a1.dist-info/top_level.txt,sha256=zUqHZ2SaiEprLYyinypVxDKfWZprbGNtuyqjRiBIKmM,11
+clippynote-1.0a1.dist-info/RECORD,,
