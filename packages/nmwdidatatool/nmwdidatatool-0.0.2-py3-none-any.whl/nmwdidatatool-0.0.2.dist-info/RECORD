@@ -1,0 +1,9 @@
+datatool/__init__.py,sha256=fZZ10RBG8qIlHZtBlp6nUisP3zgJdIckvziVxmp4o4U,796
+datatool/cli.py,sha256=e4GWIYL9y3T4dPb5UroP1Be2RsBnt_DTsRcXiZthgQo,11227
+datatool/persister.py,sha256=EG79oHZKPibgmXPDM66ww7wAgFNYt4n4Ru_AK5WNQFk,5558
+nmwdidatatool-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nmwdidatatool-0.0.2.dist-info/METADATA,sha256=UwrNiI7ugG5YTkTkz8jQ_tU-jtEf1djQHsmcKONH7PQ,694
+nmwdidatatool-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nmwdidatatool-0.0.2.dist-info/entry_points.txt,sha256=rMaXURnwFFbj3wHWIoJM3RzuDegUm95fvKKnEE9n_aw,43
+nmwdidatatool-0.0.2.dist-info/top_level.txt,sha256=ZZ5kqRhwHJ-Gw21ALgWZoyIoyfqK-hER_iMHtCwPIWA,9
+nmwdidatatool-0.0.2.dist-info/RECORD,,
