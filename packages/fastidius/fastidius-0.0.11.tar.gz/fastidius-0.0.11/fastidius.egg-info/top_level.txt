@@ -1,0 +1,2 @@
+fastidius
+fastidius_cli
