@@ -1,0 +1,14 @@
+beschi/__init__.py,sha256=DrQW0cn2hf9a7R5NpvHCbkKv4ahGAHpvZGeZZXvltcc,42
+beschi/cli.py,sha256=vEzdHlN8UgxZS74NPXH5nKWs--MtaBWoaR4dUzTjiBY,1739
+beschi/protocol.py,sha256=Ti15UVu-mSJZZ6M05mo0HyYHRC4XreVLevq_sC18XSw,5405
+beschi/writer.py,sha256=khZXJ8mbXBizorE0MmFRg4AvlBsjiLgnCSToS9vrzPM,1317
+beschi/writers/__init__.py,sha256=GvL_huY_9WCn5Dh6mWJbsBp1SvoN6dSLBmmZgTkwuC8,518
+beschi/writers/csharp.py,sha256=AkdzpbWqNlXvi1TbO70FMvTrdXYJhc9BfWGAk4RDLAk,13394
+beschi/writers/go.py,sha256=aqCrCwfKq7IYNGTFVO-WrTCZaH8tRjVFqpkKAnV7cR0,15250
+beschi/writers/typescript.py,sha256=gQ3mSpg7pSXm4n7FuLFDjchsx_LBIp-paRf_7zGs8vs,16742
+Beschi-0.1.0.dist-info/LICENSE.txt,sha256=j28mLsxm3JOj7YSZjjcd3TdTECpgFNNp6uv2PwagFfU,1092
+Beschi-0.1.0.dist-info/METADATA,sha256=41h2_SjJvp22NzFQ-ywE3UHeExCIsXWVnuE05xSVLL8,16718
+Beschi-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Beschi-0.1.0.dist-info/entry_points.txt,sha256=XfrN1aM58jjE7ocki6wdiVIiu7Rh9L426T82yj4nOjY,43
+Beschi-0.1.0.dist-info/top_level.txt,sha256=rz5lQQm46fQYydrPTJ_eeYGT_NWIDgdGaWSk8SIVCz4,7
+Beschi-0.1.0.dist-info/RECORD,,
