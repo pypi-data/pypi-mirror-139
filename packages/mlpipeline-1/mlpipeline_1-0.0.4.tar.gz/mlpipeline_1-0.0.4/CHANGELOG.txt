@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.4 (18/02/2022)
+--------------------
+- This is my Fourth Release of the project with some changes solving some errors from the version issue and updating the readme file for better clarity for the users on how to use this.
