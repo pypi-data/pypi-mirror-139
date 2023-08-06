@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pypipublishtest
+Version: 0.1.9
+Summary: 
+License: MIT
+Author: Nicholas
+Author-email: duzilin@hotmail.co.za
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# pypipublishtest
+
+
+
+## Testing things that shouldn't work:
+- correct tag x
+- missing tag
+- incorrect tag
