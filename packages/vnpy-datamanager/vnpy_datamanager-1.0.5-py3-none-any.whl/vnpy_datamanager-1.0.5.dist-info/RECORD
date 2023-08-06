@@ -1,0 +1,10 @@
+vnpy_datamanager/__init__.py,sha256=6XF75In-OPdxisHT7R39KFuvIPf-Dnax2aZJQvpunZo,1745
+vnpy_datamanager/engine.py,sha256=OVVMdxNA2QKrElw7HrUWM-ntzaj744UGX8NelJWMLGg,6639
+vnpy_datamanager/ui/__init__.py,sha256=t6VTqXGOM4SLqn_xzZ_6zg5FZYfwezx4v27W7bJK3lA,33
+vnpy_datamanager/ui/manager.ico,sha256=lCBZ3k_yRwDyrcBzvwLgMuKKreYsCjRUmLtie8xP8ig,63038
+vnpy_datamanager/ui/widget.py,sha256=RInXYlwdVJ77T1s2d7A6qUgQGjK4gV5X6VwkyVPM3pc,19540
+vnpy_datamanager-1.0.5.dist-info/LICENSE,sha256=PhdGUM_j-YTyaMqZFRcSqAUQU4nVwDzC4I1584GpKvg,1109
+vnpy_datamanager-1.0.5.dist-info/METADATA,sha256=RO5phDVmyFhvnn0KMxFa_LyKx3ckpT8bJqj-zR7JtgA,1879
+vnpy_datamanager-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vnpy_datamanager-1.0.5.dist-info/top_level.txt,sha256=b8KIoyI4HD71KmcvKW_r5IGzZsWpAGG0SQNyKQG55Go,17
+vnpy_datamanager-1.0.5.dist-info/RECORD,,
