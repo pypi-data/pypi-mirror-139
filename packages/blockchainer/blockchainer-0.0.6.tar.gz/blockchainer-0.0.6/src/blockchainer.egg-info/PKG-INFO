@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: blockchainer
+Version: 0.0.6
+Summary: An interface to help you make your own blockchain
+Home-page: UNKNOWN
+Author: Shoaib Wani
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+License-File: LICENSE
+
+UNKNOWN
+
