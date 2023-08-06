@@ -1,0 +1,2 @@
+[console_scripts]
+read-list-data = limonade_plot_utils.read_list_data:read_list_data
