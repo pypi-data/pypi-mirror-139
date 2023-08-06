@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: panda3d-sqs
+Version: 1.0.0
+Summary: Panda3D module for interacting and integrating with AWS SQS hooks
+Home-page: https://github.com/NxtStudios/p3d-sqs
+Author: Jordan Maxwell
+Maintainer: Jordan Maxwell
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Panda3D module for interacting and integrating with AWS SQS hooks
+
