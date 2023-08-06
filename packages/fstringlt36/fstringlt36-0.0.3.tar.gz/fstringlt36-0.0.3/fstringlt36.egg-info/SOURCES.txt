@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fstringlt36/__init__.py
+fstringlt36/fstringlt36.py
+fstringlt36/regexs.py
+fstringlt36.egg-info/PKG-INFO
+fstringlt36.egg-info/SOURCES.txt
+fstringlt36.egg-info/dependency_links.txt
+fstringlt36.egg-info/top_level.txt
