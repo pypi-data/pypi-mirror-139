@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: rpmrepo_metadata
+Version: 0.1.0.post3
+Summary: A library for parsing RPM repository metadata.
+Author: Daniel Alley <dalley@redhat.com>
+Author-email: Daniel Alley <dalley@redhat.com>
+License: MPL-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# rpmrepo_metadata
+
+rpmrepo_metadata is a library for manipulating, reading and writing RPM repositories.
+
+## Installation
+
+```
+pip install rpmrepo_metadata
+```
+
+Note: requires Python >= 3.7.
+
+## Example
+
+```ipython3
+In [1]: from rpmrepo_metadata import RepositoryReader
+
+In [2]: reader = RepositoryReader("tests/assets/external_repos/centos7/")
+
+In [3]: packages = reader.iter_packages()
+
+In [4]: packages.total_packages
+Out[4]: 10072
+
+In [5]: next(packages)
+Out[5]: <Package at 0x5613b8983cb0>
+
+In [6]: packages.remaining_packages
+Out[6]: 10071
+
+In [7]: for pkg in packages:
+   ...:     print(pkg.nevra())
+389-ds-base-0:1.3.10.2-6.el7.x86_64
+389-ds-base-devel-0:1.3.10.2-6.el7.x86_64
+389-ds-base-libs-0:1.3.10.2-6.el7.x86_64
+389-ds-base-snmp-0:1.3.10.2-6.el7.x86_64
+Cython-0:0.19-5.el7.x86_64
+ElectricFence-0:2.2.2-39.el7.i686
+ElectricFence-0:2.2.2-39.el7.x86_64
+...
+...
+
+```
+
+## Development
+
+### Setup
+
+1. Install Rust / Cargo
+2. Create and activate a Python virtual environment
+3. `maturin develop`
+
+### Testing
+
+To run the native Rust tests, `cargo test`
+
+To run the validation tests against `createrepo_c`, first install `createrepo_c` and `pytest` in your virtual environment
+
+`pytest -vv tests/validate_against_createrepo_c.py`
+
+To test a specific repo
+
+`pytest -vv tests/validate_against_createrepo_c.py::validate_ecosystem_repo\[centos7\]`
+
+
+### Building an RPM
+
+* install and set up mock <https://rpm-software-management.github.io/mock/#setup>
+* spectool -g *.spec && fedpkg --release f35 srpm
+
