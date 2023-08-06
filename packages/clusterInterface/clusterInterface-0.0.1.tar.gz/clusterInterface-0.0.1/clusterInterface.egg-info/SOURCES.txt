@@ -1,0 +1,6 @@
+README.md
+setup.py
+clusterInterface.egg-info/PKG-INFO
+clusterInterface.egg-info/SOURCES.txt
+clusterInterface.egg-info/dependency_links.txt
+clusterInterface.egg-info/top_level.txt
