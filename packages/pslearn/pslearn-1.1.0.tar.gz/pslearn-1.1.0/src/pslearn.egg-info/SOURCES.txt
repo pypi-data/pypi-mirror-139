@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/pslearn/__init__.py
+src/pslearn.egg-info/PKG-INFO
+src/pslearn.egg-info/SOURCES.txt
+src/pslearn.egg-info/dependency_links.txt
+src/pslearn.egg-info/top_level.txt
