@@ -1,0 +1,3 @@
+[console_scripts]
+vidua = vidua.scripts:main
+
