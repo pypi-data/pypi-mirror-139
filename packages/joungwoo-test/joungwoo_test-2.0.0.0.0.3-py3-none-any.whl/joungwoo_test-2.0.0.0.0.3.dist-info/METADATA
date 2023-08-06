@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: joungwoo-test
+Version: 2.0.0.0.0.3
+Summary: 지훈이를위해 만들어진 패키지@@@
+Author: joungwoo
+Author-email: wejw0104@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+지훈이를 위한모듈
+사용법:
+joungwoo.jihoon.birthday()
+
