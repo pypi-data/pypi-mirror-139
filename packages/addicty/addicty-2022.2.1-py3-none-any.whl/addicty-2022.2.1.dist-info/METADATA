@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: addicty
+Version: 2022.2.1
+Summary: Addicty is a dictionary whose items can be set using both attribute and item syntax
+Home-page: https://github.com/jpn--/addicty
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: yamllint
+
+UNKNOWN
+

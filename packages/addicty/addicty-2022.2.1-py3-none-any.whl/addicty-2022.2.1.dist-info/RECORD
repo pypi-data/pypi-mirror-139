@@ -1,0 +1,11 @@
+addicty/__init__.py,sha256=d8H7MrsLoSyhgyyLXMWB4jxOP8Qg5YfgQTqOukiEt4s,168
+addicty/_version.py,sha256=MUrLoSId5AGZfB3so2DCuL7ZX_mGOakgxZGYFZM5kMQ,148
+addicty/addict.py,sha256=NcG__PzGfnSox8aw2CNN4j70YDcOtwOhJNprYCCm7-s,12758
+addicty/s3.py,sha256=ROHWiC5K5m0yP55fWfJoJ9suP04GNEF-Jmva2zszTak,895
+addicty/yaml_checker.py,sha256=MaEfq-nt-8aoY84gXgotEYvDVld3RDhBGYECfhpR9VE,3799
+addicty-2022.2.1.dist-info/LICENSE,sha256=IBmRfu3jYJokHcwxs0BKyj1DJLr4nEHcxClDc2Lf0WU,1159
+addicty-2022.2.1.dist-info/METADATA,sha256=taw--l4euVkJIJfpUpMMwLxyBCjtUCzedcWphYFzaQU,323
+addicty-2022.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+addicty-2022.2.1.dist-info/top_level.txt,sha256=TxlPkGsx7CnuaWH_6BIqTy12RN_x1R1gE31Y-w0vOy4,8
+addicty-2022.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+addicty-2022.2.1.dist-info/RECORD,,
