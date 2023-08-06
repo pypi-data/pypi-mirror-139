@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PyPl8/ProcessImages.py
+src/PyPl8/__init__.py
+src/PyPl8.egg-info/PKG-INFO
+src/PyPl8.egg-info/SOURCES.txt
+src/PyPl8.egg-info/dependency_links.txt
+src/PyPl8.egg-info/requires.txt
+src/PyPl8.egg-info/top_level.txt
+src/PyPl8/Barcodes/BarcodeMethods.py
+src/PyPl8/Barcodes/__init__.py
+src/PyPl8/Preprocessing/PreprocessingMethods.py
+src/PyPl8/Preprocessing/__init__.py
