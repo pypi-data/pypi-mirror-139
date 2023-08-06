@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+genemails/__init__.py
+genemails/city.txt
+genemails/familii.txt
+genemails/genemails.py
+genemails/normalnames.txt
+genemails/streets.txt
+getemails.egg-info/PKG-INFO
+getemails.egg-info/SOURCES.txt
+getemails.egg-info/dependency_links.txt
+getemails.egg-info/requires.txt
+getemails.egg-info/top_level.txt
