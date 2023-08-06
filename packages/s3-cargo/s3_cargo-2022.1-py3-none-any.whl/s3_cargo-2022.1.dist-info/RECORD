@@ -1,0 +1,8 @@
+s3_cargo/__init__.py,sha256=3i2yiHl1sxmm_XfxGLtMQdhHIa0srQ7nkiT8PWsjd28,103
+s3_cargo/cargoconf.py,sha256=SCJBTrFQ6mIF2bXcSCrVaUXWrLn8vlRObn7gC0r6YKo,1471
+s3_cargo/cargomain.py,sha256=FdyfVGziMVf1mznFMKuoc0HTaeXLIt_f7RXNpBmUtqY,6792
+s3_cargo/msgformat.py,sha256=6NNq07qKwgkxvPZt46tNzJEiBUvrpqdtMV70U5RSsmA,449
+s3_cargo-2022.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+s3_cargo-2022.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+s3_cargo-2022.1.dist-info/METADATA,sha256=NxkwdCnMxtbmeR8EznG1zQYZKmIgNd2FvwDgAwMeSmc,813
+s3_cargo-2022.1.dist-info/RECORD,,
