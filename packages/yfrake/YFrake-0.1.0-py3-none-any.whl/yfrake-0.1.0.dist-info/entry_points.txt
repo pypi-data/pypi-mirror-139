@@ -1,0 +1,3 @@
+[console_scripts]
+generate_swagger_spec=yfrake.openapi.generator:generate_openapi_spec
+
