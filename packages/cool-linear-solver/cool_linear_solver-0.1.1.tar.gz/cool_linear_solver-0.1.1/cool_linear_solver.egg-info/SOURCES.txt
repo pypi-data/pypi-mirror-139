@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+cool_linear_solver/__init__.py
+cool_linear_solver/eqs_and_vars.py
+cool_linear_solver/least_squares.py
+cool_linear_solver/linear_solver.py
+cool_linear_solver.egg-info/PKG-INFO
+cool_linear_solver.egg-info/SOURCES.txt
+cool_linear_solver.egg-info/dependency_links.txt
+cool_linear_solver.egg-info/requires.txt
+cool_linear_solver.egg-info/top_level.txt
