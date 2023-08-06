@@ -1,0 +1,20 @@
+[data-jp-theme-name="DatabeanStalk UI Dark"] #jp-MainMenu {
+    padding-left: 0px; 
+}
+
+.lm-MenuBar-content .lm-MenuBar-item:nth-child(6){
+    display: none;
+}
+.lm-MenuBar-content .lm-MenuBar-item:nth-child(7){
+    display: none;
+}
+.lm-MenuBar-content .lm-MenuBar-item:nth-child(8){
+    display: none;
+}
+
+.jp-icon-warn0[fill] {
+    fill: rgb(0 176 230);
+}
+.jp-Toolbar .jp-ToolbarButton:nth-child(9){
+    display: none;
+}
