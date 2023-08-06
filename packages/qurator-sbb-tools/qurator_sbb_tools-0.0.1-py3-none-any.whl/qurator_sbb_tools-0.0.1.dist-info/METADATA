@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: qurator-sbb-tools
+Version: 0.0.1
+Summary: Qurator
+Home-page: https://qurator.ai
+Author: The Qurator Team
+Author-email: qurator@sbb.spk-berlin.de
+License: Apache
+Keywords: Qurator
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: dask
+Requires-Dist: tqdm
+Requires-Dist: ipython
+Requires-Dist: ipdb
+Requires-Dist: jupyter
+Requires-Dist: jupyter-contrib-nbextensions
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: click
+Requires-Dist: langid
+Requires-Dist: seqeval
+Requires-Dist: conlleval
+Requires-Dist: toolz
+Requires-Dist: cloudpickle
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: flask
+Requires-Dist: flask-htpasswd
+Requires-Dist: flask-cachecontrol
+Requires-Dist: somajo
+Requires-Dist: scipy
+Requires-Dist: gensim
+Requires-Dist: gunicorn
+Requires-Dist: pyldavis
+Requires-Dist: requests
+
+This package currently provides:
+
+* [A set of tools to perform NER+EL on the digitalized collections of the SBB.](digitized-collections.md)
+* [A set of tools for Wikidata/Wikipedia knowledge-base extraction.](knowledge-base.md) 
+* [A set of tools to perform and visualize topic-modelling on the digitalized collections of the SBB.](topic-modelling.md)
+
+# Installation:
+
+Setup virtual environment:
+```
+virtualenv --python=python3.6 venv
+```
+
+Activate virtual environment:
+```
+source venv/bin/activate
+```
+
+Upgrade pip:
+```
+pip install -U pip
+```
+
+Install package together with its dependencies in development mode:
+```
+pip install -e ./
+```
+
