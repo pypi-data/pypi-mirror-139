@@ -1,0 +1,4 @@
+dnf_plugins
+katello
+rhsm-plugins
+zypper_plugins
