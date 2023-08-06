@@ -1,0 +1,2 @@
+[console_scripts]
+ykpivfs = ykpivfs.cli:main
