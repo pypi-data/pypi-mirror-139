@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: GMarkdownViewer
+Version: 0.0.1
+Summary: An application for viewing Markdown files.
+Home-page: https://benknisley.com
+Author: Ben Knisley
+Author-email: benknisley@gmail.com
+License: MIT
+Description: A simple Markdown viewer, made with Python, GTK, and Webkit.
+Keywords: markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
