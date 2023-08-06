@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+smartcrawler/src/exceptions.py
+smartcrawler/src/object.py
+smartcrawler/src/smartcrawler.py
+smartcrawler/src/smartcrawler.egg-info/PKG-INFO
+smartcrawler/src/smartcrawler.egg-info/SOURCES.txt
+smartcrawler/src/smartcrawler.egg-info/dependency_links.txt
+smartcrawler/src/smartcrawler.egg-info/requires.txt
+smartcrawler/src/smartcrawler.egg-info/top_level.txt
