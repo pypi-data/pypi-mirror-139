@@ -1,0 +1,71 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.fr.fec.result,file:account_fr."
+msgid "File"
+msgstr "Datei"
+
+msgctxt "field:account.fr.fec.result,filename:account_fr."
+msgid "File Name"
+msgstr "Dateiname"
+
+msgctxt "field:account.fr.fec.result,id:account_fr."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.fr.fec.start,deferral_period:account_fr."
+msgid "Deferral Period"
+msgstr "Buchungsperiode Saldenvortrag"
+
+msgctxt "field:account.fr.fec.start,fiscalyear:account_fr."
+msgid "Fiscal Year"
+msgstr "Geschäftsjahr"
+
+msgctxt "field:account.fr.fec.start,id:account_fr."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.fr.fec.start,type:account_fr."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "help:account.fr.fec.start,deferral_period:account_fr."
+msgid ""
+"The period to exclude which contains the moves to balance non-deferral "
+"account"
+msgstr ""
+"Die auszuschließende Buchungsperiode, die die Abschlußbuchungen für die "
+"Erfolgs- und Aufwandskonten enthält"
+
+msgctxt "model:account.fr.fec.result,name:account_fr."
+msgid "Generate FEC"
+msgstr "FEC erstellen"
+
+msgctxt "model:account.fr.fec.start,name:account_fr."
+msgid "Generate FEC"
+msgstr "FEC erstellen"
+
+msgctxt "model:ir.action,name:account_fr.act_fec"
+msgid "Generate FEC"
+msgstr "FEC erstellen"
+
+msgctxt "model:ir.ui.menu,name:account_fr.menu_fec"
+msgid "Generate FEC"
+msgstr "FEC erstellen"
+
+msgctxt "selection:account.fr.fec.start,type:account_fr."
+msgid "IS-BIC"
+msgstr "IS-BIC"
+
+msgctxt "wizard_button:account.fr.fec,result,end:account_fr."
+msgid "Close"
+msgstr "Schließen"
+
+msgctxt "wizard_button:account.fr.fec,start,end:account_fr."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "wizard_button:account.fr.fec,start,generate:account_fr."
+msgid "Generate"
+msgstr "Erstellen"

@@ -1,0 +1,326 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:account.configuration,default_category_account_expense:account_product."
+msgid "Default Account Expense"
+msgstr "Standardaufwandskonto"
+
+msgctxt ""
+"field:account.configuration,default_category_account_revenue:account_product."
+msgid "Default Account Revenue"
+msgstr "Standardertragskonto"
+
+msgctxt ""
+"field:account.configuration.default_account,default_category_account_expense:account_product."
+msgid "Default Account Expense"
+msgstr "Standardaufwandskonto"
+
+msgctxt ""
+"field:account.configuration.default_account,default_category_account_revenue:account_product."
+msgid "Default Account Revenue"
+msgstr "Standardertragskonto"
+
+msgctxt ""
+"field:account.create_chart.properties,category_account_expense:account_product."
+msgid "Default Expense Account"
+msgstr "Standard Aufwandskonto"
+
+msgctxt ""
+"field:account.create_chart.properties,category_account_revenue:account_product."
+msgid "Default Revenue Account"
+msgstr "Standard Ertragskonto"
+
+msgctxt "field:product.category,account_expense:account_product."
+msgid "Account Expense"
+msgstr "Aufwandskonto"
+
+msgctxt "field:product.category,account_parent:account_product."
+msgid "Use Parent's accounts"
+msgstr "Konten der übergeordneten Kategorie anwenden"
+
+msgctxt "field:product.category,account_revenue:account_product."
+msgid "Account Revenue"
+msgstr "Ertragskonto"
+
+msgctxt "field:product.category,accounting:account_product."
+msgid "Accounting"
+msgstr "Buchhaltung"
+
+msgctxt "field:product.category,accounts:account_product."
+msgid "Accounts"
+msgstr "Konten"
+
+msgctxt "field:product.category,customer_taxes:account_product."
+msgid "Customer Taxes"
+msgstr "Steuern Kunde"
+
+msgctxt "field:product.category,customer_taxes_used:account_product."
+msgid "Customer Taxes Used"
+msgstr "Für Kunden verwendete Steuern"
+
+msgctxt "field:product.category,supplier_taxes:account_product."
+msgid "Supplier Taxes"
+msgstr "Steuern Lieferant"
+
+msgctxt "field:product.category,supplier_taxes_used:account_product."
+msgid "Supplier Taxes Used"
+msgstr "Für Lieferanten verwendete Steuern"
+
+msgctxt "field:product.category,taxes_parent:account_product."
+msgid "Use the Parent's Taxes"
+msgstr "Steuern der übergeordneten Kategorie anwenden"
+
+msgctxt ""
+"field:product.category-customer-account.tax,category:account_product."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt ""
+"field:product.category-customer-account.tax,create_date:account_product."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:product.category-customer-account.tax,create_uid:account_product."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.category-customer-account.tax,id:account_product."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:product.category-customer-account.tax,rec_name:account_product."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:product.category-customer-account.tax,tax:account_product."
+msgid "Tax"
+msgstr "Steuer"
+
+msgctxt ""
+"field:product.category-customer-account.tax,write_date:account_product."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:product.category-customer-account.tax,write_uid:account_product."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"field:product.category-supplier-account.tax,category:account_product."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt ""
+"field:product.category-supplier-account.tax,create_date:account_product."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:product.category-supplier-account.tax,create_uid:account_product."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.category-supplier-account.tax,id:account_product."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:product.category-supplier-account.tax,rec_name:account_product."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:product.category-supplier-account.tax,tax:account_product."
+msgid "Tax"
+msgstr "Steuer"
+
+msgctxt ""
+"field:product.category-supplier-account.tax,write_date:account_product."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:product.category-supplier-account.tax,write_uid:account_product."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:product.category.account,account_expense:account_product."
+msgid "Account Expense"
+msgstr "Aufwandskonto"
+
+msgctxt "field:product.category.account,account_revenue:account_product."
+msgid "Account Revenue"
+msgstr "Ertragskonto"
+
+msgctxt "field:product.category.account,category:account_product."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "field:product.category.account,company:account_product."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:product.category.account,create_date:account_product."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:product.category.account,create_uid:account_product."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.category.account,id:account_product."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.category.account,rec_name:account_product."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:product.category.account,write_date:account_product."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:product.category.account,write_uid:account_product."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:product.product,account_category:account_product."
+msgid "Account Category"
+msgstr "Buchhaltungskategorie"
+
+msgctxt "field:product.template,account_category:account_product."
+msgid "Account Category"
+msgstr "Buchhaltungskategorie"
+
+msgctxt ""
+"field:product.template-product.category.account,category:account_product."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt ""
+"field:product.template-product.category.account,create_date:account_product."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:product.template-product.category.account,create_uid:account_product."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.template-product.category.account,id:account_product."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:product.template-product.category.account,rec_name:account_product."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:product.template-product.category.account,template:account_product."
+msgid "Template"
+msgstr "Vorlage"
+
+msgctxt ""
+"field:product.template-product.category.account,write_date:account_product."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:product.template-product.category.account,write_uid:account_product."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:product.category,account_parent:account_product."
+msgid "Use the accounts defined on the parent category."
+msgstr "Konten der übergeordneten Kategorie anwenden."
+
+msgctxt "help:product.category,accounting:account_product."
+msgid "Check to convert into accounting category."
+msgstr "Aktivieren um in eine Buchhaltungskategorie zu wandeln."
+
+msgctxt "help:product.category,customer_taxes:account_product."
+msgid "The taxes to apply when selling products of this category."
+msgstr ""
+"Die anzuwendenden Steuern beim Verkauf eines Artikels dieser Kategorie."
+
+msgctxt "help:product.category,supplier_taxes:account_product."
+msgid "The taxes to apply when purchasing products of this category."
+msgstr ""
+"Die anzuwendenden Steuern beim Einkauf eines Artikels dieser Kategorie."
+
+msgctxt "help:product.category,taxes_parent:account_product."
+msgid "Use the taxes defined on the parent category."
+msgstr "Steuern der übergeordneten Kategorie anwenden."
+
+msgctxt "model:ir.message,text:account_product.msg_missing_account"
+msgid "There is no \"%(field)s\" defined for \"%(name)s\"."
+msgstr "Es wurde kein \"%(field)s\" für \"%(name)s\" definiert."
+
+msgctxt "model:ir.message,text:account_product.msg_missing_taxes"
+msgid "There is no account category defined on product \"%(name)s\"."
+msgstr "Es ist keine Buchhaltungskategorie definiert für Artikel \"%(name)s\"."
+
+msgctxt ""
+"model:ir.rule.group,name:account_product.rule_group_category_accounting"
+msgid "Any category"
+msgstr "Beliebige Buchhaltungskategorie"
+
+msgctxt ""
+"model:ir.rule.group,name:account_product.rule_group_category_customer_taxes"
+msgid "User in company"
+msgstr "Benutzer im Unternehmen"
+
+msgctxt "model:ir.rule.group,name:account_product.rule_group_category_default"
+msgid "Not accounting category"
+msgstr "Keine Buchhaltungskategorie"
+
+msgctxt ""
+"model:ir.rule.group,name:account_product.rule_group_category_supplier_taxes"
+msgid "User in company"
+msgstr "Benutzer im Unternehmen"
+
+msgctxt "model:product.category-customer-account.tax,name:account_product."
+msgid "Category - Customer Tax"
+msgstr "Artikelkategorie - Steuer Kunde"
+
+msgctxt "model:product.category-supplier-account.tax,name:account_product."
+msgid "Category - Supplier Tax"
+msgstr "Artikelkategorie - Steuer Lieferant"
+
+msgctxt "model:product.category.account,name:account_product."
+msgid "Category Account"
+msgstr "Kategoriekonto"
+
+msgctxt ""
+"model:product.template-product.category.account,name:account_product."
+msgid "Template - Account Category"
+msgstr "Modell - Buchungskategorie"
+
+msgctxt "view:account.configuration:account_product."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "view:account.create_chart.properties:account_product."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "view:product.category:account_product."
+msgid "Accounting"
+msgstr "Buchhaltung"
+
+msgctxt "view:product.category:account_product."
+msgid "Accounts"
+msgstr "Konten"
+
+msgctxt "view:product.category:account_product."
+msgid "Taxes"
+msgstr "Steuern"
+
+msgctxt "view:product.template:account_product."
+msgid "Accounting"
+msgstr "Buchhaltung"

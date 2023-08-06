@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,carrier_cost_allocation_method:purchase_shipment_cost."
+msgid "Carrier Cost Allocation Method"
+msgstr "Zuordnungsmethode Versandkosten"
+
+msgctxt "field:stock.move,unit_shipment_cost:purchase_shipment_cost."
+msgid "Unit Shipment Cost"
+msgstr "Einheit Lieferpostenkosten"
+
+msgctxt "field:stock.shipment.in,carrier:purchase_shipment_cost."
+msgid "Carrier"
+msgstr "Versanddienstleister"
+
+msgctxt "field:stock.shipment.in,cost:purchase_shipment_cost."
+msgid "Cost"
+msgstr "Kosten"
+
+msgctxt "field:stock.shipment.in,cost_currency:purchase_shipment_cost."
+msgid "Cost Currency"
+msgstr "Währung Kosten"
+
+msgctxt "field:stock.shipment.in,cost_currency_digits:purchase_shipment_cost."
+msgid "Cost Currency Digits"
+msgstr "Nachkommastellen Währung Kosten"
+
+msgctxt ""
+"selection:carrier,carrier_cost_allocation_method:purchase_shipment_cost."
+msgid "By Value"
+msgstr "Nach Wert"

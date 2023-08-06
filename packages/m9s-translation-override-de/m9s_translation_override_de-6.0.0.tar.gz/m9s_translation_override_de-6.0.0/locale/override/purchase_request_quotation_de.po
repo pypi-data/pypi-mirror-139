@@ -1,0 +1,473 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:purchase.configuration,purchase_request_quotation_sequence:purchase_request_quotation."
+msgid "Purchase Request Quotation Sequence"
+msgstr "Nummernkreis Angebotsanfrage Einkauf"
+
+msgctxt ""
+"field:purchase.configuration.sequence,purchase_request_quotation_sequence:purchase_request_quotation."
+msgid "Purchase Request Quotation Sequence"
+msgstr "Nummernkreis Angebotsanfrage Einkauf"
+
+msgctxt ""
+"field:purchase.request,best_quotation_line:purchase_request_quotation."
+msgid "Best Quotation Line"
+msgstr "Beste Angebotsposition"
+
+msgctxt ""
+"field:purchase.request,preferred_quotation_line:purchase_request_quotation."
+msgid "Preferred Quotation Line"
+msgstr "Bevorzugte Angebotsposition"
+
+msgctxt "field:purchase.request,quotation_lines:purchase_request_quotation."
+msgid "Quotation Lines"
+msgstr "Angebotspositionen"
+
+msgctxt ""
+"field:purchase.request,quotation_lines_active:purchase_request_quotation."
+msgid "Active Quotation Lines"
+msgstr "Aktive Angebotspositionen"
+
+msgctxt "field:purchase.request.quotation,company:purchase_request_quotation."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt ""
+"field:purchase.request.quotation,create_date:purchase_request_quotation."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:purchase.request.quotation,create_uid:purchase_request_quotation."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:purchase.request.quotation,id:purchase_request_quotation."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:purchase.request.quotation,lines:purchase_request_quotation."
+msgid "Lines"
+msgstr "Positionen"
+
+msgctxt "field:purchase.request.quotation,number:purchase_request_quotation."
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt ""
+"field:purchase.request.quotation,rec_name:purchase_request_quotation."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:purchase.request.quotation,reference:purchase_request_quotation."
+msgid "Reference"
+msgstr "Bestellnummer"
+
+msgctxt ""
+"field:purchase.request.quotation,revision:purchase_request_quotation."
+msgid "Revision"
+msgstr "Revision"
+
+msgctxt "field:purchase.request.quotation,state:purchase_request_quotation."
+msgid "State"
+msgstr "Status"
+
+msgctxt ""
+"field:purchase.request.quotation,supplier:purchase_request_quotation."
+msgid "Supplier"
+msgstr "Lieferant"
+
+msgctxt ""
+"field:purchase.request.quotation,supplier_address:purchase_request_quotation."
+msgid "Supplier Address"
+msgstr "Adresse des Lieferanten"
+
+msgctxt ""
+"field:purchase.request.quotation,warehouse:purchase_request_quotation."
+msgid "Warehouse"
+msgstr "Warenlager"
+
+msgctxt ""
+"field:purchase.request.quotation,write_date:purchase_request_quotation."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:purchase.request.quotation,write_uid:purchase_request_quotation."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"field:purchase.request.quotation.create.ask_suppliers,id:purchase_request_quotation."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:purchase.request.quotation.create.ask_suppliers,suppliers:purchase_request_quotation."
+msgid "Suppliers"
+msgstr "Lieferanten"
+
+msgctxt ""
+"field:purchase.request.quotation.create.succeed,id:purchase_request_quotation."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:purchase.request.quotation.create.succeed,number_quotations:purchase_request_quotation."
+msgid "Number of Created Quotations"
+msgstr "Anzahl der erstellten Angebotsanfragen"
+
+msgctxt ""
+"field:purchase.request.quotation.line,create_date:purchase_request_quotation."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:purchase.request.quotation.line,create_uid:purchase_request_quotation."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:purchase.request.quotation.line,currency:purchase_request_quotation."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt ""
+"field:purchase.request.quotation.line,currency_digits:purchase_request_quotation."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt ""
+"field:purchase.request.quotation.line,description:purchase_request_quotation."
+msgid "Description"
+msgstr "Beschreibung"
+
+msgctxt "field:purchase.request.quotation.line,id:purchase_request_quotation."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:purchase.request.quotation.line,product:purchase_request_quotation."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt ""
+"field:purchase.request.quotation.line,product_uom_category:purchase_request_quotation."
+msgid "Product Uom Category"
+msgstr "Artikel Maßeinheitenkategorie"
+
+msgctxt ""
+"field:purchase.request.quotation.line,quantity:purchase_request_quotation."
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt ""
+"field:purchase.request.quotation.line,quotation:purchase_request_quotation."
+msgid "Quotation"
+msgstr "Angebotsanfrage"
+
+msgctxt ""
+"field:purchase.request.quotation.line,quotation_state:purchase_request_quotation."
+msgid "Request for Quotation State"
+msgstr "Status der Angebotsanfrage"
+
+msgctxt ""
+"field:purchase.request.quotation.line,rec_name:purchase_request_quotation."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:purchase.request.quotation.line,request:purchase_request_quotation."
+msgid "Request"
+msgstr "Bestellvorschlag"
+
+msgctxt ""
+"field:purchase.request.quotation.line,supplier:purchase_request_quotation."
+msgid "Supplier"
+msgstr "Lieferant"
+
+msgctxt ""
+"field:purchase.request.quotation.line,supply_date:purchase_request_quotation."
+msgid "Supply Date"
+msgstr "Beschaffungsdatum"
+
+msgctxt ""
+"field:purchase.request.quotation.line,unit:purchase_request_quotation."
+msgid "Unit"
+msgstr "Einheit"
+
+msgctxt ""
+"field:purchase.request.quotation.line,unit_digits:purchase_request_quotation."
+msgid "Unit Digits"
+msgstr "Nachkommastellen der Einheit"
+
+msgctxt ""
+"field:purchase.request.quotation.line,unit_price:purchase_request_quotation."
+msgid "Unit Price"
+msgstr "Einzelpreis"
+
+msgctxt ""
+"field:purchase.request.quotation.line,write_date:purchase_request_quotation."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:purchase.request.quotation.line,write_uid:purchase_request_quotation."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"help:purchase.request,preferred_quotation_line:purchase_request_quotation."
+msgid ""
+"The quotation that will be chosen to create the purchase\n"
+"otherwise first ordered received quotation line will be selected."
+msgstr ""
+"Das Angebot das zum Erstellen des Einkaufs verwendet wird.\n"
+"Ansonsten wird das erste erhaltene Angebot ausgewählt."
+
+msgctxt "help:purchase.request.quotation,number:purchase_request_quotation."
+msgid "The unique identifier of the quotation."
+msgstr "Die eindeutige Identifikation der Angebotsanfrage."
+
+msgctxt ""
+"help:purchase.request.quotation,reference:purchase_request_quotation."
+msgid "The reference used by the supplier."
+msgstr "Die Bestellnummer beim Lieferanten."
+
+msgctxt "help:purchase.request.quotation,revision:purchase_request_quotation."
+msgid "Number incremented each time the quotation is sent."
+msgstr "Die Nummer wird bei jeder erneuten Angebotsanfrage erhöht."
+
+msgctxt ""
+"help:purchase.request.quotation.line,request:purchase_request_quotation."
+msgid "The request which this line belongs to."
+msgstr "Der Bestellvorschlag, dem diese Position zugeordnet ist."
+
+msgctxt ""
+"help:purchase.request.quotation.line,supply_date:purchase_request_quotation."
+msgid "When it should be delivered."
+msgstr "Das Datum an dem geliefert werden soll."
+
+msgctxt ""
+"model:ir.action,name:purchase_request_quotation.act_purchase_request_form"
+msgid "Quotations"
+msgstr "Angebotsanfragen"
+
+msgctxt ""
+"model:ir.action,name:purchase_request_quotation.act_purchase_request_quotation_form"
+msgid "Purchase Request Quotations"
+msgstr "Angebotsanfragen"
+
+msgctxt ""
+"model:ir.action,name:purchase_request_quotation.report_purchase_request_quotation"
+msgid "Purchase Request Quotation"
+msgstr "Angebotsanfrage"
+
+msgctxt ""
+"model:ir.action,name:purchase_request_quotation.wizard_create_quotation"
+msgid "Create Quotation"
+msgstr "Angebotsanfrage erstellen"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:purchase_request_quotation.act_purchase_request_quotation_form_view1_domain_all"
+msgid "All"
+msgstr "All"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:purchase_request_quotation.act_purchase_request_quotation_form_view1_domain_draft"
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:purchase_request_quotation.act_purchase_request_quotation_form_view1_domain_sent"
+msgid "Sent"
+msgstr "Gesendet"
+
+msgctxt ""
+"model:ir.message,text:purchase_request_quotation.msg_previous_quotation"
+msgid "A quotation was already made for request \"%(request)s\"."
+msgstr "Es wurde bereits ein Angebot für die Anfrage \"%(request)s\" erstellt."
+
+msgctxt ""
+"model:ir.rule.group,name:purchase_request_quotation.rule_group_request_quotation"
+msgid "User in company"
+msgstr "Benutzer im Unternehmen"
+
+msgctxt ""
+"model:ir.rule.group,name:purchase_request_quotation.rule_group_request_quotation_line"
+msgid "User in company"
+msgstr "Benutzer im Unternehmen"
+
+msgctxt ""
+"model:ir.sequence,name:purchase_request_quotation.sequence_purchase_request_quotation"
+msgid "Purchase Request Quotation"
+msgstr "Angebotsanfrage"
+
+msgctxt ""
+"model:ir.sequence.type,name:purchase_request_quotation.sequence_type_purchase_request_quotation"
+msgid "Purchase Request Quotation"
+msgstr "Angebotsanfrage"
+
+msgctxt ""
+"model:ir.ui.menu,name:purchase_request_quotation.menu_purchase_request_quotation_form"
+msgid "Purchase Request Quotations"
+msgstr "Angebotsanfragen"
+
+msgctxt "model:purchase.request.quotation,name:purchase_request_quotation."
+msgid "Purchase Request For Quotation"
+msgstr "Angebotsanfrage Einkauf"
+
+msgctxt ""
+"model:purchase.request.quotation.create.ask_suppliers,name:purchase_request_quotation."
+msgid "Create Purchase Request Quotation Ask Suppliers"
+msgstr "Angebotsanfrage erstellen - Lieferantenauswahl"
+
+msgctxt ""
+"model:purchase.request.quotation.create.succeed,name:purchase_request_quotation."
+msgid "Create Purchase Request Quotation Succeed"
+msgstr "Erstellen Angebotsanfrage Erfolgreich"
+
+msgctxt ""
+"model:purchase.request.quotation.line,name:purchase_request_quotation."
+msgid "Purchase Request For Quotation Line"
+msgstr "Position Angebotsanfrage Einkauf"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid ":"
+msgstr ":"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Date:"
+msgstr "Datum:"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Delivery Address:"
+msgstr "Lieferadresse:"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Description"
+msgstr "Beschreibung"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Expected Supply Date"
+msgstr "Erwartetes Lieferdatum"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Purchase"
+msgstr "Einkauf"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Quotation"
+msgstr "Angebot"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Reference:"
+msgstr "Bestellnummer:"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Request for Quotation N°:"
+msgstr "Angebotsanfrage Nr.:"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Revision:"
+msgstr "Revision:"
+
+msgctxt "report:purchase.request.quotation:purchase_request_quotation."
+msgid "Unit Price"
+msgstr "Einzelpreis"
+
+msgctxt "selection:purchase.request,state:purchase_request_quotation."
+msgid "Quotation"
+msgstr "Angebot"
+
+msgctxt "selection:purchase.request,state:purchase_request_quotation."
+msgid "Received"
+msgstr "Erhalten"
+
+msgctxt ""
+"selection:purchase.request.quotation,state:purchase_request_quotation."
+msgid "Cancelled"
+msgstr "Annulliert"
+
+msgctxt ""
+"selection:purchase.request.quotation,state:purchase_request_quotation."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt ""
+"selection:purchase.request.quotation,state:purchase_request_quotation."
+msgid "Received"
+msgstr "Erhalten"
+
+msgctxt ""
+"selection:purchase.request.quotation,state:purchase_request_quotation."
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+msgctxt ""
+"selection:purchase.request.quotation,state:purchase_request_quotation."
+msgid "Sent"
+msgstr "Gesendet"
+
+msgctxt "view:purchase.request.quotation.line:purchase_request_quotation."
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "view:purchase.request.quotation:purchase_request_quotation."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "view:purchase.request.quotation:purchase_request_quotation."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt "view:purchase.request.quotation:purchase_request_quotation."
+msgid "Other Info"
+msgstr "Sonstiges"
+
+msgctxt "view:purchase.request.quotation:purchase_request_quotation."
+msgid "Quotation"
+msgstr "Angebot"
+
+msgctxt "view:purchase.request.quotation:purchase_request_quotation."
+msgid "Receive"
+msgstr "Erhalten"
+
+msgctxt "view:purchase.request.quotation:purchase_request_quotation."
+msgid "Reject"
+msgstr "Ablehnen"
+
+msgctxt "view:purchase.request.quotation:purchase_request_quotation."
+msgid "Send"
+msgstr "Senden"
+
+msgctxt "view:purchase.request:purchase_request_quotation."
+msgid "Quotations"
+msgstr "Angebote"
+
+msgctxt ""
+"wizard_button:purchase.request.quotation.create,ask_suppliers,create_quotations:purchase_request_quotation."
+msgid "Process"
+msgstr "Ausführen"
+
+msgctxt ""
+"wizard_button:purchase.request.quotation.create,ask_suppliers,end:purchase_request_quotation."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt ""
+"wizard_button:purchase.request.quotation.create,succeed,end:purchase_request_quotation."
+msgid "Close"
+msgstr "Abschließen"

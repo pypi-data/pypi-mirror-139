@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"model:ir.action,name:account_invoice_line_standalone.act_invoice_line_in_form"
+msgid "Supplier Invoice Lines"
+msgstr "Rechnungspositionen Lieferant"
+
+msgctxt ""
+"model:ir.action,name:account_invoice_line_standalone.act_invoice_line_out_form"
+msgid "Invoice Lines"
+msgstr "Rechnungspositionen"
+
+msgctxt ""
+"model:ir.ui.menu,name:account_invoice_line_standalone.menu_invoice_line_in_form"
+msgid "Supplier Invoice Lines"
+msgstr "Rechnungspositionen Lieferanten"
+
+msgctxt ""
+"model:ir.ui.menu,name:account_invoice_line_standalone.menu_invoice_line_out_form"
+msgid "Invoice Lines"
+msgstr "Rechnungspositionen"

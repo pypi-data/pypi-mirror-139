@@ -1,0 +1,8 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"selection:account.landed_cost,allocation_method:account_stock_landed_cost_weight."
+msgid "By Weight"
+msgstr "Nach Gewicht"

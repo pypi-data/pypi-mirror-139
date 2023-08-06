@@ -1,0 +1,43 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:project.work,cost:project_revenue."
+msgid "Cost"
+msgstr "Kosten"
+
+msgctxt "field:project.work,currency_digits:project_revenue."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:project.work,list_price:project_revenue."
+msgid "List Price"
+msgstr "Listenpreis"
+
+msgctxt "field:project.work,product:project_revenue."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:project.work,purchase_lines:project_revenue."
+msgid "Purchase Lines"
+msgstr "Einkaufspositionen"
+
+msgctxt "field:project.work,revenue:project_revenue."
+msgid "Revenue"
+msgstr "Ertrag"
+
+msgctxt "field:purchase.line,work:project_revenue."
+msgid "Work Effort"
+msgstr "Aufgabe Aufwand"
+
+msgctxt "help:purchase.line,work:project_revenue."
+msgid "Add to the cost of the work effort."
+msgstr "Zu den Kosten des Arbeitsaufwands hinzufügen."
+
+msgctxt "view:project.work:project_revenue."
+msgid "Purchases"
+msgstr "Einkäufe"
+
+msgctxt "view:purchase.line:project_revenue."
+msgid "Project"
+msgstr "Projekt"

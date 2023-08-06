@@ -1,0 +1,99 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,weight_currency:carrier_weight."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:carrier,weight_currency_digits:carrier_weight."
+msgid "Weight Currency Digits"
+msgstr "Nachkommastellen Währung Gewicht"
+
+msgctxt "field:carrier,weight_price_list:carrier_weight."
+msgid "Price List"
+msgstr "Preisliste"
+
+msgctxt "field:carrier,weight_uom:carrier_weight."
+msgid "Weight Uom"
+msgstr "Gewicht Maßeinheit"
+
+msgctxt "field:carrier,weight_uom_digits:carrier_weight."
+msgid "Weight Uom Digits"
+msgstr "Nachkommastellen Maßeinheit Gewicht"
+
+msgctxt "field:carrier.weight_price_list,carrier:carrier_weight."
+msgid "Carrier"
+msgstr "Versanddienstleister"
+
+msgctxt "field:carrier.weight_price_list,create_date:carrier_weight."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:carrier.weight_price_list,create_uid:carrier_weight."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:carrier.weight_price_list,id:carrier_weight."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:carrier.weight_price_list,price:carrier_weight."
+msgid "Price"
+msgstr "Preis"
+
+msgctxt "field:carrier.weight_price_list,rec_name:carrier_weight."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:carrier.weight_price_list,weight:carrier_weight."
+msgid "Weight"
+msgstr "Gewicht"
+
+msgctxt "field:carrier.weight_price_list,write_date:carrier_weight."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:carrier.weight_price_list,write_uid:carrier_weight."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:carrier,weight_currency:carrier_weight."
+msgid "The currency of the price."
+msgstr "Die Währung des Preises."
+
+msgctxt "help:carrier,weight_price_list:carrier_weight."
+msgid "Add price to the carrier service."
+msgstr "Einen Preis zur Versanddienstleistung hinzufügen."
+
+msgctxt "help:carrier,weight_uom:carrier_weight."
+msgid "The unit of weight criteria of the price list."
+msgstr "Die Gewichtseinheit für die Preisliste."
+
+msgctxt "help:carrier.weight_price_list,carrier:carrier_weight."
+msgid "The carrier that the price list belongs to."
+msgstr "Der Versanddienstleister dem diese Preisliste zugeordnet ist."
+
+msgctxt "help:carrier.weight_price_list,price:carrier_weight."
+msgid "The price of the carrier service."
+msgstr "Der Preis der Versanddienstleistung."
+
+msgctxt "help:carrier.weight_price_list,weight:carrier_weight."
+msgid "The lower limit for the price."
+msgstr "Die Untergrenze für den Preis."
+
+msgctxt "model:carrier.weight_price_list,name:carrier_weight."
+msgid "Carrier Weight Price List"
+msgstr "Preisliste Versandgewicht"
+
+msgctxt "selection:carrier,carrier_cost_method:carrier_weight."
+msgid "Weight"
+msgstr "Gewicht"
+
+msgctxt "view:carrier.weight_price_list:carrier_weight."
+msgid "Carrier Weight Price List"
+msgstr "Preisliste Versandgewicht"
+
+msgctxt "view:carrier.weight_price_list:carrier_weight."
+msgid "Carrier Weight Price Lists"
+msgstr "Preislisten Versandgewicht"

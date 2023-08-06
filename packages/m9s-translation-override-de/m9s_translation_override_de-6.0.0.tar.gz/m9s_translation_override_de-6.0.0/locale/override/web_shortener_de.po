@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:web.shortened_url,count:web_shortener."
+msgid "Click Count"
+msgstr "Anzahl Klicks"
+
+msgctxt "field:web.shortened_url,create_date:web_shortener."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:web.shortened_url,create_uid:web_shortener."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:web.shortened_url,id:web_shortener."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:web.shortened_url,method:web_shortener."
+msgid "Method"
+msgstr "Methode"
+
+msgctxt "field:web.shortened_url,rec_name:web_shortener."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:web.shortened_url,record:web_shortener."
+msgid "Record"
+msgstr "Datensatz"
+
+msgctxt "field:web.shortened_url,redirect_url:web_shortener."
+msgid "Redirect URL"
+msgstr "URL Umleitung"
+
+msgctxt "field:web.shortened_url,shortened_url:web_shortener."
+msgid "Shortened URL"
+msgstr "Gekürzte URL"
+
+msgctxt "field:web.shortened_url,write_date:web_shortener."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:web.shortened_url,write_uid:web_shortener."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:web.shortened_url.access,create_date:web_shortener."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:web.shortened_url.access,create_uid:web_shortener."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:web.shortened_url.access,id:web_shortener."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:web.shortened_url.access,rec_name:web_shortener."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:web.shortened_url.access,url:web_shortener."
+msgid "URL"
+msgstr "URL"
+
+msgctxt "field:web.shortened_url.access,write_date:web_shortener."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:web.shortened_url.access,write_uid:web_shortener."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "model:ir.action,name:web_shortener.act_shortened_url"
+msgid "Shortened URLs"
+msgstr "Gekürzte URLs"
+
+msgctxt "model:ir.ui.menu,name:web_shortener.menu_shortened_url_form"
+msgid "Shortened URLs"
+msgstr "Gekürzte URLs"
+
+msgctxt "model:web.shortened_url,name:web_shortener."
+msgid "Short URL"
+msgstr "Gekürzte URL"
+
+msgctxt "model:web.shortened_url.access,name:web_shortener."
+msgid "URL Access"
+msgstr "URL Zugriff"

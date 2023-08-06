@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    translation_override_de = trytond.modules.translation_override_de
+    

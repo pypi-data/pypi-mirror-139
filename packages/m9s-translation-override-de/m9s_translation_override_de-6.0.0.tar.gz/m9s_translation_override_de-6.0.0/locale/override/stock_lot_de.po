@@ -1,0 +1,299 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,lot_required:stock_lot."
+msgid "Lot Required"
+msgstr "Charge erforderlich für Lagerort"
+
+msgctxt "field:product.template,lot_required:stock_lot."
+msgid "Lot Required"
+msgstr "Charge erforderlich für Lagerort"
+
+msgctxt "field:product.template-stock.lot.type,create_date:stock_lot."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:product.template-stock.lot.type,create_uid:stock_lot."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.template-stock.lot.type,id:stock_lot."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.template-stock.lot.type,rec_name:stock_lot."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:product.template-stock.lot.type,template:stock_lot."
+msgid "Template"
+msgstr "Vorlage für Steuerkonto"
+
+msgctxt "field:product.template-stock.lot.type,type:stock_lot."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:product.template-stock.lot.type,write_date:stock_lot."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:product.template-stock.lot.type,write_uid:stock_lot."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:stock.inventory.line,lot:stock_lot."
+msgid "Lot"
+msgstr "Charge"
+
+msgctxt "field:stock.lot,create_date:stock_lot."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:stock.lot,create_uid:stock_lot."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:stock.lot,forecast_quantity:stock_lot."
+msgid "Forecast Quantity"
+msgstr "Voraussichtliche Menge"
+
+msgctxt "field:stock.lot,id:stock_lot."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.lot,number:stock_lot."
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "field:stock.lot,product:stock_lot."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:stock.lot,quantity:stock_lot."
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt "field:stock.lot,rec_name:stock_lot."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:stock.lot,write_date:stock_lot."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:stock.lot,write_uid:stock_lot."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:stock.lot.type,code:stock_lot."
+msgid "Code"
+msgstr "Länderkürzel"
+
+msgctxt "field:stock.lot.type,create_date:stock_lot."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:stock.lot.type,create_uid:stock_lot."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:stock.lot.type,id:stock_lot."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.lot.type,name:stock_lot."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:stock.lot.type,rec_name:stock_lot."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:stock.lot.type,write_date:stock_lot."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:stock.lot.type,write_uid:stock_lot."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:stock.lots_by_location.context,forecast_date:stock_lot."
+msgid "At Date"
+msgstr "Ermittlungsdatum"
+
+msgctxt "field:stock.lots_by_location.context,id:stock_lot."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.lots_by_location.context,stock_date_end:stock_lot."
+msgid "At Date"
+msgstr "Ermittlungsdatum"
+
+msgctxt "field:stock.move,lot:stock_lot."
+msgid "Lot"
+msgstr "Charge"
+
+msgctxt "field:stock.period,lot_caches:stock_lot."
+msgid "Lot Caches"
+msgstr "Caches Charge"
+
+msgctxt "field:stock.period.cache.lot,create_date:stock_lot."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:stock.period.cache.lot,create_uid:stock_lot."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:stock.period.cache.lot,id:stock_lot."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.period.cache.lot,internal_quantity:stock_lot."
+msgid "Internal Quantity"
+msgstr "Interne Menge"
+
+msgctxt "field:stock.period.cache.lot,location:stock_lot."
+msgid "Location"
+msgstr "Ort"
+
+msgctxt "field:stock.period.cache.lot,lot:stock_lot."
+msgid "Lot"
+msgstr "Charge"
+
+msgctxt "field:stock.period.cache.lot,period:stock_lot."
+msgid "Period"
+msgstr "Lagerperiode"
+
+msgctxt "field:stock.period.cache.lot,product:stock_lot."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:stock.period.cache.lot,rec_name:stock_lot."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:stock.period.cache.lot,write_date:stock_lot."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:stock.period.cache.lot,write_uid:stock_lot."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:product.product,lot_required:stock_lot."
+msgid "The type of location for which lot is required"
+msgstr "Typ des Lagerorts, für den eine Chargen-Nummer erforderlich ist"
+
+msgctxt "help:product.template,lot_required:stock_lot."
+msgid "The type of location for which lot is required"
+msgstr "Typ des Lagerorts, für den eine Chargen-Nummer erforderlich ist"
+
+msgctxt "help:stock.lots_by_location.context,forecast_date:stock_lot."
+msgid ""
+"Allow to compute expected stock quantities for this date.\n"
+"* An empty value is an infinite date in the future.\n"
+"* A date in the past will provide historical values."
+msgstr ""
+"Den erwarteten Lagerbestand für dieses Datum ermitteln.\n"
+"* Ein leerer Wert bedeutet ein unendliches Datum in der Zukunft.\n"
+"* Ein Wert in der Vergangenheit berechnet historische Werte."
+
+msgctxt "model:ir.action,name:stock_lot.act_lot_form"
+msgid "Lots"
+msgstr "Chargen"
+
+msgctxt "model:ir.action,name:stock_lot.act_lots_by_locations"
+msgid "Lot"
+msgstr "Charge"
+
+msgctxt "model:ir.action,name:stock_lot.act_move_form_relate_lot"
+msgid "Moves"
+msgstr "Lagerbewegungen"
+
+msgctxt "model:ir.message,text:stock_lot.msg_change_product"
+msgid "You cannot change the product of a stock lot which has stock moves."
+msgstr ""
+"Der Artikel einer Charge, für die es Lagerbewegungen gibt, kann nicht "
+"geändert werden."
+
+msgctxt "model:ir.message,text:stock_lot.msg_lot_required"
+msgid "To move product \"%(product)s\" you must provide a stock lot."
+msgstr ""
+"Damit der Artikel \"%(product)s\" umgelagert werden kann, muss eine Charge "
+"angegeben werden."
+
+msgctxt "model:ir.message,text:stock_lot.msg_only_lot"
+msgid "You must select a stock lot instead of a product for \"%(product)s\"."
+msgstr ""
+"Für \"%(product)s\" muss eine Charge ausgewählt werden anstatt einem "
+"Artikel."
+
+msgctxt "model:ir.ui.menu,name:stock_lot.menu_lot_form"
+msgid "Lots"
+msgstr "Chargen"
+
+msgctxt "model:product.template-stock.lot.type,name:stock_lot."
+msgid "Template - Stock Lot Type"
+msgstr "Vorlage - Lager Charge Typ"
+
+msgctxt "model:stock.lot,name:stock_lot."
+msgid "Stock Lot"
+msgstr "Lager Charge"
+
+msgctxt "model:stock.lot.type,name:stock_lot."
+msgid "Stock Lot Type"
+msgstr "Lager Charge Typ"
+
+msgctxt "model:stock.lot.type,name:stock_lot.type_customer"
+msgid "Customer"
+msgstr "Kunde"
+
+msgctxt "model:stock.lot.type,name:stock_lot.type_lost_found"
+msgid "Lost and Found"
+msgstr "Inventurdifferenz"
+
+msgctxt "model:stock.lot.type,name:stock_lot.type_production"
+msgid "Production"
+msgstr "Produktion"
+
+msgctxt "model:stock.lot.type,name:stock_lot.type_storage"
+msgid "Storage"
+msgstr "Lager"
+
+msgctxt "model:stock.lot.type,name:stock_lot.type_supplier"
+msgid "Supplier"
+msgstr "Lieferant"
+
+msgctxt "model:stock.lots_by_location.context,name:stock_lot."
+msgid "Lot by Location"
+msgstr "Chargen nach Lagerort"
+
+msgctxt "model:stock.period.cache.lot,name:stock_lot."
+msgid "Stock Period Cache per Lot"
+msgstr "Lagerperioden Cache pro Charge"
+
+msgctxt "selection:stock.inventory.count.search,search:stock_lot."
+msgid "Lot"
+msgstr "Charge"
+
+msgctxt "view:product.template:stock_lot."
+msgid "Lots"
+msgstr "Chargen"
+
+msgctxt "view:stock.lot:stock_lot."
+msgid "Lot"
+msgstr "Charge"
+
+msgctxt "view:stock.lot:stock_lot."
+msgid "Lots"
+msgstr "Chargen"
+
+msgctxt "view:stock.period.cache.lot:stock_lot."
+msgid "Period Lot Cache"
+msgstr "Lagerperiode Charge Cache"
+
+msgctxt "view:stock.period.cache.lot:stock_lot."
+msgid "Period Lot Caches"
+msgstr "Lagerperiode Charge Caches"

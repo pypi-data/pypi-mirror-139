@@ -1,0 +1,183 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.price_list,company:product_price_list."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:product.price_list,create_date:product_price_list."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:product.price_list,create_uid:product_price_list."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.price_list,id:product_price_list."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.price_list,lines:product_price_list."
+msgid "Lines"
+msgstr "Positionen"
+
+msgctxt "field:product.price_list,name:product_price_list."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:product.price_list,rec_name:product_price_list."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:product.price_list,tax_included:product_price_list."
+msgid "Tax Included"
+msgstr "Steuer Inklusive"
+
+msgctxt "field:product.price_list,write_date:product_price_list."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:product.price_list,write_uid:product_price_list."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:product.price_list.line,category:product_price_list."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "field:product.price_list.line,create_date:product_price_list."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:product.price_list.line,create_uid:product_price_list."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.price_list.line,formula:product_price_list."
+msgid "Formula"
+msgstr "Formel"
+
+msgctxt "field:product.price_list.line,id:product_price_list."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.price_list.line,price_list:product_price_list."
+msgid "Price List"
+msgstr "Preisliste"
+
+msgctxt "field:product.price_list.line,product:product_price_list."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:product.price_list.line,quantity:product_price_list."
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt "field:product.price_list.line,rec_name:product_price_list."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:product.price_list.line,sequence:product_price_list."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:product.price_list.line,unit_digits:product_price_list."
+msgid "Unit Digits"
+msgstr "Nachkommastellen"
+
+msgctxt "field:product.price_list.line,write_date:product_price_list."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:product.price_list.line,write_uid:product_price_list."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:product.price_list,company:product_price_list."
+msgid ""
+"Make the price list belong to the company.\n"
+"It defines the currency of the price list."
+msgstr ""
+"Die Preisliste dem Unternehmen zuordnen.\n"
+"Dies definiert die Währung der Preisliste."
+
+msgctxt "help:product.price_list,lines:product_price_list."
+msgid "Add price formulas for different criterias."
+msgstr "Preisformeln für verschiedene Kriterien hinzufügen."
+
+msgctxt "help:product.price_list,name:product_price_list."
+msgid "The main identifier of the price list."
+msgstr "Das Hauptidentifizierungsmerkmal der Preisliste."
+
+msgctxt "help:product.price_list,tax_included:product_price_list."
+msgid "Check if result's formula includes taxes."
+msgstr "Aktivieren wenn das Ergebnis der Formel die Steuern beinhaltet."
+
+msgctxt "help:product.price_list.line,category:product_price_list."
+msgid "Apply only to products of this category."
+msgstr "Nur auf Artikel dieser Kategorie anwenden."
+
+msgctxt "help:product.price_list.line,formula:product_price_list."
+msgid ""
+"Python expression that will be evaluated with:\n"
+"- unit_price: the original unit_price"
+msgstr ""
+"Ein Pythonausdruck, der ausgewertet wird mit:\n"
+"unit_price: originaler unit_price (Preis pro Einheit)"
+
+msgctxt "help:product.price_list.line,price_list:product_price_list."
+msgid "The price list to which the line belongs."
+msgstr "Die Preisliste zu der die Position zugeordnet ist."
+
+msgctxt "help:product.price_list.line,product:product_price_list."
+msgid "Apply only to this product."
+msgstr "Nur auf diesen Artikel anwenden."
+
+msgctxt "help:product.price_list.line,quantity:product_price_list."
+msgid "Apply only when quantity is greater."
+msgstr "Nur anwenden, wenn die Menge größer ist."
+
+msgctxt "model:ir.action,name:product_price_list.act_price_list_form"
+msgid "Price Lists"
+msgstr "Preislisten"
+
+msgctxt "model:ir.message,text:product_price_list.msg_invalid_formula"
+msgid ""
+"Invalid formula \"%(formula)s\" in price list line \"%(line)s\" with "
+"exception \"%(exception)s\"."
+msgstr ""
+"Ungültige Formel \"%(formula)s\" in Preislistenposition \"%(line)s\" mit "
+"Fehlermeldung \"%(exception)s\""
+
+msgctxt "model:ir.rule.group,name:product_price_list.rule_group_product_list"
+msgid "User in company"
+msgstr "Benutzer im Unternehmen"
+
+msgctxt "model:ir.ui.menu,name:product_price_list.menu_price_list"
+msgid "Price Lists"
+msgstr "Preislisten"
+
+msgctxt "model:product.price_list,name:product_price_list."
+msgid "Price List"
+msgstr "Preisliste"
+
+msgctxt "model:product.price_list.line,name:product_price_list."
+msgid "Price List Line"
+msgstr "Preislistenposition"
+
+msgctxt "view:product.price_list.line:product_price_list."
+msgid "Price List Line"
+msgstr "Preislistenposition"
+
+msgctxt "view:product.price_list.line:product_price_list."
+msgid "Price List Lines"
+msgstr "Preislistenpositionen"
+
+msgctxt "view:product.price_list:product_price_list."
+msgid "Price List"
+msgstr "Preisliste"
+
+msgctxt "view:product.price_list:product_price_list."
+msgid "Price Lists"
+msgstr "Preislisten"

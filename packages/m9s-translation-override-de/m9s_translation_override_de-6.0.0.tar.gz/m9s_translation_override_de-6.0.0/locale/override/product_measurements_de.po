@@ -1,0 +1,131 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,brand:product_measurements."
+msgid "Brand"
+msgstr "Marke"
+
+msgctxt "field:product.product,height:product_measurements."
+msgid "Height"
+msgstr "Höhe"
+
+msgctxt "field:product.product,height_digits:product_measurements."
+msgid "Height Digits"
+msgstr "Nachkommastellen Höhe"
+
+msgctxt "field:product.product,height_uom:product_measurements."
+msgid "Height Uom"
+msgstr "Höhe Maßeinheit"
+
+msgctxt "field:product.product,length:product_measurements."
+msgid "Length"
+msgstr "Länge"
+
+msgctxt "field:product.product,length_digits:product_measurements."
+msgid "Length Digits"
+msgstr "Nachkommastellen Länge"
+
+msgctxt "field:product.product,length_uom:product_measurements."
+msgid "Length Uom"
+msgstr "Länge Maßeinheit"
+
+msgctxt "field:product.product,volume:product_measurements."
+msgid "Volume"
+msgstr "Volumen"
+
+msgctxt "field:product.product,volume_digits:product_measurements."
+msgid "Volume Digits"
+msgstr "Nachkommastellen Volumen"
+
+msgctxt "field:product.product,volume_uom:product_measurements."
+msgid "Volume Uom"
+msgstr "Volumeneinheit"
+
+msgctxt "field:product.product,weight:product_measurements."
+msgid "Weight"
+msgstr "Gewicht"
+
+msgctxt "field:product.product,weight_digits:product_measurements."
+msgid "Weight Digits"
+msgstr "Nachkommastellen Gewicht"
+
+msgctxt "field:product.product,weight_uom:product_measurements."
+msgid "Weight Uom"
+msgstr "Gewicht Maßeinheit"
+
+msgctxt "field:product.product,width:product_measurements."
+msgid "Width"
+msgstr "Breite"
+
+msgctxt "field:product.product,width_digits:product_measurements."
+msgid "Width Digits"
+msgstr "Nachkommastellen Breite"
+
+msgctxt "field:product.product,width_uom:product_measurements."
+msgid "Width Uom"
+msgstr "Breite Maßeinheit"
+
+msgctxt "field:product.template,height:product_measurements."
+msgid "Height"
+msgstr "Höhe"
+
+msgctxt "field:product.template,height_digits:product_measurements."
+msgid "Height Digits"
+msgstr "Nachkommastellen Höhe"
+
+msgctxt "field:product.template,height_uom:product_measurements."
+msgid "Height Uom"
+msgstr "Höhe Maßeinheit"
+
+msgctxt "field:product.template,length:product_measurements."
+msgid "Length"
+msgstr "Länge"
+
+msgctxt "field:product.template,length_digits:product_measurements."
+msgid "Length Digits"
+msgstr "Nachkommastellen Länge"
+
+msgctxt "field:product.template,length_uom:product_measurements."
+msgid "Length Uom"
+msgstr "Länge Maßeinheit"
+
+msgctxt "field:product.template,volume:product_measurements."
+msgid "Volume"
+msgstr "Volumen"
+
+msgctxt "field:product.template,volume_digits:product_measurements."
+msgid "Volume Digits"
+msgstr "Nachkommastellen Volumen"
+
+msgctxt "field:product.template,volume_uom:product_measurements."
+msgid "Volume Uom"
+msgstr "Volumeneinheit"
+
+msgctxt "field:product.template,weight:product_measurements."
+msgid "Weight"
+msgstr "Gewicht"
+
+msgctxt "field:product.template,weight_digits:product_measurements."
+msgid "Weight Digits"
+msgstr "Nachkommastellen Gewicht"
+
+msgctxt "field:product.template,weight_uom:product_measurements."
+msgid "Weight Uom"
+msgstr "Gewicht Maßeinheit"
+
+msgctxt "field:product.template,width:product_measurements."
+msgid "Width"
+msgstr "Breite"
+
+msgctxt "field:product.template,width_digits:product_measurements."
+msgid "Width Digits"
+msgstr "Nachkommastellen Breite"
+
+msgctxt "field:product.template,width_uom:product_measurements."
+msgid "Width Uom"
+msgstr "Breite Maßeinheit"
+
+msgctxt "view:product.template:product_measurements."
+msgid "Measurements"
+msgstr "Abmessungen"

@@ -1,0 +1,171 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.extra,active:sale_extra."
+msgid "Active"
+msgstr "Aktiv"
+
+msgctxt "field:sale.extra,company:sale_extra."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:sale.extra,create_date:sale_extra."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:sale.extra,create_uid:sale_extra."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:sale.extra,currency_digits:sale_extra."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:sale.extra,end_date:sale_extra."
+msgid "End Date"
+msgstr "Enddatum"
+
+msgctxt "field:sale.extra,id:sale_extra."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.extra,lines:sale_extra."
+msgid "Lines"
+msgstr "Positionen"
+
+msgctxt "field:sale.extra,name:sale_extra."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:sale.extra,price_list:sale_extra."
+msgid "Price List"
+msgstr "Preisliste"
+
+msgctxt "field:sale.extra,rec_name:sale_extra."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:sale.extra,sale_amount:sale_extra."
+msgid "Sale Amount"
+msgstr "Verkaufsbetrag"
+
+msgctxt "field:sale.extra,start_date:sale_extra."
+msgid "Start Date"
+msgstr "Anfangsdatum"
+
+msgctxt "field:sale.extra,write_date:sale_extra."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:sale.extra,write_uid:sale_extra."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:sale.extra.line,create_date:sale_extra."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:sale.extra.line,create_uid:sale_extra."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:sale.extra.line,extra:sale_extra."
+msgid "Extra"
+msgstr "Extra"
+
+msgctxt "field:sale.extra.line,free:sale_extra."
+msgid "Free"
+msgstr "Gratis"
+
+msgctxt "field:sale.extra.line,id:sale_extra."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.extra.line,product:sale_extra."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:sale.extra.line,product_uom_category:sale_extra."
+msgid "Product UoM Category"
+msgstr "Maßeinheitenkategorie"
+
+msgctxt "field:sale.extra.line,quantity:sale_extra."
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt "field:sale.extra.line,rec_name:sale_extra."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:sale.extra.line,sale_amount:sale_extra."
+msgid "Sale Amount"
+msgstr "Verkaufsbetrag"
+
+msgctxt "field:sale.extra.line,sequence:sale_extra."
+msgid "Sequence"
+msgstr "Revision"
+
+msgctxt "field:sale.extra.line,unit:sale_extra."
+msgid "Unit"
+msgstr "Einheit"
+
+msgctxt "field:sale.extra.line,unit_digits:sale_extra."
+msgid "Unit Digits"
+msgstr "Nachkommastellen"
+
+msgctxt "field:sale.extra.line,write_date:sale_extra."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:sale.extra.line,write_uid:sale_extra."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:sale.line,extra:sale_extra."
+msgid "Extra"
+msgstr "Extra"
+
+msgctxt "help:sale.extra,active:sale_extra."
+msgid "Uncheck to exclude from future use."
+msgstr "Deaktivieren um die zukünftige Nutzung zu verhindern."
+
+msgctxt "model:ir.action,name:sale_extra.act_extra_form"
+msgid "Extras"
+msgstr "Extras"
+
+msgctxt "model:ir.action,name:sale_extra.act_extra_relate"
+msgid "Sale Extras"
+msgstr "Verkaufsextras"
+
+msgctxt "model:ir.rule.group,name:sale_extra.rule_group_extra"
+msgid "User in company"
+msgstr "Benutzer in Unternehmen"
+
+msgctxt "model:ir.rule.group,name:sale_extra.rule_group_extra_line"
+msgid "User in extra's company"
+msgstr "Benutzer in Unternehmen des Extras"
+
+msgctxt "model:ir.ui.menu,name:sale_extra.menu_extra"
+msgid "Extras"
+msgstr "Extras"
+
+msgctxt "model:sale.extra,name:sale_extra."
+msgid "Sale Extra"
+msgstr "Verkaufsextra"
+
+msgctxt "model:sale.extra.line,name:sale_extra."
+msgid "Sale Extra Line"
+msgstr "Verkaufsextrazeile"
+
+msgctxt "view:sale.extra.line:sale_extra."
+msgid "Sale Line"
+msgstr "Verkaufsposition"
+
+msgctxt "view:sale.extra:sale_extra."
+msgid "Extra"
+msgstr "Extra"
+
+msgctxt "view:sale.extra:sale_extra."
+msgid "Extras"
+msgstr "Extras"

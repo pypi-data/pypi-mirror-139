@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:dashboard.action,act_window:dashboard."
+msgid "Action"
+msgstr "Aktion"
+
+msgctxt "field:dashboard.action,create_date:dashboard."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:dashboard.action,create_uid:dashboard."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:dashboard.action,id:dashboard."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:dashboard.action,rec_name:dashboard."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:dashboard.action,sequence:dashboard."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:dashboard.action,user:dashboard."
+msgid "User"
+msgstr "Benutzer"
+
+msgctxt "field:dashboard.action,write_date:dashboard."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:dashboard.action,write_uid:dashboard."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:res.user,dashboard_actions:dashboard."
+msgid "Dashboard Actions"
+msgstr "Dashboard Aktionen"
+
+msgctxt "field:res.user,dashboard_layout:dashboard."
+msgid "Dashboard Layout"
+msgstr "Dashboard Anordnung"
+
+msgctxt "model:dashboard.action,name:dashboard."
+msgid "Dashboard Action"
+msgstr "Dashboard Aktion"
+
+msgctxt "model:ir.action,name:dashboard.act_dashboard"
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgctxt "model:ir.ui.menu,name:dashboard.menu_dashboard"
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgctxt "selection:res.user,dashboard_layout:dashboard."
+msgid "Square"
+msgstr "Rechtecke"
+
+msgctxt "selection:res.user,dashboard_layout:dashboard."
+msgid "Stack Bottom"
+msgstr "Stapel unten"
+
+msgctxt "selection:res.user,dashboard_layout:dashboard."
+msgid "Stack Left"
+msgstr "Stapel links"
+
+msgctxt "selection:res.user,dashboard_layout:dashboard."
+msgid "Stack Right"
+msgstr "Stapel rechts"
+
+msgctxt "selection:res.user,dashboard_layout:dashboard."
+msgid "Stack Top"
+msgstr "Stapel oben"
+
+msgctxt "view:dashboard.action:dashboard."
+msgid "Dashboard Action"
+msgstr "Dashboard Aktion"
+
+msgctxt "view:dashboard.action:dashboard."
+msgid "Dashboard Actions"
+msgstr "Dashboard Aktionen"
+
+msgctxt "view:res.user:dashboard."
+msgid "Dashboard"
+msgstr "Dashboard"

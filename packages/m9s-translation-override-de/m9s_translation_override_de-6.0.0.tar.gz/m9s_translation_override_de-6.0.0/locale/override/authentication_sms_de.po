@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:res.user,mobile:authentication_sms."
+msgid "Mobile"
+msgstr "Mobiltelefon"
+
+msgctxt "field:res.user.login.sms_code,code:authentication_sms."
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:res.user.login.sms_code,create_date:authentication_sms."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:res.user.login.sms_code,create_uid:authentication_sms."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:res.user.login.sms_code,id:authentication_sms."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:res.user.login.sms_code,rec_name:authentication_sms."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:res.user.login.sms_code,user:authentication_sms."
+msgid "User"
+msgstr "Benutzer"
+
+msgctxt "field:res.user.login.sms_code,user_id:authentication_sms."
+msgid "User ID"
+msgstr "Benutzer ID"
+
+msgctxt "field:res.user.login.sms_code,write_date:authentication_sms."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:res.user.login.sms_code,write_uid:authentication_sms."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:res.user,mobile:authentication_sms."
+msgid "Phone number that supports receiving SMS"
+msgstr "Eine Telefonnummer, die den Empfang von SMS unterstützt"
+
+msgctxt "model:ir.message,text:authentication_sms.msg_sms_text"
+msgid "%(name)s code %(code)s"
+msgstr "%(name)s Code %(code)s"
+
+msgctxt "model:res.user.login.sms_code,name:authentication_sms."
+msgid "SMS Code"
+msgstr "SMS Code"

@@ -1,0 +1,223 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product-production.bom,routing:production_routing."
+msgid "Routing"
+msgstr "Fertigungsplan"
+
+msgctxt "field:production,routing:production_routing."
+msgid "Routing"
+msgstr "Fertigungsplan"
+
+msgctxt "field:production.lead_time,routing:production_routing."
+msgid "Routing"
+msgstr "Fertigungsplan"
+
+msgctxt "field:production.routing,active:production_routing."
+msgid "Active"
+msgstr "Aktiv"
+
+msgctxt "field:production.routing,boms:production_routing."
+msgid "BOMs"
+msgstr "Stücklisten"
+
+msgctxt "field:production.routing,create_date:production_routing."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:production.routing,create_uid:production_routing."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:production.routing,id:production_routing."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:production.routing,name:production_routing."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:production.routing,rec_name:production_routing."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:production.routing,steps:production_routing."
+msgid "Steps"
+msgstr "Fertigungsschritte"
+
+msgctxt "field:production.routing,write_date:production_routing."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:production.routing,write_uid:production_routing."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:production.routing-production.bom,bom:production_routing."
+msgid "BOM"
+msgstr "Stückliste"
+
+msgctxt ""
+"field:production.routing-production.bom,create_date:production_routing."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:production.routing-production.bom,create_uid:production_routing."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:production.routing-production.bom,id:production_routing."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:production.routing-production.bom,rec_name:production_routing."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:production.routing-production.bom,routing:production_routing."
+msgid "Routing"
+msgstr "Fertigungsplan"
+
+msgctxt ""
+"field:production.routing-production.bom,write_date:production_routing."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:production.routing-production.bom,write_uid:production_routing."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:production.routing.operation,active:production_routing."
+msgid "Active"
+msgstr "Aktiv"
+
+msgctxt "field:production.routing.operation,create_date:production_routing."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:production.routing.operation,create_uid:production_routing."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:production.routing.operation,id:production_routing."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:production.routing.operation,name:production_routing."
+msgid "Operation"
+msgstr "Arbeitsvorgang"
+
+msgctxt "field:production.routing.operation,rec_name:production_routing."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:production.routing.operation,write_date:production_routing."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:production.routing.operation,write_uid:production_routing."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:production.routing.step,create_date:production_routing."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:production.routing.step,create_uid:production_routing."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:production.routing.step,id:production_routing."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:production.routing.step,operation:production_routing."
+msgid "Operation"
+msgstr "Arbeitsvorgang"
+
+msgctxt "field:production.routing.step,rec_name:production_routing."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:production.routing.step,routing:production_routing."
+msgid "Routing"
+msgstr "Fertigungsplan"
+
+msgctxt "field:production.routing.step,sequence:production_routing."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:production.routing.step,write_date:production_routing."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:production.routing.step,write_uid:production_routing."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:production.routing,active:production_routing."
+msgid "Uncheck to exclude from future use."
+msgstr "Deaktivieren um die zukünftige Nutzung zu verhindern."
+
+msgctxt "help:production.routing.operation,active:production_routing."
+msgid "Uncheck to exclude from future use."
+msgstr "Deaktivieren um die zukünftige Nutzung zu verhindern."
+
+msgctxt "model:ir.action,name:production_routing.act_operation_list"
+msgid "Operations"
+msgstr "Arbeitsvorgänge"
+
+msgctxt "model:ir.action,name:production_routing.act_routing_list"
+msgid "Routings"
+msgstr "Fertigungspläne"
+
+msgctxt "model:ir.ui.menu,name:production_routing.menu_operation_list"
+msgid "Operations"
+msgstr "Arbeitsvorgänge"
+
+msgctxt "model:ir.ui.menu,name:production_routing.menu_routing_list"
+msgid "Routings"
+msgstr "Fertigungspläne"
+
+msgctxt "model:production.routing,name:production_routing."
+msgid "Routing"
+msgstr "Fertigungsplan"
+
+msgctxt "model:production.routing-production.bom,name:production_routing."
+msgid "Routing - BOM"
+msgstr "Fertigungsplan - Stückliste"
+
+msgctxt "model:production.routing.operation,name:production_routing."
+msgid "Operation"
+msgstr "Arbeitsvorgang"
+
+msgctxt "model:production.routing.step,name:production_routing."
+msgid "Route"
+msgstr "Fertigungsplan"
+
+msgctxt "view:production.routing.operation:production_routing."
+msgid "Operation"
+msgstr "Arbeitsvorgang"
+
+msgctxt "view:production.routing.operation:production_routing."
+msgid "Operations"
+msgstr "Arbeitsvorgänge"
+
+msgctxt "view:production.routing.step:production_routing."
+msgid "Routing Step"
+msgstr "Fertigungsschritt"
+
+msgctxt "view:production.routing.step:production_routing."
+msgid "Routing Steps"
+msgstr "Fertigungsschritte"
+
+msgctxt "view:production.routing:production_routing."
+msgid "Routing"
+msgstr "Fertigungsplan"
+
+msgctxt "view:production.routing:production_routing."
+msgid "Routings"
+msgstr "Fertigungspläne"

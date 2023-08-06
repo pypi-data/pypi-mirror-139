@@ -1,0 +1,382 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:purchase.configuration,purchase_requisition_sequence:purchase_requisition."
+msgid "Purchase Requisition Sequence"
+msgstr "Nummernkreis Bestellanforderung"
+
+msgctxt ""
+"field:purchase.configuration.sequence,purchase_requisition_sequence:purchase_requisition."
+msgid "Purchase Requisition Sequence"
+msgstr "Nummernkreis Bestellanforderung"
+
+msgctxt "field:purchase.requisition,company:purchase_requisition."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:purchase.requisition,create_date:purchase_requisition."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:purchase.requisition,create_uid:purchase_requisition."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:purchase.requisition,currency:purchase_requisition."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:purchase.requisition,currency_digits:purchase_requisition."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:purchase.requisition,description:purchase_requisition."
+msgid "Description"
+msgstr "Beschreibung"
+
+msgctxt "field:purchase.requisition,employee:purchase_requisition."
+msgid "Employee"
+msgstr "Mitarbeiter"
+
+msgctxt "field:purchase.requisition,id:purchase_requisition."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:purchase.requisition,lines:purchase_requisition."
+msgid "Lines"
+msgstr "Positionen"
+
+msgctxt "field:purchase.requisition,number:purchase_requisition."
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "field:purchase.requisition,rec_name:purchase_requisition."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:purchase.requisition,state:purchase_requisition."
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:purchase.requisition,supply_date:purchase_requisition."
+msgid "Supply Date"
+msgstr "Beschaffungsdatum"
+
+msgctxt "field:purchase.requisition,total_amount:purchase_requisition."
+msgid "Total"
+msgstr "Gesamt"
+
+msgctxt "field:purchase.requisition,total_amount_cache:purchase_requisition."
+msgid "Total Cache"
+msgstr "Gesamt Cache"
+
+msgctxt "field:purchase.requisition,warehouse:purchase_requisition."
+msgid "Warehouse"
+msgstr "Warenlager"
+
+msgctxt "field:purchase.requisition,write_date:purchase_requisition."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:purchase.requisition,write_uid:purchase_requisition."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:purchase.requisition.line,amount:purchase_requisition."
+msgid "Amount"
+msgstr "Betrag"
+
+msgctxt "field:purchase.requisition.line,create_date:purchase_requisition."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:purchase.requisition.line,create_uid:purchase_requisition."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:purchase.requisition.line,description:purchase_requisition."
+msgid "Description"
+msgstr "Beschreibung"
+
+msgctxt "field:purchase.requisition.line,id:purchase_requisition."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:purchase.requisition.line,product:purchase_requisition."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt ""
+"field:purchase.requisition.line,product_uom_category:purchase_requisition."
+msgid "Product Uom Category"
+msgstr "Maßeinheitenkategorie"
+
+msgctxt ""
+"field:purchase.requisition.line,purchase_requests:purchase_requisition."
+msgid "Purchase Request"
+msgstr "Bestellvorschlag"
+
+msgctxt ""
+"field:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Purchase Requisition State"
+msgstr "Bestellanforderungsstatus"
+
+msgctxt "field:purchase.requisition.line,quantity:purchase_requisition."
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt "field:purchase.requisition.line,rec_name:purchase_requisition."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:purchase.requisition.line,requisition:purchase_requisition."
+msgid "Requisition"
+msgstr "Bestellanforderung"
+
+msgctxt "field:purchase.requisition.line,sequence:purchase_requisition."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:purchase.requisition.line,supplier:purchase_requisition."
+msgid "Supplier"
+msgstr "Lieferant"
+
+msgctxt "field:purchase.requisition.line,unit:purchase_requisition."
+msgid "Unit"
+msgstr "Stück"
+
+msgctxt "field:purchase.requisition.line,unit_digits:purchase_requisition."
+msgid "Unit Digits"
+msgstr "Nachkommastellen"
+
+msgctxt "field:purchase.requisition.line,unit_price:purchase_requisition."
+msgid "Unit Price"
+msgstr "Einzelpreis"
+
+msgctxt "field:purchase.requisition.line,write_date:purchase_requisition."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:purchase.requisition.line,write_uid:purchase_requisition."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"model:ir.action,name:purchase_requisition.act_open_purchase_request_form"
+msgid "Requests"
+msgstr "Anfragen"
+
+msgctxt ""
+"model:ir.action,name:purchase_requisition.act_open_purchase_request_form2"
+msgid "Requests"
+msgstr "Anfragen"
+
+msgctxt ""
+"model:ir.action,name:purchase_requisition.act_purchase_requisition_form"
+msgid "Purchase Requisitions"
+msgstr "Bestellanforderungen"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:purchase_requisition.act_purchase_requisition_form_view1_domain_all"
+msgid "All"
+msgstr "Alle"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:purchase_requisition.act_purchase_requisition_form_view1_domain_open"
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:purchase_requisition.act_purchase_requisition_form_view1_domain_sent"
+msgid "Processing"
+msgstr "In Ausführung"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:purchase_requisition.act_purchase_requisition_form_view1_domain_validated"
+msgid "Waiting"
+msgstr "Wartend"
+
+msgctxt "model:ir.message,text:purchase_requisition.msg_delete_cancel"
+msgid "To delete requisition \"%(requisition)s\" you must cancel it."
+msgstr ""
+"Damit die Bestellanforderung \"%(requisition)s\" gelöscht werden kann, muss "
+"sie zuerst annulliert werden."
+
+msgctxt "model:ir.message,text:purchase_requisition.msg_warehouse_required"
+msgid "A warehouse must be defined for requisition \"%(requisition)s\"."
+msgstr ""
+"Für Bestellanforderung \"%(requisition)s\" muss ein Warenlager angegeben "
+"werden."
+
+msgctxt ""
+"model:ir.model.button,string:purchase_requisition.requisition_approve_button"
+msgid "Approve"
+msgstr "Bestätigen"
+
+msgctxt ""
+"model:ir.model.button,string:purchase_requisition.requisition_cancel_button"
+msgid "Cancel"
+msgstr "Annullieren"
+
+msgctxt ""
+"model:ir.model.button,string:purchase_requisition.requisition_draft_button"
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt ""
+"model:ir.model.button,string:purchase_requisition.requisition_reject_button"
+msgid "Reject"
+msgstr "Ablehnen"
+
+msgctxt ""
+"model:ir.model.button,string:purchase_requisition.requisition_wait_button"
+msgid "Wait"
+msgstr "Warten"
+
+msgctxt "model:ir.rule.group,name:purchase_requisition.rule_group_requisition"
+msgid "Any requisition"
+msgstr "Beliebige Bestellanforderung"
+
+msgctxt ""
+"model:ir.rule.group,name:purchase_requisition.rule_group_requisition_default"
+msgid "Own requisition"
+msgstr "Eigene Bestellanforderung"
+
+msgctxt ""
+"model:ir.rule.group,name:purchase_requisition.rule_group_requisition_line"
+msgid "Any requisition line"
+msgstr "Beliebige Bestellanforderungszeile"
+
+msgctxt ""
+"model:ir.rule.group,name:purchase_requisition.rule_group_requisition_line_default"
+msgid "Own requisition line"
+msgstr "Eigene Bestellanforderungszeile"
+
+msgctxt ""
+"model:ir.sequence,name:purchase_requisition.sequence_purchase_requisition"
+msgid "Purchase Requisition"
+msgstr "Bestellanforderung"
+
+msgctxt ""
+"model:ir.sequence.type,name:purchase_requisition.sequence_type_purchase_requisition"
+msgid "Purchase Requisition"
+msgstr "Bestellanforderung"
+
+msgctxt ""
+"model:ir.ui.menu,name:purchase_requisition.menu_purchase_requisition_form"
+msgid "Purchase Requisitions"
+msgstr "Bestellanforderungen"
+
+msgctxt "model:purchase.requisition,name:purchase_requisition."
+msgid "Purchase Requisition"
+msgstr "Bestellanforderung"
+
+msgctxt "model:purchase.requisition.line,name:purchase_requisition."
+msgid "Purchase Requisition Line"
+msgstr "Bestellanforderungszeile"
+
+msgctxt "model:res.group,name:purchase_requisition.group_purchase_requisition"
+msgid "Purchase Requisition"
+msgstr "Bestellanforderung"
+
+msgctxt ""
+"model:res.group,name:purchase_requisition.group_purchase_requisition_approval"
+msgid "Purchase Requisition Approval"
+msgstr "Genehmigung Bestellanforderung"
+
+msgctxt "selection:purchase.requisition,state:purchase_requisition."
+msgid "Approved"
+msgstr "Bestätigt"
+
+msgctxt "selection:purchase.requisition,state:purchase_requisition."
+msgid "Canceled"
+msgstr "Annulliert"
+
+msgctxt "selection:purchase.requisition,state:purchase_requisition."
+msgid "Done"
+msgstr "Erledigt"
+
+msgctxt "selection:purchase.requisition,state:purchase_requisition."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt "selection:purchase.requisition,state:purchase_requisition."
+msgid "Processing"
+msgstr "In Ausführung"
+
+msgctxt "selection:purchase.requisition,state:purchase_requisition."
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+msgctxt "selection:purchase.requisition,state:purchase_requisition."
+msgid "Waiting"
+msgstr "Wartend"
+
+msgctxt ""
+"selection:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Approved"
+msgstr "Bestätigt"
+
+msgctxt ""
+"selection:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Canceled"
+msgstr "Annulliert"
+
+msgctxt ""
+"selection:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Done"
+msgstr "Erledigt"
+
+msgctxt ""
+"selection:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt ""
+"selection:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Processing"
+msgstr "In Ausführung"
+
+msgctxt ""
+"selection:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+msgctxt ""
+"selection:purchase.requisition.line,purchase_requisition_state:purchase_requisition."
+msgid "Waiting"
+msgstr "Wartend"
+
+msgctxt "view:purchase.requisition.line:purchase_requisition."
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "view:purchase.requisition:purchase_requisition."
+msgid "Approve"
+msgstr "Bestätigen"
+
+msgctxt "view:purchase.requisition:purchase_requisition."
+msgid "Cancel"
+msgstr "Annullieren"
+
+msgctxt "view:purchase.requisition:purchase_requisition."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt "view:purchase.requisition:purchase_requisition."
+msgid "Other Info"
+msgstr "Sonstiges"
+
+msgctxt "view:purchase.requisition:purchase_requisition."
+msgid "Reject"
+msgstr "Ablehnen"
+
+msgctxt "view:purchase.requisition:purchase_requisition."
+msgid "Requisition"
+msgstr "Bestellanforderung"
+
+msgctxt "view:purchase.requisition:purchase_requisition."
+msgid "Wait"
+msgstr "Warten"

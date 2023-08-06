@@ -1,0 +1,427 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:account.configuration,default_dunning_procedure:account_dunning."
+msgid "Default Dunning Procedure"
+msgstr "Standardmahnprozess"
+
+msgctxt ""
+"field:account.configuration.default_dunning_procedure,create_date:account_dunning."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:account.configuration.default_dunning_procedure,create_uid:account_dunning."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:account.configuration.default_dunning_procedure,default_dunning_procedure:account_dunning."
+msgid "Default Dunning Procedure"
+msgstr "Standardmahnprozess"
+
+msgctxt ""
+"field:account.configuration.default_dunning_procedure,id:account_dunning."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:account.configuration.default_dunning_procedure,rec_name:account_dunning."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:account.configuration.default_dunning_procedure,write_date:account_dunning."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:account.configuration.default_dunning_procedure,write_uid:account_dunning."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.dunning,active:account_dunning."
+msgid "Active"
+msgstr "Aktiv"
+
+msgctxt "field:account.dunning,amount:account_dunning."
+msgid "Amount"
+msgstr "Betrag"
+
+msgctxt "field:account.dunning,amount_second_currency:account_dunning."
+msgid "Amount Second Currency"
+msgstr "Fremdwährungsbetrag"
+
+msgctxt "field:account.dunning,blocked:account_dunning."
+msgid "Blocked"
+msgstr "Gesperrt"
+
+msgctxt "field:account.dunning,company:account_dunning."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:account.dunning,create_date:account_dunning."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:account.dunning,create_uid:account_dunning."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:account.dunning,currency_digits:account_dunning."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:account.dunning,id:account_dunning."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.dunning,level:account_dunning."
+msgid "Level"
+msgstr "Stufe"
+
+msgctxt "field:account.dunning,line:account_dunning."
+msgid "Line"
+msgstr "Position"
+
+msgctxt "field:account.dunning,maturity_date:account_dunning."
+msgid "Maturity Date"
+msgstr "Fälligkeitsdatum"
+
+msgctxt "field:account.dunning,party:account_dunning."
+msgid "Party"
+msgstr "Partei"
+
+msgctxt "field:account.dunning,procedure:account_dunning."
+msgid "Procedure"
+msgstr "Verfahren"
+
+msgctxt "field:account.dunning,rec_name:account_dunning."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:account.dunning,second_currency:account_dunning."
+msgid "Second Currency"
+msgstr "Fremdwährung"
+
+msgctxt "field:account.dunning,second_currency_digits:account_dunning."
+msgid "Second Currency Digits"
+msgstr "Nachkommastellen Fremdwährung"
+
+msgctxt "field:account.dunning,state:account_dunning."
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:account.dunning,write_date:account_dunning."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:account.dunning,write_uid:account_dunning."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.dunning.create.start,date:account_dunning."
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:account.dunning.create.start,id:account_dunning."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.dunning.level,create_date:account_dunning."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:account.dunning.level,create_uid:account_dunning."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:account.dunning.level,id:account_dunning."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.dunning.level,overdue:account_dunning."
+msgid "Overdue"
+msgstr "Überfällig"
+
+msgctxt "field:account.dunning.level,procedure:account_dunning."
+msgid "Procedure"
+msgstr "Verfahren"
+
+msgctxt "field:account.dunning.level,rec_name:account_dunning."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:account.dunning.level,sequence:account_dunning."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:account.dunning.level,write_date:account_dunning."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:account.dunning.level,write_uid:account_dunning."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.dunning.procedure,create_date:account_dunning."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:account.dunning.procedure,create_uid:account_dunning."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:account.dunning.procedure,id:account_dunning."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.dunning.procedure,levels:account_dunning."
+msgid "Levels"
+msgstr "Stufen"
+
+msgctxt "field:account.dunning.procedure,name:account_dunning."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:account.dunning.procedure,rec_name:account_dunning."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:account.dunning.procedure,write_date:account_dunning."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:account.dunning.procedure,write_uid:account_dunning."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.dunning.process.start,id:account_dunning."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.move.line,dunnings:account_dunning."
+msgid "Dunnings"
+msgstr "Mahnungen"
+
+msgctxt "field:party.party,dunning_procedure:account_dunning."
+msgid "Dunning Procedure"
+msgstr "Mahnprozess"
+
+msgctxt "field:party.party,dunning_procedures:account_dunning."
+msgid "Dunning Procedures"
+msgstr "Mahnprozess"
+
+msgctxt "field:party.party.dunning_procedure,create_date:account_dunning."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:party.party.dunning_procedure,create_uid:account_dunning."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:party.party.dunning_procedure,dunning_procedure:account_dunning."
+msgid "Dunning Procedure"
+msgstr "Mahnprozess"
+
+msgctxt "field:party.party.dunning_procedure,id:account_dunning."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.party.dunning_procedure,party:account_dunning."
+msgid "Party"
+msgstr "Partei"
+
+msgctxt "field:party.party.dunning_procedure,rec_name:account_dunning."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:party.party.dunning_procedure,write_date:account_dunning."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:party.party.dunning_procedure,write_uid:account_dunning."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"help:account.configuration,default_dunning_procedure:account_dunning."
+msgid "The default dunning procedure for new customers."
+msgstr "Der Standard-Mahnprozess für neue Kunden."
+
+msgctxt ""
+"help:account.configuration.default_dunning_procedure,default_dunning_procedure:account_dunning."
+msgid "The default dunning procedure for new customers."
+msgstr "Der Standard-Mahnprozess für neue Kunden."
+
+msgctxt "help:account.dunning,blocked:account_dunning."
+msgid "Check to block further levels of the procedure."
+msgstr "Aktivieren um weiter Mahnstufen zu verhindern."
+
+msgctxt "help:account.dunning,company:account_dunning."
+msgid "Make the dunning belong to the company."
+msgstr "Diese Mahnung dem Unternehmen zuordnen."
+
+msgctxt "help:account.dunning,line:account_dunning."
+msgid "The receivable line to dun for."
+msgstr "Diese Forderung einmahnen."
+
+msgctxt "help:account.dunning.create.start,date:account_dunning."
+msgid "Create dunning up to this date."
+msgstr "Mahnungen bis zu diesem Stichtag erstellen."
+
+msgctxt "help:account.dunning.level,overdue:account_dunning."
+msgid "When the level should be applied."
+msgstr "Wann die Mahnstufe angewendet werden soll."
+
+msgctxt "help:account.dunning.procedure,name:account_dunning."
+msgid "The main identifier of the Dunning Procedure."
+msgstr "Das Hauptidentifizierungsmerkmal des Mahnprozesses."
+
+msgctxt ""
+"model:account.configuration.default_dunning_procedure,name:account_dunning."
+msgid "Account Configuration Default Dunning Procedure"
+msgstr "Einstellungen Buchhaltung Standardmahnprozess"
+
+msgctxt "model:account.dunning,name:account_dunning."
+msgid "Account Dunning"
+msgstr "Mahnung"
+
+msgctxt "model:account.dunning.create.start,name:account_dunning."
+msgid "Create Account Dunning"
+msgstr "Mahnung erstellen"
+
+msgctxt "model:account.dunning.level,name:account_dunning."
+msgid "Account Dunning Level"
+msgstr "Mahnstufe"
+
+msgctxt "model:account.dunning.procedure,name:account_dunning."
+msgid "Account Dunning Procedure"
+msgstr "Buchhaltung Mahnprozess"
+
+msgctxt "model:account.dunning.process.start,name:account_dunning."
+msgid "Create Account Dunning"
+msgstr "Mahnung erstellen"
+
+msgctxt "model:ir.action,name:account_dunning.act_dunning_form"
+msgid "Dunnings"
+msgstr "Mahnungen"
+
+msgctxt "model:ir.action,name:account_dunning.act_dunning_party"
+msgid "Dunnings"
+msgstr "Mahnungen"
+
+msgctxt "model:ir.action,name:account_dunning.act_dunning_procedure_form"
+msgid "Dunning Procedures"
+msgstr "Mahnprozesse"
+
+msgctxt "model:ir.action,name:account_dunning.wizard_dunning_create"
+msgid "Create Dunnings"
+msgstr "Mahnungen erstellen"
+
+msgctxt "model:ir.action,name:account_dunning.wizard_dunning_process"
+msgid "Process Dunning"
+msgstr "Mahnlauf durchführen"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:account_dunning.act_dunning_form_domain_all"
+msgid "All"
+msgstr "Alle"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:account_dunning.act_dunning_form_domain_draft"
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:account_dunning.act_dunning_form_domain_final"
+msgid "Final"
+msgstr "Ausgemahnt"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:account_dunning.act_dunning_form_domain_waiting"
+msgid "Waiting"
+msgstr "Wartend"
+
+msgctxt "model:ir.message,text:account_dunning.msg_dunning_line_unique"
+msgid "Line can be used only once on dunning."
+msgstr "Eine Position kann nur einmal auf einer Mahnung verwendet werden."
+
+msgctxt "model:ir.rule.group,name:account_dunning.rule_group_dunning"
+msgid "User in company"
+msgstr "Benutzer im Unternehmen"
+
+msgctxt "model:ir.ui.menu,name:account_dunning.menu_dunning_configuration"
+msgid "Dunnings"
+msgstr "Mahnungen"
+
+msgctxt "model:ir.ui.menu,name:account_dunning.menu_dunning_create"
+msgid "Create Dunnings"
+msgstr "Mahnungen erstellen"
+
+msgctxt "model:ir.ui.menu,name:account_dunning.menu_dunning_form"
+msgid "Dunnings"
+msgstr "Mahnungen"
+
+msgctxt "model:ir.ui.menu,name:account_dunning.menu_dunning_procedure_form"
+msgid "Dunning Procedures"
+msgstr "Mahnprozesse"
+
+msgctxt "model:ir.ui.menu,name:account_dunning.menu_dunnings"
+msgid "Dunnings"
+msgstr "Mahnungen"
+
+msgctxt "model:party.party.dunning_procedure,name:account_dunning."
+msgid "Party Dunning Procedure"
+msgstr "Partei Standardmahnprozess"
+
+msgctxt "model:res.group,name:account_dunning.group_dunning"
+msgid "Dunning"
+msgstr "Mahnung"
+
+msgctxt "selection:account.dunning,state:account_dunning."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt "selection:account.dunning,state:account_dunning."
+msgid "Final"
+msgstr "Ausgemahnt"
+
+msgctxt "selection:account.dunning,state:account_dunning."
+msgid "Waiting"
+msgstr "Wartend"
+
+msgctxt "view:account.configuration:account_dunning."
+msgid "Dunning"
+msgstr "Mahnung"
+
+msgctxt "view:account.dunning.create.start:account_dunning."
+msgid "Create Dunning for date"
+msgstr "Mahnung erstellen für Datum"
+
+msgctxt "view:account.dunning.process.start:account_dunning."
+msgid "Process Dunning?"
+msgstr "Mahnlauf durchführen?"
+
+msgctxt "view:party.party:account_dunning."
+msgid "Dunning"
+msgstr "Mahnung"
+
+msgctxt "wizard_button:account.dunning.create,start,create_:account_dunning."
+msgid "Create"
+msgstr "Erstellen"
+
+msgctxt "wizard_button:account.dunning.create,start,end:account_dunning."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "wizard_button:account.dunning.process,start,end:account_dunning."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "wizard_button:account.dunning.process,start,process:account_dunning."
+msgid "Process"
+msgstr "Ausführen"

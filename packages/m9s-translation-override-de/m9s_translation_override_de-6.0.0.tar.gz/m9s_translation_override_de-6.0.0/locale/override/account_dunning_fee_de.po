@@ -1,0 +1,156 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.dunning,fees:account_dunning_fee."
+msgid "Fees"
+msgstr "Gebühren"
+
+msgctxt "field:account.dunning.fee,active:account_dunning_fee."
+msgid "Active"
+msgstr "Aktiv"
+
+msgctxt "field:account.dunning.fee,compute_method:account_dunning_fee."
+msgid "Compute Method"
+msgstr "Berechnungsmethode"
+
+msgctxt "field:account.dunning.fee,create_date:account_dunning_fee."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:account.dunning.fee,create_uid:account_dunning_fee."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:account.dunning.fee,id:account_dunning_fee."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.dunning.fee,journal:account_dunning_fee."
+msgid "Journal"
+msgstr "Journal"
+
+msgctxt "field:account.dunning.fee,name:account_dunning_fee."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:account.dunning.fee,percentage:account_dunning_fee."
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+msgctxt "field:account.dunning.fee,product:account_dunning_fee."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:account.dunning.fee,rec_name:account_dunning_fee."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:account.dunning.fee,write_date:account_dunning_fee."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:account.dunning.fee,write_uid:account_dunning_fee."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.dunning.fee.dunning_level,amount:account_dunning_fee."
+msgid "Amount"
+msgstr "Betrag"
+
+msgctxt ""
+"field:account.dunning.fee.dunning_level,create_date:account_dunning_fee."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:account.dunning.fee.dunning_level,create_uid:account_dunning_fee."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:account.dunning.fee.dunning_level,currency:account_dunning_fee."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt ""
+"field:account.dunning.fee.dunning_level,currency_digits:account_dunning_fee."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:account.dunning.fee.dunning_level,dunning:account_dunning_fee."
+msgid "Dunning"
+msgstr "Mahnung"
+
+msgctxt "field:account.dunning.fee.dunning_level,id:account_dunning_fee."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.dunning.fee.dunning_level,level:account_dunning_fee."
+msgid "Level"
+msgstr "Stufe"
+
+msgctxt "field:account.dunning.fee.dunning_level,moves:account_dunning_fee."
+msgid "Moves"
+msgstr "Buchungssätze"
+
+msgctxt ""
+"field:account.dunning.fee.dunning_level,rec_name:account_dunning_fee."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:account.dunning.fee.dunning_level,write_date:account_dunning_fee."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:account.dunning.fee.dunning_level,write_uid:account_dunning_fee."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.dunning.level,fee:account_dunning_fee."
+msgid "Fee"
+msgstr "Gebühr"
+
+msgctxt "help:account.dunning.fee,active:account_dunning_fee."
+msgid "Uncheck to exclude from future use."
+msgstr "Deaktivieren um die zukünftige Nutzung zu verhindern."
+
+msgctxt "help:account.dunning.fee,compute_method:account_dunning_fee."
+msgid "Method to compute the fee amount"
+msgstr "Berechnungsmethode für die Mahngebühren"
+
+msgctxt "model:account.dunning.fee,name:account_dunning_fee."
+msgid "Account Dunning Fee"
+msgstr "Mahngebühr"
+
+msgctxt "model:account.dunning.fee.dunning_level,name:account_dunning_fee."
+msgid "Account Dunning Fee Dunning-Level"
+msgstr "Mahngebühren Mahnung - Mahnstufe"
+
+msgctxt "model:ir.action,name:account_dunning_fee.act_dunning_fee_form"
+msgid "Dunning Fees"
+msgstr "Mahngebühren"
+
+msgctxt ""
+"model:ir.message,text:account_dunning_fee.msg_fee_dunning_level_unique"
+msgid "Fee must be unique by dunning and level."
+msgstr ""
+"Eine Mahngebühr kann nur einmal pro Mahnung und Mahnstufe vergeben werden."
+
+msgctxt "model:ir.ui.menu,name:account_dunning_fee.menu_dunning_fee_form"
+msgid "Dunning Fees"
+msgstr "Mahngebühren"
+
+msgctxt "selection:account.dunning.fee,compute_method:account_dunning_fee."
+msgid "List Price"
+msgstr "Listenpreis"
+
+msgctxt "selection:account.dunning.fee,compute_method:account_dunning_fee."
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+msgctxt "view:account.dunning.fee:account_dunning_fee."
+msgid "%"
+msgstr "%"

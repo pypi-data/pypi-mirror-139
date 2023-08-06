@@ -1,0 +1,165 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.promotion,coupons:sale_promotion_coupon."
+msgid "Coupons"
+msgstr "Coupons"
+
+msgctxt "field:sale.promotion.coupon,create_date:sale_promotion_coupon."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:sale.promotion.coupon,create_uid:sale_promotion_coupon."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:sale.promotion.coupon,id:sale_promotion_coupon."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.promotion.coupon,name:sale_promotion_coupon."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:sale.promotion.coupon,number_of_use:sale_promotion_coupon."
+msgid "Number of Use"
+msgstr "Anzahl Nutzung"
+
+msgctxt "field:sale.promotion.coupon,numbers:sale_promotion_coupon."
+msgid "Numbers"
+msgstr "Nummern"
+
+msgctxt "field:sale.promotion.coupon,per_party:sale_promotion_coupon."
+msgid "Per Party"
+msgstr "Pro Partei"
+
+msgctxt "field:sale.promotion.coupon,promotion:sale_promotion_coupon."
+msgid "Promotion"
+msgstr "Verkaufsaktion"
+
+msgctxt "field:sale.promotion.coupon,rec_name:sale_promotion_coupon."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:sale.promotion.coupon,write_date:sale_promotion_coupon."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:sale.promotion.coupon,write_uid:sale_promotion_coupon."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:sale.promotion.coupon.number,active:sale_promotion_coupon."
+msgid "Active"
+msgstr "Aktiv"
+
+msgctxt "field:sale.promotion.coupon.number,coupon:sale_promotion_coupon."
+msgid "Coupon"
+msgstr "Coupon"
+
+msgctxt ""
+"field:sale.promotion.coupon.number,create_date:sale_promotion_coupon."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:sale.promotion.coupon.number,create_uid:sale_promotion_coupon."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:sale.promotion.coupon.number,id:sale_promotion_coupon."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.promotion.coupon.number,number:sale_promotion_coupon."
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "field:sale.promotion.coupon.number,rec_name:sale_promotion_coupon."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:sale.promotion.coupon.number,write_date:sale_promotion_coupon."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:sale.promotion.coupon.number,write_uid:sale_promotion_coupon."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:sale.sale,coupons:sale_promotion_coupon."
+msgid "Coupons"
+msgstr "Coupons"
+
+msgctxt ""
+"field:sale.sale-"
+"sale.promotion.coupon.number,create_date:sale_promotion_coupon."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:sale.sale-"
+"sale.promotion.coupon.number,create_uid:sale_promotion_coupon."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:sale.sale-sale.promotion.coupon.number,id:sale_promotion_coupon."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:sale.sale-sale.promotion.coupon.number,number:sale_promotion_coupon."
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt ""
+"field:sale.sale-sale.promotion.coupon.number,rec_name:sale_promotion_coupon."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:sale.sale-sale.promotion.coupon.number,sale:sale_promotion_coupon."
+msgid "Sale"
+msgstr "Verkauf"
+
+msgctxt ""
+"field:sale.sale-"
+"sale.promotion.coupon.number,write_date:sale_promotion_coupon."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:sale.sale-"
+"sale.promotion.coupon.number,write_uid:sale_promotion_coupon."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:sale.promotion.coupon,number_of_use:sale_promotion_coupon."
+msgid ""
+"How much times a coupon number can be used.\n"
+"0 or below for no limit."
+msgstr ""
+"Wie oft eine Coupon-Nummer genutzt werden kann.0 oder weniger für kein "
+"Limit."
+
+msgctxt "help:sale.promotion.coupon,per_party:sale_promotion_coupon."
+msgid "Check to count usage per party."
+msgstr "Aktivieren um die Anzahl der Nutzungen pro Partei zu zählen."
+
+msgctxt "model:ir.message,text:sale_promotion_coupon.msg_duplicate_numbers"
+msgid "The coupons numbered \"%(numbers)s\" are duplicated."
+msgstr "Die Coupon Nummern \"%(numbers)s' sind doppelt."
+
+msgctxt "model:sale.promotion.coupon,name:sale_promotion_coupon."
+msgid "Promotion Coupon"
+msgstr "Aktions-Coupon"
+
+msgctxt "model:sale.promotion.coupon.number,name:sale_promotion_coupon."
+msgid "Promotion Coupon Number"
+msgstr "Aktions-Coupon-Nummer"
+
+msgctxt ""
+"model:sale.sale-sale.promotion.coupon.number,name:sale_promotion_coupon."
+msgid "Sale - Promotion Coupon Number"
+msgstr "Verkauf - Aktions-Coupon-Nummer"

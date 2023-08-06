@@ -1,0 +1,79 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.be.vat_customer,company_tax_identifier:account_be."
+msgid "Company Tax Identifier"
+msgstr "Steueridentifikator Unternehmen"
+
+msgctxt "field:account.be.vat_customer,create_date:account_be."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:account.be.vat_customer,create_uid:account_be."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:account.be.vat_customer,currency:account_be."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:account.be.vat_customer,currency_digits:account_be."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:account.be.vat_customer,id:account_be."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.be.vat_customer,party_tax_identifier:account_be."
+msgid "Party Tax Identifier"
+msgstr "Steueridentifikator Partei"
+
+msgctxt "field:account.be.vat_customer,rec_name:account_be."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:account.be.vat_customer,turnover:account_be."
+msgid "Turnover"
+msgstr "Umsatz"
+
+msgctxt "field:account.be.vat_customer,vat:account_be."
+msgid "VAT"
+msgstr "USt."
+
+msgctxt "field:account.be.vat_customer,write_date:account_be."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:account.be.vat_customer,write_uid:account_be."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.be.vat_customer.context,company:account_be."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:account.be.vat_customer.context,fiscalyear:account_be."
+msgid "Fiscal Year"
+msgstr "Geschäftsjahr"
+
+msgctxt "field:account.be.vat_customer.context,id:account_be."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:account.be.vat_customer,name:account_be."
+msgid "Belgium VAT Customer"
+msgstr "Belgischer USt. Kunde"
+
+msgctxt "model:account.be.vat_customer.context,name:account_be."
+msgid "Belgium VAT Customer Context"
+msgstr "Kontext Belgischer USt. Kunde"
+
+msgctxt "model:ir.action,name:account_be.act_vat_customer_form"
+msgid "Belgium VAT Customer"
+msgstr "Steuernummer Kunde Belgien VAT"
+
+msgctxt "model:ir.ui.menu,name:account_be.menu_vat_customer"
+msgid "Belgium VAT Customer"
+msgstr "Steuernummer Kunde Belgien VAT"

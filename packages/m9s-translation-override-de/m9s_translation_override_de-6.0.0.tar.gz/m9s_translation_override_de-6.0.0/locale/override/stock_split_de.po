@@ -1,0 +1,118 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.move.split.start,count:stock_split."
+msgid "Counts"
+msgstr "Anzahl"
+
+msgctxt "field:stock.move.split.start,id:stock_split."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.move.split.start,quantity:stock_split."
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt "field:stock.move.split.start,unit_digits:stock_split."
+msgid "Unit Digits"
+msgstr "Nachkommastellen"
+
+msgctxt "field:stock.move.split.start,uom:stock_split."
+msgid "Uom"
+msgstr "Einheit"
+
+msgctxt "field:stock.move.split.start,uom_category:stock_split."
+msgid "Uom Category"
+msgstr "Maßeinheitenkategorie"
+
+msgctxt "field:stock.shipment.split.start,domain_moves:stock_split."
+msgid "Domain Moves"
+msgstr "Wertebereich Bewegungen (Domain)"
+
+msgctxt "field:stock.shipment.split.start,id:stock_split."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.shipment.split.start,moves:stock_split."
+msgid "Moves"
+msgstr "Bewegungen"
+
+msgctxt "help:stock.move.split.start,count:stock_split."
+msgid "The limit number of moves"
+msgstr "Maximale Anzahl von Lagerbewegungen"
+
+msgctxt "help:stock.shipment.split.start,moves:stock_split."
+msgid "The selected moves will be sent in the new shipment."
+msgstr "Die gewählten Bewegungen werden in die neue Lieferung übernommen."
+
+msgctxt "model:ir.action,name:stock_split.wizard_split_move"
+msgid "Split Move"
+msgstr "Lagerbewegung aufteilen"
+
+msgctxt "model:ir.action,name:stock_split.wizard_split_shipment"
+msgid "Split Shipment"
+msgstr "Lieferung aufteilen"
+
+msgctxt "model:ir.model.button,string:stock_split.move_split_wizard_button"
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt ""
+"model:ir.model.button,string:stock_split.shipment_in_return_split_wizard_button"
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt ""
+"model:ir.model.button,string:stock_split.shipment_internal_split_wizard_button"
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt ""
+"model:ir.model.button,string:stock_split.shipment_out_split_wizard_button"
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt "model:stock.move.split.start,name:stock_split."
+msgid "Split Move"
+msgstr "Lagerbewegung Aufteilung"
+
+msgctxt "model:stock.shipment.split.start,name:stock_split."
+msgid "Split Shipment"
+msgstr "Lieferung aufteilen"
+
+msgctxt "view:stock.move:stock_split."
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt "view:stock.shipment.in.return:stock_split."
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt "view:stock.shipment.internal:stock_split."
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt "view:stock.shipment.out:stock_split."
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt "view:stock.shipment.split.start:stock_split."
+msgid "Choose move to send in new shipment"
+msgstr "Auswahl der Bewegungen die in die neue Lieferung übernommen werden"
+
+msgctxt "wizard_button:stock.move.split,start,end:stock_split."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "wizard_button:stock.move.split,start,split:stock_split."
+msgid "Split"
+msgstr "Aufteilen"
+
+msgctxt "wizard_button:stock.shipment.split,start,end:stock_split."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "wizard_button:stock.shipment.split,start,split:stock_split."
+msgid "Split"
+msgstr "Aufteilen"

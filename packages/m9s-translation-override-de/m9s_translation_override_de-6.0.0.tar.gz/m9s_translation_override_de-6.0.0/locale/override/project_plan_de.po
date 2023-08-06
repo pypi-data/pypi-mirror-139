@@ -1,0 +1,187 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:project.allocation,create_date:project_plan."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:project.allocation,create_uid:project_plan."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:project.allocation,employee:project_plan."
+msgid "Employee"
+msgstr "Mitarbeiter"
+
+msgctxt "field:project.allocation,id:project_plan."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.allocation,percentage:project_plan."
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+msgctxt "field:project.allocation,rec_name:project_plan."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:project.allocation,work:project_plan."
+msgid "Work"
+msgstr "Tätigkeit"
+
+msgctxt "field:project.allocation,write_date:project_plan."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:project.allocation,write_uid:project_plan."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:project.predecessor_successor,create_date:project_plan."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:project.predecessor_successor,create_uid:project_plan."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:project.predecessor_successor,id:project_plan."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.predecessor_successor,predecessor:project_plan."
+msgid "Predecessor"
+msgstr "Vorgänger"
+
+msgctxt "field:project.predecessor_successor,rec_name:project_plan."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:project.predecessor_successor,successor:project_plan."
+msgid "Successor"
+msgstr "Nachfolger"
+
+msgctxt "field:project.predecessor_successor,write_date:project_plan."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:project.predecessor_successor,write_uid:project_plan."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:project.work,actual_finish_date:project_plan."
+msgid "Actual Finish"
+msgstr "Tatsächliches Enddatum"
+
+msgctxt "field:project.work,actual_finish_time:project_plan."
+msgid "Actual Finish Time"
+msgstr "Tatsächliche Endzeit"
+
+msgctxt "field:project.work,actual_start_date:project_plan."
+msgid "Actual Start"
+msgstr "Tatsächliches Startdatum"
+
+msgctxt "field:project.work,actual_start_time:project_plan."
+msgid "Actual Start Time"
+msgstr "Tatsächliche Startzeit"
+
+msgctxt "field:project.work,allocations:project_plan."
+msgid "Allocations"
+msgstr "Zuordnungen"
+
+msgctxt "field:project.work,back_leveling_delay:project_plan."
+msgid "Back Leveling Delay"
+msgstr "Verzögerung Abgleich Rückstand"
+
+msgctxt "field:project.work,constraint_finish_date:project_plan."
+msgid "Constraint Finish"
+msgstr "Fixes Enddatum"
+
+msgctxt "field:project.work,constraint_finish_time:project_plan."
+msgid "Constraint Finish Time"
+msgstr "Fixe Endzeit"
+
+msgctxt "field:project.work,constraint_start_date:project_plan."
+msgid "Constraint Start"
+msgstr "Fixes Startdatum"
+
+msgctxt "field:project.work,constraint_start_time:project_plan."
+msgid "Constraint Start Time"
+msgstr "Fixe Startzeit"
+
+msgctxt "field:project.work,duration:project_plan."
+msgid "Duration"
+msgstr "Dauer"
+
+msgctxt "field:project.work,early_finish_date:project_plan."
+msgid "Early Finish"
+msgstr "Frühestes Enddatum"
+
+msgctxt "field:project.work,early_finish_time:project_plan."
+msgid "Early Finish Time"
+msgstr "Früheste Endzeit"
+
+msgctxt "field:project.work,early_start_date:project_plan."
+msgid "Early Start"
+msgstr "Frühestes Startdatum"
+
+msgctxt "field:project.work,early_start_time:project_plan."
+msgid "Early Start Time"
+msgstr "Früheste Startzeit"
+
+msgctxt "field:project.work,late_finish_date:project_plan."
+msgid "Late Finish"
+msgstr "Spätestes Enddatum"
+
+msgctxt "field:project.work,late_finish_time:project_plan."
+msgid "Late Finish Time"
+msgstr "Späteste Endzeit"
+
+msgctxt "field:project.work,late_start_date:project_plan."
+msgid "Late Start"
+msgstr "Spätestes Startdatum"
+
+msgctxt "field:project.work,late_start_time:project_plan."
+msgid "Late Start Time"
+msgstr "Späteste Startzeit"
+
+msgctxt "field:project.work,leveling_delay:project_plan."
+msgid "Leveling Delay"
+msgstr "Verzögerung Abgleich"
+
+msgctxt "field:project.work,predecessors:project_plan."
+msgid "Predecessors"
+msgstr "Vorgänger"
+
+msgctxt "field:project.work,successors:project_plan."
+msgid "Successors"
+msgstr "Nachfolger"
+
+msgctxt "model:ir.action,name:project_plan.wizard_leveling"
+msgid "Tasks Leveling"
+msgstr "Aufgaben abgleichen"
+
+msgctxt "model:project.allocation,name:project_plan."
+msgid "Allocation"
+msgstr "Zuordnung"
+
+msgctxt "model:project.predecessor_successor,name:project_plan."
+msgid "Predecessor - Successor"
+msgstr "Vorgänger - Nachfolger"
+
+msgctxt "view:project.allocation:project_plan."
+msgid "Allocation"
+msgstr "Zuordnung"
+
+msgctxt "view:project.allocation:project_plan."
+msgid "Allocations"
+msgstr "Zuordnungen"
+
+msgctxt "view:project.work:project_plan."
+msgid "Allocations"
+msgstr "Zuordnungen"
+
+msgctxt "view:project.work:project_plan."
+msgid "Plan"
+msgstr "Planung"

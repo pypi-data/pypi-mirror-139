@@ -1,0 +1,169 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:account.configuration,default_credit_limit_amount:account_credit_limit."
+msgid "Default Credit Limit Amount"
+msgstr "Standardkreditlimit"
+
+msgctxt ""
+"field:account.configuration,default_credit_limit_amount_digits:account_credit_limit."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,company:account_credit_limit."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,create_date:account_credit_limit."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,create_uid:account_credit_limit."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,default_credit_limit_amount:account_credit_limit."
+msgid "Default Credit Limit Amount"
+msgstr "Standardkreditlimit"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,default_credit_limit_amount_digits:account_credit_limit."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,id:account_credit_limit."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,rec_name:account_credit_limit."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,write_date:account_credit_limit."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:account.configuration.default_credit_limit_amount,write_uid:account_credit_limit."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.dunning.level,credit_limit:account_credit_limit."
+msgid "Credit Limit"
+msgstr "Kreditlimit anwenden"
+
+msgctxt "field:party.party,credit_amount:account_credit_limit."
+msgid "Credit Amount"
+msgstr "Aktuell genutzter Kreditbetrag"
+
+msgctxt "field:party.party,credit_limit_amount:account_credit_limit."
+msgid "Credit Limit Amount"
+msgstr "Kreditlimit"
+
+msgctxt "field:party.party,credit_limit_amounts:account_credit_limit."
+msgid "Credit Limit Amounts"
+msgstr "Kreditlimit"
+
+msgctxt "field:party.party,credit_limit_digits:account_credit_limit."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:party.party.credit_limit_amount,company:account_credit_limit."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt ""
+"field:party.party.credit_limit_amount,create_date:account_credit_limit."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:party.party.credit_limit_amount,create_uid:account_credit_limit."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:party.party.credit_limit_amount,credit_limit_amount:account_credit_limit."
+msgid "Credit Limit Amount"
+msgstr "Kreditlimit"
+
+msgctxt ""
+"field:party.party.credit_limit_amount,credit_limit_digits:account_credit_limit."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:party.party.credit_limit_amount,id:account_credit_limit."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.party.credit_limit_amount,party:account_credit_limit."
+msgid "Party"
+msgstr "Partei"
+
+msgctxt "field:party.party.credit_limit_amount,rec_name:account_credit_limit."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:party.party.credit_limit_amount,write_date:account_credit_limit."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:party.party.credit_limit_amount,write_uid:account_credit_limit."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"help:account.configuration,default_credit_limit_amount:account_credit_limit."
+msgid "The default credit limit amount for new customers."
+msgstr "Standard Kreditlimit für neue Kunden."
+
+msgctxt ""
+"help:account.configuration.default_credit_limit_amount,default_credit_limit_amount:account_credit_limit."
+msgid "The default credit limit amount for new customers."
+msgstr "Standard Kreditlimit für neue Kunden."
+
+msgctxt "help:account.dunning.level,credit_limit:account_credit_limit."
+msgid "Has reached the credit limit"
+msgstr "Kreditlimit ausgeschöpft"
+
+msgctxt ""
+"model:account.configuration.default_credit_limit_amount,name:account_credit_limit."
+msgid "Account Configuration Default Credit Limit Amount"
+msgstr "Einstellungen Buchhaltung Standardkonto Kreditlimit"
+
+msgctxt ""
+"model:ir.message,text:account_credit_limit.msg_party_credit_limit_amount"
+msgid "Party \"%(party)s\" has reached their credit limit of %(limit)s."
+msgstr "Partei \"%(party)s\" hat ihr Kreditlimit von %(limit)s erreicht."
+
+msgctxt ""
+"model:ir.message,text:account_credit_limit.msg_party_credit_limit_dunning"
+msgid "Party \"%(party)s\" has reached the credit limit level of %(dunning)s."
+msgstr "Partei \"%(party)s\" hat das Kreditlimitlevel von %(dunning)s erreicht."
+
+msgctxt "model:party.party.credit_limit_amount,name:account_credit_limit."
+msgid "Party Credit Limit Amount"
+msgstr "Standardkreditlimit"
+
+msgctxt "model:res.group,name:account_credit_limit.group_credit_limit"
+msgid "Account Credit Limit"
+msgstr "Buchhaltung Kreditlimit"
+
+msgctxt "view:account.configuration:account_credit_limit."
+msgid "Credit Limit"
+msgstr "Kreditlimit"
+
+msgctxt "view:party.party:account_credit_limit."
+msgid "Credit Limit"
+msgstr "Kreditlimit"

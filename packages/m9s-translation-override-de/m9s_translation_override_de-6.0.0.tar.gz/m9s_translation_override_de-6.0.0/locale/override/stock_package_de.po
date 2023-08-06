@@ -1,0 +1,177 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.configuration,package_sequence:stock_package."
+msgid "Package Sequence"
+msgstr "Nummernkreis Paket"
+
+msgctxt "field:stock.configuration.sequence,package_sequence:stock_package."
+msgid "Package Sequence"
+msgstr "Nummernkreis Paket"
+
+msgctxt "field:stock.move,package:stock_package."
+msgid "Package"
+msgstr "Paket"
+
+msgctxt "field:stock.package,children:stock_package."
+msgid "Children"
+msgstr "Untergeordnet (Paket)"
+
+msgctxt "field:stock.package,code:stock_package."
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:stock.package,create_date:stock_package."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:stock.package,create_uid:stock_package."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:stock.package,id:stock_package."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.package,moves:stock_package."
+msgid "Moves"
+msgstr "Lagerbewegungen"
+
+msgctxt "field:stock.package,parent:stock_package."
+msgid "Parent"
+msgstr "Übergeordnet (Paket)"
+
+msgctxt "field:stock.package,rec_name:stock_package."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:stock.package,shipment:stock_package."
+msgid "Shipment"
+msgstr "Lieferposten"
+
+msgctxt "field:stock.package,state:stock_package."
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:stock.package,type:stock_package."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:stock.package,write_date:stock_package."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:stock.package,write_uid:stock_package."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:stock.package.type,create_date:stock_package."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:stock.package.type,create_uid:stock_package."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:stock.package.type,id:stock_package."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.package.type,name:stock_package."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:stock.package.type,rec_name:stock_package."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:stock.package.type,write_date:stock_package."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:stock.package.type,write_uid:stock_package."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:stock.shipment.in.return,packages:stock_package."
+msgid "Packages"
+msgstr "Pakete"
+
+msgctxt "field:stock.shipment.in.return,root_packages:stock_package."
+msgid "Packages"
+msgstr "Pakete"
+
+msgctxt "field:stock.shipment.out,packages:stock_package."
+msgid "Packages"
+msgstr "Pakete"
+
+msgctxt "field:stock.shipment.out,root_packages:stock_package."
+msgid "Packages"
+msgstr "Pakete"
+
+msgctxt "model:ir.action,name:stock_package.act_package_type_form"
+msgid "Package Types"
+msgstr "Pakettypen"
+
+msgctxt "model:ir.action,name:stock_package.report_package_label"
+msgid "Paketetiketten"
+msgstr "Paketetiketten"
+
+msgctxt "model:ir.message,text:stock_package.msg_package_mismatch"
+msgid "To process shipment \"%(shipment)s\", you must pack all its moves."
+msgstr ""
+"Damit der Lieferposten \"%(shipment)s\" ausgeführt werden kann, müssen "
+"zuerst alle zugehörigen Lagerbewegungen gepackt werden."
+
+msgctxt "model:ir.sequence,name:stock_package.sequence_package"
+msgid "Stock Package"
+msgstr "Lager Paket"
+
+msgctxt "model:ir.sequence.type,name:stock_package.sequence_type_package"
+msgid "Stock Package"
+msgstr "Lager Paket"
+
+msgctxt "model:ir.ui.menu,name:stock_package.menu_package_form"
+msgid "Package Types"
+msgstr "Pakettypen"
+
+msgctxt "model:stock.package,name:stock_package."
+msgid "Stock Package"
+msgstr "Lager Paket"
+
+msgctxt "model:stock.package.type,name:stock_package."
+msgid "Stock Package Type"
+msgstr "Pakettyp"
+
+msgctxt "report:stock.package.label:stock_package."
+msgid "Package:"
+msgstr "Paket:"
+
+msgctxt "report:stock.package.label:stock_package."
+msgid "Shipment:"
+msgstr "Lieferposten:"
+
+msgctxt "selection:stock.package,state:stock_package."
+msgid "Closed"
+msgstr "Geschlossen"
+
+msgctxt "selection:stock.package,state:stock_package."
+msgid "Open"
+msgstr "Offen"
+
+msgctxt "view:stock.package.type:stock_package."
+msgid "Package Type"
+msgstr "Pakettyp"
+
+msgctxt "view:stock.package.type:stock_package."
+msgid "Package Types"
+msgstr "Pakettypen"
+
+msgctxt "view:stock.package:stock_package."
+msgid "Package"
+msgstr "Paket"
+
+msgctxt "view:stock.package:stock_package."
+msgid "Packages"
+msgstr "Pakete"

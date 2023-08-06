@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:sale.configuration,sale_shipment_cost_method:sale_shipment_cost."
+msgid "Sale Shipment Cost Method"
+msgstr "Lieferposten Kostenmethode Verkauf"
+
+msgctxt ""
+"field:sale.configuration.sale_method,sale_shipment_cost_method:sale_shipment_cost."
+msgid "Sale Shipment Cost Method"
+msgstr "Lieferposten Kostenmethode Verkauf"
+
+msgctxt "field:sale.line,shipment_cost:sale_shipment_cost."
+msgid "Shipment Cost"
+msgstr "Lieferposten Kosten"
+
+msgctxt "field:sale.sale,available_carriers:sale_shipment_cost."
+msgid "Available Carriers"
+msgstr "Verfügbare Versanddienstleister"
+
+msgctxt "field:sale.sale,carrier:sale_shipment_cost."
+msgid "Carrier"
+msgstr "Versanddienstleister"
+
+msgctxt "field:sale.sale,shipment_cost_method:sale_shipment_cost."
+msgid "Shipment Cost Method"
+msgstr "Lieferposten Kostenmethode"
+
+msgctxt "field:stock.shipment.out,carrier:sale_shipment_cost."
+msgid "Carrier"
+msgstr "Versanddienstleister"
+
+msgctxt "field:stock.shipment.out,cost:sale_shipment_cost."
+msgid "Cost"
+msgstr "Kosten"
+
+msgctxt "field:stock.shipment.out,cost_currency:sale_shipment_cost."
+msgid "Cost Currency"
+msgstr "Währung Kosten"
+
+msgctxt "field:stock.shipment.out,cost_invoice_line:sale_shipment_cost."
+msgid "Cost Invoice Line"
+msgstr "Rechnungsposition Kosten"
+
+msgctxt "model:ir.message,text:sale_shipment_cost.msg_sale_invalid_carrier"
+msgid "To confirm sale \"%(sale)s\" you must change the carrier \"%(carrier)s\"."
+msgstr ""
+"Damit der Verkauf \"%(sale)s\" bestätigt werden kann, muss der "
+"Versanddienstleister \"%(carrier)s\" geändert werden."
+
+msgctxt ""
+"model:ir.message,text:sale_shipment_cost.msg_shipment_cost_invoice_missing_account_revenue"
+msgid ""
+"To invoice shipment cost of \"%(shipment)s\", you must define an account "
+"revenue for product \"%(product)s\"."
+msgstr ""
+"Damit die Versandkosten von \"%(shipment)s\" abgerechnet werden können, muss"
+" zuerst einer Ertragskonto für Artikel \"%(product)s\" konfiguriert werden."
+
+msgctxt "selection:sale.sale,shipment_cost_method:sale_shipment_cost."
+msgid "On Order"
+msgstr "Pro Auftrag"
+
+msgctxt "selection:sale.sale,shipment_cost_method:sale_shipment_cost."
+msgid "On Shipment"
+msgstr "Pro Lieferposten"

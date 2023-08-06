@@ -1,0 +1,149 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:account.configuration,dunning_email_fallback:account_dunning_email."
+msgid "Fall-back User"
+msgstr "Ersatzbenutzer"
+
+msgctxt "field:account.dunning.email.log,create_date:account_dunning_email."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:account.dunning.email.log,create_uid:account_dunning_email."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:account.dunning.email.log,date:account_dunning_email."
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:account.dunning.email.log,dunning:account_dunning_email."
+msgid "Dunning"
+msgstr "Mahnung"
+
+msgctxt "field:account.dunning.email.log,id:account_dunning_email."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.dunning.email.log,level:account_dunning_email."
+msgid "Level"
+msgstr "Stufe"
+
+msgctxt "field:account.dunning.email.log,rec_name:account_dunning_email."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:account.dunning.email.log,recipients:account_dunning_email."
+msgid "Recipients"
+msgstr "Empfänger"
+
+msgctxt ""
+"field:account.dunning.email.log,recipients_hidden:account_dunning_email."
+msgid "Hidden Recipients"
+msgstr "Versteckte Empfänger"
+
+msgctxt ""
+"field:account.dunning.email.log,recipients_secondary:account_dunning_email."
+msgid "Secondary Recipients"
+msgstr "Sekundäre Empfänger"
+
+msgctxt "field:account.dunning.email.log,write_date:account_dunning_email."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:account.dunning.email.log,write_uid:account_dunning_email."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"field:account.dunning.level,email_contact_mechanism:account_dunning_email."
+msgid "Contact Mechanism"
+msgstr "Kontaktinformation"
+
+msgctxt "field:account.dunning.level,email_from:account_dunning_email."
+msgid "From"
+msgstr "Von"
+
+msgctxt "field:account.dunning.level,email_template:account_dunning_email."
+msgid "Email Template"
+msgstr "E-Mail Vorlage"
+
+msgctxt "field:account.dunning.level,send_email:account_dunning_email."
+msgid "Send Email"
+msgstr "E-Mail senden"
+
+msgctxt ""
+"help:account.configuration,dunning_email_fallback:account_dunning_email."
+msgid "User notified when no e-mail is found to send the dunning"
+msgstr ""
+"Benutzer, der benachrichtigt wird, wenn keine E-Mail zum Versand der Mahnung"
+" gefunden wurde"
+
+msgctxt ""
+"help:account.dunning.level,email_contact_mechanism:account_dunning_email."
+msgid "Define which e-mail to use from the party's contact mechanisms"
+msgstr ""
+"Definiert, welche E-Mail-Adresse aus den Kontaktinformationen der Partei "
+"genutzt werden soll"
+
+msgctxt "help:account.dunning.level,email_from:account_dunning_email."
+msgid "Leave empty for the value defined in the configuration file."
+msgstr "Leer lassen, um den Wert aus der Konfigurationsdatei zu verwenden."
+
+msgctxt "model:account.dunning.email.log,name:account_dunning_email."
+msgid "Dunning Email Log"
+msgstr "Mahnungs-E-Mail Log"
+
+msgctxt "model:ir.action,name:account_dunning_email.act_log"
+msgid "Email Logs"
+msgstr "E-Mail Logs"
+
+msgctxt "model:ir.action,name:account_dunning_email.report_email"
+msgid "Dunning Email"
+msgstr "Mahnung E-Mail"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Amount"
+msgstr "Betrag"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Date:"
+msgstr "Datum:"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Description"
+msgstr "Beschreibung"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Due Date"
+msgstr "Fälligkeitsdatum"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Fees:"
+msgstr "Gebühren:"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Pending Payments Received"
+msgstr "Nicht zugeordnete erhaltene Zahlungen"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Reference"
+msgstr "Referenz"
+
+msgctxt "report:account.dunning.letter:account_dunning_email."
+msgid "Reminder Notice"
+msgstr "Erinnerung"
+
+msgctxt "view:account.dunning.email.log:account_dunning_email."
+msgid "Time"
+msgstr "Zeit"
+
+msgctxt "view:account.dunning.level:account_dunning_email."
+msgid "E-mail"
+msgstr "E-Mail"

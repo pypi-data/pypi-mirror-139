@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:purchase.line,analytic_accounts:analytic_purchase."
+msgid "Analytic Accounts"
+msgstr "Kostenstellen"
+
+msgctxt "field:purchase.line,analytic_accounts_size:analytic_purchase."
+msgid "Analytic Accounts Size"
+msgstr "Kostenstellengröße"
+
+msgctxt "model:ir.message,text:analytic_purchase."
+msgid ""
+"To get a quote for purchase \"%(purchase)s\", you must enter a analytic "
+"account for \"%(roots)s\" on line \"%(line)s\"."
+msgstr ""
+"Um eine Anfrage für Einkauf \"%(purchase)s\" erstellen zu können, muss eine "
+"Kostenstelle für \"%(root)s\" auf Zeile \"%(line)s\" erfasst werden."
+
+msgctxt "view:purchase.line:analytic_purchase."
+msgid "Analytic"
+msgstr "Kostenstelle"

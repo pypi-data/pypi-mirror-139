@@ -1,0 +1,493 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.move.line,analytic_lines:analytic_account."
+msgid "Analytic Lines"
+msgstr "Kostenstelle Positionen"
+
+msgctxt "field:account.move.line,analytic_state:analytic_account."
+msgid "Analytic State"
+msgstr "Status"
+
+msgctxt "field:analytic.account.entry,account:analytic_account."
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "field:analytic.account.entry,company:analytic_account."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:analytic.account.entry,create_date:analytic_account."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:analytic.account.entry,create_uid:analytic_account."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:analytic.account.entry,id:analytic_account."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:analytic.account.entry,origin:analytic_account."
+msgid "Origin"
+msgstr "Herkunft"
+
+msgctxt "field:analytic.account.entry,rec_name:analytic_account."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:analytic.account.entry,root:analytic_account."
+msgid "Root Analytic"
+msgstr "Wurzelkonto Kostenstelle"
+
+msgctxt "field:analytic.account.entry,write_date:analytic_account."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:analytic.account.entry,write_uid:analytic_account."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:analytic_account.account,active:analytic_account."
+msgid "Active"
+msgstr "Aktiv"
+
+msgctxt "field:analytic_account.account,balance:analytic_account."
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "field:analytic_account.account,childs:analytic_account."
+msgid "Children"
+msgstr "Untergeordnet (Kostenstellen)"
+
+msgctxt "field:analytic_account.account,code:analytic_account."
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:analytic_account.account,company:analytic_account."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:analytic_account.account,create_date:analytic_account."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:analytic_account.account,create_uid:analytic_account."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:analytic_account.account,credit:analytic_account."
+msgid "Credit"
+msgstr "Haben"
+
+msgctxt "field:analytic_account.account,currency:analytic_account."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:analytic_account.account,currency_digits:analytic_account."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:analytic_account.account,debit:analytic_account."
+msgid "Debit"
+msgstr "Soll"
+
+msgctxt ""
+"field:analytic_account.account,distribution_parents:analytic_account."
+msgid "Distribution Parents"
+msgstr "Übergeordnet (Verteilung)"
+
+msgctxt "field:analytic_account.account,distributions:analytic_account."
+msgid "Distributions"
+msgstr "Verteilungen"
+
+msgctxt "field:analytic_account.account,id:analytic_account."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:analytic_account.account,name:analytic_account."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:analytic_account.account,note:analytic_account."
+msgid "Note"
+msgstr "Notiz"
+
+msgctxt "field:analytic_account.account,parent:analytic_account."
+msgid "Parent"
+msgstr "Übergeordnet (Kostenstelle)"
+
+msgctxt "field:analytic_account.account,rec_name:analytic_account."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:analytic_account.account,root:analytic_account."
+msgid "Root"
+msgstr "Wurzel"
+
+msgctxt "field:analytic_account.account,state:analytic_account."
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:analytic_account.account,type:analytic_account."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:analytic_account.account,write_date:analytic_account."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:analytic_account.account,write_uid:analytic_account."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"field:analytic_account.account.distribution,account:analytic_account."
+msgid "Account"
+msgstr "Konto"
+
+msgctxt ""
+"field:analytic_account.account.distribution,create_date:analytic_account."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:analytic_account.account.distribution,create_uid:analytic_account."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:analytic_account.account.distribution,id:analytic_account."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:analytic_account.account.distribution,parent:analytic_account."
+msgid "Parent"
+msgstr "Übergeordnet (Kostenstellenverteilung)"
+
+msgctxt "field:analytic_account.account.distribution,ratio:analytic_account."
+msgid "Ratio"
+msgstr "Anteil"
+
+msgctxt ""
+"field:analytic_account.account.distribution,rec_name:analytic_account."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:analytic_account.account.distribution,root:analytic_account."
+msgid "Root"
+msgstr "Wurzel"
+
+msgctxt ""
+"field:analytic_account.account.distribution,write_date:analytic_account."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:analytic_account.account.distribution,write_uid:analytic_account."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:analytic_account.line,account:analytic_account."
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "field:analytic_account.line,company:analytic_account."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:analytic_account.line,create_date:analytic_account."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:analytic_account.line,create_uid:analytic_account."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:analytic_account.line,credit:analytic_account."
+msgid "Credit"
+msgstr "Haben"
+
+msgctxt "field:analytic_account.line,currency_digits:analytic_account."
+msgid "Currency Digits"
+msgstr "Nachkommastellen Währung"
+
+msgctxt "field:analytic_account.line,date:analytic_account."
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:analytic_account.line,debit:analytic_account."
+msgid "Debit"
+msgstr "Soll"
+
+msgctxt "field:analytic_account.line,id:analytic_account."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:analytic_account.line,move_line:analytic_account."
+msgid "Account Move Line"
+msgstr "Buchungszeile"
+
+msgctxt "field:analytic_account.line,rec_name:analytic_account."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:analytic_account.line,write_date:analytic_account."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:analytic_account.line,write_uid:analytic_account."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:analytic_account.open_chart.start,end_date:analytic_account."
+msgid "End Date"
+msgstr "Enddatum"
+
+msgctxt "field:analytic_account.open_chart.start,id:analytic_account."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:analytic_account.open_chart.start,start_date:analytic_account."
+msgid "Start Date"
+msgstr "Anfangsdatum"
+
+msgctxt "field:analytic_account.rule,account:analytic_account."
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "field:analytic_account.rule,analytic_accounts:analytic_account."
+msgid "Analytic Accounts"
+msgstr "Kostenstellen"
+
+msgctxt "field:analytic_account.rule,analytic_accounts_size:analytic_account."
+msgid "Analytic Accounts Size"
+msgstr "Kostenstellen"
+
+msgctxt "field:analytic_account.rule,company:analytic_account."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:analytic_account.rule,create_date:analytic_account."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:analytic_account.rule,create_uid:analytic_account."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:analytic_account.rule,id:analytic_account."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:analytic_account.rule,journal:analytic_account."
+msgid "Journal"
+msgstr "Journal"
+
+msgctxt "field:analytic_account.rule,party:analytic_account."
+msgid "Party"
+msgstr "Partei"
+
+msgctxt "field:analytic_account.rule,party_visible:analytic_account."
+msgid "Party Visible"
+msgstr "Partei sichtbar"
+
+msgctxt "field:analytic_account.rule,rec_name:analytic_account."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:analytic_account.rule,sequence:analytic_account."
+msgid "Sequence"
+msgstr "Nummernkreis"
+
+msgctxt "field:analytic_account.rule,write_date:analytic_account."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:analytic_account.rule,write_uid:analytic_account."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:analytic_account.account,active:analytic_account."
+msgid "Uncheck to exclude from future use."
+msgstr "Deaktivieren um die zukünftige Nutzung zu verhindern."
+
+msgctxt "model:analytic.account.entry,name:analytic_account."
+msgid "Analytic Account Entry"
+msgstr "Kostenstelleneintrag"
+
+msgctxt "model:analytic_account.account,name:analytic_account."
+msgid "Analytic Account"
+msgstr "Kostenstelle"
+
+msgctxt "model:analytic_account.account.distribution,name:analytic_account."
+msgid "Analytic Account Distribution"
+msgstr "Kostenstellenverteilung"
+
+msgctxt "model:analytic_account.line,name:analytic_account."
+msgid "Analytic Line"
+msgstr "Kostenstelle Zeile"
+
+msgctxt "model:analytic_account.open_chart.start,name:analytic_account."
+msgid "Open Chart of Accounts"
+msgstr "Kontenplan öffnen"
+
+msgctxt "model:analytic_account.rule,name:analytic_account."
+msgid "Analytic Rule"
+msgstr "Kostenstelle Regel"
+
+msgctxt "model:ir.action,name:analytic_account.act_account_list"
+msgid "Analytic Accounts"
+msgstr "Kostenstellen"
+
+msgctxt "model:ir.action,name:analytic_account.act_account_tree"
+msgid "Analytic Accounts"
+msgstr "Kostenstellen"
+
+msgctxt "model:ir.action,name:analytic_account.act_account_tree2"
+msgid "Analytic Accounts"
+msgstr "Kostenstellen"
+
+msgctxt "model:ir.action,name:analytic_account.act_line_form"
+msgid "Analytic Lines"
+msgstr "Kostenstelle Positionen"
+
+msgctxt "model:ir.action,name:analytic_account.act_move_line_form_completion"
+msgid "Analytic Lines to Complete"
+msgstr "Kostenpositionen zu vervollständigen"
+
+msgctxt "model:ir.action,name:analytic_account.act_open_account"
+msgid "Open Account"
+msgstr "Konto eröffnen"
+
+msgctxt "model:ir.action,name:analytic_account.act_open_chart"
+msgid "Open Chart of Analytic Accounts"
+msgstr "Kostenstellenplan öffnen"
+
+msgctxt "model:ir.action,name:analytic_account.act_rule_form"
+msgid "Analytic Rules"
+msgstr "Kostenstelle Regeln"
+
+msgctxt "model:ir.message,text:analytic_account.msg_invalid_distribution"
+msgid ""
+"To save account \"%(account)s\" the sum of their distributions must be "
+"100%%."
+msgstr ""
+"Um Konto \"%(account)s\" speichern zu können, muss die Summe aller "
+"Verteilungen 100%% ergeben."
+
+msgctxt "model:ir.message,text:analytic_account.msg_root_origin_unique"
+msgid "Only one account is allowed by analytic root and origin."
+msgstr "Es ist nur ein Konto per Kostenstelle und Ursprung möglich."
+
+msgctxt "model:ir.rule.group,name:analytic_account.rule_group_rule"
+msgid "User in company"
+msgstr "Benutzer im Unternehmen"
+
+msgctxt "model:ir.ui.menu,name:analytic_account.menu_account_list"
+msgid "Analytic Accounts"
+msgstr "Kostenstellen"
+
+msgctxt "model:ir.ui.menu,name:analytic_account.menu_account_tree"
+msgid "Analytic Accounts"
+msgstr "Kostenstellen"
+
+msgctxt ""
+"model:ir.ui.menu,name:analytic_account.menu_analytic_account_configuration"
+msgid "Analytic Account"
+msgstr "Kostenstellen"
+
+msgctxt "model:ir.ui.menu,name:analytic_account.menu_completion"
+msgid "Analytic Lines to Complete"
+msgstr "Kostenpositionen vervollständigen"
+
+msgctxt "model:ir.ui.menu,name:analytic_account.menu_open_chart"
+msgid "Open Chart of Analytic Accounts"
+msgstr "Kostenstellenplan öffnen"
+
+msgctxt "model:ir.ui.menu,name:analytic_account.menu_rule_form"
+msgid "Analytic Rules"
+msgstr "Kostenstelle Regeln"
+
+msgctxt "model:res.group,name:analytic_account.group_analytic_admin"
+msgid "Analytic Administration"
+msgstr "Kostenstellen Administration"
+
+msgctxt "selection:account.move.line,analytic_state:analytic_account."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt "selection:account.move.line,analytic_state:analytic_account."
+msgid "Valid"
+msgstr "Gültig"
+
+msgctxt "selection:analytic_account.account,state:analytic_account."
+msgid "Closed"
+msgstr "Geschlossen"
+
+msgctxt "selection:analytic_account.account,state:analytic_account."
+msgid "Draft"
+msgstr "Entwurf"
+
+msgctxt "selection:analytic_account.account,state:analytic_account."
+msgid "Opened"
+msgstr "Geöffnet"
+
+msgctxt "selection:analytic_account.account,type:analytic_account."
+msgid "Distribution"
+msgstr "Verteilung"
+
+msgctxt "selection:analytic_account.account,type:analytic_account."
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "selection:analytic_account.account,type:analytic_account."
+msgid "Root"
+msgstr "Wurzel"
+
+msgctxt "selection:analytic_account.account,type:analytic_account."
+msgid "View"
+msgstr "Sicht"
+
+msgctxt "view:account.move.line:analytic_account."
+msgid "Analytic"
+msgstr "Kostenstelle"
+
+msgctxt "view:account.move.line:analytic_account."
+msgid "Credit"
+msgstr "Haben"
+
+msgctxt "view:account.move.line:analytic_account."
+msgid "Debit"
+msgstr "Soll"
+
+msgctxt "view:analytic_account.account.distribution:analytic_account."
+msgid "%"
+msgstr "%"
+
+msgctxt "view:analytic_account.account:analytic_account."
+msgid "General Information"
+msgstr "Allgemein"
+
+msgctxt "view:analytic_account.account:analytic_account."
+msgid "Notes"
+msgstr "Notizen"
+
+msgctxt "view:analytic_account.line:analytic_account."
+msgid "General Information"
+msgstr "Allgemein"
+
+msgctxt "view:analytic_account.open_chart.start:analytic_account."
+msgid "Open Chart of Analytic Accounts"
+msgstr "Kostenstellenplan öffnen"
+
+msgctxt ""
+"wizard_button:analytic_account.open_chart,start,end:analytic_account."
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt ""
+"wizard_button:analytic_account.open_chart,start,open_:analytic_account."
+msgid "Open"
+msgstr "Öffnen"

@@ -1,0 +1,113 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier.credential.dpd,company:stock_package_shipping_dpd."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:carrier.credential.dpd,create_date:stock_package_shipping_dpd."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:carrier.credential.dpd,create_uid:stock_package_shipping_dpd."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:carrier.credential.dpd,depot:stock_package_shipping_dpd."
+msgid "Depot"
+msgstr "Depot"
+
+msgctxt "field:carrier.credential.dpd,id:stock_package_shipping_dpd."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:carrier.credential.dpd,password:stock_package_shipping_dpd."
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "field:carrier.credential.dpd,rec_name:stock_package_shipping_dpd."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:carrier.credential.dpd,server:stock_package_shipping_dpd."
+msgid "Server"
+msgstr "Server"
+
+msgctxt "field:carrier.credential.dpd,token:stock_package_shipping_dpd."
+msgid "Token"
+msgstr "Token"
+
+msgctxt "field:carrier.credential.dpd,user_id:stock_package_shipping_dpd."
+msgid "User ID"
+msgstr "Benutzer ID"
+
+msgctxt "field:carrier.credential.dpd,write_date:stock_package_shipping_dpd."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:carrier.credential.dpd,write_uid:stock_package_shipping_dpd."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "model:carrier.credential.dpd,name:stock_package_shipping_dpd."
+msgid "DPD Credential"
+msgstr "DPD Anmeldedaten"
+
+msgctxt ""
+"model:ir.action,name:stock_package_shipping_dpd.act_create_shipping_dpd_wizard"
+msgid "Create DPD Shipping for Packages"
+msgstr "DPD Versand für Pakete erstellen"
+
+msgctxt ""
+"model:ir.action,name:stock_package_shipping_dpd.act_dpd_credential_form"
+msgid "DPD Credentials"
+msgstr "DPD Anmeldedaten"
+
+msgctxt ""
+"model:ir.message,text:stock_package_shipping_dpd.msg_dpd_webservice_error"
+msgid ""
+"DPD webservice call failed with the following error message:\n"
+"%(message)s"
+msgstr ""
+"Der Aufruf des DPD-Webservice schlug fehl mit der folgenden Fehlermeldung:\n"
+"%(message)s"
+
+msgctxt ""
+"model:ir.message,text:stock_package_shipping_dpd.msg_shipment_has_reference_number"
+msgid ""
+"You cannot create shipping for shipment \"%(shipment)s\" because it has "
+"already a reference number."
+msgstr ""
+"Für den Lieferposten \"%(shipment)s\" kann keine Sendung erstellt werden, da"
+" er bereits eine Referenznummer hat."
+
+msgctxt ""
+"model:ir.message,text:stock_package_shipping_dpd.msg_warehouse_address_required"
+msgid ""
+"To validate shipment \"%(shipment)s\" you must set an address on the "
+"warehouse \"%(warehouse)s\"."
+msgstr ""
+"Um den Lieferposten \"%(shipment)s\" validieren zu können, muss eine Adresse"
+" für das Warenlager \"%(warehouse)s\" erfasst werden."
+
+msgctxt ""
+"model:ir.ui.menu,name:stock_package_shipping_dpd.menu_dpd_credential_form"
+msgid "DPD Credentials"
+msgstr "DPD Anmeldedaten"
+
+msgctxt "selection:carrier,shipping_service:stock_package_shipping_dpd."
+msgid "DPD"
+msgstr "DPD"
+
+msgctxt "selection:carrier.credential.dpd,server:stock_package_shipping_dpd."
+msgid "Production"
+msgstr "Produktion"
+
+msgctxt "selection:carrier.credential.dpd,server:stock_package_shipping_dpd."
+msgid "Testing"
+msgstr "Testbetrieb"
+
+msgctxt "view:carrier.credential.dpd:stock_package_shipping_dpd."
+msgid "Credential Information"
+msgstr "Anmeldedaten"

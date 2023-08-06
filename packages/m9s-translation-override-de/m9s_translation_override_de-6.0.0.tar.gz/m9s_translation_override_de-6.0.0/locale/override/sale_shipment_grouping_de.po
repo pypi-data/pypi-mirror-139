@@ -1,0 +1,92 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:party.party,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "Sale Shipment Grouping Method"
+msgstr "Gruppierungsmethode Lieferposten (Verkauf)"
+
+msgctxt ""
+"field:party.party,sale_shipment_grouping_methods:sale_shipment_grouping."
+msgid "Sale Shipment Grouping Methods"
+msgstr "Gruppierungsmethode Lieferposten (Verkauf)"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,create_date:sale_shipment_grouping."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,create_uid:sale_shipment_grouping."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,id:sale_shipment_grouping."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,party:sale_shipment_grouping."
+msgid "Party"
+msgstr "Partei"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,rec_name:sale_shipment_grouping."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "Sale Shipment Grouping Method"
+msgstr "Gruppierungsmethode Lieferposten (Verkauf)"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,write_date:sale_shipment_grouping."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:party.party.sale_shipment_grouping_method,write_uid:sale_shipment_grouping."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"field:sale.configuration,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "Sale Shipment Grouping Method"
+msgstr "Gruppierungsmethode Lieferposten (Verkauf)"
+
+msgctxt ""
+"field:sale.configuration.sale_method,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "Sale Shipment Grouping Method"
+msgstr "Gruppierungsmethode Lieferposten (Verkauf)"
+
+msgctxt ""
+"help:sale.configuration,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "The default shipment grouping method for new customers."
+msgstr "Die Standard-Gruppierungsmethode der Lieferposten für neue Kunden."
+
+msgctxt ""
+"help:sale.configuration.sale_method,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "The default shipment grouping method for new customers."
+msgstr "Die Standard-Gruppierungsmethode der Lieferposten für neue Kunden."
+
+msgctxt ""
+"model:party.party.sale_shipment_grouping_method,name:sale_shipment_grouping."
+msgid "Party Sale Shipment Grouping Method"
+msgstr "Gruppierungsmethode Lieferposten (Verkauf)"
+
+msgctxt ""
+"selection:party.party,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "None"
+msgstr " - "
+
+msgctxt ""
+"selection:party.party,sale_shipment_grouping_method:sale_shipment_grouping."
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "view:party.party:sale_shipment_grouping."
+msgid "Shipments"
+msgstr "Lieferposten"

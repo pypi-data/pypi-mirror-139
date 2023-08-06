@@ -1,0 +1,167 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,relations:party_relationship."
+msgid "Relations"
+msgstr "Beziehungen"
+
+msgctxt "field:party.relation,create_date:party_relationship."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:party.relation,create_uid:party_relationship."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:party.relation,from_:party_relationship."
+msgid "From"
+msgstr "Von"
+
+msgctxt "field:party.relation,id:party_relationship."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.relation,rec_name:party_relationship."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:party.relation,to:party_relationship."
+msgid "To"
+msgstr "Zu"
+
+msgctxt "field:party.relation,type:party_relationship."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:party.relation,write_date:party_relationship."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:party.relation,write_uid:party_relationship."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:party.relation.all,create_date:party_relationship."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:party.relation.all,create_uid:party_relationship."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:party.relation.all,from_:party_relationship."
+msgid "From"
+msgstr "Von"
+
+msgctxt "field:party.relation.all,id:party_relationship."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.relation.all,rec_name:party_relationship."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:party.relation.all,to:party_relationship."
+msgid "To"
+msgstr "Zu"
+
+msgctxt "field:party.relation.all,type:party_relationship."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:party.relation.all,write_date:party_relationship."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:party.relation.all,write_uid:party_relationship."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:party.relation.type,create_date:party_relationship."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:party.relation.type,create_uid:party_relationship."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:party.relation.type,id:party_relationship."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.relation.type,name:party_relationship."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:party.relation.type,rec_name:party_relationship."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:party.relation.type,reverse:party_relationship."
+msgid "Reverse Relation"
+msgstr "Umkehrbeziehung"
+
+msgctxt "field:party.relation.type,write_date:party_relationship."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:party.relation.type,write_uid:party_relationship."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:party.relation.type,name:party_relationship."
+msgid "The main identifier of the relation type."
+msgstr "Das Hauptidentifizierungsmerkmal des Beziehungstypen."
+
+msgctxt "help:party.relation.type,reverse:party_relationship."
+msgid "Create automatically the reverse relation."
+msgstr "Die Umkehrrelation automatisch erstellen."
+
+msgctxt "model:ir.action,name:party_relationship.act_relation_all"
+msgid "Party Relations"
+msgstr "Parteibeziehungen"
+
+msgctxt "model:ir.action,name:party_relationship.act_relation_type"
+msgid "Relation Types"
+msgstr "Beziehungstypen"
+
+msgctxt "model:ir.ui.menu,name:party_relationship.menu_relation_all"
+msgid "Party Relations"
+msgstr "Parteibeziehungen"
+
+msgctxt "model:ir.ui.menu,name:party_relationship.menu_relation_type"
+msgid "Relation Types"
+msgstr "Beziehungstypen"
+
+msgctxt "model:party.relation,name:party_relationship."
+msgid "Party Relation"
+msgstr "Partei Beziehung"
+
+msgctxt "model:party.relation.all,name:party_relationship."
+msgid "Party Relation"
+msgstr "Partei Beziehung"
+
+msgctxt "model:party.relation.type,name:party_relationship."
+msgid "Relation Type"
+msgstr "Beziehungstyp"
+
+msgctxt "view:party.party:party_relationship."
+msgid "Relations"
+msgstr "Beziehungen"
+
+msgctxt "view:party.relation.all:party_relationship."
+msgid "Relation"
+msgstr "Beziehung"
+
+msgctxt "view:party.relation.all:party_relationship."
+msgid "Relations"
+msgstr "Beziehungen"
+
+msgctxt "view:party.relation.type:party_relationship."
+msgid "Party Relation Type"
+msgstr "Partei Beziehungstyp"
+
+msgctxt "view:party.relation.type:party_relationship."
+msgid "Party Relation Types"
+msgstr "Partei Beziehungstypen"

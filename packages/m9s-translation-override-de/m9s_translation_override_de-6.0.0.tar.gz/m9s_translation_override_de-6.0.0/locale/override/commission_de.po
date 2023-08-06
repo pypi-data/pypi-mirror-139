@@ -1,0 +1,499 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.invoice,agent:commission."
+msgid "Commission Agent"
+msgstr "Vertreter"
+
+msgctxt "field:account.invoice.line,commissions:commission."
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "field:account.invoice.line,from_commissions:commission."
+msgid "From Commissions"
+msgstr "Aus Provisionen"
+
+msgctxt "field:account.invoice.line,principal:commission."
+msgid "Commission Principal"
+msgstr "Provisionsschuldner"
+
+msgctxt "field:commission,agent:commission."
+msgid "Agent"
+msgstr "Vertreter"
+
+msgctxt "field:commission,amount:commission."
+msgid "Amount"
+msgstr "Betrag"
+
+msgctxt "field:commission,create_date:commission."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:commission,create_uid:commission."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:commission,currency:commission."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:commission,date:commission."
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:commission,id:commission."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:commission,invoice_line:commission."
+msgid "Invoice Line"
+msgstr "Rechnungsposition"
+
+msgctxt "field:commission,invoice_state:commission."
+msgid "Invoice State"
+msgstr "Rechnungsstatus"
+
+msgctxt "field:commission,origin:commission."
+msgid "Origin"
+msgstr "Herkunft"
+
+msgctxt "field:commission,product:commission."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:commission,rec_name:commission."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:commission,type_:commission."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:commission,write_date:commission."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:commission,write_uid:commission."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:commission.agent,company:commission."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:commission.agent,create_date:commission."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:commission.agent,create_uid:commission."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:commission.agent,currency:commission."
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:commission.agent,id:commission."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:commission.agent,party:commission."
+msgid "Party"
+msgstr "Partei"
+
+msgctxt "field:commission.agent,pending_amount:commission."
+msgid "Pending Amount"
+msgstr "Ausstehender Betrag"
+
+msgctxt "field:commission.agent,plan:commission."
+msgid "Plan"
+msgstr "Plan"
+
+msgctxt "field:commission.agent,rec_name:commission."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:commission.agent,type_:commission."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:commission.agent,write_date:commission."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:commission.agent,write_uid:commission."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:commission.create_invoice.ask,from_:commission."
+msgid "From"
+msgstr "Von"
+
+msgctxt "field:commission.create_invoice.ask,id:commission."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:commission.create_invoice.ask,to:commission."
+msgid "To"
+msgstr "Bis"
+
+msgctxt "field:commission.create_invoice.ask,type_:commission."
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:commission.plan,commission_method:commission."
+msgid "Commission Method"
+msgstr "Provisionsmethode"
+
+msgctxt "field:commission.plan,commission_product:commission."
+msgid "Commission Product"
+msgstr "Provisionsartikel"
+
+msgctxt "field:commission.plan,create_date:commission."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:commission.plan,create_uid:commission."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:commission.plan,id:commission."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:commission.plan,lines:commission."
+msgid "Lines"
+msgstr "Positionen"
+
+msgctxt "field:commission.plan,name:commission."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:commission.plan,rec_name:commission."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:commission.plan,write_date:commission."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:commission.plan,write_uid:commission."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:commission.plan.line,category:commission."
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "field:commission.plan.line,create_date:commission."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:commission.plan.line,create_uid:commission."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:commission.plan.line,formula:commission."
+msgid "Formula"
+msgstr "Formel"
+
+msgctxt "field:commission.plan.line,id:commission."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:commission.plan.line,plan:commission."
+msgid "Plan"
+msgstr "Plan"
+
+msgctxt "field:commission.plan.line,product:commission."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:commission.plan.line,rec_name:commission."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:commission.plan.line,sequence:commission."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:commission.plan.line,write_date:commission."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:commission.plan.line,write_uid:commission."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:product.product,principals:commission."
+msgid "Commission Principals"
+msgstr "Provisionsschuldner"
+
+msgctxt "field:product.template,principals:commission."
+msgid "Commission Principals"
+msgstr "Provisionsschuldner"
+
+msgctxt "field:product.template-commission.agent,agent:commission."
+msgid "Agent"
+msgstr "Vertreter"
+
+msgctxt "field:product.template-commission.agent,create_date:commission."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:product.template-commission.agent,create_uid:commission."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:product.template-commission.agent,id:commission."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.template-commission.agent,rec_name:commission."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:product.template-commission.agent,template:commission."
+msgid "Template"
+msgstr "Vorlage"
+
+msgctxt "field:product.template-commission.agent,write_date:commission."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:product.template-commission.agent,write_uid:commission."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:sale.line,principal:commission."
+msgid "Commission Principal"
+msgstr "Provisionsschuldner"
+
+msgctxt "field:sale.sale,agent:commission."
+msgid "Commission Agent"
+msgstr "Vertreter"
+
+msgctxt "help:commission.plan,commission_method:commission."
+msgid "When the commission is due"
+msgstr "Bei Fälligkeit der Provision"
+
+msgctxt "help:commission.plan.line,formula:commission."
+msgid ""
+"Python expression that will be evaluated with:\n"
+"- amount: the original amount"
+msgstr ""
+"Python Ausdruck, der ausgewertet wird mit:\n"
+"- amount: der originale Betrag"
+
+msgctxt "model:account.journal,name:commission.journal_commission"
+msgid "Commission"
+msgstr "Provision"
+
+msgctxt "model:commission,name:commission."
+msgid "Commission"
+msgstr "Provision"
+
+msgctxt "model:commission.agent,name:commission."
+msgid "Commission Agent"
+msgstr "Vertreter"
+
+msgctxt "model:commission.create_invoice.ask,name:commission."
+msgid "Create Commission Invoice"
+msgstr "Provisionsrechnung erstellen"
+
+msgctxt "model:commission.plan,name:commission."
+msgid "Commission Plan"
+msgstr "Provisionsplan"
+
+msgctxt "model:commission.plan.line,name:commission."
+msgid "Commission Plan Line"
+msgstr "Provisionsplan Position"
+
+msgctxt "model:ir.action,name:commission.act_agent_form"
+msgid "Agents"
+msgstr "Vertreter"
+
+msgctxt "model:ir.action,name:commission.act_commission_create_invoice"
+msgid "Create Commission Invoices"
+msgstr "Provisionsrechnungen erstellen"
+
+msgctxt "model:ir.action,name:commission.act_commission_form"
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "model:ir.action,name:commission.act_commission_form2"
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "model:ir.action,name:commission.act_commission_from_relate"
+msgid "From Commissions"
+msgstr "Aus Provisionen"
+
+msgctxt "model:ir.action,name:commission.act_commission_relate"
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "model:ir.action,name:commission.act_plan_form"
+msgid "Commission Plans"
+msgstr "Provisionspläne"
+
+msgctxt "model:ir.message,text:commission.msg_erase_party_pending_commission"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending commissions "
+"with company \"%(company)s\"."
+msgstr ""
+"Partei \"%(party)s\" kann nicht gelöscht werden, solange noch unerledigte "
+"Provisionen bei Unternehmen \"%(company)s\" bestehen."
+
+msgctxt "model:ir.message,text:commission.msg_plan_line_invalid_formula"
+msgid ""
+"Invalid formula \"%(formula)s\" in commission plan line \"%(line)s\" with "
+"exception \"%(exception)s\"."
+msgstr ""
+"Ungültige Formel \"%(formula)s\" in Provisionsplanposition \"%(line)s\" mit "
+"Fehlermeldung \"%(exception)s\"."
+
+msgctxt "model:ir.model.button,string:commission.commission_invoice_button"
+msgid "Invoice"
+msgstr "Rechnung erstellen"
+
+msgctxt "model:ir.ui.menu,name:commission.menu_agent_form"
+msgid "Agents"
+msgstr "Vertreter"
+
+msgctxt "model:ir.ui.menu,name:commission.menu_commission"
+msgid "Commission"
+msgstr "Provisionen"
+
+msgctxt "model:ir.ui.menu,name:commission.menu_commission_create_invoice"
+msgid "Create Commission Invoices"
+msgstr "Provisionsrechnungen erstellen"
+
+msgctxt "model:ir.ui.menu,name:commission.menu_commission_form"
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "model:ir.ui.menu,name:commission.menu_configuration"
+msgid "Configuration"
+msgstr "Einstellungen"
+
+msgctxt "model:ir.ui.menu,name:commission.menu_plan_form"
+msgid "Commission Plans"
+msgstr "Provisionspläne"
+
+msgctxt "model:product.template-commission.agent,name:commission."
+msgid "Product Template - Commission Agent"
+msgstr "Artikelvorlage - Kommissonsvertreter"
+
+msgctxt "model:res.group,name:commission.group_commission"
+msgid "Commission"
+msgstr "Provision"
+
+msgctxt "model:res.group,name:commission.group_commission_admin"
+msgid "Commission Administration"
+msgstr "Provision Administration"
+
+msgctxt "selection:account.journal,type:commission."
+msgid "Commission"
+msgstr "Provision"
+
+msgctxt "selection:commission,invoice_state:commission."
+msgid "Canceled"
+msgstr "Annulliert"
+
+msgctxt "selection:commission,invoice_state:commission."
+msgid "Invoiced"
+msgstr "Fakturiert"
+
+msgctxt "selection:commission,invoice_state:commission."
+msgid "Paid"
+msgstr "Bezahlt"
+
+msgctxt "selection:commission,type_:commission."
+msgid "Incoming"
+msgstr "Eingehend"
+
+msgctxt "selection:commission,type_:commission."
+msgid "Outgoing"
+msgstr "Ausgehend"
+
+msgctxt "selection:commission.agent,type_:commission."
+msgid "Agent Of"
+msgstr "Vertreter von"
+
+msgctxt "selection:commission.agent,type_:commission."
+msgid "Principal Of"
+msgstr "Auftraggeber von"
+
+msgctxt "selection:commission.create_invoice.ask,type_:commission."
+msgid "Both"
+msgstr "Beides"
+
+msgctxt "selection:commission.create_invoice.ask,type_:commission."
+msgid "Incoming"
+msgstr "Eingehend"
+
+msgctxt "selection:commission.create_invoice.ask,type_:commission."
+msgid "Outgoing"
+msgstr "Ausgehend"
+
+msgctxt "selection:commission.plan,commission_method:commission."
+msgid "On Payment"
+msgstr "Bei Bezahlung der Rechnung"
+
+msgctxt "selection:commission.plan,commission_method:commission."
+msgid "On Posting"
+msgstr "Bei Festschreibung der Rechnung"
+
+msgctxt "view:account.invoice.line:commission."
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "view:commission.agent:commission."
+msgid "Agent"
+msgstr "Vertreter"
+
+msgctxt "view:commission.agent:commission."
+msgid "Agents"
+msgstr "Vertreter"
+
+msgctxt "view:commission.create_invoice.ask:commission."
+msgid "Create Commission Invoice"
+msgstr "Provisionsrechnung erstellen"
+
+msgctxt "view:commission.plan.line:commission."
+msgid "Commission Plan Line"
+msgstr "Provisionsplan Position"
+
+msgctxt "view:commission.plan.line:commission."
+msgid "Commission Plan Lines"
+msgstr "Provisionsplan Positionen"
+
+msgctxt "view:commission.plan:commission."
+msgid "Commission Plan"
+msgstr "Provisionsplan"
+
+msgctxt "view:commission.plan:commission."
+msgid "Commission Plans"
+msgstr "Provisionspläne"
+
+msgctxt "view:commission:commission."
+msgid "Invoice"
+msgstr "Rechnung"
+
+msgctxt "view:product.template:commission."
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "view:sale.line:commission."
+msgid "Commissions"
+msgstr "Provisionen"
+
+msgctxt "wizard_button:commission.create_invoice,ask,create_:commission."
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:commission.create_invoice,ask,end:commission."
+msgid "Cancel"
+msgstr "Abbrechen"

@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:company.company,hours_per_work_day:company_work_time."
+msgid "Hours per Work Day"
+msgstr "Stunden pro Personentag"
+
+msgctxt "field:company.company,hours_per_work_month:company_work_time."
+msgid "Hours per Work Month"
+msgstr "Stunden pro Personenmonat"
+
+msgctxt "field:company.company,hours_per_work_week:company_work_time."
+msgid "Hours per Work Week"
+msgstr "Stunden pro Personenwoche"
+
+msgctxt "field:company.company,hours_per_work_year:company_work_time."
+msgid "Hours per Work Year"
+msgstr "Stunden pro Personenjahr"
+
+msgctxt "view:company.company:company_work_time."
+msgid "Work Time"
+msgstr "Arbeitszeit"

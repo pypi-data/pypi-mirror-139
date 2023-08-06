@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.location,assigned_by:stock_location_move."
+msgid "Assigned by"
+msgstr "Zugewiesen von"
+
+msgctxt "field:stock.location,movable:stock_location_move."
+msgid "Movable"
+msgstr "Beweglich"
+
+msgctxt "field:stock.shipment.internal,locations:stock_location_move."
+msgid "Locations"
+msgstr "Lagerorte"
+
+msgctxt ""
+"field:stock.shipment.internal-location,create_date:stock_location_move."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:stock.shipment.internal-location,create_uid:stock_location_move."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:stock.shipment.internal-location,id:stock_location_move."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.shipment.internal-location,location:stock_location_move."
+msgid "Location"
+msgstr "Lagerort"
+
+msgctxt "field:stock.shipment.internal-location,rec_name:stock_location_move."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:stock.shipment.internal-location,shipment:stock_location_move."
+msgid "Shipment"
+msgstr "Lieferung"
+
+msgctxt ""
+"field:stock.shipment.internal-location,write_date:stock_location_move."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:stock.shipment.internal-location,write_uid:stock_location_move."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"model:ir.message,text:stock_location_move.msg_location_already_assigned"
+msgid ""
+"The location \"%(location)s\" has already been assigned by "
+"\"%(assigned_by)s\"."
+msgstr "Der Lagerort '%(location)s' ist bereits '%(assigned_by)s' zugeordnet."
+
+msgctxt ""
+"model:ir.rule.group,name:stock_location_move.rule_group_location_movable"
+msgid "Movable location"
+msgstr "Mobiler Lagerort"
+
+msgctxt ""
+"model:ir.rule.group,name:stock_location_move.rule_group_location_movable_admin"
+msgid "Any location"
+msgstr "Beliebiger Lagerort"
+
+msgctxt ""
+"model:res.group,name:stock_location_move.group_stock_location_movable"
+msgid "Stock Location Movable"
+msgstr "Mobiler Lagerort"
+
+msgctxt "model:stock.shipment.internal-location,name:stock_location_move."
+msgid "Shipment Internal - Location"
+msgstr "Interne Lieferung - Lagerort"

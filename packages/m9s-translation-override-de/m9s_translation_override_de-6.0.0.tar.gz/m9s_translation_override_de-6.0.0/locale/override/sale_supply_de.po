@@ -1,0 +1,47 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,supply_on_sale:sale_supply."
+msgid "Supply On Sale"
+msgstr "Beschaffung bei Verkauf"
+
+msgctxt "field:product.template,supply_on_sale:sale_supply."
+msgid "Supply On Sale"
+msgstr "Beschaffung bei Verkauf"
+
+msgctxt "field:purchase.request,sale_lines:sale_supply."
+msgid "Sale Lines"
+msgstr "Verkaufspositionen"
+
+msgctxt "field:sale.line,purchase_request:sale_supply."
+msgid "Purchase Request"
+msgstr "Bestellvorschlag"
+
+msgctxt "field:sale.line,purchase_request_state:sale_supply."
+msgid "Purchase Request State"
+msgstr "Bestellvorschlag Status"
+
+msgctxt "model:ir.action,name:sale_supply.act_purchase_request_form"
+msgid "Purchase Requests"
+msgstr "Bestellvorschläge"
+
+msgctxt "selection:sale.line,purchase_request_state:sale_supply."
+msgid "Cancel"
+msgstr "Annulliert"
+
+msgctxt "selection:sale.line,purchase_request_state:sale_supply."
+msgid "Done"
+msgstr "Erledigt"
+
+msgctxt "selection:sale.line,purchase_request_state:sale_supply."
+msgid "In Process"
+msgstr "In Bearbeitung"
+
+msgctxt "selection:sale.line,purchase_request_state:sale_supply."
+msgid "Purchased"
+msgstr "Auftrag erstellt"
+
+msgctxt "selection:sale.line,purchase_request_state:sale_supply."
+msgid "Requested"
+msgstr "Angefragt"

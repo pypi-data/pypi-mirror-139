@@ -1,0 +1,48 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.inventory.create.start,company:stock_inventory_location."
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:stock.inventory.create.start,date:stock_inventory_location."
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:stock.inventory.create.start,id:stock_inventory_location."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:stock.inventory.create.start,locations:stock_inventory_location."
+msgid "Locations"
+msgstr "Lagerorte"
+
+msgctxt ""
+"field:stock.inventory.create.start,lost_found:stock_inventory_location."
+msgid "Lost and Found"
+msgstr "Inventurdifferenz"
+
+msgctxt ""
+"model:ir.action,name:stock_inventory_location.wizard_create_inventory"
+msgid "Create Inventories"
+msgstr "Lagerbestände ermitteln"
+
+msgctxt "model:ir.ui.menu,name:stock_inventory_location.menu_create_inventory"
+msgid "Create Inventories"
+msgstr "Lagerbestände ermitteln"
+
+msgctxt "model:stock.inventory.create.start,name:stock_inventory_location."
+msgid "Create Inventories"
+msgstr "Lagerbestände ermitteln"
+
+msgctxt ""
+"wizard_button:stock.inventory.create,start,create_:stock_inventory_location."
+msgid "Create"
+msgstr "Erstellen"
+
+msgctxt ""
+"wizard_button:stock.inventory.create,start,end:stock_inventory_location."
+msgid "Cancel"
+msgstr "Abbrechen"

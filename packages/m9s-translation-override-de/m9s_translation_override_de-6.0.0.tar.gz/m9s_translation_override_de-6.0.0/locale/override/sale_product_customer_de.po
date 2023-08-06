@@ -1,0 +1,75 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,product_customers:sale_product_customer."
+msgid "Customers"
+msgstr "Kunden"
+
+msgctxt "field:product.template,product_customers:sale_product_customer."
+msgid "Customers"
+msgstr "Kunden"
+
+msgctxt "field:sale.line,product_customer:sale_product_customer."
+msgid "Customer's Product"
+msgstr "Kundenartikel"
+
+msgctxt "field:sale.product_customer,code:sale_product_customer."
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:sale.product_customer,create_date:sale_product_customer."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:sale.product_customer,create_uid:sale_product_customer."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:sale.product_customer,id:sale_product_customer."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.product_customer,name:sale_product_customer."
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:sale.product_customer,party:sale_product_customer."
+msgid "Customer"
+msgstr "Kunde"
+
+msgctxt "field:sale.product_customer,product:sale_product_customer."
+msgid "Variant"
+msgstr "Variante"
+
+msgctxt "field:sale.product_customer,rec_name:sale_product_customer."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:sale.product_customer,sequence:sale_product_customer."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:sale.product_customer,template:sale_product_customer."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:sale.product_customer,write_date:sale_product_customer."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:sale.product_customer,write_uid:sale_product_customer."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "model:ir.action,name:sale_product_customer.act_product_customer_form"
+msgid "Product Customers"
+msgstr "Kundenartikel"
+
+msgctxt "model:ir.ui.menu,name:sale_product_customer.menu_product_customer"
+msgid "Product Customers"
+msgstr "Kundenartikel"
+
+msgctxt "model:sale.product_customer,name:sale_product_customer."
+msgid "Product Customer"
+msgstr "Kundenartikel"

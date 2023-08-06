@@ -1,0 +1,93 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.subscription.line,asset_lot:sale_subscription_asset."
+msgid "Asset Lot"
+msgstr "Charge Abonnement Objekt"
+
+msgctxt ""
+"field:sale.subscription.line,asset_lot_required:sale_subscription_asset."
+msgid "Asset Lot Required"
+msgstr "Anlage Charge erforderlich"
+
+msgctxt "field:sale.subscription.service,asset_lots:sale_subscription_asset."
+msgid "Asset Lots"
+msgstr "Anlage Charge"
+
+msgctxt ""
+"field:sale.subscription.service,asset_lots_available:sale_subscription_asset."
+msgid "Available Asset Lots"
+msgstr "Verfügbare Abonnement Objekte"
+
+msgctxt ""
+"field:sale.subscription.service-"
+"stock.lot.asset,create_date:sale_subscription_asset."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:sale.subscription.service-"
+"stock.lot.asset,create_uid:sale_subscription_asset."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:sale.subscription.service-stock.lot.asset,id:sale_subscription_asset."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:sale.subscription.service-stock.lot.asset,lot:sale_subscription_asset."
+msgid "Lot"
+msgstr "Charge"
+
+msgctxt ""
+"field:sale.subscription.service-"
+"stock.lot.asset,rec_name:sale_subscription_asset."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:sale.subscription.service-"
+"stock.lot.asset,service:sale_subscription_asset."
+msgid "Service"
+msgstr "Dienstleistung"
+
+msgctxt ""
+"field:sale.subscription.service-"
+"stock.lot.asset,write_date:sale_subscription_asset."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:sale.subscription.service-"
+"stock.lot.asset,write_uid:sale_subscription_asset."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:stock.lot,subscribed:sale_subscription_asset."
+msgid "Subscribed"
+msgstr "Abonniert"
+
+msgctxt "field:stock.lot,subscription_lines:sale_subscription_asset."
+msgid "Subscription Lines"
+msgstr "Abonnementpositionen"
+
+msgctxt "field:stock.lot,subscription_services:sale_subscription_asset."
+msgid "Services"
+msgstr "Dienstleistungen"
+
+msgctxt "model:ir.message,text:sale_subscription_asset.msg_asset_line_overlap"
+msgid ""
+"The lines \"%(line1)s\" and \"%(line2)s\" overlap, you must use different "
+"dates."
+msgstr ""
+"Die Positionen \"%(line1)s\" und \"%(line2)s\" überschneiden sich. Es müssen"
+" unterschiedliche Daten verwendet werden."
+
+msgctxt ""
+"model:sale.subscription.service-"
+"stock.lot.asset,name:sale_subscription_asset."
+msgid "Subscription Service - Stock Lot Asset"
+msgstr "Abonnement Dienstleistung - Charge Abonnement Objekt"

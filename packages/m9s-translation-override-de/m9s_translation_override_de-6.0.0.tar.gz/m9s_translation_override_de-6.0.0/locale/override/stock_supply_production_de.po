@@ -1,0 +1,99 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:production.configuration,supply_period:stock_supply_production."
+msgid "Supply Period"
+msgstr "Beschaffungszeitraum"
+
+msgctxt ""
+"field:production.configuration.supply_period,create_date:stock_supply_production."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:production.configuration.supply_period,create_uid:stock_supply_production."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:production.configuration.supply_period,id:stock_supply_production."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:production.configuration.supply_period,rec_name:stock_supply_production."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:production.configuration.supply_period,supply_period:stock_supply_production."
+msgid "Supply Period"
+msgstr "Beschaffungszeitraum"
+
+msgctxt ""
+"field:production.configuration.supply_period,write_date:stock_supply_production."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:production.configuration.supply_period,write_uid:stock_supply_production."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "help:production.configuration,supply_period:stock_supply_production."
+msgid "In number of days"
+msgstr "In Anzahl von Tagen"
+
+msgctxt "model:ir.action,name:stock_supply_production."
+msgid "Create Production Requests"
+msgstr "Produktionsanforderungen erstellen"
+
+msgctxt "model:ir.action,name:stock_supply_production.act_production_request"
+msgid "Request Productions"
+msgstr "Produktionsaufträge anfordern"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:stock_supply_production.act_order_point_form_domain_production"
+msgid "Production"
+msgstr "Produktion"
+
+msgctxt "model:ir.cron,name:stock_supply_production."
+msgid "Generate Production Requests"
+msgstr "Erstellung von Produktionsanforderungen"
+
+msgctxt "model:ir.message,text:stock_supply_production.msg_late_productions"
+msgid "There are some productions that are late."
+msgstr "Einige Produktionsaufträge sind verspätet."
+
+msgctxt "model:ir.ui.menu,name:stock_supply_production."
+msgid "Create Production Requests"
+msgstr "Produktionsanforderungen erstellen"
+
+msgctxt ""
+"model:production.configuration.supply_period,name:stock_supply_production."
+msgid "Production Configuration Supply Period"
+msgstr "Einstellungen Produktion Beschaffungszeitraum"
+
+msgctxt "model:production.create_request.start,name:stock_supply_production."
+msgid "Create Production Request"
+msgstr "Produktionsanforderung erstellen"
+
+msgctxt "selection:stock.order_point,type:stock_supply_production."
+msgid "Production"
+msgstr "Produktion"
+
+msgctxt "view:production.create_request.start:stock_supply_production."
+msgid "Create Production Requests?"
+msgstr "Produktionsanforderungen erstellen?"
+
+msgctxt ""
+"wizard_button:production.create_request,start,create_:stock_supply_production."
+msgid "Create"
+msgstr "Erstellen"
+
+msgctxt ""
+"wizard_button:production.create_request,start,end:stock_supply_production."
+msgid "Cancel"
+msgstr "Abbrechen"

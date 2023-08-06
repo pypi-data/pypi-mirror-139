@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:commission,waiting_move:commission_waiting."
+msgid "Move"
+msgstr "Buchungssatz"
+
+msgctxt "field:commission.agent,waiting_account:commission_waiting."
+msgid "Waiting Account"
+msgstr "Zwischenkonto"

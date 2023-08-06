@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"field:purchase.purchase,invoice_lines:purchase_invoice_line_standalone."
+msgid "Invoice Lines"
+msgstr "Rechnungspositionen Lieferanten"
+
+msgctxt ""
+"field:purchase.purchase,invoice_lines_ignored:purchase_invoice_line_standalone."
+msgid "Invoice Lines Ignored"
+msgstr "Ignorierte Rechnungspositionen"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,create_date:purchase_invoice_line_standalone."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,create_uid:purchase_invoice_line_standalone."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,id:purchase_invoice_line_standalone."
+msgid "ID"
+msgstr "ID"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,invoice:purchase_invoice_line_standalone."
+msgid "Invoice Line"
+msgstr "Rechnungsposition Kunde"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,purchase:purchase_invoice_line_standalone."
+msgid "Purchase"
+msgstr "Einkauf"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,rec_name:purchase_invoice_line_standalone."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,write_date:purchase_invoice_line_standalone."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt ""
+"field:purchase.purchase-ignored-"
+"account.invoice.line,write_uid:purchase_invoice_line_standalone."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt ""
+"model:purchase.purchase-"
+"account.invoice.line,name:purchase_invoice_line_standalone."
+msgid "Purchase - Invoice Line"
+msgstr "Einkauf - Rechnungsposition"
+
+msgctxt ""
+"model:purchase.purchase-ignored-"
+"account.invoice.line,name:purchase_invoice_line_standalone."
+msgid "Purchase - Ignored Invoice Line"
+msgstr "Einkauf - Ignorierte Rechnungsposition"
+
+msgctxt "view:account.invoice.line:purchase_invoice_line_standalone."
+msgid "Invoice Lines"
+msgstr "Rechnungspositionen"

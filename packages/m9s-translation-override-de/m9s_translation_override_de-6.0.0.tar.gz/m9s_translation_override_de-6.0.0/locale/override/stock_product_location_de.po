@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,locations:stock_product_location."
+msgid "Default Locations"
+msgstr "Standardlagerorte"
+
+msgctxt "field:stock.product.location,create_date:stock_product_location."
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:stock.product.location,create_uid:stock_product_location."
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:stock.product.location,id:stock_product_location."
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.product.location,location:stock_product_location."
+msgid "Storage Location"
+msgstr "Lagerort"
+
+msgctxt "field:stock.product.location,product:stock_product_location."
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:stock.product.location,rec_name:stock_product_location."
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:stock.product.location,sequence:stock_product_location."
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+msgctxt "field:stock.product.location,warehouse:stock_product_location."
+msgid "Warehouse"
+msgstr "Warenlager"
+
+msgctxt "field:stock.product.location,write_date:stock_product_location."
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:stock.product.location,write_uid:stock_product_location."
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "model:stock.product.location,name:stock_product_location."
+msgid "Product Location"
+msgstr "Artikel Lagerort"
+
+msgctxt "view:stock.product.location:stock_product_location."
+msgid "Product Location"
+msgstr "Artikel Lagerort"
+
+msgctxt "view:stock.product.location:stock_product_location."
+msgid "Product Locations"
+msgstr "Artikel Lagerorte"
