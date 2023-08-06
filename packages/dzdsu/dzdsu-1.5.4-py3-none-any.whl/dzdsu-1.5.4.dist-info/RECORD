@@ -1,0 +1,16 @@
+dzdsu/__init__.py,sha256=jpO8Jz4gEIEbg9B-2diFVFa54aAPRJDjQPIWuebrzCo,456
+dzdsu/constants.py,sha256=pK4WmGcn-C2_4vvoAftdavIarKGbksguH9Zf9z1SGZY,1090
+dzdsu/hash.py,sha256=U2paLhwvaZ4xNjd97h3ktpVG-X2GHB_XxSxLX1DVJdE,440
+dzdsu/mods.py,sha256=0_dQyp7nitImKhha1zCfypYQV2C1FNryF0tRZGwgkic,5418
+dzdsu/params.py,sha256=pDkfJq1MoH90kp9rMbrblK43LW6eFbrhh1B2cRoWgIc,2128
+dzdsu/parsers.py,sha256=D6sdxAFx1KV_3NmN0nBAVT525wueACZV49jPw8MqGTA,1492
+dzdsu/server.py,sha256=FHb4DbtCkN_pWaFsw6GiUNbVBh4rqSiNuEGC_vYoZK0,8197
+dzdsu/update.py,sha256=17odabhN9QC5Kp1ZShH0wdS1nNNRV8YBFFoKqi1Md4g,1404
+dzdsu/utility.py,sha256=NJprmr-ehTjB8yMsd4P08NALJ0VoVisSYktUFIDujXU,5825
+dzdsu/wrapper.py,sha256=GgHxgrbVgWFSXczXeRgXTO8KmpIRtHm_4UX3z8oNCuU,1821
+dzdsu-1.5.4.dist-info/LICENSE,sha256=ssVaXBR-EfZA7EYi1YElVpbwNti56FdG1axyIo5WkrU,1072
+dzdsu-1.5.4.dist-info/METADATA,sha256=od8ByL0cWrUiltkPRrNYrLIPbb3WWpdix5FSB4eh0Ks,345
+dzdsu-1.5.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dzdsu-1.5.4.dist-info/entry_points.txt,sha256=S4L6ZAC3L3IWAqx4IJHH8x9ti04zfgxzIgA867TshTA,73
+dzdsu-1.5.4.dist-info/top_level.txt,sha256=4Lyomg4fads0LTkhSeRYFS2f2dsrNabp6huEDPcqz6U,6
+dzdsu-1.5.4.dist-info/RECORD,,
