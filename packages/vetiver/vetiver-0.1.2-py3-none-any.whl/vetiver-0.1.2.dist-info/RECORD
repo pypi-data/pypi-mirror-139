@@ -1,0 +1,12 @@
+vetiver/__init__.py,sha256=X7R7RWdP3Zq1wYhaUXRW-59ETL85aNK2YrO6bxlrLa0,313
+vetiver/deploy-rsconnect.py,sha256=dHQtHObu48lBYiaIZinS04CAcXHDmBUcq9dNOZXu-4Q,460
+vetiver/dummy.py,sha256=5P6vros4-LKqZlO2Fg88YvHt56P7DruZ6o_CwVuxMKM,318
+vetiver/ptype.py,sha256=9ALZPzPHkBlbz_W1lsOvLam_BIwF25LVrFzFQwa1j3Y,1799
+vetiver/server.py,sha256=Q2gO0C44g-UZy4tesMge5u6JG5MRmVKbRSnimxivYMw,3661
+vetiver/utils.py,sha256=brlNyF49MD-iNGb9DqisduzC86FyFNbo2WPoBVBrxj4,367
+vetiver/vetiver_model.py,sha256=2eRrWtoesjksRs8vzPxuGN5-chqMzovseRodtHGWsbE,2343
+vetiver-0.1.2.dist-info/LICENSE,sha256=n2XEhDSsiKEDhiZ2OBUfn8fSKRhXRbCTYYvevSKdO_I,1083
+vetiver-0.1.2.dist-info/METADATA,sha256=1VwZq6b6vKkLR_mCXvXKs8h5yR8PkxsKllAb42qyDRg,2311
+vetiver-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vetiver-0.1.2.dist-info/top_level.txt,sha256=xOWJZg79FjLJJUyko1f8jVT1tsRl3FZodp7JqhvH4pg,8
+vetiver-0.1.2.dist-info/RECORD,,
