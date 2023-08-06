@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: RCBS.py
+Version: 0.0.0
+Summary: Python package useful for analysing MD trajectories and creating QM/MM models built on top of MDAnalysis. All MD formats compatible with MDAnalysis are compatible with RCBS, while QM/MM capacities are compatible with ChemShell. The aim of this package is to develop an easy-to-use way to analyse MD trajectories, while keeping a good performance.
+Home-page: https://github.com/dynamicsUAB/RCBS.py
+Download-URL: https://github.com/dynamicsUAB/RCBS.py
+Author: Miquel Canyelles Niño
+License: UNKNOWN
+Keywords: biochemistry,simulations,MDAnalysis,molecular dynamics
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RCBS.py
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dynamicsUAB/RCBS.py)](https://github.com/dynamicsUAB/RCBS.py)
+[![PyPI](https://img.shields.io/pypi/v/RCBS.py)](https://pypi.org/project/RCBS.py/)
+![GitHub](https://img.shields.io/github/license/dynamicsUAB/RCBS.py)
+[![MDAnalysis](https://img.shields.io/badge/Powered%20by-MDAnalysis-lightgray.svg)](https://www.mdanalysis.org)
+
+## Description
+RCBS.py (Reactivity of Chemical and Biochemical Systems) is a Python package that contains several scripts and functions which try to simplify the analysis of MD simulations and, from these, to prepare the system to carry out QM/MM simulations using ChemShell. MD simulations analysis has been built in top of the MDAnalysis python package.
+
+The package is divided into two main modules: *md_analyser* and *qmmm_setup*.
+
+### md_analyser
+This module form RCBS.py is useful for performing analysis of MD trajectories in a simple way.
+
+## Installation
+
+### Using pip
+
+```bash
+pip install RCBS.py
+```
+
+### From source code
+
+1. Clone the repository in you local machine
+
+```bash
+git clone https://github.com/dynamicsUAB/RCBS.py.git
+```
+
+2. Move to the folder
+
+```bash
+cd RCBS.py
+```
+
+3. Install the package using pip or pip3
+
+```bash
+pip install .
+```
+
+
+
