@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: wwshc
+Version: 0.0.11
+Summary: UNKNOWN
+Home-page: https://wwshc.jojojux.de/
+Author: JoJoJux
+Author-email: wwshc@jojojux.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://wwshc.jojoux.de/bugs
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#WWSHC
+This is an unofficial module to control WWS (https://wwschool.de; Also other Services using WebWeaver Software) via python code.
+
+###Changes in 0.0.9:
+* Added eventsystem (wws.events)
+* Updated selenium to 4.1.0
+* Started updating syntax of selenium find_element functions
+* Corrected some IDs that have changed in WWS
+
+###Example:
+To see code examples, visit wwshc.jojojux.de/examples/
+
+
+Requires: selenium>=3.141.0, win10toast>=0.9, pydatfile>=0.0.3
+
+

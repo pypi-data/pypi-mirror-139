@@ -1,0 +1,10 @@
+wwshc/__init__.py,sha256=H4eGW46pWBdTqYPVzVsz3a2Xi4CWshjJmBkjPMEsmpg,19343
+wwshc/wwsels.py,sha256=wUYuKDkKy3kU_rWb6inKUJ60_6Ymg3BZMx2YNG4g5-I,15924
+wwshc/wwserr.py,sha256=saM1rn6H92HWGrorgdNPmRYYJPJqnS8JuuAj4qLAc6U,272
+wwshc/wwsevent.py,sha256=dnPnKjICHKWiFecxsgskkanyVJOc-aTItwchLDu6P3g,1161
+wwshc/wwsopt.py,sha256=CEd6JEli-F6Edo5LLuzWWtvqozfAEgKh52EeALe2lPM,3780
+wwshc-0.0.11.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+wwshc-0.0.11.dist-info/METADATA,sha256=JduyO8pv3bGC_DsiQQ09h7su7iTRYm9_1-nPtzFFw0s,796
+wwshc-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wwshc-0.0.11.dist-info/top_level.txt,sha256=5xwYXa57H32KKLKs_NbJCns-rKsLYUG7co4D5dCkT1o,6
+wwshc-0.0.11.dist-info/RECORD,,
