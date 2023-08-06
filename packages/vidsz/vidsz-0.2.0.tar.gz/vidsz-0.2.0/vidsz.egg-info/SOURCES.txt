@@ -1,0 +1,17 @@
+README.md
+setup.py
+test/test_main.py
+vidsz/__init__.py
+vidsz.egg-info/PKG-INFO
+vidsz.egg-info/SOURCES.txt
+vidsz.egg-info/dependency_links.txt
+vidsz.egg-info/requires.txt
+vidsz.egg-info/top_level.txt
+vidsz/interfaces/__init__.py
+vidsz/interfaces/reader.py
+vidsz/interfaces/writer.py
+vidsz/opencv/__init__.py
+vidsz/opencv/reader/__init__.py
+vidsz/opencv/reader/base_reader.py
+vidsz/opencv/writer/__init__.py
+vidsz/opencv/writer/base_writer.py
