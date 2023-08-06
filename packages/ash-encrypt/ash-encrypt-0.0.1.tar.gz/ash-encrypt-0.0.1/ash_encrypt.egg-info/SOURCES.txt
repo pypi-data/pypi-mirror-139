@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ash_encrypt.egg-info/PKG-INFO
+ash_encrypt.egg-info/SOURCES.txt
+ash_encrypt.egg-info/dependency_links.txt
+ash_encrypt.egg-info/entry_points.txt
+ash_encrypt.egg-info/top_level.txt
+mainfile/__init__.py
+mainfile/ashFile.py
