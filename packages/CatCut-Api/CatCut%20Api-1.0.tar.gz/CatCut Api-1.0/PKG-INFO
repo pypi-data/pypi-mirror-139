@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: CatCut Api
+Version: 1.0
+Summary: Api for site https://catcut.net
+Home-page: https://github.com/Halone228/CatCut-Python
+Author: Kirill Savchuk
+Author-email: randomnik192@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+_CutCat api_
+
+Api СЃРѕРґРµСЂР¶РёС‚ 3 РјРµС‚РѕРґР°:
+- РџРѕР»СѓС‡РµРЅРёРµ Р±Р°Р»Р°РЅСЃР°
+- РЎРѕР·РґР°РЅРёРµ СЃСЃС‹Р»РєРё
+- РџРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёРєРё СЃСЃС‹Р»РєРё
+
+Р’СЃРµ РјРµС‚РѕРґС‹ Р·Р°РґРѕРєСѓРјРµРЅС‚РёСЂРѕРІР°РЅРЅС‹.
+
+Р§С‚РѕР±С‹ СЃРѕР·РґР°С‚СЊ СЌРєР·РµРјРїР»СЏСЂ api РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РёРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ catcut РјРѕРґСѓР»СЊ Рё СЃРѕР·РґР°С‚СЊ СЌРєР·РµРјР»СЏСЂ РєР»Р°СЃСЃР° ```CatCutApi```
+
+```python
+from catcut import CatCutApi
+catcut_api = CatCutApi(id,secret_code)
+```
+
