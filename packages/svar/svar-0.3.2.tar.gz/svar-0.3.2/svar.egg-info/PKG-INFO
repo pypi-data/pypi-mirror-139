@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: svar
+Version: 0.3.2
+Summary: The Python interface for Svar plugins
+Home-page: https://github.com/zdzhaoyong/Svar
+Author: Yong Zhao
+Author-email: zdzhaoyong@mail.nwpu.edu.cn
+License: BSD
+Platform: UNKNOWN
+License-File: LICENSE
+
+The Python interface for Svar plugins
+
