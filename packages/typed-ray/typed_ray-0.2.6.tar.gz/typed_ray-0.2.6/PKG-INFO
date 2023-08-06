@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: typed-ray
+Version: 0.2.6
+Summary: Mypy plugin to add support for type checking ray objects.
+Author: Adi Gudimella
+Author-email: aditya.gudimella@gmail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mypy (>=0.931,<0.932)
+Requires-Dist: ray (>=1.9.1,<2.0.0)

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "typed_ray"
+version = "0.2.6"
+description = "Mypy plugin to add support for type checking ray objects."
+authors = ["Adi Gudimella <aditya.gudimella@gmail.com>"]
+include = ["typed_ray/py.typed"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+ray = "^1.9.1"
+mypy = "^0.931"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=6.0.0"
+pytest-mypy-testing = "^0.0.8"
+pytest-mypy-plugins = "^1.9.2"
+black = "^21.12b0"
+ipdb = "^0.13.9"
+autoflake = "^1.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
