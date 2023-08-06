@@ -1,0 +1,10 @@
+scriptbox/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+scriptbox/screencapture.py,sha256=vdofmiVuFR63igqCN98FN2b3QaPS1RhL0ACNQ2plCNo,4851
+scriptbox-0.1.0a0.data/data/man/man1/screencapture.1,sha256=zgjy-akyPScK-tftYOVRR9y38rFKS5LcgYoN8roYoJw,518
+scriptbox-0.1.0a0.data/data/man/man1/scriptbox.1,sha256=9ym52MLncXDZpdGwCFjLDt1ry-dlnaxBpx96CahuIv4,301
+scriptbox-0.1.0a0.dist-info/LICENSE.txt,sha256=W19Ci1I2HPe710WZUp0Ly2KpFsz-uLgASi4rKAWBI34,1071
+scriptbox-0.1.0a0.dist-info/METADATA,sha256=n3v3DrkU_w3UeJXNb_L8iX0qYpFZy43Q5-vzTuleTGg,1984
+scriptbox-0.1.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scriptbox-0.1.0a0.dist-info/entry_points.txt,sha256=1hsrftK-UiG2jsbMzmouDH0GeUPnMlNsZnuY9n-B4ao,63
+scriptbox-0.1.0a0.dist-info/top_level.txt,sha256=3HmyNenGoTf8Iwc8jQRbsQsq8wRFkj_fgiiZ5Rrx_yQ,10
+scriptbox-0.1.0a0.dist-info/RECORD,,
