@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: abcd-0329
+Version: 1645514386
+Summary: UNKNOWN
+Home-page: https://pypi.org/
+Author: abc
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.3
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: caddy-runtime
+
+UNKNOWN
+
