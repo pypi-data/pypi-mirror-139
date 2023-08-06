@@ -1,0 +1,10 @@
+weldor/__init__.py,sha256=dZ9sCe0dyH7AlRdFrQyv30GqQqVpVDuUnUrJPIacsQM,26
+weldor/weldor.py,sha256=TNbmiOPtIlDcgWQ0fMLCGjfmYGeYLmU1_pbCc8ezWx0,17756
+weldor/wordbase/index.txt,sha256=UgmzX4I_i4DwQE-GO9gN8G1qlmxusQFtafOLrcbu1dA,13889
+weldor/wordbase/shell.txt,sha256=pVGxSgPeZyoyyTsFsycIgMl1Jlse47pV8d7CdfrnHFQ,74597
+weldor-2.8.2022.dist-info/LICENSE,sha256=u8OdyYmIBbSP9oT3RjCdrbJ6VOpEdVnMG0gR2WMQs38,1070
+weldor-2.8.2022.dist-info/METADATA,sha256=IO7Z8KALAUXmcnLnKq21G3O0ugJF3KWrZ0326K2zebw,11311
+weldor-2.8.2022.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+weldor-2.8.2022.dist-info/entry_points.txt,sha256=_YBNP9sYKDvzDciVUrqvp7bmIOHmpjh7QC2MMxuno4g,42
+weldor-2.8.2022.dist-info/top_level.txt,sha256=6ovuRen1atOz0bRlPqOEsC7AnzVXvMRZgk6w8OhN8YE,7
+weldor-2.8.2022.dist-info/RECORD,,
