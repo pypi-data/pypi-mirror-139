@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+rsnaped/__init__.py
+rsnaped/rsnaped.py
+rsnaped.egg-info/PKG-INFO
+rsnaped.egg-info/SOURCES.txt
+rsnaped.egg-info/dependency_links.txt
+rsnaped.egg-info/requires.txt
+rsnaped.egg-info/top_level.txt
