@@ -1,0 +1,16 @@
+# These are requirements for developing on nereid
+-r requirements.txt
+
+# 6.0 depends on lower versions of flask and jinja2
+MarkupSafe<2.1.0
+
+# Testing
+tox
+pycountry
+
+# Quality check
+flake8
+coverage
+
+# Documentation
+sphinx
