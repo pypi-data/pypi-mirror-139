@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: Topsis-Sanat-101903326
+Version: 1.0.1
+Summary: It finds topsis of the data
+Home-page: https://github.com/sanatMahajan/Topsis-Sanat-101903326
+Author: Sanat Mahajan
+Author-email: smahajan!_be19@thapar.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Topsis-Sanat-101903326
+It takes an integer as an input and prints it square.
+
+## Installation
+```pip install saral-square```
+
+## How to use it?
+Open terminal and type square and then input the integer
+
+## License
+
+Â© 2022 Sanat Mahajan
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
