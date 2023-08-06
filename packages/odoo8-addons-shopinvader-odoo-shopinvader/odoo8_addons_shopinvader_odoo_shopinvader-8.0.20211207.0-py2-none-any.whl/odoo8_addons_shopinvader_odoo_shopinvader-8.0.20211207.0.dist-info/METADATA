@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: odoo8-addons-shopinvader-odoo-shopinvader
+Version: 8.0.20211207.0
+Summary: Meta package for shopinvader-odoo-shopinvader Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 8.0
+Requires-Dist: odoo8-addon-base-url
+Requires-Dist: odoo8-addon-connector-generic
+Requires-Dist: odoo8-addon-connector-locomotivecms
+Requires-Dist: odoo8-addon-partner-contact-company
+Requires-Dist: odoo8-addon-product-media
+Requires-Dist: odoo8-addon-product-online-category
+Requires-Dist: odoo8-addon-product-rating
+Requires-Dist: odoo8-addon-product-stock-state
+Requires-Dist: odoo8-addon-product-tag
+Requires-Dist: odoo8-addon-shopinvader
+Requires-Dist: odoo8-addon-shopinvader-algolia
+Requires-Dist: odoo8-addon-shopinvader-claim
+Requires-Dist: odoo8-addon-shopinvader-google-shopping
+Requires-Dist: odoo8-addon-shopinvader-lead
+Requires-Dist: odoo8-addon-shopinvader-m2mcategories
+Requires-Dist: odoo8-addon-shopinvader-mailjet
+Requires-Dist: odoo8-addon-shopinvader-paypal
+Requires-Dist: odoo8-addon-shopinvader-price-per-qty
+Requires-Dist: odoo8-addon-shopinvader-product-link
+Requires-Dist: odoo8-addon-shopinvader-product-media
+Requires-Dist: odoo8-addon-shopinvader-product-rating
+Requires-Dist: odoo8-addon-shopinvader-product-tag
+Requires-Dist: odoo8-addon-shopinvader-promotion-rule
+Requires-Dist: odoo8-addon-shopinvader-reset-password
+Requires-Dist: odoo8-addon-shopinvader-search-engine
+Requires-Dist: odoo8-addon-shopinvader-stripe
+Requires-Dist: odoo8-addon-shopinvader-visible-discount
+
+UNKNOWN
+
