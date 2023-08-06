@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: loggingtofile
+Version: 0.0.4
+Summary: Write logging info to auto-created files.
+Home-page: https://github.com/Hideousmon/loggingtofile
+Author: Zhenyu ZHAO
+Author-email: mailtozyzhao@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+loggingtofile
+=============
+
+Write logging info to auto-created files.
+
+
+Installation
+------------
+
+use pip:
+
+::
+
+    pip install loggingtofile
+
+
+State
+------------
+Pre-release.
+
