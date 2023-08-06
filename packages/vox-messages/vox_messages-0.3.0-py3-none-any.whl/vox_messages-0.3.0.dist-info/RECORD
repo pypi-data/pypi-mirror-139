@@ -1,0 +1,10 @@
+vox_message/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vox_message/healthcheck.py,sha256=j1KoQJMBhXQA3EKMT1JAW55hMGN-u6TNciSgIAjZJtY,768
+vox_message/jobs.py,sha256=nc0S_zNl62I9HqvGYOfb5z4OOXhjs3fZ1st9QN5fh6w,2645
+vox_message/messages.py,sha256=2yU0O76FSZoT-iH6tLadGe7XH0WylfxWsdcyJG0sTDw,4163
+vox_message/models.py,sha256=Iq8PJgGGE4KibnvmS4b-qxpsKS-Us14L5dUgJAlnYFQ,2591
+vox_message/serializers.py,sha256=2T-63PXAbc6ukf1Gx9kX06JwADXPnEF5_ikGttGmFMQ,1307
+vox_message/views.py,sha256=t1BZSILKebxc4bAh-koeEqkSx4hjduKKRNQQ4ZGhLRY,2180
+vox_messages-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+vox_messages-0.3.0.dist-info/METADATA,sha256=fSsG6YhcV9Uo3xcY-cVt2WHkX6WnrY9WT7DKocIHcyE,412
+vox_messages-0.3.0.dist-info/RECORD,,
