@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: roboworld
+Version: 0.1.1
+Summary: Educational roboter world for learning the basic programming concepts.
+Home-page: https://github.com/BZoennchen/robo-world
+Author: Benedikt Zoennchenpip
+Author-email: benedikt.zoennchen@web.de
+Maintainer: BZoennchen
+Maintainer-email: benedikt.zoennchen@web.de
+License: UNKNOWN
+Keywords: education,cellular automaton,roboter,learning,beginners,computational thinking
+Platform: UNKNOWN
+Requires-Python: >=3.7.0,<4.0.0
+License-File: LICENSE
+Requires-Dist: matplotlib (<4.0.0,>=3.2.1)
+Requires-Dist: rich (<4.0.0,>=3.3.1)
+
+
+``roboworld`` is an educational ``Python``-package designed for students to learn the basic programming concepts, such as,
+
++ variables,
++ function calls,
++ conditionals, 
++ loops and
++ recursion.
+
+It consists of a ``World`` and the ``Agent``, a roboter that can be moved within the ``World``.
+The ``World`` is a two-dimensional grid consisting of an ``Agent``, a spatial goal (a special gridpoint), movable and immovable objects.
+The ``World`` can be seen as a cellular atomaton.
+Students have to design algorithm that move the ``Agent`` to its goal.
+
+However, the ``Agent`` only offers very basic methods, such as,
+
++ move one step forward, 
++ turn left by 90 degree, 
++ check if there is an obstacle in front.
+
+Therefore, students have to prorgamm more sophisticated methods by themselves.
+The learning goal is that they, step by step, build a set of function to navigate within different worlds.
+And by doing so, they hopefully pick up the most important programming fundamentals.
+
+
