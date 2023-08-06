@@ -1,0 +1,3 @@
+[console_scripts]
+phl-budget-data=phl_budget_data.cli.__main__:main
+
