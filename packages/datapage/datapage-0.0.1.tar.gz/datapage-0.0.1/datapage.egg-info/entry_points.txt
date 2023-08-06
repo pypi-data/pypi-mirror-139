@@ -1,0 +1,3 @@
+[console_scripts]
+datapage = datapage.__main__:main
+

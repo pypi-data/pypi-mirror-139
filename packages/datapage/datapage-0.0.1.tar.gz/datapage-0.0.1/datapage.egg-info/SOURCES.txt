@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+datapage/__init__.py
+datapage/__main__.py
+datapage.egg-info/PKG-INFO
+datapage.egg-info/SOURCES.txt
+datapage.egg-info/dependency_links.txt
+datapage.egg-info/entry_points.txt
+datapage.egg-info/not-zip-safe
+datapage.egg-info/requires.txt
+datapage.egg-info/top_level.txt
+tests/__init__.py

@@ -1,0 +1,3 @@
+recursive-include datapage *
+global-exclude *.py[cod]
+include VERSION
