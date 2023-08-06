@@ -1,0 +1,14 @@
+cpvlib/__init__.py,sha256=BwDmBGgrEv2_n9gsW8Czhs3LBJsBscaWcZWrwOQGKDk,224
+cpvlib/cpvsystem.py,sha256=PaskT5LtQewEHkY6pz5l-hu8RPvG8S4wixHvUitnUns,47710
+cpvlib/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpvlib/tests/test_cpvlib.py,sha256=NWRhtUQ5cclaAnhFXpSyl5G9TzLcNY_00t5QlkxzTH4,12159
+cpvlib/tests/test_cpvsystem.py,sha256=kNJ-vxd1YLy2yh6oKXfNpetb1O8n6s3qzE67GmTyejE,16313
+cpvlib/tests/data/InsolightMay2019.csv,sha256=pn4OU502m2RPYdo6P18yRYEJSNHFf9Izxi4tLWULCOk,1439960
+cpvlib/tests/data/StaticHybridSystem block_diagram.png,sha256=jhiWMasENstXZB7HlKPkxQ_bbvbEMVY1cD_lsQX6NsE,140681
+cpvlib/tests/data/meteo2020_03_04.txt,sha256=E-Vrk7nN0OZb7b7z3qvyARr96JwGq1u-Xdlhg_etec0,350775
+cpvlib/tests/data/meteo2020_03_14.txt,sha256=k1wjfTFhWJW_3D1HOehfGadptjlmsh33J3nVTxthhb4,310280
+cpvlib-0.1.5.dist-info/LICENSE,sha256=tTDryDSJJkQEnpc4pf65zC66_C2AWoNFyVDN94PJqEM,1544
+cpvlib-0.1.5.dist-info/METADATA,sha256=rkouGBtTZpLUo-VRB9nwhd7szR_Qcut4EcATiRmBbBI,1404
+cpvlib-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cpvlib-0.1.5.dist-info/top_level.txt,sha256=Q1-IEC8QxxNqbn0ChJcz4szwxw954xytwk6SLmZcoxk,7
+cpvlib-0.1.5.dist-info/RECORD,,

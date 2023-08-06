@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cpvlib
+Version: 0.1.5
+Summary: CPV Systems modeling
+Home-page: http://github.com/isi-ies-group/cpvlib
+Author: IES-UPM ISI Group & cpvlib Development Team
+Author-email: info@ies.upm.es
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: pandas (>=1.2)
+Requires-Dist: pvlib (==0.8)
+Requires-Dist: matplotlib (>=3.3)
+Provides-Extra: doc
+Requires-Dist: ipython ; extra == 'doc'
+Requires-Dist: matplotlib ; extra == 'doc'
+Requires-Dist: sphinx (==3.1.2) ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme (==0.5.0) ; extra == 'doc'
+Requires-Dist: sphinx-gallery ; extra == 'doc'
+Requires-Dist: sphinxcontrib-apidoc ; extra == 'doc'
+
+
+`cpvlib` is an open source tool that provides a set of functions and classes 
+for simulating the performance of concentrator photovoltaic (CPV) systems,
+a specific type of photovoltiac systems composed of lenses and/or
+mirrors that focus sunlight onto small cells. It makes special emphasys on
+static micro CPV systems with internal tracking.
+
+Documentation: http://cpvlib.readthedocs.io
+Source code: https://github.com/isi-ies-group/cpvlib
+
+
