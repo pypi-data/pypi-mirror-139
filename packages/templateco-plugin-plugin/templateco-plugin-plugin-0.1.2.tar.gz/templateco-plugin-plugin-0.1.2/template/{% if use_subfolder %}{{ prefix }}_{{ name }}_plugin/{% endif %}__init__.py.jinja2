@@ -1,0 +1,57 @@
+from typing import Any, Iterable, List, Mapping
+
+from templateco import (
+    folders_to_template_decorator,
+    get_questions_decorator,
+    post_template_hook_decorator,
+    pre_template_hook_decorator,
+)
+
+# Plugin configuration.
+friendly_name = "{{ name }}"
+compatible_templates = ["{{ templates }}"]
+selected_by_default = False
+
+
+@get_questions_decorator
+def get_questions(**_: Any) -> Iterable[Mapping[str, Any]]:
+    """
+    Questions to ask the end-user.
+
+    :return: Questionary in Dictionary format.
+    """
+    return [
+        # TODO: Add questions here.
+        # https://questionary.readthedocs.io/en/1.10.0/pages/advanced.html#create-questions-from-dictionaries
+    ]
+
+
+@pre_template_hook_decorator
+def pre_template_hook(**_: Any) -> None:
+    """
+    Run before the folder has been templated.
+    """
+    # TODO: Either implement or delete this function.
+    pass
+
+
+@folders_to_template_decorator
+def folders_to_template(**_: Any) -> List[str]:
+    """
+    Return a list of templates folders to template with Jinja2.
+
+    This function is executed after the questions have been asked, and after the
+    pre_template_hook. It returns a list of folders to be templated by the plugin,
+    allowing for clean separation into multiple folders.
+    """
+    # TODO: Replace this list with all the templates to generate from this plugin.
+    return ["template"]
+
+
+@post_template_hook_decorator
+def post_template_hook(**_: Any) -> None:
+    """
+    Run after the folder has been templated.
+    """
+    # TODO: Either implement or delete this function.
+    pass
