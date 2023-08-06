@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+genominterv/__init__.py
+genominterv/chrom_sizes.py
+genominterv.egg-info/PKG-INFO
+genominterv.egg-info/SOURCES.txt
+genominterv.egg-info/dependency_links.txt
+genominterv.egg-info/requires.txt
+genominterv.egg-info/top_level.txt
