@@ -1,0 +1,14 @@
+odoo8_addon_shopinvader_paypal-8.0.1.0.0.99.dev10-py3.8-nspkg.pth,sha256=byZRehCeET5bIG0AMyMXPLGoXAE887IW4f1j_Rh4alU,564
+odoo_addons/shopinvader_paypal/README.rst,sha256=O9NU_qWbzM1MzD_2JFWfWdTKyBxaBo0KUKnasHUh3KQ,2103
+odoo_addons/shopinvader_paypal/__init__.py,sha256=MIki9d2jOSdsG5gF64UrRnHh1-13C6ju274fJbN6yiM,63
+odoo_addons/shopinvader_paypal/__openerp__.py,sha256=U-LiWEqibQwbbqQdC55QamHDwD2RgJyxpG0wtqg4W1o,777
+odoo_addons/shopinvader_paypal/demo/shopinvader_payment_demo.xml,sha256=g9oRYvXKu3nICTBt2JwhGeDHk0BROphSyLQ44slqAV8,604
+odoo_addons/shopinvader_paypal/services/__init__.py,sha256=V8pGyUeeaKXxAyEsgjRB6DiY1n54FQ2aszRpslExRt4,55
+odoo_addons/shopinvader_paypal/services/payment_service.py,sha256=n5yCLhwIlRBKXwPFUhOSPrpE-SQ4poQMhEM6Z145yZU,1194
+odoo_addons/shopinvader_paypal/tests/__init__.py,sha256=-15-HaCznEti9AgEm5pax5bwBnxhzDLLCMWkMJ0eOeI,52
+odoo_addons/shopinvader_paypal/tests/test_payment.py,sha256=B6YZurtQ45AgnAdpZJqOqfUcM__0ihrjzUU-bwBgXas,2828
+odoo8_addon_shopinvader_paypal-8.0.1.0.0.99.dev10.dist-info/METADATA,sha256=M2j7XA-1QTJxI0UJe_KBBDVzx3ZG-hCHBXoSKMwJp9Q,2653
+odoo8_addon_shopinvader_paypal-8.0.1.0.0.99.dev10.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+odoo8_addon_shopinvader_paypal-8.0.1.0.0.99.dev10.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_shopinvader_paypal-8.0.1.0.0.99.dev10.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_shopinvader_paypal-8.0.1.0.0.99.dev10.dist-info/RECORD,,
