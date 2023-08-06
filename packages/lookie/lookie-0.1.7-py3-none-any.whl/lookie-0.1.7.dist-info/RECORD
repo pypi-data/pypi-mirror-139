@@ -1,0 +1,10 @@
+pyproject.toml,sha256=xHow319ap49N2afs32ONxlEcZdy7TAoLBV3FxDOqfnA,536
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/checks.py,sha256=dOBLCGo1eS4hHlrUqG8dvqURfojMFW3dlcAPdDZzWoQ,2724
+src/lookie.py,sha256=2CWJNtaa4iJWDZ6ZfkTnSjwy0etJSzY1C182HtapXo4,1809
+src/utilities.py,sha256=nssIZaObu_oTvLeDcOGPnkDiwQFXHoVWUZqGZnTiZX0,569
+src/version.py,sha256=3PSO-QKZxunAINzNbpcCmDltlgEIUgc4HYb_Tjxbbls,560
+lookie-0.1.7.dist-info/entry_points.txt,sha256=6uEdqqM1aScPmgj2Kia16G6qK4xZ1qvr7DELnQ0P7qQ,42
+lookie-0.1.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+lookie-0.1.7.dist-info/METADATA,sha256=xTKDc9-xC0MvhpTkMuteELBUo6vH1SkHwjQTAWCanNM,700
+lookie-0.1.7.dist-info/RECORD,,
