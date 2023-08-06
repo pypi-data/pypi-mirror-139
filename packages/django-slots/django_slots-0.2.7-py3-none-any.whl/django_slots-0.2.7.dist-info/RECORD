@@ -1,0 +1,10 @@
+django_slots/__init__.py,sha256=7bhK7W-HpW_4GfqjnG8JibQ9rKoHU4JR3zfyGCgZJ8I,51
+django_slots/apps.py,sha256=Dl7cR-lt_xzrXwrJzRSquWDXeh3zwpZfxgeS0xpVpDQ,98
+django_slots/components.py,sha256=2lDxCT8IL10ubqQ336CA1qnPqjmtGEPl5lQXwim3Zic,6083
+django_slots/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_slots/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_slots/templatetags/slot_tags.py,sha256=4s7bJoHJbgcfPsxfzvmX6Qpyfczv8AKZh79KrC-vx5Q,1008
+django_slots/utils.py,sha256=dHKSB9St0q97ZaZpUyAIIr4pc5rRDn8TfFXU9B9m4ac,255
+django_slots-0.2.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_slots-0.2.7.dist-info/METADATA,sha256=hJtBcPQ1kK53evGPHbWG-jQnJFp49MnUDIARk7RZl1g,3885
+django_slots-0.2.7.dist-info/RECORD,,
