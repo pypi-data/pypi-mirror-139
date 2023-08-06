@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/flare_image_hashing.egg-info/PKG-INFO
+src/flare_image_hashing.egg-info/SOURCES.txt
+src/flare_image_hashing.egg-info/dependency_links.txt
+src/flare_image_hashing.egg-info/requires.txt
+src/flare_image_hashing.egg-info/top_level.txt
+src/image_hashing/__init__.py
+src/image_hashing/image_hashing.py
