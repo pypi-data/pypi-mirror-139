@@ -1,0 +1,2 @@
+[console_scripts]
+pomody = pomody.__main__:main

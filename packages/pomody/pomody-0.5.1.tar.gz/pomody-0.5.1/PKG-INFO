@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pomody
+Version: 0.5.1
+Summary: A pomodoro CLI app
+Home-page: https://github.com/Tekofx/pomody
+Download-URL: https://github.com/Tekofx/pomody/archive/refs/tags/
+Author: Teko
+Author-email: tekofxx@gmail.com
+License: MIT
+Keywords: pomodoro,productivity,time,timer,work
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+
+<p align="center"><img width=50% src="./assets/pomody_logo.png"></p>
+
+<h1 align="center">Pomody</h1>
+<p align="center">A pomodoro CLI tool written in Python</p>
+
+## Installation
+`pip3 install pomody`
+
+
+## Usage 
+Just run `pomody` to start the program
+
