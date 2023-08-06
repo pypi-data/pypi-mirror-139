@@ -1,0 +1,6 @@
+mailjet_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mailjet_utils/app.py,sha256=2NFpbl7muQk-I5A-NHy4X4YxzAtMMyP3yY5LIabdpoM,501
+mailjet_utils/models.py,sha256=Bp-zZLWRkd4EL7lWd3wWgtJQ2bFLL-MBM6utPCVeoQY,436
+mailjet_utils-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+mailjet_utils-0.1.0.dist-info/METADATA,sha256=BpvjO9exuErwcxOMbJSlgsVbqiH2JIvXTLVSV1C-51o,602
+mailjet_utils-0.1.0.dist-info/RECORD,,
