@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pysimibot"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Lima <rafael.lima3301@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+pysimsimi-cli = 'pysimibot.pysimibot:Simsimi' 
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
