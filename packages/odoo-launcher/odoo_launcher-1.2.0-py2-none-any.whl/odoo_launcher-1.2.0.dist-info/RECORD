@@ -1,0 +1,10 @@
+odoo_launcher/__init__.py,sha256=1C8uHfhO-x1BlUkQKZfRMae93fpHkF57RO1NyH6900A,1169
+odoo_launcher/api.py,sha256=11OzwqPHvFerwA7y76QlN5Wu-sEMI_gjhw5GR9oYxts,2818
+odoo_launcher/config_section.py,sha256=3j2zCWKaSl9Th_X9jP59Kldo9fxOv-qtNGWEZ1VGnno,12300
+odoo_launcher/laucher.py,sha256=W9WmAccGGgywdLQSePupmbWWjvUWygyPXy7RUEChLw8,5635
+odoo_launcher/mapper.py,sha256=l0Lf_XDbSSv_Z2swqDJAzZvf3mvpcI1gR-l-cYyiqp0,6164
+odoo_launcher/odoo_config_maker.py,sha256=Mi8ghTXHt-gyBQujfhYPm-k7ejqZWL6fbsW9ToElk9Q,5077
+odoo_launcher-1.2.0.dist-info/METADATA,sha256=gMtMyqvN-ZFESRLt1Ie7pAdRQrnryYJ2DFRg8-R2rFg,858
+odoo_launcher-1.2.0.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+odoo_launcher-1.2.0.dist-info/top_level.txt,sha256=ioR0HGq357mUGZjPFv9EsS5f6myxoKgTreT2MA-Izos,14
+odoo_launcher-1.2.0.dist-info/RECORD,,
