@@ -1,0 +1,37 @@
+Metadata-Version: 1.2
+Name: brain-stitcher
+Version: 1.1.1
+Summary: Stitcher - mesh builder
+Home-page: UNKNOWN
+Author: Heitor Gessner
+Author-email: <lab.metabio@gmail.com>
+License: UNKNOWN
+Project-URL: Source, https://github.com/labmetabio/Stitcher
+Description:  Stitcher package is a 3D mesh builder
+        
+        It was developed by metaBIO lab member Heitor Gessner as part of his master thesis.
+        The main usage is for recreating brain models from rare species, i.e., especies with low number of spiciements.
+        
+            It provides 3 classes:
+                - Points()
+                - Perimeters()
+                - Surface()
+        
+            Each Periemeter is a collection of Points. Each Surface is a collection of Perimeters.
+            For the points in points, it is expected to have a 3D coordinate reference for each point that delimits a plane contour.
+            The contours are made by manual or automatic segmentation, in the case of brains. This can be done in softwares such as ImageJ, Horos or Osirix - and than exported as a json file.
+        
+        Version 1.1:
+            -New super resolution method using Fourier Transform
+            -Fixed fix_intersection() method from Perimeter() to properly handle rare parallel lines case
+            -Example on how to use will come on version 1.2 with some results
+        
+        
+Keywords: mesh,Sticher
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Requires-Python: >=3.0, <4
