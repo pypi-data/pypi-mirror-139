@@ -1,0 +1,9 @@
+setup.py
+lazyEdge/__init__.py
+lazyEdge/msedgedriver.py
+lazyEdge.egg-info/PKG-INFO
+lazyEdge.egg-info/SOURCES.txt
+lazyEdge.egg-info/dependency_links.txt
+lazyEdge.egg-info/requires.txt
+lazyEdge.egg-info/top_level.txt
+lazyEdge.egg-info/zip-safe
