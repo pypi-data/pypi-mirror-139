@@ -1,0 +1,3 @@
+[console_scripts]
+starling-server=starling_server.cli.cli:cli
+
