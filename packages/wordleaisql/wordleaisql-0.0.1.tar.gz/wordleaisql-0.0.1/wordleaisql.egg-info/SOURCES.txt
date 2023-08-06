@@ -1,0 +1,12 @@
+README.md
+setup.py
+wordleaisql/__init__.py
+wordleaisql/wordle-all-pairs.cpp
+wordleaisql/wordle-vocab.txt
+wordleaisql/wordleai.py
+wordleaisql.egg-info/PKG-INFO
+wordleaisql.egg-info/SOURCES.txt
+wordleaisql.egg-info/dependency_links.txt
+wordleaisql.egg-info/entry_points.txt
+wordleaisql.egg-info/requires.txt
+wordleaisql.egg-info/top_level.txt
