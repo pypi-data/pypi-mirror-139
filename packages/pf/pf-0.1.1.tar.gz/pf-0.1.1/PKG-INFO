@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pf
+Version: 0.1.1
+Summary: Project Files templating engine.
+Home-page: https://gitea.deepak.science/deepak/pf
+Author: Deepak
+Author-email: dmallubhotla+github@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://gitea.deepak.science/deepak/pf
+Description-Content-Type: text/markdown
+
+# Project Files
+
+Templates for quickly initiating my projects.
+
