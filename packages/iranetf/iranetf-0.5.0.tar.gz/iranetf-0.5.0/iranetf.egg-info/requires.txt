@@ -1,0 +1,6 @@
+aiohttp[speedups]
+pandas
+
+[tests]
+pytest
+pytest-asyncio
