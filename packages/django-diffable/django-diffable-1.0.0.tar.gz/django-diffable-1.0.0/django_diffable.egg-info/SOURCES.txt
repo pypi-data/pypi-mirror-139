@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+diffable/__init__.py
+diffable/models.py
+django_diffable.egg-info/PKG-INFO
+django_diffable.egg-info/SOURCES.txt
+django_diffable.egg-info/dependency_links.txt
+django_diffable.egg-info/requires.txt
+django_diffable.egg-info/top_level.txt
