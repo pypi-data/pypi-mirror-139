@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/flexi_dev/EventDriver.py
+src/flexi_dev/JoystickDriver.py
+src/flexi_dev/MetaDriver.py
+src/flexi_dev/MouseDriver.py
+src/flexi_dev/__init__.py
+src/flexi_dev.egg-info/PKG-INFO
+src/flexi_dev.egg-info/SOURCES.txt
+src/flexi_dev.egg-info/dependency_links.txt
+src/flexi_dev.egg-info/requires.txt
+src/flexi_dev.egg-info/top_level.txt
