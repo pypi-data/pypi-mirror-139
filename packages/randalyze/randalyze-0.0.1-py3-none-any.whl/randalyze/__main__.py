@@ -1,0 +1,124 @@
+import argparse
+import json
+import sys
+from enum import Enum
+
+from randalyze.analyzers import BenfordAnalyzer
+from randalyze.generators import BenfordRandom
+
+
+class OutputFormat(Enum):
+    TEXT = 1
+    JSON = 2
+
+
+def check_percentage(value):
+    percentage = float(value)
+
+    if percentage < 0 or percentage > 100:
+        raise argparse.ArgumentTypeError('%s in an invalid floating percentage value (0-100)' % percentage)
+
+    return percentage
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Random number generator and analyzer.')
+
+    subparsers = parser.add_subparsers(dest='command')
+
+    generate_parser = subparsers.add_parser('generate',
+                                            help='Generate a series of random numbers')
+
+    generate_parser.add_argument('generator',
+                                 choices=['benford'],
+                                 default='benford',
+                                 help='The type of generator to use')
+
+    generate_parser.add_argument('-c', '--count',
+                                 type=int,
+                                 default=100,
+                                 help='The number of values to generate')
+
+    generate_parser.add_argument('-f', '--format',
+                                 choices=['text', 'json'],
+                                 default='text',
+                                 help='The format of the output')
+
+    analyze_parser = subparsers.add_parser('analyze',
+                                           help='Analyze a series of random numbers')
+
+    analyze_parser.add_argument('-t', '--tolerance',
+                                type=check_percentage,
+                                default=5,
+                                help='The pattern matching tolerance, in percent')
+
+    analyze_parser.add_argument('-f', '--format',
+                                choices=['text', 'json'],
+                                default='text',
+                                help='The format of the output')
+
+    return parser.parse_args()
+
+
+# Press Ctrl+F5 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+def generator_function(generator, count: int):
+    for _ in range(0, count):
+        yield generator.random()
+
+
+def generate_numbers(count: int, output_format: OutputFormat):
+    generator = BenfordRandom()
+
+    if output_format == OutputFormat.JSON:
+        sys.stdout.write('[')
+        format_string = '{},'
+    else:
+        format_string = '{}\n'
+
+    for n in generator_function(generator, count):
+        sys.stdout.write(format_string.format(generator.random()))
+
+    if output_format == OutputFormat.JSON:
+        sys.stdout.write(']')
+
+    sys.stdout.flush()
+
+
+def main():
+    arguments = parse_arguments()
+
+    output_format = OutputFormat[arguments.format.upper()]
+
+    if arguments.command == 'generate':
+
+        generate_numbers(arguments.count, output_format)
+
+    elif arguments.command == 'analyze':
+        analyzer = BenfordAnalyzer()
+
+        for line in sys.stdin:
+            try:
+                value = float(line.strip())
+                analyzer.add_number(value)
+            except Exception as ex:
+                print(f'Stuff: {ex}')
+
+        if output_format == OutputFormat.JSON:
+            result = {'first_digit': {'distribution': {i: analyzer.first_digit_distribution[i] for i in range(10)},
+                                      'counts': {i: analyzer.first_digit_counts[i] for i in range(10)}}}
+            sys.stdout.write(json.dumps(result))
+        else:
+
+            sys.stdout.write(f'First digits: {analyzer.first_digit_counts}\n')
+            sys.stdout.write(f'First digit:  {analyzer.first_digit_distribution}\n')
+            sys.stdout.write(
+                f'Benford (tolerance {arguments.tolerance}%)? {analyzer.matches_distribution(arguments.tolerance)}\n')
+
+        sys.stdout.flush()
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    main()
