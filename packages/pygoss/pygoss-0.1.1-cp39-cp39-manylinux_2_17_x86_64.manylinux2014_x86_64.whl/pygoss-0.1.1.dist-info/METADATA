@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pygoss
+Version: 0.1.1
+Summary: Python interface to goss - General ODE System Solver
+Home-page: https://github.com/ComputationalPhysiology/goss
+Author: Henrik Finsberg, Johan Hake, Cécile Daversin-Catty
+Author-email: henriknf@simula.no
+Maintainer-email: henriknf@simula.no
+License: GNU General Public License v3 (GPLv3)
+Keywords: ODE,solver,system,equations,cuda
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7.0
+License-File: LICENSE
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: numpy
+Requires-Dist: modelparameters
+Requires-Dist: gotran
+Requires-Dist: typer
+Requires-Dist: cppyy
+Provides-Extra: cbcbeat
+Requires-Dist: cbcbeat ; extra == 'cbcbeat'
+Provides-Extra: dev
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pdbpp ; extra == 'dev'
+Requires-Dist: pip ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: sphinx-book-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+UNKNOWN
+
