@@ -1,0 +1,11 @@
+uriregistry/__init__.py,sha256=AAP4EMjKDU7ZZ-0OlvqvqwNoOrWyxa__0so3MvN5mwQ,2216
+uriregistry/models.py,sha256=5IEGIpIIe3Rs1z0gljC5dB1af_d5qq_lNWEFNNNk9yk,1031
+uriregistry/registry.py,sha256=TQE6jLwZQBHxkiJriHMhNGU3D6TVVEcjq3Zs-nqPsnk,2023
+uriregistry/utils.py,sha256=yT94KNl6xu5M4IG6GhvCoLrQC1VlEzkPKaWPB9I2Y4o,782
+uriregistry/views.py,sha256=ak5BhqxLXNuf082RYYwJyjiDXBhQ_kYSZBnjXuiumEk,2369
+uriregistry-0.3.0.dist-info/LICENSE,sha256=_j7qbFmeI6AMCMX1yyMgwwrcj4aH21_OybeaZixT_2s,35120
+uriregistry-0.3.0.dist-info/METADATA,sha256=1YNm73VOKpbcKqaeerQZcgV785mNjj1PqaywdkpKHwc,2045
+uriregistry-0.3.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+uriregistry-0.3.0.dist-info/entry_points.txt,sha256=ZJtT3K8pdJmXftYZViglYSnI1W3DOP3KuZxSI2PkOT8,62
+uriregistry-0.3.0.dist-info/top_level.txt,sha256=L0GgbWvKtxRw5zpYUdDITpupNzLSwbLbrfkMUyWyAh0,12
+uriregistry-0.3.0.dist-info/RECORD,,
