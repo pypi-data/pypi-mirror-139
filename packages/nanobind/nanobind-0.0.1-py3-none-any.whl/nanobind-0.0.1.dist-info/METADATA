@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nanobind
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/mitsuba-renderer/nanobind
+Author: Wenzel Jakob
+Author-email: wenzel.jakob@epfl.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+
+nanobind - Seamless operability between C++17 and Python
+
