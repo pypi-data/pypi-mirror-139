@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+simplify/__init__.py
+simplify/fuse.py
+simplify/layers.py
+simplify/propagate.py
+simplify/remove.py
+simplify/utils.py
+torch_simplify.egg-info/PKG-INFO
+torch_simplify.egg-info/SOURCES.txt
+torch_simplify.egg-info/dependency_links.txt
+torch_simplify.egg-info/not-zip-safe
+torch_simplify.egg-info/requires.txt
+torch_simplify.egg-info/top_level.txt
