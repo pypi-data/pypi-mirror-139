@@ -1,0 +1,102 @@
+{
+    "name" : "inntm_fetch",
+    "label": "CHECK new publication for INN collection",
+
+    "dag": {
+        "nodes": {
+            "check"    : "fetch.download.inn.Next",
+            "fetch"    : "fetch.download.inn.Full",
+            "extract"  : "fetch.extract.inn.XML",
+            "dimg"     : "fetch.extract.inn.FORMULA",
+            "pxml"     : "process.ProcessXML",
+            "pimg"     : "process.ProcessIMG",
+            "organize" : "fetch.common.Organize",
+            "merge"    : "fetch.common.Merge",
+            "clean"    : "fetch.common.Cleanup",
+            "notify"   : "fetch.inn.Notify"
+        },
+
+        "edges": [
+            {
+                "from"     : "check",
+                "to"       : "fetch",
+                "bindings" : { "check.new_publication" : "fetch.new_publication" }
+            },
+            {
+                "from"     : "check",
+                "to"       : "notify",
+                "bindings" : { "check.new_publication" : "notify.new_publication" }
+            },
+            {
+                "from"     : "fetch",
+                "to"       : "extract",
+                "bindings" : { "extract.inns" : "fetch.inns" }
+            },
+            {
+                "from"     : "extract",
+                "to"       : "dimg",
+                "bindings" : { "dimg.input_data"  : "extract.output_data",
+                               "dimg.input_dir"   : "extract.dest_dir",
+                               "dimg.archive_name": "extract.archive_name"}
+            },
+            {
+                "from"     : "extract",
+                "to"       : "pxml",
+                "bindings" : { "pxml.input_data"  : "extract.output_data",
+                               "pxml.input_dir"   : "extract.dest_dir",
+                               "pxml.archive_name": "extract.archive_name"}
+            },
+            {
+                "from"     : "dimg",
+                "to"       : "pimg",
+                "bindings" : { "pimg.input_data"  : "dimg.output_data",
+                               "pimg.input_dir"   : "dimg.dest_dir",
+                               "pimg.archive_name": "dimg.archive_name"}
+            },
+            {
+                "from"     : "extract",
+                "to"       : "organize",
+                "bindings" : { "organize.archive_name" : "extract.archive_name" }
+            },
+            {
+                "from"     : "pxml",
+                "to"       : "organize",
+                "bindings" : { "organize.data_files" : "pxml.output_xml" }
+            },
+            {
+                "from"     : "pimg",
+                "to"       : "organize",
+                "bindings" : { "organize.img_files" : "pimg.output_img" }
+            },
+            {
+                "from"     : "organize",
+                "to"       : "merge",
+                "bindings" : { "merge.appnums_per_archive" : "organize.appnums_per_archive" }
+            },
+            {
+                "from"     : "fetch",
+                "to"       : "clean",
+                "bindings" : { "clean.processed_list" : "fetch.output_files" }
+            },
+            {
+                "from"     : "dimg",
+                "to"       : "clean",
+                "bindings" : { "clean.extracted_list" : "dimg.output_data",
+                               "clean.archive_names" : "dimg.archive_name" }
+            },
+            {
+                "from"     : "merge",
+                "to"       : "clean",
+                "bindings" : { "clean.processing_done" : "merge.merged_dir" }
+            }
+                ]
+    },
+    "config": {
+        "steps": {
+            "clean": {
+                "reset_done": 1
+            }
+
+        }
+    }
+}

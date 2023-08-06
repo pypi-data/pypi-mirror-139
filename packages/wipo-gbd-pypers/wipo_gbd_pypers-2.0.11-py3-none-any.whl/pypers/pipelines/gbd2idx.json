@@ -1,0 +1,40 @@
+{
+    "name" : "gbd2idx",
+    "label": "GBD to IDX Format",
+
+    "dag": {
+        "nodes": {
+            "ffind"     : "gbd2idx.FFind",
+            "transform" : "gbd2idx.Transform",
+            "analyze"   : "gbd2idx.Analyze",
+            "merge"     : "gbd2idx.Merge"
+        },
+        "edges": [
+            {
+                "from"     : "ffind",
+                "to"       : "transform",
+                "bindings" : { "transform.files" : "ffind.files" }
+            },
+            {
+                "from"     : "ffind",
+                "to"       : "analyze",
+                "bindings" : { "analyze.files" : "ffind.files" }
+            },
+            {
+                "from"     : "transform",
+                "to"       : "merge",
+                "bindings" : { "merge.data_files" : "transform.data_files" }
+            },
+            {
+                "from"     : "analyze",
+                "to"       : "merge",
+                "bindings" : { "merge.img_files" : "analyze.img_files" }
+            }
+        ]
+    },
+    "config" : {
+	    "steps": {
+        }
+    }
+}
+
