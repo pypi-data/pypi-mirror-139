@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pygoss
+Version: 0.1.0
+Summary: Basix Python interface
+Home-page: https://github.com/ComputationalPhysiology/goss
+Author: Henrik Finsberg, Johan Hake, Cécile Daversin-Catty
+Author-email: henriknf@simula.no
+Maintainer-email: henriknf@simula.no
+License: GNU General Public License v3 (GPLv3)
+Keywords: ODE,solver,system,equations,cuda
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7.0
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+License-File: COPYING
+License-File: COPYING.LESSER
+
+UNKNOWN
+
