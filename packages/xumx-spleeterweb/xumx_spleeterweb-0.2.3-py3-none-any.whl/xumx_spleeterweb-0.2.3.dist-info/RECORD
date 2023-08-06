@@ -1,0 +1,16 @@
+xumx/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xumx/args.py,sha256=wLg5WDnzkwmVJ6AsN4VUqyv4A79iu3Vqyob_euGRBB4,7400
+xumx/comm.py,sha256=L1LmzrAQ7tFajFleyJ3F9x2a9ojB2Fhj9Rff72l6Z1A,3076
+xumx/data.py,sha256=c18JI_W5wzHzkdPQuOmUyqqdwK6I3RUNsYvlWEQDZOs,7558
+xumx/eval.py,sha256=e1RQI2SyQzzDYAGiygUiH9ZQbKho2WispaZ0Z5GDgCI,2457
+xumx/loss.py,sha256=3utEFYJ0_rbxDzNCOADSmqWPZaK1Gtuso8qjCAEdaao,6535
+xumx/lr_scheduler.py,sha256=KOCkGnrfpeLSW_vQ4aWxpFRLA4Ali2B7LpqnI2j5OV0,5662
+xumx/model.py,sha256=_WPLk6brxglIFkbrhrv9ejyydPTuO9rdouY5587l9N8,17887
+xumx/test.py,sha256=kSyyzJ0hPck_Ie2izrXUq89dJO6D2ZGGceNkYzYopsg,7276
+xumx/train.py,sha256=k1JXgbhWy0Ruer9I1i3wnRqj5wYLlN4NpuGAx3iO3CM,7256
+xumx/utils.py,sha256=Qw6Dgd6f66_3qcCh7WrrIWMr6cCf30fGBTKKXOAzP_8,3320
+xumx_spleeterweb-0.2.3.dist-info/LICENSE,sha256=0JfZ4pXj63H5_n5F_Eb1vYhpJxmrr82GT6DO1e4qI8U,12644
+xumx_spleeterweb-0.2.3.dist-info/METADATA,sha256=-BYNyXTsOAS0j6mrX2UB9LYsR-7Yza8C7pryadyStVE,14186
+xumx_spleeterweb-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xumx_spleeterweb-0.2.3.dist-info/top_level.txt,sha256=QcYdjtlMIKAnJ51jnf79TF8M_w6uL87jaZg5ugSDrso,5
+xumx_spleeterweb-0.2.3.dist-info/RECORD,,
