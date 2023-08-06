@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: topsis-calci
+Version: 0.2
+Summary: 
+Home-page: https://github.com/ritikrajdev/topsic-calci
+Author: ritikrajdev
+Author-email: ritikrajdev761@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.9,<4.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/ritikrajdev/topsic-calci
+Description-Content-Type: text/markdown
+
+# Topsis Calci
+
+Topsis Calci is a Python package implementing Topsis method for decision analysis.
+
+## Installation
+```
+pip install topsis-calci
+```
+
+## Usage
+```
+topsis input_file weights impacts output_file
+```
+
+**OR**
+
+```
+python topsis.py input_file weights impacts output_file
+```
+
+#### Inputs:-
+* input_file -> "Excel/Csv" file path
+* weights -> Comma seperated integers
+* impacts -> Comma seperated +/- impacts
+* output_file -> output csv file path"
+
+#### Outputs:-
+* Creates a csv file on "output_file" path containing score and Ranks
+
+#### Examples :-
+Refer (Examples)[./examples]
+
+## License
+This Project is Licensed under [**BSD-4-Clause**](./LICENSE.txt)
+
