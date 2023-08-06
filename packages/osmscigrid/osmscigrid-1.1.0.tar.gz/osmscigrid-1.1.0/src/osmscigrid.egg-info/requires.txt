@@ -1,0 +1,15 @@
+protobuf<4,>=3
+esy-osm-pbf>=0
+Unidecode==1.1.1
+pandas>=0.25.3
+pathlib>=1.0.1
+esy-osmfilter
+quantulum3==0.7.6
+mplcursors==0.4
+descartes==1.1.0
+adjustText==0.7.3
+numpy==1.19.4
+PyShp
+geopy
+scipy==1.6.2
+Shapely==1.7.1
