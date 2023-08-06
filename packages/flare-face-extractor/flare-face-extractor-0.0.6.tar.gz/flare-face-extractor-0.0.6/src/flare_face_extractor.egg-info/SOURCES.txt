@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/face_extractor/__init__.py
+src/face_extractor/face_extractor.py
+src/flare_face_extractor.egg-info/PKG-INFO
+src/flare_face_extractor.egg-info/SOURCES.txt
+src/flare_face_extractor.egg-info/dependency_links.txt
+src/flare_face_extractor.egg-info/requires.txt
+src/flare_face_extractor.egg-info/top_level.txt
