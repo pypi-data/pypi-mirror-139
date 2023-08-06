@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/simpleip/__init__.py
+src/simpleip/get.py
+src/simpleip.egg-info/PKG-INFO
+src/simpleip.egg-info/SOURCES.txt
+src/simpleip.egg-info/dependency_links.txt
+src/simpleip.egg-info/top_level.txt
