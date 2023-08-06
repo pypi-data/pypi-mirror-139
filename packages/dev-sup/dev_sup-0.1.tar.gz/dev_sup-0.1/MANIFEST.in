@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+recursive-include dev_sup/static *
+recursive-include dev_sup/templates *
+recursive-include dev_sup/migrations *
+recursive-include dev_sup/management *

@@ -1,0 +1,40 @@
+{% extends "dev_sup/base_dev_sup.html" %}
+{% load static %}
+
+{%block favicon%}
+{%endblock%}
+
+{% block title %}
+{{site_name}}
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href=" {% static 'dev_sup/styles/contact.css' %}" />
+{% endblock %}
+
+{% block js %}
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+{% endblock %}
+
+{% block navbar %}
+{% include "dev_sup/navbar.html"%}
+{% endblock %}
+
+{% block site_content %}
+
+<div class="content flex">
+    <h1>Contact</h1>
+    <div class="flex">
+        <i class="big-icon" data-feather="phone"></i><br>
+        <a href="tel:{{phone}}">{{phone}}</a>
+
+        <i class="big-icon" data-feather="mail"></i><br>
+        <a href="mailto:{{mail}}">{{mail}}</a>
+
+        <i class="big-icon" data-feather="home"></i><br>
+        <p>{{address.street}} {{address.number}} {{address.city}} </br> {{address.zip}}, {{address.country}}</p>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+.page-container {
+    padding-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.message {
+    text-align: center;
+}
+
+.error-code {
+    text-align: center;
+    font-size: 10rem;
+    margin: auto;
+}
