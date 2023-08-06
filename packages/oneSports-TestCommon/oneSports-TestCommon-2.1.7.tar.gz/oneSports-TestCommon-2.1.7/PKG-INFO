@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: oneSports-TestCommon
+Version: 2.1.7
+Summary: An auto test common module
+Home-page: http://gitlab.onesport.com.cn/auto_test/common.git
+Author: zsy
+Author-email: 501971693@qq.com
+License: MIT Licence
+Description: An auto test common module
+Keywords: pip,TestCommon,oneSports
+Platform: any
