@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: treadscan
+Version: 0.1.2
+Summary: Tools for scanning tire tread(s).
+Home-page: https://github.com/bohundan/treadscan
+Author: Daniel Bohuněk
+Author-email: bohundan@fit.cvut.cz
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bohundan/treadscan/issues
+Project-URL: Documentation, https://treadscan.readthedocs.io/en/latest/index.html
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: improutils
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+
+# treadscan package
+
+TODO: write README
+
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+
+
