@@ -1,0 +1,6 @@
+MyResources.py
+setup.py
+lzy_MyResources.egg-info/PKG-INFO
+lzy_MyResources.egg-info/SOURCES.txt
+lzy_MyResources.egg-info/dependency_links.txt
+lzy_MyResources.egg-info/top_level.txt
