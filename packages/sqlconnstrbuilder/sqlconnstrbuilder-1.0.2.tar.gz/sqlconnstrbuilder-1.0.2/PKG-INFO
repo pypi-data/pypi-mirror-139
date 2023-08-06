@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: sqlconnstrbuilder
+Version: 1.0.2
+Summary: SqlConnectionStringBuilder: A Simple PyOdbc SQL Connection string builder.
+Home-page: https://github.com/cristozz/sqlconnectionstringbuilder
+Author: Christofer Toledo Luna
+Author-email: ttchristofer@gmail.com
+License: BSD 3-clause
+Download-URL: https://github.com/cristozz/sqlconnectionstringbuilder
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
