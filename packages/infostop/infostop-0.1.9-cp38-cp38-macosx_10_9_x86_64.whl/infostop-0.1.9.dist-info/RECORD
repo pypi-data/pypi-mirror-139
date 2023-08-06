@@ -1,0 +1,15 @@
+cpputils.cpython-38-darwin.so,sha256=kprH9rC9zCOe-AWgi4ZSFCT2Kl_Eh8yPvbb-_-x46H0,207808
+infostop/__init__.py,sha256=u6uDfbydyLLoTDOWVpzXNa3_jM5H53a3yU8jtESb_1o,418
+infostop/deprecated.py,sha256=pA40X5X_7PxS0nh7w_VDHLpceWInLZ9NJ1GYgMggZY8,729
+infostop/metadata.py,sha256=zsMu7mg7j-cQvCev03savGOZFwaHndjcRHzxGBzvnVo,345
+infostop/models.py,sha256=EEVPSE4TyT8KCtHoFYhkDN0i0KH2gSN2xgsLvsKs9Mo,21549
+infostop/postprocess.py,sha256=m4x_87BpPidIAUzBg8DxH3v1m9jzHs883DDkLSTPqjA,1382
+infostop/utils.py,sha256=ydGwrA2hYOdr_RELuobx1tK-e5WQl2Kmh8N7aZtxNFE,8030
+infostop/visualize.py,sha256=o19y6zU1LjxYOfpbl-H3IkSWPawcBT0vdy7fvZ_JHtg,9318
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_models.py,sha256=FfI_ygI5qDSomZjzRMrz85LuJdPkSAQUbN2sR5dvGRc,342
+infostop-0.1.9.dist-info/LICENSE,sha256=wqumizACbi3I4v1OZFTU7w4MOr6E2wPkNB0REs_b8Aw,713
+infostop-0.1.9.dist-info/METADATA,sha256=LZ_Qkp7RNDiRcILxcSxc8Hr4uknPk6uBd0EjTGGzJag,5096
+infostop-0.1.9.dist-info/WHEEL,sha256=pXLpj1wTvqlD6RVUEKOuGQGeFX0NOPyDrsC-9xVDmYU,109
+infostop-0.1.9.dist-info/top_level.txt,sha256=YNI6vbDUPF83S_mbmaflRJcJmnjmdKhluvJnKucivNk,24
+infostop-0.1.9.dist-info/RECORD,,
