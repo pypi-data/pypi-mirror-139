@@ -1,0 +1,11 @@
+pygmol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygmol/abc.py,sha256=7brvCJ7D1pfB0Ru4ObIDZQNnLuB2qeOBlqf90VyiUhA,19736
+pygmol/chemistry.py,sha256=zyACv72w6-V7Sx_8MUYjCZgex1HvchBvg_2YPZXumo8,3211
+pygmol/equations.py,sha256=uzzqsyzwjlD5PisvED39H4U2zQGWW4iF7TM-cGb1oII,56463
+pygmol/model.py,sha256=QTLEEu9N_NgxFaZbn0YbnZ5pT5_vpn2rIZ0tnZ4z89M,12215
+pygmol/plasma_parameters.py,sha256=OD-1LSTQ2dbnJ2gaf8Hjrq80YIUQeuNBf0SWB3LrUu4,4723
+pygmol-1.0.0.dist-info/LICENSE,sha256=C67KpZh4v1DPc-K4VllDG9S_L0kivqkReumigJHNFYE,1073
+pygmol-1.0.0.dist-info/METADATA,sha256=dNqAggPqE4TPOrBqh-djxSPOY-VsUDfbmfFK84bFp0g,2331
+pygmol-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygmol-1.0.0.dist-info/top_level.txt,sha256=n9LsKzG-Swxj7fT7BLcjTDHnlhJz-_mnqAbGyO6UuPk,7
+pygmol-1.0.0.dist-info/RECORD,,
