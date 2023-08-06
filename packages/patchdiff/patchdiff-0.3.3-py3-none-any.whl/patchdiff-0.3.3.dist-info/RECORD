@@ -1,0 +1,9 @@
+patchdiff/__init__.py,sha256=tbInajLj-9P4K6vxtAKIYq5vicOdacXqP-AMmgV2hkQ,110
+patchdiff/apply.py,sha256=25TfOTZTYFIjy70mBus5yCzmbJRawbguDffv_4yHjqE,1366
+patchdiff/diff.py,sha256=fQj-2Do6tCivC2W0Y-viCpjCKF3IENh4eBi-SaXSHHI,5425
+patchdiff/pointer.py,sha256=GLRt7jMNGhT8GOb3VI5ouzihTBlkO8rdFnX4juX8y3Y,1749
+patchdiff/serialize.py,sha256=N0S9e0P49TBMb7ghM--h13MsF59ybiscjZ_auAErTq8,295
+patchdiff/types.py,sha256=h-M4VBfJKWfo_kLrTBsqtnHQfl2_FLtbnknOpflgfRg,91
+patchdiff-0.3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+patchdiff-0.3.3.dist-info/METADATA,sha256=AeSzfQVS0fMa00jFHT_Snh7Z1pjKJRicybjlMBByLaY,1808
+patchdiff-0.3.3.dist-info/RECORD,,
