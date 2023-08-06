@@ -1,0 +1,2 @@
+[console_scripts]
+motus = motus.motus:main
