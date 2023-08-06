@@ -1,0 +1,13 @@
+pydantic
+requests
+bravado
+pandas
+fastapi
+boto3
+
+[dev]
+variation-normalizer
+click
+openpyxl
+xlrd
+xlwt
