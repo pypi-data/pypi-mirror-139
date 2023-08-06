@@ -1,0 +1,9 @@
+prefect_collection/__init__.py,sha256=i1OTn1AdngdvNxFCdH3rIUEtMcHkWARFlEpONKBbGMI,73
+prefect_collection/_version.py,sha256=X3klXw244csjtyuNrMs6guo-Mm4wNveofLFDiF0WDtw,497
+prefect_collection/flows.py,sha256=9t2P8nji5YxYAFM972QJ4YThibFk-Uxl33dZjEjUypw,295
+prefect_collection/tasks.py,sha256=ZKt-AqN4gqdFfOdalccO1GpW6ZlrwQfn36InFZjVIpk,410
+prefect_collection-0.1.1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_collection-0.1.1.dist-info/METADATA,sha256=F_r6tsOSmzVW044ccD2HNLlPNOx7hj8Ev1xXHZnsmrQ,4437
+prefect_collection-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_collection-0.1.1.dist-info/top_level.txt,sha256=cF9ZRpAu1ENCyYU6GXq_cTDFJYwpLFaMUA7G7pi5tG8,19
+prefect_collection-0.1.1.dist-info/RECORD,,
