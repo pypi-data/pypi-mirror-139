@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: annea-bar
+Version: 0.1.63
+Summary: An example python package
+Home-page: https://github.com/annea-ai/python-framework/tree/master/libs/annea_bar
+Author: horken7
+Author-email: Johan Larsson Hörkén <johan.horken@annea.ai>
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Bar
+===
+
+An example lib
+
