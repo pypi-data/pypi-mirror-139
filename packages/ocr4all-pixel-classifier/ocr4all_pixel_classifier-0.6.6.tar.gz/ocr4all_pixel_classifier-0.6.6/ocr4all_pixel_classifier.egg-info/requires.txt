@@ -1,0 +1,12 @@
+Pillow
+numpy
+scipy
+scikit-image~=0.17.2
+imageio~=2.4.1
+tqdm
+opencv-python-headless
+dataclasses
+efficientnet
+lxml
+ocr4all-pylib>=0.2.0
+tensorflow<=2.5.0,>=2.0.0
