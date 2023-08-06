@@ -1,0 +1,9 @@
+README.md
+setup.py
+x509generator/__init__.py
+x509generator/generate_ssl_certificate.py
+x509generator.egg-info/PKG-INFO
+x509generator.egg-info/SOURCES.txt
+x509generator.egg-info/dependency_links.txt
+x509generator.egg-info/requires.txt
+x509generator.egg-info/top_level.txt
