@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tool_version_checker.egg-info/PKG-INFO
+src/tool_version_checker.egg-info/SOURCES.txt
+src/tool_version_checker.egg-info/dependency_links.txt
+src/tool_version_checker.egg-info/top_level.txt
+src/version/__init__.py

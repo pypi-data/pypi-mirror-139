@@ -1,0 +1,22 @@
+# GitHub Uploaded Python Tools Auto Version Checker and Updater
+## Module Discription & Uses:
+
+```
+import version
+
+#This Is The Main Function. You Must Includ It To Start VersionChecking...
+
+version.check(verFile = "Input The Version File Path Here", RepoURL = "Input The Repository's GitHub URL Here", RepoFile = "Enter Your Repository's Main File Name with Extention Here. This One is Optional. If You Include this File Name, Then Your Tool Will Run Autometically After Updating")
+```
+
+
+```
+import version
+
+#This One Is For Custom Output. (Default Is ALso Included)
+
+version.custom(check = "Input The Output Text Which Will Display When Module Will Start Checking For Update", update = "Input The Output Text Which Will Display When Module Will Start Updating", checkSuccess = "To Display Output When Tool Is Up-To-Date. If you Want To Display your ToolName, Just Type "$Toolname$" or "$TOOL$" To Display It", updateSuccess = "To Display Output After Successfully Updating Tool", printType = "Input The Type you want to Take Output with. Type: flush or psb For Word OneByOne Print and Type print to print Normally {Default psb}", Speed = "Include The Speed of printType Flush {Default 0.2}")
+
+version.check(verFile = "Input The Version File Path Here", RepoURL = "Input The Repository's GitHub URL Here", RepoFile = "Enter Your Repository's Main File Name with Extention Here. This One is Optional. If You Include this File Name, Then Your Tool Will Run Autometically After Updating")
+```
+### You Can Find This Module Source Code On <a href="https://github.com/Toxic-Noob/ToxicNoob_Modules/ToolVersionChecker">GitHub</a>
