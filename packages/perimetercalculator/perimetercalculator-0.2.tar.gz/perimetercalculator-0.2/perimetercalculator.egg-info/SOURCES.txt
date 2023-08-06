@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+perimetercalculator.egg-info/PKG-INFO
+perimetercalculator.egg-info/SOURCES.txt
+perimetercalculator.egg-info/dependency_links.txt
+perimetercalculator.egg-info/top_level.txt
