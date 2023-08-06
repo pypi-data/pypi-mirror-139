@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['huggingsound', 'huggingsound.classification', 'huggingsound.recognition']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['datasets>=1.18.3,<2.0.0',
+ 'jiwer>=2.3.0,<3.0.0',
+ 'librosa>=0.8.1,<0.9.0',
+ 'llvmlite>=0.36.0,<0.37.0',
+ 'numba>=0.53.1,<0.54.0',
+ 'torch>=1.9.0,<2.0.0',
+ 'transformers>=4.16.2,<5.0.0']
+
+setup_kwargs = {
+    'name': 'huggingsound',
+    'version': '0.0.1',
+    'description': "HuggingSound: A toolkit for speech-related tasks based on HuggingFace's tools.",
+    'long_description': '# HuggingSound\n\nHuggingSound: A toolkit for speech-related tasks based on [HuggingFace\'s](https://huggingface.co/) tools.\n\nI have no intention of building a very complex tool here. \nI just wanna have an easy-to-use toolkit for my speech-related experiments.\nI hope this library could be helpful for someone else too :)\n\n# Requirements\n\n- Python 3.7+\n\n# Installation\n\n```console\n$ pip install huggingsound\n```\n\n# How to use it?\n\nI\'ll try to summarize the usage of this toolkit. \nBut many things will be missing from the documentation below. I promise to make it better soon.\nFor now, you can open an issue if you have some questions or look at the source code to see how it works.\n\n## For speech-recognition\n\n### Inference\n\n```python\nimport torch\nfrom huggingsound.recognition import Model, PyCTCLMDecoder\n\ndevice = "cuda" if torch.cuda.is_available() else "cpu"\nbatch_size = 1\nmodel = Model("jonatasgrosman/wav2vec2-large-xlsr-53-english", device=device)\n\naudio_paths = ["/path/to/sagan.mp3", "/path/to/asimov.wav"]\ntranscriptions = model.transcribe(audio_paths, batch_size=batch_size)\n\n# transcriptions format (a list of dicts, one for each audio file):\n# [\n#  {\n#   "transcription": "extraordinary claims require extraordinary evidence", \n#   "start_timestamps": [100, 120, 140, 180, ...],\n#   "end_timestamps": [120, 140, 180, 200, ...],\n#   "probabilities": [0.95, 0.88, 0.9, 0.97, ...]\n# },\n# ...]\n#\n# as you can see, not only the transcription is returned but also the timestamps (in milliseconds) \n# and probabilities of each character of the transcription.\n\n```\n\n### Inference (boosted by a language model)\n\n```python\nimport torch\nfrom huggingsound.recognition import Model, PyCTCLMDecoder\n\ndevice = "cuda" if torch.cuda.is_available() else "cpu"\nbatch_size = 1\nmodel = Model("jonatasgrosman/wav2vec2-large-xlsr-53-english", device=device)\n\naudio_paths = ["/path/to/sagan.mp3", "/path/to/asimov.wav"]\n\n# We implemented 3 different decoders for that: PyCTCLMDecoder, ParlanceLMDecoder, and FlashlightLMDecoder\n# Each decoder can have different performances and depends on different libraries (You\'ll need to install them manually first).\n# We\'ll use the PyCTCLMDecoder (so "pip install pyctcdecode" first) in the following example, \n# but you can use any of the 3 decoders...\n\n# The LM format used by the LM decoders is the KenLM format (arpa or binary file).\n# You can download some LM files examples from here: \n# https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english/tree/main/language_model\n\nlm_path = "path/to/your/lm_files/lm.binary"\nunigrams_path = "path/to/your/lm_files/unigrams.txt"\n\nlm_decoder = PyCTCLMDecoder(model.token_set, lm_path=lm_path, unigrams_path=unigrams_path)\ntranscriptions = model.transcribe(audio_paths, batch_size=batch_size, decoder=lm_decoder)\n\n```\n\n### Evaluation\n```python\nimport torch\nfrom huggingsound.recognition import Model, PyCTCLMDecoder\n\ndevice = "cuda" if torch.cuda.is_available() else "cpu"\nbatch_size = 1\nmodel = Model("jonatasgrosman/wav2vec2-large-xlsr-53-english", device=device)\n\nreference_transcriptions = [\n    {"path": "/path/to/sagan.mp3", "transcription": "extraordinary claims require extraordinary evidence"},\n    {"path": "/path/to/asimov.wav", "transcription": "violence is the last refuge of the incompetent"},\n]\n\nevaluation = model.evaluate(reference_transcriptions, inference_batch_size=batch_size)\n# evaluation format: {"wer": 0.08, "cer": 0.02}\n```\n\n### Fine-tuning\n```python\nimport torch\nfrom huggingsound.trainer import TrainingArguments, ModelArguments\nfrom huggingsound.recognition import Model, DefaultTextNormalizer, TokenSet\n\ndevice = "cuda" if torch.cuda.is_available() else "cpu"\nmodel = Model("facebook/wav2vec2-large-xlsr-53", device=device)\noutput_dir = "my/finetuned/model/output/dir"\n\n# first of all, you need to define your model\'s token set\ntokens = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "\'"]\ntoken_set = TokenSet(tokens)\n\n# the lines below will load the training and model arguments objects with their default values, \n# you can change them if you want to, see the source code for the available arguments\ntraining_args = TrainingArguments() \nmodel_args = ModelArguments() \n\n# define your train/eval data\ntrain_data = [\n    {"path": "/path/to/sagan.mp3", "transcription": "extraordinary claims require extraordinary evidence"},\n    {"path": "/path/to/asimov.wav", "transcription": "violence is the last refuge of the incompetent"},\n]\neval_data = [\n    {"path": "/path/to/sagan2.mp3", "transcription": "absence of evidence is not evidence of absence"},\n    {"path": "/path/to/asimov2.wav", "transcription": "the true delight is in the finding out rather than in the knowing"},\n]\n\n# and finally, fine-tune your model\nmodel.finetune(\n    output_dir, \n    train_data=train_data, \n    eval_data=eval_data,\n    token_set=token_set, \n    training_args=training_args,\n    model_args=model_args,\n)\n```\n\n# Troubleshooting\n\n- If you are having trouble when loading MP3 files: `$ sudo apt-get install ffmpeg`\n\n# Want to help?\n\nSee the [contribution guidelines](https://github.com/jonatasgrosman/huggingsound/blob/master/CONTRIBUTING.md)\nif you\'d like to contribute to HuggingSound project.\n\nYou don\'t even need to know how to code to contribute to the project. Even the improvement of our documentation is an outstanding contribution.\n\nIf this project has been useful for you, please share it with your friends. This project could be helpful for them too.\n\nIf you like this project and want to motivate the maintainers, give us a :star:. This kind of recognition will make us very happy with the work that we\'ve done with :heart:\n\nYou can also [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/jonatasgrosman)\n\n# Citation\nIf you want to cite the tool you can use this:\n\n```bibtex\n@misc{grosman2022huggingsound,\n  title={HuggingSound},\n  author={Grosman, Jonatas},\n  publisher={GitHub},\n  journal={GitHub repository},\n  howpublished={\\url{https://github.com/jonatasgrosman/huggingsound}},\n  year={2022}\n}\n```',
+    'author': 'Jonatas Grosman',
+    'author_email': 'jonatasgrosman@gmail.com',
+    'maintainer': 'Jonatas Grosman',
+    'maintainer_email': 'jonatasgrosman@gmail.com',
+    'url': 'https://github.com/jonatasgrosman/huggingsound',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.7,<3.10',
+}
+
+
+setup(**setup_kwargs)
