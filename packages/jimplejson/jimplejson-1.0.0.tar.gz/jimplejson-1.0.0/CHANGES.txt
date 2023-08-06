@@ -1,0 +1,3 @@
+Version 1.0 released 2022-2-22
+
+ * Initial release: a copy of simplejson but released as jimplejson. The reason I did this is because simplejson seems to be already installed on ubuntu 18.04 and causing conflicts when I tried to install it again. So I'm hoping by changing its name it will work.
