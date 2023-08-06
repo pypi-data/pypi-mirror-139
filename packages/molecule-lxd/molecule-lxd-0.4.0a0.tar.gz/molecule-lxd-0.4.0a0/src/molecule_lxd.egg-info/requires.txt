@@ -1,0 +1,5 @@
+molecule>=3.4.0
+pyyaml<6,>=5.1
+
+[test]
+molecule[test]
