@@ -1,0 +1,4 @@
+[console_scripts]
+latin_scan = latin_scansion.scan:main
+latin_validate = latin_scansion.validate:main
+
