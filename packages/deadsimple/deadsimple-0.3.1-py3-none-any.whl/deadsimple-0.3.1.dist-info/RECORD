@@ -1,0 +1,9 @@
+LICENSE,sha256=NPlheAY1D_nJzzNprq6yQr2nxyC99ruMRUTiw-WOTgE,1078
+deadsimple/__init__.py,sha256=NmwI-Z8vT0i8gUuRjwmjMYWUFniaHH6-zP9H3rdhCe4,159
+deadsimple/exceptions.py,sha256=wmo02MZnHflpTcCRTHzbmnx9Wd0PKSWcUmuWB30nTPA,849
+deadsimple/lazy.py,sha256=YGbS5uNDwH2e8Al79pk2YhoMAOZTIRH8gFvmhO-c6Ro,848
+deadsimple/resolve.py,sha256=VbSjlr61SvbJ0NuW-CvQfKeURJ2Qa0mnaFycuknR9D4,3326
+deadsimple-0.3.1.dist-info/LICENSE,sha256=NPlheAY1D_nJzzNprq6yQr2nxyC99ruMRUTiw-WOTgE,1078
+deadsimple-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deadsimple-0.3.1.dist-info/METADATA,sha256=4UMZ57UGlQBmzEz2Ks70V6C1fRFgg_DJegX2e2CLnhs,3537
+deadsimple-0.3.1.dist-info/RECORD,,
