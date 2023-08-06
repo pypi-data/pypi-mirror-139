@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/cotylab.egg-info/PKG-INFO
+src/cotylab.egg-info/SOURCES.txt
+src/cotylab.egg-info/dependency_links.txt
+src/cotylab.egg-info/top_level.txt
+src/cotylab/data_structure/linked_list.py
