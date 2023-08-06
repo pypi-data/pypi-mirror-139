@@ -1,0 +1,13 @@
+daschat_base/__init__.py,sha256=iG6ZDWhFlPLlYCEuKCfySLXsxfVD8dAnxg4xovRsHEA,647
+daschat_base/base_schemas/__init__.py,sha256=xL_bxr4J3zczL09ZOUPLovFLUvrwANkBdOiCivXO1_I,91
+daschat_base/base_schemas/slots.py,sha256=qWOntNgdb1HItA1xJu_zMytqSvB_vf0bwYXfkF5_Mtg,993
+daschat_base/dc_abc_channel.py,sha256=UW1MRrWqnIlsp9OK7ls9JIF7wgD0Ov18i2HK6zyOL3I,7393
+daschat_base/dc_abc_handoff.py,sha256=b-mBoxmM09j4Af5zuSp5PB8tn5C7K4jkGMOcKXm27Go,6844
+daschat_base/messages.py,sha256=biAmiq3uQ2yahPuRSPfgQu34IahX0tSlsPlsHo3H1BA,6556
+daschat_base/schemas.py,sha256=Fsx8UeKpdXsImy6sPa6iyYdt_EwUPqPbn9kVjvTaP7k,14068
+daschat_base/types.py,sha256=BppjAMCSy3f8RIzL03iPIyL4AogoEgMwLlidWcV_DXM,1299
+daschat_base/version.py,sha256=g7nsZNZoIzyPokfAwZGJKgJPTnSIB7Hi-EZrA4T3ZZU,811
+daschat_base-0.15.4.dist-info/LICENSE,sha256=yTUWfp6PmHAodtLFiJ0RnBfwxV2DFZVSOD1pQ8Q7U-w,1074
+daschat_base-0.15.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+daschat_base-0.15.4.dist-info/METADATA,sha256=Asb0gk8m5XoCml6xPf8wZfaSxi0g14Xyl_yaDTU_nzo,2245
+daschat_base-0.15.4.dist-info/RECORD,,
