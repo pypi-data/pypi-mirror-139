@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+DiscordTickets/__init__.py
+DiscordTickets/ticket.py
+DiscordTickets.egg-info/PKG-INFO
+DiscordTickets.egg-info/SOURCES.txt
+DiscordTickets.egg-info/dependency_links.txt
+DiscordTickets.egg-info/top_level.txt
