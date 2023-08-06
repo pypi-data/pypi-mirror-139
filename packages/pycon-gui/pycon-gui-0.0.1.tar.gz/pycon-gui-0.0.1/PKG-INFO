@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pycon-gui
+Version: 0.0.1
+Summary: Python toolset for creating GUI-like experience interfaces in console environment.
+Home-page: https://github.com/nativeme/pycon-arrow-menu
+Author: nativeme (Lukasz Kaniak)
+Author-email: <lukaszkaniak@gamil.com>
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nativeme/pycon-arrow-menu/issues
+Keywords: menu,arrow,navigatable,color,recursive,align,marker
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# pycon-gui
+## Python console 'GUIs'
+
+Python toolset for creating GUI-like experience interfaces in console environment.
+Uses beautiful Rich library (https://github.com/Textualize/rich) under the hood.
+
+### Contains:
+1. Easy to use "arrow-navigatable" menu for creating simple, navigatable CLI-GUIs.
+   It can create submenus recursively form Python dictionaries.
+
+import with:
+```
+from pycon_gui.menu import ArrowMenu
+```
+

@@ -1,0 +1,7 @@
+colorama
+commonmark
+Pygments
+rich
+
+[:platform_system == "Linux"]
+getch==1.0

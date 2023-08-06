@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pycon_gui/__init__.py
+src/pycon_gui/arrow_menu.py
+src/pycon_gui.egg-info/PKG-INFO
+src/pycon_gui.egg-info/SOURCES.txt
+src/pycon_gui.egg-info/dependency_links.txt
+src/pycon_gui.egg-info/requires.txt
+src/pycon_gui.egg-info/top_level.txt
