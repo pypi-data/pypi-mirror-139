@@ -1,0 +1,13 @@
+pdfxcb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfxcb/barScan.py,sha256=xoFGdS7WLM3ieCdGnwb3vzgv4XAN8GzWPbpExuX0rl4,7843
+pdfxcb/cue-marks.py,sha256=KVA2Gn8NvltM6JPG88iZu6bJo93-cOC_HsJZ7cCflIY,873
+pdfxcb/json1.py,sha256=kySUgdT8DGrpYJQyNeLpsoMdMLimakdZqHZWq6HLmds,7902
+pdfxcb/pdf.py,sha256=gFhjf6t2uXXhYFzjhZ3SguuWQvyHEaZT9K40Je7HjuQ,9434
+pdfxcb/pdfxcb.py,sha256=vcXiqNf2zXlZLaFdXOw09rxEPiyx0ebeCT2lNS9itfU,21772
+pdfxcb/sandbox.py,sha256=PzxK7A2zVFVq7VtR9xX5IycdYhX4zRYWsla1TuLxwL0,77
+pdfxcb-3.0.0.dist-info/LICENSE,sha256=J5RsvdXjXYqvlMH7RAvggFqE98lYt1zHJtNs7a5hob0,719
+pdfxcb-3.0.0.dist-info/METADATA,sha256=e9_a0LNBBUCOwWFt-6r_AEWBZro4j_auV0-8c3AHf7w,3089
+pdfxcb-3.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdfxcb-3.0.0.dist-info/entry_points.txt,sha256=DjGZQQ6uYuLRn1SUr97MFJpNO-NBg2gFOsv-MXpXfIM,46
+pdfxcb-3.0.0.dist-info/top_level.txt,sha256=JTFmdZXqJ9XdL-iWmOTT-cX1fgqLBSOhYwmK8IuNnwg,7
+pdfxcb-3.0.0.dist-info/RECORD,,
