@@ -1,0 +1,69 @@
+{% extends "core/base.html" %}
+{% load material_form i18n any_js coerce static %}
+
+{% block browser_title %}{% blocktrans %}Event{% endblocktrans %} {{ event.display_name }}{% endblock %}
+
+{% block extra_head %}
+  <link rel="stylesheet" href="{% static 'css/paweljong.css' %}"/>
+{% endblock %}
+
+{% block content %}
+
+ <div class="card">
+   <div class="card-content">
+     <div class="row">
+       <div class="col s1">
+         <time datetime="{{ event.date_event|date:'Y-m-d' }}" class="icon">
+           <em>{{ event.date_event|date:'l' }}</em>
+           <strong>{{ event.date_event|date:'F' }}</strong>
+           <span>{{ event.date_event|date:'d' }}</span>
+         </time>
+       </div>
+       <div class="col s11">
+         <span class="card-title">
+          {{ event.display_name }}
+         </span>
+         <ul>
+           <li>
+             {{ event.description }}
+           </li>
+           <br />
+           <li>
+             {% blocktrans %}
+               The event takes place in <strong>{{ event.place }}</strong>
+               (Information on overnight stays and shared trips see description)
+             {% endblocktrans %}
+           </li>
+           <li>
+             {% trans "Registration possible until" %} <strong>{{ event.date_registration }}</strong>
+           </li>
+           <li>
+             {% trans "Cost" %}: <strong>{{ event.cost }} €</strong> {% trans "incl. program, overnight stays, trips and meals" %}
+             {% trans "(if part of the event)" %}
+           </li>
+           <li>
+             {% trans "Booked participants slots" %}: <strong>{{ event.linked_group.members.count }} {% trans "of" %} {{ event.max_participants }}</strong>
+           </li>
+           <div class="progress">
+             <div class="determinate" style="min-width: 2em;width:{{ event.booked_percentage|coerce_max:100|floatformat:0 }}%">
+             </div>
+           </div>
+           <p class="center">{{ event.booked_percentage|coerce_max:100 }} %</p>
+         </ul>
+       </div>
+     </div>
+   </div>
+   <div class="card-action">
+     {% if can_register and not is_authenticated %}
+       <a href="{% url "register_event_by_slug_start" event.linked_group.short_name %}">{% trans "Register now" %}</a>
+     {% elif can_register and is_authenticated %}
+       <a href="{% url "register_event_by_slug" event.linked_group.short_name %}">{% trans "Register now" %}</a>
+     {% else %}
+       <a href="#">{% trans "Not available" %}</a>
+     {% endif %}
+   </div>
+ </div>
+
+ {{ event.information | safe }}
+
+{% endblock %}
