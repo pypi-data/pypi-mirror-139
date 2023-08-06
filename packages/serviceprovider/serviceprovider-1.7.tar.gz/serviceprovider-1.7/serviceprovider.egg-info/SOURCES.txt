@@ -1,0 +1,17 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+serviceprovider/__init__.py
+serviceprovider/exceptions.py
+serviceprovider/health_check.py
+serviceprovider/helper.py
+serviceprovider/job.py
+serviceprovider/ranger_daemon.py
+serviceprovider/ranger_models.py
+serviceprovider/service_provider.py
+serviceprovider.egg-info/PKG-INFO
+serviceprovider.egg-info/SOURCES.txt
+serviceprovider.egg-info/dependency_links.txt
+serviceprovider.egg-info/requires.txt
+serviceprovider.egg-info/top_level.txt
