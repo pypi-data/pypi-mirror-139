@@ -1,0 +1,9 @@
+LICENSE
+setup.cfg
+setup.py
+Webzer/css.py
+Webzer/html.py
+Webzer.egg-info/PKG-INFO
+Webzer.egg-info/SOURCES.txt
+Webzer.egg-info/dependency_links.txt
+Webzer.egg-info/top_level.txt
