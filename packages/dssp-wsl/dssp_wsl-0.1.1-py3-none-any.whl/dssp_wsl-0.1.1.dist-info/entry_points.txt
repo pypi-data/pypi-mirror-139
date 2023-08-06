@@ -1,0 +1,3 @@
+[console_scripts]
+dssp = dssp_wsl.__init__:dssp
+mkdssp = dssp_wsl.__init__:mkdssp
