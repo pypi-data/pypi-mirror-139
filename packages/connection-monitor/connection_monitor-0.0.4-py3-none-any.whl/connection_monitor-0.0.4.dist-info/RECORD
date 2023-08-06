@@ -1,0 +1,15 @@
+connection_monitor/VERSION,sha256=zB0CuD59wiXTB4TyqnZ2-bf39oY5trlB9bcyQlkC92M,6
+connection_monitor/__init__.py,sha256=ylARexhvg03atbp12Rcs1yOx76u8KWg5YLkvi8rM8Zo,1298
+connection_monitor/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+connection_monitor/cli.py,sha256=VAEoqKHN-ts-aNzci3p7Ro1PA2kVVA1m-z3wGygRfBQ,1551
+connection_monitor/params.py,sha256=3YPacIecLzwGPmHNLQNeiVcxlULF001_oVH9MEf5FY8,773
+connection_monitor/utils.py,sha256=GmIFGciJbUUlxzzczRU-L95GtuQBzQb18UptOB-3qZY,227
+connection_monitor/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connection_monitor/domain/core.py,sha256=x3ah9HMbtti7j1xyeq0NRqql9zpVuPlo-qPVoU0GiE4,3634
+connection_monitor/domain/model.py,sha256=Lh6looko5Ssm8bUE9ki8KR6DDH946cj2yugAeumk86s,3099
+connection_monitor/domain/wifi.py,sha256=6JRqZ35701aeFBaA1oxX3YHqLHou-gks9orJvxdQOB8,2862
+connection_monitor-0.0.4.dist-info/METADATA,sha256=Nu0z1rk4l7D6Xva6vHxtj1LSsP9zqdsEcJFv1mfdqMc,2126
+connection_monitor-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+connection_monitor-0.0.4.dist-info/entry_points.txt,sha256=VDx_b4Ek1WKzraue14d6fGPKhzCCJBsQrpjSSrZnM2U,56
+connection_monitor-0.0.4.dist-info/top_level.txt,sha256=j53YmBV0s6MLFHHKD7_hgoOpn_adRB11FuMN1wQTUp8,19
+connection_monitor-0.0.4.dist-info/RECORD,,

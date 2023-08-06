@@ -1,0 +1,3 @@
+[console_scripts]
+monitor = connection_monitor.cli:cli
+
