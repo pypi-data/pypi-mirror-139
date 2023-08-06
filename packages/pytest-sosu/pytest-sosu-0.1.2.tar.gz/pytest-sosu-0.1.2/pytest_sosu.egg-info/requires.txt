@@ -1,0 +1,4 @@
+pytest
+selenium<4.0
+structlog
+importlib-metadata<4.3
