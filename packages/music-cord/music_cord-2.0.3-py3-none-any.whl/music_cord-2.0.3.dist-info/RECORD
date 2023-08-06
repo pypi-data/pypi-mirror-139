@@ -1,0 +1,13 @@
+cord-music/__init__.py,sha256=mKIGycahq-vNWzBaOHF_dJaovuZ89kCP7nyTaid2DVw,1244
+cord-music/_classes.py,sha256=rkjQbNhkKamXQah9LjkrytillBlbN7GKngjpeJbfkjY,247
+cord-music/_version.py,sha256=9QDThSyodQnAgNdBaLT7WnOjtqBZx6XpN8Lmcxknrg0,223
+cord-music/checks.py,sha256=CiFF6aCwCGwoRvjDpQq1gqJ19epqWPjZLiF9wmf9eQk,1545
+cord-music/errors.py,sha256=TqoY2euqn5R7q4p70sIQQMllGikRb8Gnmy2ucvyeVdc,575
+cord-music/events.py,sha256=tUEep2iCnbxuf6PJtd_2TMWSvQ7TzytTn9NQ7oMjWPk,1747
+cord-music/music.py,sha256=Tlk7_8GVCG_ThA4RcOCriOu8r5jwz1dzJ_0eAO2igrc,9074
+cord-music/player.py,sha256=5Gt-_tK0wZ87CToF7t4sPW3ftKqlwovQvGts_pZ3rF0,3416
+music_cord-2.0.3.dist-info/LICENSE,sha256=FY6F0AvytMs7txFm73QZOvC8Xkwm2qh9eejKKGHDD9M,1048
+music_cord-2.0.3.dist-info/METADATA,sha256=u8x77d4BysJBm5JtBIrHbmrKTjC6doy-s4S4J0Axuis,4465
+music_cord-2.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+music_cord-2.0.3.dist-info/top_level.txt,sha256=ewrSYj7Nw3FyMPfrSDqWnS87AGIGI3s7JWMrJSJbfeI,11
+music_cord-2.0.3.dist-info/RECORD,,
