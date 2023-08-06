@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: flask-replit-auth
+Version: 1.1.1
+Summary: Brings replit auth to flask.
+Home-page: https://replit.com/@EpicCodeWizard/flaskreplitauth
+Author: EpicCodeWizard
+Author-email: epiccodewizard@gmail.com
+License: UNKNOWN
+Description: # The Unofficial Replit Auth Flask Extension
+        Replit authentication is an amazing thing. This package provides an easy way to use it.
+        ```python
+        from flask_replit_auth import replit_auth
+        from flask import request, Flask
+        
+        app = Flask(__name__)
+        replit_auth(app)
+        
+        @app.route("/")
+        def index():
+          if request.user:
+            return request.user['username']
+          else:
+            return 'Not logged in!'
+        
+        if __name__ == "__main__":
+          app.run(host='0.0.0.0')
+        ```
+        Initialize replit auth on your app by calling ```replit_auth(app)```, after creating your flask app. To get information, call ```request.user```, which will either return ```None``` or a ```dict``` with the information.
+        # Replit Auth - Frontend
+        ```js
+        var button = document.getElementById('login_with_replit');
+        
+        if (location.protocol !== 'https:') {
+          alert('Replit auth requires https!');
+        }
+        
+        button.onclick = function() {
+          window.addEventListener('message', authComplete);
+        
+          var h = 500;
+          var w = 350;
+          var left = (screen.width / 2) - ( w / 2);
+          var top = (screen.height / 2) - (h / 2);
+        
+          var authWindow = window.open('https://replit.com/auth_with_repl_site?domain=' + location.host, '_blank', 'modal=yes, toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left)
+        
+          function authComplete(e) {
+            if (e.data !== 'auth_complete') {
+              return;
+            }
+        
+            window.removeEventListener('message', authComplete);
+        
+            authWindow.close();
+            
+            // Reload the page to get the credentials.
+            location.reload();
+          }
+        }
+        ```
+        Usage:  
+        1. Apply the javascript code above to your website.  
+        2. Set the ```id``` of you login button to ```login_with_replit```.  
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
