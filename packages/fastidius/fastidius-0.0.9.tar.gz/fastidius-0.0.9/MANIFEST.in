@@ -1,0 +1,7 @@
+include LICENSE
+include src/docker-compose.yml
+include src/README.md
+recursive-include src/backend/ *
+recursive-include src/frontend/ *
+prune src/frontend/node_modules/
+prune */__pycache__
