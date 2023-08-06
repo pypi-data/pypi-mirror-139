@@ -1,0 +1,5 @@
+[
+  "tests.py::test_individual_transformer",
+  "tests.py::test_spacy_external_transformer",
+  "tests.py::test_spacy_internal_embeddings"
+]
