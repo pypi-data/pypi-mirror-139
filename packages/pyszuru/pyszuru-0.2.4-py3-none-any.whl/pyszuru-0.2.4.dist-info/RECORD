@@ -1,0 +1,11 @@
+pyszuru/__init__.py,sha256=CzNguqWUZe0_BLKlrvrGhOI4sNuAD5FADs6TrnajtQk,2583
+pyszuru/api.py,sha256=a5UozOU3UCFBzTVuFrKpkO9giw08aPefFTKCv-txtsY,6818
+pyszuru/post.py,sha256=z3NBDJL1HcnKfW87U0_VXSCGU4Te9OThoUIAJ3XULJQ,6443
+pyszuru/resource.py,sha256=00Mxqos2fzYqQGzClrcmIotXFoqD5SruTjFPhddkDB4,5595
+pyszuru/search.py,sha256=D7sAlIpc6WrC3xqxT2GVEDGuy-uJGQGM5M6jrUpApxA,3028
+pyszuru/tag.py,sha256=ZJp8t8jUj0J0fL5nSbMYXZfza-oTiUI1WTkCQGklIF8,5066
+pyszuru-0.2.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyszuru-0.2.4.dist-info/METADATA,sha256=jBTPi94i3YEI0Kkrvq779EO6PP6Z9dpW6t8GKJf8JJ0,2829
+pyszuru-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyszuru-0.2.4.dist-info/top_level.txt,sha256=p7qmfE2T2lfromvTA5pJldEr5TNJacsTdttMGyqSMVo,8
+pyszuru-0.2.4.dist-info/RECORD,,
