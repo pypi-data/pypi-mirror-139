@@ -1,0 +1,28 @@
+name: Windows conda installation (conda in PATH)
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Windows conda installation (conda in PATH)
+    runs-on: windows-2019
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        auto-update-conda: true
+        auto-activate-base: true
+        activate-environment: ""
+
+    - name: Create and update environment
+      working-directory: .\examples\Jupyter_Notebook\
+      run: |
+        .\create-env.bat
+        .\update-env.bat
