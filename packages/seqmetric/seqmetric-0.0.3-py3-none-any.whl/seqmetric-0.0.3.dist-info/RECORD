@@ -1,0 +1,12 @@
+seqmetric/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seqmetric/reporters.py,sha256=lSPfwPXGLYDBNRMm70EaINZXWi-UEQvrj-_bndXVU1E,1856
+seqmetric/scheme.py,sha256=NirhmFXLZFVAJIJO9JtUG-Eaa1jBJ_xVxcEcB15iSWA,11412
+seqmetric/test_py.py,sha256=VTrnRGgBJmEMFrPMY2btIyrn240yGuFzKe2NJa9OJIQ,926
+seqmetric/metrics/__init__.py,sha256=T1OoSpwh4zFhVhKbLDqr4oTQsoziIou0glCNwxNYJmk,315
+seqmetric/metrics/pt_labeling.py,sha256=kTgTdypoaGUvrYXwaFgvg_v5w_DICCKJjH0WJbqnAaI,3200
+seqmetric/metrics/sequence_labeling.py,sha256=estvj4qAF-yx_cnrBaQv1n-Gljw48reYeE-7xjSJ7xY,29035
+seqmetric/metrics/v1.py,sha256=LvatzfuOyZzI0735jICIi2Kt33mLqxfI2Qg6aKJQnGM,17275
+seqmetric-0.0.3.dist-info/METADATA,sha256=N1SJPCLwdCeiYJaqw3GgtojrEw-AHDwY44ekYAPQIDQ,2170
+seqmetric-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+seqmetric-0.0.3.dist-info/top_level.txt,sha256=ZRLpZ3yiBhD2fx-CS9csQS8KhIhmds_yUmt_fDjxEJY,10
+seqmetric-0.0.3.dist-info/RECORD,,
