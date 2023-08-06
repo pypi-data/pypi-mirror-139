@@ -1,0 +1,16 @@
+numpy
+scipy
+matplotlib
+torch
+
+[continuous-time integration]
+nodepy
+
+[download datasets]
+requests
+
+[generate documentation]
+sphinx
+
+[open datasets]
+pandas
