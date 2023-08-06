@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: crocopy
+Version: 0.0.1
+Summary: Tools to process CROCO
+Home-page: UNKNOWN
+Author: Gustav Rautenbach
+Author-email: gustavrautenbach80@gmail.com
+License: UNKNOWN
+Keywords: croco
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is the processing tools for the Coastal and Reagional Ocean COmmunity (CROCO) modelling system. 
+CROCO is a 3D modelling system used to simulate the ocean realistically. 
+This is still under development. 
+
+Change Log
+================
+
+0.0.1 (18/02/2022)
+--------------------
+-First Release
+

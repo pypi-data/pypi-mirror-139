@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+crocotools.egg-info/PKG-INFO
+crocotools.egg-info/SOURCES.txt
+crocotools.egg-info/dependency_links.txt
+crocotools.egg-info/requires.txt
+crocotools.egg-info/top_level.txt
