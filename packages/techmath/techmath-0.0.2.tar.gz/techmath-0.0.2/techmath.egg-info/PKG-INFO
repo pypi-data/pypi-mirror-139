@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: techmath
+Version: 0.0.2
+Summary: Find Fibonacci(fib_num),Factorial(fact_num),square root(sqrr_num) using this library 
+Home-page: UNKNOWN
+Author: mayur
+Author-email: mayurdhameliya98@gmail.com
+License: MIT
+Keywords: Fibonacci,Factorial,square root
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Find Fibonacci(fib_num)
+Factorial(fact_num)
+square root(sqrr_num)  using this library
+
+
+
+Change Log
+==========
+
+0.0.1 (18/02/2022)
+-------------------
+- First Release
+
+

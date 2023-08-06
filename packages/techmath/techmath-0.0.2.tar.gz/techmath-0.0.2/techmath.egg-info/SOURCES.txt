@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+techmath/__init__.py
+techmath.egg-info/PKG-INFO
+techmath.egg-info/SOURCES.txt
+techmath.egg-info/dependency_links.txt
+techmath.egg-info/top_level.txt
