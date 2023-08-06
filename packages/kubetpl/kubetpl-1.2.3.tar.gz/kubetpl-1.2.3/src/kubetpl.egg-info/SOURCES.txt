@@ -1,0 +1,9 @@
+LICENSE
+setup.cfg
+setup.py
+src/kubetpl.egg-info/PKG-INFO
+src/kubetpl.egg-info/SOURCES.txt
+src/kubetpl.egg-info/dependency_links.txt
+src/kubetpl.egg-info/entry_points.txt
+src/kubetpl.egg-info/requires.txt
+src/kubetpl.egg-info/top_level.txt
