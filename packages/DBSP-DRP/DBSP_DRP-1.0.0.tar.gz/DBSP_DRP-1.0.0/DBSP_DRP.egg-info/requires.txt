@@ -1,0 +1,10 @@
+numpy
+astropy
+scipy
+matplotlib
+configobj
+packaging
+pytest
+yattag
+pypeit
+tqdm

@@ -1,0 +1,16 @@
+__pycache__
+.vscode
+*.dat
+.DS_Store
+.pylintrc
+*.egg-info
+dbsp_drp/version.py
+
+# docs output
+docs/html/
+docs/doctrees/
+docs/source/_build
+
+# build output
+build
+dist
