@@ -1,0 +1,12 @@
+odoo8_addon_partner_contact_company-8.0.1.0.0.99.dev1-py3.8-nspkg.pth,sha256=byZRehCeET5bIG0AMyMXPLGoXAE887IW4f1j_Rh4alU,564
+odoo_addons/partner_contact_company/README.rst,sha256=0uUug99RFB4OS8dhc57_Hu1X49jxJQR_zynJXosqSak,1082
+odoo_addons/partner_contact_company/__init__.py,sha256=t3e6FMd1Y1e40x8IaJoFEnjCJfBpQ2CoPJ_EllZIVkY,219
+odoo_addons/partner_contact_company/__openerp__.py,sha256=azp4-I_mwPTyDWVNO0jJEWjLN8WvopGG2lr3taXQ3WE,683
+odoo_addons/partner_contact_company/models/__init__.py,sha256=Luq5TbM4EcHLVuYBjgP-M1oQenhadQBNZExs76OUZ0M,220
+odoo_addons/partner_contact_company/models/partner.py,sha256=z2QswN4Wmg4gRl391d0-PZNRHuwBM3F7u6GQwt7Lylg,2142
+odoo_addons/partner_contact_company/views/partner_view.xml,sha256=8Mi8EEacKMvGp0psQ_QFB7eNIJks4dCC3oOeZYTMaeM,815
+odoo8_addon_partner_contact_company-8.0.1.0.0.99.dev1.dist-info/METADATA,sha256=HLD8RYb8L7Wlbl_Z2y6zQwfpIgXPPJ1mXZgRPRbyy_Y,1532
+odoo8_addon_partner_contact_company-8.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+odoo8_addon_partner_contact_company-8.0.1.0.0.99.dev1.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_partner_contact_company-8.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_partner_contact_company-8.0.1.0.0.99.dev1.dist-info/RECORD,,
