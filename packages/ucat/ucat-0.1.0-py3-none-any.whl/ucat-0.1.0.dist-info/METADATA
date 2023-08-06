@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ucat
+Version: 0.1.0
+Summary: Unit conversion for the abundance of atmospheric trace gases.
+Home-page: https://gitlab.com/empa503/general-tools/u-cat
+Author: Gerrit Kuhlmann
+Author-email: gerrit.kuhlmann@empa.ch
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/empa503/general-tools/u-cat/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# u-cat: Unit conversion for atmospheric trace gases
+
+This is a small Python package to convert between units for the abundance of 
+atmospheric trace gases. It supports conversion of point and column measurements.
+
+## Example
+```python
+import ucat
+
+# convert 10 µg NO2 / m^3 to ppbv
+ucat.convert_points(10.0, 'ug m-3', 'ppbv', molar_mass='NO2')
+
+# convert 100 µmol/m² to molecules cm-2
+ucat.convert_columns(100, 'umol m-2', 'cm-2', molar_mass='NO2')
+```
+
+
+
+
+
+
+
+
