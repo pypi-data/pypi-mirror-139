@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: weedmaps
+Version: 0.2.5
+Summary: The Unofficial Weedmaps API Wrapper
+Home-page: https://github.com/notjawad/wmapi
+Author: Jawad A
+Author-email: imjawad73@yahoo.com
+License: MIT
+Keywords: weedmaps,weed,weed api,cannabis,marijuana
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
