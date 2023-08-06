@@ -1,0 +1,12 @@
+authware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authware/application.py,sha256=RPsoAN5jDfSTZ8kNJF4XpWspn-8lqROAwZFAhS7eBew,4628
+authware/cryptography.py,sha256=D_aYVdP9qqGHWY9yGHsyrXhugIw9ZgFjHqSrUUCX0lc,144
+authware/exceptions.py,sha256=NWp_Ioc6jRSR9tZ8H8tGLI3ySUkWGRody9hC0LYqkjQ,151
+authware/hwid.py,sha256=rlzVfL9xwqsS2KpBisVkETxCw4s6aQIuzTkP5jqFg70,438
+authware/user.py,sha256=TgiWadvzFrtGNf_rohnFSeVAfq5-_5EtyFj55OUH0os,9035
+authware/utils.py,sha256=rzqsaCev7w8D1_U1cLcdYD1g4X4Q5ecHt8D_krou42c,2171
+authware-1.0.3.dist-info/LICENSE,sha256=dqKrijKPTdBcMt4xjNW3WC4DH51YgeneLYWBh0njh80,1086
+authware-1.0.3.dist-info/METADATA,sha256=CAAtQ_1E1MFlWTqP8eDMkZ01CO1FuKXPzZAb53wsCNs,1124
+authware-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+authware-1.0.3.dist-info/top_level.txt,sha256=1JeTF4GxDSDew3lVxxvCfYvxapnt0kE11rDtBizcfYo,9
+authware-1.0.3.dist-info/RECORD,,
