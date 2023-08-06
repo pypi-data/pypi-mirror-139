@@ -1,0 +1,4 @@
+specification-current.ts:712:1: Error (1000): Name ResourceOperationKind has already been definied earlier!
+specification-current.ts:733:1: Error (1000): Name FailureHandlingKind has already been definied earlier!
+specification-current.ts:2710:1: Error (1000): Name TextDocumentSyncKind has already been definied earlier!
+specification-current.ts:4188:1: Error (1000): Name CodeActionKind has already been definied earlier!
