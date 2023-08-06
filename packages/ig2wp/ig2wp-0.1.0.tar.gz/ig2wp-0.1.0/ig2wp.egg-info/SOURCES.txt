@@ -1,0 +1,15 @@
+AUTHORS.md
+LICENSE
+README.md
+setup.py
+ig2wp/__init__.py
+ig2wp/__main__.py
+ig2wp/ig2wp.py
+ig2wp/structures.py
+ig2wp.egg-info/PKG-INFO
+ig2wp.egg-info/SOURCES.txt
+ig2wp.egg-info/dependency_links.txt
+ig2wp.egg-info/entry_points.txt
+ig2wp.egg-info/not-zip-safe
+ig2wp.egg-info/requires.txt
+ig2wp.egg-info/top_level.txt
