@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/julia_semver/__init__.py
+src/julia_semver/julia_semver.py
+src/julia_semver.egg-info/PKG-INFO
+src/julia_semver.egg-info/SOURCES.txt
+src/julia_semver.egg-info/dependency_links.txt
+src/julia_semver.egg-info/not-zip-safe
+src/julia_semver.egg-info/requires.txt
+src/julia_semver.egg-info/top_level.txt
