@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: awscm
+Version: 0.2a0
+Summary: a module for easy monitoring of aws jobs and services.
+Home-page: https://github.com/shubhsboson/awscm
+Author: shubhsboson
+Author-email: contact@shubhsboson.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/shubhsboson/awscm/issues
+Keywords: aws,glue,lambda
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+
+![awscm ascii art text](/awscm.png)
+# awscm `pronounced as awesome` is
+a python project for easy monitoring of aws jobs, services, alarms and other things aws.
+
+> Note: - This is a work in progress. Also I am using this project to learn about python packages , test driven development , python best practices & everything else a python project could need.
+**So Expect massive breaking changes.** 
+
+# Install
+> `pip3 install awscm`
+
+# Want to Help
+Checkout our [CONTRIBUTING.md](/CONTRIBUTING.md)
+
+# This project pledges by the "Covenant Code of Conduct" and so must you.
+Read more here [CODE_OF_CONDUCT.md](/CODE_OF_CONDUCT.md)
+
