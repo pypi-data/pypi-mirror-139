@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+ling2me/__init__.py
+ling2me/ling2me.py
+ling2me.egg-info/PKG-INFO
+ling2me.egg-info/SOURCES.txt
+ling2me.egg-info/dependency_links.txt
+ling2me.egg-info/requires.txt
+ling2me.egg-info/top_level.txt
