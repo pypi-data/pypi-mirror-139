@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aws-utility
+Version: 0.1
+Summary: A AWS utility package for secerts, downloading files from s3, split s3 path.
+Author: Avinash Soni
+Author-email: avinashsoni448@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
