@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=gPHRVu9BKQUXO2e_6KOz4lTm9WmlYSR5wVuVaO4sG6E,187
+humplib/__init__.py,sha256=Tu-ni5f85feDtaabOb_nBd7Ngo4ti2kZvEqVfsiWpdk,133
+humplib/encoder.py,sha256=hy8EgjWKH2h0RGBoXhSBNWlWa82OCPM54fdqE_szolA,58
+humplib/render.py,sha256=Ecdk0W4EeARNAqFkmU_ytkj58-Fy4GsJt0wQAbG1uZU,1489
+humplib/tools.py,sha256=rkrwUROEuHIM8v7XU7AjdftIQx0hTIyyq-uKo8kOVcU,2189
+humplib-0.1.3.dist-info/LICENSE,sha256=qFAVNNFQdlLi9rqeTtdbmvvZAAvKEz19_YwJn9CFB28,1082
+humplib-0.1.3.dist-info/WHEEL,sha256=Fs47bPI6GdEUUVU2cC1ZH87S4TSequgq1XeoqimcqIE,87
+humplib-0.1.3.dist-info/METADATA,sha256=vv5hCCyO5glZ1iemNAp_e8jH0o9L4PqKzcNl6eC1Fd8,960
+humplib-0.1.3.dist-info/RECORD,,
