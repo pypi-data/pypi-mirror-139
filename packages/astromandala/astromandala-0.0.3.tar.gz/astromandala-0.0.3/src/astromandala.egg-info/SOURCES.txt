@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/astromandala/__init__.py
+src/astromandala/mandala.py
+src/astromandala.egg-info/PKG-INFO
+src/astromandala.egg-info/SOURCES.txt
+src/astromandala.egg-info/dependency_links.txt
+src/astromandala.egg-info/top_level.txt
