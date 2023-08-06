@@ -1,0 +1,11 @@
+data/with_actions.h5,sha256=jhvGVRYUzCIdAf6E7sDylr6QJeDyNGrJCJ5gYsa575I,28605248
+eagerx_examples/__init__.py,sha256=ZXX7nHEw2XVqMdSUApHkOQvi8-U_gC8lPXSqCf7kYgE,118
+eagerx_examples/classifier.py,sha256=ntUATk6444dDlKtGp5mMp6ybkui3wWVnlqmOwm6Nj04,10322
+eagerx_examples/converters.py,sha256=u6vsHtTlE0ZbsNe0chy3RMabM34Xgf5trMsTlQotlco,831
+eagerx_examples/example_classifier.py,sha256=wTEUd_Yqsl18bVu7ThFmnDkXF-QigVmFSz-10Vfz1gI,2456
+eagerx_examples/example_full_state.py,sha256=FlEJJBYt7PpjaEgoGmTycLkUBuTFoTm4TfMML6tfA-k,1671
+eagerx_examples/example_pid_only.py,sha256=YCwuad7PjKpuG-oteFqigAPFormekF3TIclKwRaNHZI,2018
+eagerx_examples/pid.py,sha256=65tyMz1B1W2W-jGnCo1ryat9qAtxGwT7znN-NXVhY2k,4015
+eagerx_examples-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+eagerx_examples-0.1.1.dist-info/METADATA,sha256=Lc-8saxIjsEKmVmZWUoZLbTLj6FTbhDjEdBn2vn64XA,859
+eagerx_examples-0.1.1.dist-info/RECORD,,
