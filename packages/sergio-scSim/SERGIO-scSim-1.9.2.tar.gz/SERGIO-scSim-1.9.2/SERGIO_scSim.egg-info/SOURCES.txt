@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+SERGIO_scSim.egg-info/PKG-INFO
+SERGIO_scSim.egg-info/SOURCES.txt
+SERGIO_scSim.egg-info/dependency_links.txt
+SERGIO_scSim.egg-info/requires.txt
+SERGIO_scSim.egg-info/top_level.txt
