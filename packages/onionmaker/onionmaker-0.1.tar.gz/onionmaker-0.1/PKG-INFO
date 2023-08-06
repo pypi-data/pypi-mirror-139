@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: onionmaker
+Version: 0.1
+Summary: A utility to generate CSRs suitable for validating Onion Domain Names per Appendix B of the CA/Browser Forum Baseline Requirements 
+Home-page: https://github.com/digicert/onionmaker
+Author: DigiCert, Inc.
+Author-email: corey.bonnell@digicert.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
