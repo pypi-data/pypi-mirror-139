@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: oneSports-TestCommon
+Version: 2.1.7
+Summary: An auto test common module
+Home-page: http://gitlab.onesport.com.cn/auto_test/common.git
+Author: zsy
+Author-email: 501971693@qq.com
+License: MIT Licence
+Keywords: pip,TestCommon,oneSports
+Platform: any
+Requires-Dist: cryptography
+Requires-Dist: pycryptodome
+Requires-Dist: psycopg2-binary
+Requires-Dist: paramiko
+
+An auto test common module
+
+
