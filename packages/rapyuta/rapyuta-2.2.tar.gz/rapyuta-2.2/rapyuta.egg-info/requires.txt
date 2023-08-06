@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+astropy
+reproject>=0.7.1
+h5py
+tqdm
