@@ -1,0 +1,2 @@
+[pytest11]
+squadcast = pytest_squadcast.plugin
