@@ -1,0 +1,29 @@
+Performance test
+================
+
+Config
+------
+:pages: {{pages}}
+:dummies: {{dummies}}
+:needs: {{needs}}
+:needtables: {{needtables}}
+:keep: {{keep}}
+:browser: {{browser}}
+:debug: {{debug}}
+
+Content
+-------
+.. contents::
+
+.. toctree::
+
+{%- for page in range(pages) %}
+   page_{{page}}
+{%- endfor -%}
+
+{%- if has_folders %}
+{%- for folder in range(folders) %}
+   folder_{{folder}}/index
+{%- endfor -%}
+{% endif -%}
+
