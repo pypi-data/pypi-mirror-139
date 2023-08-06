@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: yate-engine
+Version: 1.0.2
+Summary: Yet another template engine. Yate is a small, fast html template engine.
+Home-page: https://github.com/mauro-balades/yate
+Author: Mauro Balades
+Author-email: mauro.balades@tutanota.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# yate (Yet a small template engine)
+Yet another template engine. Yate is a small, fast html template engine.
+
+```html
+<ul>
+    {% each [1, 2, 3, 4] as x %}
+        <li>{{ x }}</li>
+    {% end %}
+<ul>
+```
+
+## Installation
+
+This package is registered in [pypi](https://pypi.org/project/yate-engine/). This means that by using the `pip` command yate will be installed.
+
+Install yate by runing the following command:
+```
+$ pip3 install yate-engine
+```
+
+## Documentation
+
+The documentation for `yate` can be found at the [wiki](https://github.com/mauro-balades/yate/wiki/Documentation).
+
+## License
+
+Yate is under the license of `MIT`. Check it out in [LICENSE](./LICENSE)
+
+
