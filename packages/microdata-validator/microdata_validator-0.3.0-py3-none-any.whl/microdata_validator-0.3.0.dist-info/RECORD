@@ -1,0 +1,9 @@
+microdata_validator/DatasetMetadataSchema.json,sha256=fjOYVlYDCx4uBtdJ8L2Nlf1Gtjg4jAIrVFMW5rigieg,9326
+microdata_validator/__init__.py,sha256=RFdgXieh9Dm3jcdOUMfxPJhnGP4y1CtKs8NHGUzhyqM,1844
+microdata_validator/dataset_reader.py,sha256=Zyx3AC1z5Z3n7B8QBhrKyqnBLVYSU1AA5lAdrKa1YVg,9534
+microdata_validator/dataset_validator.py,sha256=jfKeWP9Dyj3fxl1148Ncu-RLycucqeU3uuxJKfkwsiA,8241
+microdata_validator/file_utils.py,sha256=tthOwmGUEFUxSXockjEcBv7UY4MgDajfB8iVxbcugIE,2147
+microdata_validator-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+microdata_validator-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+microdata_validator-0.3.0.dist-info/METADATA,sha256=Kc4U7WZEdzG2T1BhfcgAcLHWl5VGPMFOLQy0yZNBITY,469
+microdata_validator-0.3.0.dist-info/RECORD,,
