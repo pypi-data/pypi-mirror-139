@@ -1,0 +1,11 @@
+aliyunsdkcloudauth_console/__init__.py,sha256=8sGE31KO-DzdioQZ2J7tZ-GG2VwZjYHpfIX2_sBl6H0,21
+aliyunsdkcloudauth_console/endpoint.py,sha256=sMY18QlXlQM2FwvoeHUMpRty-ZItdR5yKvzA0_N4KsI,1088
+aliyunsdkcloudauth_console/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkcloudauth_console/request/v20190403/RetrieveFaceRequest.py,sha256=p3ac2HwP86qJ3o2sRYQ3L6BHHkgZoFxV1Qn7q6RyLa4,1808
+aliyunsdkcloudauth_console/request/v20190403/UploadIdentifyRecordRequest.py,sha256=UjU9ErXNCneS0tNCTBQCYIJ0NBHhboROMhWAnwwgQIU,3266
+aliyunsdkcloudauth_console/request/v20190403/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_cloudauth_console-2.0.0.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_cloudauth_console-2.0.0.dist-info/METADATA,sha256=BVSqfXHUGO0bv1FDmpXmKAAMSxP9hmekvXZ5PNlinC4,1525
+aliyun_python_sdk_cloudauth_console-2.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+aliyun_python_sdk_cloudauth_console-2.0.0.dist-info/top_level.txt,sha256=1_826OjAvoqJ3G_l5FXqKsgnkKkFNP6Y247SY9m4pEY,27
+aliyun_python_sdk_cloudauth_console-2.0.0.dist-info/RECORD,,
