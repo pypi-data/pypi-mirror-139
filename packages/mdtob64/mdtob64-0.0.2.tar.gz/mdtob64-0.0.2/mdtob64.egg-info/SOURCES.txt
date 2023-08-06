@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mdtob64/__init__.py
+mdtob64/mdtob64.py
+mdtob64.egg-info/PKG-INFO
+mdtob64.egg-info/SOURCES.txt
+mdtob64.egg-info/dependency_links.txt
+mdtob64.egg-info/entry_points.txt
+mdtob64.egg-info/top_level.txt
