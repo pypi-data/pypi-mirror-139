@@ -1,0 +1,8 @@
+include *.txt
+include *.md
+include *.pkl
+include *.yml
+
+exclude Dockerfile
+exclude run.sh
+exclude eda.ipynb
