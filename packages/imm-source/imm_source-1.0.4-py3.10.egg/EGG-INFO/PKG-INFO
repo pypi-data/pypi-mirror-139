@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: imm-source
+Version: 1.0.4
+Summary: A python client library used to get and collect Canada immigration data in Excel.
+Home-page: 
+Author: Jacky Zhang
+Author-email: jackyzhang1969@gmail.com
+License: UNKNOWN
+Keywords: Canada,Immigration,Data,Source,Excel,APIs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### V1.0.2 
+- Excel + ： 行和列都相加，并且能合并相同的行 （相同行定义是该行前3列数据一样）
+
+### V1.0.3 
+- Excel + ： 只是把行append到原来的excel中。 准备考虑放弃。
+
+### V1.0.4
+- Excel + ： 行和列都相加，并且能合并相同的行 （相同行定义是该行前3列数据一样）改回原来的。
+
