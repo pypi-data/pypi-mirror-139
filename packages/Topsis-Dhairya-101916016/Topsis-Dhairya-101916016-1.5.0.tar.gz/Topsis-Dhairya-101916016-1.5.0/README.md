@@ -1,0 +1,121 @@
+### **Package Description:**
+
+**Python package for TOPSIS (The Technique for Order of Preference by Similarity to Ideal Solution) Algorithm.**
+
+---
+
+### **Steps to install and use the package:**
+
+**STEP 1 :**
+Download Python package from PyPi using pip install , Package name - 'Topsis-Dhairya-101916016'
+
+**STEP 2 :**
+
+###### _**For CMD -**_
+
+_**python -m Topsis-Dhairya-101916016.main inputdata.csv 0.25,0.25,0.25,0.25 -,+,+,+ outputdata.csv**_
+
+###### **_For Jupyter/Colab/Python IDE -_**
+
+**_topsis = \_\_import\_\_("Topsis-Dhairya-101916016")_**
+
+**_topsis.topsis("inputdata.csv","0.25,0.25,0.25,0.25","-,+,+,+","outputdata.csv")_**
+
+
+After running Step 2 , output file (with mentioned name) will be created in same working directory which will create the csv with original dataframe , TOPSIS score and Rank.
+
+---
+
+### **Main Function in Package:**
+
+## **topsis**(_inputcsv,_weights,_impacts,_resultfilename)
+
+Takes 4 arguments -
+
+_inputcsv = The name of input csv which have data
+
+_weights = Weights associated with each column in str format. eg - "1,2,1,1"
+
+_impacts = Impacts associated with each column in str format. eg - "+,+,+,+"
+
+_resultfilename = The name of output csv which have TOPSIS score and rank
+
+**This function will perform TOPSIS calculation and store the resultant csv in the working directory with provided name.**
+
+---
+##Below Functions are used by topsis function for calculation of Topsis Score and Rank
+
+### **checkfornumerical**(_df)
+
+Takes 1 argument -
+
+_df = DataFrame without the first column (which is usually str)
+
+**This function will return True if all the values in _df is numerical**
+
+---
+
+### **normalize**(_evaldf)
+
+Takes 1 argument -
+
+_evaldf = DataFrame without the first column (which is usually str)
+
+**This function will return the normalised DataFrame. Normalisation is done on basis of each value divided by root of sum of squares of column.**
+
+---
+
+### **addingweights**(_evaldf,_weights)
+
+Takes 2 arguments -
+
+_evaldf = DataFrame without the first column (which is usually str)
+
+_weights = Weights associated with each column in str format. eg - "1,2,1,1"
+
+**This function will return the weighted DataFrame. Adding weights is done by multiplying weight to value for each column.**
+
+---
+
+### **idealbestworst**(_evaldf,_impacts)
+
+Takes 2 arguments -
+
+_evaldf = DataFrame without the first column (which is usually str)
+
+_impacts = Impacts associated with each column in str format. eg - "-,+,+,+"
+
+**This function will return the ideal best and ideal worst in DataFrame. 2 new rows will be added in returned Dataframe , first one being Ideal Best and Second one being Ideal Worst.**
+
+---
+
+### **euclideandistance**(_evaldf)
+
+Takes 1 argument -
+
+_evaldf = DataFrame without the first column (which is usually str) and 2 more rows including ideal best and worst respectively.
+
+**This function will return the Topsis score as new column in DataFrame provided. 2 new rows will be added in returned Dataframe , It uses Euclidean Distance for calculation of Performance/Topsis Score.**
+
+---
+
+### **givingranks**(_evaldf)
+
+Takes 1 argument -
+
+_evaldf = DataFrame without the first column (which is usually str) and 1 more column which is performance score.
+
+**This function will return the Topsis score and Ranking as new column in DataFrame provided. It uses Hashmap for calculation and gives rank 1 to the highest Topsis Score.**
+
+---
+
+### **Requirements for Package:**
+
+Pandas
+
+Numpy
+
+---
+
+### **Input file handling:**
+Input File must have atleast 3 columns and should have Numerical values only except the first column.
