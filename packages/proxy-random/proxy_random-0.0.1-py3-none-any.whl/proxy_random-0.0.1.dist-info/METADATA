@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: proxy-random
+Version: 0.0.1
+Summary: A simple package to get random proxy from online proxylist sites.
+Author: AmirMohammad
+Author-email: amirmohammad@duck.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: aiohttp-proxy
+Requires-Dist: beautifulsoup4
+
+proxy\_random
+=============
+
+**Proxy Random** is a tool to help small web scrapers. helping them prevent getting their ip banned from the target site.
+
+
