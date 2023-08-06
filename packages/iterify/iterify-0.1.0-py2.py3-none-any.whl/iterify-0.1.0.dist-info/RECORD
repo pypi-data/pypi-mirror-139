@@ -1,0 +1,11 @@
+iterify/__init__.py,sha256=kyXexOM24XLCTvuV2Y2mkDszqLjsVS_hBdbUDfy2Yq4,388
+iterify/cyclify.py,sha256=hKp2np-Tgs45cGkuSd4ez7yJl3icyv-VdtX22pkUYtQ,116
+iterify/iterify.py,sha256=ay9-ECAlyz_82ljCNOFSHfW7qRZ_SlkajGFKSk3kVQs,89
+iterify/samplify.py,sha256=73o7Kft0gJasveejTskMarNNKLM_SDX7rv2RylkExzA,132
+iterify/shufflify.py,sha256=HHT1GXW6ge5ZYBp41CYpu_NV-LzfyCrjaeY5QWuN6hU,164
+iterify-0.1.0.dist-info/AUTHORS.rst,sha256=yXsL5OQNgvEmmosi5JQ4MFgWM7szngaFLKb5asxty6E,166
+iterify-0.1.0.dist-info/LICENSE,sha256=hB_MJ5wenpbhHkdOgiGWvknua3QnNLYWjxsaSXRQpxk,1079
+iterify-0.1.0.dist-info/METADATA,sha256=xgDKA0gzk2uSDRWrZITeZBXa4hEn4WG-aoq_3Q5YwjY,2219
+iterify-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+iterify-0.1.0.dist-info/top_level.txt,sha256=ULLdtOauR4mViEs9p4eBRgFlpXBrzWtiwQ3dLUkq11c,8
+iterify-0.1.0.dist-info/RECORD,,
