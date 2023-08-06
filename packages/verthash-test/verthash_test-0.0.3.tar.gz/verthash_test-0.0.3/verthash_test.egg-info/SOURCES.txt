@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+h2.c
+h2.h
+setup.py
+verthashmodule.c
+tiny_sha3/sha3.c
+tiny_sha3/sha3.h
+verthash_test.egg-info/PKG-INFO
+verthash_test.egg-info/SOURCES.txt
+verthash_test.egg-info/dependency_links.txt
+verthash_test.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: verthash_test
+Version: 0.0.3
+Summary: Python bindings for Verthash proof of work function
+Home-page: https://github.com/vertiond/verthash-pospace
+Author: vertion
+Author-email: vertion@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+This release supports reading the verthash datafile from disk only
+
