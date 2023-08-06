@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: pyqecc
+Version: 0.0.2
+Summary: Simulater for quantum error correction code.
+Home-page: https://github.com/papillon-woof/pyqecc
+Author: papillon
+Author-email: ogyogugige@gmail.com
+License: MIT
+Keywords: pyqecc PyQecc py-qecc qecc qec quantum error correction quantum computer quantum computing
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21)
+
+UNKNOWN
+
