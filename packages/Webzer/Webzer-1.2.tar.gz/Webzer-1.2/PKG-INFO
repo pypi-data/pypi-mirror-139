@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Webzer
+Version: 1.2
+Summary: Websites made easy.
+Home-page: https://github.com/KodeyCode/Webzer
+Download-URL: https://github.com/KodeyCode/Webzer/archive/v1.1.tar.gz
+Author: LJDev
+Author-email: lfwjohns@googlemail.com
+License: MIT
+Keywords: WebModule,EASY-TO-USE,Websites
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
