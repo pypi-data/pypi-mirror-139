@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aebin
+Version: 0.0.1
+Summary: A binary file format for storing dictionaries.
+Home-page: https://github.com/Aermoss/Aerics
+Author: Yusuf Rencber
+Author-email: yusufrencber546@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Aebin
+A binary file format for storing dictionaries.
+
+## Getting Started
+1) Install Python
+2) Open cmd/terminal and type:
+
+```
+pip install Aebin
+```
+
