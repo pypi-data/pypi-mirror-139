@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: rosetta-easycache
+Version: 0.1.1
+Summary: 一个快速使用异步redis优化数据库查询项目
+Home-page: https://git.duowan.com/ai/nlp/easy-cache
+Author: Zhiyuan Zhang
+Author-email: zhangzhiyuan1@joyy.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# easycache 
+
+本项目提供一个基于异步aioredis作为缓存，达到：
+
+1. 通过异步redis查询，优化数据库查询。
+2. 通过装饰器快速使用，并且不用在业务代码中修改逻辑。
+3. 基于aioredis2.0+创建redis connections pool，全局只需维护一个redis connections pool，节省维护连接池的资源。
+
+![image-easycache](./images/easycache.jpg)
+
+在数据库和用户之间增加redis层，通过装饰器实现达到快速使用，不影响原来业务代码逻辑的目的。
+
+## 说明
+
+### 1. EasyCache : class
+
+创建easycache装饰器对象，将参数redis设置为默认redis，redis应该是一个redis client。
+
+### 2. easycache.find
+
+#### 参数:
+			 
+| 名称 | 类型 | 说明 |
+| -------------- | ---- | ------------------------- |
+| prefix |     str    | redis key的前缀， 必填 | 
+| redis | aioredis.Redis | redis client，为空时使用默认redis|
+| key_expire_time |     int    | key expire time, 默认为10min | 
+| key_param_index |     int    | 数据库主键在参数列表中的位置，第一个位置为1 | 
+| key_param_name |     str    | 数据库主键参数的名称，传参时必须使用命名参数 | 
+| opt_param2key_func |     function    | 将参数转为redis key的函数，为空时默认参数为str或者ObjectId类型 | 
+
+#### 逻辑：
+如果获取参数正确且缓存命中，则直接返回缓存的结果，否则调用func，并在获取参数正确的情况下将结果存入缓存。
+
+### 3. easycache.delete
+
+#### 参数:	 
+
+| 名称 | 类型 | 说明 |
+| -------------- | ---- | ------------------------- |
+| prefix |     str    | redis key的前缀， 必填 | 
+| redis | aioredis.Redis | redis client，为空时使用默认redis|
+| key_expire_time |     int    | key expire time, 默认为10min | 
+| key_param_index |     int    | 数据库主键在参数列表中的位置，第一个位置为1 | 
+| key_param_name |     str    | 数据库主键参数的名称，传参时必须使用命名参数 | 
+| opt_param2keys_func |     function    | 将参数转为redis key list的函数，为空时默认参数为str或者ObjectId类型 | 
+
+#### 逻辑：
+如果获取参数正确则删除对应key。
+
+## example
+
+
+### 1. 维护一个redis connections pool
+```python
+import aioredis
+
+redis_pool = aioredis.ConnectionPool.from_url(
+    f'redis://localhost:6379', decode_responses=True,
+)
+redis_client = aioredis.Redis(connection_pool=redis_pool)
+```
+
+这里推荐同时调用aioredis.Redis定义一个redis client，并且之后使用redis client代替redis pool。
+
+### 2. 定义一个easycache装饰器
+
+```python
+from init_redis_pool import redis_client
+import easycache
+
+easycache = easycache.EasyCache(redis_client)
+```
+
+### 3.使用装饰器
+如需优化以id为条件的数据库查询，且id是唯一的，则在查询的接口调用find，在更新以及删除的接口调用delete。prefinx可以是“数据库名：数据库表名”， key_param_name是findtest函数的参数列表中，传入id的参数名。
+
+```python
+@easycache.find(prefix='testcache', key_param_name='id')
+async def findtest(*, id):
+    await asyncio.sleep(1)
+    now = datetime.datetime.now()
+    dir = {'time':now}
+    return dir
+	
+loop = asyncio.get_event_loop()
+future = asyncio.create_task(findtest(id='921h3918chachs'))
+loop.run_until_complete()
+```
+在更新以及删除的接口调用delete
+
+```python
+@easycache.delete(prefix='testcache', key_param_name='id')
+async def deletetest(*, id, other):
+    print('delete test ')
+    await asyncio.sleep(1)
+    return other
+	
+loop = asyncio.get_event_loop()
+future = asyncio.create_task(deletetest(id='921h3918chachs'， other='test delete'))
+loop.run_until_complete()
+```
+在批量更新以及删除的接口调用delete，并且定义处理批量参数的function
+
+```python
+def delete2_param2keys(ids):
+    res = []
+    ids_l = ids['list']
+    for id in ids_l:
+        res.append('testcache:' + id['key'])
+    return res
+
+@easycache.delete(key_param_name='ids', opt_param2keys_func=delete2_param2keys)
+async def deletetest2(*, ids:dict, other):
+    print('delete test two running')
+    await asyncio.sleep(3)
+    return other
+
+mp = {'list' : [{'key' : '921h3918chachs'}, {'key' : '9989898989891sa'}]}
+loop = asyncio.get_event_loop()
+future = asyncio.create_task(deletetest2(id=mp， other='test delete'))
+loop.run_until_complete()
+```
+
+
