@@ -1,0 +1,31 @@
+include *.rst
+include LICENSE
+include momentumnet/__init__.py
+include *.png
+include requirements.txt
+recursive-include examples *.py
+recursive-include examples *.txt
+include p
+recursive-include momentumnet *.py
+recursive-include examples_paper *.py
+
+
+### Exclude
+
+exclude Makefile
+exclude .coveragerc
+exclude .circleci/*
+exclude *.yml
+exclude .DS_Store
+exclude dictionary.txt
+exclude .mailmap
+recursive-exclude momentumnet *.pyc
+
+recursive-exclude doc *
+
+recursive-include examples *.DS_Store
+recursive-include momentumnet *.DS_Store
+recursive-include momentumnet *.ipynb
+
+recursive-include examples *.pdf
+recursive-include examples2 *.py
