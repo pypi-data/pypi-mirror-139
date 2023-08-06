@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/fiicha/__init__.py
+src/fiicha/context.py
+src/fiicha/core.py
+src/fiicha/doc.py
+src/fiicha/parser.py
+src/fiicha/py.typed
+src/fiicha/utils.py
+src/fiicha.egg-info/PKG-INFO
+src/fiicha.egg-info/SOURCES.txt
+src/fiicha.egg-info/dependency_links.txt
+src/fiicha.egg-info/requires.txt
+src/fiicha.egg-info/top_level.txt
