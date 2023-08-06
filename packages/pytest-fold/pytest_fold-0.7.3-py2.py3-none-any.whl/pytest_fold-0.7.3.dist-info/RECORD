@@ -1,0 +1,13 @@
+pytest_fold/__init__.py,sha256=5nJxa7QCPvKblXCm8OZui4ydGkNgBJuaDFzNf5UjGko,143
+pytest_fold/lorem.py,sha256=wVDVJwai4gpd8PwxJe-pCUozwLtCTAj74zG2jeVU5ao,2103
+pytest_fold/plugin.py,sha256=9oQ-mkRELBMTu8dEg9AoQtqYugD5pNRR5-Fx57qgWz4,7534
+pytest_fold/tui.py,sha256=ULRC6DFWd-y61x1ZoSRf23spyuVOHatssA3X_KH_0S8,5963
+pytest_fold/tuit.py,sha256=msiEnxWk0rLkAQnqz3ylW-ODvQ1SWkj_ILNm5TtgIyI,2583
+pytest_fold/tuit2.py,sha256=ZzKcC5czqgFht4VvNuht3tTJE6u_jE6rgYtWQnPDMpM,2831
+pytest_fold/utils.py,sha256=YUTX4B3uQ0APznq5CZwkMUBj6M_DzBDr4l7MT5TqtfE,2909
+pytest_fold-0.7.3.dist-info/LICENSE,sha256=6JB78zn5gSGM07B1AjAnsAROVRZ2Bx6lnxzXhUuNdE8,1079
+pytest_fold-0.7.3.dist-info/METADATA,sha256=l7QJ7V3GI_3_MoIxQVqr-k7OQAevSM9m_5hcAQ7v1yU,4305
+pytest_fold-0.7.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pytest_fold-0.7.3.dist-info/entry_points.txt,sha256=W0pkluXwJJ7fULtT5Sk_Hj3t5vCl6HJcFv1F1MjEpIs,44
+pytest_fold-0.7.3.dist-info/top_level.txt,sha256=rOh6_eLvK0lzuyJmuQNdZzbLQuIMYWxIlpHvHdBrl0E,12
+pytest_fold-0.7.3.dist-info/RECORD,,
