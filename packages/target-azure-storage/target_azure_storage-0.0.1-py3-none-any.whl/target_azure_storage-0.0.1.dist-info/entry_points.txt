@@ -1,0 +1,3 @@
+[console_scripts]
+target-azure-storage=target_azure_storage.target:TargetAzureStorage.cli
+

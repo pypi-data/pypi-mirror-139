@@ -1,0 +1,9 @@
+target_azure_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+target_azure_storage/sinks.py,sha256=I4WlPiUubaPKmpm_Gbuj5QhKVONzu1t4TPwi7ydSFLw,3240
+target_azure_storage/target.py,sha256=ArRxafuJ2JP7WWZNrjU9w53V-P0YDxomqRx-gHUi0B4,1037
+target_azure_storage/tests/__init__.py,sha256=1iLqugSmGVwnfMUIOVQVqNXFc8W8ChbM19aQG8gVjsA,43
+target_azure_storage/tests/test_core.py,sha256=6t-06CidkYwCJEuy9qIc87wgxTo_mU_X-Ae5ZnGlwNY,664
+target_azure_storage-0.0.1.dist-info/entry_points.txt,sha256=A5BZQcEFMpeF5183DWwRlHLwFSNq7DpodKnjgD4bEn4,91
+target_azure_storage-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+target_azure_storage-0.0.1.dist-info/METADATA,sha256=LG8IChBqFyBgF7wzDOGvGdmEWydBJB48OuSsRVU3UyQ,854
+target_azure_storage-0.0.1.dist-info/RECORD,,
