@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyrsona
+Version: 0.1
+Summary: 
+Home-page: https://github.com/johnbullnz/pyrsona
+License: MIT
+Author: John
+Author-email: johnbullnz@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pyrsona
