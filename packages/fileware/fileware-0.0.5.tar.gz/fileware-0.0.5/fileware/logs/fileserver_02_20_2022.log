@@ -1,0 +1,10 @@
+Feb 20, 2022 02:12:58 - INFO - [server:254] - _initiate_connection - Initiating file server.
+Feb 20, 2022 02:13:09 - INFO - [server:254] - _initiate_connection - Initiating file server.
+Feb 20, 2022 02:13:36 - INFO - [server:254] - _initiate_connection - Initiating file server.
+Feb 20, 2022 02:13:47 - INFO - [server:254] - _initiate_connection - Initiating file server.
+Feb 20, 2022 02:16:58 - INFO - [server:254] - _initiate_connection - Initiating file server.
+Feb 20, 2022 02:19:37 - INFO - [server:254] - _initiate_connection - Initiating file server.
+Feb 20, 2022 02:19:37 - INFO - [server:270] - _initiate_connection - Serving at: https://192.168.1.16:4443
+Feb 20, 2022 02:19:37 - INFO - [server:273] - _initiate_connection - Hosted at public endpoint: Tunneling is unavailable since ngrok config file is missing.
+Feb 20, 2022 02:19:41 - INFO - [server:323] - serve - Terminating file server.
+Feb 20, 2022 02:19:41 - INFO - [server:326] - serve - File server has been terminated.
