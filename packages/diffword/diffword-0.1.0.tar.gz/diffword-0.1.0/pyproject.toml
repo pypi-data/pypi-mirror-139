@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "diffword"
+version = "0.1.0"
+description = ""
+authors = ["ajanvrin <alexandre.janvrin@reseau.eseo.fr>"]
+
+[tool.poetry.scripts]
+diffword = "diffword:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.3"
+python-docx-docm = "^0.1.0"
+regex = "^2022.1.18"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
