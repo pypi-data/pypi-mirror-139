@@ -1,0 +1,21 @@
+Welcome to sevq's documentation!
+======================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   readme
+   installation
+   algorithm_visualisation
+   comparison_datasets_and_algorithms
+   performance_comparison
+   research_replication
+   contributing
+   authors
+
+Indices and tables
+==================
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
