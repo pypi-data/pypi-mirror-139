@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gaussianprocessderivatives
+Version: 0.1.1
+Summary: Uses Gaussian processes to smooth data and estimate first- and second-order derivatives
+License: MIT
+Keywords: gaussian process,derivative
+Author: Peter Swain
+Requires-Python: >=3.7.1,<3.11
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.7.3,<2.0.0)
+Requires-Dist: scipy (>=1.16.0,<2.0.0)
