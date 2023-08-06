@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: roboworld
+Version: 0.1.1
+Summary: A Python library to learn loops
+Home-page: https://github.com/BZoennchen/robo-world
+Author: Benedikt Zoennchenpip
+Author-email: benedikt.zoennchen@web.de
+Maintainer: BZoennchen
+Maintainer-email: benedikt.zoennchen@web.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.0,<4.0.0
+License-File: LICENSE
+
+UNKNOWN
+
