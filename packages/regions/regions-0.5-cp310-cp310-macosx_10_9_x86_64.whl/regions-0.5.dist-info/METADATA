@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: regions
+Version: 0.5
+Summary: Astropy coordinated package for region handling
+Home-page: https://github.com/astropy/regions
+Author: The Astropy Developers
+Author-email: astropy.team@gmail.com
+License: BSD 3-Clause
+Keywords: astronomy,astrophysics,astropy,regions
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: astropy (>=3.2)
+Provides-Extra: all
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: shapely ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: matplotlib ; extra == 'docs'
+Requires-Dist: shapely ; extra == 'docs'
+Requires-Dist: sphinx-astropy ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-astropy ; extra == 'test'
+Requires-Dist: pytest-arraydiff ; extra == 'test'
+
+=======
+Regions
+=======
+
+|PyPI Version| |Conda Version| |Astropy|
+
+|AzurePipelines Status| |Codecov Status| |Latest RTD Status|
+
+Regions is an `Astropy`_ package for region handling.
+
+Please see the `online documentation
+<https://astropy-regions.readthedocs.io>`_ for `installation
+instructions
+<https://astropy-regions.readthedocs.io/en/stable/installation.html>`_
+and usage information.
+
+
+License
+-------
+
+Regions is licensed under a 3-clause BSD license.  Please see the
+`LICENSE
+<https://github.com/astropy/regions/blob/main/LICENSE.rst>`_ file
+for details.
+
+
+.. |PyPI Version| image::  https://img.shields.io/pypi/v/regions.svg?logo=pypi&logoColor=white&label=PyPI
+    :target: https://pypi.org/project/regions/
+    :alt: PyPI Latest Release
+
+.. |Conda Version| image:: https://img.shields.io/conda/vn/conda-forge/regions?label=conda%20package
+    :target: https://anaconda.org/conda-forge/regions
+    :alt: Conda Latest Release
+
+.. |Astropy| image:: https://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
+    :target: https://www.astropy.org/
+    :alt: Powered by Astropy
+
+.. |AzurePipelines Status| image:: https://dev.azure.com/astropy-project/regions/_apis/build/status/astropy.regions?branchName=main
+    :target: https://dev.azure.com/astropy-project/regions/_build/latest?definitionId=7&branchName=main
+    :alt: Azure Pipelines Statue
+
+.. |Codecov Status| image:: https://img.shields.io/codecov/c/github/astropy/regions?logo=codecov
+    :target: https://codecov.io/gh/astropy/regions
+    :alt: Coverage Status
+
+.. |Stable RTD Status| image:: https://img.shields.io/readthedocs/astropy-regions/latest.svg?logo=read%20the%20docs&logoColor=white&label=Docs&version=stable
+    :target: https://astropy-regions.readthedocs.io/en/stable/
+    :alt: Stable Documentation Status
+
+.. |Latest RTD Status| image:: https://img.shields.io/readthedocs/astropy-regions/latest.svg?logo=read%20the%20docs&logoColor=white&label=Docs&version=latest
+    :target: https://astropy-regions.readthedocs.io/en/latest/
+    :alt: Latest Documentation Status
+
+.. _Astropy: https://www.astropy.org/
+
+
