@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: django-seo-i18n
+Version: 1.0.0
+Summary: SEO functionality for any object or custom URL with multilingual support
+Home-page: https://github.com/PragmaticMates/django-seo-i18n
+Author: Pragmatic Mates
+Author-email: info@pragmaticmates.com
+Maintainer: Pragmatic Mates
+Maintainer-email: info@pragmaticmates.com
+License: LGPLv3
+Keywords: django seo fields URL i18n multilingual
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 5 - Production/Stable
+License-File: LICENSE
+License-File: AUTHORS
+
+UNKNOWN
+
