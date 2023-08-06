@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+paddle_msssim/__init__.py
+paddle_msssim/ssim.py
+paddle_msssim.egg-info/PKG-INFO
+paddle_msssim.egg-info/SOURCES.txt
+paddle_msssim.egg-info/dependency_links.txt
+paddle_msssim.egg-info/top_level.txt
