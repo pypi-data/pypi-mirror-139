@@ -1,0 +1,10 @@
+django_mkdocs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_mkdocs/app_settings.py,sha256=CfEm4N0tvY0BRvuvuqwQwd-HCSRxrGRp89D1W4eT45Y,674
+django_mkdocs/tests.py,sha256=BsQCqhOeVxdHuVEuVwqIAbY0XyG2xPF6S1KgvQd1EDk,1995
+django_mkdocs/urls.py,sha256=ArMCG1ag62a4GchI9TdObbEdyUPOf6i7qZbVxLcsaDM,221
+django_mkdocs/views.py,sha256=K9ZlOW78bf7MVSXMzY338c7HR7MEEs-8-DrulSDoorQ,977
+django_mkdocs_updated-0.1.4.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+django_mkdocs_updated-0.1.4.dist-info/METADATA,sha256=DC8WYed0EAJ1z6gtGpxMMCia5Zk4SLtJg-tr1gXzxgQ,658
+django_mkdocs_updated-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_mkdocs_updated-0.1.4.dist-info/top_level.txt,sha256=otTSYL_WfpFJRAVWDjMjMgrlQjrQ0ozLVUTd1kSN8SA,14
+django_mkdocs_updated-0.1.4.dist-info/RECORD,,
