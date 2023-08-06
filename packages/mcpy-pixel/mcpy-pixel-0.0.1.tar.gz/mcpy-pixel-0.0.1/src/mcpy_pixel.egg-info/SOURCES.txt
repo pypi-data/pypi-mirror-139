@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/mcpy_pixel.egg-info/PKG-INFO
+src/mcpy_pixel.egg-info/SOURCES.txt
+src/mcpy_pixel.egg-info/dependency_links.txt
+src/mcpy_pixel.egg-info/requires.txt
+src/mcpy_pixel.egg-info/top_level.txt
+src/pypixel/Client.py
+src/pypixel/Player.py
+src/pypixel/Skyblock.py
+src/pypixel/__init__.py
