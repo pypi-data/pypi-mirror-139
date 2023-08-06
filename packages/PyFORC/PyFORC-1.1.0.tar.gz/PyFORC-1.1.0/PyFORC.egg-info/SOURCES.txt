@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+PyFORC.egg-info/PKG-INFO
+PyFORC.egg-info/SOURCES.txt
+PyFORC.egg-info/dependency_links.txt
+PyFORC.egg-info/requires.txt
+PyFORC.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyFORC
+Version: 1.1.0
+Summary: FORC analysis in Python
+Home-page: https://github.com/peytondmurray/pyforc
+Author: Peyton Murray
+Author-email: peynmurray@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
+UNKNOWN
+
