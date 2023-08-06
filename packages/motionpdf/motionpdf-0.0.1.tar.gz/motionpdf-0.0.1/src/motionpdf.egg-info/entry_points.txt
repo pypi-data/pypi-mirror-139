@@ -1,0 +1,2 @@
+[console_scripts]
+motionpdf = motionpdf.app:main

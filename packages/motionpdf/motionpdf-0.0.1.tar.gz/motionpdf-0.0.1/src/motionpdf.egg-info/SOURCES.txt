@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/motionpdf/__init__.py
+src/motionpdf/app.py
+src/motionpdf/motion.py
+src/motionpdf.egg-info/PKG-INFO
+src/motionpdf.egg-info/SOURCES.txt
+src/motionpdf.egg-info/dependency_links.txt
+src/motionpdf.egg-info/entry_points.txt
+src/motionpdf.egg-info/requires.txt
+src/motionpdf.egg-info/top_level.txt
