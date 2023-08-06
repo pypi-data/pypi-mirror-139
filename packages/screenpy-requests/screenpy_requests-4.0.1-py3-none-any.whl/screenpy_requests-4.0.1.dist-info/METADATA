@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: screenpy-requests
+Version: 4.0.1
+Summary: ScreenPy extension to enable interacting with Requests.
+Home-page: https://github.com/ScreenPyHQ/screenpy_requests
+Author: Perry Goy
+Author-email: perry.goy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: BDD
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: screenpy (>=4.0.0)
+Requires-Dist: requests (<2.27.0,>=2.26.0)
+
+ScreenPy
+========
+```
+TITLE CARD:
+                               "ScreenPy+Requests"
+TITLE DISAPPEARS.
+                                                                      FADE IN:
+INT. DOCUMENTATION - MIDDAY
+
+AUDIENCE enters from a hidden door built into a bookcase, blinking their eyes
+as they adjust to the relative darkness. Dimly lit shelves hold gizmos and
+gadgets which give off a secretive air. NARRATOR continues.
+
+                              NARRATOR (V.O.)
+            ... these gathered curios enable your ScreenPy
+            Actors to make API requests using the Requests
+            library.
+
+                              AUDIENCE
+            These things look like they weren't meant to be seen.
+            Will it be OK to expose them like this?
+
+                              NARRATOR (V.O.)
+            You could consider the "front end" to be an End User,
+            of sorts. Then your Actors are simply a stand-in for
+            your front end application.
+
+                              AUDIENCE
+            In that case, anything could be an End User, if I
+            need them to be.
+
+                              NARRATOR (V.O.)
+            Now you're getting it. Come this way, there are more...
+
+                                                                      FADE OUT
+```
+
+
+Installation
+------------
+    pip install screenpy_requests
+
+or
+
+    pip install screenpy[requests]
+
+
+Documentation
+----------
+Please check out the [Read The Docs documentation](https://screenpy-requests-docs.readthedocs.io/en/latest/) for the latest information about this module!
+
+You can also read the [ScreenPy Docs](https://screenpy-docs.readthedocs.io/en/latest/) for more information about ScreenPy in general.
+
+
+Contributing
+------------
+You want to contribute? Great! Here are the things you should do before submitting your PR:
+
+1. Install [`pre-commit`](https://pre-commit.com/)
+1. run `pre-commit install` once.
+1. run `tox` to perform tests frequently.
+
+That's it! :)
+
+
