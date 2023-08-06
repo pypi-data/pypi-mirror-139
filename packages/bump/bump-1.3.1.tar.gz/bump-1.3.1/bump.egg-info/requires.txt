@@ -1,0 +1,9 @@
+click<9,>=6
+first
+packaging>=17.1
+
+[dev]
+pytest
+black
+build
+twine
