@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: neon-tts-plugin-glados
+Version: 0.0.3a2
+Summary: glados tts plugin for OpenVoiceOS
+Home-page: https://github.com/NeonGeckoCom/neon-tts-plugin-glados
+Author: Neongecko
+Author-email: developers@neon.ai
+License: Apache-2.0
+Keywords: mycroft plugin tts OVOS OpenVoiceOS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ovos-plugin-manager (>=0.0.4a2)
+Requires-Dist: ovos-utils (~=0.0.15)
+Requires-Dist: phonemizer (~=3.0)
+Requires-Dist: torch (~=1.10)
+Requires-Dist: unidecode
+Requires-Dist: inflect
+Requires-Dist: scipy
+Provides-Extra: docker
+Requires-Dist: ovos-tts-server (==0.0.1) ; extra == 'docker'
+
+## Description
+
+OVOS TTS plugin for [GladosTTS](https://github.com/R2D2FISH/glados-tts)
+
+The initial, regular Tacotron model was trained first on LJSpeech, and then on a heavily modified version of the Ellen McClain dataset (all non-Portal 2 voice lines removed, punctuation added). 
+The Forward Tacotron model was only trained on about 600 voice lines. 
+The HiFiGAN model was generated through transfer learning from the sample. 
+All models have been optimized and quantized.
+
+## Install
+
+`pip install neon-tts-plugin-glados`
+
+## Configuration
+
+```json
+  "tts": {
+    "module": "neon-tts-plugin-glados"
+    }
+```
+
+## Docker
+
+build it
+```bash
+docker build . -t gladostts
+```
+
+run it
+```bash
+docker run -p 8080:9666 gladostts
+```
+
+use it `http://localhost:8080/synthesize/hello`
+
+
