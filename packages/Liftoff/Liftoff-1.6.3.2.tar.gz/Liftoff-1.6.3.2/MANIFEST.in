@@ -1,0 +1,3 @@
+include recursive *.py
+include LICENSE.md
+include README.md
