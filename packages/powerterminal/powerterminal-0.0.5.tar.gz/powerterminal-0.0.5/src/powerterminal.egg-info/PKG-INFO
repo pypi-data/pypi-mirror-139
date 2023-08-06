@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: powerterminal
+Version: 0.0.5
+Summary: Simple things that python should have out of the box.
+Home-page: https://github.com/pypa/sampleproject
+Author: Matheus Goulart
+Author-email: mathealgou@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Project-URL: Author, https://matheusgoulart.info
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# power_terminal
+
+## Things Python should have out of the box.
+
+## Usage
+
+## Reference
+
+## Credits
+
+
