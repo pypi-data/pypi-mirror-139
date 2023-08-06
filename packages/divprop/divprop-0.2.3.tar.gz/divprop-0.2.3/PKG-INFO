@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: divprop
+Version: 0.2.3
+Summary: Tools for cryptanalysis (division property)
+Home-page: UNKNOWN
+Author: Aleksei Udovenko
+Author-email: aleksei@affine.group
+License: MIT
+Project-URL: Source, https://github.com/CryptoExperts/AC21-DivProp-Convexity
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
