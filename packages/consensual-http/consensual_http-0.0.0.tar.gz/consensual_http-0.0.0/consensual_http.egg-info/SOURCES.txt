@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+consensual_http/__init__.py
+consensual_http.egg-info/PKG-INFO
+consensual_http.egg-info/SOURCES.txt
+consensual_http.egg-info/dependency_links.txt
+consensual_http.egg-info/top_level.txt
