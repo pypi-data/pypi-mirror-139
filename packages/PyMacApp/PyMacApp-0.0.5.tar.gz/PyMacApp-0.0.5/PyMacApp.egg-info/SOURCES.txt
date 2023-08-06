@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyMacApp.egg-info/PKG-INFO
+PyMacApp.egg-info/SOURCES.txt
+PyMacApp.egg-info/dependency_links.txt
+PyMacApp.egg-info/requires.txt
+PyMacApp.egg-info/top_level.txt
+pymacapp/__init__.py
+pymacapp/__main__.py
+pymacapp/buildtools.py
+pymacapp/defaultscripts.py
