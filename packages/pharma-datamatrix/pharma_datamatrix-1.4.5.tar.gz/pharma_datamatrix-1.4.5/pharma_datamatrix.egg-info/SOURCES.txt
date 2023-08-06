@@ -1,0 +1,14 @@
+README.md
+setup.py
+pharma_datamatrix/__init__.py
+pharma_datamatrix/expiry_date_validation.py
+pharma_datamatrix/gs1_gtin.py
+pharma_datamatrix/gs1_gtin_validation.py
+pharma_datamatrix/ifa_ppn.py
+pharma_datamatrix/ifa_ppn_validation.py
+pharma_datamatrix/pharma_datamatrix.py
+pharma_datamatrix.egg-info/PKG-INFO
+pharma_datamatrix.egg-info/SOURCES.txt
+pharma_datamatrix.egg-info/dependency_links.txt
+pharma_datamatrix.egg-info/not-zip-safe
+pharma_datamatrix.egg-info/top_level.txt
