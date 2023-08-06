@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+penmon.egg-info/PKG-INFO
+penmon.egg-info/SOURCES.txt
+penmon.egg-info/dependency_links.txt
+penmon.egg-info/top_level.txt
