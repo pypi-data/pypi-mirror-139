@@ -1,0 +1,4 @@
+include versioneer.py
+include freqtools/_version.py
+include README.md
+include LICENSE
