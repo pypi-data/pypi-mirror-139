@@ -1,0 +1,10 @@
+spsa/__init__.py,sha256=h3sIAN92rwujD6wREZ1se27uEnHjDZUJjXWAaI76hYY,3588
+spsa/_spsa.py,sha256=fuYoietpMMWTm_8WpO9xMjK6Y_SBwN-ivIT-kEdlb3k,29214
+spsa/aio.py,sha256=2v4CxUgFm-qTKujVlSdorUIeUzC90lMj9HFTKpnIM7M,21687
+spsa/amp.py,sha256=4-ek3ABNalhNzrboWUb77xmfQm0Er430XXfw9UV0Xwk,9100
+spsa/random.py,sha256=Ti4W48wELpIUxJ8S8ZWuWUP8x5cql0T-7wZmaGm8FmM,2227
+spsa-0.0.3.dist-info/LICENSE,sha256=VTMMeiZ-Z7tjd7nahLJCqMJla_hpHbvNfeKhdKF6ryo,1086
+spsa-0.0.3.dist-info/METADATA,sha256=bD36N466xxoclNHPZOhYBePzj1WwFpapIPLCTQUeCSA,2628
+spsa-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spsa-0.0.3.dist-info/top_level.txt,sha256=rJBkbpIyc1jLupECAIaxYxcuXuQLfIIzKcIWqIrxFWo,5
+spsa-0.0.3.dist-info/RECORD,,
