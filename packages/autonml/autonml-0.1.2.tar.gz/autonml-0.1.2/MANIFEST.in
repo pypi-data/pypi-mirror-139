@@ -1,0 +1,6 @@
+include docs/*
+include requirements.txt
+include basic-requirements.txt
+include build-requirements.txt
+include LICENSE
+include README.md
