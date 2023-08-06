@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: x509generator
+Version: 0.1
+Summary: Generates SSL x509 certificates
+Home-page: https://github.com/codinlikewilly/py-certgenerator
+Author: will
+Author-email: will@theapiguys.com
+License: MIT 
+Download-URL: https://github.com/codinlikewilly/x509generator/archive/refs/tags/v_01.tar.gz
+Keywords: x509,SSL,OpenSSL
+Platform: UNKNOWN
+
+UNKNOWN
+
