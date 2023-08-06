@@ -1,0 +1,11 @@
+discretisedfield~=0.61.0
+
+[dev]
+build
+pre-commit
+twine
+
+[test]
+nbval
+pytest
+pytest-cov
