@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: primepackage
+Version: 1.1.9
+Summary: A package for the calculation, querying and lsiting of primes. prime products and non trivial zeros
+License: MIT
+Author: Jamell Samuels
+Author-email: jamellsamuels@googlemail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
