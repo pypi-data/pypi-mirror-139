@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "m3o_py"
+version = "0.1.1-alpha.1"
+description = "Python-library for M3O"
+repository = "https://github.com/mawoka-myblock/m3o-py"
+readme = "README.md"
+authors = ["Mawoka <mawoka-myblock@e.email>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.1"
+aiodns = { version = "^3.0.0", optional = true }
+pydantic = "^1.9.0"
+
+
+[tool.poetry.dev-dependencies]
+coverage = "^6.3.2"
+pytest = "^7.0.1"
+pytest-asyncio = "^0.18.1"
+mkdocs-material = "^8.2.1"
+pymdown-extensions = "^9.2"
+
+
+[tool.poetry.extras]
+aiodns = ["aiodns"]
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project]
+name = "m3o_py"
+authors = [{ name = "Mawoka", email = "mawoka-myblock@e.email" }]
+readme = "README.md"
+dynamic = ["version", "description"]
+license = "LICENSE"
+keywords = ["m3o", "m3o_py"]
