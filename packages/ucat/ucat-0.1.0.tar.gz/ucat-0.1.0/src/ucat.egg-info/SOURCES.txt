@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ucat/__init__.py
+src/ucat.egg-info/PKG-INFO
+src/ucat.egg-info/SOURCES.txt
+src/ucat.egg-info/dependency_links.txt
+src/ucat.egg-info/requires.txt
+src/ucat.egg-info/top_level.txt
