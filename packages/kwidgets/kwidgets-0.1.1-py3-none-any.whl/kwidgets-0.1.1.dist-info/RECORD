@@ -1,0 +1,17 @@
+kwidgets/__init__.py,sha256=km1HA4n6e3un6jUCmkSrD1ttgZREqogxPBude5nbFZY,51
+kwidgets/utils.py,sha256=NlJMsTLANKZWCp5VjXNnd8O8NOTFClXOay3a7gL0yTo,1122
+kwidgets/dataviz/__init__.py,sha256=-1VUOjV-rC2Bk7NX2_1Tdtv245oNtW5X42fKZp54fyc,124
+kwidgets/dataviz/boxplot.py,sha256=do71pTIqaRJdnUCIFfk2YmuP_k_uRCmS46NPn5sQXjM,12121
+kwidgets/dataviz/math.py,sha256=GPtVuBFPdifZZ5ND8nM4L_6jcMKAHvDS3svF84RPU6o,1304
+kwidgets/text/__init__.py,sha256=rbQQtM-gDwCi7xxpLH2h_A60YfRq1KSVYWhQlHRegKE,45
+kwidgets/text/labeledvalue.py,sha256=RZbmUUsjWEVnwHrM1W6ng0gkiN76jCQ769o1zZgK1x4,3249
+kwidgets/text/quotationdisplay.py,sha256=HNf6XLU-ixXh5-L3a7sb4fj2Aq95hJJhrpPqLT1uwN8,5360
+kwidgets/text/simpletable.py,sha256=DSe12Y2e14AfsCB6kj94UNpn026b0SsFY0xYlK7fj6w,4958
+kwidgets/uix/__init__.py,sha256=cJcqYUB536KvwfWE5kGtkBssR2KYHeAb79i_H0WDqMM,56
+kwidgets/uix/pixelatedgrid.py,sha256=-3JIpqvt0znODTzXLOConcI4dy7oME-ArpOifzzdjW0,4645
+kwidgets/uix/radiobuttons.py,sha256=mk6j4PfVHizKc_Omz5PFA2zqfTDwFveXeJMhopTRaK0,3724
+kwidgets-0.1.1.dist-info/LICENSE,sha256=ArWmYYZJdceJHPNaERikLcqVuxQu8qKP0jqxeUZsqaM,618
+kwidgets-0.1.1.dist-info/METADATA,sha256=Pkc9XytP85zL4gQjUOwQHYkoTi1YuPAIKWYd2MXM7Yg,880
+kwidgets-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kwidgets-0.1.1.dist-info/top_level.txt,sha256=9EtJgdKPhj-hO06zK3btC4ZYkqIp1-Y8NqFMWpVZcbU,9
+kwidgets-0.1.1.dist-info/RECORD,,
