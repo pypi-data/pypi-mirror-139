@@ -1,0 +1,2 @@
+[molecule.driver]
+lxd = molecule_lxd.driver:LXD
