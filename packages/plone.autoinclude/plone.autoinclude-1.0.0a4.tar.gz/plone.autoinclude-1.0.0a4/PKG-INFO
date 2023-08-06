@@ -1,0 +1,295 @@
+Metadata-Version: 2.1
+Name: plone.autoinclude
+Version: 1.0.0a4
+Summary: Auto include code and zcml
+Home-page: https://github.com/collective/plone.autoinclude
+Author: Maurits van Rees
+Author-email: maurits@vanrees.org
+License: GPL version 2
+Project-URL: PyPI, https://pypi.org/project/plone.autoinclude/
+Project-URL: Source, https://github.com/plone/plone.autoinclude
+Project-URL: Tracker, https://github.com/plone/plone.autoinclude/issues
+Keywords: Python Plone CMS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone :: 5.2
+Classifier: Framework :: Plone :: 6.0
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+License-File: LICENSE.GPL
+License-File: LICENSE.rst
+
+.. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+   If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+   This text does not appear on pypi or github. It is a comment.
+
+.. image:: https://coveralls.io/repos/github/plone/plone.autoinclude/badge.svg?branch=main
+    :target: https://coveralls.io/github/plone/plone.autoinclude?branch=main
+    :alt: Coveralls
+
+.. image:: https://img.shields.io/pypi/v/plone.autoinclude.svg
+    :target: https://pypi.org/project/plone.autoinclude/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/pyversions/plone.autoinclude.svg?style=plastic   :alt: Supported - Python Versions
+
+.. image:: https://img.shields.io/pypi/l/plone.autoinclude.svg
+    :target: https://pypi.org/project/plone.autoinclude/
+    :alt: License
+
+
+=================
+plone.autoinclude
+=================
+
+Automatically include zcml of a package when it is loaded in a Plone site.
+
+Features
+--------
+
+- It is an alternative to ``z3c.autoinclude``.
+- When a package registers an autoinclude entry point, we load its Python code at Zope/Plone startup.
+- And we load its zcml.
+- Works with Buildout-installed packages.
+- Works with pip-installed packages.
+
+
+Compatibility
+-------------
+
+This is made for Python 3.6+.
+Since Plone 6.0.0a2 it is included in core Plone.
+See `PLIP 3339 <https://github.com/plone/Products.CMFPlone/issues/3339>`_.
+
+It also works on Plone 5.2.
+
+
+For add-on authors
+------------------
+
+When you have an existing package that has some zcml, you probably already have something like this in your ``setup.py``::
+
+    entry_points="""
+    [z3c.autoinclude.plugin]
+    target = plone
+    """
+
+or in a dictionary::
+
+    entry_points={
+        "z3c.autoinclude.plugin": [
+            "target = plone",
+        ],
+    }
+
+or in ``setup.cfg``::
+
+    [options.entry_points]
+    z3c.autoinclude.plugin =
+        target=plone
+
+This still works!
+You do not need to change anything.
+
+But if you do not care about compatibility with ``z3c.autoinclude``, you could use this new entry point::
+
+    entry_points="""
+    [plone.autoinclude.plugin]
+    target = plone
+    """
+
+It does the same thing, but it only works with ``plone.autoinclude``.
+
+Note: you should *not* add ``plone.autoinclude`` in your ``install_dependencies``.
+It is the responsibility of the framework (usually Plone) to do this.
+
+
+Entry point details
+-------------------
+
+This is an entry point with all options specified::
+
+    entry_points="""
+    [plone.autoinclude.plugin]
+    target = plone
+    module = example.alternative
+    """
+
+You must specify at least one option, otherwise the entry point does not exist.
+
+``target``
+    In which framework should your zcml be loaded?
+    For a Plone add-on you would use ``plone``.
+    If Zope ever wants to use something similar, it could add configuration to look for packages with ``target="zope"``.
+    You can come up with targets yourself, and load them in a policy package, maybe: cms, frontend, companyname, customername, nl/de (language).
+    If target is empty, or the option is not there, the zcml will get loaded by all frameworks.
+
+``module``
+    Use this when your package name is different from what you import in Python.
+
+
+Comparison with ``z3c.autoinclude``
+-----------------------------------
+
+- ``z3c.autoinclude`` supports ``includeDependencies`` in a zcml file in your package.
+  This would look in the ``setup_requires`` of the package to find dependencies.
+  For each, it would load the zcml.
+  This can take quite long.
+  It might not work for packages installed by ``pip``, but this is not confirmed.
+  In the Plone community this is discouraged, and Plone already disables this in the tests.
+  ``plone.autoinclude`` does not support this.
+  You should load the zcml of the dependencies explicitly in the ``configure.zcml`` of your package.
+- ``z3c.autoinclude`` tries hard to find packages in non-standard places, installed in weird or old ways,
+  or with a module name that differs from the package name, with code especially suited for eggs that buildout installs.
+  ``plone.autoinclude`` simply uses ``importlib.import_module`` on the module name.
+  If there is a mismatch between package name and module name, you can set ``module = modulename`` in your entry point.
+- ``z3c.autoinclude`` does not support empty targets.
+  The target of the entry point must match the target that is being loaded.
+  ``plone.autoinclude`` *does* support empty targets: they will always get loaded.
+  This is not good or bad, it is just a different choice.
+- ``z3c.autoinclude`` supports disabling loading the plugins, via either an environment variable or an api call.
+  ``plone.autoinclude`` does not.
+  But ``Products.CMFPlone`` currently loads the ``z3c.autoinclude`` plugins unless a zcml condition is true: ``not-have disable-autoinclude``.
+  When ``Products.CMFPlone`` switches to ``plone.autoinclude``, it can use this same condition.
+
+In general, ``plone.autoinclude`` is a bit more modern, as it only started in 2020, and only supports Python 3.
+
+
+Usage in Plone 5.2
+------------------
+
+Since Plone 6.0.0a2 this is included in core, so nothing needs to be done there.
+If you want to use it in Plone 5.2, this is possible.
+First add it to your buildout::
+
+    [instance]
+    ...
+    eggs +=
+        plone.autoinclude
+    zcml +=
+        plone.autoinclude.ploneinclude-meta
+        plone.autoinclude.ploneinclude
+        plone.autoinclude.ploneinclude-overrides
+
+This will include three zcml files from the ``ploneinclude`` directory.
+It will do this:
+
+- Disable the original z3c.autoinclude.
+- Load CMFPlone meta.zcml, so the order in which zcml is loaded stays mostly the same.
+- Load plone.autoinclude meta.zcml.
+- Automatically include the meta.zcml of all plone plugins.
+- Load CMFPlone configure.zcml.
+- Automatically include the configure.zcml of all plone plugins.
+- Load CMFPlone overrides.zcml.
+- Automatically include the overrides.zcml of all plone plugins.
+
+
+For other frameworks
+--------------------
+
+You can take the above section as example, and take care of the following
+
+- Include the ``plone.autoinclude`` package in ``install_requires``.
+- In your meta.zcml load the meta.zcml of plone.autoinclude.
+- In your meta.zcml load the meta.zcml of your plugins:
+  ``<autoIncludePlugins target="your-framework" file="meta.zcml" />``
+- In your configure.zcml load the configure.zcml of your plugins:
+  ``<autoIncludePlugins target="your-framework" file="configure.zcml" />``
+- In your overrides.zcml load the meta.zcml of your plugins in override mode:
+  ``<autoIncludePluginsOverrides target="your-framework" file="meta.zcml" />``
+
+
+Installation with pip
+---------------------
+
+Let's leave buildout completely out of the picture and only use pip, in this case with plone 5.2.5.
+We use the legacy resolver from pip, to avoid some possible problems that have nothing to do with autoinclude::
+
+    # Create virtual environment in the current directory:
+    python3.8 -mvenv .
+    # Install Plone and Paste:
+    bin/pip install -c https://dist.plone.org/release/5.2.5/constraints.txt Products.CMFPlone Paste --use-deprecated legacy-resolver
+    # Install plone.autoinclude from the current git checkout:
+    bin/pip install -e .
+    # or 'bin/pip install plone.autoinclude' to get the latest from PyPI.
+    # Create the Zope WSGI instance:
+    bin/mkwsgiinstance -d . -u admin:admin
+    # Copy our zcml that disables z3c.autoinclude and enables our own.
+    cp -a package-includes etc/
+    # Start Zope:
+    bin/runwsgi -v etc/zope.ini
+
+
+Contribute or get support
+-------------------------
+
+- If you are having issues, please let us know in the issue tracker: https://github.com/plone/plone.autoinclude/issues
+- The source code is on GitHub: https://github.com/plone/plone.autoinclude
+
+
+License
+-------
+
+The project is licensed under the GPLv2.
+
+Changelog
+=========
+
+
+.. You should *NOT* be adding new change log entries to this file.
+   You should create a file in the news directory instead.
+   For helpful instructions, please see:
+   https://github.com/plone/plone.releaser/blob/master/ADD-A-NEWS-ITEM.rst
+
+.. towncrier release notes start
+
+1.0.0a4 (2022-02-23)
+--------------------
+
+Bug fixes:
+
+
+- Replace dash with lowdash in project_name, as Python Project are normally divided by dash and modul name uses lowdash [MrTango] (#16)
+
+
+1.0.0a3 (2021-12-03)
+--------------------
+
+Bug fixes:
+
+
+- Decrease verbosity when loading packages (#11)
+
+
+1.0.0a2 (2021-10-20)
+--------------------
+
+Bug fixes:
+
+
+- Improved documentation, especially on how to include this.
+  Added zcml in a ploneinclude directory to make this easier for now.
+  [maurits] (#1)
+
+
+1.0.0a1 (2021-10-15)
+--------------------
+
+New features:
+
+- Initial release.
+  [maurits, tschorr]
+
+
