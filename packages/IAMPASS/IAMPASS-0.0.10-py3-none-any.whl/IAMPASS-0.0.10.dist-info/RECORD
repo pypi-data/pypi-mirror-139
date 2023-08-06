@@ -1,0 +1,13 @@
+IAMPASS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IAMPASS/authentication_api.py,sha256=9HpemXdgmd5WMtKiXj0M5GeKlE7xjNE9LMQo6nEoLBU,3484
+IAMPASS/authentication_method.py,sha256=HClGcwUxHtNjWI8Kp_CBce7l4WE2mb018J8aTO70ki4,187
+IAMPASS/config.py,sha256=29Rnvy1r3Z9cnhL8hLEM6fmRQb2iQUNr1F_LdNpX-Do,115
+IAMPASS/hmac.py,sha256=bMYgxT5pSTvGdALuWVB1Y-f4pL3inz0scfZ27CiS-6U,1429
+IAMPASS/management_api.py,sha256=mUUZ2CRe-NezWCzXcU6OlHHI2CWMKcbI9lYsuemwK2E,12909
+IAMPASS/session.py,sha256=qgG3RB4-pSxw9drSfVVj6pERjDWBfPxfqryOPKtVMro,6421
+IAMPASS/status.py,sha256=z1czIaz0C6-AqSULkM63cSDevCkVRF3hwpBPa_XBCsI,175
+IAMPASS-0.0.10.dist-info/LICENSE,sha256=yrn6vcAOqal-kRY74Jy6sj-ael6sVs78fADykQhWAL8,1081
+IAMPASS-0.0.10.dist-info/METADATA,sha256=zWDmvfy1HBzV9S8u8qlEADW7vtex9k7lIaVR56_kLLE,7114
+IAMPASS-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+IAMPASS-0.0.10.dist-info/top_level.txt,sha256=LEUHG-Z-gkW82wwWe77tYJECia_p9WcSw0ZO4T2IUHk,8
+IAMPASS-0.0.10.dist-info/RECORD,,
