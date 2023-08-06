@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cli-weather-app/cli_weather_app.egg-info/PKG-INFO
+cli-weather-app/cli_weather_app.egg-info/SOURCES.txt
+cli-weather-app/cli_weather_app.egg-info/dependency_links.txt
+cli-weather-app/cli_weather_app.egg-info/entry_points.txt
+cli-weather-app/cli_weather_app.egg-info/top_level.txt
