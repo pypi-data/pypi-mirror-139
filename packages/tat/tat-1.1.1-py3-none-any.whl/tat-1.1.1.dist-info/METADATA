@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tat
+Version: 1.1.1
+Summary: A GUI tool for tomography analysis and clustering
+Home-page: https://github.com/ShinoYasx/tat
+Author: Hugo Haldi
+Author-email: hugo.haldi@etu.unige.ch
+License: Apache-2
+Project-URL: Bug Tracker, https://github.com/ShinoYasx/tat/issues
+Project-URL: Documentation, https://tat.readthedocs.io/
+Project-URL: Source Code, https://github.com/ShinoYasx/tat
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: PySide6 (==6.2.3)
+Requires-Dist: numpy (==1.22.2)
+Requires-Dist: opencv-python (==4.5.5.62)
+Requires-Dist: scikit-image (==0.19.2)
+Requires-Dist: scikit-learn (==1.0.2)
+Requires-Dist: scipy (==1.7.3)
+Requires-Dist: cx-Freeze (==6.10)
+
+A GUI tool for tomography analysis and clustering
+
