@@ -1,0 +1,6 @@
+pandas
+numpy
+flopy>=3.3.4
+pyshp
+pycrs
+matplotlib
