@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Boosting-Probit
+Version: 0.0.1
+Summary: The aim is to address measurement error effects in regression models, and employ boosting procedure to do variable selection and estimation.
+Author: Ou Yang, Qin-Ying
+Author-email: 109354014@nccu.edu.tw
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+The aim is to address measurement error effects in regression models, and employ boosting procedure to do variable selection and estimation.
+
