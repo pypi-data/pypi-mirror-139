@@ -1,0 +1,2 @@
+[console_scripts]
+miniomm = miniomm.main:main
