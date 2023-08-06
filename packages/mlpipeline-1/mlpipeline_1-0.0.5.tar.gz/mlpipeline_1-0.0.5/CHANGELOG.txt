@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.5 (18/02/2022)
+--------------------
+- This is my Fifth Release of the project with some changes solving some errors from the previous version and updating the readme file for better clarity for the users on how to use this.
