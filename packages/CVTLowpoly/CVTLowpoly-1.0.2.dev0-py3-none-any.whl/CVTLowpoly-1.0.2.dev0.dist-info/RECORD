@@ -1,0 +1,11 @@
+CVTLowpoly/__init__.py,sha256=wz8uJ5YaYhcREm0VkPedlDN7LYMZ1OcESGJ1baiKrXU,229
+CVTLowpoly/cvt_lloyd.py,sha256=HCBkiSFpDH0t_erbtgNxbvTTj1YY5FJPyw5ellJ5_pI,2726
+CVTLowpoly/cvt_lowpoly.py,sha256=0ubf7VmzKGMxThpTZ1l7LeIK30rUOS7ZOtNuWyguxZE,5774
+CVTLowpoly/fast_cvt_lowpoly.py,sha256=M4miaeaSF_4yXy4YlpgncmlF_P7dN7DiM23qs2Nt-Hs,4958
+CVTLowpoly/jumping_flooding.py,sha256=qGNCtzQDOfAEMIBDJWK_n_Upib1Z7K0ifBgjtZSP2Bc,3063
+CVTLowpoly/tri_raster.py,sha256=byX_VwIJjrR2wLjcC1e_OFZVbXNenPFa-00j5HqGXuI,4186
+CVTLowpoly-1.0.2.dev0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+CVTLowpoly-1.0.2.dev0.dist-info/METADATA,sha256=puSuv7JX-mitHghP7HbnbVu44cmSGtNHPnNtMLcvkzM,878
+CVTLowpoly-1.0.2.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CVTLowpoly-1.0.2.dev0.dist-info/top_level.txt,sha256=GukZU5XjjBT70TVjopHZitEV2lb07rtPc7VeJP7phQg,11
+CVTLowpoly-1.0.2.dev0.dist-info/RECORD,,
