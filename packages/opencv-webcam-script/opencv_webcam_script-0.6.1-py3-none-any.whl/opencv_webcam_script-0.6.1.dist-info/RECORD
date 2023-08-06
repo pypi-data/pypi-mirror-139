@@ -1,0 +1,17 @@
+opencv_webcam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencv_webcam/opencv_webcam.py,sha256=Cs61NBDtwWN7hGe8MTSjLJAtg3Kzj3tIVrhcjgIWPyI,16706
+opencv_webcam/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencv_webcam/utils/args_yaml.py,sha256=c1ZIs3PXA4yHx33ai8ZamRtSTzqi6NdQdYYFUe2_0pI,318
+opencv_webcam/utils/compress.py,sha256=cIIvzR5l4IrFuqTgLjlLZQxyE_29CKh18AC5dH4qahY,2695
+opencv_webcam/utils/fonts_opt.py,sha256=v2Hsg7RgE1kRG470an_xd97Ce69eINatHmS5dLZmECA,1320
+opencv_webcam/utils/frame_opt.py,sha256=bu9lzk74RfKlLo2pRs8GBfn9b4ceGQ-cJ59mEaT2CnU,2231
+opencv_webcam/utils/hotkey.py,sha256=Kz1QAOhGBlLhLfOjSSPlX0CV3OqdXIxueXOW-ceh7YU,442
+opencv_webcam/utils/log.py,sha256=q8nnaZITRUOQx6HQg_llHzSR7vAKZTX8brThzQFw8r0,866
+opencv_webcam/utils/ows_path.py,sha256=TzVo9DzcMfmjeG_SQjwPqQr_gnz_L-ZKzfBriswES8I,857
+opencv_webcam/utils/plot.py,sha256=ycLdhdTEk8vs4d3JVn6FWDprr1lxL8Y-bjlj6jEOu_I,5831
+opencv_webcam/utils/time_format.py,sha256=xzDWsn39zUYwwUbXUTA-jWu1CGqYpIaQ4xwNtZQJd9I,1069
+opencv_webcam_script-0.6.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+opencv_webcam_script-0.6.1.dist-info/METADATA,sha256=pjkTQc5vr7CJM2vyyKyxPEQilftI7nCcNxFpokYm0X8,20661
+opencv_webcam_script-0.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opencv_webcam_script-0.6.1.dist-info/top_level.txt,sha256=me-NSLy7BXqZcjemHph9jLWqS1HVDnTFTR_YaOhttB0,14
+opencv_webcam_script-0.6.1.dist-info/RECORD,,
