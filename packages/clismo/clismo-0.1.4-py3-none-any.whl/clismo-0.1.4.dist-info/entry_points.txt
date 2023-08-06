@@ -1,0 +1,3 @@
+[console_scripts]
+clismo=clismo.main:app
+
