@@ -1,0 +1,4 @@
+[console_scripts]
+mqtt-alerter=mqtt_to_pagerduty.emitter:createAlertMessage
+mqtt-topic-to-pd=mqtt_to_pagerduty.cli:topicReaderCommand
+
