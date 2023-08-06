@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: BOOME
+Version: 0.0.1
+Summary: This package aims to employ the boosting algorithm to do variable selection and estimation for measurement error in binary responses and high-dimensional covariates.
+Author: Qin-Ying Ou Yang and Li-Pang Chen
+Author-email: 109354014@nccu.edu.tw, lchen723@nccu.edu.tw
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+A python package BOOME, known as BOOsting algorithm for Measurement Error in binary responses and high-dimensional covariates, is used to select informative variables and estimate associated parameters with correction of misclassification in responses and measurement error effects in covariates simultaneously. There are three functions in this package: ME_Generate, LR_Boost, and PM_Boost.
+
+The function ME_Generate is used to generate the artificial data subject to error-prone covariates and misclassified binary responses. Two functions LR_Boost and PM_Boost aim to correct for measurement error effects in responses, covariates, or both, and then implement the boosting procedure to do variable selection and estimation for logistic regression models (LM) and probit models (PM), respectively.
+
+
