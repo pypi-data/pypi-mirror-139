@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nesterdeeas/__init__.py
+src/nesterdeeas/nesterdeeas.py
+src/nesterdeeas.egg-info/PKG-INFO
+src/nesterdeeas.egg-info/SOURCES.txt
+src/nesterdeeas.egg-info/dependency_links.txt
+src/nesterdeeas.egg-info/top_level.txt
