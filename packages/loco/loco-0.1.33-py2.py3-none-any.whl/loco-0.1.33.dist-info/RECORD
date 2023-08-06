@@ -1,0 +1,11 @@
+loco/__init__.py,sha256=OSGNfOiXo3D1dBG48tPYgKhoZUbgY2yalQFp91NKI4c,785
+loco/loco.py,sha256=LO1N67um88j1IurpfyWS5t1ZR1ADMEikehnI80kAGJE,11251
+loco/utils.py,sha256=KnzJO8YT-qQCwCdOz2UBwcjDkyy81VkdmW7mxqMmlPE,668
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/all_test.py,sha256=qTQGxTay32PLpgAFEvjl5TYCM3zskh5Ky2cblkExO_Y,253
+loco-0.1.33.dist-info/LICENSE,sha256=PIc7tCnafo_TTa5gwg_TBKLopwIFP1vs0ZK6VEkq_Mk,34519
+loco-0.1.33.dist-info/METADATA,sha256=Glt6Gy4-BBmwYrcqXsKqWxGfM_ztchwMbyPc_T9xSnI,1134
+loco-0.1.33.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+loco-0.1.33.dist-info/entry_points.txt,sha256=qub5h6Pk82z-z08YF134ljmijfQjQmhfJgLysxZZ8Ig,41
+loco-0.1.33.dist-info/top_level.txt,sha256=dLswizDqqcT9kAmt-uNsJfm6yZv4fzSJ-zyxhOIcduI,11
+loco-0.1.33.dist-info/RECORD,,
