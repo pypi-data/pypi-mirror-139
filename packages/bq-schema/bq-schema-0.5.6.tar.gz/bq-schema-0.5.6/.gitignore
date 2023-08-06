@@ -1,0 +1,11 @@
+.idea
+.mypy_cache
+dist
+__pycache__
+Pipfile
+env
+.vscode
+.coverage
+coverage.xml
+htmlcov/
+junit/
