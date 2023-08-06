@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"OTP-CR-117/19"
+
+
+from genocide.event import Event
+from genocide.function import format
+from genocide.kernel import Cfg, boot, kcmd, root, wait
+from genocide.object import Object, update, values
+from genocide.parse import parse
+from genocide.handler import Handler
+from genocide.thread import launch
+
+
+from genocide.irc import IRC
+
+
+import genocide.all
+
+
+Cfg.wd = "/var/lib/genocide/"
+
+
+def main():
+    i = IRC()
+    launch(i.start)
+    wait()
+
+
+main()
