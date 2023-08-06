@@ -1,0 +1,6 @@
+pikepdf>=2.2.0
+wxPython>=4.1
+Babel
+
+[test]
+PyYAML
