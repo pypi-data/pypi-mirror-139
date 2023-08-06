@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sankeyflow
+Version: 0.0.1
+Summary: Creating Sankey flow diagrams in Matplotlib
+Home-page: https://github.com/riley-x/SankeyFlow
+Author: Riley Xu
+Author-email: riley.xu@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/riley-x/SankeyFlow/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SankeyFlow
+
+Hello!
+
