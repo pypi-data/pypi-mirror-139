@@ -1,0 +1,8 @@
+README.md
+setup.py
+soupspoon/__init__.py
+soupspoon.egg-info/PKG-INFO
+soupspoon.egg-info/SOURCES.txt
+soupspoon.egg-info/dependency_links.txt
+soupspoon.egg-info/not-zip-safe
+soupspoon.egg-info/top_level.txt
