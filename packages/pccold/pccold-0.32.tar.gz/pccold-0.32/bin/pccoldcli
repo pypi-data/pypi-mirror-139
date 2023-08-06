@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import pccold
+import sys
+
+output=sys.argv[1]
+if len(sys.argv)==3:
+	pccold.cli_main(output,sys.argv[2])
+else:
+	pccold.cli_main(output,None)
