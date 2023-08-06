@@ -1,0 +1,85 @@
+
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; color: #000000; }
+table       { font-size: 100%; }
+pre         { color: #000000; }
+p           { margin: 20px 0; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin: 10px;
+}
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+a.popup_link:hover {
+    color: red;
+}
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #F5F5F5;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 100%;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+tr {
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+}
+#header_row {
+    font-weight: bold;
+    color: #000000;
+    background-color: #008B8B;
+    font-size: 16px;
+    height: 35px;
+}
+#result_table td {
+    border: 1px solid #00CED1;
+    padding: 2px;
+    word-wrap: break-word;
+}
+.middle-col {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.total-area {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding: 15px;
+}
+.table { table-layout: fixed; }
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #AFEEEE; }
+.failClass  { background-color: #FFC0CB; }
+.errorClass { background-color: #FFC0CB; }
+.skipClass { background-color: #C0C0C0; }
+.passCase   { color: #008000; }
+.failCase   { color: #FF0000; font-weight: bold; }
+.errorCase  { color: #DAA520; font-weight: bold; }
+.skipCase  { color: #696969; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+    min-height: 30px;
+}
