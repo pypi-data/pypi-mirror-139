@@ -1,0 +1,2 @@
+[console_scripts]
+bag2dataset = pointcloudset.io.dataset.commandline:app
