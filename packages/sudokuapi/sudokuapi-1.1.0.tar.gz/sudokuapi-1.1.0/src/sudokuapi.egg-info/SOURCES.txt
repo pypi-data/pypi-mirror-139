@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/sudokuapi/__init__.py
+src/sudokuapi/sudokuapi.py
+src/sudokuapi.egg-info/PKG-INFO
+src/sudokuapi.egg-info/SOURCES.txt
+src/sudokuapi.egg-info/dependency_links.txt
+src/sudokuapi.egg-info/top_level.txt
