@@ -1,0 +1,2 @@
+[console_scripts]
+ig2wp = ig2wp.__main__:main
