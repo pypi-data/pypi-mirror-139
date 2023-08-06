@@ -1,0 +1,9 @@
+r53spflat/__init__.py,sha256=ZcDsp9-ntABkUYrxnMH4cibqUtRi3wQ3mHsGztnjcEA,3643
+r53spflat/cli.py,sha256=FJQpayIDF5PpnmT0vBgXmjzObr5BENXkTrEZx_Dm3H4,2937
+r53spflat/r53_dns.py,sha256=lP1axJOqizY61bqOX1UlfzNuRY4lZgBTeh1ZFqE9lgc,6876
+r53spflat-22.2.20.data/scripts/r53spflat,sha256=U-31hl3HqAU5Nsrv5nUqhkqsb2DtjBuqmwOixOg3igo,99
+r53spflat-22.2.20.dist-info/LICENSE.txt,sha256=IsKhNAExnuxGLWUOpUYTEH0JttGV2QexZXW-ttXs0YE,1067
+r53spflat-22.2.20.dist-info/METADATA,sha256=mA4S5-eNC3vy4GKyXdcooFORlPX7LiqM1OcnxvuSveI,10343
+r53spflat-22.2.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+r53spflat-22.2.20.dist-info/top_level.txt,sha256=Rgv3yprtvAGJO248xn24QM6auB64oGgcFr12uSUlY30,10
+r53spflat-22.2.20.dist-info/RECORD,,
