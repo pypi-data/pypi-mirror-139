@@ -1,0 +1,2 @@
+[console_scripts]
+onnx2connx = onnx_connx.cli:main
