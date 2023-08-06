@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: subdomain
+Version: 0.1.0
+Summary: 这是一个使用异步协程的子域名爆破工具。
+Author: zmf96
+Author-email: zmf96@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: IPy (>=1.01,<2.0)
+Requires-Dist: aiodns (>=3.0.0,<4.0.0)
+Requires-Dist: autopep8 (>=1.6.0,<2.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)

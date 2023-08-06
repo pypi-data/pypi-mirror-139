@@ -1,0 +1,7 @@
+subdomain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subdomain/dict/default.txt,sha256=GmqYNgkCIr4alVrhYoiOBZkOkpE77Gs8z3-j4G4rFqo,869371
+subdomain/dict/test.txt,sha256=kyYNCfXJkuPabdjuRlUuIofjtWI96OVPa8z4pp9yu_I,2695
+subdomain/subdomain.py,sha256=lHFzcFzRCFJDeMByCtMLnh-Y5AREnPevcAzK5EDuvfg,7354
+subdomain-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+subdomain-0.1.0.dist-info/METADATA,sha256=Ma9RvuKWZzIfXRpjqGWWwvqxi1WNTPLlNpswY1Z9yY4,540
+subdomain-0.1.0.dist-info/RECORD,,
