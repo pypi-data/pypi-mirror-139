@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/power_terminal/__init__.py
+src/power_terminal/terminal.py
+src/powerterminal.egg-info/PKG-INFO
+src/powerterminal.egg-info/SOURCES.txt
+src/powerterminal.egg-info/dependency_links.txt
+src/powerterminal.egg-info/top_level.txt
