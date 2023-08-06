@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mdtob64
+Version: 0.0.1
+Summary: 一个将markdown图片转换为base64的程序
+Home-page: 
+Author: 测码范晔
+Author-email: 1538379200@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# mdtob64--markdown图片转base64程序
+
+---
+
+## 导入包使用 from mdtob64.mdtob64 import mdtob64
+
+## 命令行运行 mdtob64
+
+## 需要填写两个参数
+### 文件路径需要包括文件本身，需要写上格式.md
+### 新文件存放当前目录下，只需要写上文件名
+
