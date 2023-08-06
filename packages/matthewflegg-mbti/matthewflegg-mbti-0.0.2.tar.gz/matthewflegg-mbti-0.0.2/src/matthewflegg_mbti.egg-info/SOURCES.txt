@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/matthewflegg_mbti.egg-info/PKG-INFO
+src/matthewflegg_mbti.egg-info/SOURCES.txt
+src/matthewflegg_mbti.egg-info/dependency_links.txt
+src/matthewflegg_mbti.egg-info/requires.txt
+src/matthewflegg_mbti.egg-info/top_level.txt
+src/prep/__init__.py
+src/prep/dataset.py
