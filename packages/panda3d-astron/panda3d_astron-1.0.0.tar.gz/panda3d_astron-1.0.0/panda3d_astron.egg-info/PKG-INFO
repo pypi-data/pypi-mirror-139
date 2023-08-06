@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: panda3d-astron
+Version: 1.0.0
+Summary: Panda3D Astron server support as a Python 3 module. Allows the use of Astron with stock Panda3D
+Home-page: https://github.com/thetestgame/panda3d_astron
+Author: Jordan Maxwell
+Maintainer: Jordan Maxwell
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# panda3d_astron
+Panda3D Astron server support as a Python 3 module. Allows the use of Astron with stock Panda3D
+
+
