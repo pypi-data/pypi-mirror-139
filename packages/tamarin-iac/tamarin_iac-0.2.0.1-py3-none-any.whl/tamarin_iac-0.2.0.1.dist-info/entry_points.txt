@@ -1,0 +1,3 @@
+[console_scripts]
+tamarin = tamarin_iac.tamarin:main
+
