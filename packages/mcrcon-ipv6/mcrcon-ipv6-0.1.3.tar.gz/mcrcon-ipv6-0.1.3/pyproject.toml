@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mcrcon-ipv6"
+version = "0.1.3"
+description = "mcrcon with IPv6 support"
+authors = ["firesquare <team@firesquare.ru>"]
+readme = "README.md"
+repository = "https://github.com/fire-squad/mcrcon"
+license = "AGPL3"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
