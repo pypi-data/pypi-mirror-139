@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "fh_fuzzy"
+version = "0.1.5"
+description = "Conjunto de classes para se trabalhar com a lógica Fuzzy"
+authors = ["Héber R. F Morais"]
+
+[tool.poetry.dependencies]
+python = "^2.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

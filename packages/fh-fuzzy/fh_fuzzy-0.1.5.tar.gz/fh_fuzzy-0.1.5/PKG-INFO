@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fh-fuzzy
+Version: 0.1.5
+Summary: Conjunto de classes para se trabalhar com a lógica Fuzzy
+Author: Héber R. F Morais
+Requires-Python: >=2.6,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
