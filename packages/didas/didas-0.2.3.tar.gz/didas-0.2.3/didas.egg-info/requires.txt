@@ -1,0 +1,4 @@
+cx-Oracle
+SQLAlchemy
+tqdm
+google-auth
