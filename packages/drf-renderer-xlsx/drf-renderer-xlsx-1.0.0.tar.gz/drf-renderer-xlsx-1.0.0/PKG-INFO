@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: drf-renderer-xlsx
+Version: 1.0.0
+Summary: Stub to alias the `drf-excel` package.
+Home-page: https://github.com/wharton/drf-excel
+Author: Tim Allen
+Author-email: tallen@wharton.upenn.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
