@@ -1,0 +1,12 @@
+beautifulday/__init__.py,sha256=hEebpXUEUh5LeSKdRYh4z0QOFLIyIZgddbWX9Xps5co,1229
+beautifulday/make_soup.py,sha256=QiHqkT6gAwtUeuc4_gmuBRu4X_zSy60O8EY-qbx19dQ,494
+beautifulday/weather.py,sha256=j42GPQabFexmL7m4Ezmx2chVBnyDjSWYNnyvQfzC1ac,3232
+beautifulday/weather_extended.py,sha256=oFJe3yG9wSSRzTfCpnxevRR8IO5Oq4HDAP_r6ctItnE,567
+beautifulday/weather_hourly.py,sha256=tzxoiypc-vfz1RHKqbxkLjo7aM3b-Ahda7qyglMYe5s,219
+beautifulday-0.3.0.data/scripts/beautifulday,sha256=Ca1w4OJb6qc87_Hw_MSkEM1wLPlfIZRqnUyX8eg5DKA,82
+beautifulday-0.3.0.dist-info/DESCRIPTION.rst,sha256=BlToRlQJEy800Ki_gOdf9sPoGl-G-h7rO2rgdev_0rM,3605
+beautifulday-0.3.0.dist-info/METADATA,sha256=3tZRmyJNeqGzNgf1QzUQUFLuh9lIM_23mcuDy4-WxIg,4346
+beautifulday-0.3.0.dist-info/RECORD,,
+beautifulday-0.3.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+beautifulday-0.3.0.dist-info/metadata.json,sha256=b2PUE0_CqXf8_VgHTFQX0l-B_h8qdd-HeZRZ9uhkpto,906
+beautifulday-0.3.0.dist-info/top_level.txt,sha256=MFHH7hAerAbxbt021xlWDeW3Wf7bzAZvRNtVSsjMcNA,13

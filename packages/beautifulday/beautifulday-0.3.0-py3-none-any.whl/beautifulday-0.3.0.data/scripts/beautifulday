@@ -1,0 +1,6 @@
+#!python
+
+import beautifulday
+
+if __name__ == "__main__":
+    beautifulday.main()
