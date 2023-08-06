@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+menubar/__init__.py
+menubar/__main__.py
+menubar.egg-info/PKG-INFO
+menubar.egg-info/SOURCES.txt
+menubar.egg-info/dependency_links.txt
+menubar.egg-info/entry_points.txt
+menubar.egg-info/not-zip-safe
+menubar.egg-info/requires.txt
+menubar.egg-info/top_level.txt
+tests/__init__.py

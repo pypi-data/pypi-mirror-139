@@ -1,0 +1,3 @@
+recursive-include menubar *
+global-exclude *.py[cod]
+include VERSION
