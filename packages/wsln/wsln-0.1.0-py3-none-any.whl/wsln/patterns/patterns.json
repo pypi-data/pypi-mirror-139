@@ -1,0 +1,260 @@
+{
+    "phrases": [
+        {
+            "pattern": "ADJ N",
+            "merge": "N"
+        },
+        {
+            "pattern": "ADV ADJ",
+            "merge": "ADJ"
+        },
+        {
+            "pattern": "V ADV",
+            "merge": "V"
+        }
+    ],
+    "links": [
+        {
+            "type": "conj-and",
+            "patterns": [
+                {
+                    "pattern": "N1 I(and|as well as|besides) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "conj-or",
+            "patterns": [
+                {
+                    "pattern": "N1 I(or|except|except for|but) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "situation",
+            "patterns": [
+                {
+                    "pattern": "N1 I(in|at|on|under|than|as|inside|upside|that|what|which|where|who|whom) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                },
+                {
+                    "pattern": "N1 I(in|at|on|under|than|as|inside|upside|that|what|which|where|who|whom) NUM",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "NUM"
+                }
+            ]
+        },
+        {
+            "type": "condition",
+            "patterns": [
+                {
+                    "pattern": "N1 I(if|whether|why|unless) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                },
+                {
+                    "pattern": "I(If|When|Unless|While) N1",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N1"
+                },
+                {
+                    "pattern": "N1 I(then) N2",
+                    "from_id": "N2",
+                    "indicator": "I",
+                    "to_id": "N1"
+                }
+            ]
+        },
+        {
+            "type": "cause-effect",
+            "patterns": [
+                {
+                    "pattern": "N1 I(since|so|therefore|thus|lead to|why) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                },
+                {
+                    "pattern": "N1 I(because|because of|due to) N2",
+                    "from_id": "N2",
+                    "indicator": "I",
+                    "to_id": "N1"
+                },
+                {
+                    "pattern": "I(because|because of|due to) N",
+                    "from_id": "N",
+                    "indicator": "I",
+                    "to_id": "N"
+                }
+            ]
+        },
+        {
+            "type": "abstract",
+            "patterns": [
+                {
+                    "pattern": "N1 I(kind of|type of|class of) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "part-whole",
+            "patterns": [
+                {
+                    "pattern": "N1 I(part of|componenet of) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "purpose",
+            "patterns": [
+                {
+                    "pattern": "N1 I(for|to|aim to|in order to|want to|would like to) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "similar",
+            "patterns": [
+                {
+                    "pattern": "N1 I(similar to|like|same as|compared with|resemblance to) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "means",
+            "patterns": [
+                {
+                    "pattern": "N1 I(use|by|through|via|with|how|how to|based on) N2",
+                        "from_id": "N1",
+                        "indicator": "I",
+                        "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "own",
+            "patterns": [
+                {
+                    "pattern": "N1 I(of|belong to_id) N2",
+                    "from_id": "N2",
+                    "indicator": "I",
+                    "to_id": "N1"
+                },
+                {
+                    "pattern": "N1 I(whose) N2",
+                    "from_id": "N1",
+                    "to_id": "N2"
+                },
+                {
+                    "pattern": "N1 I('s|have|has|own) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "action",
+            "patterns": [
+                {
+                    "pattern": "N1 V N2",
+                    "from_id": "N1",
+                    "indicator": "V",
+                    "to_id": "N2"
+                },
+                {
+                    "pattern": "N1 V",
+                    "from_id": "N1",
+                    "indicator": "V",
+                    "to_id": ""
+                },
+                {
+                    "pattern": "V N1",
+                    "from_id": "",
+                    "indicator": "V",
+                    "to_id": "N1"
+                }
+            ]
+        },
+        {
+            "type": "attribute",
+            "patterns": [
+                {
+                    "pattern": "N V ADJ",
+                    "from_id": "N",
+                    "indicator": "V",
+                    "to_id": "ADJ"
+                },
+                {
+                    "pattern": "N ADJ",
+                    "from_id": "N",
+                    "to_id": "ADJ",
+                    "indicator": "ADJ"
+                },
+                {
+                    "pattern": "N1 ADV N2",
+                    "from_id": "N1",
+                    "to_id": "N2",
+                    "indicator": "ADV" 
+                },
+                {
+                    "pattern": "N1 ADV",
+                    "from_id": "N1",
+                    "to_id": "",
+                    "indicator": "ADV" 
+                },
+                {
+                    "pattern": "ADV N2",
+                    "from_id": "N2",
+                    "to_id": "",
+                    "indicator": "ADV" 
+                }
+            ]
+        },
+        {
+            "type": "negative",
+            "patterns": [
+                {
+                    "pattern": "N1 I(not|don't|do not|never|no|without|not|never) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        },
+        {
+            "type": "sequential",
+            "patterns": [
+                {
+                    "pattern": "N1 I(,|:|;) N2",
+                    "from_id": "N1",
+                    "indicator": "I",
+                    "to_id": "N2"
+                }
+            ]
+        }
+    ]
+}
