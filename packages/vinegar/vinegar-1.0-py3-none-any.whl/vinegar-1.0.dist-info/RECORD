@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_csv.py,sha256=0lyFvIOJQbcedhVP8YvWFeQJPqlUbStXdAovxKz7luo,614
+tests/test_wrongtype.py,sha256=-RdTRpT8Z42mjU9LZwi5jkiWFvZ4sXNULN9Lz3Hu0Po,94
+vinegar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vinegar/vinegar.py,sha256=IleyToCkBVqI5YCiRW7tHFikH31fSyIa_X95xa8isXI,425
+vinegar-1.0.dist-info/METADATA,sha256=ETXUgCb02z7BpBZHTREB6ZOdy89ZgVCxGezEuyIARKI,771
+vinegar-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vinegar-1.0.dist-info/entry_points.txt,sha256=hIXCGF_kJUjL3xJnqEMyr4wKh3QSKQix7-Bx0gXdOqM,52
+vinegar-1.0.dist-info/top_level.txt,sha256=ydl6bOb-Ka6QG8sE6U88DzbfkMIMN2JpkwsJkAbNKAU,14
+vinegar-1.0.dist-info/RECORD,,

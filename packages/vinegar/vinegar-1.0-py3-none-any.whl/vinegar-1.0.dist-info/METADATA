@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: vinegar
+Version: 1.0
+Summary: CLI to convert data into pickled pandas DataFrames.
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pip (>=9)
+Requires-Dist: setuptools (>=26)
+Requires-Dist: twine
+Requires-Dist: wheel (>=0.29)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: black
+Requires-Dist: coverage
+Requires-Dist: flake8
+Requires-Dist: pytest
+Requires-Dist: yapf
+
+# Vinegar CLI 1.0
+- A basic command line CLI to convert files to pickles of pandas DataFrames
+so that you make universal pipelines to pickles no matter the format your data
+arrives in.
+
+# Installation
+
+```bash
+pip install vinegar
+```
+
+# Usage
+
+To convert a csv to a pandas df as a pickle.
+
+```bash
+vinegar example.csv
+```
+
+

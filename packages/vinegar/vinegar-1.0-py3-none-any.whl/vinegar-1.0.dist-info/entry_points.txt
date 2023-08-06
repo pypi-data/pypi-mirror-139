@@ -1,0 +1,2 @@
+[console_scripts]
+vinegar = vinegar.vinegar:vinegar
