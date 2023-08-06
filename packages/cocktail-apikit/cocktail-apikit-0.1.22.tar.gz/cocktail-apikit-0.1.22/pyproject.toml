@@ -1,0 +1,56 @@
+[tool.black]
+line-length = 120
+target-version = ['py37', 'py38', 'py39']
+include = '\.py$'
+extend-exclude = '''
+/(
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+  | profiling
+)/
+'''
+
+[tool.pylint.master]
+fail-under = 8
+
+[tool.pylint.format]
+max-line-length = "120"
+
+[tool.pylint.SIMULARITIES]
+min-similarity-lines = 4
+
+[tool.vulture]
+exclude = ["*.conf.py"]
+ignore_decorators = []
+ignore_names = []
+make_whitelist = true
+min_confidence = 60
+paths = ["cocktail_apikit"]
+sort_by_size = true
+verbose = true
+
+[tool.coverage.run]
+omit = [
+    "venv/*",
+    ".pytest_cache/",
+    ".scannerwork/",
+    ".sonar/",
+    "ak47.py"
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--cov=.",
+    "-o junit_family=xunit1",
+    "--cov-report=xml:./coverage_report.xml",
+    "--cov-report=term",
+    "--junitxml=test_report.xml",
+    "--no-cov-on-fail",
+    "--cov-fail-under=70"
+]
+
+testpaths = [
+    "cocktail_apikit/",
+    "test/"
+]
