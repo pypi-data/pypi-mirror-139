@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Topsis_Parv_101916073
+Version: 0.3
+Summary: package for implimentation of topsis in python
+Home-page: https://github.com/parvg555/Topsis_Parv_101916073
+Author: Parv Gupta
+Author-email: parvg555@gmail.com
+License: MIT
+Download-URL: https://github.com/parvg555/Topsis_Parv_101916073/archive/refs/tags/stablev0.2.tar.gz
+Description: UNKNOWN
+Keywords: Topsis,data science,predictive analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
