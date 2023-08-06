@@ -1,0 +1,15 @@
+firebolt_cli/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+firebolt_cli/common_options.py,sha256=pTPqhHWQUrMHqlMcUg-XGmWyhFyA5M0tObEWyMUktD8,2226
+firebolt_cli/configure.py,sha256=2BRV35ZMtRGAHidhaZdVir9b-E0Zh9xYP8O5fgIADhk,1940
+firebolt_cli/database.py,sha256=fwHb20vt9qu2_Q48Jji7g1i2W9MDxatrYDEJ-QLL2kQ,5596
+firebolt_cli/engine.py,sha256=qi9MC9qjIg0Yg_t8jIJKJs-AhSh9jmpx41duYsZpMFY,18087
+firebolt_cli/exit_codes.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firebolt_cli/main.py,sha256=V4dCstginmqA9imrsVL-eNiqvbE_dD_8N5taqpsI91s,478
+firebolt_cli/query.py,sha256=tM0K3qIVtQ8VbePMxJ811lzZYvPQvnR2aPD8bEEytVw,5958
+firebolt_cli/utils.py,sha256=tEuamCbbc70hJN37vLECj-g-3SgnjUf2Rk1TtM7OeqU,6869
+firebolt_cli-0.0.3.dist-info/LICENSE,sha256=A4MQfAmu3EiWyaXjkWppFelH4JzSOKqDNmoqad52gnA,11354
+firebolt_cli-0.0.3.dist-info/METADATA,sha256=OXhujrQroZY3yMCp0I3I4UTa_FRYbCYwa-co4n60yRE,7086
+firebolt_cli-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+firebolt_cli-0.0.3.dist-info/entry_points.txt,sha256=Svp98gsl6xPnagv-h8M8R9AZd_9Y_-qXDc90ZR8fNxU,52
+firebolt_cli-0.0.3.dist-info/top_level.txt,sha256=SWn9_N95aGPQRtdmM4bMYpPhLZHC-MsN0DLJsftDZAs,13
+firebolt_cli-0.0.3.dist-info/RECORD,,
