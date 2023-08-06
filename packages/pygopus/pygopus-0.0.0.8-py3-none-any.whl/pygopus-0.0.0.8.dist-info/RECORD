@@ -1,0 +1,16 @@
+pygopus/__init__.py,sha256=bRA2ZUlJXzfBbeL9fP93jzsGEiYQLnzQFz5Rh-SNliE,27
+pygopus/_deprecated.py,sha256=eCtG1YkzOLAxZzL6_rQtjzEZrniVrvqtm8UWzA_cFIQ,6524
+pygopus/_figure.py,sha256=7E-h7hI9AYEkZi_EAOCgbiIUk254K6oaSFXgDvzOs3k,912
+pygopus/core.py,sha256=C2vHD_62W2izNSfTmQ4rdbdoKwGx3MLPcij0R2fjemc,7766
+pygopus/models.py,sha256=megihuc3SaJobPvH5DM0Um8ZfoEaNWA1jI_wf2NN0dU,7913
+pygopus/service.py,sha256=L0CksURyKeQFRWdkkVbtUHElbJC3pWA7-SFa6HytQIc,3389
+pygopus/stats.py,sha256=w2eFf7Q9gwc5JOuf5XJiSiBTd3gJXapGJuwiMyQmpVs,4812
+pygopus/utils.py,sha256=r55ebAdbA9Gad4Ue0Bhsnr3-To-XpmyhG5I1_Bisg0k,1274
+pygopus/bin/tpl.xlsx,sha256=KcBPrT0yjoiuqiHNOwPdIy42PmBuMnrexgaSAuDIv8c,8439
+pygopus/bin/Darwin/pygobin,sha256=2KEkKwyAZoGBwWpdq85RyhAV-RWThDFjMy6_Yfx_E68,10504976
+pygopus/bin/Linux/pygobin,sha256=kf242HWLeAr8VNpCVshhYmLfOrIkhmliD3bksozvcTo,10648307
+pygopus/bin/Windows/pygobin.exe,sha256=I3yNUAgI6W0eejD_-NHXlSMqVZKiMgwF-CVVBShVImM,10705920
+pygopus-0.0.0.8.dist-info/METADATA,sha256=825cciYScMv3utkxOSFKlJQvrulZlWdpdwLHomz2-8s,658
+pygopus-0.0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygopus-0.0.0.8.dist-info/top_level.txt,sha256=KnjhvU_lYjbWI_nU-DyNi294YbCMp6GZgfV9VTTU8JA,8
+pygopus-0.0.0.8.dist-info/RECORD,,
