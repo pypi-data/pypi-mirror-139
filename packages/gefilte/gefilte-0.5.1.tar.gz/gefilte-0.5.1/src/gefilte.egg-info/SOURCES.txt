@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+src/gefilte/__init__.py
+src/gefilte/gefilte.py
+src/gefilte.egg-info/PKG-INFO
+src/gefilte.egg-info/SOURCES.txt
+src/gefilte.egg-info/dependency_links.txt
+src/gefilte.egg-info/top_level.txt
