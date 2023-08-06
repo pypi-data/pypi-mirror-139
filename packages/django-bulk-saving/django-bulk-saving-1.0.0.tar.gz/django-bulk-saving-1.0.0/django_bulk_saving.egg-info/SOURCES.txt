@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bulk_saving/__init__.py
+bulk_saving/models.py
+django_bulk_saving.egg-info/PKG-INFO
+django_bulk_saving.egg-info/SOURCES.txt
+django_bulk_saving.egg-info/dependency_links.txt
+django_bulk_saving.egg-info/requires.txt
+django_bulk_saving.egg-info/top_level.txt
