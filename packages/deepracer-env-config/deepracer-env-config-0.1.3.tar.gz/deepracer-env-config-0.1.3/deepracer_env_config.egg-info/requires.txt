@@ -1,0 +1,3 @@
+setuptools
+deepracer-track-geometry>=0.1.0
+ude>=0.1.0
