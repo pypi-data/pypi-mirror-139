@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ai-workbench
+Version: 1.2.0
+Summary: GCP Vertex AI high level SDK
+Home-page: http://pypi.python.org/pypi/nmp/
+Author: Viacheslav Kovalevskyi
+Author-email: viacheslav@kovalevskyi.com
+License: LICENSE
+Platform: UNKNOWN
+Requires-Dist: docker (==5.0.*)
+Requires-Dist: google-cloud-aiplatform (==1.1.*)
+Requires-Dist: grpcio (==1.36.*)
+Requires-Dist: PyYAML (==5.4.*)
+Requires-Dist: google-api-python-client (==2.37.*)
+Requires-Dist: six (==1.16.*)
+Requires-Dist: google-cloud-storage (==1.32.*)
+Requires-Dist: nbformat (==5.1.*)
+
+UNKNOWN
+
+

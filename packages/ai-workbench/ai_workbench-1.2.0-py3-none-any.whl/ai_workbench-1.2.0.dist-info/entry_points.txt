@@ -1,0 +1,3 @@
+[console_scripts]
+workbench = workbench.cli:main
+
