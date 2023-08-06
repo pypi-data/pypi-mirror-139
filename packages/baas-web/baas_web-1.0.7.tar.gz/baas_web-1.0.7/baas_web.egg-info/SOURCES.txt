@@ -1,0 +1,9 @@
+setup.py
+baasWeb/__init__.py
+baasWeb/baasAutoWeb.py
+baas_web.egg-info/PKG-INFO
+baas_web.egg-info/PProject - Shortcut.lnk
+baas_web.egg-info/SOURCES.txt
+baas_web.egg-info/dependency_links.txt
+baas_web.egg-info/requires.txt
+baas_web.egg-info/top_level.txt
