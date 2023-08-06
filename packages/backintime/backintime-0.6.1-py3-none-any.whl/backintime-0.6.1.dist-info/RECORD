@@ -1,0 +1,13 @@
+backintime/__init__.py,sha256=5Y2qQCUipsyNN0gM2K3BEjp28KQaVcT9YfRMoIm2H4U,274
+backintime/candle.py,sha256=7Gi5B5WWwM5fyW3cCyu72J5x4sZoVHJ-HfnGKx7PjWg,330
+backintime/candle_properties.py,sha256=jcqTd52BXzwbL-G1P44Ntn4ZSmSiHZV-qqcQZFYpiZA,144
+backintime/exceptions.py,sha256=SjDB3HrkcmFptjK6WJ7mTrLIsxYZlf1xWz1v3_2rTSw,131
+backintime/fees.py,sha256=t6LUr-PczV_y2Dtf8yhmXWzr5vkd-h_ivlS7xjWrtGA,248
+backintime/timeframes.py,sha256=S43tNKY9-fCtBp-KgHdUmDZDv9qdpp8jA2UqFog1Q2Y,353
+backintime/trade_account.py,sha256=C7nunMdRtjGTG4T1C3XGrr-kJcL7DDmRERQ3FyCvkA4,1943
+backintime/trading_strategy.py,sha256=VVuGit2HTfFh5LSLJtcrgFusT2MXIeirYKAuNAaD1LI,2930
+backintime-0.6.1.dist-info/LICENSE,sha256=8gN7kRozSzJBQ4ha7nPF0eat-qJ32Ifb_Z3XpjucSzs,1071
+backintime-0.6.1.dist-info/METADATA,sha256=5LJwkeEEjIDWznNFBjyV1HivqSP0AjGRIH3GJvL9rc0,747
+backintime-0.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+backintime-0.6.1.dist-info/top_level.txt,sha256=xZK9mosEiP0jGHs4dfTak8MvGkvcQXRlQG9Iwi9GOGs,11
+backintime-0.6.1.dist-info/RECORD,,
