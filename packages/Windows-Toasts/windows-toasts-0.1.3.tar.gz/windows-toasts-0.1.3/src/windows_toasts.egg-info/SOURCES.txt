@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/windows_toasts/__init__.py
+src/windows_toasts/toast_audio.py
+src/windows_toasts/toast_document.py
+src/windows_toasts/toast_types.py
+src/windows_toasts/windows_toasts.py
+src/windows_toasts.egg-info/PKG-INFO
+src/windows_toasts.egg-info/SOURCES.txt
+src/windows_toasts.egg-info/dependency_links.txt
+src/windows_toasts.egg-info/requires.txt
+src/windows_toasts.egg-info/top_level.txt
