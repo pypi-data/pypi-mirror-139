@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+deltarescdk/__init__.py
+deltarescdk/kube_bucket.py
+deltarescdk/utils.py
+deltarescdk.egg-info/PKG-INFO
+deltarescdk.egg-info/SOURCES.txt
+deltarescdk.egg-info/dependency_links.txt
+deltarescdk.egg-info/requires.txt
+deltarescdk.egg-info/top_level.txt
