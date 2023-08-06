@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/arkadmin/__init__.py
+src/arkadmin/admin.py
+src/arkadmin/bundle.py
+src/arkadmin/widget.py
+src/arksurvival.egg-info/PKG-INFO
+src/arksurvival.egg-info/SOURCES.txt
+src/arksurvival.egg-info/dependency_links.txt
+src/arksurvival.egg-info/requires.txt
+src/arksurvival.egg-info/top_level.txt
