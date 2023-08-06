@@ -1,0 +1,9 @@
+sopel_modules.cryptocurrency-1.2.0-py3.9-nspkg.pth,sha256=GpO4OWqrcKGJyabPvvsBuBcrUk4pFr3K5HYvSnuQBi8,574
+sopel_modules/cryptocurrency/__init__.py,sha256=8beb1UHUj3iaIaw1wumt3Y9v3r7Jw8OtY-eQYDzLf08,195
+sopel_modules/cryptocurrency/cryptocurrency.py,sha256=FXA6llj-u4q69irGwnkc5w040vBXwJijLO62ltBZj34,3844
+sopel_modules.cryptocurrency-1.2.0.dist-info/LICENSE,sha256=cba8xvCgl5v_9PeMbodJZLvW110vCHmlqxyXuey1J1Q,1068
+sopel_modules.cryptocurrency-1.2.0.dist-info/METADATA,sha256=BhchpeHO0ZyU3CELM4LuVJlcWo3YFoujtNZCLIPkRkA,2270
+sopel_modules.cryptocurrency-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sopel_modules.cryptocurrency-1.2.0.dist-info/namespace_packages.txt,sha256=1GJk87jnz3vpuDVQimAVoSTAzCNN7PNkycVbH0Q1pkg,14
+sopel_modules.cryptocurrency-1.2.0.dist-info/top_level.txt,sha256=1GJk87jnz3vpuDVQimAVoSTAzCNN7PNkycVbH0Q1pkg,14
+sopel_modules.cryptocurrency-1.2.0.dist-info/RECORD,,
