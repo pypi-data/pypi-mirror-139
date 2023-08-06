@@ -1,0 +1,11 @@
+config/__init__.py,sha256=6n6VEU4md2bsQsNcu3pV9SQG1ATS-q2SXmIaPUMsPgQ,321
+config/config.py,sha256=b1x_wLv0YnAsc4Cmk-qSA6W1ulbj4HAnK3o239sXXBk,12232
+config/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hparams/__init__.py,sha256=ePAdHRG-tbVST3McGGxHNu3F0FD696RVaJaqsz_ru7E,476
+hparams/hparams.py,sha256=mfacphILCpVTDbW0EjJZ4E1jSieOnKsxXutbpVc8XyI,20961
+pythonic_config-0.4.0.dist-info/LICENSE,sha256=9P3stFpI9ie6ETRUK7FDCfyGjmSxSg0TQ9dfbn2K1EQ,1099
+pythonic_config-0.4.0.dist-info/METADATA,sha256=ImuDtEADXYfdCZaBXxvmp-PMk0dkZpCda04ZlqFuZww,6138
+pythonic_config-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pythonic_config-0.4.0.dist-info/top_level.txt,sha256=9hK4m828QBN59kTX5IVy40cPd9zUw5QWQF2AlSrXCJ4,7
+pythonic_config-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pythonic_config-0.4.0.dist-info/RECORD,,
