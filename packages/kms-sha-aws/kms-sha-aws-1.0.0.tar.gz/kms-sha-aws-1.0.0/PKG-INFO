@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kms-sha-aws
+Version: 1.0.0
+Summary: kms and hashing library
+Home-page: UNKNOWN
+Author: Nitish Chandna
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Library to do kms encryption and decryption and sha256 hashing
+
+//to import
+from kmsshademo.hashingutils import hashingutils
+
+//to craeet object
+hashObject=hashingutils()
+//to do hashing
+hashvalue=hashObject.getSha256Value("val")
+print(hashObject)
+
+//to do encryption
+hashObject.getkmsEncryptedValue("value","kms-key-arn")
+
+//to do decryption
+hashObject.getkmsDecryptedValue("encrypted value")
+
