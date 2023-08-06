@@ -1,0 +1,47 @@
+# Database-By-Charan
+
+Database-By-Charan is a Python library for Storing Your Data Locally In a File.
+
+## Installation
+
+Use the package manager [pip](https://pypi.org/project/database-by-charan/) to install database-by-charan.
+
+```bash
+pip install Database-By-Charan
+```
+
+## Usage
+
+```python
+import Database_By_Charan as db
+
+#change Data Storing File Name Or Location , Default Location Is Current directory And Name Of File Is 'data.db'
+db.file='store.db'
+
+#add Key,value returns data in dictionary format
+data=db.add('key','value')
+#data ===> {'key':'value'}
+
+#Return Value of key If There In Data Else Returns None
+value=db.val('key')
+
+#Delete key Returns Data If Key Is There In Data Else Returns None
+db.delkey('key')
+
+#List All The Keys In Data
+list=db.listkeys()
+
+#Get All The Data In Dictionary Format
+dataindict=db.getdata()
+#dataindict ===> {'key':'value','keys':'values'}
+```
+
+
+## License
+Copyright 2022 Charan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
