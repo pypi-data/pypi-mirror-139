@@ -1,0 +1,8 @@
+setup.py
+chiss/__init__.py
+chiss/chiss.py
+chiss/daskill.py
+chiss.egg-info/PKG-INFO
+chiss.egg-info/SOURCES.txt
+chiss.egg-info/dependency_links.txt
+chiss.egg-info/top_level.txt
