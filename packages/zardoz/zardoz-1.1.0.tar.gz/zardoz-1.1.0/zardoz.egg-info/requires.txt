@@ -1,0 +1,9 @@
+discord.py
+disputils
+rich
+dice
+pyyaml
+xdg
+aiofiles
+aiosql
+aiosqlite
