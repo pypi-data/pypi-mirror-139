@@ -1,0 +1,10 @@
+tensorflow
+tensorflow_probability
+numpy
+pandas
+joblib
+pathlib
+bokeh
+holoviews
+hvplot
+ennemi
