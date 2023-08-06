@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tests/__init__.py
+tests/test_csv.py
+tests/test_wrongtype.py
+vinegar/__init__.py
+vinegar/vinegar.py
+vinegar.egg-info/PKG-INFO
+vinegar.egg-info/SOURCES.txt
+vinegar.egg-info/dependency_links.txt
+vinegar.egg-info/entry_points.txt
+vinegar.egg-info/not-zip-safe
+vinegar.egg-info/requires.txt
+vinegar.egg-info/top_level.txt
