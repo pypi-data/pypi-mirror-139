@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/aymakan-sdk/Client.py
+src/aymakan-sdk/__init__.py
+src/aymakan_sdk.egg-info/PKG-INFO
+src/aymakan_sdk.egg-info/SOURCES.txt
+src/aymakan_sdk.egg-info/dependency_links.txt
+src/aymakan_sdk.egg-info/requires.txt
+src/aymakan_sdk.egg-info/top_level.txt
