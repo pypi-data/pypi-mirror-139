@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+NeuNet/__init__.py
+NeuNet.egg-info/PKG-INFO
+NeuNet.egg-info/SOURCES.txt
+NeuNet.egg-info/dependency_links.txt
+NeuNet.egg-info/requires.txt
+NeuNet.egg-info/top_level.txt

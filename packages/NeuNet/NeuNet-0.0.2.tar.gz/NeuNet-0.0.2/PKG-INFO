@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: NeuNet
+Version: 0.0.2
+Summary: Python
+Home-page: 
+Author: Pranav Sai
+Author-email: pranavs31899@gmail.com
+License: MIT
+Keywords: Neural Network
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+First Release: Perceptron Network    
+    
+    neural_network = Network()   
+
+    training_inputs = np.array([[0,0,1,0],
+                                [1,1,0,0],
+                                [1,0,1,0],
+                                [0,1,1,0]
+                                ])
+
+    training_outputs = np.array([[0,1,1,0]]).T
+
+    neural_network.train(training_inputs, training_outputs, 1000)
+
+    neural_network.run(np.array([[0,0,0,0]]))
+
+CHANGELOG
+=============================
+0.0.1(2/23/2022)
+-----------------------------------
+-First Release: Perceptron Network
+
+
+
