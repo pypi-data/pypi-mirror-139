@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+DirTreeGenerator.egg-info/PKG-INFO
+DirTreeGenerator.egg-info/SOURCES.txt
+DirTreeGenerator.egg-info/dependency_links.txt
+DirTreeGenerator.egg-info/not-zip-safe
+DirTreeGenerator.egg-info/top_level.txt
+treeGen/__init__.py
