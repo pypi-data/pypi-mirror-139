@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pybricks"
+version = "2.0.0.post2"
+description = "Documentation and user-API stubs for Pybricks MicroPython"
+authors = ["The Pybricks Authors <dev@pybricks.com>"]
+maintainers = ["Laurens Valk <laurens@pybricks.com>", "David Lechner <david@pybricks.com>" ]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://pybricks.com"
+repository = "https://github.com/pybricks/pybricks-api/tree/v2"
+documentation = "https://pybricks.github.io/ev3-micropython/"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: MicroPython",
+]
+include = ["CHANGELOG.md", "pybricks/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
+doc8 = "*"
+flake8 = "*"
+sphinx = "==1.7.9"
+sphinx-rtd-theme = "==0.4.3"
+sphinxcontrib-contentui = "==0.2.2"
+toml = "^0.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
