@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/shahr2/__init__.py
+src/shahr2/pymailsender.py
+src/shahr2.pymailsender.egg-info/PKG-INFO
+src/shahr2.pymailsender.egg-info/SOURCES.txt
+src/shahr2.pymailsender.egg-info/dependency_links.txt
+src/shahr2.pymailsender.egg-info/top_level.txt
