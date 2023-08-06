@@ -1,0 +1,11 @@
+flytekitplugins_data_fsspec-0.31.0b3-py3.10-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/fsspec/__init__.py,sha256=aEi3fojOV124UKKULDfllbsiYzMpiOSRPxV8ytFpG_A,1053
+flytekitplugins/fsspec/arrow.py,sha256=w54pUdhWsRBmAVbRmMdUAWJ5PSizgIhtqe7sSsG4tpk,2641
+flytekitplugins/fsspec/pandas.py,sha256=pXrHonNVQrVkwASr3QE0rZjAJtY31iVcJCi3VqaNpoE,2707
+flytekitplugins/fsspec/persist.py,sha256=hUEmd5i9q_TwTL-JVYFYO7mtNPCgT10NxWSJVXsPaL0,5458
+flytekitplugins_data_fsspec-0.31.0b3.dist-info/METADATA,sha256=VP3brIH5K2U6beC_HuWZhk5zxP5pS3sdr4-t-yJpcXg,1669
+flytekitplugins_data_fsspec-0.31.0b3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flytekitplugins_data_fsspec-0.31.0b3.dist-info/entry_points.txt,sha256=bgGeUxjD8F5u52OwbcG7KxuzB5B71MGkUnT2gtfbIzs,52
+flytekitplugins_data_fsspec-0.31.0b3.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_data_fsspec-0.31.0b3.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_data_fsspec-0.31.0b3.dist-info/RECORD,,
