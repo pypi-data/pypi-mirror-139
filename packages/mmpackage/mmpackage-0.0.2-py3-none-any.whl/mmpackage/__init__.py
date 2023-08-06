@@ -1,0 +1,1 @@
+from mmpackage.file import greetings
