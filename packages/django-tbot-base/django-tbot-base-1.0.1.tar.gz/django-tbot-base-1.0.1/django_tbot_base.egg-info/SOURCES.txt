@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_tbot_base.egg-info/PKG-INFO
+django_tbot_base.egg-info/SOURCES.txt
+django_tbot_base.egg-info/dependency_links.txt
+django_tbot_base.egg-info/requires.txt
+django_tbot_base.egg-info/top_level.txt
+tbot_base/__init__.py
+tbot_base/admin.py
+tbot_base/apps.py
+tbot_base/bot.py
+tbot_base/models.py
+tbot_base/urls.py
+tbot_base/views.py
