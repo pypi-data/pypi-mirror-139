@@ -1,0 +1,8 @@
+CHANGELOG.md,sha256=Vs9BEYf9XEzoEtoVPolcwW43T-NRbZn4RMniN_s8_ek,321
+dunamai_formatters/__init__.py,sha256=HeTWAMo7BGPRtlWw9HZ1yig0oPblIfKHMiMOzcxIhvc,392
+dunamai_formatters/helpers.py,sha256=4CcP1kV39veqYnlucqyBFx86jnTi7cMYMGF0vetAkyo,1689
+dunamai_formatters/pep440.py,sha256=LFef4wID5WbHg4SiFcymHd3WrTMIe24Po3MlDevDOhE,3361
+dunamai_formatters/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+dunamai_formatters-0.0.1.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+dunamai_formatters-0.0.1.dist-info/METADATA,sha256=4IOqsIPROtjvSBH_Tg2LTbpTcBrBRZ8aVmJ8JHYWQCc,2400
+dunamai_formatters-0.0.1.dist-info/RECORD,,
