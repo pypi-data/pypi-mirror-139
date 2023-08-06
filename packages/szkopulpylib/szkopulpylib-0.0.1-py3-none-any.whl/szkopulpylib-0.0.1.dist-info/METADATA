@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: szkopulpylib
+Version: 0.0.1
+Summary: szkopulpylib
+Home-page: UNKNOWN
+Author: Ignac_pro_69
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bs4
+Requires-Dist: requests
+
+UNKNOWN
+
+
