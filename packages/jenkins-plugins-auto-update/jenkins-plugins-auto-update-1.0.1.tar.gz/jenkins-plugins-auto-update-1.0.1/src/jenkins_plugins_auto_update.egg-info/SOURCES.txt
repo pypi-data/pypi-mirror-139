@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/jenkins_auto_update/__init__.py
+src/jenkins_auto_update/jenkinsautoupdater.py
+src/jenkins_plugins_auto_update.egg-info/PKG-INFO
+src/jenkins_plugins_auto_update.egg-info/SOURCES.txt
+src/jenkins_plugins_auto_update.egg-info/dependency_links.txt
+src/jenkins_plugins_auto_update.egg-info/top_level.txt
