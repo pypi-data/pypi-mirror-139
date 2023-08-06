@@ -1,0 +1,9 @@
+pydia2/__init__.py,sha256=CxQPuepVlDEyIVlZGXJBmb6U0ThM_x9AFulfz4M3fDU,1373
+pydia2/_dia.pyd,sha256=o8ltcZGGhMGxLfOrygVvP6ZRCFzpjCl7qb1ihHvkLYE,8704
+pydia2/lib/amd64/msdia140.dll,sha256=erPLig9isVEMC3CmHCkKiGmGnzkCB5Jf2e6BmH54-9g,1822088
+pydia2/lib/x86/msdia140.dll,sha256=hpZGhLHdJJFy-tC1yHbPfo_jZWeY_wK-7uy9VwvDZ04,1504120
+pydia2-0.1.0.dist-info/LICENSE,sha256=xWOiVZ-w5RNNiDykPGRnr2irhb6_r7HxfLJGpdMi874,1089
+pydia2-0.1.0.dist-info/METADATA,sha256=MxRFkQ7sE1rFahCgU74PQWn-b9rPUYoHQwymJ6j0gVY,2219
+pydia2-0.1.0.dist-info/WHEEL,sha256=CsJkKY9GkTQDvYhaLrbdUobYC8JLL-2lf2bFN_Yh-pM,96
+pydia2-0.1.0.dist-info/top_level.txt,sha256=fXNftzoC78kev5Lvv8RzAoDjPwRvyGvkQbCtD690eIc,7
+pydia2-0.1.0.dist-info/RECORD,,
