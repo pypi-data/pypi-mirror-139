@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+objdump/__init__.py
+objdump/base.py
+objdump.egg-info/PKG-INFO
+objdump.egg-info/SOURCES.txt
+objdump.egg-info/dependency_links.txt
+objdump.egg-info/entry_points.txt
+objdump.egg-info/requires.txt
+objdump.egg-info/top_level.txt
