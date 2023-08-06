@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: connection-monitor
+Version: 0.0.6
+Summary: Connection monitoring utility
+Home-page: https://framagit.org/ojob/connection-monitor
+Author: Joël Bourgault
+Author-email: joel.bourgault@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: click
+Requires-Dist: psutil
+Requires-Dist: pyyaml
+Requires-Dist: requests
+
+README
+======
+
+This package provides a long-running command to measure network performance.
+
+Following figures are recorded to a csv file:
+
+* packets sent
+* packets received
+* network latency
+* statistics from the home router
+
+Prerequisites
+-------------
+
+* ``Python >= 3.7``, due to usage of ``dataclasses`` and ``annotations``;
+* Normally handled nicely py installation procedure: ``bs4``, ``click``,
+  ``pyyaml``, ``psutil`` and ``requests`` third-party libraries.
+
+Installation
+------------
+
+This package is hosted on `Pypi`, so it's as easy as:
+
+    pip install connection-monitor
+
+Usage
+-----
+
+1. Create a ``secrets.yml`` file with credentials to connect to your router;
+   see content of sample file.
+
+2. Open a terminal, activate the virtualenv if appropriate, and simply type::
+
+    monitor
+
+Available options:
+
+* ``-s SECRETS_FILENAME``
+
+  Filename to the secrets file.
+  Defaults to ``secrets.yml`` in current working folder.
+
+* ``-o FILENAME``
+
+  Filename to write the stats into.
+  By default, the stats go in current folder, in file named ``'network_data.csv'``.
+
+  Writing is in append mode; previous data is kept.
+
+* ``-h HOST [HOST...]``
+
+  Address(es) to connect to, to measure latency.
+  Defaults to some French web servers.
+
+* ``-d DELAY``
+
+  Delay between two samplings. Defaults to 1 minute, to behave fairly.
+
+* ``-v``
+
+  Verbosity setting; use it to show measurements to command line.
+  Repeat it to show debug messages, i.e. ``-vv``.
+  Default behavior is to show only errors and warnings.
+
+
