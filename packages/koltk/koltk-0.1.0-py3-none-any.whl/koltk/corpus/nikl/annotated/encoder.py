@@ -1,0 +1,10 @@
+try:
+    import simplejson as json
+except ImportError:
+    import json
+
+class NIKLJSONEncoder(json.JSONEncoder):
+   pass
+
+
+ 
