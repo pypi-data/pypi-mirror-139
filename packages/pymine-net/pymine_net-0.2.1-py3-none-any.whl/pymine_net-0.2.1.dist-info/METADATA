@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pymine-net
+Version: 0.2.1
+Summary: Networking library for Minecraft in Python
+Home-page: https://github.com/py-mine/pymine-net
+License: LGPLv3
+Keywords: Minecraft,protocol,networking
+Author: PyMine-Net Developers & Contributors
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cryptography (>=36.0.1,<37.0.0)
+Requires-Dist: mutf8 (>=1.0.6,<2.0.0)
+Project-URL: Repository, https://github.com/py-mine/pymine-net
+Description-Content-Type: text/markdown
+
+# PyMine-Net
+[![CodeFactor](https://www.codefactor.io/repository/github/py-mine/pymine-net/badge)](https://www.codefactor.io/repository/github/py-mine/pymine-net)
+![code size](https://img.shields.io/github/languages/code-size/py-mine/PyMine-Net?color=0FAE6E)
+![code style](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+*PyMine-Net - an extensible and modular Minecraft networking library in Python*
+
+## Features
+- Buffer class with methods for dealing with various types and data formats used by Minecraft
+- High level abstractions for packets with a system to seperate different protocol's packets
+- Miscellaneous classes for dealing with different Minecraft data structures relevant to networking
+
