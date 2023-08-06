@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/instaspam/__init__.py
+src/instaspam/__main__.py
+src/instaspam2.egg-info/PKG-INFO
+src/instaspam2.egg-info/SOURCES.txt
+src/instaspam2.egg-info/dependency_links.txt
+src/instaspam2.egg-info/top_level.txt
