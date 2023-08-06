@@ -1,0 +1,3 @@
+[console_scripts]
+pdfxcb = pdfxcb.pdfxcb:main
+
