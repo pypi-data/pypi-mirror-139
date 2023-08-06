@@ -1,0 +1,34 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "laminlake"
+authors = [{name = "Lamin Dev", email = "laminlabs@gmail.com"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+dependencies = [
+    "boto3",
+    "anndata",
+]
+
+[project.urls]
+Home = "https://github.com/laminlabs/laminlake"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "black",
+]
+doc = [
+]
+test = [
+    "pytest>=6.0",
+    "nbmake",
+]
+
+[project.scripts]
+laminlake = "laminlake.__main__:main"
+
+[tool.black]
+experimental-string-processing = true
