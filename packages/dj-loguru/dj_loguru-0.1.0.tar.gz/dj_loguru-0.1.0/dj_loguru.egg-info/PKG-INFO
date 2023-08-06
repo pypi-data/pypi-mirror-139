@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dj-loguru
+Version: 0.1.0
+Summary: Use loguru in Django.
+Author: Stephen Ling
+Author-email: shiyun.ling@flexiv.com
+License: MIT
+Keywords: Django,loguru
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
