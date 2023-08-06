@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pjsekai-background-gen-pillow
+Version: 0.1.0
+Summary: Generates PJSekai backgrounds with Pillow
+License: GPLv3
+Author: sevenc-nanashi
+Author-email: sevenc-nanashi@sevenbot.jp
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.0.1,<10.0.0)
