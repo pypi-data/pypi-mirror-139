@@ -1,0 +1,4 @@
+[console_scripts]
+act4e-test = zuper_testint:test_main
+zuper-testint = zuper_testint:test_main
+
