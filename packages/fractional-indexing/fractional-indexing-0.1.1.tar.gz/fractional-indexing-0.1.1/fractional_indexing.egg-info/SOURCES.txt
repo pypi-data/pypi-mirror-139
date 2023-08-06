@@ -1,0 +1,10 @@
+LICENCE
+README.md
+fractional_indexing.py
+pyproject.toml
+setup.py
+fractional_indexing.egg-info/PKG-INFO
+fractional_indexing.egg-info/SOURCES.txt
+fractional_indexing.egg-info/dependency_links.txt
+fractional_indexing.egg-info/requires.txt
+fractional_indexing.egg-info/top_level.txt
