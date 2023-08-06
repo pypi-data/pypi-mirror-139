@@ -1,0 +1,11 @@
+dist: bionic
+sudo: false
+language: generic # leave the venv magic to tox
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install libevent-dev # Why?
+  - sudo apt-get install tox # Just in case tox has system-level dependencies
+  - pip install --user -U tox # For recent features like -p
+install: [] # Let tox install stuff
+script:
+  - tox -p auto

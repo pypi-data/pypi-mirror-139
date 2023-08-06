@@ -1,0 +1,13 @@
+# setuptools.scm generates version.txt at build time. Don't commit it.
+src/curryproxy/version.txt
+
+*.pyc
+*.egg-info
+.eggs
+.coverage
+.tox
+.cache
+.venv
+venv
+build
+dist
