@@ -1,0 +1,3 @@
+[console_scripts]
+fuyue = absfuyuEX.__main__:main
+
