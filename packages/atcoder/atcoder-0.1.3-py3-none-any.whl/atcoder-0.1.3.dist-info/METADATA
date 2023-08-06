@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: atcoder
+Version: 0.1.3
+Summary: AtCoder API for Python
+Home-page: https://kagemeka.github.io/atcoder-python
+License: MIT
+Keywords: atcoder,api
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: PyYAML
+Requires-Dist: aiodns
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: cchardet
+Requires-Dist: filesystem-python (==0.2.0)
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: lxml
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: optext-python (==0.1.1)
+Requires-Dist: pandas
+Requires-Dist: pdoc3; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: python-docs-theme; extra == "docs"
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-theme-pd; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (<=2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Requires-Dist: tqdm
+Project-URL: Documentation, https://atcoder-python.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/atcoder-python
+Description-Content-Type: text/markdown
+
+# AtCoder API for Python.
+
+[![Python package][ci-badge]][ci-url]
+[![readthedocs build status][docs-badge]][docs-url]
+[![pre-commit][pre-commit-badge]][pre-commit-url]
+[![CodeQL][codeql-badge]][codeql-url]
+[![License: MIT][mit-badge]][mit-url]
+[![PyPI version][pypi-badge]][pypi-url]
+[![Github pages][gh-pages-badge]][gh-pages-url]
+
+[ci-badge]: https://github.com/kagemeka/atcoder-python/actions/workflows/python-package.yml/badge.svg
+[ci-url]: https://github.com/kagemeka/atcoder-python/actions/workflows/python-package.yml
+[docs-badge]: https://readthedocs.org/projects/atcoder-python/badge/?version=latest
+[docs-url]: https://atcoder-python.readthedocs.io
+[pre-commit-badge]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+[pre-commit-url]: https://github.com/pre-commit/pre-commit
+[codeql-badge]: https://github.com/kagemeka/atcoder-python/actions/workflows/codeql-analysis.yml/badge.svg
+[codeql-url]: https://github.com/kagemeka/atcoder-python/actions/workflows/codeql-analysis.yml
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg
+[mit-url]: https://opensource.org/licenses/MIT
+[pypi-badge]: https://badge.fury.io/py/atcoder.svg
+[pypi-url]: https://badge.fury.io/py/atcoder
+[gh-pages-badge]: https://github.com/kagemeka/atcoder-python/actions/workflows/pages/pages-build-deployment/badge.svg
+[gh-pages-url]: https://kagemeka.github.io/atcoder-python
+
