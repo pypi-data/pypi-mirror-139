@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tinyaes
+Version: 1.0.3rc2
+Summary: tiny-AES-c wrapper in Cython
+Home-page: https://github.com/naufraghi/tinyaes-py
+Author: Matteo Bertini
+Author-email: naufraghi@develer.com
+License: MIT
+
+# tiny-AES-c Cython wrapper
+
+
