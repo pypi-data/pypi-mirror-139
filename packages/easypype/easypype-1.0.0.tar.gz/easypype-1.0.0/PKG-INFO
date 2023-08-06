@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: easypype
+Version: 1.0.0
+Summary: Easy way of managing pipes of instructions
+Home-page: https://github.com/ga-felix/easypype/tree/main
+Author: Gabriel Felix de Souza Lopes <gafelix435@gmail.com>, Alejandro Tarafa Guzmán <alejandro.guzman@looplex.com.br>
+Author-email: UNKNOWN
+License: unlicense
+Download-URL: https://github.com/ga-felix/easypype/archive/refs/tags/v1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: Pipeline,ETL,transform,load,pipe
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
