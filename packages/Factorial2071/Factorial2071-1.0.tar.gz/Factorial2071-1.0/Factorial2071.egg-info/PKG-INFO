@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Factorial2071
+Version: 1.0
+Summary: Factorial Value Calculator
+Home-page: UNKNOWN
+Author: A.M.Hasith Samoddya
+Author-email: animatoon2007@gmail.com
+License: UNKNOWN
+Keywords: python,factorial
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+
+You can get factorial value easly with this module. You need to do only import the module and call it and print it.
+

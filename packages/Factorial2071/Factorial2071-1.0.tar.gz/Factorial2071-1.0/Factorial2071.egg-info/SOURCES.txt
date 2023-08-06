@@ -1,0 +1,7 @@
+setup.py
+Factorial/Factorial.py
+Factorial/__init__.py
+Factorial2071.egg-info/PKG-INFO
+Factorial2071.egg-info/SOURCES.txt
+Factorial2071.egg-info/dependency_links.txt
+Factorial2071.egg-info/top_level.txt
