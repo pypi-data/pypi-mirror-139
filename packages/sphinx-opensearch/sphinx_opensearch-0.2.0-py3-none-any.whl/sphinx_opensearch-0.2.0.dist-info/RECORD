@@ -1,0 +1,12 @@
+sphinx_opensearch/__init__.py,sha256=zUsGQRY-bVkEIoeHFxXmupz3dYgRvWms9NaUU5c-ug4,619
+sphinx_opensearch/sphinxsearch.py,sha256=UBrlpqRCi5sZ55qobeTWODr1jNpffILxLA1T1jJp6wM,7094
+sphinx_opensearch/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_opensearch/common/clients.py,sha256=kVQOcCclc08rKF6Fafma0W2uHxRYJFtdpAJGyAcmYGI,3128
+sphinx_opensearch-0.2.0.dist-info/AUTHORS,sha256=BSHogtjp7ipss-qiFGV4gUFqqzalYI32aphGMURo_f4,210
+sphinx_opensearch-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sphinx_opensearch-0.2.0.dist-info/METADATA,sha256=9RXoYpvRk3WlVhH4WPu3qEvyki9nEBj9qeEDFsmsK6E,1057
+sphinx_opensearch-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sphinx_opensearch-0.2.0.dist-info/entry_points.txt,sha256=T-1hckARgSiTZ9wmKyVtwsfHbuoCTa4TQzBlZUrXyls,70
+sphinx_opensearch-0.2.0.dist-info/pbr.json,sha256=m93hHBC8gucJtw733vEz9zZpNpdVj3vLv7DNX14RUfw,47
+sphinx_opensearch-0.2.0.dist-info/top_level.txt,sha256=k0JW8MZfVlC7vKhGemUSaq3HxUVPx7G0hb-ZF9rXNXM,18
+sphinx_opensearch-0.2.0.dist-info/RECORD,,
