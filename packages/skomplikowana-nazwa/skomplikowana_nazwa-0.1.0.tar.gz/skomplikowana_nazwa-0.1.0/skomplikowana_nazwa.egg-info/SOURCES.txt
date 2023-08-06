@@ -1,0 +1,5 @@
+setup.py
+skomplikowana_nazwa.egg-info/PKG-INFO
+skomplikowana_nazwa.egg-info/SOURCES.txt
+skomplikowana_nazwa.egg-info/dependency_links.txt
+skomplikowana_nazwa.egg-info/top_level.txt
