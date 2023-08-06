@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/intellimouse/__init__.py
+src/intellimouse/classic_intellimouse.py
+src/intellimouse/intellimouse.py
+src/intellimouse/pro_intellimouse.py
+src/intellimouse_ctl/__init__.py
+src/intellimouse_ctl/__main__.py
+src/intellimouse_ctl.egg-info/PKG-INFO
+src/intellimouse_ctl.egg-info/SOURCES.txt
+src/intellimouse_ctl.egg-info/dependency_links.txt
+src/intellimouse_ctl.egg-info/entry_points.txt
+src/intellimouse_ctl.egg-info/requires.txt
+src/intellimouse_ctl.egg-info/top_level.txt
