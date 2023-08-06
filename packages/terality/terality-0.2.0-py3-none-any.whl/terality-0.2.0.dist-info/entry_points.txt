@@ -1,0 +1,3 @@
+[console_scripts]
+terality=terality_bin:main
+

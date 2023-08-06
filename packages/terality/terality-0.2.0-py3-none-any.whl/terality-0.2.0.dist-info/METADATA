@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: terality
+Version: 0.2.0
+Summary: The Data Processing Engine for Data Scientists
+Home-page: https://terality.com/
+License: Proprietary
+Author: Terality Engineering Team
+Author-email: dev.null@terality.com
+Requires-Python: >=3.6,<3.7.1
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+Terality is the serverless & lightning fast Python data processing engine.
+
+Terality’s engine enable data scientists and engineers to transform and manipulate data at light speed, with the exact same syntax as Pandas, with zero server management.
+
+You will need a Terality account to use this package. Check out our documentation to get started: https://docs.terality.com/.
+
