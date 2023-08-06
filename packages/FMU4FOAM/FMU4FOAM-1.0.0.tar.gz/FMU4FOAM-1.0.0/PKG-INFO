@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: FMU4FOAM
+Version: 1.0.0
+Summary: A lightweight framework that enables the packaging of OpenFOAM as co-simulation FMUs.
+Home-page: https://github.com/DLR-RY/FMU4FOAM
+Author: Henning Scheufler
+License: GPLv3
+Keywords: FMI OpenFOAM
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FMU4FOAM
+
+> A framework that enables the coupling of OpenFOAM with FMUs or the distribution of OpenFOAM as an FMU
+
+
+Accurate CFD simulations often require complex boundary conditions that may be depend on numerous other engineering disciplines. Currently, these boundary conditions would require the addition of new models to the open-source CFD framework OpenFOAM which is error-prone and time-consuming. FMI standard offers a container (FMUs) to exchange multi-physics models that can be used to simulate these multi-physics. This library provides the possibility of coupled FMUs with OpenFOAM or exporting OpenFOAM as an FMU.
+
+### Documentation
+
+
+[Documentation](https://DLR-RY.github.io/FMU4FOAM/) hosted in github pages
+
+
+### How to install?
+
+Assumes that the [OpenFOAM version 2012](https://www.openfoam.com/download/release-history) or higher and python v3.8+ is already installed
+
+1. Install `FMU4FOAM` package:
+
+requires conan and pythonfmu
+```bash
+pip install fmu4foam
+```
+### Compile OpenFOAM
+
+```bash
+./build-ECI4FOAM.sh # init submodule
+./Allwmake
+```
+
+more details are found in the [documentation](https://DLR-RY.github.io/FMU4FOAM/)
+
+### run example
+
+
+```bash
+cd examples/TempControlFlange/
+./Allrun
+```
+
+
+
