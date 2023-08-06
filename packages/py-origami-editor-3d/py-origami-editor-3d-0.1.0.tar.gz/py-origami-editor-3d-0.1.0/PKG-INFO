@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: py-origami-editor-3d
+Version: 0.1.0
+Summary: Python preprocessing tool to create OrigamiScript input files for Origami Editor 3D
+Home-page: https://gitlab.com/stranskyjan/py-origami-editor-3d
+Author: Jan Stránský
+Author-email: honzik.stransky@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/stranskyjan/py-origami-editor-3d/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# [Py Origami Editor 3D project](https://gitlab.com/stranskyjan/py-origami-editor-3d)
+[Python](https://www.python.org/)
+preprocessing tool to create 
+[OrigamiScript](http://origamieditor3d.sourceforge.net/userguide/en/advancedediting/origamiscript/osdoc.html)
+input files for
+[Origami Editor 3D](https://sourceforge.net/projects/origamieditor3d/)
+
+## Overview
+[Origami Editor 3D](https://sourceforge.net/projects/origamieditor3d/) is a GUI for creating origami "on the screen".
+[OrigamiScript](http://origamieditor3d.sourceforge.net/userguide/en/advancedediting/origamiscript/osdoc.html) is a scripting tool for Origami Editor 3D.
+However, the scripting capabilities are limited, mainly the fact that numbers mist be hard-coded, there are no variables, no computing etc.
+
+This project is a [Python](https://www.python.org/) preprocessing tool for OrigamiScript.
+The exported result is OrigamiScript file, but before the export, you can use Python to compute some intermediate values, use variables for re-used values etc.
+
+### Usage
+The implemented commands are basically analogous to the original OrigamiScript definitions.
+
+See the example below
+
+#### Example
+Kirigami example from OrigamiScript manual
+```python
+from py_origami_editor_3d.origami import Origami
+from py_origami_editor_3d.paper_types import SQUARE
+#
+origami = Origami()
+origami.comment("A very basic paper flower")
+origami.paper(SQUARE)
+origami.comment("Fold in half twice:")
+origami.plane((200, 200), (1, 0, 0)).reflect()
+origami.plane((200, 200), (0, 1, 0)).reflect()
+origami.comment("Cut some paper:")
+origami.angleBisector((200, 0), (100, 0), (200, 100)).cut()
+origami.angleBisector((0, 200), (0, 100), (100, 200)).cut()
+origami.plane((130, 200), (1, 1, 0)).cut()
+origami.comment("Unfold:")
+origami.target(100, 100).plane((200, 200), (1, 0, 0)).reflect()
+origami.target(100, 100).plane((200, 200), (0, 1, 0)).reflect()
+origami.save("kirigami.txt")
+```
+## Installation
+
+1. Using [`pip`](https://pypi.org/project/pip/)
+
+	`[sudo] python3 -m pip install [options] py-origami-editor-3d`, e.g. `pip install --user py-origami-editor-3d`
+
+2. Using `make` (calls `python3 -m pip install .`, i.e. option 3, internally):
+
+	`make install [options]`, e.g. `make install USER=TRUE`
+
+3. Using [`pip`](https://pypi.org/project/pip/) locally
+
+	`python3 -m pip install . [options]`, e.g. `python3 -m pip install . --user`
+
+## Contribution
+#### Merge Requests
+Are welcome
+
+#### Bug reporting
+In case of any question or problem, please leave an issue at the [GitLab page of the project](https://gitlab.com/stranskyjan/py-origami-editor-3d/-/issues).
+
+#### Contributors
+- [Jan Stránský](https://gitlab.com/stranskyjan)
+
+## License
+This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) - see the [license file](LICENSE) for details.
+
+## TODO
+- other commands
+- more tests
+
+
