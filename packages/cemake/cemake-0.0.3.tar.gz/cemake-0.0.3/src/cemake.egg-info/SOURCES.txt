@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/cemake/__init__.py
+src/cemake/cemake_build_ext.py
+src/cemake/cemake_extension.py
+src/cemake.egg-info/PKG-INFO
+src/cemake.egg-info/SOURCES.txt
+src/cemake.egg-info/dependency_links.txt
+src/cemake.egg-info/entry_points.txt
+src/cemake.egg-info/requires.txt
+src/cemake.egg-info/top_level.txt
