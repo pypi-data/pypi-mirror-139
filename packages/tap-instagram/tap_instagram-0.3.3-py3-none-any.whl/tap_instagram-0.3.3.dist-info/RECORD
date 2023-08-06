@@ -1,0 +1,11 @@
+tap_instagram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_instagram/client.py,sha256=9DXJ4OoMoLQHKYTTkRaU3H8AcpHI1AiRo2pRGaTDUPs,3099
+tap_instagram/streams.py,sha256=LT4m4i4s7cH8P56LrZlw-GEd2OO75RQJcC97d_rELrU,20166
+tap_instagram/tap.py,sha256=OczSXXlVavIiCqeE0gzYk-4wqC8Tm2j5nfz2IirxaSM,2644
+tap_instagram/tests/__init__.py,sha256=ViH6oiHz_0ZVEgsUGST23Q_MxphbKGY1GBHq63cp0P0,36
+tap_instagram/tests/test_core.py,sha256=gGez1JF-G9tLlr7PrjeQVALtgZPamvQa1d4Bu9TBsFU,921
+tap_instagram-0.3.3.dist-info/entry_points.txt,sha256=X6Yg9uMHq-7K03HtiAcEAzqtag_9MSMtQiuqcS0Uacg,68
+tap_instagram-0.3.3.dist-info/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tap_instagram-0.3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tap_instagram-0.3.3.dist-info/METADATA,sha256=cNihzceeD7YyPBsDJ0awIUtiak3jZaEcPuTaNqukeZE,684
+tap_instagram-0.3.3.dist-info/RECORD,,
