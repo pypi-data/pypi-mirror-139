@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+radtext.egg-info/PKG-INFO
+radtext.egg-info/SOURCES.txt
+radtext.egg-info/dependency_links.txt
+radtext.egg-info/entry_points.txt
+radtext.egg-info/requires.txt
+radtext.egg-info/top_level.txt
+tests/__init__.py
