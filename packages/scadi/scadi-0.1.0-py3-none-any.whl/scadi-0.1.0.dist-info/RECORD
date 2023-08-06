@@ -1,0 +1,10 @@
+README.rst,sha256=Ki0xGHxoDBiosjDuX-37TX2FC8VBXx_alxPOa7-DdhI,374
+scadi/__init__.py,sha256=dHqpR0CZcmj4Pr5c7ul5NTO_8MNAPgpgQVu7BU3ryBA,8
+scadi/__main__.py,sha256=YIb-iUP38Ys-hmISXfl95GVvDUkOZpP3fO3Q_c3qpUs,146
+scadi/inline.py,sha256=k68501YNwIA9D1Ua_5hRH-rpkURC5NuNoXzzyrjbqyw,2628
+scadi/main.py,sha256=FLEnzTAAILp2oSUNGAkdA9k70tMX_M5TYD4mUc5tVBE,1648
+scadi-0.1.0.dist-info/entry_points.txt,sha256=rdEQ9CiYOWftJ-usGI31QSLw3wLFYc7javCQxA1vHo0,83
+scadi-0.1.0.dist-info/LICENSE,sha256=FMt8XrKmg6VPGCtazaysBNZEut9v5qCKWSF-GWwrvBQ,1072
+scadi-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+scadi-0.1.0.dist-info/METADATA,sha256=yRVaRqWeEWaikp9OD76BNwkf5R7QXfE5cFgG30l8wqw,1551
+scadi-0.1.0.dist-info/RECORD,,
