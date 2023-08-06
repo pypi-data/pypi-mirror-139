@@ -1,0 +1,10 @@
+setup.py
+derek_test_distributions/Binomialdistribution.py
+derek_test_distributions/Gaussiandistribution.py
+derek_test_distributions/Generaldistribution.py
+derek_test_distributions/__init__.py
+derek_test_distributions.egg-info/PKG-INFO
+derek_test_distributions.egg-info/SOURCES.txt
+derek_test_distributions.egg-info/dependency_links.txt
+derek_test_distributions.egg-info/not-zip-safe
+derek_test_distributions.egg-info/top_level.txt
