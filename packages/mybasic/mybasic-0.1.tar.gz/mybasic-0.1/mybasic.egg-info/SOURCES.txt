@@ -1,0 +1,9 @@
+setup.py
+mybasic/__init__.py
+mybasic/functions.py
+mybasic/greet.py
+mybasic.egg-info/PKG-INFO
+mybasic.egg-info/SOURCES.txt
+mybasic.egg-info/dependency_links.txt
+mybasic.egg-info/not-zip-safe
+mybasic.egg-info/top_level.txt
