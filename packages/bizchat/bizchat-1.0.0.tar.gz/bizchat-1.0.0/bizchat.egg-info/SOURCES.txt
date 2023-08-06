@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+bizchat/__init__.py
+bizchat.egg-info/PKG-INFO
+bizchat.egg-info/SOURCES.txt
+bizchat.egg-info/dependency_links.txt
+bizchat.egg-info/top_level.txt
