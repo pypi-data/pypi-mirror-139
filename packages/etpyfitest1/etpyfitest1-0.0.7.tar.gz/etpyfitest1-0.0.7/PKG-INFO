@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: etpyfitest1
+Version: 0.0.7
+Summary: Demonstrating how to use PyPI
+Home-page: UNKNOWN
+Author: ExperTeach GmbH
+Author-email: et_dbu@web.de
+License: UNKNOWN
+Description: # pyfi
+        
+        Demonstration des PyPI
+        
+        ## Benutzung
+        Lässige Grüße aus Modul2:
+        ```python
+        import pyfi
+        pyfi.funktion2()
+        ```
+Keywords: python,code
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
