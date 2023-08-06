@@ -1,0 +1,2 @@
+[console_scripts]
+vascpy = vascpy.cli:app
