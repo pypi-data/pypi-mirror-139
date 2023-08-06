@@ -1,0 +1,5 @@
+this:
+  ->: chmod
+  path: tackle.yaml
+  mode: 0o600
+
