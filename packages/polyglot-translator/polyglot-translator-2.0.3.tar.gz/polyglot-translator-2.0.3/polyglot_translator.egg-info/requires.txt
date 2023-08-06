@@ -1,0 +1,5 @@
+requests
+python-utils
+colorama
+polib
+progressbar2
