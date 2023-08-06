@@ -1,0 +1,15 @@
+LICENCE
+README.md
+setup.py
+changelog/__init__.py
+changelog/changelog_generator.py
+changelog/footer.py
+changelog/generate.py
+changelog/gitrepo.py
+changelog/header.py
+python_changelog.egg-info/PKG-INFO
+python_changelog.egg-info/SOURCES.txt
+python_changelog.egg-info/dependency_links.txt
+python_changelog.egg-info/entry_points.txt
+python_changelog.egg-info/requires.txt
+python_changelog.egg-info/top_level.txt
