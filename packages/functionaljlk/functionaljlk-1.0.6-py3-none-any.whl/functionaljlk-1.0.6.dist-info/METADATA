@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: functionaljlk
+Version: 1.0.6
+Summary: Monads in higher-order functions
+Home-page: https://git.bellavistkappl.at/jonathan/py-functional
+Author: Jonathan L. Komar
+Author-email: komar.jonathan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: fpinpy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Rename Notice
+
+This package has been discontinued, but the dream lives on.
+See package [fpinpy](https://pypi.org/search/?q=fpinpy).
+
+
