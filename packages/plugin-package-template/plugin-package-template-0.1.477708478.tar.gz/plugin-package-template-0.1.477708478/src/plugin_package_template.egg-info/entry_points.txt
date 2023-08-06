@@ -1,0 +1,2 @@
+[vdk.plugin.run]
+plugin-template = vdk.plugin.plugin_template.plugin_template
