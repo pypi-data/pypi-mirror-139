@@ -1,0 +1,8 @@
+datrie
+flashtext
+gensim
+joblib
+nltk
+scikit_learn
+sortedcontainers
+spacy
