@@ -1,0 +1,4 @@
+astropy>=4.0
+numpy<2.0,>=1.0
+pyccl==2.3
+scipy<2.0,>=1.0
