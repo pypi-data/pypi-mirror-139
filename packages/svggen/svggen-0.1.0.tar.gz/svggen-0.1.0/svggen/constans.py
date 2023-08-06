@@ -1,0 +1,8 @@
+STARTER = "<"
+CLOSER = "/"
+END = ">"
+COLON = ":"
+SEMICOLON = ";"
+STYLE = "style"
+EQUAL = "="
+SPACE = " "
