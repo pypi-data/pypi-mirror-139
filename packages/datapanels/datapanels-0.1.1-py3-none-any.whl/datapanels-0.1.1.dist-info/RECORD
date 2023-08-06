@@ -1,0 +1,10 @@
+datapanels/__init__.py,sha256=WsxvTLqzla8jymf2qZHCXp-Z5WKZ6wkGsyu-lzLkqbo,191
+datapanels/app.py,sha256=f0j4YBh7EuHdWmxYq1xMQbYXymGfMBTyUL-FfbbcHYE,8428
+datapanels/gameoflife.py,sha256=OCv2AZaKdd1fMLE3Ls88D8om6XjJisjwvW5bA5wQb7w,15474
+datapanels/stockpanel.py,sha256=y10-ccSDIIaRyQh5qISHph6pC6nNmImcxzyCapAkVvg,11453
+datapanels/util.py,sha256=Pb8ZZZWfLbUgYtbgTeJNsa1Rog0vb2APN0iqX8gkY4o,275
+datapanels-0.1.1.dist-info/LICENSE,sha256=ArWmYYZJdceJHPNaERikLcqVuxQu8qKP0jqxeUZsqaM,618
+datapanels-0.1.1.dist-info/METADATA,sha256=LRhw1N-G8M-pT2w664gICJV9mxugqDsAJSkdKmDxPco,3981
+datapanels-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datapanels-0.1.1.dist-info/top_level.txt,sha256=YncSuiJWvA3sfL3LONj8o4Ccril0meH-1OjuWF8u14k,11
+datapanels-0.1.1.dist-info/RECORD,,
