@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zdppy-fastapi
+Version: 0.1.0
+Summary: 
+Author: zhangdapeng
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyMySQL (>=1.0.2,<2.0.0)
+Requires-Dist: fastapi (>=0.73.0,<0.74.0)
+Requires-Dist: html-table (>=1.0,<2.0)
+Requires-Dist: orjson (>=3.6.7,<4.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: peewee (>=3.14.8,<4.0.0)
+Requires-Dist: sqlmodel (>=0.0.6,<0.0.7)
+Requires-Dist: zdppy-log (>=0.1.2,<0.2.0)

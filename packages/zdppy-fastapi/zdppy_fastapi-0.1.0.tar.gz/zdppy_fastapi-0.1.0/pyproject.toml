@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "zdppy_fastapi"
+version = "0.1.0"
+description = ""
+authors = ["zhangdapeng <pygosuperman@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.73.0"
+peewee = "^3.14.8"
+html-table = "^1.0"
+pandas = "^1.4.1"
+orjson = "^3.6.7"
+sqlmodel = "^0.0.6"
+zdppy-log = "^0.1.2"
+PyMySQL = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+uvicorn = {extras = ["standard"], version = "^0.17.4"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
