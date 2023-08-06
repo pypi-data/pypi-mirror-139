@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pjsekai-background-gen-pillow
+Version: 0.1.1
+Summary: Generates PJSekai backgrounds with Pillow
+Home-page: https://github.com/sevenc-nanashi/pjsekai_background_gen_pillow
+License: GPLv3
+Author: sevenc-nanashi
+Author-email: sevenc-nanashi@sevenbot.jp
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.0.1,<10.0.0)
+Project-URL: Repository, https://github.com/sevenc-nanashi/pjsekai_background_gen_pillow
+Description-Content-Type: text/markdown
+
+# pjsekai_background_gen_pillow
+
+Generates PJSekai background image from Image.
+
+## Example
+
+```python
+from PIL import Image
+import pjsekai_background_gen_pillow as pjbg
+
+generator = pjbg.Generator()
+generator.generate(Image.open("path/to/image.png")).save("path/to/output.png")
+```
+
+## API
+
+### `Generator`
+
+Generater for background images.
+
+##### Parameters
+
+base : PIL.Image
+
+> Base background image.
+> Defaults to Built-in background image.
+
+#### `.generate(image)`
+
+Generate background image from source image.
+
+##### Parameters
+
+source : PIL.Image
+
+> Source image.
+
+##### Returns
+
+PIL.Image
+
