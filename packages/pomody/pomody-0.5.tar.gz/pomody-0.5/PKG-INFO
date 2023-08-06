@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pomody
+Version: 0.5
+Summary: A pomodoro CLI app
+Home-page: https://github.com/Tekofx/pomody
+Author: Teko
+Author-email: tekofxx@gmail.com
+License: MIT
+Download-URL: https://github.com/Tekofx/pomody/archive/refs/tags/
+Description: UNKNOWN
+Keywords: pomodoro,productivity,time,timer,work
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
