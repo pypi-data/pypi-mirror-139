@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: genominterv
+Version: 1.1
+Summary: Utilities for working with intervals in separate chromosomes.
+Home-page: https://github.com/kaspermunch/genominterv
+Author: Kasper Munch
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: numpy (>=1.1)
+Requires-Dist: statsmodels (>=0.8)
+
+UNKNOWN
+
