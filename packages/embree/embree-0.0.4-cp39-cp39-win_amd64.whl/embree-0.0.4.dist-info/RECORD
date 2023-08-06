@@ -1,0 +1,13 @@
+embree.cp39-win_amd64.pyd,sha256=cV412MKvhd-ePmd2t5IvC49eDri2FrP8QIr4Y5PWDYw,312320
+embree-0.0.4.data/platlib/.load-order-embree-0.0.4,sha256=1e1mVpM1C15-AcghOSgYc5X3B2qNKLOSKJJQjHHcS6w,53
+embree-0.0.4.data/platlib/concrt140.dll,sha256=N3wG67zOkO2zjV_8DoZRdh9kWc7TeEBfKTYXFpYi6r4,316848
+embree-0.0.4.data/platlib/embree3.dll,sha256=NxLW9f0ezboPPOQnhFSt1tAlAaQ99wBISPzILWLjrxQ,39022152
+embree-0.0.4.data/platlib/msvcp140.dll,sha256=hogacFRTIBkpHBYvCoF3mAwcK0VJD36IVD8ikV0I2f8,627440
+embree-0.0.4.data/platlib/tbb12.dll,sha256=O9p8VFjX9DvNSfDerVEU6sHqFPVzqvxzb4MwibHSzXk,286928
+embree-0.0.4.dist-info/DELVEWHEEL,sha256=nlk7CJAv_W3DewMKqJASp66CfCPSQOO3e3Bnbb3v-ec,8
+embree-0.0.4.dist-info/LICENSE,sha256=Z8Nmlu4v15bbNhMdL2r090GpfGaMcBoh_K-3nxxp8eI,11547
+embree-0.0.4.dist-info/LICENSE.txt,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+embree-0.0.4.dist-info/METADATA,sha256=DhGMo4S1CC_pGoB1oewBRA3YN_a4DmFkr1lOTr9tBFE,3795
+embree-0.0.4.dist-info/RECORD,,
+embree-0.0.4.dist-info/top_level.txt,sha256=TLQ4uXRc2hoSsy63sCNcKefxmCq3DdiZ7bPZt_Z3XmQ,7
+embree-0.0.4.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
