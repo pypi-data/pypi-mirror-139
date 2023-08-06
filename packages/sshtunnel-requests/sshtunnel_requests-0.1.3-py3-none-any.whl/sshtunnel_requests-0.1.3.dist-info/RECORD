@@ -1,0 +1,10 @@
+sshtunnel_requests/__init__.py,sha256=FkUJfSz99muCC4D48j4GcjXRR_J-3_qpkn05dC7pJ9g,423
+sshtunnel_requests/_requests.py,sha256=sZo6V6uDRd3Ij0PaZ7TCJpWH3cq0nTJadHDqMG6uSIg,1829
+sshtunnel_requests/cache.py,sha256=-rPqT0t41-jtTgnYE2zMZnCuyyAnlm6anfoo5ZKBrcA,4270
+sshtunnel_requests/sessions.py,sha256=PAbKK3OUWHPGVjMFiSH3ng3uzSyZ6aLC7bCZHKEAVDc,3035
+sshtunnel_requests/ssh.py,sha256=iY1AkHhYz2TPHaURPP09iFWmJh-FIcP8IuiXOpLNUl0,314
+sshtunnel_requests-0.1.3.dist-info/LICENSE,sha256=eDwKEWq-EWm9ObVzrd09kliHGvyVf4E1RFPvJW9zWAE,1072
+sshtunnel_requests-0.1.3.dist-info/METADATA,sha256=jn9c5mtCxj0sK2OMZy8TH9kO33TEYEILWsx6-dhZyV4,5465
+sshtunnel_requests-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sshtunnel_requests-0.1.3.dist-info/top_level.txt,sha256=g1fg7iUkVDX23gmTpZz6XEhZOhcMkA4kqGveJzro4P8,19
+sshtunnel_requests-0.1.3.dist-info/RECORD,,
