@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: multiple-hypothesis-testing
+Version: 0.1.1
+Summary: Several methods of combining P-values
+Home-page: https://github.com/alonkipnis/higher-criticism-test
+Download-URL: https://github.com/alonkipnis/higher-criticism-test
+Author: Alon Kipnis
+Author-email: alonkipnis@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.6)
+
+# HCtest -- Higher Criticism Test
+
+Higher Criticism (HC) test statistics for testing the global significance of many independent hypotheses. As an input, 
+the test receives a list of P-values and returns the HC test statistics. See (Donoho & Jin 2004)
+
+## Example:
+```
+from scipy.stats import norm
+from multitest import MultiTest
+
+n = 1000 #number of samples
+
+X = norm.rvs(size=n)
+pvals = norm.sf(X)
+
+mt = MultiTest(pvals)
+hc_val, p_th = mt.HCstar(gamma = 0.25)
+minus_log_min_pval = mt.minp()
+fdr, pval_fdr = mt.fdr()
+
+print(f"Higher-Criticism test statistic = {hc_val}")
+print(f"False-discovery rate {q} critical P-value = {pval_fdr}")
+print(f"Bonferroni {minus_log_min_pval}")
+```
+
+
