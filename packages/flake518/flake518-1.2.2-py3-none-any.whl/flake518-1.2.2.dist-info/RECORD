@@ -1,0 +1,8 @@
+flake518/__init__.py,sha256=r-CfoS1DbI5i2ep4OHwLmr2KRxMXAL4tgRcXWopBFP0,1297
+flake518/__main__.py,sha256=SFAjHokzAw1RVLKlSU85SQhY-m8b1HC6SI3H0ChqTCw,1311
+flake518/adapter.py,sha256=hzA4tgrNk--QzpcjNu1ru7evWCQataF8yiUCQ-tswm0,8545
+flake518-1.2.2.dist-info/entry_points.txt,sha256=1LA8xLmcXf7ACA5AA5opskTfurWh7-1kj8Ci-3ncEoA,51
+flake518-1.2.2.dist-info/WHEEL,sha256=H68pkwFXYiPcYQggWGQrteqYmGEtEbAhNbB9JPX9hZ4,88
+flake518-1.2.2.dist-info/METADATA,sha256=QmfRBhOF4AgfTZQwOjsHDGwsmku6fa0r3ohd48zQ__w,2641
+flake518-1.2.2.dist-info/LICENSE,sha256=EjMnwzHocwA5Mc2enav-IY-8FTFZtJO6jGt9YJ86kdo,1111
+flake518-1.2.2.dist-info/RECORD,,
