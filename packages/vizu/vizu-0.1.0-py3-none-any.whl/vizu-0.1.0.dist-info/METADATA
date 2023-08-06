@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vizu
+Version: 0.1.0
+Summary: Visualization of data files
+Home-page: UNKNOWN
+Author: Jesper Halkjær Jensen
+Author-email: mail@jeshj.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: flask (==2.0.3pandas==1.4.1scipy==1.8.0dash==2.2.0dash-extensions==0.0.71dash-bootstrap-components==1.0.3dash-table==5.0.0)
+
+UNKNOWN
+
+
