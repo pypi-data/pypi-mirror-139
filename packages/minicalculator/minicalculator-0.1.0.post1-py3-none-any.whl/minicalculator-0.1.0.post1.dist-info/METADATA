@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: minicalculator
+Version: 0.1.0.post1
+Summary: A basic Calculator
+Home-page: https://github.com/Idris01/calculator
+Author: Idris Adebowale
+Author-email: idrys01@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# Minicalculator
+The Minicalculator is a basic utility calculator the for basic arithmetic operation
+
+## Installation
+The minicalculator can be installed from the PYPI library using 
+
+```
+pip install minicalculator
+```
+
+## Usage
+Sample Usage is as follows
+
+```
+from mini_calculator.calculator import Calculator
+
+calc = Calculator()
+
+>>> calc.add(5)
+5.0
+>>> calc.multiply(3)
+15.0
+
+```
+
