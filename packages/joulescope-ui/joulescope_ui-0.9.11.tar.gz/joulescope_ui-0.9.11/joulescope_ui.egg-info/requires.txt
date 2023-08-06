@@ -1,0 +1,21 @@
+appnope>=0.1.2
+fs
+markdown
+pyjls>=0.3.3
+pyperclip>=1.7.0
+python-dateutil>=2.7.3
+pyqtgraph>=0.12.3
+requests>=2.0.0
+PySide2>=5.15.2
+joulescope>=0.9.7
+pypiwin32>=223
+
+[:platform_system == "Windows"]
+pypiwin32>=223
+
+[dev]
+check-manifest
+Cython
+coverage
+wheel
+pyinstaller
