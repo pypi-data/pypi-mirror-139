@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: qclib
+Version: 0.0.13
+Summary: A quantum computing library using qiskit
+Home-page: https://github.com/qclib/qclib
+Author: Adenilton Silva
+Author-email: ajsilva@cin.ufpe.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: scipy (>=1.7.1)
+Requires-Dist: qiskit (>=0.34.0)
+Requires-Dist: qiskit-aqua (>=0.9.5)
+Requires-Dist: qiskit-machine-learning (>=0.3.1)
+Requires-Dist: deprecation
+Requires-Dist: tensorly
+Requires-Dist: keras
+Requires-Dist: graphviz
+
+# Quantum computing library (qclib)
+
+Qclib is a quantum computing library implemented using qiskit.
+
+## Instalation
+```python
+pip install qclib
+``` 
+
+
+
