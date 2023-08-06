@@ -1,0 +1,21 @@
+# SuperSearch (susearch) v1.0
+
+susearch is a command line utility that has the ability to search an entire file system for a given file or directory and it outputs the assoaciated paths.
+There's an option to limit the search; how many associated paths to find and exit. Associated paths can also be written to a file for futher inspection or just as a log file and allows the user to specify the name of the file. The most common usage is a system-wide search, meaning it will search the entire system providing it has permissions to do so. Relative searches occur when given a specific path to search. A system-wide search uses te flags **-f** and **-d** while only specifying a *filename* or a *directory name*. The **-p** flag only triggers a system-wide search if the specified path is *"/"* (Linux) or *"C:\\"* (Windows) while only specifying a *filename* or a *directory name* along with the *--file* or *--dir* options. The help flag (**-h**) is divided into sections which can be passed as arguments or the -h flag can be used on its own without any arguments.
+
+### System-wide Search Examples:
+`susearch -f <filename>`
+
+
+`susearch -d <dirname>`
+
+
+`susearch -p root_path [<filename> --file] [<dirname> --dir]`
+
+
+### Relative Search Example:
+*The path cannot be the root path!*<br>
+`susearch -p <path> [<filename> --file] [<dirname> --dir]`
+
+
+This version of SuperSearch (susearch) is currently only available for Linux operating systems.

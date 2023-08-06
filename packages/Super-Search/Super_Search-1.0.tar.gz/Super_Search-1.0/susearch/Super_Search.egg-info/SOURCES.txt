@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+susearch/Super_Search.egg-info/PKG-INFO
+susearch/Super_Search.egg-info/SOURCES.txt
+susearch/Super_Search.egg-info/dependency_links.txt
+susearch/Super_Search.egg-info/top_level.txt
