@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "betag"
+version = "0.1.2"
+description = ""
+authors = ["Jaume Ferrarons <jaume.ferrarons@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+pandas = "^1.3"
+streamlit = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.17.0"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+betag = "betag.main:cli"
+
