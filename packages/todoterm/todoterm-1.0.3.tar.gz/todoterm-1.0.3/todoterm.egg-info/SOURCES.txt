@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+todoterm/__init__.py
+todoterm/__main__.py
+todoterm/backend.py
+todoterm/commands.py
+todoterm.egg-info/PKG-INFO
+todoterm.egg-info/SOURCES.txt
+todoterm.egg-info/dependency_links.txt
+todoterm.egg-info/top_level.txt
