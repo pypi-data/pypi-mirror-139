@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: m3o-py
+Version: 0.1.1a0
+Summary: 
+Author: Mawoka
+Author-email: mawoka-myblock@e.email
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiodns (>=3.0.0,<4.0.0)
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
