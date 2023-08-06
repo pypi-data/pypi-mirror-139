@@ -1,0 +1,13 @@
+momentumnet/__init__.py,sha256=Ql3IoPYxFo3Acs87K1eHxaVKuHchyG1aMjqYAZ51suY,192
+momentumnet/exact_rep_pytorch.py,sha256=rPJtcZT_UvvssepOS_V7DdXiMaH9qk7xcu7OprFiCnw,3912
+momentumnet/models.py,sha256=FHqbC4P9dLgu225FYzQbWG7kufTA_oe1Hc2G6aVEfoM,19083
+momentumnet/momentum_net.py,sha256=nnq-lG6v4EXVJVWGLLv7IWkge-31oz_B4srnoayNf7k,12524
+momentumnet/resnet_to_momentumnet.py,sha256=EVmTl4PWomew__7FCtoDHmYv4naTW_zR1soGcu6qkNg,3453
+momentumnet/toy_datasets.py,sha256=aq5eKkws8KN1DOySkS4io9YX2BUEzaL7Svg-8glKyPg,2034
+momentumnet/trainer_CIFAR_10.py,sha256=WUV3uJqNOSSZyhCyluM93Ja-1aWm6q5sdJNGtMglFiI,6086
+momentumnet/trainer_imagenet.py,sha256=zFo_3-rP1lxlgj7K9X1q0d56iZwVystFtaC7JDI_rag,11538
+momentumnet-0.10.dist-info/LICENSE,sha256=X41wiEkuiykhkdumictSnscAevjae7fB-5nEIhYUTe0,1068
+momentumnet-0.10.dist-info/METADATA,sha256=ncq0_-lTxfr-XDJukRES6HTUZ8Tes6yxtGkqCVYizyc,5689
+momentumnet-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+momentumnet-0.10.dist-info/top_level.txt,sha256=fX_NGps21jsjkAkN1_FTsY-tQGHAHG_9RFYP0cixUD8,12
+momentumnet-0.10.dist-info/RECORD,,
