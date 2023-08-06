@@ -1,0 +1,10 @@
+sdfspu/__init__.py,sha256=CpybWYa46hzUGbafI7f3u-PJ0TtVa1v9W0ikBTpOiNc,64
+sdfspu/csv_data.py,sha256=TT6FNpY4KX5c5lQMaF9o17BNviQu1d3mcc26iwepyMQ,9335
+sdfspu/sdf_net.py,sha256=8y7UwTH-tSpJj3-10BsNbVLCWfGa7_Nymd5a100NHAI,427
+sdfspu/sdf_text.py,sha256=YRjMikDEWAptRj_tlcC6aJWV3QggeFfEfZJTAg5dQcI,1590
+sdfspu/sdf_time.py,sha256=o-sPRexQQHhPiOLyo7FYH9hNzLJW2hStwXgW7AQEXns,391
+sdfspu-0.2.0.dist-info/LICENSE,sha256=9GgeL_QljXYY5wdQkwTTXFLK3Rzf9y2qcEjN6bXjrxw,1071
+sdfspu-0.2.0.dist-info/METADATA,sha256=-8gXVGHpxoG1Ubu7NrI-a94dBLZSAJpfA0jKTepQjoM,1083
+sdfspu-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sdfspu-0.2.0.dist-info/top_level.txt,sha256=tb_Hp8EEvWIMN5IxBNpNzuX_3NCd-0p1ed9id5CIQFA,7
+sdfspu-0.2.0.dist-info/RECORD,,
