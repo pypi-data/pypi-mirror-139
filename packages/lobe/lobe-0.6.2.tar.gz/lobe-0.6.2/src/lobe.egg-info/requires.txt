@@ -1,0 +1,29 @@
+pillow~=9.0.1
+requests
+matplotlib~=3.5.1
+
+[all]
+
+[all:platform_machine != "armv7l"]
+tensorflow~=2.8.0
+
+[all:platform_machine != "armv7l" and python_version <= "3.9"]
+onnxruntime~=1.10.0
+
+[all:platform_system == "Linux" and python_version <= "3.9"]
+tflite-runtime~=2.7.0
+
+[onnx]
+
+[onnx:platform_machine != "armv7l" and python_version <= "3.9"]
+onnxruntime~=1.10.0
+
+[tf]
+
+[tf:platform_machine != "armv7l"]
+tensorflow~=2.8.0
+
+[tflite]
+
+[tflite:platform_system == "Linux" and python_version <= "3.9"]
+tflite-runtime~=2.7.0
