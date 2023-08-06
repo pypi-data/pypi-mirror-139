@@ -1,0 +1,16 @@
+easyeda2kicad/__init__.py,sha256=JcY-ePESmCE_i0Z0e4u_AlqJQomjM6WTr30qQw1fkeA,75
+easyeda2kicad/__main__.py,sha256=mStj-np_xrfvuzlknPJGfz2TvZyHruC9sDq1QnNwcGM,7412
+easyeda2kicad/easyeda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easyeda2kicad/easyeda/easyeda_api.py,sha256=f23rPtnta35gfEYbt4zfvvT0gPJYtQ5aFWV7p03gXcE,1207
+easyeda2kicad/easyeda/easyeda_importer.py,sha256=5oVOkuTiCOUvmZJxfcbTT2WhvgnNPPIrnxs9PXgPG2M,8730
+easyeda2kicad/easyeda/parameters_easyeda.py,sha256=rUM2gcj54Ls62Z5ZFxcnMd_VzFZtjrkKTt6XmODjHvQ,9710
+easyeda2kicad/kicad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easyeda2kicad/kicad/export_kicad_footprint.py,sha256=F6v2QPOdtT3iTXNnxHGhCfR5E1O8vkT_MZ1ALIWp1yE,15088
+easyeda2kicad/kicad/export_kicad_symbol.py,sha256=PSdAQIz7Dc9NJZ_HS-d57esqq1vR5pQthB43JbenDFY,10388
+easyeda2kicad/kicad/parameters_kicad.py,sha256=Kw-27I97nmDHUks198mMym8Uw0TM0_u_KY5gk6bahCE,11911
+easyeda2kicad-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+easyeda2kicad-0.1.0.dist-info/METADATA,sha256=Jy8fBLu7DcWf7UpmKSfxrOmIUDn7DFgM5GtNkDdHIDA,4460
+easyeda2kicad-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+easyeda2kicad-0.1.0.dist-info/entry_points.txt,sha256=5U9O75TiSIEE-U9ey-o-0PaYvBjh4v-7KVT3hzwcL_8,62
+easyeda2kicad-0.1.0.dist-info/top_level.txt,sha256=-U2Y7mnC2e6BUE4ykrbGux5QUIvzCBchohtkjg7L_Ug,14
+easyeda2kicad-0.1.0.dist-info/RECORD,,
