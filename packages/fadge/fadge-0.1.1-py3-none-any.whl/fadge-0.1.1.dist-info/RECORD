@@ -1,0 +1,10 @@
+fadge/__init__.py,sha256=mmucJHVjgMEDKtiFCs3q72NjJ5vF8OmWv77MAcs1M2E,764
+fadge/geode.py,sha256=b7nk3AS4aaxA0duGZaHMkRMviWRjOTrYLtR6sFDXjh0,2258
+fadge/metric.py,sha256=pmMEzzeT9V2DGgRA_EnPYh9awDZIMud8L6UQ6sxBTxI,1816
+fadge/utils.py,sha256=g2hAAODdtNHBgaKZimZ6r5g1DP9y-l00J8afZBsctdk,1460
+fadge/viz.py,sha256=7c3YuEN3cZlWljNfrFmIS5OD0HgeGWaF69-Jesj-iLk,3501
+fadge-0.1.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+fadge-0.1.1.dist-info/METADATA,sha256=pHvmjyFIhPSH20iWQRivXn1DW1AN4eLZYk6IcdeqFOg,311
+fadge-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fadge-0.1.1.dist-info/top_level.txt,sha256=2JazK_lckU2pLxdDGLCQR-toe0NNCYJGbHiiYdGNsdc,6
+fadge-0.1.1.dist-info/RECORD,,
