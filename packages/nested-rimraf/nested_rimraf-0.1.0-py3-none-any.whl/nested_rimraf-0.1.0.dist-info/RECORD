@@ -1,0 +1,10 @@
+nested_rimraf/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+nested_rimraf/main.py,sha256=nbqqsmMX3DtAvy9JVFzX5jWaDyQHDjkHtSiKgR_YEvQ,3112
+nested_rimraf/remove_in_directory.py,sha256=hwI-AVMlP9bFOhsNRfBxXuF-dWRrOB0ztVLden_HrMk,3470
+nested_rimraf/scan_directory.py,sha256=vfb9sUAT9ppa-K9hsIWIyZbgCjsoVekDIQuxl1isFac,1246
+nested_rimraf/utils.py,sha256=eDYDgyq2KjDSyEJD7p4j4nlbuDCItuAB-Dat49TqJ-c,1813
+nested_rimraf-0.1.0.dist-info/entry_points.txt,sha256=ysa9TYw-kmYgLGAa7bjSphNcH4R-UcHEmKwBXsAlF7Y,56
+nested_rimraf-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nested_rimraf-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nested_rimraf-0.1.0.dist-info/METADATA,sha256=hDCG8qmU9RC5i7iJFOP-bfNDa_R8SWIrM-rXWGWSC2M,8102
+nested_rimraf-0.1.0.dist-info/RECORD,,
